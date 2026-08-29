@@ -14,3 +14,13 @@ run_at,id,name,source,score,opportunity_type,recommended_action,metric_name,metr
 2026-08-29T17:40:03+00:00,github-4118bee07688,rome-os/rome,GitHub,58.4,OpenClaw型,持续观察,stars,384.0
 2026-08-29T17:40:03+00:00,github-a1da86bc83e2,HanyuanWang/LiveStream-Agent-Studio,GitHub,57.9,OpenClaw型,持续观察,stars,377.0
 2026-08-29T17:40:03+00:00,github-28f88c76de81,Merit-Systems/OpenInstinct,GitHub,57.7,OpenClaw型,持续观察,stars,202.0
+2026-08-29T17:53:12+00:00,github-8db0b049c9e0,ApodexAI/FrontierAgent,GitHub,69.9,OpenClaw型,持续观察,stars,1264.0
+2026-08-29T17:53:12+00:00,github-411d0e0eb417,totec448-spec/chat-on-steroids,GitHub,63.8,OpenClaw型,持续观察,stars,548.0
+2026-08-29T17:53:12+00:00,github-c38aab884ce0,kgoedecke/doop,GitHub,62.8,OpenClaw型,持续观察,stars,496.0
+2026-08-29T17:53:12+00:00,github-70860c6f8588,XiaoDuoYa/codex-with-chatgpt,GitHub,62.5,OpenClaw型,持续观察,stars,854.0
+2026-08-29T17:53:12+00:00,github-18592bc8e3fd,muratmula/ai-robinhood-chain,GitHub,60.5,OpenClaw型,持续观察,stars,122.0
+2026-08-29T17:53:12+00:00,github-84d69b3ec0e2,duty1g/x64dbg-mcp-server,GitHub,60.3,OpenClaw型,持续观察,stars,1719.0
+2026-08-29T17:53:12+00:00,github-929a5a792915,Forsy-AI/biosecurity-agent,GitHub,59.3,OpenClaw型,持续观察,stars,514.0
+2026-08-29T17:53:12+00:00,github-4118bee07688,rome-os/rome,GitHub,58.4,OpenClaw型,持续观察,stars,384.0
+2026-08-29T17:53:12+00:00,github-a1da86bc83e2,HanyuanWang/LiveStream-Agent-Studio,GitHub,57.9,OpenClaw型,持续观察,stars,377.0
+2026-08-29T17:53:12+00:00,github-28f88c76de81,Merit-Systems/OpenInstinct,GitHub,57.6,OpenClaw型,持续观察,stars,202.0
