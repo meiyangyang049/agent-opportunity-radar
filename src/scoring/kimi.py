@@ -3,6 +3,7 @@ from __future__ import annotations
 import json
 import os
 import re
+from collections import Counter
 from typing import Any
 
 from openai import OpenAI
@@ -63,6 +64,9 @@ def apply_kimi_scores(
         try:
             kwargs: dict[str, Any] = {
                 "response_format": {"type": "json_object"},
+                "max_completion_tokens": int(
+                    kimi_config.get("max_completion_tokens", 512)
+                ),
             }
             if model.startswith(("kimi-k2.5", "kimi-k2.6")):
                 kwargs["extra_body"] = {"thinking": {"type": "disabled"}}
@@ -96,5 +100,11 @@ def apply_kimi_scores(
 
     candidates.sort(key=lambda candidate: candidate.score, reverse=True)
     if errors:
-        return candidates, f"Kimi评分部分失败（{len(errors)}项），已保留规则分数。"
+        error_types = Counter(error.rsplit(": ", 1)[-1] for error in errors)
+        error_summary = "、".join(
+            f"{error_type}×{count}" for error_type, count in error_types.most_common()
+        )
+        return candidates, (
+            f"Kimi评分部分失败（{len(errors)}项：{error_summary}），已保留规则分数。"
+        )
     return candidates, None
