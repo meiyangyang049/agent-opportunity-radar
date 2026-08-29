@@ -1,9 +1,13 @@
 from __future__ import annotations
 
+import os
 import unittest
+from types import SimpleNamespace
+from unittest.mock import patch
 
 from src.models import Candidate
 from src.processing.pipeline import deduplicate, enrich_keywords, is_relevant
+from src.scoring.kimi import apply_kimi_scores
 from src.scoring.rules import apply_rule_score
 
 
@@ -59,7 +63,46 @@ class PipelineTests(unittest.TestCase):
         second = self.candidate(id="two", url=first.url + "?utm_source=test")
         self.assertEqual(len(deduplicate([first, second])), 1)
 
+    def test_kimi_k26_uses_supported_parameters(self) -> None:
+        config = {
+            "scoring": {
+                "kimi": {
+                    "enabled": True,
+                    "model": "kimi-k2.6",
+                    "max_candidates": 1,
+                    "base_url": "https://api.moonshot.cn/v1",
+                }
+            }
+        }
+        response = SimpleNamespace(
+            choices=[
+                SimpleNamespace(
+                    message=SimpleNamespace(
+                        content=(
+                            '{"opportunity_type":"OpenClaw型","score_adjustment":3,'
+                            '"recommended_action":"持续观察",'
+                            '"reason_to_contact_now":"3000 GitHub stars",'
+                            '"commercial_summary":"开发者生态机会",'
+                            '"confidence":"medium"}'
+                        )
+                    )
+                )
+            ]
+        )
+
+        with patch.dict(os.environ, {"MOONSHOT_API_KEY": "test-key"}), patch(
+            "src.scoring.kimi.OpenAI"
+        ) as openai_client:
+            openai_client.return_value.chat.completions.create.return_value = response
+            candidates, notice = apply_kimi_scores([self.candidate()], config)
+
+        call_kwargs = openai_client.return_value.chat.completions.create.call_args.kwargs
+        self.assertIsNone(notice)
+        self.assertNotIn("temperature", call_kwargs)
+        self.assertEqual(call_kwargs["extra_body"], {"thinking": {"type": "disabled"}})
+        self.assertEqual(call_kwargs["response_format"], {"type": "json_object"})
+        self.assertIn("kimi-k2.6", candidates[0].scoring_mode)
+
 
 if __name__ == "__main__":
     unittest.main()
-
