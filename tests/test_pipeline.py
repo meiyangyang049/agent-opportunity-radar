@@ -70,6 +70,7 @@ class PipelineTests(unittest.TestCase):
                     "enabled": True,
                     "model": "kimi-k2.6",
                     "max_candidates": 1,
+                    "max_completion_tokens": 512,
                     "base_url": "https://api.moonshot.cn/v1",
                 }
             }
@@ -99,6 +100,7 @@ class PipelineTests(unittest.TestCase):
         call_kwargs = openai_client.return_value.chat.completions.create.call_args.kwargs
         self.assertIsNone(notice)
         self.assertNotIn("temperature", call_kwargs)
+        self.assertEqual(call_kwargs["max_completion_tokens"], 512)
         self.assertEqual(call_kwargs["extra_body"], {"thinking": {"type": "disabled"}})
         self.assertEqual(call_kwargs["response_format"], {"type": "json_object"})
         self.assertIn("kimi-k2.6", candidates[0].scoring_mode)
