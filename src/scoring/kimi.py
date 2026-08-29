@@ -61,16 +61,19 @@ def apply_kimi_scores(
 
     for candidate in candidates[:max_candidates]:
         try:
-            kwargs: dict[str, Any] = {}
+            kwargs: dict[str, Any] = {
+                "response_format": {"type": "json_object"},
+            }
             if model.startswith(("kimi-k2.5", "kimi-k2.6")):
                 kwargs["extra_body"] = {"thinking": {"type": "disabled"}}
+            else:
+                kwargs["temperature"] = 0.2
             response = client.chat.completions.create(
                 model=model,
                 messages=[
                     {"role": "system", "content": SYSTEM_PROMPT},
                     {"role": "user", "content": _prompt(candidate)},
                 ],
-                temperature=0.2,
                 **kwargs,
             )
             result = _extract_json(response.choices[0].message.content or "{}")
@@ -95,4 +98,3 @@ def apply_kimi_scores(
     if errors:
         return candidates, f"Kimi评分部分失败（{len(errors)}项），已保留规则分数。"
     return candidates, None
-
