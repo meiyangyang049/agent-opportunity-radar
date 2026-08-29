@@ -4,6 +4,7 @@ project:
   timezone: Asia/Shanghai
   lookback_days: 7
   top_n: 10
+  min_per_archetype: 4
   candidate_limit: 60
 
 sources:
