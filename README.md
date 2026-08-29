@@ -10,6 +10,8 @@ The prototype combines public developer signals and product/news signals, applie
 
 The radar is designed for Kimi API commercial, sales operations, and ecosystem teams. It prioritizes actionability over generic popularity: every recommended candidate includes evidence, an opportunity type, a commercial interpretation, and a suggested sales action.
 
+The final Top 10 is a two-lane commercial shortlist rather than a pure popularity ranking. When the candidate pool is sufficient, at least four OpenClaw-like ecosystem opportunities and four Manus-like product opportunities are retained; the remaining positions are filled by score. News is treated only as a discovery signal: Kimi extracts the actual product or project entity, while article text is cleaned and bounded before display.
+
 ## Signal coverage
 
 | Source | Primary signal | Opportunity archetype |
@@ -82,4 +84,3 @@ GitHub provides `GITHUB_TOKEN` automatically. The workflow runs tests, refreshes
 ## Responsible interpretation
 
 The score is a prioritization aid, not a prediction of future success. Early public signals are noisy and can be manipulated. High-scoring candidates still require a human to verify the company, team, model stack, commercial status, contact path, and legal/compliance considerations before CRM creation or outreach.
-
