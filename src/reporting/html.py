@@ -72,7 +72,7 @@ def _template(embedded_json: str) -> str:
     .tag {{ border: 1px solid #364457; color: #b9c7d9; border-radius: 999px; padding: 2px 7px; font-size: 10px; font-weight: 700; }}
     .type-openclaw {{ color: var(--cyan); border-color: #285c69; }}
     .type-manus {{ color: var(--purple); border-color: #55427f; }}
-    .description {{ color: #c1ccda; margin: 0 0 10px; }}
+    .description {{ color: #c1ccda; margin: 0 0 10px; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }}
     .reason {{ color: var(--text); margin: 0; }}
     .reason::before {{ content: "Why now  "; color: var(--lime); font-size: 10px; font-weight: 900; letter-spacing: .08em; text-transform: uppercase; }}
     .source-row {{ display: flex; flex-wrap: wrap; gap: 7px; margin-top: 11px; color: var(--muted); font-size: 11px; }}
@@ -108,7 +108,7 @@ def _template(embedded_json: str) -> str:
     </header>
     <div id="notice" class="notice"></div>
     <section class="metrics" aria-label="Radar summary">
-      <div class="metric"><div class="metric-label">候选项目</div><div class="metric-value" id="metricTotal">0<small>scanned</small></div></div>
+      <div class="metric"><div class="metric-label">入榜候选</div><div class="metric-value" id="metricTotal">0<small id="metricPool">shortlisted</small></div></div>
       <div class="metric"><div class="metric-label">立即联系</div><div class="metric-value" id="metricContact">0<small>priority</small></div></div>
       <div class="metric"><div class="metric-label">OpenClaw型</div><div class="metric-value" id="metricOpen">0<small>ecosystem</small></div></div>
       <div class="metric"><div class="metric-label">Manus型</div><div class="metric-value" id="metricManus">0<small>product</small></div></div>
@@ -183,6 +183,7 @@ def _template(embedded_json: str) -> str:
     document.getElementById('generatedAt').textContent = payload.meta?.generated_at_display || payload.meta?.generated_at || '—';
     document.getElementById('mode').textContent = payload.meta?.mode || '—';
     document.getElementById('metricTotal').childNodes[0].nodeValue = candidates.length;
+    document.getElementById('metricPool').textContent = `shortlisted / ${{payload.meta?.candidate_pool_size || candidates.length}} pool`;
     document.getElementById('metricContact').childNodes[0].nodeValue = candidates.filter(c => c.recommended_action === '立即联系').length;
     document.getElementById('metricOpen').childNodes[0].nodeValue = candidates.filter(c => c.opportunity_type === 'OpenClaw型').length;
     document.getElementById('metricManus').childNodes[0].nodeValue = candidates.filter(c => c.opportunity_type === 'Manus型').length;
@@ -194,4 +195,3 @@ def _template(embedded_json: str) -> str:
   </script>
 </body>
 </html>"""
-
