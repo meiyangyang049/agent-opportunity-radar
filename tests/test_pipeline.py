@@ -6,9 +6,10 @@ from types import SimpleNamespace
 from unittest.mock import patch
 
 from src.models import Candidate
-from src.processing.pipeline import deduplicate, enrich_keywords, is_relevant
+from src.processing.pipeline import deduplicate, enrich_keywords, is_relevant, select_shortlist
 from src.scoring.kimi import apply_kimi_scores
 from src.scoring.rules import apply_rule_score
+from src.utils import clean_text, truncate_text
 
 
 CONFIG = {
@@ -63,6 +64,26 @@ class PipelineTests(unittest.TestCase):
         second = self.candidate(id="two", url=first.url + "?utm_source=test")
         self.assertEqual(len(deduplicate([first, second])), 1)
 
+    def test_shortlist_reserves_both_primary_archetypes(self) -> None:
+        open_candidates = [
+            self.candidate(id=f"open-{index}", score=90 - index, opportunity_type="OpenClaw型")
+            for index in range(8)
+        ]
+        manus_candidates = [
+            self.candidate(id=f"manus-{index}", score=60 - index, opportunity_type="Manus型")
+            for index in range(5)
+        ]
+        shortlist = select_shortlist(open_candidates + manus_candidates, 10, 4)
+        self.assertEqual(len(shortlist), 10)
+        self.assertGreaterEqual(
+            sum(item.opportunity_type == "Manus型" for item in shortlist), 4
+        )
+
+    def test_feed_text_is_unescaped_and_bounded(self) -> None:
+        cleaned = clean_text("<p>Anthropic&#x27;s &amp; Goose</p>")
+        self.assertEqual(cleaned, "Anthropic's & Goose")
+        self.assertEqual(len(truncate_text("x" * 500, 100)), 100)
+
     def test_kimi_k26_uses_supported_parameters(self) -> None:
         config = {
             "scoring": {
@@ -82,6 +103,7 @@ class PipelineTests(unittest.TestCase):
                     message=SimpleNamespace(
                         content=(
                             '{"results":[{"id":"github-1",'
+                            '"candidate_name":"Agent Gateway",'
                             '"opportunity_type":"OpenClaw型","score_adjustment":3,'
                             '"recommended_action":"持续观察",'
                             '"reason_to_contact_now":"3000 GitHub stars",'
@@ -130,6 +152,7 @@ class PipelineTests(unittest.TestCase):
             results = [
                 {
                     "id": project["id"],
+                    "candidate_name": project["name"],
                     "opportunity_type": "OpenClaw型",
                     "score_adjustment": 1,
                     "recommended_action": "持续观察",
