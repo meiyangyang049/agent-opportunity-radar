@@ -34,6 +34,8 @@ def _classify_type(candidate: Candidate) -> str:
     ecosystem_hits = candidate.metadata.get("ecosystem_keyword_hits", [])
     if candidate.source == "GitHub" or "open source" in text or "self-hosted" in text:
         return "OpenClaw型"
+    if candidate.source == "Product Hunt":
+        return "Manus型"
     if any(term in text for term in ("launch", "waitlist", "subscription", "pricing")):
         return "Manus型"
     if ecosystem_hits and any(term in text for term in ("skill", "plugin", "framework")):
@@ -62,6 +64,11 @@ def dimension_scores(candidate: Candidate) -> dict[str, float]:
     if any(term in candidate.raw_text.lower() for term in ("multi-agent", "computer use", "browser agent")):
         api_potential += 18
     commercialization = 18 + commercial_hits * 14
+    if candidate.source == "Product Hunt":
+        commercialization += 18
+        growth += 8
+    elif candidate.metadata.get("content_kind") == "news":
+        commercialization += 8
     kimi_fit = 25 + agent_hits * 6 + ecosystem_hits * 8
     if candidate.source in ("GitHub", "Hacker News"):
         kimi_fit += 8
