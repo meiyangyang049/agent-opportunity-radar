@@ -70,7 +70,8 @@ class PipelineTests(unittest.TestCase):
                     "enabled": True,
                     "model": "kimi-k2.6",
                     "max_candidates": 1,
-                    "max_completion_tokens": 512,
+                    "batch_size": 10,
+                    "max_completion_tokens": 4096,
                     "base_url": "https://api.moonshot.cn/v1",
                 }
             }
@@ -80,11 +81,12 @@ class PipelineTests(unittest.TestCase):
                 SimpleNamespace(
                     message=SimpleNamespace(
                         content=(
-                            '{"opportunity_type":"OpenClaw型","score_adjustment":3,'
+                            '{"results":[{"id":"github-1",'
+                            '"opportunity_type":"OpenClaw型","score_adjustment":3,'
                             '"recommended_action":"持续观察",'
                             '"reason_to_contact_now":"3000 GitHub stars",'
                             '"commercial_summary":"开发者生态机会",'
-                            '"confidence":"medium"}'
+                            '"confidence":"medium"}]}'
                         )
                     )
                 )
@@ -100,10 +102,63 @@ class PipelineTests(unittest.TestCase):
         call_kwargs = openai_client.return_value.chat.completions.create.call_args.kwargs
         self.assertIsNone(notice)
         self.assertNotIn("temperature", call_kwargs)
-        self.assertEqual(call_kwargs["max_completion_tokens"], 512)
+        self.assertEqual(call_kwargs["max_completion_tokens"], 4096)
         self.assertEqual(call_kwargs["extra_body"], {"thinking": {"type": "disabled"}})
         self.assertEqual(call_kwargs["response_format"], {"type": "json_object"})
         self.assertIn("kimi-k2.6", candidates[0].scoring_mode)
+
+    def test_kimi_batches_twenty_candidates_into_two_requests(self) -> None:
+        config = {
+            "scoring": {
+                "kimi": {
+                    "enabled": True,
+                    "model": "kimi-k2.6",
+                    "max_candidates": 20,
+                    "batch_size": 10,
+                    "max_completion_tokens": 4096,
+                    "base_url": "https://api.moonshot.cn/v1",
+                }
+            }
+        }
+        candidates = [
+            self.candidate(id=f"github-{index}", name=f"Agent {index}")
+            for index in range(20)
+        ]
+
+        def response_for_call(*args, **kwargs):
+            projects = __import__("json").loads(kwargs["messages"][1]["content"])["projects"]
+            results = [
+                {
+                    "id": project["id"],
+                    "opportunity_type": "OpenClaw型",
+                    "score_adjustment": 1,
+                    "recommended_action": "持续观察",
+                    "reason_to_contact_now": "公开证据",
+                    "commercial_summary": "生态机会",
+                    "confidence": "medium",
+                }
+                for project in projects
+            ]
+            return SimpleNamespace(
+                choices=[
+                    SimpleNamespace(
+                        message=SimpleNamespace(
+                            content=__import__("json").dumps({"results": results})
+                        )
+                    )
+                ]
+            )
+
+        with patch.dict(os.environ, {"MOONSHOT_API_KEY": "test-key"}), patch(
+            "src.scoring.kimi.OpenAI"
+        ) as openai_client:
+            create = openai_client.return_value.chat.completions.create
+            create.side_effect = response_for_call
+            scored, notice = apply_kimi_scores(candidates, config)
+
+        self.assertIsNone(notice)
+        self.assertEqual(create.call_count, 2)
+        self.assertTrue(all("kimi-k2.6" in item.scoring_mode for item in scored))
 
 
 if __name__ == "__main__":
