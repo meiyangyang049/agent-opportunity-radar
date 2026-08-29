@@ -76,7 +76,8 @@ scoring:
     enabled: true
     model: kimi-k2.6
     max_candidates: 20
-    max_completion_tokens: 512
+    batch_size: 10
+    max_completion_tokens: 4096
     base_url: https://api.moonshot.cn/v1
 
 output:
