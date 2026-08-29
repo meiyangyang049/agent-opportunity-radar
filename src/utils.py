@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import hashlib
+import html
 import re
 from datetime import datetime, timezone
 from urllib.parse import urlparse, urlunparse
@@ -17,8 +18,15 @@ def stable_id(source: str, value: str) -> str:
 def clean_text(value: str | None) -> str:
     if not value:
         return ""
-    without_html = re.sub(r"<[^>]+>", " ", value)
+    decoded = html.unescape(html.unescape(value))
+    without_html = re.sub(r"<[^>]+>", " ", decoded)
     return re.sub(r"\s+", " ", without_html).strip()
+
+
+def truncate_text(value: str, limit: int = 360) -> str:
+    if len(value) <= limit:
+        return value
+    return value[: limit - 1].rstrip() + "…"
 
 
 def canonical_url(value: str) -> str:
@@ -42,4 +50,3 @@ def parse_datetime(value: str | int | float | None) -> datetime | None:
         return parsed.astimezone(timezone.utc)
     except (TypeError, ValueError, OSError):
         return None
-
