@@ -30,21 +30,43 @@ def _extract_json(text: str) -> dict[str, Any]:
         return json.loads(match.group(0))
 
 
-def _prompt(candidate: Candidate) -> str:
+def _prompt(candidates: list[Candidate]) -> str:
     return json.dumps(
         {
-            "project": candidate.to_dict(),
+            "projects": [candidate.to_dict() for candidate in candidates],
             "required_output": {
-                "opportunity_type": "OpenClaw型|Manus型|其他Agent",
-                "score_adjustment": "-12到12之间的数字",
-                "recommended_action": "立即联系|持续观察|暂不跟进",
-                "reason_to_contact_now": "一句话，必须引用输入中的证据",
-                "commercial_summary": "一句话，说明对Kimi的客户/生态/竞品价值",
-                "confidence": "high|medium|low",
+                "results": [
+                    {
+                        "id": "必须原样返回对应project.id",
+                        "opportunity_type": "OpenClaw型|Manus型|其他Agent",
+                        "score_adjustment": "-12到12之间的数字",
+                        "recommended_action": "立即联系|持续观察|暂不跟进",
+                        "reason_to_contact_now": "一句话，必须引用输入中的证据",
+                        "commercial_summary": "一句话，说明对Kimi的客户/生态/竞品价值",
+                        "confidence": "high|medium|low",
+                    }
+                ]
             },
         },
         ensure_ascii=False,
     )
+
+
+def _apply_result(candidate: Candidate, result: dict[str, Any], model: str) -> None:
+    adjustment = max(-12.0, min(12.0, float(result.get("score_adjustment", 0))))
+    candidate.score = round(max(0.0, min(100.0, candidate.score + adjustment)), 1)
+    candidate.opportunity_type = result.get("opportunity_type", candidate.opportunity_type)
+    candidate.recommended_action = result.get(
+        "recommended_action", candidate.recommended_action
+    )
+    candidate.reason_to_contact_now = result.get(
+        "reason_to_contact_now", candidate.reason_to_contact_now
+    )
+    candidate.commercial_summary = result.get(
+        "commercial_summary", candidate.commercial_summary
+    )
+    candidate.confidence = result.get("confidence", "medium")
+    candidate.scoring_mode = f"规则预评分 + {model}判断"
 
 
 def apply_kimi_scores(
@@ -58,14 +80,17 @@ def apply_kimi_scores(
     client = OpenAI(api_key=api_key, base_url=kimi_config["base_url"])
     model = kimi_config["model"]
     max_candidates = min(len(candidates), int(kimi_config.get("max_candidates", 20)))
+    batch_size = max(1, int(kimi_config.get("batch_size", 10)))
     errors: list[str] = []
 
-    for candidate in candidates[:max_candidates]:
+    selected = candidates[:max_candidates]
+    for start in range(0, len(selected), batch_size):
+        batch = selected[start : start + batch_size]
         try:
             kwargs: dict[str, Any] = {
                 "response_format": {"type": "json_object"},
                 "max_completion_tokens": int(
-                    kimi_config.get("max_completion_tokens", 512)
+                    kimi_config.get("max_completion_tokens", 4096)
                 ),
             }
             if model.startswith(("kimi-k2.5", "kimi-k2.6")):
@@ -76,27 +101,30 @@ def apply_kimi_scores(
                 model=model,
                 messages=[
                     {"role": "system", "content": SYSTEM_PROMPT},
-                    {"role": "user", "content": _prompt(candidate)},
+                    {"role": "user", "content": _prompt(batch)},
                 ],
                 **kwargs,
             )
             result = _extract_json(response.choices[0].message.content or "{}")
-            adjustment = max(-12.0, min(12.0, float(result.get("score_adjustment", 0))))
-            candidate.score = round(max(0.0, min(100.0, candidate.score + adjustment)), 1)
-            candidate.opportunity_type = result.get("opportunity_type", candidate.opportunity_type)
-            candidate.recommended_action = result.get(
-                "recommended_action", candidate.recommended_action
-            )
-            candidate.reason_to_contact_now = result.get(
-                "reason_to_contact_now", candidate.reason_to_contact_now
-            )
-            candidate.commercial_summary = result.get(
-                "commercial_summary", candidate.commercial_summary
-            )
-            candidate.confidence = result.get("confidence", "medium")
-            candidate.scoring_mode = f"规则预评分 + {model}判断"
+            raw_results = result.get("results")
+            if not isinstance(raw_results, list):
+                raise ValueError("Kimi batch response is missing results")
+            results_by_id = {
+                item.get("id"): item
+                for item in raw_results
+                if isinstance(item, dict) and item.get("id")
+            }
+            for candidate in batch:
+                candidate_result = results_by_id.get(candidate.id)
+                if not candidate_result:
+                    errors.append(f"{candidate.name}: MissingResultError")
+                    continue
+                try:
+                    _apply_result(candidate, candidate_result, model)
+                except (TypeError, ValueError):
+                    errors.append(f"{candidate.name}: InvalidResultError")
         except Exception as exc:
-            errors.append(f"{candidate.name}: {type(exc).__name__}")
+            errors.extend(f"{candidate.name}: {type(exc).__name__}" for candidate in batch)
 
     candidates.sort(key=lambda candidate: candidate.score, reverse=True)
     if errors:
