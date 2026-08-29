@@ -101,3 +101,29 @@ def prepare_candidates(
             if bucket and len(balanced) < limit:
                 balanced.append(bucket.pop(0))
     return balanced
+
+
+def select_shortlist(
+    candidates: list[Candidate], top_n: int, min_per_archetype: int = 4
+) -> list[Candidate]:
+    """Build a shortlist without letting one primary archetype crowd out the other."""
+    if top_n <= 0:
+        return []
+    selected: list[Candidate] = []
+    selected_ids: set[str] = set()
+    for opportunity_type in ("OpenClaw型", "Manus型"):
+        bucket = [
+            candidate
+            for candidate in candidates
+            if candidate.opportunity_type == opportunity_type
+        ]
+        for candidate in bucket[: min(min_per_archetype, top_n - len(selected))]:
+            selected.append(candidate)
+            selected_ids.add(candidate.id)
+    for candidate in candidates:
+        if len(selected) >= top_n:
+            break
+        if candidate.id not in selected_ids:
+            selected.append(candidate)
+            selected_ids.add(candidate.id)
+    return sorted(selected, key=lambda candidate: candidate.score, reverse=True)
