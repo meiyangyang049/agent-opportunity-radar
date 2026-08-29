@@ -14,6 +14,8 @@ from src.models import Candidate
 SYSTEM_PROMPT = """你是月之暗面Kimi API商业化团队的销售情报分析师。
 你的任务不是评价一个项目是否热门，而是判断它是否可能成为高价值模型API客户、生态伙伴或需要关注的竞品。
 只能依据输入证据判断；信息不足时降低confidence，不得虚构融资、收入、用户数或合作关系。
+OpenClaw型指开源Agent框架、开发者工具、可自托管平台或技能/插件生态；Manus型指面向终端用户或企业交付任务结果的商业Agent产品、Web/App服务或SaaS。
+新闻文章只是发现信号的载体，candidate_name必须提取文章真正讨论的新产品或Agent项目，不能直接使用媒体标题或竞品价格标题。
 请用简洁中文输出严格JSON，不要输出Markdown。"""
 
 
@@ -38,6 +40,7 @@ def _prompt(candidates: list[Candidate]) -> str:
                 "results": [
                     {
                         "id": "必须原样返回对应project.id",
+                        "candidate_name": "真正的Agent产品或项目名；新闻中提取被报道对象",
                         "opportunity_type": "OpenClaw型|Manus型|其他Agent",
                         "score_adjustment": "-12到12之间的数字",
                         "recommended_action": "立即联系|持续观察|暂不跟进",
@@ -55,17 +58,23 @@ def _prompt(candidates: list[Candidate]) -> str:
 def _apply_result(candidate: Candidate, result: dict[str, Any], model: str) -> None:
     adjustment = max(-12.0, min(12.0, float(result.get("score_adjustment", 0))))
     candidate.score = round(max(0.0, min(100.0, candidate.score + adjustment)), 1)
-    candidate.opportunity_type = result.get("opportunity_type", candidate.opportunity_type)
-    candidate.recommended_action = result.get(
-        "recommended_action", candidate.recommended_action
-    )
+    candidate_name = str(result.get("candidate_name") or "").strip()
+    if candidate.metadata.get("content_kind") == "news" and 1 < len(candidate_name) <= 100:
+        candidate.name = candidate_name
+    opportunity_type = result.get("opportunity_type")
+    if opportunity_type in {"OpenClaw型", "Manus型", "其他Agent"}:
+        candidate.opportunity_type = opportunity_type
+    recommended_action = result.get("recommended_action")
+    if recommended_action in {"立即联系", "持续观察", "暂不跟进"}:
+        candidate.recommended_action = recommended_action
     candidate.reason_to_contact_now = result.get(
         "reason_to_contact_now", candidate.reason_to_contact_now
     )
     candidate.commercial_summary = result.get(
         "commercial_summary", candidate.commercial_summary
     )
-    candidate.confidence = result.get("confidence", "medium")
+    confidence = result.get("confidence", "medium")
+    candidate.confidence = confidence if confidence in {"high", "medium", "low"} else "medium"
     candidate.scoring_mode = f"规则预评分 + {model}判断"
 
 
@@ -83,7 +92,16 @@ def apply_kimi_scores(
     batch_size = max(1, int(kimi_config.get("batch_size", 10)))
     errors: list[str] = []
 
-    selected = candidates[:max_candidates]
+    buckets = {
+        "OpenClaw型": [item for item in candidates if item.opportunity_type == "OpenClaw型"],
+        "Manus型": [item for item in candidates if item.opportunity_type == "Manus型"],
+        "其他Agent": [item for item in candidates if item.opportunity_type == "其他Agent"],
+    }
+    selected: list[Candidate] = []
+    while len(selected) < max_candidates and any(buckets.values()):
+        for bucket in buckets.values():
+            if bucket and len(selected) < max_candidates:
+                selected.append(bucket.pop(0))
     for start in range(0, len(selected), batch_size):
         batch = selected[start : start + batch_size]
         try:
