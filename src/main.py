@@ -13,7 +13,7 @@ import yaml
 
 from src.collectors.all_sources import collect_all
 from src.models import Candidate
-from src.processing.pipeline import enrich_keywords, prepare_candidates
+from src.processing.pipeline import enrich_keywords, prepare_candidates, select_shortlist
 from src.reporting.html import generate_html
 from src.scoring.kimi import apply_kimi_scores
 from src.scoring.rules import score_all
@@ -146,7 +146,17 @@ def run(args: argparse.Namespace) -> dict[str, Any]:
         notices.append("已通过--no-kimi关闭Kimi判断，本次仅使用规则预评分。")
 
     top_n = int(config["project"].get("top_n", 10))
-    top_candidates = candidates[:top_n]
+    min_per_archetype = int(config["project"].get("min_per_archetype", 4))
+    top_candidates = select_shortlist(candidates, top_n, min_per_archetype)
+    pool_by_source: dict[str, int] = {}
+    pool_by_type: dict[str, int] = {}
+    for candidate in candidates:
+        pool_by_source[candidate.source] = pool_by_source.get(candidate.source, 0) + 1
+        pool_by_type[candidate.opportunity_type] = (
+            pool_by_type.get(candidate.opportunity_type, 0) + 1
+        )
+    if not pool_by_type.get("Manus型"):
+        notices.append("本期候选池未发现达到相关性门槛的Manus型项目，请检查产品源覆盖。")
     generated_at = run_datetime.isoformat()
     display_timezone = ZoneInfo(config["project"].get("timezone", "Asia/Shanghai"))
     payload = {
@@ -161,6 +171,9 @@ def run(args: argparse.Namespace) -> dict[str, Any]:
             "warnings": warnings,
             "notices": notices,
             "candidate_pool_size": len(candidates),
+            "pool_by_source": pool_by_source,
+            "pool_by_type": pool_by_type,
+            "shortlist_policy": f"Top {top_n}；OpenClaw型/Manus型各至少{min_per_archetype}个（候选充足时）",
             "kimi_model": config["scoring"]["kimi"]["model"],
         },
         "candidates": [candidate.to_dict() for candidate in top_candidates],
