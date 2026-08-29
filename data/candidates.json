@@ -1,9 +1,9 @@
 {
   "meta": {
     "project": "Agent Opportunity Radar",
-    "generated_at": "2026-08-29T17:23:55+00:00",
-    "generated_at_display": "2026-08-30 01:23 CST",
-    "mode": "演示/历史校准数据",
+    "generated_at": "2026-08-29T17:40:03+00:00",
+    "generated_at_display": "2026-08-30 01:40 CST",
+    "mode": "公开信号实时运行",
     "sources": [
       "GitHub",
       "Hacker News",
@@ -12,289 +12,578 @@
     ],
     "warnings": [],
     "notices": [
-      "当前页面含明确标注的演示数据，用于验证流程与页面；真实运行后会被公开信号替换。",
-      "已通过--no-kimi关闭Kimi判断，本次仅使用规则预评分。"
+      "Kimi评分部分失败（20项），已保留规则分数。"
     ],
-    "candidate_pool_size": 5,
+    "candidate_pool_size": 46,
     "kimi_model": "kimi-k2.6"
   },
   "candidates": [
     {
-      "id": "historical-openclaw",
-      "source": "Historical calibration",
-      "name": "OpenClaw",
-      "url": "https://github.com/openclaw/openclaw",
-      "description": "Open-source personal AI assistant connecting models, tools and messaging channels through a local gateway.",
-      "published_at": "2026-02-01T00:00:00+00:00",
-      "discovered_at": "2026-08-29T17:23:55+00:00",
-      "author": "",
+      "id": "github-8db0b049c9e0",
+      "source": "GitHub",
+      "name": "ApodexAI/FrontierAgent",
+      "url": "https://github.com/ApodexAI/FrontierAgent",
+      "description": "🧩 FrontierAgent, our agent framework, open-sourced alongside it — native command-line TUI, ReAct and Agent Team modes, one command on macOS and Linux, no preinstall, no hard Docker dependency.",
+      "published_at": "2026-08-22T05:07:35Z",
+      "discovered_at": "2026-08-29T17:39:58+00:00",
+      "author": "ApodexAI",
       "metrics": {
-        "stars": 100000,
-        "forks": 12000,
-        "open_issues": 900
+        "stars": 1262,
+        "forks": 105,
+        "open_issues": 3,
+        "watchers": 1262
       },
       "tags": [
-        "open-source",
-        "personal-assistant",
-        "skills",
-        "tool-calling"
+        "agent-orchestration",
+        "agentic-ai",
+        "agentic-framework",
+        "ai-agents",
+        "harness",
+        "multi-agent",
+        "terminal-agent",
+        "tui"
       ],
       "evidence": [
-        "Historical positive case",
-        "Open-source skill ecosystem",
-        "Rapid developer adoption"
+        "1,262 GitHub stars",
+        "105 forks",
+        "Created 2026-08-22"
       ],
-      "raw_text": "open source self-hosted AI agent personal assistant skills plugins model API tool calling messaging integration",
+      "raw_text": "ApodexAI/FrontierAgent 🧩 FrontierAgent, our agent framework, open-sourced alongside it — native command-line TUI, ReAct and Agent Team modes, one command on macOS and Linux, no preinstall, no hard Docker dependency. agent-orchestration agentic-ai agentic-framework ai-agents harness multi-agent terminal-agent tui",
       "opportunity_type": "OpenClaw型",
-      "score": 81.4,
+      "score": 72.6,
       "dimension_scores": {
-        "growth_speed": 100.0,
-        "agent_innovation": 78,
-        "community_signal": 100.0,
-        "api_consumption_potential": 58,
-        "commercialization": 32,
-        "kimi_strategic_fit": 89
-      },
-      "recommended_action": "立即联系",
-      "reason_to_contact_now": "Historical positive case；Open-source skill ecosystem；Rapid developer adoption",
-      "commercial_summary": "开发者生态型机会，优先判断模型接入、默认Provider和联合社区合作空间。",
-      "confidence": "medium",
-      "scoring_mode": "规则预评分",
-      "metadata": {
-        "calibration_case": true,
-        "agent_keyword_hits": [
-          "ai agent",
-          "openclaw",
-          "personal assistant",
-          "tool calling"
-        ],
-        "commercial_keyword_hits": [
-          "api"
-        ],
-        "ecosystem_keyword_hits": [
-          "integration",
-          "open source",
-          "plugin",
-          "self-hosted",
-          "skill"
-        ]
-      }
-    },
-    {
-      "id": "historical-manus",
-      "source": "Historical calibration",
-      "name": "Manus",
-      "url": "https://manus.im/",
-      "description": "A commercial general-purpose autonomous agent that turns goals into completed digital tasks.",
-      "published_at": "2026-02-01T00:00:00+00:00",
-      "discovered_at": "2026-08-29T17:23:55+00:00",
-      "author": "",
-      "metrics": {
-        "points": 950,
-        "comments": 420
-      },
-      "tags": [
-        "autonomous-agent",
-        "subscription",
-        "browser-agent"
-      ],
-      "evidence": [
-        "Historical positive case",
-        "Viral product demonstration",
-        "Clear subscription path"
-      ],
-      "raw_text": "autonomous agent browser agent launch waitlist subscription pricing customer API multi-agent",
-      "opportunity_type": "Manus型",
-      "score": 77.1,
-      "dimension_scores": {
-        "growth_speed": 76.9,
+        "growth_speed": 98.9,
         "agent_innovation": 57,
         "community_signal": 100.0,
-        "api_consumption_potential": 89,
-        "commercialization": 88,
-        "kimi_strategic_fit": 43
+        "api_consumption_potential": 64,
+        "commercialization": 18,
+        "kimi_strategic_fit": 51
       },
-      "recommended_action": "立即联系",
-      "reason_to_contact_now": "Historical positive case；Viral product demonstration；Clear subscription path",
-      "commercial_summary": "产品型机会，优先判断API调用规模、付费增长和战略客户合作空间。",
-      "confidence": "medium",
-      "scoring_mode": "规则预评分",
-      "metadata": {
-        "calibration_case": true,
-        "agent_keyword_hits": [
-          "autonomous agent",
-          "browser agent",
-          "multi-agent"
-        ],
-        "commercial_keyword_hits": [
-          "api",
-          "customer",
-          "pricing",
-          "subscription",
-          "waitlist"
-        ],
-        "ecosystem_keyword_hits": []
-      }
-    },
-    {
-      "id": "demo-gateway",
-      "source": "Demo signal",
-      "name": "Orbit Gateway",
-      "url": "https://example.com/orbit-gateway",
-      "description": "Illustrative open-source agent gateway with a growing plugin ecosystem and multi-model routing.",
-      "published_at": "2026-08-27T00:00:00+00:00",
-      "discovered_at": "2026-08-29T17:23:55+00:00",
-      "author": "",
-      "metrics": {
-        "stars": 2100,
-        "forks": 280,
-        "open_issues": 42
-      },
-      "tags": [
-        "agentic",
-        "plugin",
-        "self-hosted"
-      ],
-      "evidence": [
-        "Illustrative demo data",
-        "2,100 stars in first week",
-        "28 community plugins"
-      ],
-      "raw_text": "ai agent open source self-hosted plugin integration multi-model API tool calling",
-      "opportunity_type": "OpenClaw型",
-      "score": 76.8,
-      "dimension_scores": {
-        "growth_speed": 100.0,
-        "agent_innovation": 67,
-        "community_signal": 100.0,
-        "api_consumption_potential": 51,
-        "commercialization": 32,
-        "kimi_strategic_fit": 75
-      },
-      "recommended_action": "立即联系",
-      "reason_to_contact_now": "Illustrative demo data；2,100 stars in first week；28 community plugins",
+      "recommended_action": "持续观察",
+      "reason_to_contact_now": "1,262 GitHub stars；105 forks；Created 2026-08-22",
       "commercial_summary": "开发者生态型机会，优先判断模型接入、默认Provider和联合社区合作空间。",
       "confidence": "medium",
       "scoring_mode": "规则预评分",
       "metadata": {
-        "demo_only": true,
+        "language": "Python",
+        "updated_at": "2026-08-29T17:12:58Z",
+        "homepage": "https://www.apodex.ai",
         "agent_keyword_hits": [
           "agentic",
           "ai agent",
-          "tool calling"
+          "multi-agent"
         ],
-        "commercial_keyword_hits": [
-          "api"
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": []
+      }
+    },
+    {
+      "id": "github-411d0e0eb417",
+      "source": "GitHub",
+      "name": "totec448-spec/chat-on-steroids",
+      "url": "https://github.com/totec448-spec/chat-on-steroids",
+      "description": "Cross-platform local MCP capabilities for ChatGPT with Chrome integration, Goal, Compact & Resume, and durable multi-agent workflows.",
+      "published_at": "2026-08-22T14:16:24Z",
+      "discovered_at": "2026-08-29T17:39:59+00:00",
+      "author": "totec448-spec",
+      "metrics": {
+        "stars": 547,
+        "forks": 72,
+        "open_issues": 15,
+        "watchers": 547
+      },
+      "tags": [
+        "automation",
+        "chatgpt",
+        "chrome-extension",
+        "electron",
+        "linux",
+        "local-first",
+        "macos",
+        "mcp",
+        "multi-agent",
+        "windows"
+      ],
+      "evidence": [
+        "547 GitHub stars",
+        "72 forks",
+        "Created 2026-08-22"
+      ],
+      "raw_text": "totec448-spec/chat-on-steroids Cross-platform local MCP capabilities for ChatGPT with Chrome integration, Goal, Compact & Resume, and durable multi-agent workflows. automation chatgpt chrome-extension electron linux local-first macos mcp multi-agent windows",
+      "opportunity_type": "OpenClaw型",
+      "score": 66.7,
+      "dimension_scores": {
+        "growth_speed": 87.3,
+        "agent_innovation": 46,
+        "community_signal": 100.0,
+        "api_consumption_potential": 57,
+        "commercialization": 18,
+        "kimi_strategic_fit": 53
+      },
+      "recommended_action": "持续观察",
+      "reason_to_contact_now": "547 GitHub stars；72 forks；Created 2026-08-22",
+      "commercial_summary": "开发者生态型机会，优先判断模型接入、默认Provider和联合社区合作空间。",
+      "confidence": "medium",
+      "scoring_mode": "规则预评分",
+      "metadata": {
+        "language": "TypeScript",
+        "updated_at": "2026-08-29T17:36:08Z",
+        "homepage": null,
+        "agent_keyword_hits": [
+          "mcp",
+          "multi-agent"
         ],
+        "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": [
-          "integration",
-          "open source",
-          "plugin",
-          "self-hosted"
+          "integration"
         ]
       }
     },
     {
-      "id": "demo-browser",
-      "source": "Demo signal",
-      "name": "TaskPilot",
-      "url": "https://example.com/taskpilot",
-      "description": "Illustrative browser agent for sales research and repetitive operations workflows.",
-      "published_at": "2026-08-28T00:00:00+00:00",
-      "discovered_at": "2026-08-29T17:23:55+00:00",
-      "author": "",
+      "id": "github-84d69b3ec0e2",
+      "source": "GitHub",
+      "name": "duty1g/x64dbg-mcp-server",
+      "url": "https://github.com/duty1g/x64dbg-mcp-server",
+      "description": "x64dbg-MCP Server is a native MCP (Model Context Protocol) plugin for x64dbg that exposes the debugger's full functionality over HTTP. Connect any MCP-compatible AI assistant and control x64dbg programmatically: set breakpoints, step through code, read memory, dump registers, and more. Built with Zig — zero dependencies, single-binary output, cros",
+      "published_at": "2026-08-22T14:28:41Z",
+      "discovered_at": "2026-08-29T17:39:58+00:00",
+      "author": "duty1g",
       "metrics": {
-        "points": 330,
-        "comments": 95
+        "stars": 1718,
+        "forks": 176,
+        "open_issues": 0,
+        "watchers": 1718
       },
       "tags": [
-        "browser-agent",
-        "sales",
-        "saas"
+        "ai-agents",
+        "ai-debugging",
+        "binary-analysis",
+        "claude",
+        "claude-code",
+        "malware-analysis",
+        "malware-research",
+        "malware-scanner",
+        "mcp",
+        "mcp-server",
+        "mcp-servers",
+        "x64dbg",
+        "x64dbg-mcp",
+        "x64dbg-plugin",
+        "x64dbg-tools",
+        "xdbg",
+        "zig",
+        "zig-lang",
+        "ziglang"
       ],
       "evidence": [
-        "Illustrative demo data",
-        "330 launch-day points",
-        "Team plan announced"
+        "1,718 GitHub stars",
+        "176 forks",
+        "Created 2026-08-22"
       ],
-      "raw_text": "browser agent workflow automation launch team plan pricing enterprise customer subscription API",
-      "opportunity_type": "Manus型",
-      "score": 73.8,
+      "raw_text": "duty1g/x64dbg-mcp-server x64dbg-MCP Server is a native MCP (Model Context Protocol) plugin for x64dbg that exposes the debugger's full functionality over HTTP. Connect any MCP-compatible AI assistant and control x64dbg programmatically: set breakpoints, step through code, read memory, dump registers, and more. Built with Zig — zero dependencies, single-binary output, cros ai-agents ai-debugging binary-analysis claude claude-code malware-analysis malware-research malware-scanner mcp mcp-server mcp-servers x64dbg x64dbg-mcp x64dbg-plugin x64dbg-tools xdbg zig zig-lang ziglang",
+      "opportunity_type": "OpenClaw型",
+      "score": 63.3,
       "dimension_scores": {
-        "growth_speed": 68.4,
-        "agent_innovation": 46,
+        "growth_speed": 100.0,
+        "agent_innovation": 35,
         "community_signal": 100.0,
-        "api_consumption_potential": 92,
-        "commercialization": 100.0,
-        "kimi_strategic_fit": 37
+        "api_consumption_potential": 32,
+        "commercialization": 18,
+        "kimi_strategic_fit": 47
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "Illustrative demo data；330 launch-day points；Team plan announced",
-      "commercial_summary": "产品型机会，优先判断API调用规模、付费增长和战略客户合作空间。",
+      "reason_to_contact_now": "1,718 GitHub stars；176 forks；Created 2026-08-22",
+      "commercial_summary": "开发者生态型机会，优先判断模型接入、默认Provider和联合社区合作空间。",
       "confidence": "medium",
       "scoring_mode": "规则预评分",
       "metadata": {
-        "demo_only": true,
+        "language": "Zig",
+        "updated_at": "2026-08-29T17:11:06Z",
+        "homepage": "",
         "agent_keyword_hits": [
-          "browser agent",
-          "workflow automation"
+          "mcp"
+        ],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": [
+          "plugin"
+        ]
+      }
+    },
+    {
+      "id": "github-c38aab884ce0",
+      "source": "GitHub",
+      "name": "kgoedecke/doop",
+      "url": "https://github.com/kgoedecke/doop",
+      "description": "The open-source alternative to Paper.design. A multiplayer design canvas where humans and AI agents design together, live. MCP built in.",
+      "published_at": "2026-08-22T15:40:51Z",
+      "discovered_at": "2026-08-29T17:39:59+00:00",
+      "author": "kgoedecke",
+      "metrics": {
+        "stars": 496,
+        "forks": 54,
+        "open_issues": 0,
+        "watchers": 496
+      },
+      "tags": [
+        "ai-agents",
+        "canvas",
+        "claude",
+        "claude-code",
+        "claude-design",
+        "design",
+        "design-tool",
+        "mcp",
+        "multiplayer"
+      ],
+      "evidence": [
+        "496 GitHub stars",
+        "54 forks",
+        "Created 2026-08-22"
+      ],
+      "raw_text": "kgoedecke/doop The open-source alternative to Paper.design. A multiplayer design canvas where humans and AI agents design together, live. MCP built in. ai-agents canvas claude claude-code claude-design design design-tool mcp multiplayer",
+      "opportunity_type": "OpenClaw型",
+      "score": 62.8,
+      "dimension_scores": {
+        "growth_speed": 85.9,
+        "agent_innovation": 46,
+        "community_signal": 100.0,
+        "api_consumption_potential": 39,
+        "commercialization": 18,
+        "kimi_strategic_fit": 45
+      },
+      "recommended_action": "持续观察",
+      "reason_to_contact_now": "496 GitHub stars；54 forks；Created 2026-08-22",
+      "commercial_summary": "开发者生态型机会，优先判断模型接入、默认Provider和联合社区合作空间。",
+      "confidence": "medium",
+      "scoring_mode": "规则预评分",
+      "metadata": {
+        "language": "TypeScript",
+        "updated_at": "2026-08-29T16:51:49Z",
+        "homepage": "https://doop.design",
+        "agent_keyword_hits": [
+          "ai agent",
+          "mcp"
+        ],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": []
+      }
+    },
+    {
+      "id": "github-70860c6f8588",
+      "source": "GitHub",
+      "name": "XiaoDuoYa/codex-with-chatgpt",
+      "url": "https://github.com/XiaoDuoYa/codex-with-chatgpt",
+      "description": "ChatGPT thinks. Codex works. Use ChatGPT as the planning brain while keeping the Codex harness.",
+      "published_at": "2026-08-28T12:57:24Z",
+      "discovered_at": "2026-08-29T17:39:59+00:00",
+      "author": "XiaoDuoYa",
+      "metrics": {
+        "stars": 846,
+        "forks": 91,
+        "open_issues": 8,
+        "watchers": 846
+      },
+      "tags": [
+        "ai-agents",
+        "chatgpt",
+        "codex",
+        "mcp",
+        "model-context-protocol",
+        "oauth"
+      ],
+      "evidence": [
+        "846 GitHub stars",
+        "91 forks",
+        "Created 2026-08-28"
+      ],
+      "raw_text": "XiaoDuoYa/codex-with-chatgpt ChatGPT thinks. Codex works. Use ChatGPT as the planning brain while keeping the Codex harness. ai-agents chatgpt codex mcp model-context-protocol oauth",
+      "opportunity_type": "OpenClaw型",
+      "score": 62.5,
+      "dimension_scores": {
+        "growth_speed": 100.0,
+        "agent_innovation": 35,
+        "community_signal": 100.0,
+        "api_consumption_potential": 32,
+        "commercialization": 18,
+        "kimi_strategic_fit": 39
+      },
+      "recommended_action": "持续观察",
+      "reason_to_contact_now": "846 GitHub stars；91 forks；Created 2026-08-28",
+      "commercial_summary": "开发者生态型机会，优先判断模型接入、默认Provider和联合社区合作空间。",
+      "confidence": "medium",
+      "scoring_mode": "规则预评分",
+      "metadata": {
+        "language": "TypeScript",
+        "updated_at": "2026-08-29T17:38:14Z",
+        "homepage": null,
+        "agent_keyword_hits": [
+          "mcp"
+        ],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": []
+      }
+    },
+    {
+      "id": "github-18592bc8e3fd",
+      "source": "GitHub",
+      "name": "muratmula/ai-robinhood-chain",
+      "url": "https://github.com/muratmula/ai-robinhood-chain",
+      "description": "Autonomous multi-agent crypto intelligence & trading ecosystem for Robinhood Chain L2 (EVM #4663) operated via Discord Command Center, Terminal TUI, REST API, & Telegram",
+      "published_at": "2026-08-25T08:11:02Z",
+      "discovered_at": "2026-08-29T17:39:58+00:00",
+      "author": "muratmula",
+      "metrics": {
+        "stars": 122,
+        "forks": 958,
+        "open_issues": 0,
+        "watchers": 122
+      },
+      "tags": [
+        "ai-agent",
+        "multiagent",
+        "robinhood",
+        "robinhood-crypto",
+        "trading-bot"
+      ],
+      "evidence": [
+        "122 GitHub stars",
+        "958 forks",
+        "Created 2026-08-25"
+      ],
+      "raw_text": "muratmula/ai-robinhood-chain Autonomous multi-agent crypto intelligence & trading ecosystem for Robinhood Chain L2 (EVM #4663) operated via Discord Command Center, Terminal TUI, REST API, & Telegram ai-agent multiagent robinhood robinhood-crypto trading-bot",
+      "opportunity_type": "OpenClaw型",
+      "score": 60.5,
+      "dimension_scores": {
+        "growth_speed": 72.4,
+        "agent_innovation": 35,
+        "community_signal": 100.0,
+        "api_consumption_potential": 55,
+        "commercialization": 32,
+        "kimi_strategic_fit": 39
+      },
+      "recommended_action": "持续观察",
+      "reason_to_contact_now": "122 GitHub stars；958 forks；Created 2026-08-25",
+      "commercial_summary": "开发者生态型机会，优先判断模型接入、默认Provider和联合社区合作空间。",
+      "confidence": "medium",
+      "scoring_mode": "规则预评分",
+      "metadata": {
+        "language": "TypeScript",
+        "updated_at": "2026-08-29T17:10:47Z",
+        "homepage": "",
+        "agent_keyword_hits": [
+          "multi-agent"
         ],
         "commercial_keyword_hits": [
-          "api",
-          "customer",
-          "enterprise",
-          "pricing",
-          "saas",
-          "subscription",
-          "team plan"
+          "api"
         ],
         "ecosystem_keyword_hits": []
       }
     },
     {
-      "id": "demo-local",
-      "source": "Demo signal",
-      "name": "TinyDesk Agent",
-      "url": "https://example.com/tinydesk",
-      "description": "Illustrative local-only desktop automation experiment without a clear distribution or revenue model.",
-      "published_at": "2026-08-26T00:00:00+00:00",
-      "discovered_at": "2026-08-29T17:23:55+00:00",
-      "author": "",
+      "id": "github-929a5a792915",
+      "source": "GitHub",
+      "name": "Forsy-AI/biosecurity-agent",
+      "url": "https://github.com/Forsy-AI/biosecurity-agent",
+      "description": "AI agent that builds a live biosecurity world around any target.",
+      "published_at": "2026-08-22T23:06:26Z",
+      "discovered_at": "2026-08-29T17:39:58+00:00",
+      "author": "Forsy-AI",
       "metrics": {
-        "stars": 86,
-        "forks": 4
+        "stars": 514,
+        "forks": 19,
+        "open_issues": 0,
+        "watchers": 514
       },
-      "tags": [
-        "desktop",
-        "local"
-      ],
+      "tags": [],
       "evidence": [
-        "Illustrative demo data",
-        "86 stars",
-        "No pricing or ecosystem signal"
+        "514 GitHub stars",
+        "19 forks",
+        "Created 2026-08-22"
       ],
-      "raw_text": "agent desktop local automation prototype",
-      "opportunity_type": "其他Agent",
-      "score": 48.4,
+      "raw_text": "Forsy-AI/biosecurity-agent AI agent that builds a live biosecurity world around any target. ",
+      "opportunity_type": "OpenClaw型",
+      "score": 59.3,
       "dimension_scores": {
-        "growth_speed": 69.7,
-        "agent_innovation": 24,
-        "community_signal": 80.0,
-        "api_consumption_potential": 30,
-        "commercialization": 32,
-        "kimi_strategic_fit": 25
+        "growth_speed": 87.1,
+        "agent_innovation": 35,
+        "community_signal": 100.0,
+        "api_consumption_potential": 32,
+        "commercialization": 18,
+        "kimi_strategic_fit": 39
       },
-      "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "Illustrative demo data；86 stars；No pricing or ecosystem signal",
-      "commercial_summary": "已出现商业化信号，建议补充产品、团队和模型依赖信息后继续评估。",
+      "recommended_action": "持续观察",
+      "reason_to_contact_now": "514 GitHub stars；19 forks；Created 2026-08-22",
+      "commercial_summary": "开发者生态型机会，优先判断模型接入、默认Provider和联合社区合作空间。",
       "confidence": "medium",
       "scoring_mode": "规则预评分",
       "metadata": {
-        "demo_only": true,
-        "agent_keyword_hits": [],
-        "commercial_keyword_hits": [
-          "revenue"
+        "language": "TypeScript",
+        "updated_at": "2026-08-29T07:04:47Z",
+        "homepage": "",
+        "agent_keyword_hits": [
+          "ai agent"
         ],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": []
+      }
+    },
+    {
+      "id": "github-4118bee07688",
+      "source": "GitHub",
+      "name": "rome-os/rome",
+      "url": "https://github.com/rome-os/rome",
+      "description": "Rome is the agentic OS.",
+      "published_at": "2026-08-23T06:15:15Z",
+      "discovered_at": "2026-08-29T17:39:59+00:00",
+      "author": "rome-os",
+      "metrics": {
+        "stars": 384,
+        "forks": 22,
+        "open_issues": 13,
+        "watchers": 384
+      },
+      "tags": [
+        "agent",
+        "agent-os",
+        "claude-code",
+        "codex",
+        "llm"
+      ],
+      "evidence": [
+        "384 GitHub stars",
+        "22 forks",
+        "Created 2026-08-23"
+      ],
+      "raw_text": "rome-os/rome Rome is the agentic OS. agent agent-os claude-code codex llm",
+      "opportunity_type": "OpenClaw型",
+      "score": 58.4,
+      "dimension_scores": {
+        "growth_speed": 83.5,
+        "agent_innovation": 35,
+        "community_signal": 100.0,
+        "api_consumption_potential": 32,
+        "commercialization": 18,
+        "kimi_strategic_fit": 39
+      },
+      "recommended_action": "持续观察",
+      "reason_to_contact_now": "384 GitHub stars；22 forks；Created 2026-08-23",
+      "commercial_summary": "开发者生态型机会，优先判断模型接入、默认Provider和联合社区合作空间。",
+      "confidence": "medium",
+      "scoring_mode": "规则预评分",
+      "metadata": {
+        "language": "TypeScript",
+        "updated_at": "2026-08-29T11:36:58Z",
+        "homepage": "https://romeos.cc",
+        "agent_keyword_hits": [
+          "agentic"
+        ],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": []
+      }
+    },
+    {
+      "id": "github-a1da86bc83e2",
+      "source": "GitHub",
+      "name": "HanyuanWang/LiveStream-Agent-Studio",
+      "url": "https://github.com/HanyuanWang/LiveStream-Agent-Studio",
+      "description": "面向抖音直播电商的 Windows 本地 AI Agent Studio，贯通主播发现、直播洞察、直播复盘与短视频内容编导的统一智能工作流。",
+      "published_at": "2026-08-22T14:16:48Z",
+      "discovered_at": "2026-08-29T17:39:58+00:00",
+      "author": "HanyuanWang",
+      "metrics": {
+        "stars": 377,
+        "forks": 59,
+        "open_issues": 9,
+        "watchers": 377
+      },
+      "tags": [
+        "ai-agent",
+        "douyin",
+        "livestream",
+        "speech-to-text"
+      ],
+      "evidence": [
+        "377 GitHub stars",
+        "59 forks",
+        "Created 2026-08-22"
+      ],
+      "raw_text": "HanyuanWang/LiveStream-Agent-Studio 面向抖音直播电商的 Windows 本地 AI Agent Studio，贯通主播发现、直播洞察、直播复盘与短视频内容编导的统一智能工作流。 ai-agent douyin livestream speech-to-text",
+      "opportunity_type": "OpenClaw型",
+      "score": 57.9,
+      "dimension_scores": {
+        "growth_speed": 81.8,
+        "agent_innovation": 35,
+        "community_signal": 100.0,
+        "api_consumption_potential": 32,
+        "commercialization": 18,
+        "kimi_strategic_fit": 39
+      },
+      "recommended_action": "持续观察",
+      "reason_to_contact_now": "377 GitHub stars；59 forks；Created 2026-08-22",
+      "commercial_summary": "开发者生态型机会，优先判断模型接入、默认Provider和联合社区合作空间。",
+      "confidence": "medium",
+      "scoring_mode": "规则预评分",
+      "metadata": {
+        "language": "Python",
+        "updated_at": "2026-08-29T16:56:29Z",
+        "homepage": "",
+        "agent_keyword_hits": [
+          "ai agent"
+        ],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": []
+      }
+    },
+    {
+      "id": "github-28f88c76de81",
+      "source": "GitHub",
+      "name": "Merit-Systems/OpenInstinct",
+      "url": "https://github.com/Merit-Systems/OpenInstinct",
+      "description": "iMessage personal assistant + password vault",
+      "published_at": "2026-08-25T14:42:47Z",
+      "discovered_at": "2026-08-29T17:39:58+00:00",
+      "author": "Merit-Systems",
+      "metrics": {
+        "stars": 202,
+        "forks": 26,
+        "open_issues": 15,
+        "watchers": 202
+      },
+      "tags": [
+        "agent",
+        "ai",
+        "ai-agents",
+        "imessage"
+      ],
+      "evidence": [
+        "202 GitHub stars",
+        "26 forks",
+        "Created 2026-08-25"
+      ],
+      "raw_text": "Merit-Systems/OpenInstinct iMessage personal assistant + password vault agent ai ai-agents imessage",
+      "opportunity_type": "OpenClaw型",
+      "score": 57.7,
+      "dimension_scores": {
+        "growth_speed": 80.7,
+        "agent_innovation": 35,
+        "community_signal": 100.0,
+        "api_consumption_potential": 32,
+        "commercialization": 18,
+        "kimi_strategic_fit": 39
+      },
+      "recommended_action": "持续观察",
+      "reason_to_contact_now": "202 GitHub stars；26 forks；Created 2026-08-25",
+      "commercial_summary": "开发者生态型机会，优先判断模型接入、默认Provider和联合社区合作空间。",
+      "confidence": "medium",
+      "scoring_mode": "规则预评分",
+      "metadata": {
+        "language": "TypeScript",
+        "updated_at": "2026-08-29T17:25:52Z",
+        "homepage": "coming-soon.com",
+        "agent_keyword_hits": [
+          "personal assistant"
+        ],
+        "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": []
       }
     }
