@@ -76,6 +76,7 @@ scoring:
     enabled: true
     model: kimi-k2.6
     max_candidates: 20
+    max_completion_tokens: 512
     base_url: https://api.moonshot.cn/v1
 
 output:
@@ -83,4 +84,3 @@ output:
   data_json: data/candidates.json
   history_csv: data/history.csv
   html: docs/index.html
-
