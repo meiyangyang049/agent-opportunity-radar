@@ -1,0 +1,80 @@
+name: Daily Agent Radar
+
+on:
+  workflow_dispatch:
+    inputs:
+      skip_kimi:
+        description: "Run with rule scoring only"
+        required: false
+        type: boolean
+        default: false
+  schedule:
+    # 09:00 Asia/Shanghai. GitHub cron uses UTC.
+    - cron: "0 1 * * *"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: agent-radar
+  cancel-in-progress: false
+
+jobs:
+  scan-and-publish:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Run opportunity radar
+        env:
+          MOONSHOT_API_KEY: ${{ secrets.MOONSHOT_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [ "${{ inputs.skip_kimi }}" = "true" ]; then
+            python -m src.main --no-kimi
+          else
+            python -m src.main
+          fi
+
+      - name: Save updated radar history
+        run: |
+          git config user.name "agent-radar-bot"
+          git config user.email "agent-radar-bot@users.noreply.github.com"
+          git add data/candidates.json data/history.csv docs/index.html
+          if git diff --cached --quiet; then
+            echo "No radar changes to commit"
+          else
+            git commit -m "chore: refresh agent radar"
+            git push
+          fi
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+      - name: Deploy Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+

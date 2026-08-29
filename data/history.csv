@@ -1,0 +1,6 @@
+run_at,id,name,source,score,opportunity_type,recommended_action,metric_name,metric_value
+2026-08-29T17:23:55+00:00,historical-openclaw,OpenClaw,Historical calibration,81.4,OpenClaw型,立即联系,stars,100000.0
+2026-08-29T17:23:55+00:00,historical-manus,Manus,Historical calibration,77.1,Manus型,立即联系,points,950.0
+2026-08-29T17:23:55+00:00,demo-gateway,Orbit Gateway,Demo signal,76.8,OpenClaw型,立即联系,stars,2100.0
+2026-08-29T17:23:55+00:00,demo-browser,TaskPilot,Demo signal,73.8,Manus型,持续观察,points,330.0
+2026-08-29T17:23:55+00:00,demo-local,TinyDesk Agent,Demo signal,48.4,其他Agent,暂不跟进,stars,86.0

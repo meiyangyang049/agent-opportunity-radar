@@ -1,0 +1,86 @@
+project:
+  name: Agent Opportunity Radar
+  audience: Kimi API commercial, sales operations, and ecosystem teams
+  timezone: Asia/Shanghai
+  lookback_days: 7
+  top_n: 10
+  candidate_limit: 60
+
+sources:
+  github:
+    enabled: true
+    max_results: 35
+    queries:
+      - "ai agent in:name,description,readme"
+      - "autonomous agent in:name,description,readme"
+      - "personal ai assistant in:name,description,readme"
+      - "browser agent in:name,description,readme"
+  hackernews:
+    enabled: true
+    story_limit: 250
+  producthunt:
+    enabled: true
+    feeds:
+      - "https://www.producthunt.com/feed"
+  news:
+    enabled: true
+    feeds:
+      - "https://techcrunch.com/category/artificial-intelligence/feed/"
+      - "https://venturebeat.com/category/ai/feed/"
+
+keywords:
+  agent:
+    - ai agent
+    - autonomous agent
+    - agentic
+    - personal assistant
+    - browser agent
+    - computer use
+    - multi-agent
+    - agent swarm
+    - workflow automation
+    - tool calling
+    - mcp
+    - openclaw
+  commercialization:
+    - pricing
+    - subscription
+    - enterprise
+    - customer
+    - revenue
+    - api
+    - saas
+    - team plan
+    - waitlist
+  ecosystem:
+    - open source
+    - github
+    - plugin
+    - skill
+    - integration
+    - community
+    - self-hosted
+
+scoring:
+  weights:
+    growth_speed: 0.25
+    agent_innovation: 0.20
+    community_signal: 0.20
+    api_consumption_potential: 0.15
+    commercialization: 0.10
+    kimi_strategic_fit: 0.10
+  action_thresholds:
+    contact_now: 75
+    watch: 55
+  kimi:
+    enabled: true
+    model: kimi-k2.6
+    max_candidates: 20
+    base_url: https://api.moonshot.cn/v1
+
+output:
+  language: zh-CN
+  data_json: data/candidates.json
+  history_csv: data/history.csv
+  html: docs/index.html
+

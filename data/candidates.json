@@ -1,0 +1,302 @@
+{
+  "meta": {
+    "project": "Agent Opportunity Radar",
+    "generated_at": "2026-08-29T17:23:55+00:00",
+    "generated_at_display": "2026-08-30 01:23 CST",
+    "mode": "演示/历史校准数据",
+    "sources": [
+      "GitHub",
+      "Hacker News",
+      "Product Hunt",
+      "AI news RSS"
+    ],
+    "warnings": [],
+    "notices": [
+      "当前页面含明确标注的演示数据，用于验证流程与页面；真实运行后会被公开信号替换。",
+      "已通过--no-kimi关闭Kimi判断，本次仅使用规则预评分。"
+    ],
+    "candidate_pool_size": 5,
+    "kimi_model": "kimi-k2.6"
+  },
+  "candidates": [
+    {
+      "id": "historical-openclaw",
+      "source": "Historical calibration",
+      "name": "OpenClaw",
+      "url": "https://github.com/openclaw/openclaw",
+      "description": "Open-source personal AI assistant connecting models, tools and messaging channels through a local gateway.",
+      "published_at": "2026-02-01T00:00:00+00:00",
+      "discovered_at": "2026-08-29T17:23:55+00:00",
+      "author": "",
+      "metrics": {
+        "stars": 100000,
+        "forks": 12000,
+        "open_issues": 900
+      },
+      "tags": [
+        "open-source",
+        "personal-assistant",
+        "skills",
+        "tool-calling"
+      ],
+      "evidence": [
+        "Historical positive case",
+        "Open-source skill ecosystem",
+        "Rapid developer adoption"
+      ],
+      "raw_text": "open source self-hosted AI agent personal assistant skills plugins model API tool calling messaging integration",
+      "opportunity_type": "OpenClaw型",
+      "score": 81.4,
+      "dimension_scores": {
+        "growth_speed": 100.0,
+        "agent_innovation": 78,
+        "community_signal": 100.0,
+        "api_consumption_potential": 58,
+        "commercialization": 32,
+        "kimi_strategic_fit": 89
+      },
+      "recommended_action": "立即联系",
+      "reason_to_contact_now": "Historical positive case；Open-source skill ecosystem；Rapid developer adoption",
+      "commercial_summary": "开发者生态型机会，优先判断模型接入、默认Provider和联合社区合作空间。",
+      "confidence": "medium",
+      "scoring_mode": "规则预评分",
+      "metadata": {
+        "calibration_case": true,
+        "agent_keyword_hits": [
+          "ai agent",
+          "openclaw",
+          "personal assistant",
+          "tool calling"
+        ],
+        "commercial_keyword_hits": [
+          "api"
+        ],
+        "ecosystem_keyword_hits": [
+          "integration",
+          "open source",
+          "plugin",
+          "self-hosted",
+          "skill"
+        ]
+      }
+    },
+    {
+      "id": "historical-manus",
+      "source": "Historical calibration",
+      "name": "Manus",
+      "url": "https://manus.im/",
+      "description": "A commercial general-purpose autonomous agent that turns goals into completed digital tasks.",
+      "published_at": "2026-02-01T00:00:00+00:00",
+      "discovered_at": "2026-08-29T17:23:55+00:00",
+      "author": "",
+      "metrics": {
+        "points": 950,
+        "comments": 420
+      },
+      "tags": [
+        "autonomous-agent",
+        "subscription",
+        "browser-agent"
+      ],
+      "evidence": [
+        "Historical positive case",
+        "Viral product demonstration",
+        "Clear subscription path"
+      ],
+      "raw_text": "autonomous agent browser agent launch waitlist subscription pricing customer API multi-agent",
+      "opportunity_type": "Manus型",
+      "score": 77.1,
+      "dimension_scores": {
+        "growth_speed": 76.9,
+        "agent_innovation": 57,
+        "community_signal": 100.0,
+        "api_consumption_potential": 89,
+        "commercialization": 88,
+        "kimi_strategic_fit": 43
+      },
+      "recommended_action": "立即联系",
+      "reason_to_contact_now": "Historical positive case；Viral product demonstration；Clear subscription path",
+      "commercial_summary": "产品型机会，优先判断API调用规模、付费增长和战略客户合作空间。",
+      "confidence": "medium",
+      "scoring_mode": "规则预评分",
+      "metadata": {
+        "calibration_case": true,
+        "agent_keyword_hits": [
+          "autonomous agent",
+          "browser agent",
+          "multi-agent"
+        ],
+        "commercial_keyword_hits": [
+          "api",
+          "customer",
+          "pricing",
+          "subscription",
+          "waitlist"
+        ],
+        "ecosystem_keyword_hits": []
+      }
+    },
+    {
+      "id": "demo-gateway",
+      "source": "Demo signal",
+      "name": "Orbit Gateway",
+      "url": "https://example.com/orbit-gateway",
+      "description": "Illustrative open-source agent gateway with a growing plugin ecosystem and multi-model routing.",
+      "published_at": "2026-08-27T00:00:00+00:00",
+      "discovered_at": "2026-08-29T17:23:55+00:00",
+      "author": "",
+      "metrics": {
+        "stars": 2100,
+        "forks": 280,
+        "open_issues": 42
+      },
+      "tags": [
+        "agentic",
+        "plugin",
+        "self-hosted"
+      ],
+      "evidence": [
+        "Illustrative demo data",
+        "2,100 stars in first week",
+        "28 community plugins"
+      ],
+      "raw_text": "ai agent open source self-hosted plugin integration multi-model API tool calling",
+      "opportunity_type": "OpenClaw型",
+      "score": 76.8,
+      "dimension_scores": {
+        "growth_speed": 100.0,
+        "agent_innovation": 67,
+        "community_signal": 100.0,
+        "api_consumption_potential": 51,
+        "commercialization": 32,
+        "kimi_strategic_fit": 75
+      },
+      "recommended_action": "立即联系",
+      "reason_to_contact_now": "Illustrative demo data；2,100 stars in first week；28 community plugins",
+      "commercial_summary": "开发者生态型机会，优先判断模型接入、默认Provider和联合社区合作空间。",
+      "confidence": "medium",
+      "scoring_mode": "规则预评分",
+      "metadata": {
+        "demo_only": true,
+        "agent_keyword_hits": [
+          "agentic",
+          "ai agent",
+          "tool calling"
+        ],
+        "commercial_keyword_hits": [
+          "api"
+        ],
+        "ecosystem_keyword_hits": [
+          "integration",
+          "open source",
+          "plugin",
+          "self-hosted"
+        ]
+      }
+    },
+    {
+      "id": "demo-browser",
+      "source": "Demo signal",
+      "name": "TaskPilot",
+      "url": "https://example.com/taskpilot",
+      "description": "Illustrative browser agent for sales research and repetitive operations workflows.",
+      "published_at": "2026-08-28T00:00:00+00:00",
+      "discovered_at": "2026-08-29T17:23:55+00:00",
+      "author": "",
+      "metrics": {
+        "points": 330,
+        "comments": 95
+      },
+      "tags": [
+        "browser-agent",
+        "sales",
+        "saas"
+      ],
+      "evidence": [
+        "Illustrative demo data",
+        "330 launch-day points",
+        "Team plan announced"
+      ],
+      "raw_text": "browser agent workflow automation launch team plan pricing enterprise customer subscription API",
+      "opportunity_type": "Manus型",
+      "score": 73.8,
+      "dimension_scores": {
+        "growth_speed": 68.4,
+        "agent_innovation": 46,
+        "community_signal": 100.0,
+        "api_consumption_potential": 92,
+        "commercialization": 100.0,
+        "kimi_strategic_fit": 37
+      },
+      "recommended_action": "持续观察",
+      "reason_to_contact_now": "Illustrative demo data；330 launch-day points；Team plan announced",
+      "commercial_summary": "产品型机会，优先判断API调用规模、付费增长和战略客户合作空间。",
+      "confidence": "medium",
+      "scoring_mode": "规则预评分",
+      "metadata": {
+        "demo_only": true,
+        "agent_keyword_hits": [
+          "browser agent",
+          "workflow automation"
+        ],
+        "commercial_keyword_hits": [
+          "api",
+          "customer",
+          "enterprise",
+          "pricing",
+          "saas",
+          "subscription",
+          "team plan"
+        ],
+        "ecosystem_keyword_hits": []
+      }
+    },
+    {
+      "id": "demo-local",
+      "source": "Demo signal",
+      "name": "TinyDesk Agent",
+      "url": "https://example.com/tinydesk",
+      "description": "Illustrative local-only desktop automation experiment without a clear distribution or revenue model.",
+      "published_at": "2026-08-26T00:00:00+00:00",
+      "discovered_at": "2026-08-29T17:23:55+00:00",
+      "author": "",
+      "metrics": {
+        "stars": 86,
+        "forks": 4
+      },
+      "tags": [
+        "desktop",
+        "local"
+      ],
+      "evidence": [
+        "Illustrative demo data",
+        "86 stars",
+        "No pricing or ecosystem signal"
+      ],
+      "raw_text": "agent desktop local automation prototype",
+      "opportunity_type": "其他Agent",
+      "score": 48.4,
+      "dimension_scores": {
+        "growth_speed": 69.7,
+        "agent_innovation": 24,
+        "community_signal": 80.0,
+        "api_consumption_potential": 30,
+        "commercialization": 32,
+        "kimi_strategic_fit": 25
+      },
+      "recommended_action": "暂不跟进",
+      "reason_to_contact_now": "Illustrative demo data；86 stars；No pricing or ecosystem signal",
+      "commercial_summary": "已出现商业化信号，建议补充产品、团队和模型依赖信息后继续评估。",
+      "confidence": "medium",
+      "scoring_mode": "规则预评分",
+      "metadata": {
+        "demo_only": true,
+        "agent_keyword_hits": [],
+        "commercial_keyword_hits": [
+          "revenue"
+        ],
+        "ecosystem_keyword_hits": []
+      }
+    }
+  ]
+}

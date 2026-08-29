@@ -1,0 +1,68 @@
+[
+  {
+    "id": "historical-openclaw",
+    "source": "Historical calibration",
+    "name": "OpenClaw",
+    "url": "https://github.com/openclaw/openclaw",
+    "description": "Open-source personal AI assistant connecting models, tools and messaging channels through a local gateway.",
+    "published_at": "2026-02-01T00:00:00+00:00",
+    "metrics": {"stars": 100000, "forks": 12000, "open_issues": 900},
+    "tags": ["open-source", "personal-assistant", "skills", "tool-calling"],
+    "evidence": ["Historical positive case", "Open-source skill ecosystem", "Rapid developer adoption"],
+    "raw_text": "open source self-hosted AI agent personal assistant skills plugins model API tool calling messaging integration",
+    "metadata": {"calibration_case": true}
+  },
+  {
+    "id": "historical-manus",
+    "source": "Historical calibration",
+    "name": "Manus",
+    "url": "https://manus.im/",
+    "description": "A commercial general-purpose autonomous agent that turns goals into completed digital tasks.",
+    "published_at": "2026-02-01T00:00:00+00:00",
+    "metrics": {"points": 950, "comments": 420},
+    "tags": ["autonomous-agent", "subscription", "browser-agent"],
+    "evidence": ["Historical positive case", "Viral product demonstration", "Clear subscription path"],
+    "raw_text": "autonomous agent browser agent launch waitlist subscription pricing customer API multi-agent",
+    "metadata": {"calibration_case": true}
+  },
+  {
+    "id": "demo-gateway",
+    "source": "Demo signal",
+    "name": "Orbit Gateway",
+    "url": "https://example.com/orbit-gateway",
+    "description": "Illustrative open-source agent gateway with a growing plugin ecosystem and multi-model routing.",
+    "published_at": "2026-08-27T00:00:00+00:00",
+    "metrics": {"stars": 2100, "forks": 280, "open_issues": 42},
+    "tags": ["agentic", "plugin", "self-hosted"],
+    "evidence": ["Illustrative demo data", "2,100 stars in first week", "28 community plugins"],
+    "raw_text": "ai agent open source self-hosted plugin integration multi-model API tool calling",
+    "metadata": {"demo_only": true}
+  },
+  {
+    "id": "demo-browser",
+    "source": "Demo signal",
+    "name": "TaskPilot",
+    "url": "https://example.com/taskpilot",
+    "description": "Illustrative browser agent for sales research and repetitive operations workflows.",
+    "published_at": "2026-08-28T00:00:00+00:00",
+    "metrics": {"points": 330, "comments": 95},
+    "tags": ["browser-agent", "sales", "saas"],
+    "evidence": ["Illustrative demo data", "330 launch-day points", "Team plan announced"],
+    "raw_text": "browser agent workflow automation launch team plan pricing enterprise customer subscription API",
+    "metadata": {"demo_only": true}
+  },
+  {
+    "id": "demo-local",
+    "source": "Demo signal",
+    "name": "TinyDesk Agent",
+    "url": "https://example.com/tinydesk",
+    "description": "Illustrative local-only desktop automation experiment without a clear distribution or revenue model.",
+    "published_at": "2026-08-26T00:00:00+00:00",
+    "metrics": {"stars": 86, "forks": 4},
+    "tags": ["desktop", "local"],
+    "evidence": ["Illustrative demo data", "86 stars", "No pricing or ecosystem signal"],
+    "raw_text": "agent desktop local automation prototype",
+    "metadata": {"demo_only": true}
+  }
+]
+
