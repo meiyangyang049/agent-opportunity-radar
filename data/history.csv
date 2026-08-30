@@ -54,3 +54,13 @@ run_at,id,name,source,score,opportunity_type,recommended_action,metric_name,metr
 2026-08-29T18:25:59+00:00,product-hunt-a0c5bf4389cc,CTRL Micro,Product Hunt,26.6,Manus型,暂不跟进,none,0.0
 2026-08-29T18:25:59+00:00,product-hunt-7ad04df22910,Staats,Product Hunt,25.8,Manus型,暂不跟进,none,0.0
 2026-08-29T18:25:59+00:00,product-hunt-3520512de438,screenpipe,Product Hunt,25.8,Manus型,暂不跟进,none,0.0
+2026-08-30T01:08:05+00:00,github-70860c6f8588,XiaoDuoYa/codex-with-chatgpt,GitHub,64.5,OpenClaw型,持续观察,stars,931.0
+2026-08-30T01:08:05+00:00,github-3ce7d2c164d9,cbrock84/headcount,GitHub,64.1,OpenClaw型,持续观察,stars,248.0
+2026-08-30T01:08:05+00:00,github-fb7016fc2df1,S1N6H/pentest-harness,GitHub,63.2,OpenClaw型,持续观察,stars,286.0
+2026-08-30T01:08:05+00:00,github-1d48523833a1,kacperkapusciak/goldie,GitHub,61.0,OpenClaw型,持续观察,stars,394.0
+2026-08-30T01:08:05+00:00,github-4118bee07688,rome-os/rome,GitHub,60.2,OpenClaw型,持续观察,stars,387.0
+2026-08-30T01:08:05+00:00,github-18592bc8e3fd,muratmula/ai-robinhood-chain,GitHub,59.8,OpenClaw型,暂不跟进,stars,127.0
+2026-08-30T01:08:05+00:00,hackernews-d7e6e850a362,Show HN: Delete yourself from data brokers without a subscription,Hacker News,36.3,Manus型,暂不跟进,points,4.0
+2026-08-30T01:08:05+00:00,hackernews-2687d0cee37b,Build Your Customer Service Team with AI Agents,Hacker News,30.2,Manus型,暂不跟进,points,2.0
+2026-08-30T01:08:05+00:00,product-hunt-a0c5bf4389cc,CTRL Micro,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
+2026-08-30T01:08:05+00:00,product-hunt-b5b8bdf4a70e,Almanac,Product Hunt,25.8,Manus型,暂不跟进,none,0.0
