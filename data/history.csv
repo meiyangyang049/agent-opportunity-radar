@@ -64,3 +64,13 @@ run_at,id,name,source,score,opportunity_type,recommended_action,metric_name,metr
 2026-08-30T01:08:05+00:00,hackernews-2687d0cee37b,Build Your Customer Service Team with AI Agents,Hacker News,30.2,Manus型,暂不跟进,points,2.0
 2026-08-30T01:08:05+00:00,product-hunt-a0c5bf4389cc,CTRL Micro,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
 2026-08-30T01:08:05+00:00,product-hunt-b5b8bdf4a70e,Almanac,Product Hunt,25.8,Manus型,暂不跟进,none,0.0
+2026-08-31T01:08:04+00:00,github-fb7016fc2df1,S1N6H/pentest-harness,GitHub,64.5,OpenClaw型,持续观察,stars,300.0
+2026-08-31T01:08:04+00:00,github-3ce7d2c164d9,cbrock84/headcount,GitHub,64.1,OpenClaw型,持续观察,stars,695.0
+2026-08-31T01:08:04+00:00,github-18592bc8e3fd,muratmula/ai-robinhood-chain,GitHub,62.7,OpenClaw型,持续观察,stars,128.0
+2026-08-31T01:08:04+00:00,github-70860c6f8588,XiaoDuoYa/codex-with-chatgpt,GitHub,62.5,OpenClaw型,持续观察,stars,1396.0
+2026-08-31T01:08:04+00:00,github-1d48523833a1,kacperkapusciak/goldie,GitHub,62.5,OpenClaw型,持续观察,stars,721.0
+2026-08-31T01:08:04+00:00,github-e90474e09adb,acryldev/acryl,GitHub,59.1,OpenClaw型,持续观察,stars,228.0
+2026-08-31T01:08:04+00:00,github-28f88c76de81,Merit-Systems/OpenInstinct,GitHub,58.9,OpenClaw型,持续观察,stars,218.0
+2026-08-31T01:08:04+00:00,product-hunt-49e5944f2b27,Maritime,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
+2026-08-31T01:08:04+00:00,product-hunt-6732605ba2b1,Superagent,Product Hunt,25.8,Manus型,暂不跟进,none,0.0
+2026-08-31T01:08:04+00:00,product-hunt-7ad04df22910,Staats,Product Hunt,23.8,Manus型,暂不跟进,none,0.0

@@ -1,8 +1,8 @@
 {
   "meta": {
     "project": "Agent Opportunity Radar",
-    "generated_at": "2026-08-30T01:08:05+00:00",
-    "generated_at_display": "2026-08-30 09:08 CST",
+    "generated_at": "2026-08-31T01:08:04+00:00",
+    "generated_at_display": "2026-08-31 09:08 CST",
     "mode": "公开信号实时运行",
     "sources": [
       "GitHub",
@@ -12,139 +12,23 @@
     ],
     "warnings": [],
     "notices": [],
-    "candidate_pool_size": 55,
+    "candidate_pool_size": 35,
     "pool_by_source": {
-      "GitHub": 12,
-      "Hacker News": 29,
+      "GitHub": 10,
+      "Hacker News": 12,
       "AI | VentureBeat": 6,
-      "Product Hunt": 6,
+      "Product Hunt": 5,
       "AI News & Artificial Intelligence | TechCrunch": 2
     },
     "pool_by_type": {
-      "OpenClaw型": 16,
-      "其他Agent": 31,
-      "Manus型": 8
+      "OpenClaw型": 17,
+      "其他Agent": 15,
+      "Manus型": 3
     },
     "shortlist_policy": "Top 10；OpenClaw型/Manus型各至少4个（候选充足时）",
     "kimi_model": "kimi-k2.6"
   },
   "candidates": [
-    {
-      "id": "github-70860c6f8588",
-      "source": "GitHub",
-      "name": "XiaoDuoYa/codex-with-chatgpt",
-      "url": "https://github.com/XiaoDuoYa/codex-with-chatgpt",
-      "description": "ChatGPT thinks. Codex works. Use ChatGPT as the planning brain while keeping the Codex harness.",
-      "published_at": "2026-08-28T12:57:24Z",
-      "discovered_at": "2026-08-30T01:08:01+00:00",
-      "author": "XiaoDuoYa",
-      "metrics": {
-        "stars": 931,
-        "forks": 107,
-        "open_issues": 13,
-        "watchers": 931
-      },
-      "tags": [
-        "ai-agents",
-        "chatgpt",
-        "codex",
-        "mcp",
-        "model-context-protocol",
-        "oauth"
-      ],
-      "evidence": [
-        "+65 stars since last run",
-        "931 GitHub stars",
-        "107 forks",
-        "Created 2026-08-28"
-      ],
-      "raw_text": "XiaoDuoYa/codex-with-chatgpt ChatGPT thinks. Codex works. Use ChatGPT as the planning brain while keeping the Codex harness. ai-agents chatgpt codex mcp model-context-protocol oauth",
-      "opportunity_type": "OpenClaw型",
-      "score": 64.5,
-      "dimension_scores": {
-        "growth_speed": 100.0,
-        "agent_innovation": 35,
-        "community_signal": 100.0,
-        "api_consumption_potential": 32,
-        "commercialization": 18,
-        "kimi_strategic_fit": 39
-      },
-      "recommended_action": "持续观察",
-      "reason_to_contact_now": "931 stars，+65 stars增速，MCP协议支持，明确多模型编排架构",
-      "commercial_summary": "高增速开发者工具，ChatGPT+Codex双模型设计显示模型切换意愿，存在接入Kimi API的扩展空间",
-      "confidence": "medium",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "language": "TypeScript",
-        "updated_at": "2026-08-30T01:02:16Z",
-        "homepage": null,
-        "agent_keyword_hits": [
-          "mcp"
-        ],
-        "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": [],
-        "metric_delta": 65.0,
-        "metric_velocity_per_day": 232.77791594130812
-      }
-    },
-    {
-      "id": "github-3ce7d2c164d9",
-      "source": "GitHub",
-      "name": "cbrock84/headcount",
-      "url": "https://github.com/cbrock84/headcount",
-      "description": "An agent organization for Claude Code, structured as a company — 15+ departments, 125+ skills, each independently installable.",
-      "published_at": "2026-08-28T18:03:04Z",
-      "discovered_at": "2026-08-30T01:08:01+00:00",
-      "author": "cbrock84",
-      "metrics": {
-        "stars": 248,
-        "forks": 33,
-        "open_issues": 0,
-        "watchers": 248
-      },
-      "tags": [
-        "agent-marketplace",
-        "claude-code",
-        "claude-code-plugin",
-        "claude-plugin",
-        "claude-skills",
-        "mcp"
-      ],
-      "evidence": [
-        "248 GitHub stars",
-        "33 forks",
-        "Created 2026-08-28"
-      ],
-      "raw_text": "cbrock84/headcount An agent organization for Claude Code, structured as a company — 15+ departments, 125+ skills, each independently installable. agent-marketplace claude-code claude-code-plugin claude-plugin claude-skills mcp",
-      "opportunity_type": "OpenClaw型",
-      "score": 64.1,
-      "dimension_scores": {
-        "growth_speed": 100.0,
-        "agent_innovation": 35,
-        "community_signal": 100.0,
-        "api_consumption_potential": 32,
-        "commercialization": 18,
-        "kimi_strategic_fit": 55
-      },
-      "recommended_action": "持续观察",
-      "reason_to_contact_now": "248 GitHub stars，33 forks，125+ skills独立安装，MCP生态",
-      "commercial_summary": "Claude Code插件生态位，若扩展多模型支持可成为Kimi API在开发者工具中的分发渠道",
-      "confidence": "medium",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "language": "Markdown",
-        "updated_at": "2026-08-30T01:07:54Z",
-        "homepage": "https://cbrock84.github.io/headcount/",
-        "agent_keyword_hits": [
-          "mcp"
-        ],
-        "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": [
-          "plugin",
-          "skill"
-        ]
-      }
-    },
     {
       "id": "github-fb7016fc2df1",
       "source": "GitHub",
@@ -152,13 +36,13 @@
       "url": "https://github.com/S1N6H/pentest-harness",
       "description": "Pentest Harness — Heaven for Hackers. A self-hosted AI agent harness for authorized pentests, bug bounty, security labs, and CTFs. Bring your own AI model API; sessions stay local.",
       "published_at": "2026-08-26T04:57:19Z",
-      "discovered_at": "2026-08-30T01:08:01+00:00",
+      "discovered_at": "2026-08-31T01:07:58+00:00",
       "author": "S1N6H",
       "metrics": {
-        "stars": 286,
-        "forks": 47,
+        "stars": 300,
+        "forks": 50,
         "open_issues": 7,
-        "watchers": 286
+        "watchers": 300
       },
       "tags": [
         "ai-agent",
@@ -174,15 +58,16 @@
         "security-tools"
       ],
       "evidence": [
-        "286 GitHub stars",
-        "47 forks",
+        "+14 stars since last run",
+        "300 GitHub stars",
+        "50 forks",
         "Created 2026-08-26"
       ],
       "raw_text": "S1N6H/pentest-harness Pentest Harness — Heaven for Hackers. A self-hosted AI agent harness for authorized pentests, bug bounty, security labs, and CTFs. Bring your own AI model API; sessions stay local. ai-agent anthropic-api bug-bounty infosec llm offensive-security open-source openai-api pentesting red-team security-tools",
       "opportunity_type": "OpenClaw型",
-      "score": 63.2,
+      "score": 64.5,
       "dimension_scores": {
-        "growth_speed": 86.9,
+        "growth_speed": 84.1,
         "agent_innovation": 35,
         "community_signal": 100.0,
         "api_consumption_potential": 37,
@@ -190,13 +75,13 @@
         "kimi_strategic_fit": 47
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "286 stars，明确BYO API设计，支持OpenAI/Anthropic API，自托管安全场景",
-      "commercial_summary": "安全垂直自托管Agent平台，BYO API模式意味着模型可替换，Kimi可争取成为默认安全模型选项",
+      "reason_to_contact_now": "300星、50 fork，明确'Bring your own AI model API'架构，支持OpenAI/Anthropic API，自托管安全场景",
+      "commercial_summary": "安全领域自托管Agent框架，已验证模型API接入模式；安全合规场景对国产模型替代有潜在需求，可能成为Kimi API企业客户或垂直生态伙伴",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "language": "TypeScript",
-        "updated_at": "2026-08-30T01:01:25Z",
+        "updated_at": "2026-08-30T20:02:51Z",
         "homepage": "https://github.com/S1N6H/pentest-harness",
         "agent_keyword_hits": [
           "ai agent"
@@ -206,112 +91,70 @@
         ],
         "ecosystem_keyword_hits": [
           "self-hosted"
-        ]
-      }
-    },
-    {
-      "id": "github-1d48523833a1",
-      "source": "GitHub",
-      "name": "kacperkapusciak/goldie",
-      "url": "https://github.com/kacperkapusciak/goldie",
-      "description": "✨ agentic app store previews and screenshots",
-      "published_at": "2026-08-24T12:36:59Z",
-      "discovered_at": "2026-08-30T01:08:01+00:00",
-      "author": "kacperkapusciak",
-      "metrics": {
-        "stars": 394,
-        "forks": 25,
-        "open_issues": 3,
-        "watchers": 394
-      },
-      "tags": [],
-      "evidence": [
-        "394 GitHub stars",
-        "25 forks",
-        "Created 2026-08-24"
-      ],
-      "raw_text": "kacperkapusciak/goldie ✨ agentic app store previews and screenshots ",
-      "opportunity_type": "OpenClaw型",
-      "score": 61.0,
-      "dimension_scores": {
-        "growth_speed": 86.2,
-        "agent_innovation": 35,
-        "community_signal": 100.0,
-        "api_consumption_potential": 32,
-        "commercialization": 18,
-        "kimi_strategic_fit": 39
-      },
-      "recommended_action": "持续观察",
-      "reason_to_contact_now": "6天内394 stars/25 forks，TypeScript项目，'agentic app store previews'定位开发者工具。",
-      "commercial_summary": "开发者工具链项目，增长快，可观察其是否接入LLM API生成预览内容，潜在生态伙伴。",
-      "confidence": "medium",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "language": "TypeScript",
-        "updated_at": "2026-08-30T01:05:49Z",
-        "homepage": "",
-        "agent_keyword_hits": [
-          "agentic"
         ],
-        "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": []
+        "metric_delta": 14.0,
+        "metric_velocity_per_day": 14.000162038912487
       }
     },
     {
-      "id": "github-4118bee07688",
+      "id": "github-3ce7d2c164d9",
       "source": "GitHub",
-      "name": "rome-os/rome",
-      "url": "https://github.com/rome-os/rome",
-      "description": "Rome is the agentic OS.",
-      "published_at": "2026-08-23T06:15:15Z",
-      "discovered_at": "2026-08-30T01:08:01+00:00",
-      "author": "rome-os",
+      "name": "cbrock84/headcount",
+      "url": "https://github.com/cbrock84/headcount",
+      "description": "An agent organization for Claude Code, structured as a company — 15+ departments, 125+ skills, each independently installable.",
+      "published_at": "2026-08-28T18:03:04Z",
+      "discovered_at": "2026-08-31T01:07:57+00:00",
+      "author": "cbrock84",
       "metrics": {
-        "stars": 387,
-        "forks": 22,
-        "open_issues": 13,
-        "watchers": 387
+        "stars": 695,
+        "forks": 104,
+        "open_issues": 1,
+        "watchers": 695
       },
       "tags": [
-        "agent",
-        "agent-os",
+        "agent-marketplace",
         "claude-code",
-        "codex",
-        "llm"
+        "claude-code-plugin",
+        "claude-plugin",
+        "claude-skills",
+        "mcp"
       ],
       "evidence": [
-        "+2 stars since last run",
-        "387 GitHub stars",
-        "22 forks",
-        "Created 2026-08-23"
+        "+447 stars since last run",
+        "695 GitHub stars",
+        "104 forks",
+        "Created 2026-08-28"
       ],
-      "raw_text": "rome-os/rome Rome is the agentic OS. agent agent-os claude-code codex llm",
+      "raw_text": "cbrock84/headcount An agent organization for Claude Code, structured as a company — 15+ departments, 125+ skills, each independently installable. agent-marketplace claude-code claude-code-plugin claude-plugin claude-skills mcp",
       "opportunity_type": "OpenClaw型",
-      "score": 60.2,
+      "score": 64.1,
       "dimension_scores": {
-        "growth_speed": 82.9,
+        "growth_speed": 100.0,
         "agent_innovation": 35,
         "community_signal": 100.0,
         "api_consumption_potential": 32,
         "commercialization": 18,
-        "kimi_strategic_fit": 39
+        "kimi_strategic_fit": 55
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "7天387 stars/22 forks，日增7 stars，'agentic OS'定位，TypeScript，标签含claude-code/codex。",
-      "commercial_summary": "Agent操作系统层项目，增长快且明确对标Claude Code/Codex，需观察其模型Provider策略和开发者采用深度。",
+      "reason_to_contact_now": "3天获695星、104 fork，增速极快；125+可独立安装skill，MCP生态位明确",
+      "commercial_summary": "Claude Code技能市场生态，若扩展多模型支持可能成为Kimi技能分发渠道或MCP生态伙伴",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
-        "language": "TypeScript",
-        "updated_at": "2026-08-30T01:06:33Z",
-        "homepage": "https://romeos.cc",
+        "language": "Markdown",
+        "updated_at": "2026-08-31T01:07:29Z",
+        "homepage": "https://cbrock84.github.io/headcount/",
         "agent_keyword_hits": [
-          "agentic"
+          "mcp"
         ],
         "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": [],
-        "metric_delta": 2.0,
-        "metric_velocity_per_day": 7.162397413578711
+        "ecosystem_keyword_hits": [
+          "plugin",
+          "skill"
+        ],
+        "metric_delta": 447.0,
+        "metric_velocity_per_day": 447.00517367099155
       }
     },
     {
@@ -321,13 +164,13 @@
       "url": "https://github.com/muratmula/ai-robinhood-chain",
       "description": "Autonomous multi-agent crypto intelligence & trading ecosystem for Robinhood Chain L2 (EVM #4663) operated via Discord Command Center, Terminal TUI, REST API, & Telegram",
       "published_at": "2026-08-25T08:11:02Z",
-      "discovered_at": "2026-08-30T01:08:01+00:00",
+      "discovered_at": "2026-08-31T01:07:57+00:00",
       "author": "muratmula",
       "metrics": {
-        "stars": 127,
+        "stars": 128,
         "forks": 958,
         "open_issues": 0,
-        "watchers": 127
+        "watchers": 128
       },
       "tags": [
         "ai-agent",
@@ -337,30 +180,30 @@
         "trading-bot"
       ],
       "evidence": [
-        "+5 stars since last run",
-        "127 GitHub stars",
+        "+1 stars since last run",
+        "128 GitHub stars",
         "958 forks",
         "Created 2026-08-25"
       ],
       "raw_text": "muratmula/ai-robinhood-chain Autonomous multi-agent crypto intelligence & trading ecosystem for Robinhood Chain L2 (EVM #4663) operated via Discord Command Center, Terminal TUI, REST API, & Telegram ai-agent multiagent robinhood robinhood-crypto trading-bot",
       "opportunity_type": "OpenClaw型",
-      "score": 59.8,
+      "score": 62.7,
       "dimension_scores": {
-        "growth_speed": 81.9,
+        "growth_speed": 69.3,
         "agent_innovation": 35,
         "community_signal": 100.0,
         "api_consumption_potential": 55,
         "commercialization": 32,
         "kimi_strategic_fit": 39
       },
-      "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "127 stars但958 forks异常倒挂，且聚焦Robinhood Chain L2加密交易，生态极窄",
-      "commercial_summary": "加密垂直领域自托管工具，forks/stars比例异常可能存在刷量或分叉投机，Kimi战略契合度低",
-      "confidence": "low",
+      "recommended_action": "持续观察",
+      "reason_to_contact_now": "128 stars但958 forks（fork/star比异常高，可能刷量或模板fork），REST API接口存在，多agent crypto交易场景有潜在API消耗",
+      "commercial_summary": "多agent交易生态，若模型用于策略分析/决策有API潜力；需验证fork真实性及是否接入外部LLM API",
+      "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "language": "TypeScript",
-        "updated_at": "2026-08-29T23:44:45Z",
+        "updated_at": "2026-08-30T05:20:29Z",
         "homepage": "",
         "agent_keyword_hits": [
           "multi-agent"
@@ -369,114 +212,246 @@
           "api"
         ],
         "ecosystem_keyword_hits": [],
-        "metric_delta": 5.0,
-        "metric_velocity_per_day": 16.864459712679576
+        "metric_delta": 1.0,
+        "metric_velocity_per_day": 1.0000115742080349
       }
     },
     {
-      "id": "hackernews-d7e6e850a362",
-      "source": "Hacker News",
-      "name": "Show HN: Delete yourself from data brokers without a subscription",
-      "url": "https://github.com/k7cfo/remove-your-data",
-      "description": "I signed up for a paid service to get my phone, addresses, and vehicles off the public internet. It didn’t work. So I built remove-your-data, an open-source repo that tells your agent exactly what to do to remove your personal information online.",
-      "published_at": "1788042716",
-      "discovered_at": "2026-08-30T01:08:05+00:00",
-      "author": "k7peak",
+      "id": "github-70860c6f8588",
+      "source": "GitHub",
+      "name": "XiaoDuoYa/codex-with-chatgpt",
+      "url": "https://github.com/XiaoDuoYa/codex-with-chatgpt",
+      "description": "ChatGPT thinks. Codex works. Use ChatGPT as the planning brain while keeping the Codex harness.",
+      "published_at": "2026-08-28T12:57:24Z",
+      "discovered_at": "2026-08-31T01:07:58+00:00",
+      "author": "XiaoDuoYa",
       "metrics": {
-        "points": 4,
-        "comments": 4
+        "stars": 1396,
+        "forks": 155,
+        "open_issues": 1,
+        "watchers": 1396
       },
-      "tags": [],
-      "evidence": [
-        "4 HN points",
-        "4 comments"
+      "tags": [
+        "ai-agents",
+        "chatgpt",
+        "codex",
+        "mcp",
+        "model-context-protocol",
+        "oauth"
       ],
-      "raw_text": "Show HN: Delete yourself from data brokers without a subscription I signed up for a paid service to get my phone, addresses, and vehicles off the public internet. It didn’t work. So I built remove-your-data, an open-source repo that tells your agent exactly what to do to remove your personal information online.",
-      "opportunity_type": "Manus型",
-      "score": 36.3,
-      "dimension_scores": {
-        "growth_speed": 34.9,
-        "agent_innovation": 24,
-        "community_signal": 59.1,
-        "api_consumption_potential": 30,
-        "commercialization": 32,
-        "kimi_strategic_fit": 33
-      },
-      "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "仅4 HN points、4 comments，信号极弱",
-      "commercial_summary": "个人开源工具，无API消费规模证据，非高价值客户或生态伙伴",
-      "confidence": "low",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "discussion_url": "https://news.ycombinator.com/item?id=49493881",
-        "agent_keyword_hits": [],
-        "commercial_keyword_hits": [
-          "subscription"
-        ],
-        "ecosystem_keyword_hits": []
-      }
-    },
-    {
-      "id": "hackernews-2687d0cee37b",
-      "source": "Hacker News",
-      "name": "Build Your Customer Service Team with AI Agents",
-      "url": "https://aimujib.com/",
-      "description": "Build Your Customer Service Team with AI Agents",
-      "published_at": "1788050975",
-      "discovered_at": "2026-08-30T01:08:05+00:00",
-      "author": "anaspro",
-      "metrics": {
-        "points": 2,
-        "comments": 0
-      },
-      "tags": [],
       "evidence": [
-        "2 HN points",
-        "0 comments"
+        "+465 stars since last run",
+        "1,396 GitHub stars",
+        "155 forks",
+        "Created 2026-08-28"
       ],
-      "raw_text": "Build Your Customer Service Team with AI Agents ",
-      "opportunity_type": "Manus型",
-      "score": 30.2,
+      "raw_text": "XiaoDuoYa/codex-with-chatgpt ChatGPT thinks. Codex works. Use ChatGPT as the planning brain while keeping the Codex harness. ai-agents chatgpt codex mcp model-context-protocol oauth",
+      "opportunity_type": "OpenClaw型",
+      "score": 62.5,
       "dimension_scores": {
-        "growth_speed": 30.8,
+        "growth_speed": 100.0,
         "agent_innovation": 35,
-        "community_signal": 39.4,
-        "api_consumption_potential": 37,
-        "commercialization": 32,
+        "community_signal": 100.0,
+        "api_consumption_potential": 32,
+        "commercialization": 18,
         "kimi_strategic_fit": 39
       },
-      "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "2 HN points/0 comments，官网aimujib.com，'AI customer service team'为饱和赛道早期项目。",
-      "commercial_summary": "客服Agent SaaS竞争激烈，无差异化信号、无用户或融资证据，API消耗潜力未验证。",
-      "confidence": "low",
+      "recommended_action": "持续观察",
+      "reason_to_contact_now": "3天获1,396星、155 fork，支持MCP协议，明确'ChatGPT规划+Codex执行'架构",
+      "commercial_summary": "多模型编排开发工具，已集成MCP；若扩展通用模型接入层可能成为Kimi API分发节点或开发者生态伙伴",
+      "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
-        "discussion_url": "https://news.ycombinator.com/item?id=49494653",
+        "language": "TypeScript",
+        "updated_at": "2026-08-31T01:05:16Z",
+        "homepage": null,
         "agent_keyword_hits": [
-          "ai agent"
+          "mcp"
         ],
-        "commercial_keyword_hits": [
-          "customer"
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": [],
+        "metric_delta": 465.0,
+        "metric_velocity_per_day": 465.00538200673617
+      }
+    },
+    {
+      "id": "github-1d48523833a1",
+      "source": "GitHub",
+      "name": "kacperkapusciak/goldie",
+      "url": "https://github.com/kacperkapusciak/goldie",
+      "description": "✨ agentic app store previews and screenshots",
+      "published_at": "2026-08-24T12:36:59Z",
+      "discovered_at": "2026-08-31T01:07:58+00:00",
+      "author": "kacperkapusciak",
+      "metrics": {
+        "stars": 721,
+        "forks": 58,
+        "open_issues": 5,
+        "watchers": 721
+      },
+      "tags": [],
+      "evidence": [
+        "+327 stars since last run",
+        "721 GitHub stars",
+        "58 forks",
+        "Created 2026-08-24"
+      ],
+      "raw_text": "kacperkapusciak/goldie ✨ agentic app store previews and screenshots ",
+      "opportunity_type": "OpenClaw型",
+      "score": 62.5,
+      "dimension_scores": {
+        "growth_speed": 100.0,
+        "agent_innovation": 35,
+        "community_signal": 100.0,
+        "api_consumption_potential": 32,
+        "commercialization": 18,
+        "kimi_strategic_fit": 39
+      },
+      "recommended_action": "持续观察",
+      "reason_to_contact_now": "7天获721星、58 fork，'agentic app store previews'定位明确",
+      "commercial_summary": "Agentic应用商店素材生成工具，若扩展多平台/多模型支持可能成为Kimi生态展示案例或小型API客户",
+      "confidence": "medium",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "metadata": {
+        "language": "TypeScript",
+        "updated_at": "2026-08-31T00:55:17Z",
+        "homepage": "",
+        "agent_keyword_hits": [
+          "agentic"
         ],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": [],
+        "metric_delta": 327.0,
+        "metric_velocity_per_day": 327.00378476602737
+      }
+    },
+    {
+      "id": "github-e90474e09adb",
+      "source": "GitHub",
+      "name": "acryldev/acryl",
+      "url": "https://github.com/acryldev/acryl",
+      "description": "ACRYL - Agent Context Relay Yielding Lifecycles. One persistent workspace, one canonical context, any coding agent.",
+      "published_at": "2026-08-25T15:53:56Z",
+      "discovered_at": "2026-08-31T01:07:58+00:00",
+      "author": "acryldev",
+      "metrics": {
+        "stars": 228,
+        "forks": 26,
+        "open_issues": 1,
+        "watchers": 228
+      },
+      "tags": [
+        "acryl",
+        "agent-context-relay",
+        "agentic-development-environment",
+        "ai-agents",
+        "cordis",
+        "deepseek-harness"
+      ],
+      "evidence": [
+        "228 GitHub stars",
+        "26 forks",
+        "Created 2026-08-25"
+      ],
+      "raw_text": "acryldev/acryl ACRYL - Agent Context Relay Yielding Lifecycles. One persistent workspace, one canonical context, any coding agent. acryl agent-context-relay agentic-development-environment ai-agents cordis deepseek-harness",
+      "opportunity_type": "OpenClaw型",
+      "score": 59.1,
+      "dimension_scores": {
+        "growth_speed": 78.5,
+        "agent_innovation": 35,
+        "community_signal": 100.0,
+        "api_consumption_potential": 32,
+        "commercialization": 18,
+        "kimi_strategic_fit": 39
+      },
+      "recommended_action": "持续观察",
+      "reason_to_contact_now": "228 stars，26 forks，创建仅5天，homepage为acryl.dev，定位agent context relay（agent开发环境），有deepseek-harness标签说明已适配特定模型",
+      "commercial_summary": "agent开发环境/上下文管理工具，若成为开发者工作流默认infra，有模型接入合作空间；需跟踪默认provider设置",
+      "confidence": "medium",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "metadata": {
+        "language": "TypeScript",
+        "updated_at": "2026-08-30T22:57:48Z",
+        "homepage": "https://acryl.dev",
+        "agent_keyword_hits": [
+          "agentic"
+        ],
+        "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": []
       }
     },
     {
-      "id": "product-hunt-a0c5bf4389cc",
+      "id": "github-28f88c76de81",
+      "source": "GitHub",
+      "name": "Merit-Systems/OpenInstinct",
+      "url": "https://github.com/Merit-Systems/OpenInstinct",
+      "description": "iMessage personal assistant + password vault",
+      "published_at": "2026-08-25T14:42:47Z",
+      "discovered_at": "2026-08-31T01:07:58+00:00",
+      "author": "Merit-Systems",
+      "metrics": {
+        "stars": 218,
+        "forks": 28,
+        "open_issues": 15,
+        "watchers": 218
+      },
+      "tags": [
+        "agent",
+        "ai",
+        "ai-agents",
+        "imessage"
+      ],
+      "evidence": [
+        "+16 stars since last run",
+        "218 GitHub stars",
+        "28 forks",
+        "Created 2026-08-25"
+      ],
+      "raw_text": "Merit-Systems/OpenInstinct iMessage personal assistant + password vault agent ai ai-agents imessage",
+      "opportunity_type": "OpenClaw型",
+      "score": 58.9,
+      "dimension_scores": {
+        "growth_speed": 77.7,
+        "agent_innovation": 35,
+        "community_signal": 100.0,
+        "api_consumption_potential": 32,
+        "commercialization": 18,
+        "kimi_strategic_fit": 39
+      },
+      "recommended_action": "持续观察",
+      "reason_to_contact_now": "218 stars，+16 stars/day增速，iMessage personal assistant场景明确，15 open issues显示活跃开发，TypeScript生态易集成",
+      "commercial_summary": "个人助手agent开源项目，终端用户场景有模型API消耗潜力；需确认默认LLM provider及是否支持多模型切换",
+      "confidence": "medium",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "metadata": {
+        "language": "TypeScript",
+        "updated_at": "2026-08-31T00:35:14Z",
+        "homepage": "coming-soon.com",
+        "agent_keyword_hits": [
+          "personal assistant"
+        ],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": [],
+        "metric_delta": 16.0,
+        "metric_velocity_per_day": 12.392649036306588
+      }
+    },
+    {
+      "id": "product-hunt-49e5944f2b27",
       "source": "Product Hunt",
-      "name": "CTRL Micro",
-      "url": "https://www.producthunt.com/products/ctrl-micro",
-      "description": "Haptic control deck for your Mac and AI agents Discussion | Link",
-      "published_at": "2026-08-24T14:54:57-07:00",
-      "discovered_at": "2026-08-30T01:08:05+00:00",
-      "author": "Andrew Flores",
+      "name": "Maritime",
+      "url": "https://www.producthunt.com/products/maritime",
+      "description": "Dedicated computers for AI agents, starting at $1/month Discussion | Link",
+      "published_at": "2026-08-28T15:04:42-07:00",
+      "discovered_at": "2026-08-31T01:08:03+00:00",
+      "author": "Maria Gorskikh",
       "metrics": {},
       "tags": [],
       "evidence": [
         "Published via Product Hunt",
-        "2026-08-24T14:54:57-07:00"
+        "2026-08-28T15:04:42-07:00"
       ],
-      "raw_text": "CTRL Micro Haptic control deck for your Mac and AI agents Discussion | Link ",
+      "raw_text": "Maritime Dedicated computers for AI agents, starting at $1/month Discussion | Link ",
       "opportunity_type": "Manus型",
       "score": 29.6,
       "dimension_scores": {
@@ -488,14 +463,14 @@
         "kimi_strategic_fit": 31
       },
       "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "硬件控制deck，无API调用或模型依赖证据",
-      "commercial_summary": "Mac外设硬件，AI agent为营销标签，非模型API消费者或软件生态伙伴",
+      "reason_to_contact_now": "Product Hunt发布，$1/月起价的AI Agent专用云主机，无用户或收入验证数据",
+      "commercial_summary": "AI Agent基础设施托管服务，商业模式为算力租赁而非API消费，与Kimi API客户画像错位",
       "confidence": "low",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "feed_url": "https://www.producthunt.com/feed",
         "content_kind": "product_launch",
-        "original_title": "CTRL Micro",
+        "original_title": "Maritime",
         "agent_keyword_hits": [
           "ai agent"
         ],
@@ -504,21 +479,21 @@
       }
     },
     {
-      "id": "product-hunt-b5b8bdf4a70e",
+      "id": "product-hunt-6732605ba2b1",
       "source": "Product Hunt",
-      "name": "Almanac",
-      "url": "https://www.producthunt.com/products/almanac-5",
-      "description": "The agent with a second brain Discussion | Link",
-      "published_at": "2026-08-27T13:43:25-07:00",
-      "discovered_at": "2026-08-30T01:08:05+00:00",
-      "author": "Garry Tan",
+      "name": "Superagent",
+      "url": "https://www.producthunt.com/products/superagent-a-home-for-your-ai-agents",
+      "description": "Claude Code for the rest of us Discussion | Link",
+      "published_at": "2026-08-29T15:27:58-07:00",
+      "discovered_at": "2026-08-31T01:08:03+00:00",
+      "author": "Worathiti Pung",
       "metrics": {},
       "tags": [],
       "evidence": [
         "Published via Product Hunt",
-        "2026-08-27T13:43:25-07:00"
+        "2026-08-29T15:27:58-07:00"
       ],
-      "raw_text": "Almanac The agent with a second brain Discussion | Link ",
+      "raw_text": "Superagent Claude Code for the rest of us Discussion | Link ",
       "opportunity_type": "Manus型",
       "score": 25.8,
       "dimension_scores": {
@@ -530,14 +505,54 @@
         "kimi_strategic_fit": 25
       },
       "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "Published via Product Hunt；2026-08-27T13:43:25-07:00",
-      "commercial_summary": "产品型机会，优先判断API调用规模、付费增长和战略客户合作空间。",
-      "confidence": "medium",
-      "scoring_mode": "规则预评分",
+      "reason_to_contact_now": "Product Hunt发布，'Claude Code for the rest of us'定位，无用户或技术实现细节",
+      "commercial_summary": "终端用户编码Agent产品，信息不足无法判断API调用规模或模型接入策略",
+      "confidence": "low",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "feed_url": "https://www.producthunt.com/feed",
         "content_kind": "product_launch",
-        "original_title": "Almanac",
+        "original_title": "Superagent",
+        "agent_keyword_hits": [],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": []
+      }
+    },
+    {
+      "id": "product-hunt-7ad04df22910",
+      "source": "Product Hunt",
+      "name": "Staats",
+      "url": "https://www.producthunt.com/products/staats-3",
+      "description": "Ask your coding agent how your site is doing Discussion | Link",
+      "published_at": "2026-08-28T00:12:12-07:00",
+      "discovered_at": "2026-08-31T01:08:03+00:00",
+      "author": "Myster Violets",
+      "metrics": {},
+      "tags": [],
+      "evidence": [
+        "Published via Product Hunt",
+        "2026-08-28T00:12:12-07:00"
+      ],
+      "raw_text": "Staats Ask your coding agent how your site is doing Discussion | Link ",
+      "opportunity_type": "Manus型",
+      "score": 23.8,
+      "dimension_scores": {
+        "growth_speed": 30.0,
+        "agent_innovation": 24,
+        "community_signal": 18.0,
+        "api_consumption_potential": 25,
+        "commercialization": 36,
+        "kimi_strategic_fit": 25
+      },
+      "recommended_action": "暂不跟进",
+      "reason_to_contact_now": "Product Hunt发布，描述模糊（coding agent监控网站状态），无用户数据、无模型依赖信息",
+      "commercial_summary": "早期产品型agent，信号过弱，需观察是否产生实际API调用规模",
+      "confidence": "medium",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "metadata": {
+        "feed_url": "https://www.producthunt.com/feed",
+        "content_kind": "product_launch",
+        "original_title": "Staats",
         "agent_keyword_hits": [],
         "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": []
