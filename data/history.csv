@@ -74,3 +74,13 @@ run_at,id,name,source,score,opportunity_type,recommended_action,metric_name,metr
 2026-08-31T01:08:04+00:00,product-hunt-49e5944f2b27,Maritime,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
 2026-08-31T01:08:04+00:00,product-hunt-6732605ba2b1,Superagent,Product Hunt,25.8,Manus型,暂不跟进,none,0.0
 2026-08-31T01:08:04+00:00,product-hunt-7ad04df22910,Staats,Product Hunt,23.8,Manus型,暂不跟进,none,0.0
+2026-09-01T01:14:25+00:00,github-3ce7d2c164d9,cbrock84/headcount,GitHub,67.1,OpenClaw型,持续观察,stars,851.0
+2026-09-01T01:14:25+00:00,github-fb7016fc2df1,S1N6H/pentest-harness,GitHub,64.9,OpenClaw型,持续观察,stars,311.0
+2026-09-01T01:14:25+00:00,github-70860c6f8588,XiaoDuoYa/codex-with-chatgpt,GitHub,64.5,OpenClaw型,持续观察,stars,1846.0
+2026-09-01T01:14:25+00:00,github-bdbe69dc55e2,hkqr/my-free-code,GitHub,62.9,OpenClaw型,持续观察,stars,600.0
+2026-09-01T01:14:25+00:00,github-32c3cd0969a2,Nanako0129/sepia,GitHub,62.2,OpenClaw型,持续观察,stars,1237.0
+2026-09-01T01:14:25+00:00,github-e90474e09adb,acryldev/acryl,GitHub,58.6,OpenClaw型,持续观察,stars,233.0
+2026-09-01T01:14:25+00:00,hackernews-a38b66657035,"Show HN: *Another* marketplace for returns, overstock, and second-life inventory",Hacker News,31.6,Manus型,暂不跟进,points,4.0
+2026-09-01T01:14:25+00:00,hackernews-5768347a4dc5,Show HN: An agent that finds you jobs with just your resume,Hacker News,30.5,Manus型,暂不跟进,points,2.0
+2026-09-01T01:14:25+00:00,product-hunt-49e5944f2b27,Maritime,Product Hunt,27.6,Manus型,暂不跟进,none,0.0
+2026-09-01T01:14:25+00:00,product-hunt-6732605ba2b1,Superagent,Product Hunt,25.8,Manus型,暂不跟进,none,0.0
