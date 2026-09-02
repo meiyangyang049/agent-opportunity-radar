@@ -84,3 +84,13 @@ run_at,id,name,source,score,opportunity_type,recommended_action,metric_name,metr
 2026-09-01T01:14:25+00:00,hackernews-5768347a4dc5,Show HN: An agent that finds you jobs with just your resume,Hacker News,30.5,Manus型,暂不跟进,points,2.0
 2026-09-01T01:14:25+00:00,product-hunt-49e5944f2b27,Maritime,Product Hunt,27.6,Manus型,暂不跟进,none,0.0
 2026-09-01T01:14:25+00:00,product-hunt-6732605ba2b1,Superagent,Product Hunt,25.8,Manus型,暂不跟进,none,0.0
+2026-09-02T01:13:22+00:00,github-32c3cd0969a2,Nanako0129/sepia,GitHub,64.2,OpenClaw型,持续观察,stars,1357.0
+2026-09-02T01:13:22+00:00,github-bdbe69dc55e2,hkqr/my-free-code,GitHub,64.2,OpenClaw型,持续观察,stars,617.0
+2026-09-02T01:13:22+00:00,github-3ce7d2c164d9,cbrock84/headcount,GitHub,64.1,OpenClaw型,持续观察,stars,951.0
+2026-09-02T01:13:22+00:00,github-7214d70d1e1a,brayonpi/hexstellar,GitHub,62.6,OpenClaw型,持续观察,stars,538.0
+2026-09-02T01:13:22+00:00,github-70860c6f8588,XiaoDuoYa/codex-with-chatgpt,GitHub,62.5,OpenClaw型,持续观察,stars,2135.0
+2026-09-02T01:13:22+00:00,github-fb7016fc2df1,S1N6H/pentest-harness,GitHub,62.5,OpenClaw型,持续观察,stars,321.0
+2026-09-02T01:13:22+00:00,product-hunt-20a339de602e,Keiki,Product Hunt,29.8,Manus型,暂不跟进,none,0.0
+2026-09-02T01:13:22+00:00,product-hunt-1864f8f1d89f,Naseem,Product Hunt,27.6,Manus型,暂不跟进,none,0.0
+2026-09-02T01:13:22+00:00,product-hunt-5c5390fa86a2,Murmell,Product Hunt,27.6,Manus型,暂不跟进,none,0.0
+2026-09-02T01:13:22+00:00,product-hunt-5fe9e9644b44,ThunderPhone,Product Hunt,24.8,Manus型,暂不跟进,none,0.0
