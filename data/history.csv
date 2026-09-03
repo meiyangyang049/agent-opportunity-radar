@@ -94,3 +94,13 @@ run_at,id,name,source,score,opportunity_type,recommended_action,metric_name,metr
 2026-09-02T01:13:22+00:00,product-hunt-1864f8f1d89f,Naseem,Product Hunt,27.6,Manus型,暂不跟进,none,0.0
 2026-09-02T01:13:22+00:00,product-hunt-5c5390fa86a2,Murmell,Product Hunt,27.6,Manus型,暂不跟进,none,0.0
 2026-09-02T01:13:22+00:00,product-hunt-5fe9e9644b44,ThunderPhone,Product Hunt,24.8,Manus型,暂不跟进,none,0.0
+2026-09-03T01:13:48+00:00,github-a784b50630fe,2akouwu/reverify,GitHub,70.2,OpenClaw型,持续观察,stars,583.0
+2026-09-03T01:13:48+00:00,github-3ce7d2c164d9,cbrock84/headcount,GitHub,68.1,OpenClaw型,持续观察,stars,1117.0
+2026-09-03T01:13:48+00:00,github-7214d70d1e1a,brayonpi/hexstellar,GitHub,66.7,OpenClaw型,持续观察,stars,705.0
+2026-09-03T01:13:48+00:00,github-70860c6f8588,XiaoDuoYa/codex-with-chatgpt,GitHub,64.5,OpenClaw型,持续观察,stars,2276.0
+2026-09-03T01:13:48+00:00,github-32c3cd0969a2,Nanako0129/sepia,GitHub,62.2,OpenClaw型,持续观察,stars,1581.0
+2026-09-03T01:13:48+00:00,github-bdbe69dc55e2,hkqr/my-free-code,GitHub,61.5,OpenClaw型,持续观察,stars,622.0
+2026-09-03T01:13:48+00:00,product-hunt-db323b4af70c,Doop,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
+2026-09-03T01:13:48+00:00,product-hunt-4bc40701a3ef,OpenClaw 2.0,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
+2026-09-03T01:13:48+00:00,product-hunt-5c5390fa86a2,Murmell,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
+2026-09-03T01:13:48+00:00,product-hunt-1864f8f1d89f,Naseem,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
