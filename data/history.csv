@@ -104,3 +104,13 @@ run_at,id,name,source,score,opportunity_type,recommended_action,metric_name,metr
 2026-09-03T01:13:48+00:00,product-hunt-4bc40701a3ef,OpenClaw 2.0,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
 2026-09-03T01:13:48+00:00,product-hunt-5c5390fa86a2,Murmell,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
 2026-09-03T01:13:48+00:00,product-hunt-1864f8f1d89f,Naseem,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
+2026-09-04T01:12:14+00:00,github-0380256ca5f4,ZJU-REAL/Easel,GitHub,69.8,OpenClaw型,持续观察,stars,305.0
+2026-09-04T01:12:14+00:00,github-3ce7d2c164d9,cbrock84/headcount,GitHub,69.1,OpenClaw型,持续观察,stars,1185.0
+2026-09-04T01:12:14+00:00,github-a784b50630fe,2akouwu/reverify,GitHub,68.3,OpenClaw型,持续观察,stars,784.0
+2026-09-04T01:12:14+00:00,github-70860c6f8588,XiaoDuoYa/codex-with-chatgpt,GitHub,64.5,OpenClaw型,持续观察,stars,2398.0
+2026-09-04T01:12:14+00:00,github-32c3cd0969a2,Nanako0129/sepia,GitHub,64.2,OpenClaw型,持续观察,stars,1875.0
+2026-09-04T01:12:14+00:00,github-f7101da5026b,Agenta-AI/awesome-ai-agent-platforms,GitHub,58.4,OpenClaw型,暂不跟进,stars,110.0
+2026-09-04T01:12:14+00:00,hackernews-9d7b57b31235,Show HN: DrawDB Pro – design database schemas for your team and agents,Hacker News,28.4,Manus型,暂不跟进,points,3.0
+2026-09-04T01:12:14+00:00,product-hunt-d90828786d5f,Monid,Product Hunt,25.8,Manus型,暂不跟进,none,0.0
+2026-09-04T01:12:14+00:00,product-hunt-5ee0583290f5,Stitch AI by Dynamic Mockups,Product Hunt,25.8,Manus型,暂不跟进,none,0.0
+2026-09-04T01:12:14+00:00,product-hunt-0c83deab4942,Grove,Product Hunt,25.6,Manus型,暂不跟进,none,0.0
