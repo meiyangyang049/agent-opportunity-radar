@@ -114,3 +114,13 @@ run_at,id,name,source,score,opportunity_type,recommended_action,metric_name,metr
 2026-09-04T01:12:14+00:00,product-hunt-d90828786d5f,Monid,Product Hunt,25.8,Manus型,暂不跟进,none,0.0
 2026-09-04T01:12:14+00:00,product-hunt-5ee0583290f5,Stitch AI by Dynamic Mockups,Product Hunt,25.8,Manus型,暂不跟进,none,0.0
 2026-09-04T01:12:14+00:00,product-hunt-0c83deab4942,Grove,Product Hunt,25.6,Manus型,暂不跟进,none,0.0
+2026-09-05T01:13:31+00:00,github-a784b50630fe,2akouwu/reverify,GitHub,69.3,OpenClaw型,持续观察,stars,880.0
+2026-09-05T01:13:31+00:00,github-f7101da5026b,Agenta-AI/awesome-ai-agent-platforms,GitHub,65.8,OpenClaw型,暂不跟进,stars,167.0
+2026-09-05T01:13:31+00:00,github-5e3bf01562ad,anthropics/commerce-agents,GitHub,61.6,OpenClaw型,持续观察,stars,1929.0
+2026-09-05T01:13:31+00:00,github-8583b5eab62d,useagenthq/useagent,GitHub,60.6,OpenClaw型,持续观察,stars,284.0
+2026-09-05T01:13:31+00:00,github-e46d80fd3a13,aaravshah1311/Agent-2,GitHub,57.6,OpenClaw型,持续观察,stars,65.0
+2026-09-05T01:13:31+00:00,github-60a39f36c481,Tyche-MKR/scientific-agent-skills,GitHub,54.1,OpenClaw型,暂不跟进,stars,99.0
+2026-09-05T01:13:31+00:00,product-hunt-9edcdaae7177,Clockwork,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
+2026-09-05T01:13:31+00:00,product-hunt-dfbf0985b607,TrackMCP,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
+2026-09-05T01:13:31+00:00,product-hunt-0c83deab4942,Grove,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
+2026-09-05T01:13:31+00:00,product-hunt-db323b4af70c,Doop,Product Hunt,29.6,Manus型,暂不跟进,none,0.0

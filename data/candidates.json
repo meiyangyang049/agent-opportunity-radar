@@ -1,8 +1,8 @@
 {
   "meta": {
     "project": "Agent Opportunity Radar",
-    "generated_at": "2026-09-04T01:12:14+00:00",
-    "generated_at_display": "2026-09-04 09:12 CST",
+    "generated_at": "2026-09-05T01:13:31+00:00",
+    "generated_at_display": "2026-09-05 09:13 CST",
     "mode": "公开信号实时运行",
     "sources": [
       "GitHub",
@@ -14,144 +14,21 @@
       "AI news RSS: HTTPError: 429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
     ],
     "notices": [],
-    "candidate_pool_size": 40,
+    "candidate_pool_size": 48,
     "pool_by_source": {
-      "GitHub": 19,
-      "Hacker News": 13,
-      "Product Hunt": 8
+      "GitHub": 13,
+      "Hacker News": 25,
+      "Product Hunt": 10
     },
     "pool_by_type": {
-      "OpenClaw型": 24,
-      "其他Agent": 9,
-      "Manus型": 7
+      "OpenClaw型": 17,
+      "其他Agent": 22,
+      "Manus型": 9
     },
     "shortlist_policy": "Top 10；OpenClaw型/Manus型各至少4个（候选充足时）",
     "kimi_model": "kimi-k2.6"
   },
   "candidates": [
-    {
-      "id": "github-0380256ca5f4",
-      "source": "GitHub",
-      "name": "ZJU-REAL/Easel",
-      "url": "https://github.com/ZJU-REAL/Easel",
-      "description": "An open-source AI agent for social media — discover trends, create content, publish everywhere, and learn what works across Xiaohongshu, Douyin, Zhihu, Bilibili, and more.🎨一个开源的 AI 社交媒体智能体——发现热点趋势、创作内容、一键发布至各大平台，并学习分析哪些内容真正有效，覆盖小红书、抖音、知乎、哔哩哔哩等平台。",
-      "published_at": "2026-08-28T02:22:27Z",
-      "discovered_at": "2026-09-04T01:12:09+00:00",
-      "author": "ZJU-REAL",
-      "metrics": {
-        "stars": 305,
-        "forks": 41,
-        "open_issues": 0,
-        "watchers": 305
-      },
-      "tags": [
-        "agent",
-        "agent-skill",
-        "content-automation",
-        "content-creation",
-        "content-generation",
-        "mcp",
-        "openclaw",
-        "social-media",
-        "social-media-management"
-      ],
-      "evidence": [
-        "305 GitHub stars",
-        "41 forks",
-        "Created 2026-08-28"
-      ],
-      "raw_text": "ZJU-REAL/Easel An open-source AI agent for social media — discover trends, create content, publish everywhere, and learn what works across Xiaohongshu, Douyin, Zhihu, Bilibili, and more.🎨一个开源的 AI 社交媒体智能体——发现热点趋势、创作内容、一键发布至各大平台，并学习分析哪些内容真正有效，覆盖小红书、抖音、知乎、哔哩哔哩等平台。 agent agent-skill content-automation content-creation content-generation mcp openclaw social-media social-media-management",
-      "opportunity_type": "OpenClaw型",
-      "score": 69.8,
-      "dimension_scores": {
-        "growth_speed": 79.1,
-        "agent_innovation": 57,
-        "community_signal": 100.0,
-        "api_consumption_potential": 46,
-        "commercialization": 18,
-        "kimi_strategic_fit": 59
-      },
-      "recommended_action": "持续观察",
-      "reason_to_contact_now": "305 stars、41 forks，中文社交媒体Agent，覆盖小红书/抖音/知乎/哔哩哔哩，明确OpenClaw标签，有MCP",
-      "commercial_summary": "中国本土社交平台Agent，若成为创作者工具可能产生大量内容生成API调用；需确认默认LLM和团队背景",
-      "confidence": "medium",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "language": "Python",
-        "updated_at": "2026-09-03T23:40:24Z",
-        "homepage": "https://zju-real.github.io/Easel/",
-        "agent_keyword_hits": [
-          "ai agent",
-          "mcp",
-          "openclaw"
-        ],
-        "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": [
-          "skill"
-        ]
-      }
-    },
-    {
-      "id": "github-3ce7d2c164d9",
-      "source": "GitHub",
-      "name": "cbrock84/headcount",
-      "url": "https://github.com/cbrock84/headcount",
-      "description": "An agent organization for Claude Code, structured as a company — 15+ departments, 125+ skills, each independently installable.",
-      "published_at": "2026-08-28T18:03:04Z",
-      "discovered_at": "2026-09-04T01:12:09+00:00",
-      "author": "cbrock84",
-      "metrics": {
-        "stars": 1185,
-        "forks": 189,
-        "open_issues": 1,
-        "watchers": 1185
-      },
-      "tags": [
-        "agent-marketplace",
-        "claude-code",
-        "claude-code-plugin",
-        "claude-plugin",
-        "claude-skills",
-        "mcp"
-      ],
-      "evidence": [
-        "+68 stars since last run",
-        "1,185 GitHub stars",
-        "189 forks",
-        "Created 2026-08-28"
-      ],
-      "raw_text": "cbrock84/headcount An agent organization for Claude Code, structured as a company — 15+ departments, 125+ skills, each independently installable. agent-marketplace claude-code claude-code-plugin claude-plugin claude-skills mcp",
-      "opportunity_type": "OpenClaw型",
-      "score": 69.1,
-      "dimension_scores": {
-        "growth_speed": 100.0,
-        "agent_innovation": 35,
-        "community_signal": 100.0,
-        "api_consumption_potential": 32,
-        "commercialization": 18,
-        "kimi_strategic_fit": 55
-      },
-      "recommended_action": "持续观察",
-      "reason_to_contact_now": "1,185 stars、+68增速，189 forks，Claude Code插件生态，125+ skills，结构化agent组织",
-      "commercial_summary": "Claude Code技能市场的重要基础设施，若扩展多模型支持或成为跨平台标准，Kimi可争取作为替代模型接入；需警惕Anthropic生态锁定",
-      "confidence": "medium",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "language": "Markdown",
-        "updated_at": "2026-09-04T00:31:02Z",
-        "homepage": "https://cbrock84.github.io/headcount/",
-        "agent_keyword_hits": [
-          "mcp"
-        ],
-        "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": [
-          "plugin",
-          "skill"
-        ],
-        "metric_delta": 68.0,
-        "metric_velocity_per_day": 68.07406205825782
-      }
-    },
     {
       "id": "github-a784b50630fe",
       "source": "GitHub",
@@ -159,13 +36,13 @@
       "url": "https://github.com/2akouwu/reverify",
       "description": "Anti-hallucination for AI agents that read binaries. The model proposes, deterministic tools decide: every claim is VERIFIED or REFUTED against the real bytes, with evidence, and grounded facts survive context resets. MCP server + CLI.",
       "published_at": "2026-08-31T01:02:18Z",
-      "discovered_at": "2026-09-04T01:12:09+00:00",
+      "discovered_at": "2026-09-05T01:13:25+00:00",
       "author": "2akouwu",
       "metrics": {
-        "stars": 784,
-        "forks": 164,
+        "stars": 880,
+        "forks": 190,
         "open_issues": 4,
-        "watchers": 784
+        "watchers": 880
       },
       "tags": [
         "ai",
@@ -190,14 +67,14 @@
         "verification"
       ],
       "evidence": [
-        "+201 stars since last run",
-        "784 GitHub stars",
-        "164 forks",
+        "+96 stars since last run",
+        "880 GitHub stars",
+        "190 forks",
         "Created 2026-08-31"
       ],
       "raw_text": "2akouwu/reverify Anti-hallucination for AI agents that read binaries. The model proposes, deterministic tools decide: every claim is VERIFIED or REFUTED against the real bytes, with evidence, and grounded facts survive context resets. MCP server + CLI. ai ai-agents anti-hallucination binary-analysis context-engineering ctf developer-tools disassembler frida grounding hallucination hallucination-detection llm malware-analysis mcp mcp-server python reverse-engineering security-tools verification",
       "opportunity_type": "OpenClaw型",
-      "score": 68.3,
+      "score": 69.3,
       "dimension_scores": {
         "growth_speed": 100.0,
         "agent_innovation": 46,
@@ -207,13 +84,13 @@
         "kimi_strategic_fit": 45
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "784 stars、+201增速，MCP server+CLI形态，反幻觉验证工具，有明确LLM调用场景",
-      "commercial_summary": "安全/逆向领域的LLM验证基础设施，若成为工作流标配可能产生稳定API消耗；需确认默认模型和商业化路径",
+      "reason_to_contact_now": "880 stars/190 forks，+96 stars增速，MCP server+CLI双形态，反幻觉验证工具切中Agent可靠性痛点",
+      "commercial_summary": "高星开发者工具，MCP协议适配意味着模型调用入口，若成为二进制分析Agent标配可带动API消耗；需观察是否扩展为多模型支持",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "language": "Python",
-        "updated_at": "2026-09-04T01:11:46Z",
+        "updated_at": "2026-09-05T00:32:44Z",
         "homepage": null,
         "agent_keyword_hits": [
           "ai agent",
@@ -221,131 +98,8 @@
         ],
         "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": [],
-        "metric_delta": 201.0,
-        "metric_velocity_per_day": 201.2189187310268
-      }
-    },
-    {
-      "id": "github-70860c6f8588",
-      "source": "GitHub",
-      "name": "XiaoDuoYa/codex-with-chatgpt",
-      "url": "https://github.com/XiaoDuoYa/codex-with-chatgpt",
-      "description": "ChatGPT thinks. Codex works. Use ChatGPT as the planning brain while keeping the Codex harness.",
-      "published_at": "2026-08-28T12:57:24Z",
-      "discovered_at": "2026-09-04T01:12:10+00:00",
-      "author": "XiaoDuoYa",
-      "metrics": {
-        "stars": 2398,
-        "forks": 249,
-        "open_issues": 4,
-        "watchers": 2398
-      },
-      "tags": [
-        "ai-agents",
-        "chatgpt",
-        "codex",
-        "mcp",
-        "model-context-protocol",
-        "oauth"
-      ],
-      "evidence": [
-        "+122 stars since last run",
-        "2,398 GitHub stars",
-        "249 forks",
-        "Created 2026-08-28"
-      ],
-      "raw_text": "XiaoDuoYa/codex-with-chatgpt ChatGPT thinks. Codex works. Use ChatGPT as the planning brain while keeping the Codex harness. ai-agents chatgpt codex mcp model-context-protocol oauth",
-      "opportunity_type": "OpenClaw型",
-      "score": 64.5,
-      "dimension_scores": {
-        "growth_speed": 100.0,
-        "agent_innovation": 35,
-        "community_signal": 100.0,
-        "api_consumption_potential": 32,
-        "commercialization": 18,
-        "kimi_strategic_fit": 39
-      },
-      "recommended_action": "持续观察",
-      "reason_to_contact_now": "2398 stars且单日+122，明确使用ChatGPT+Codex双模型架构，MCP协议标签存在",
-      "commercial_summary": "高增速开源Agent编排框架，已验证开发者需求，需观察是否支持多模型Provider切换及Kimi接入可能性",
-      "confidence": "medium",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "language": "TypeScript",
-        "updated_at": "2026-09-04T01:07:00Z",
-        "homepage": null,
-        "agent_keyword_hits": [
-          "mcp"
-        ],
-        "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": [],
-        "metric_delta": 122.0,
-        "metric_velocity_per_day": 122.13287604569787
-      }
-    },
-    {
-      "id": "github-32c3cd0969a2",
-      "source": "GitHub",
-      "name": "Nanako0129/sepia",
-      "url": "https://github.com/Nanako0129/sepia",
-      "description": "De-AI writing skill for any Agent Skills-compatible agent (77+ via the Skills CLI), with native plugins for Claude Code, Codex, Grok Build, and Antigravity. Narrative-architecture repair for fiction, venue-matched rules for professional prose. Based on StoryScope (arXiv:2604.03136).",
-      "published_at": "2026-08-28T05:56:49Z",
-      "discovered_at": "2026-09-04T01:12:09+00:00",
-      "author": "Nanako0129",
-      "metrics": {
-        "stars": 1875,
-        "forks": 112,
-        "open_issues": 2,
-        "watchers": 1875
-      },
-      "tags": [
-        "agent-skills",
-        "ai-writing",
-        "antigravity",
-        "claude-code",
-        "codex",
-        "developer-tools",
-        "fiction",
-        "grok",
-        "humanizer",
-        "llm",
-        "prompt-engineering",
-        "writing-tools"
-      ],
-      "evidence": [
-        "+294 stars since last run",
-        "1,875 GitHub stars",
-        "112 forks",
-        "Created 2026-08-28"
-      ],
-      "raw_text": "Nanako0129/sepia De-AI writing skill for any Agent Skills-compatible agent (77+ via the Skills CLI), with native plugins for Claude Code, Codex, Grok Build, and Antigravity. Narrative-architecture repair for fiction, venue-matched rules for professional prose. Based on StoryScope (arXiv:2604.03136). agent-skills ai-writing antigravity claude-code codex developer-tools fiction grok humanizer llm prompt-engineering writing-tools",
-      "opportunity_type": "OpenClaw型",
-      "score": 64.2,
-      "dimension_scores": {
-        "growth_speed": 100.0,
-        "agent_innovation": 24,
-        "community_signal": 100.0,
-        "api_consumption_potential": 25,
-        "commercialization": 18,
-        "kimi_strategic_fit": 49
-      },
-      "recommended_action": "持续观察",
-      "reason_to_contact_now": "1875 stars且单日+294高速增长，明确兼容Agent Skills标准并支持Claude Code/Codex/Grok/Antigravity多平台",
-      "commercial_summary": "高增速Agent Skills插件生态项目，已构建跨平台技能标准，若扩展模型支持列表可能直接成为Kimi生态伙伴",
-      "confidence": "medium",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "language": "Python",
-        "updated_at": "2026-09-04T01:01:42Z",
-        "homepage": null,
-        "agent_keyword_hits": [],
-        "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": [
-          "plugin",
-          "skill"
-        ],
-        "metric_delta": 294.0,
-        "metric_velocity_per_day": 294.32020948717354
+        "metric_delta": 96.0,
+        "metric_velocity_per_day": 95.91452062398095
       }
     },
     {
@@ -355,13 +109,13 @@
       "url": "https://github.com/Agenta-AI/awesome-ai-agent-platforms",
       "description": "A curated list of open-source AI agent platforms: AI coworkers and teammates, agent builders and frameworks, workflow automation platforms, browser agents, and coding agents, with licenses.",
       "published_at": "2026-09-02T16:32:59Z",
-      "discovered_at": "2026-09-04T01:12:09+00:00",
+      "discovered_at": "2026-09-05T01:13:25+00:00",
       "author": "Agenta-AI",
       "metrics": {
-        "stars": 110,
-        "forks": 2,
-        "open_issues": 1,
-        "watchers": 110
+        "stars": 167,
+        "forks": 3,
+        "open_issues": 2,
+        "watchers": 167
       },
       "tags": [
         "agent-frameworks",
@@ -378,29 +132,30 @@
         "workflow-automation"
       ],
       "evidence": [
-        "110 GitHub stars",
-        "2 forks",
+        "+57 stars since last run",
+        "167 GitHub stars",
+        "3 forks",
         "Created 2026-09-02"
       ],
       "raw_text": "Agenta-AI/awesome-ai-agent-platforms A curated list of open-source AI agent platforms: AI coworkers and teammates, agent builders and frameworks, workflow automation platforms, browser agents, and coding agents, with licenses. agent-frameworks ai-agent-platforms ai-agents ai-coworker awesome awesome-list browser-agents coding-agents llm open-source self-hosted workflow-automation",
       "opportunity_type": "OpenClaw型",
-      "score": 58.4,
+      "score": 65.8,
       "dimension_scores": {
-        "growth_speed": 88.1,
+        "growth_speed": 100.0,
         "agent_innovation": 57,
-        "community_signal": 78.6,
+        "community_signal": 85.5,
         "api_consumption_potential": 64,
         "commercialization": 18,
         "kimi_strategic_fit": 59
       },
       "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "110 stars的awesome-list聚合站，自身不产生API消耗，无模型接入或商业化信号",
-      "commercial_summary": "纯目录站，非Agent项目本身，对Kimi无直接API客户或生态价值，仅可作为情报来源",
-      "confidence": "high",
+      "reason_to_contact_now": "awesome-list聚合站，自身不生产Agent框架，无模型接入需求；167 stars、3 forks，生态影响力有限",
+      "commercial_summary": "聚合目录站非API客户，无直接模型调用场景，可作为生态情报来源但非高价值目标",
+      "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "language": "Astro",
-        "updated_at": "2026-09-04T00:28:50Z",
+        "updated_at": "2026-09-05T00:18:54Z",
         "homepage": "https://aiagentplatforms.dev",
         "agent_keyword_hits": [
           "ai agent",
@@ -410,128 +165,316 @@
         "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": [
           "self-hosted"
+        ],
+        "metric_delta": 57.0,
+        "metric_velocity_per_day": 56.94924662048869
+      }
+    },
+    {
+      "id": "github-5e3bf01562ad",
+      "source": "GitHub",
+      "name": "anthropics/commerce-agents",
+      "url": "https://github.com/anthropics/commerce-agents",
+      "description": "Reference blueprint for building shopping and merchant agents with Claude. Examples in retail, commerce, telecom, and entertainment included.",
+      "published_at": "2026-09-01T12:30:12Z",
+      "discovered_at": "2026-09-05T01:13:25+00:00",
+      "author": "anthropics",
+      "metrics": {
+        "stars": 1929,
+        "forks": 320,
+        "open_issues": 4,
+        "watchers": 1929
+      },
+      "tags": [],
+      "evidence": [
+        "1,929 GitHub stars",
+        "320 forks",
+        "Created 2026-09-01"
+      ],
+      "raw_text": "anthropics/commerce-agents Reference blueprint for building shopping and merchant agents with Claude. Examples in retail, commerce, telecom, and entertainment included. ",
+      "opportunity_type": "OpenClaw型",
+      "score": 61.6,
+      "dimension_scores": {
+        "growth_speed": 100.0,
+        "agent_innovation": 24,
+        "community_signal": 100.0,
+        "api_consumption_potential": 25,
+        "commercialization": 18,
+        "kimi_strategic_fit": 33
+      },
+      "recommended_action": "持续观察",
+      "reason_to_contact_now": "Anthropic官方仓库，4天内获1929 stars/320 forks，增长极快，但明确绑定Claude生态。",
+      "commercial_summary": "高影响力竞品参考蓝图，直接争夺电商/零售Agent开发者心智，需监控是否扩展多模型支持。",
+      "confidence": "high",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "metadata": {
+        "language": "Python",
+        "updated_at": "2026-09-05T01:01:40Z",
+        "homepage": "https://claude.com/solutions/commerce",
+        "agent_keyword_hits": [],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": []
+      }
+    },
+    {
+      "id": "github-8583b5eab62d",
+      "source": "GitHub",
+      "name": "useagenthq/useagent",
+      "url": "https://github.com/useagenthq/useagent",
+      "description": "The open-source AI coworker for your team: agents with their own cloud computer, your tools and context, handing back finished work websites, decks, spreadsheets, reports, PRs. Runs Claude Code, Codex, OpenCode on your subscription.",
+      "published_at": "2026-08-29T21:14:31Z",
+      "discovered_at": "2026-09-05T01:13:25+00:00",
+      "author": "useagenthq",
+      "metrics": {
+        "stars": 284,
+        "forks": 58,
+        "open_issues": 1,
+        "watchers": 284
+      },
+      "tags": [
+        "agents",
+        "ai",
+        "ai-agents",
+        "ai-coworker",
+        "automation",
+        "autonomous-agents",
+        "bun",
+        "claude",
+        "codex",
+        "coding-agent",
+        "computer-use",
+        "developer-tools",
+        "llm",
+        "open-source",
+        "opencode",
+        "postgres",
+        "sandbox",
+        "self-hosted",
+        "slack-bot",
+        "typescript"
+      ],
+      "evidence": [
+        "284 GitHub stars",
+        "58 forks",
+        "Created 2026-08-29"
+      ],
+      "raw_text": "useagenthq/useagent The open-source AI coworker for your team: agents with their own cloud computer, your tools and context, handing back finished work websites, decks, spreadsheets, reports, PRs. Runs Claude Code, Codex, OpenCode on your subscription. agents ai ai-agents ai-coworker automation autonomous-agents bun claude codex coding-agent computer-use developer-tools llm open-source opencode postgres sandbox self-hosted slack-bot typescript",
+      "opportunity_type": "OpenClaw型",
+      "score": 60.6,
+      "dimension_scores": {
+        "growth_speed": 79.8,
+        "agent_innovation": 24,
+        "community_signal": 100.0,
+        "api_consumption_potential": 30,
+        "commercialization": 32,
+        "kimi_strategic_fit": 41
+      },
+      "recommended_action": "持续观察",
+      "reason_to_contact_now": "8天284 stars/58 forks，开源AI coworker，明确支持Claude/Codex/OpenCode多模型，self-hosted。",
+      "commercial_summary": "多模型开源Agent平台，已显社区 traction，需密切跟踪是否接入国产模型及企业付费转化。",
+      "confidence": "high",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "metadata": {
+        "language": "TypeScript",
+        "updated_at": "2026-09-04T08:01:47Z",
+        "homepage": "https://useagent.org",
+        "agent_keyword_hits": [],
+        "commercial_keyword_hits": [
+          "subscription"
+        ],
+        "ecosystem_keyword_hits": [
+          "self-hosted"
         ]
       }
     },
     {
-      "id": "hackernews-9d7b57b31235",
-      "source": "Hacker News",
-      "name": "Show HN: DrawDB Pro – design database schemas for your team and agents",
-      "url": "https://www.drawdb.app/",
-      "description": "2 years ago I launched drawDB on here. It was my very first project that I open-sourced and it ended up going kinda viral. A month ago I launched drawDB Pro for solo devs and teams. It was actually my manager that encouraged me to go build it to help with my promotion :3 The project has come a long long way. It started as a simple canvas with local storage and now we have proper cloud storage, team permissions, real-time collaboration, AI assistant, versioning, MCP, etc. Now I'm trying to figure out all the stuff beyond development although most of it is outside my comfort zone for now. You can try it out here: https://www.drawdb.app/ . You don't need an account or a card. I'd love to hear your feedback. How would you (or your agents) use something like this in your workflow? Or what would you like to see?",
-      "published_at": "1788472611",
-      "discovered_at": "2026-09-04T01:12:14+00:00",
-      "author": "1ilit",
+      "id": "github-e46d80fd3a13",
+      "source": "GitHub",
+      "name": "aaravshah1311/Agent-2",
+      "url": "https://github.com/aaravshah1311/Agent-2",
+      "description": "Agent2 — An autonomous AI agent for coding, cybersecurity, terminal automation, and intelligent task execution.",
+      "published_at": "2026-09-04T11:03:14Z",
+      "discovered_at": "2026-09-05T01:13:25+00:00",
+      "author": "aaravshah1311",
       "metrics": {
-        "points": 3,
-        "comments": 0
+        "stars": 65,
+        "forks": 3,
+        "open_issues": 0,
+        "watchers": 65
       },
-      "tags": [],
-      "evidence": [
-        "3 HN points",
-        "0 comments"
+      "tags": [
+        "aarav",
+        "aaravshah1311",
+        "agent-2",
+        "agentic-ai",
+        "agentic-workflow",
+        "cyber-threat-intelligence",
+        "cybersecurity-tools",
+        "software-engineering-tools"
       ],
-      "raw_text": "Show HN: DrawDB Pro – design database schemas for your team and agents 2 years ago I launched drawDB on here. It was my very first project that I open-sourced and it ended up going kinda viral. A month ago I launched drawDB Pro for solo devs and teams. It was actually my manager that encouraged me to go build it to help with my promotion :3 The project has come a long long way. It started as a simple canvas with local storage and now we have proper cloud storage, team permissions, real-time collaboration, AI assistant, versioning, MCP, etc. Now I'm trying to figure out all the stuff beyond development although most of it is outside my comfort zone for now. You can try it out here: https://www.drawdb.app/ . You don't need an account or a card. I'd love to hear your feedback. How would you (or your agents) use something like this in your workflow? Or what would you like to see?",
-      "opportunity_type": "Manus型",
-      "score": 28.4,
+      "evidence": [
+        "65 GitHub stars",
+        "3 forks",
+        "Created 2026-09-04"
+      ],
+      "raw_text": "aaravshah1311/Agent-2 Agent2 — An autonomous AI agent for coding, cybersecurity, terminal automation, and intelligent task execution. aarav aaravshah1311 agent-2 agentic-ai agentic-workflow cyber-threat-intelligence cybersecurity-tools software-engineering-tools",
+      "opportunity_type": "OpenClaw型",
+      "score": 57.6,
       "dimension_scores": {
-        "growth_speed": 33.1,
-        "agent_innovation": 35,
-        "community_signal": 43.3,
-        "api_consumption_potential": 32,
+        "growth_speed": 84.8,
+        "agent_innovation": 46,
+        "community_signal": 75.2,
+        "api_consumption_potential": 39,
         "commercialization": 18,
-        "kimi_strategic_fit": 39
+        "kimi_strategic_fit": 45
       },
-      "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "3 HN points、0评论，Agent相关仅提及MCP和'your agents'的泛化用法，无实际AI功能深度",
-      "commercial_summary": "数据库设计工具，AI/Agent为边缘功能，当前热度极低，无API消耗规模信号",
-      "confidence": "high",
+      "recommended_action": "持续观察",
+      "reason_to_contact_now": "1天内65 stars，多领域自主Agent（coding/安全/终端），但作者个人项目，forks仅3。",
+      "commercial_summary": "早期个人开源项目，垂直场景覆盖广，若增长持续可评估模型接入潜力，当前过早。",
+      "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
-        "discussion_url": "https://news.ycombinator.com/item?id=49557688",
+        "language": "Python",
+        "updated_at": "2026-09-04T19:57:42Z",
+        "homepage": "https://agent2.is-best.net",
         "agent_keyword_hits": [
-          "mcp"
+          "agentic",
+          "ai agent"
         ],
         "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": []
       }
     },
     {
-      "id": "product-hunt-d90828786d5f",
+      "id": "github-60a39f36c481",
+      "source": "GitHub",
+      "name": "Tyche-MKR/scientific-agent-skills",
+      "url": "https://github.com/Tyche-MKR/scientific-agent-skills",
+      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+      "published_at": "2026-08-31T10:54:19Z",
+      "discovered_at": "2026-09-05T01:13:25+00:00",
+      "author": "Tyche-MKR",
+      "metrics": {
+        "stars": 99,
+        "forks": 20,
+        "open_issues": 0,
+        "watchers": 99
+      },
+      "tags": [],
+      "evidence": [
+        "99 GitHub stars",
+        "20 forks",
+        "Created 2026-08-31"
+      ],
+      "raw_text": "Tyche-MKR/scientific-agent-skills Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard. ",
+      "opportunity_type": "OpenClaw型",
+      "score": 54.1,
+      "dimension_scores": {
+        "growth_speed": 68.7,
+        "agent_innovation": 35,
+        "community_signal": 93.0,
+        "api_consumption_potential": 32,
+        "commercialization": 18,
+        "kimi_strategic_fit": 47
+      },
+      "recommended_action": "暂不跟进",
+      "reason_to_contact_now": "99 GitHub stars；20 forks；Created 2026-08-31",
+      "commercial_summary": "开发者生态型机会，优先判断模型接入、默认Provider和联合社区合作空间。",
+      "confidence": "medium",
+      "scoring_mode": "规则预评分",
+      "metadata": {
+        "language": "Python",
+        "updated_at": "2026-09-05T00:13:18Z",
+        "homepage": null,
+        "agent_keyword_hits": [
+          "ai agent"
+        ],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": [
+          "skill"
+        ]
+      }
+    },
+    {
+      "id": "product-hunt-9edcdaae7177",
       "source": "Product Hunt",
-      "name": "Monid",
-      "url": "https://www.producthunt.com/products/monid",
-      "description": "OpenRouter for agent tools Discussion | Link",
-      "published_at": "2026-08-31T00:07:32-07:00",
-      "discovered_at": "2026-09-04T01:12:14+00:00",
-      "author": "Ryan Hoover",
+      "name": "Clockwork",
+      "url": "https://www.producthunt.com/products/clockwork-5",
+      "description": "The calendar where your AI agents show up for work Discussion | Link",
+      "published_at": "2026-09-03T08:55:16-07:00",
+      "discovered_at": "2026-09-05T01:13:31+00:00",
+      "author": "Vimox Shah",
       "metrics": {},
       "tags": [],
       "evidence": [
         "Published via Product Hunt",
-        "2026-08-31T00:07:32-07:00"
+        "2026-09-03T08:55:16-07:00"
       ],
-      "raw_text": "Monid OpenRouter for agent tools Discussion | Link ",
+      "raw_text": "Clockwork The calendar where your AI agents show up for work Discussion | Link ",
       "opportunity_type": "Manus型",
-      "score": 25.8,
+      "score": 29.6,
       "dimension_scores": {
         "growth_speed": 30.0,
-        "agent_innovation": 24,
+        "agent_innovation": 35,
         "community_signal": 18.0,
-        "api_consumption_potential": 25,
+        "api_consumption_potential": 32,
         "commercialization": 36,
-        "kimi_strategic_fit": 25
+        "kimi_strategic_fit": 31
       },
       "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "Published via Product Hunt；2026-08-31T00:07:32-07:00",
-      "commercial_summary": "产品型机会，优先判断API调用规模、付费增长和战略客户合作空间。",
+      "reason_to_contact_now": "Product Hunt刚发布，无用户数据、无融资信息、无API调用规模证据",
+      "commercial_summary": "日历类AI Agent产品概念早期，未验证付费转化与模型消耗，暂不具备战略客户价值",
       "confidence": "medium",
-      "scoring_mode": "规则预评分",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "feed_url": "https://www.producthunt.com/feed",
         "content_kind": "product_launch",
-        "original_title": "Monid",
-        "agent_keyword_hits": [],
+        "original_title": "Clockwork",
+        "agent_keyword_hits": [
+          "ai agent"
+        ],
         "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": []
       }
     },
     {
-      "id": "product-hunt-5ee0583290f5",
+      "id": "product-hunt-dfbf0985b607",
       "source": "Product Hunt",
-      "name": "Stitch AI by Dynamic Mockups",
-      "url": "https://www.producthunt.com/products/stitch-ai-by-dynamic-mockups",
-      "description": "The first embroidery digitizing agent Discussion | Link",
-      "published_at": "2026-09-01T05:39:23-07:00",
-      "discovered_at": "2026-09-04T01:12:14+00:00",
-      "author": "Nemanja Kovačević",
+      "name": "TrackMCP",
+      "url": "https://www.producthunt.com/products/trackmcp",
+      "description": "Google Analytics for MCP Servers Discussion | Link",
+      "published_at": "2026-09-01T01:37:38-07:00",
+      "discovered_at": "2026-09-05T01:13:31+00:00",
+      "author": "Krishna Goyal",
       "metrics": {},
       "tags": [],
       "evidence": [
         "Published via Product Hunt",
-        "2026-09-01T05:39:23-07:00"
+        "2026-09-01T01:37:38-07:00"
       ],
-      "raw_text": "Stitch AI by Dynamic Mockups The first embroidery digitizing agent Discussion | Link ",
+      "raw_text": "TrackMCP Google Analytics for MCP Servers Discussion | Link ",
       "opportunity_type": "Manus型",
-      "score": 25.8,
+      "score": 29.6,
       "dimension_scores": {
         "growth_speed": 30.0,
-        "agent_innovation": 24,
+        "agent_innovation": 35,
         "community_signal": 18.0,
-        "api_consumption_potential": 25,
+        "api_consumption_potential": 32,
         "commercialization": 36,
-        "kimi_strategic_fit": 25
+        "kimi_strategic_fit": 31
       },
       "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "Published via Product Hunt；2026-09-01T05:39:23-07:00",
-      "commercial_summary": "产品型机会，优先判断API调用规模、付费增长和战略客户合作空间。",
+      "reason_to_contact_now": "MCP Server分析工具，刚发布无用户/收入数据，自身为观测层非Agent执行层",
+      "commercial_summary": "MCP生态基础设施工具，若MCP爆发或具生态情报价值，但当前无直接模型API消费场景",
       "confidence": "medium",
-      "scoring_mode": "规则预评分",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "feed_url": "https://www.producthunt.com/feed",
         "content_kind": "product_launch",
-        "original_title": "Stitch AI by Dynamic Mockups",
-        "agent_keyword_hits": [],
+        "original_title": "TrackMCP",
+        "agent_keyword_hits": [
+          "mcp"
+        ],
         "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": []
       }
@@ -543,7 +486,7 @@
       "url": "https://www.producthunt.com/products/grove-8",
       "description": "One terminal for you and your AI agent Discussion | Link",
       "published_at": "2026-09-02T07:13:31-07:00",
-      "discovered_at": "2026-09-04T01:12:14+00:00",
+      "discovered_at": "2026-09-05T01:13:31+00:00",
       "author": "Rakesh",
       "metrics": {},
       "tags": [],
@@ -553,7 +496,7 @@
       ],
       "raw_text": "Grove One terminal for you and your AI agent Discussion | Link ",
       "opportunity_type": "Manus型",
-      "score": 25.6,
+      "score": 29.6,
       "dimension_scores": {
         "growth_speed": 30.0,
         "agent_innovation": 35,
@@ -563,14 +506,56 @@
         "kimi_strategic_fit": 31
       },
       "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "Product Hunt发布，零具体指标，'One terminal for you and your AI agent'描述模糊",
-      "commercial_summary": "终端工具概念，信息严重不足，无法判断模型依赖或API消耗潜力",
-      "confidence": "low",
+      "reason_to_contact_now": "终端共享工具刚发布，无用户/收入/融资证据，产品形态模糊",
+      "commercial_summary": "终端协作概念早期，未验证AI Agent实际执行能力与付费意愿，暂不具备客户价值",
+      "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "feed_url": "https://www.producthunt.com/feed",
         "content_kind": "product_launch",
         "original_title": "Grove",
+        "agent_keyword_hits": [
+          "ai agent"
+        ],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": []
+      }
+    },
+    {
+      "id": "product-hunt-db323b4af70c",
+      "source": "Product Hunt",
+      "name": "Doop",
+      "url": "https://www.producthunt.com/products/doop",
+      "description": "Design with AI agents - live on the same canvas Discussion | Link",
+      "published_at": "2026-09-01T23:26:19-07:00",
+      "discovered_at": "2026-09-05T01:13:31+00:00",
+      "author": "Kevin Goedecke",
+      "metrics": {},
+      "tags": [],
+      "evidence": [
+        "Published via Product Hunt",
+        "2026-09-01T23:26:19-07:00"
+      ],
+      "raw_text": "Doop Design with AI agents - live on the same canvas Discussion | Link ",
+      "opportunity_type": "Manus型",
+      "score": 29.6,
+      "dimension_scores": {
+        "growth_speed": 30.0,
+        "agent_innovation": 35,
+        "community_signal": 18.0,
+        "api_consumption_potential": 32,
+        "commercialization": 36,
+        "kimi_strategic_fit": 31
+      },
+      "recommended_action": "暂不跟进",
+      "reason_to_contact_now": "Product Hunt发布，仅见描述为AI协同设计画布，无用户数、付费或API调用证据。",
+      "commercial_summary": "设计领域Agent产品，当前信号过弱，无法判断API消耗或企业付费潜力。",
+      "confidence": "low",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "metadata": {
+        "feed_url": "https://www.producthunt.com/feed",
+        "content_kind": "product_launch",
+        "original_title": "Doop",
         "agent_keyword_hits": [
           "ai agent"
         ],
