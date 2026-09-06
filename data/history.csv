@@ -124,3 +124,13 @@ run_at,id,name,source,score,opportunity_type,recommended_action,metric_name,metr
 2026-09-05T01:13:31+00:00,product-hunt-dfbf0985b607,TrackMCP,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
 2026-09-05T01:13:31+00:00,product-hunt-0c83deab4942,Grove,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
 2026-09-05T01:13:31+00:00,product-hunt-db323b4af70c,Doop,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
+2026-09-06T01:13:41+00:00,github-f7101da5026b,Agenta-AI/awesome-ai-agent-platforms,GitHub,67.6,OpenClaw型,暂不跟进,stars,205.0
+2026-09-06T01:13:41+00:00,github-a784b50630fe,2akouwu/reverify,GitHub,64.0,OpenClaw型,持续观察,stars,923.0
+2026-09-06T01:13:41+00:00,github-e46d80fd3a13,aaravshah1311/Agent-2,GitHub,63.6,OpenClaw型,持续观察,stars,84.0
+2026-09-06T01:13:41+00:00,github-81907ebdd3bb,Yuxuan2003/Awesome-GUI-Agent-Security,GitHub,62.2,OpenClaw型,持续观察,stars,62.0
+2026-09-06T01:13:41+00:00,github-871a9362445f,romangojiberryAI/gojiberryai-sales-os,GitHub,60.7,OpenClaw型,持续观察,stars,103.0
+2026-09-06T01:13:41+00:00,github-a23d5cd92df3,kydlikebtc/awesome-grokbot,GitHub,54.7,OpenClaw型,暂不跟进,stars,325.0
+2026-09-06T01:13:41+00:00,product-hunt-0c83deab4942,Grove,Product Hunt,31.6,Manus型,暂不跟进,none,0.0
+2026-09-06T01:13:41+00:00,product-hunt-7ecea0cd947c,Reflexio,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
+2026-09-06T01:13:41+00:00,product-hunt-800fa61b47bd,Hyperprobe,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
+2026-09-06T01:13:41+00:00,product-hunt-9edcdaae7177,Clockwork,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
