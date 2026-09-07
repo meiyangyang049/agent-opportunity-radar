@@ -134,3 +134,13 @@ run_at,id,name,source,score,opportunity_type,recommended_action,metric_name,metr
 2026-09-06T01:13:41+00:00,product-hunt-7ecea0cd947c,Reflexio,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
 2026-09-06T01:13:41+00:00,product-hunt-800fa61b47bd,Hyperprobe,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
 2026-09-06T01:13:41+00:00,product-hunt-9edcdaae7177,Clockwork,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
+2026-09-07T01:14:28+00:00,github-a784b50630fe,2akouwu/reverify,GitHub,66.0,OpenClaw型,持续观察,stars,966.0
+2026-09-07T01:14:28+00:00,github-f1d0587837c3,okf-memory/okf-agent-memory,GitHub,64.5,OpenClaw型,持续观察,stars,355.0
+2026-09-07T01:14:28+00:00,github-f7101da5026b,Agenta-AI/awesome-ai-agent-platforms,GitHub,60.8,OpenClaw型,暂不跟进,stars,229.0
+2026-09-07T01:14:28+00:00,github-871a9362445f,romangojiberryAI/gojiberryai-sales-os,GitHub,60.6,OpenClaw型,持续观察,stars,120.0
+2026-09-07T01:14:28+00:00,github-e46d80fd3a13,aaravshah1311/Agent-2,GitHub,58.6,OpenClaw型,持续观察,stars,90.0
+2026-09-07T01:14:28+00:00,github-a23d5cd92df3,kydlikebtc/awesome-grokbot,GitHub,56.1,OpenClaw型,持续观察,stars,328.0
+2026-09-07T01:14:28+00:00,product-hunt-9edcdaae7177,Clockwork,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
+2026-09-07T01:14:28+00:00,product-hunt-ca9f87835335,GitWarren,Product Hunt,25.8,Manus型,暂不跟进,none,0.0
+2026-09-07T01:14:28+00:00,product-hunt-46e6b391dc50,Google Gemini 3.8 Flash and Cyber,Product Hunt,25.8,Manus型,暂不跟进,none,0.0
+2026-09-07T01:14:28+00:00,product-hunt-d0a1e73f9c18,Omarchy,Product Hunt,25.8,Manus型,暂不跟进,none,0.0
