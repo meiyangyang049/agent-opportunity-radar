@@ -144,3 +144,13 @@ run_at,id,name,source,score,opportunity_type,recommended_action,metric_name,metr
 2026-09-07T01:14:28+00:00,product-hunt-ca9f87835335,GitWarren,Product Hunt,25.8,Manus型,暂不跟进,none,0.0
 2026-09-07T01:14:28+00:00,product-hunt-46e6b391dc50,Google Gemini 3.8 Flash and Cyber,Product Hunt,25.8,Manus型,暂不跟进,none,0.0
 2026-09-07T01:14:28+00:00,product-hunt-d0a1e73f9c18,Omarchy,Product Hunt,25.8,Manus型,暂不跟进,none,0.0
+2026-09-08T01:15:19+00:00,github-f1d0587837c3,okf-memory/okf-agent-memory,GitHub,64.5,OpenClaw型,持续观察,stars,459.0
+2026-09-08T01:15:19+00:00,github-f7101da5026b,Agenta-AI/awesome-ai-agent-platforms,GitHub,62.9,OpenClaw型,暂不跟进,stars,263.0
+2026-09-08T01:15:19+00:00,github-328d2a722b38,BoardUI/boardui,GitHub,61.4,OpenClaw型,持续观察,stars,368.0
+2026-09-08T01:15:19+00:00,github-e46d80fd3a13,aaravshah1311/Agent-2,GitHub,56.7,OpenClaw型,持续观察,stars,94.0
+2026-09-08T01:15:19+00:00,github-77e4939d1737,tigerless-labs/agent-memory,GitHub,55.4,OpenClaw型,持续观察,stars,466.0
+2026-09-08T01:15:19+00:00,github-81907ebdd3bb,Yuxuan2003/Awesome-GUI-Agent-Security,GitHub,54.9,OpenClaw型,持续观察,stars,68.0
+2026-09-08T01:15:19+00:00,hackernews-8df42206f5a1,Show HN: Animaxxing – get agents to animate the shit out of your website,Hacker News,32.2,Manus型,暂不跟进,points,5.0
+2026-09-08T01:15:19+00:00,product-hunt-800fa61b47bd,Hyperprobe,Product Hunt,27.6,Manus型,暂不跟进,none,0.0
+2026-09-08T01:15:19+00:00,product-hunt-7ecea0cd947c,Reflexio,Product Hunt,27.6,Manus型,暂不跟进,none,0.0
+2026-09-08T01:15:19+00:00,product-hunt-dfbf0985b607,TrackMCP,Product Hunt,27.6,Manus型,暂不跟进,none,0.0
