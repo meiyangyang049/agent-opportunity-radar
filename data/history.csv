@@ -154,3 +154,13 @@ run_at,id,name,source,score,opportunity_type,recommended_action,metric_name,metr
 2026-09-08T01:15:19+00:00,product-hunt-800fa61b47bd,Hyperprobe,Product Hunt,27.6,Manus型,暂不跟进,none,0.0
 2026-09-08T01:15:19+00:00,product-hunt-7ecea0cd947c,Reflexio,Product Hunt,27.6,Manus型,暂不跟进,none,0.0
 2026-09-08T01:15:19+00:00,product-hunt-dfbf0985b607,TrackMCP,Product Hunt,27.6,Manus型,暂不跟进,none,0.0
+2026-09-09T01:14:43+00:00,github-f1d0587837c3,okf-memory/okf-agent-memory,GitHub,64.9,OpenClaw型,持续观察,stars,491.0
+2026-09-09T01:14:43+00:00,github-cd6c2959f69c,achimala/dream-loop,GitHub,61.4,OpenClaw型,持续观察,stars,378.0
+2026-09-09T01:14:43+00:00,github-f7101da5026b,Agenta-AI/awesome-ai-agent-platforms,GitHub,57.4,OpenClaw型,暂不跟进,stars,194.0
+2026-09-09T01:14:43+00:00,github-81907ebdd3bb,Yuxuan2003/Awesome-GUI-Agent-Security,GitHub,57.1,OpenClaw型,持续观察,stars,69.0
+2026-09-09T01:14:43+00:00,github-e46d80fd3a13,aaravshah1311/Agent-2,GitHub,52.3,OpenClaw型,暂不跟进,stars,94.0
+2026-09-09T01:14:43+00:00,github-f2a3b30692d0,sanshao85/codex-commander,GitHub,45.3,OpenClaw型,持续观察,stars,35.0
+2026-09-09T01:14:43+00:00,product-hunt-6ddcfc1b0eb2,Kopai,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
+2026-09-09T01:14:43+00:00,product-hunt-399fe6f548c3,Tucky,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
+2026-09-09T01:14:43+00:00,product-hunt-bfd15d12e672,Kit by Speakeasy,Product Hunt,27.8,Manus型,持续观察,none,0.0
+2026-09-09T01:14:43+00:00,product-hunt-ca9f87835335,GitWarren,Product Hunt,25.8,Manus型,暂不跟进,none,0.0
