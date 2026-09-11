@@ -174,3 +174,13 @@ run_at,id,name,source,score,opportunity_type,recommended_action,metric_name,metr
 2026-09-10T01:14:57+00:00,product-hunt-5904c1e75893,Frigade Assist API,Product Hunt,29.8,Manus型,暂不跟进,none,0.0
 2026-09-10T01:14:57+00:00,product-hunt-6ddcfc1b0eb2,Kopai,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
 2026-09-10T01:14:57+00:00,product-hunt-80a6db0023bf,Muse by Meta,Product Hunt,21.6,Manus型,暂不跟进,none,0.0
+2026-09-11T01:13:46+00:00,github-6ec6afeb6996,Vincentwei1021/anything2explainer,GitHub,66.0,OpenClaw型,持续观察,stars,711.0
+2026-09-11T01:13:46+00:00,github-f1d0587837c3,okf-memory/okf-agent-memory,GitHub,62.5,OpenClaw型,持续观察,stars,549.0
+2026-09-11T01:13:46+00:00,github-b3358c9b6e3a,browser-use/browser-use-pi,GitHub,61.5,OpenClaw型,持续观察,stars,265.0
+2026-09-11T01:13:46+00:00,github-cd6c2959f69c,achimala/dream-loop,GitHub,59.4,OpenClaw型,持续观察,stars,732.0
+2026-09-11T01:13:46+00:00,github-e46d80fd3a13,aaravshah1311/Agent-2,GitHub,55.3,OpenClaw型,暂不跟进,stars,96.0
+2026-09-11T01:13:46+00:00,github-e0c2a493794a,iamzulx/crypto-rag,GitHub,53.7,OpenClaw型,持续观察,stars,898.0
+2026-09-11T01:13:46+00:00,hackernews-35c2979610b5,Show HN: CodePress – Save $50k+ a month on Cloud Agents,Hacker News,37.6,Manus型,暂不跟进,points,4.0
+2026-09-11T01:13:46+00:00,hackernews-1cfbded3d2bc,"AI Agent Builder gives memory across voice, SMS, email, web chat and social",Hacker News,34.3,Manus型,暂不跟进,points,5.0
+2026-09-11T01:13:46+00:00,hackernews-54abda883d62,AI Agent for Animation,Hacker News,32.1,Manus型,暂不跟进,points,1.0
+2026-09-11T01:13:46+00:00,product-hunt-5904c1e75893,Frigade Assist API,Product Hunt,29.8,Manus型,暂不跟进,none,0.0
