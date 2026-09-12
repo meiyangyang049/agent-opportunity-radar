@@ -184,3 +184,13 @@ run_at,id,name,source,score,opportunity_type,recommended_action,metric_name,metr
 2026-09-11T01:13:46+00:00,hackernews-1cfbded3d2bc,"AI Agent Builder gives memory across voice, SMS, email, web chat and social",Hacker News,34.3,Manus型,暂不跟进,points,5.0
 2026-09-11T01:13:46+00:00,hackernews-54abda883d62,AI Agent for Animation,Hacker News,32.1,Manus型,暂不跟进,points,1.0
 2026-09-11T01:13:46+00:00,product-hunt-5904c1e75893,Frigade Assist API,Product Hunt,29.8,Manus型,暂不跟进,none,0.0
+2026-09-12T01:13:22+00:00,github-6ec6afeb6996,Vincentwei1021/anything2explainer,GitHub,69.0,OpenClaw型,持续观察,stars,936.0
+2026-09-12T01:13:22+00:00,github-f1d0587837c3,okf-memory/okf-agent-memory,GitHub,62.1,OpenClaw型,持续观察,stars,577.0
+2026-09-12T01:13:22+00:00,github-cd6c2959f69c,achimala/dream-loop,GitHub,61.4,OpenClaw型,持续观察,stars,850.0
+2026-09-12T01:13:22+00:00,github-dddcf93ccb0b,punkpeye/awesome-remote-mcp-servers,GitHub,60.0,OpenClaw型,持续观察,stars,163.0
+2026-09-12T01:13:22+00:00,github-b3358c9b6e3a,browser-use/browser-use-pi,GitHub,58.4,OpenClaw型,持续观察,stars,274.0
+2026-09-12T01:13:22+00:00,github-e0c2a493794a,iamzulx/crypto-rag,GitHub,53.5,OpenClaw型,暂不跟进,stars,903.0
+2026-09-12T01:13:22+00:00,github-435c154523eb,showlab/Show-Harness,GitHub,52.8,OpenClaw型,暂不跟进,stars,259.0
+2026-09-12T01:13:22+00:00,product-hunt-d0931da51dc9,Cadenya,Product Hunt,26.6,Manus型,暂不跟进,none,0.0
+2026-09-12T01:13:22+00:00,product-hunt-118b6fe70b36,Spaces,Product Hunt,26.6,Manus型,暂不跟进,none,0.0
+2026-09-12T01:13:22+00:00,product-hunt-9018f31a6d57,hob,Product Hunt,22.8,Manus型,暂不跟进,none,0.0
