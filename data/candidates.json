@@ -1,8 +1,8 @@
 {
   "meta": {
     "project": "Agent Opportunity Radar",
-    "generated_at": "2026-09-13T01:13:06+00:00",
-    "generated_at_display": "2026-09-13 09:13 CST",
+    "generated_at": "2026-09-14T01:15:36+00:00",
+    "generated_at_display": "2026-09-14 09:15 CST",
     "mode": "公开信号实时运行",
     "sources": [
       "GitHub",
@@ -14,16 +14,15 @@
       "AI news RSS: HTTPError: 429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
     ],
     "notices": [],
-    "candidate_pool_size": 29,
+    "candidate_pool_size": 26,
     "pool_by_source": {
-      "GitHub": 12,
-      "Hacker News": 14,
-      "Product Hunt": 3
+      "GitHub": 11,
+      "Hacker News": 15
     },
     "pool_by_type": {
-      "OpenClaw型": 19,
-      "其他Agent": 8,
-      "Manus型": 2
+      "OpenClaw型": 14,
+      "其他Agent": 11,
+      "Manus型": 1
     },
     "shortlist_policy": "Top 10；OpenClaw型/Manus型各至少4个（候选充足时）",
     "kimi_model": "kimi-k2.6"
@@ -36,13 +35,13 @@
       "url": "https://github.com/Vincentwei1021/anything2explainer",
       "description": "Topic in, narrated explainer video out. A Claude Code / Codex skill that turns any topic into a black-canvas motion-graphics explainer video with TTS voiceover, subtitles and a chapter progress bar. Chinese or English; every frame drawn in code with Remotion.",
       "published_at": "2026-09-08T17:19:54Z",
-      "discovered_at": "2026-09-13T01:13:00+00:00",
+      "discovered_at": "2026-09-14T01:15:31+00:00",
       "author": "Vincentwei1021",
       "metrics": {
-        "stars": 1064,
-        "forks": 185,
-        "open_issues": 2,
-        "watchers": 1064
+        "stars": 1169,
+        "forks": 206,
+        "open_issues": 0,
+        "watchers": 1169
       },
       "tags": [
         "agent-skills",
@@ -65,14 +64,14 @@
         "video-generation"
       ],
       "evidence": [
-        "+128 stars since last run",
-        "1,064 GitHub stars",
-        "185 forks",
+        "+105 stars since last run",
+        "1,169 GitHub stars",
+        "206 forks",
         "Created 2026-09-08"
       ],
       "raw_text": "Vincentwei1021/anything2explainer Topic in, narrated explainer video out. A Claude Code / Codex skill that turns any topic into a black-canvas motion-graphics explainer video with TTS voiceover, subtitles and a chapter progress bar. Chinese or English; every frame drawn in code with Remotion. agent-skills ai-agents ai-video claude-code claude-code-skill codex edge-tts educational-video explainer-video kokoro motion-graphics multi-agent react remotion text-to-video tts typescript video-generation",
       "opportunity_type": "OpenClaw型",
-      "score": 68.0,
+      "score": 66.0,
       "dimension_scores": {
         "growth_speed": 100.0,
         "agent_innovation": 35,
@@ -82,13 +81,13 @@
         "kimi_strategic_fit": 47
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "5天获1064星、185 fork，增速128星/天；明确标注Claude Code/Codex skill，Remotion代码逐帧渲染，存在多模型替换空间",
-      "commercial_summary": "高增速开源skill，若扩展为模型无关的explainer视频生成框架，可成为Kimi API在AI视频教育场景的生态入口",
+      "reason_to_contact_now": "+105 stars since last run；1,169 GitHub stars；206 forks；Claude Code/Codex skill生态位",
+      "commercial_summary": "Claude Code/Codex技能插件，验证多模型skill生态扩展潜力，关注是否接入其他模型Provider",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "language": "TypeScript",
-        "updated_at": "2026-09-13T01:08:44Z",
+        "updated_at": "2026-09-14T01:14:41Z",
         "homepage": null,
         "agent_keyword_hits": [
           "multi-agent"
@@ -97,162 +96,8 @@
         "ecosystem_keyword_hits": [
           "skill"
         ],
-        "metric_delta": 128.0,
-        "metric_velocity_per_day": 128.0237080940915
-      }
-    },
-    {
-      "id": "github-a2548c7827ad",
-      "source": "GitHub",
-      "name": "alchaincyf/huashu-mac-use",
-      "url": "https://github.com/alchaincyf/huashu-mac-use",
-      "description": "让任何 agent 操控 Mac 上没有 API 的原生 app，读后台、写不打扰、每步留取证 · Agent Skill for macOS computer use",
-      "published_at": "2026-09-06T14:29:13Z",
-      "discovered_at": "2026-09-13T01:13:00+00:00",
-      "author": "alchaincyf",
-      "metrics": {
-        "stars": 241,
-        "forks": 40,
-        "open_issues": 3,
-        "watchers": 241
-      },
-      "tags": [],
-      "evidence": [
-        "241 GitHub stars",
-        "40 forks",
-        "Created 2026-09-06"
-      ],
-      "raw_text": "alchaincyf/huashu-mac-use 让任何 agent 操控 Mac 上没有 API 的原生 app，读后台、写不打扰、每步留取证 · Agent Skill for macOS computer use ",
-      "opportunity_type": "OpenClaw型",
-      "score": 65.3,
-      "dimension_scores": {
-        "growth_speed": 76.7,
-        "agent_innovation": 35,
-        "community_signal": 100.0,
-        "api_consumption_potential": 55,
-        "commercialization": 32,
-        "kimi_strategic_fit": 47
-      },
-      "recommended_action": "持续观察",
-      "reason_to_contact_now": "6天241星40 fork，Swift实现Mac原生app无API操控，定位Agent Skill；中文开发者背景，computer use场景明确",
-      "commercial_summary": "macOS computer use开源skill，若形成跨平台标准，Kimi可作为默认模型provider切入端侧agent执行层",
-      "confidence": "medium",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "language": "Swift",
-        "updated_at": "2026-09-12T13:58:46Z",
-        "homepage": null,
-        "agent_keyword_hits": [
-          "computer use"
-        ],
-        "commercial_keyword_hits": [
-          "api"
-        ],
-        "ecosystem_keyword_hits": [
-          "skill"
-        ]
-      }
-    },
-    {
-      "id": "github-cd6c2959f69c",
-      "source": "GitHub",
-      "name": "achimala/dream-loop",
-      "url": "https://github.com/achimala/dream-loop",
-      "description": "Agent skill for impressive 3D visuals using Blender + image gen + subagent critic",
-      "published_at": "2026-09-07T14:19:20Z",
-      "discovered_at": "2026-09-13T01:13:00+00:00",
-      "author": "achimala",
-      "metrics": {
-        "stars": 921,
-        "forks": 104,
-        "open_issues": 1,
-        "watchers": 921
-      },
-      "tags": [],
-      "evidence": [
-        "+71 stars since last run",
-        "921 GitHub stars",
-        "104 forks",
-        "Created 2026-09-07"
-      ],
-      "raw_text": "achimala/dream-loop Agent skill for impressive 3D visuals using Blender + image gen + subagent critic ",
-      "opportunity_type": "OpenClaw型",
-      "score": 60.4,
-      "dimension_scores": {
-        "growth_speed": 100.0,
-        "agent_innovation": 24,
-        "community_signal": 100.0,
-        "api_consumption_potential": 25,
-        "commercialization": 18,
-        "kimi_strategic_fit": 41
-      },
-      "recommended_action": "持续观察",
-      "reason_to_contact_now": "6天921星104 fork，增速71星/天；Blender+image gen+subagent critic的3D视觉skill，subagent架构隐含多模型调用",
-      "commercial_summary": "3D生成开源skill，subagent critic模式若扩展可消耗大量API token；需观察是否支持多模型切换及Blender自动化成熟度",
-      "confidence": "medium",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "language": "JavaScript",
-        "updated_at": "2026-09-12T23:08:05Z",
-        "homepage": null,
-        "agent_keyword_hits": [],
-        "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": [
-          "skill"
-        ],
-        "metric_delta": 71.0,
-        "metric_velocity_per_day": 71.01315058344137
-      }
-    },
-    {
-      "id": "github-68c796aa8af3",
-      "source": "GitHub",
-      "name": "kruzovic7/ai-data-extractor",
-      "url": "https://github.com/kruzovic7/ai-data-extractor",
-      "description": "Free open-source extractor for AI coding assistant chat histories. Supports Claude Code, Cursor, Windsurf, Aider, Cline/Roo Code, and more.",
-      "published_at": "2026-09-11T18:12:58Z",
-      "discovered_at": "2026-09-13T01:13:01+00:00",
-      "author": "kruzovic7",
-      "metrics": {
-        "stars": 167,
-        "forks": 62,
-        "open_issues": 0,
-        "watchers": 167
-      },
-      "tags": [
-        "ai",
-        "ai-data-extraction",
-        "claude-code",
-        "cursor"
-      ],
-      "evidence": [
-        "167 GitHub stars",
-        "62 forks",
-        "Created 2026-09-11"
-      ],
-      "raw_text": "kruzovic7/ai-data-extractor Free open-source extractor for AI coding assistant chat histories. Supports Claude Code, Cursor, Windsurf, Aider, Cline/Roo Code, and more. ai ai-data-extraction claude-code cursor",
-      "opportunity_type": "OpenClaw型",
-      "score": 57.4,
-      "dimension_scores": {
-        "growth_speed": 95.0,
-        "agent_innovation": 24,
-        "community_signal": 100.0,
-        "api_consumption_potential": 25,
-        "commercialization": 18,
-        "kimi_strategic_fit": 33
-      },
-      "recommended_action": "持续观察",
-      "reason_to_contact_now": "167 GitHub stars；62 forks；Created 2026-09-11",
-      "commercial_summary": "AI编程助手数据提取工具，支持多平台聊天记录导出，若扩展为模型无关格式或分析平台，有生态合作空间。",
-      "confidence": "medium",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "language": "Python",
-        "updated_at": "2026-09-13T01:02:45Z",
-        "homepage": "",
-        "agent_keyword_hits": [],
-        "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": []
+        "metric_delta": 105.0,
+        "metric_velocity_per_day": 104.81802426343154
       }
     },
     {
@@ -262,13 +107,13 @@
       "url": "https://github.com/viettranx/3dviz-pro-max",
       "description": "Agent skill for creative 3D visualization: turn an idea into a Three.js/Blender scene worth exploring. Claude Code + Codex plugin, 223 recipes, 440 knowledge records, 22 proved kits, 37 runnable studies.",
       "published_at": "2026-09-10T01:42:59Z",
-      "discovered_at": "2026-09-13T01:13:01+00:00",
+      "discovered_at": "2026-09-14T01:15:32+00:00",
       "author": "viettranx",
       "metrics": {
-        "stars": 205,
-        "forks": 30,
+        "stars": 216,
+        "forks": 32,
         "open_issues": 0,
-        "watchers": 205
+        "watchers": 216
       },
       "tags": [
         "3d",
@@ -281,15 +126,16 @@
         "visualization"
       ],
       "evidence": [
-        "205 GitHub stars",
-        "30 forks",
+        "+11 stars since last run",
+        "216 GitHub stars",
+        "32 forks",
         "Created 2026-09-10"
       ],
       "raw_text": "viettranx/3dviz-pro-max Agent skill for creative 3D visualization: turn an idea into a Three.js/Blender scene worth exploring. Claude Code + Codex plugin, 223 recipes, 440 knowledge records, 22 proved kits, 37 runnable studies. 3d agent-skill blender claude-code codex gltf threejs visualization",
       "opportunity_type": "OpenClaw型",
-      "score": 56.7,
+      "score": 59.8,
       "dimension_scores": {
-        "growth_speed": 85.7,
+        "growth_speed": 82.2,
         "agent_innovation": 24,
         "community_signal": 100.0,
         "api_consumption_potential": 25,
@@ -297,20 +143,173 @@
         "kimi_strategic_fit": 49
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "205 GitHub stars；30 forks；Created 2026-09-10",
-      "commercial_summary": "Claude Code/Codex插件型3D可视化Agent技能，223 recipes表明内容深度，若支持多模型接入可评估生态合作。",
+      "reason_to_contact_now": "216 GitHub stars，32 forks，+11 stars since last run，Claude Code + Codex plugin明确依赖，有homepage和活跃迭代",
+      "commercial_summary": "Agent技能/插件生态，明确绑定Claude/Codex，高fork率说明开发者参与度高，可作为Kimi技能生态对标或合作转化目标",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "language": "JavaScript",
-        "updated_at": "2026-09-12T23:19:49Z",
+        "updated_at": "2026-09-13T19:40:17Z",
         "homepage": "https://3dviz.dev",
         "agent_keyword_hits": [],
         "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": [
           "plugin",
           "skill"
-        ]
+        ],
+        "metric_delta": 11.0,
+        "metric_velocity_per_day": 10.980935875216637
+      }
+    },
+    {
+      "id": "github-07f76c39d822",
+      "source": "GitHub",
+      "name": "rizqinrr/viserys-agent",
+      "url": "https://github.com/rizqinrr/viserys-agent",
+      "description": "No repository description provided.",
+      "published_at": "2026-09-12T16:51:29Z",
+      "discovered_at": "2026-09-14T01:15:31+00:00",
+      "author": "rizqinrr",
+      "metrics": {
+        "stars": 628,
+        "forks": 0,
+        "open_issues": 0,
+        "watchers": 628
+      },
+      "tags": [],
+      "evidence": [
+        "628 GitHub stars",
+        "0 forks",
+        "Created 2026-09-12"
+      ],
+      "raw_text": "rizqinrr/viserys-agent  ",
+      "opportunity_type": "OpenClaw型",
+      "score": 59.4,
+      "dimension_scores": {
+        "growth_speed": 100.0,
+        "agent_innovation": 24,
+        "community_signal": 88.9,
+        "api_consumption_potential": 25,
+        "commercialization": 18,
+        "kimi_strategic_fit": 33
+      },
+      "recommended_action": "持续观察",
+      "reason_to_contact_now": "628 GitHub stars，0 forks，创建于2026-09-12，JavaScript项目，增长极快但fork率为0说明尚未形成开发者参与",
+      "commercial_summary": "新兴开源Agent项目，高star增速值得关注，需验证模型依赖和实际使用场景后再评估生态合作价值",
+      "confidence": "medium",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "metadata": {
+        "language": "JavaScript",
+        "updated_at": "2026-09-13T15:57:02Z",
+        "homepage": null,
+        "agent_keyword_hits": [],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": []
+      }
+    },
+    {
+      "id": "github-cd6c2959f69c",
+      "source": "GitHub",
+      "name": "achimala/dream-loop",
+      "url": "https://github.com/achimala/dream-loop",
+      "description": "Agent skill for impressive 3D visuals using Blender + image gen + subagent critic",
+      "published_at": "2026-09-07T14:19:20Z",
+      "discovered_at": "2026-09-14T01:15:31+00:00",
+      "author": "achimala",
+      "metrics": {
+        "stars": 967,
+        "forks": 111,
+        "open_issues": 4,
+        "watchers": 967
+      },
+      "tags": [],
+      "evidence": [
+        "+46 stars since last run",
+        "967 GitHub stars",
+        "111 forks",
+        "Created 2026-09-07"
+      ],
+      "raw_text": "achimala/dream-loop Agent skill for impressive 3D visuals using Blender + image gen + subagent critic ",
+      "opportunity_type": "OpenClaw型",
+      "score": 59.3,
+      "dimension_scores": {
+        "growth_speed": 99.3,
+        "agent_innovation": 24,
+        "community_signal": 100.0,
+        "api_consumption_potential": 25,
+        "commercialization": 18,
+        "kimi_strategic_fit": 41
+      },
+      "recommended_action": "持续观察",
+      "reason_to_contact_now": "+46 stars since last run；967 GitHub stars；111 forks；Blender+image gen+subagent critic pipeline",
+      "commercial_summary": "3D视觉Agent skill，关注其image gen模型Provider选择及是否扩展支持其他代码Agent平台",
+      "confidence": "medium",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "metadata": {
+        "language": "JavaScript",
+        "updated_at": "2026-09-14T01:04:53Z",
+        "homepage": null,
+        "agent_keyword_hits": [],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": [
+          "skill"
+        ],
+        "metric_delta": 46.0,
+        "metric_velocity_per_day": 45.92027729636048
+      }
+    },
+    {
+      "id": "github-68c796aa8af3",
+      "source": "GitHub",
+      "name": "kruzovic7/ai-data-extractor",
+      "url": "https://github.com/kruzovic7/ai-data-extractor",
+      "description": "Free open-source extractor for AI coding assistant chat histories. Supports Claude Code, Cursor, Windsurf, Aider, Cline/Roo Code, and more.",
+      "published_at": "2026-09-11T18:12:58Z",
+      "discovered_at": "2026-09-14T01:15:31+00:00",
+      "author": "kruzovic7",
+      "metrics": {
+        "stars": 393,
+        "forks": 131,
+        "open_issues": 0,
+        "watchers": 393
+      },
+      "tags": [
+        "ai",
+        "ai-data-extraction",
+        "claude-code",
+        "cursor"
+      ],
+      "evidence": [
+        "+226 stars since last run",
+        "393 GitHub stars",
+        "131 forks",
+        "Created 2026-09-11"
+      ],
+      "raw_text": "kruzovic7/ai-data-extractor Free open-source extractor for AI coding assistant chat histories. Supports Claude Code, Cursor, Windsurf, Aider, Cline/Roo Code, and more. ai ai-data-extraction claude-code cursor",
+      "opportunity_type": "OpenClaw型",
+      "score": 58.6,
+      "dimension_scores": {
+        "growth_speed": 100.0,
+        "agent_innovation": 24,
+        "community_signal": 100.0,
+        "api_consumption_potential": 25,
+        "commercialization": 18,
+        "kimi_strategic_fit": 33
+      },
+      "recommended_action": "持续观察",
+      "reason_to_contact_now": "+226 stars since last run；393 GitHub stars；131 forks；多工具chat history提取",
+      "commercial_summary": "开发者工具型项目，覆盖Claude Code/Cursor/Windsurf等主流AI coding工具生态，关注是否扩展支持Kimi相关IDE",
+      "confidence": "medium",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "metadata": {
+        "language": "Python",
+        "updated_at": "2026-09-14T01:11:36Z",
+        "homepage": "",
+        "agent_keyword_hits": [],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": [],
+        "metric_delta": 226.0,
+        "metric_velocity_per_day": 225.60831889081456
       }
     },
     {
@@ -320,50 +319,50 @@
       "url": "https://github.com/punkpeye/awesome-remote-mcp-servers",
       "description": "A collection of remote MCP servers.",
       "published_at": "2026-09-08T00:43:30Z",
-      "discovered_at": "2026-09-13T01:13:01+00:00",
+      "discovered_at": "2026-09-14T01:15:32+00:00",
       "author": "punkpeye",
       "metrics": {
-        "stars": 178,
-        "forks": 263,
-        "open_issues": 89,
-        "watchers": 178
+        "stars": 192,
+        "forks": 283,
+        "open_issues": 109,
+        "watchers": 192
       },
       "tags": [
         "mcp"
       ],
       "evidence": [
-        "+15 stars since last run",
-        "178 GitHub stars",
-        "263 forks",
+        "+14 stars since last run",
+        "192 GitHub stars",
+        "283 forks",
         "Created 2026-09-08"
       ],
       "raw_text": "punkpeye/awesome-remote-mcp-servers A collection of remote MCP servers. mcp",
       "opportunity_type": "OpenClaw型",
-      "score": 55.5,
+      "score": 57.2,
       "dimension_scores": {
-        "growth_speed": 79.9,
+        "growth_speed": 78.7,
         "agent_innovation": 35,
         "community_signal": 100.0,
         "api_consumption_potential": 32,
         "commercialization": 18,
         "kimi_strategic_fit": 39
       },
-      "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "MCP server列表合集（awesome-list），178星263 fork但fork>star表明收藏/搬运属性；89 open issues维护负担重",
-      "commercial_summary": "生态聚合页面非产品本身，无直接API消费；可作为MCP生态监测参考，但非高价值客户或伙伴标的",
-      "confidence": "low",
+      "recommended_action": "持续观察",
+      "reason_to_contact_now": "+14 stars since last run；192 GitHub stars；283 forks；MCP server聚合列表",
+      "commercial_summary": "MCP生态策展项目，关联Glama.ai MCP连接器平台，关注MCP协议普及对模型API分发的影响",
+      "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "language": null,
-        "updated_at": "2026-09-12T23:27:45Z",
+        "updated_at": "2026-09-13T22:53:14Z",
         "homepage": "https://glama.ai/mcp/connectors",
         "agent_keyword_hits": [
           "mcp"
         ],
         "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": [],
-        "metric_delta": 15.0,
-        "metric_velocity_per_day": 15.002778292276348
+        "metric_delta": 14.0,
+        "metric_velocity_per_day": 13.975736568457538
       }
     },
     {
@@ -373,13 +372,13 @@
       "url": "https://github.com/showlab/Show-Harness",
       "description": "Just a VLM Agent Can Play Robots",
       "published_at": "2026-09-07T08:58:08Z",
-      "discovered_at": "2026-09-13T01:13:01+00:00",
+      "discovered_at": "2026-09-14T01:15:31+00:00",
       "author": "showlab",
       "metrics": {
-        "stars": 276,
-        "forks": 12,
+        "stars": 306,
+        "forks": 15,
         "open_issues": 0,
-        "watchers": 276
+        "watchers": 306
       },
       "tags": [
         "embodied-agent",
@@ -388,36 +387,36 @@
         "robotics"
       ],
       "evidence": [
-        "+17 stars since last run",
-        "276 GitHub stars",
-        "12 forks",
+        "+30 stars since last run",
+        "306 GitHub stars",
+        "15 forks",
         "Created 2026-09-07"
       ],
       "raw_text": "showlab/Show-Harness Just a VLM Agent Can Play Robots embodied-agent foundation-models harness robotics",
       "opportunity_type": "OpenClaw型",
-      "score": 54.1,
+      "score": 56.6,
       "dimension_scores": {
-        "growth_speed": 82.0,
+        "growth_speed": 91.8,
         "agent_innovation": 24,
         "community_signal": 100.0,
         "api_consumption_potential": 25,
         "commercialization": 18,
         "kimi_strategic_fit": 33
       },
-      "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "+17 stars since last run；276 GitHub stars；12 forks",
-      "commercial_summary": "VLM机器人控制框架，学术导向强，需观察是否形成可部署的机器人Agent平台及模型调用规模。",
+      "recommended_action": "持续观察",
+      "reason_to_contact_now": "+30 stars since last run；306 GitHub stars；15 forks；VLM Agent机器人控制",
+      "commercial_summary": "VLM+机器人Agent研究项目，关注其VLM模型Provider及是否产生API调用规模",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "language": "Python",
-        "updated_at": "2026-09-12T19:46:30Z",
+        "updated_at": "2026-09-14T00:46:24Z",
         "homepage": "https://showlab.github.io/Show-Harness/",
         "agent_keyword_hits": [],
         "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": [],
-        "metric_delta": 17.0,
-        "metric_velocity_per_day": 17.003148731246526
+        "metric_delta": 30.0,
+        "metric_velocity_per_day": 29.94800693240901
       }
     },
     {
@@ -427,13 +426,13 @@
       "url": "https://github.com/Phyzicalorg/Phyzical_org",
       "description": "Browser teleoperation data for embodied AI — elizaOS-ready episodes, trajectory_db converter, onchain provenance. The fuel station for agent robot stacks.",
       "published_at": "2026-09-09T13:01:05Z",
-      "discovered_at": "2026-09-13T01:13:00+00:00",
+      "discovered_at": "2026-09-14T01:15:31+00:00",
       "author": "Phyzicalorg",
       "metrics": {
-        "stars": 205,
+        "stars": 271,
         "forks": 0,
         "open_issues": 0,
-        "watchers": 205
+        "watchers": 271
       },
       "tags": [
         "data-platform",
@@ -447,115 +446,146 @@
         "web3"
       ],
       "evidence": [
-        "205 GitHub stars",
+        "+66 stars since last run",
+        "271 GitHub stars",
         "0 forks",
         "Created 2026-09-09"
       ],
       "raw_text": "Phyzicalorg/Phyzical_org Browser teleoperation data for embodied AI — elizaOS-ready episodes, trajectory_db converter, onchain provenance. The fuel station for agent robot stacks. data-platform elizaos embodied-ai imitation-learning robot-learning robotics teleoperation vla web3",
       "opportunity_type": "OpenClaw型",
-      "score": 49.8,
+      "score": 52.6,
       "dimension_scores": {
-        "growth_speed": 83.3,
+        "growth_speed": 100.0,
         "agent_innovation": 24,
-        "community_signal": 76.6,
+        "community_signal": 79.7,
         "api_consumption_potential": 25,
         "commercialization": 18,
         "kimi_strategic_fit": 33
       },
       "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "205 GitHub stars；0 forks；Created 2026-09-09",
-      "commercial_summary": "具身AI遥操作数据平台，elizaOS集成但0 forks显示参与度有限，需观察数据规模及模型训练需求。",
+      "reason_to_contact_now": "271 GitHub stars，0 forks，+66 stars since last run，但0 forks说明无开发者参与，且强绑定elizaOS和web3叙事",
+      "commercial_summary": "具身AI数据平台，elizaOS生态和web3属性强，与Kimi当前战略方向偏离，且fork率为0缺乏真实开发者采用信号",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "language": "Python",
-        "updated_at": "2026-09-13T00:41:35Z",
+        "updated_at": "2026-09-14T00:48:33Z",
         "homepage": "https://phyzical.org",
         "agent_keyword_hits": [],
         "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": []
+        "ecosystem_keyword_hits": [],
+        "metric_delta": 66.0,
+        "metric_velocity_per_day": 65.88561525129982
       }
     },
     {
-      "id": "product-hunt-d0931da51dc9",
-      "source": "Product Hunt",
-      "name": "Cadenya",
-      "url": "https://www.producthunt.com/products/cadenya-the-agent-runtime",
-      "description": "A hosted agentic loop to bring agentic possibilities to life Discussion | Link",
-      "published_at": "2026-09-10T16:21:08-07:00",
-      "discovered_at": "2026-09-13T01:13:05+00:00",
-      "author": "Robert Ross",
-      "metrics": {},
-      "tags": [],
-      "evidence": [
-        "Published via Product Hunt",
-        "2026-09-10T16:21:08-07:00"
-      ],
-      "raw_text": "Cadenya A hosted agentic loop to bring agentic possibilities to life Discussion | Link ",
-      "opportunity_type": "Manus型",
-      "score": 25.6,
-      "dimension_scores": {
-        "growth_speed": 30.0,
-        "agent_innovation": 35,
-        "community_signal": 18.0,
-        "api_consumption_potential": 32,
-        "commercialization": 36,
-        "kimi_strategic_fit": 31
+      "id": "github-38746e8272b8",
+      "source": "GitHub",
+      "name": "Akxan/google-seo-mcp",
+      "url": "https://github.com/Akxan/google-seo-mcp",
+      "description": "SEO & GEO MCP server for Claude, Codex, Cursor and any MCP client: Search Console, GA4, PageSpeed, Core Web Vitals, structured data, llms.txt, AI crawler checks, WordPress (Yoast, WP-CLI over SSH), GitHub, Gmail — 83 tools for technical SEO and generative engine optimization; optional hosted mode with Google sign-in",
+      "published_at": "2026-09-09T02:00:34Z",
+      "discovered_at": "2026-09-14T01:15:32+00:00",
+      "author": "Akxan",
+      "metrics": {
+        "stars": 33,
+        "forks": 5,
+        "open_issues": 0,
+        "watchers": 33
       },
-      "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "Product Hunt发布无metrics，描述为hosted agentic loop，无定价、无用户、无模型信息",
-      "commercial_summary": "agent runtime概念同质化高，缺乏差异化证据和API调用规模信号，暂不具备战略合作或客户价值",
-      "confidence": "low",
+      "tags": [
+        "ai-agents",
+        "claude",
+        "core-web-vitals",
+        "ga4",
+        "generative-engine-optimization",
+        "geo",
+        "google-analytics",
+        "google-search-console",
+        "llms-txt",
+        "mcp",
+        "mcp-server",
+        "model-context-protocol",
+        "pagespeed-insights",
+        "seo",
+        "seo-tools",
+        "structured-data",
+        "technical-seo",
+        "typescript",
+        "wordpress",
+        "yoast"
+      ],
+      "evidence": [
+        "33 GitHub stars",
+        "5 forks",
+        "Created 2026-09-09"
+      ],
+      "raw_text": "Akxan/google-seo-mcp SEO & GEO MCP server for Claude, Codex, Cursor and any MCP client: Search Console, GA4, PageSpeed, Core Web Vitals, structured data, llms.txt, AI crawler checks, WordPress (Yoast, WP-CLI over SSH), GitHub, Gmail — 83 tools for technical SEO and generative engine optimization; optional hosted mode with Google sign-in ai-agents claude core-web-vitals ga4 generative-engine-optimization geo google-analytics google-search-console llms-txt mcp mcp-server model-context-protocol pagespeed-insights seo seo-tools structured-data technical-seo typescript wordpress yoast",
+      "opportunity_type": "OpenClaw型",
+      "score": 50.6,
+      "dimension_scores": {
+        "growth_speed": 52.5,
+        "agent_innovation": 35,
+        "community_signal": 71.1,
+        "api_consumption_potential": 32,
+        "commercialization": 18,
+        "kimi_strategic_fit": 47
+      },
+      "recommended_action": "持续观察",
+      "reason_to_contact_now": "33 GitHub stars，5 forks，明确MCP server实现，支持Claude/Codex/Cursor，83 tools，有hosted mode商业化迹象",
+      "commercial_summary": "MCP生态活跃参与者，多模型兼容架构，若MCP成为标准协议，此类工具集成商是Kimi API接入的关键渠道，hosted mode暗示SaaS转型可能",
+      "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
-        "feed_url": "https://www.producthunt.com/feed",
-        "content_kind": "product_launch",
-        "original_title": "Cadenya",
+        "language": "TypeScript",
+        "updated_at": "2026-09-12T10:32:38Z",
+        "homepage": "https://github.com/Akxan/google-seo-mcp#readme",
         "agent_keyword_hits": [
-          "agentic"
+          "mcp"
         ],
         "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": []
+        "ecosystem_keyword_hits": [
+          "github"
+        ]
       }
     },
     {
-      "id": "product-hunt-118b6fe70b36",
-      "source": "Product Hunt",
-      "name": "Spaces",
-      "url": "https://www.producthunt.com/products/spaces-21",
-      "description": "One shared space where your team and AI agents work Discussion | Link",
-      "published_at": "2026-09-08T11:31:12-07:00",
-      "discovered_at": "2026-09-13T01:13:05+00:00",
-      "author": "John",
-      "metrics": {},
+      "id": "hackernews-a6d191aa92fa",
+      "source": "Hacker News",
+      "name": "Show HN: Credit against tokenised stocks for agents. punish us please",
+      "url": "https://vaaya.ai/credit-against-securities-for-agents",
+      "description": "we are launching credit against tokenised stocks for your agents. Your agents can buy stocks and borrow credit line for your agents against it. This is another step in becoming treasury for agents which allows agents to invest, buy, trade, and sell without any human intervention. Please give us a try and give honest and brutal feedback. punish me for being stupid and bold.",
+      "published_at": "1789329798",
+      "discovered_at": "2026-09-14T01:15:36+00:00",
+      "author": "nakulkelkar",
+      "metrics": {
+        "points": 2,
+        "comments": 1
+      },
       "tags": [],
       "evidence": [
-        "Published via Product Hunt",
-        "2026-09-08T11:31:12-07:00"
+        "2 HN points",
+        "1 comments"
       ],
-      "raw_text": "Spaces One shared space where your team and AI agents work Discussion | Link ",
+      "raw_text": "Show HN: Credit against tokenised stocks for agents. punish us please we are launching credit against tokenised stocks for your agents. Your agents can buy stocks and borrow credit line for your agents against it. This is another step in becoming treasury for agents which allows agents to invest, buy, trade, and sell without any human intervention. Please give us a try and give honest and brutal feedback. punish me for being stupid and bold.",
       "opportunity_type": "Manus型",
-      "score": 24.6,
+      "score": 27.4,
       "dimension_scores": {
-        "growth_speed": 30.0,
-        "agent_innovation": 35,
-        "community_signal": 18.0,
-        "api_consumption_potential": 32,
-        "commercialization": 36,
-        "kimi_strategic_fit": 31
+        "growth_speed": 30.8,
+        "agent_innovation": 24,
+        "community_signal": 45.0,
+        "api_consumption_potential": 25,
+        "commercialization": 18,
+        "kimi_strategic_fit": 33
       },
       "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "Product Hunt发布无metrics，描述模糊为team+AI agents协作空间，无差异化技术或模型绑定证据",
-      "commercial_summary": "协作空间赛道拥挤，无API调用规模、无付费转化、无技术壁垒信号，暂不构成高价值客户或竞品",
+      "reason_to_contact_now": "2 HN points；1 comments；早期产品信号极弱，无用户验证",
+      "commercial_summary": "Agent金融基础设施，当前无API消费证据，模型依赖不明，需观察产品-市场契合度",
       "confidence": "low",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
-        "feed_url": "https://www.producthunt.com/feed",
-        "content_kind": "product_launch",
-        "original_title": "Spaces",
-        "agent_keyword_hits": [
-          "ai agent"
-        ],
+        "discussion_url": "https://news.ycombinator.com/item?id=49688089",
+        "agent_keyword_hits": [],
         "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": []
       }
