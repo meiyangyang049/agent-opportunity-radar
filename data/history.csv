@@ -224,3 +224,13 @@ run_at,id,name,source,score,opportunity_type,recommended_action,metric_name,metr
 2026-09-15T01:17:19+00:00,hackernews-4a051dcdf93e,Show HN: Nowdex – AI agent usage on your iPhone,Hacker News,32.2,Manus型,暂不跟进,points,2.0
 2026-09-15T01:17:19+00:00,product-hunt-b6d51a01900d,OzBrain,Product Hunt,26.6,Manus型,暂不跟进,none,0.0
 2026-09-15T01:17:19+00:00,hackernews-217f854e58a3,"Salesforce launches Hunter, an outbound sales agent",Hacker News,25.3,Manus型,暂不跟进,points,1.0
+2026-09-16T01:14:44+00:00,github-32b529e34669,agentverse-os/AgentVerse-OS,GitHub,65.3,OpenClaw型,持续观察,stars,588.0
+2026-09-16T01:14:44+00:00,github-e11cb18d1ade,AetherLabsAI/RSIAgent,GitHub,63.7,OpenClaw型,持续观察,stars,186.0
+2026-09-16T01:14:44+00:00,github-07f76c39d822,rizqinrr/viserys-agent,GitHub,58.3,OpenClaw型,持续观察,stars,652.0
+2026-09-16T01:14:44+00:00,github-4c5fbb908f5b,youngyangyang04/llm-master,GitHub,56.8,OpenClaw型,暂不跟进,stars,443.0
+2026-09-16T01:14:44+00:00,github-68c796aa8af3,kruzovic7/ai-data-extractor,GitHub,56.6,OpenClaw型,持续观察,stars,822.0
+2026-09-16T01:14:44+00:00,github-e04288509bad,viettranx/3dviz-pro-max,GitHub,56.2,OpenClaw型,暂不跟进,stars,401.0
+2026-09-16T01:14:44+00:00,hackernews-08809819dfeb,Show HN: Agenttik – work on multiple projects in parallel with AI agents,Hacker News,32.4,Manus型,暂不跟进,points,4.0
+2026-09-16T01:14:44+00:00,product-hunt-3065951b5bf1,OpenAI Agents API,Product Hunt,31.8,Manus型,暂不跟进,none,0.0
+2026-09-16T01:14:44+00:00,product-hunt-b584b464f844,Buddy AI Access (MCP),Product Hunt,29.6,Manus型,暂不跟进,none,0.0
+2026-09-16T01:14:44+00:00,product-hunt-acb5dedcbe24,Multimodal Agents by Sierra,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
