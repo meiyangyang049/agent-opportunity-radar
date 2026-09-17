@@ -234,3 +234,13 @@ run_at,id,name,source,score,opportunity_type,recommended_action,metric_name,metr
 2026-09-16T01:14:44+00:00,product-hunt-3065951b5bf1,OpenAI Agents API,Product Hunt,31.8,Manus型,暂不跟进,none,0.0
 2026-09-16T01:14:44+00:00,product-hunt-b584b464f844,Buddy AI Access (MCP),Product Hunt,29.6,Manus型,暂不跟进,none,0.0
 2026-09-16T01:14:44+00:00,product-hunt-acb5dedcbe24,Multimodal Agents by Sierra,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
+2026-09-17T01:15:27+00:00,github-4c5fbb908f5b,youngyangyang04/llm-master,GitHub,66.3,OpenClaw型,持续观察,stars,564.0
+2026-09-17T01:15:27+00:00,github-e11cb18d1ade,AetherLabsAI/RSIAgent,GitHub,65.2,OpenClaw型,持续观察,stars,251.0
+2026-09-17T01:15:27+00:00,github-32b529e34669,agentverse-os/AgentVerse-OS,GitHub,63.3,OpenClaw型,持续观察,stars,680.0
+2026-09-17T01:15:27+00:00,github-e04288509bad,viettranx/3dviz-pro-max,GitHub,61.4,OpenClaw型,持续观察,stars,426.0
+2026-09-17T01:15:27+00:00,github-68c796aa8af3,kruzovic7/ai-data-extractor,GitHub,55.1,OpenClaw型,持续观察,stars,826.0
+2026-09-17T01:15:27+00:00,github-0e4c9437f32d,modelscope/ms-cookbook,GitHub,54.8,OpenClaw型,持续观察,stars,161.0
+2026-09-17T01:15:27+00:00,product-hunt-3065951b5bf1,OpenAI Agents API,Product Hunt,31.8,Manus型,暂不跟进,none,0.0
+2026-09-17T01:15:27+00:00,product-hunt-71d9c6d26e0d,Weave Router 2.0,Product Hunt,30.9,Manus型,持续观察,none,0.0
+2026-09-17T01:15:27+00:00,product-hunt-789f3eedb235,ZeroClick,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
+2026-09-17T01:15:27+00:00,product-hunt-9b7d30e2a07f,jurniti,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
