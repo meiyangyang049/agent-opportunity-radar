@@ -254,3 +254,13 @@ run_at,id,name,source,score,opportunity_type,recommended_action,metric_name,metr
 2026-09-18T01:14:36+00:00,hackernews-6000ab8284cb,CC is an AI agent for families and groups,Hacker News,33.0,Manus型,暂不跟进,points,5.0
 2026-09-18T01:14:36+00:00,hackernews-c7e05b4c1716,Show HN: Salt – Human and AI Economies driven across E2E encrypted chats,Hacker News,28.6,Manus型,暂不跟进,points,4.0
 2026-09-18T01:14:36+00:00,product-hunt-71d9c6d26e0d,Weave Router 2.0,Product Hunt,27.9,Manus型,暂不跟进,none,0.0
+2026-09-19T01:13:01+00:00,github-32b529e34669,agentverse-os/AgentVerse-OS,GitHub,66.3,OpenClaw型,持续观察,stars,855.0
+2026-09-19T01:13:01+00:00,github-e11cb18d1ade,AetherLabsAI/RSIAgent,GitHub,64.7,OpenClaw型,持续观察,stars,334.0
+2026-09-19T01:13:01+00:00,github-42486bed46dc,shinthink/blitzstrike,GitHub,62.1,OpenClaw型,持续观察,stars,636.0
+2026-09-19T01:13:01+00:00,github-4c5fbb908f5b,youngyangyang04/llm-master,GitHub,60.3,OpenClaw型,暂不跟进,stars,763.0
+2026-09-19T01:13:01+00:00,github-a5ce3bc3650d,indada/repopilot,GitHub,60.3,OpenClaw型,持续观察,stars,122.0
+2026-09-19T01:13:01+00:00,github-07f76c39d822,rizqinrr/viserys-agent,GitHub,55.6,OpenClaw型,持续观察,stars,665.0
+2026-09-19T01:13:01+00:00,hackernews-dbeb07e9eaa8,Show HN: Wcagent let use your ChatGPT subscription for coding,Hacker News,27.4,Manus型,暂不跟进,points,2.0
+2026-09-19T01:13:01+00:00,product-hunt-5403c92da6cf,AEXGrid,Product Hunt,26.6,Manus型,暂不跟进,none,0.0
+2026-09-19T01:13:01+00:00,product-hunt-0836229bed97,M9R,Product Hunt,23.8,Manus型,暂不跟进,none,0.0
+2026-09-19T01:13:01+00:00,product-hunt-f75132357de3,ContextsBase - Backlog for Coding Agents,Product Hunt,23.8,Manus型,暂不跟进,none,0.0
