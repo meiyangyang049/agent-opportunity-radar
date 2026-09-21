@@ -274,3 +274,13 @@ run_at,id,name,source,score,opportunity_type,recommended_action,metric_name,metr
 2026-09-20T01:13:42+00:00,product-hunt-1256d29cb2c0,Bolt Forge,Product Hunt,25.8,Manus型,暂不跟进,none,0.0
 2026-09-20T01:13:42+00:00,product-hunt-f113543b5616,Sider Omni Sidebar,Product Hunt,25.8,Manus型,暂不跟进,none,0.0
 2026-09-20T01:13:42+00:00,product-hunt-f75132357de3,ContextsBase - Backlog for Coding Agents,Product Hunt,25.8,Manus型,暂不跟进,none,0.0
+2026-09-21T01:14:45+00:00,github-055cf1ccf67a,mcncarl/jianying-headless,GitHub,59.4,OpenClaw型,持续观察,stars,2001.0
+2026-09-21T01:14:45+00:00,github-bfcc6585239d,wuyoscar/jev-skill,GitHub,56.1,OpenClaw型,持续观察,stars,152.0
+2026-09-21T01:14:45+00:00,github-a5ce3bc3650d,indada/repopilot,GitHub,53.7,OpenClaw型,暂不跟进,stars,153.0
+2026-09-21T01:14:45+00:00,hackernews-67139f3e9d03,Google's Open Agentic Orchestrator,Hacker News,50.2,其他Agent,暂不跟进,points,167.0
+2026-09-21T01:14:45+00:00,hackernews-aaefe301cc90,Why MCP Was Always a Bad Idea?,Hacker News,44.3,其他Agent,暂不跟进,points,37.0
+2026-09-21T01:14:45+00:00,product-hunt-9f9be9758123,Ruby UTCP,Product Hunt,41.5,OpenClaw型,持续观察,none,0.0
+2026-09-21T01:14:45+00:00,hackernews-215e7bd0c764,Show HN: Bailout – The coding agent meant to be deleted,Hacker News,36.6,OpenClaw型,暂不跟进,points,2.0
+2026-09-21T01:14:45+00:00,hackernews-7bcbfdb00d4b,Show HN: AgentTrace–Observability and runtime self-healing engine for AI agents,Hacker News,35.5,OpenClaw型,暂不跟进,points,4.0
+2026-09-21T01:14:45+00:00,hackernews-f3ff5a622f92,"Show HN: Openmsg, agent-to-agent talk while they run, Claude<>Codex<>OpenCode",Hacker News,35.0,OpenClaw型,持续观察,points,2.0
+2026-09-21T01:14:45+00:00,product-hunt-1256d29cb2c0,Bolt Forge,Product Hunt,22.8,Manus型,暂不跟进,none,0.0

@@ -1,8 +1,8 @@
 {
   "meta": {
     "project": "Agent Opportunity Radar",
-    "generated_at": "2026-09-20T01:13:42+00:00",
-    "generated_at_display": "2026-09-20 09:13 CST",
+    "generated_at": "2026-09-21T01:14:45+00:00",
+    "generated_at_display": "2026-09-21 09:14 CST",
     "mode": "公开信号实时运行",
     "sources": [
       "GitHub",
@@ -16,70 +16,19 @@
     "notices": [],
     "candidate_pool_size": 24,
     "pool_by_source": {
-      "GitHub": 5,
-      "Hacker News": 12,
-      "Product Hunt": 7
+      "GitHub": 3,
+      "Hacker News": 19,
+      "Product Hunt": 2
     },
     "pool_by_type": {
       "OpenClaw型": 11,
-      "Manus型": 6,
-      "其他Agent": 7
+      "其他Agent": 12,
+      "Manus型": 1
     },
     "shortlist_policy": "Top 10；OpenClaw型/Manus型各至少4个（候选充足时）",
     "kimi_model": "kimi-k2.6"
   },
   "candidates": [
-    {
-      "id": "github-e11cb18d1ade",
-      "source": "GitHub",
-      "name": "AetherLabsAI/RSIAgent",
-      "url": "https://github.com/AetherLabsAI/RSIAgent",
-      "description": "A training-free multi-agent framework for recursive self-improvement in new environments through broad-then-deep autonomous exploration and reusable memory.",
-      "published_at": "2026-09-13T01:48:25Z",
-      "discovered_at": "2026-09-20T01:13:37+00:00",
-      "author": "AetherLabsAI",
-      "metrics": {
-        "stars": 351,
-        "forks": 40,
-        "open_issues": 8,
-        "watchers": 351
-      },
-      "tags": [],
-      "evidence": [
-        "+17 stars since last run",
-        "351 GitHub stars",
-        "40 forks",
-        "Created 2026-09-13"
-      ],
-      "raw_text": "AetherLabsAI/RSIAgent A training-free multi-agent framework for recursive self-improvement in new environments through broad-then-deep autonomous exploration and reusable memory. ",
-      "opportunity_type": "OpenClaw型",
-      "score": 60.7,
-      "dimension_scores": {
-        "growth_speed": 82.0,
-        "agent_innovation": 35,
-        "community_signal": 100.0,
-        "api_consumption_potential": 50,
-        "commercialization": 18,
-        "kimi_strategic_fit": 39
-      },
-      "recommended_action": "持续观察",
-      "reason_to_contact_now": "+17 stars since last run；351 GitHub stars；40 forks；训练无关的多智能体递归自改进框架",
-      "commercial_summary": "多智能体框架+可复用记忆机制，若形成开发者生态可能成为模型API接入方，但当前agent_innovation仅35分，需观察是否集成外部模型API",
-      "confidence": "medium",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "language": "Python",
-        "updated_at": "2026-09-19T20:39:40Z",
-        "homepage": null,
-        "agent_keyword_hits": [
-          "multi-agent"
-        ],
-        "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": [],
-        "metric_delta": 17.0,
-        "metric_velocity_per_day": 16.991936696706425
-      }
-    },
     {
       "id": "github-055cf1ccf67a",
       "source": "GitHub",
@@ -87,23 +36,24 @@
       "url": "https://github.com/mcncarl/jianying-headless",
       "description": "Private source preview: native Jianying drafts, isolated editing/export, and standalone Agent Skill.",
       "published_at": "2026-09-15T11:51:15Z",
-      "discovered_at": "2026-09-20T01:13:37+00:00",
+      "discovered_at": "2026-09-21T01:14:40+00:00",
       "author": "mcncarl",
       "metrics": {
-        "stars": 1554,
-        "forks": 659,
-        "open_issues": 7,
-        "watchers": 1554
+        "stars": 2001,
+        "forks": 1271,
+        "open_issues": 9,
+        "watchers": 2001
       },
       "tags": [],
       "evidence": [
-        "1,554 GitHub stars",
-        "659 forks",
+        "+447 stars since last run",
+        "2,001 GitHub stars",
+        "1,271 forks",
         "Created 2026-09-15"
       ],
       "raw_text": "mcncarl/jianying-headless Private source preview: native Jianying drafts, isolated editing/export, and standalone Agent Skill. ",
       "opportunity_type": "OpenClaw型",
-      "score": 56.4,
+      "score": 59.4,
       "dimension_scores": {
         "growth_speed": 100.0,
         "agent_innovation": 24,
@@ -113,13 +63,63 @@
         "kimi_strategic_fit": 41
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "1,554 stars、659 forks，但定位为剪映草稿编辑器+Agent Skill，agent_innovation仅24分",
-      "commercial_summary": "视频编辑工具链的Agent Skill封装，若扩展为多模型Agent工作流可能产生API调用，但当前更像单一工具SDK",
+      "reason_to_contact_now": "+447 stars since last run；2,001 GitHub stars；1,271 forks；定位为standalone Agent Skill",
+      "commercial_summary": "剪映无头编辑+Agent Skill封装，若扩展为通用视频Agent框架或插件市场，可能成为Kimi API在视频生成/编辑场景的开发者生态入口",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "language": "Python",
-        "updated_at": "2026-09-20T01:12:49Z",
+        "updated_at": "2026-09-21T01:14:21Z",
+        "homepage": null,
+        "agent_keyword_hits": [],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": [
+          "skill"
+        ],
+        "metric_delta": 447.0,
+        "metric_velocity_per_day": 446.6742999895909
+      }
+    },
+    {
+      "id": "github-bfcc6585239d",
+      "source": "GitHub",
+      "name": "wuyoscar/jev-skill",
+      "url": "https://github.com/wuyoscar/jev-skill",
+      "description": "An awesome collection of Jev use cases, workflows, and agent skills.",
+      "published_at": "2026-09-20T02:35:26Z",
+      "discovered_at": "2026-09-21T01:14:41+00:00",
+      "author": "wuyoscar",
+      "metrics": {
+        "stars": 152,
+        "forks": 4,
+        "open_issues": 0,
+        "watchers": 152
+      },
+      "tags": [],
+      "evidence": [
+        "152 GitHub stars",
+        "4 forks",
+        "Created 2026-09-20"
+      ],
+      "raw_text": "wuyoscar/jev-skill An awesome collection of Jev use cases, workflows, and agent skills. ",
+      "opportunity_type": "OpenClaw型",
+      "score": 56.1,
+      "dimension_scores": {
+        "growth_speed": 97.5,
+        "agent_innovation": 24,
+        "community_signal": 86.2,
+        "api_consumption_potential": 25,
+        "commercialization": 18,
+        "kimi_strategic_fit": 41
+      },
+      "recommended_action": "持续观察",
+      "reason_to_contact_now": "152 GitHub stars，4 forks，Created 2026-09-20，增长极快（97.5分）",
+      "commercial_summary": "Jev平台的技能/工作流集合，若Jev成为新兴Agent框架，其skill生态可能是Kimi API接入的开发者分发渠道",
+      "confidence": "medium",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "metadata": {
+        "language": "Python",
+        "updated_at": "2026-09-21T01:13:30Z",
         "homepage": null,
         "agent_keyword_hits": [],
         "commercial_keyword_hits": [],
@@ -135,40 +135,40 @@
       "url": "https://github.com/indada/repopilot",
       "description": "Verification-driven AI software iteration, powered by the OpenAI Codex SDK. Self-hosted agents turn goals, GitHub Issues and PR feedback into tested, reviewable changes, with bounded execution and human control over merging and deployment.",
       "published_at": "2026-09-18T03:36:12Z",
-      "discovered_at": "2026-09-20T01:13:37+00:00",
+      "discovered_at": "2026-09-21T01:14:41+00:00",
       "author": "indada",
       "metrics": {
-        "stars": 152,
+        "stars": 153,
         "forks": 7,
         "open_issues": 0,
-        "watchers": 152
+        "watchers": 153
       },
       "tags": [],
       "evidence": [
-        "+30 stars since last run",
-        "152 GitHub stars",
+        "+1 stars since last run",
+        "153 GitHub stars",
         "7 forks",
         "Created 2026-09-18"
       ],
       "raw_text": "indada/repopilot Verification-driven AI software iteration, powered by the OpenAI Codex SDK. Self-hosted agents turn goals, GitHub Issues and PR feedback into tested, reviewable changes, with bounded execution and human control over merging and deployment. ",
       "opportunity_type": "OpenClaw型",
-      "score": 56.2,
+      "score": 53.7,
       "dimension_scores": {
-        "growth_speed": 91.8,
+        "growth_speed": 81.8,
         "agent_innovation": 24,
         "community_signal": 90.0,
         "api_consumption_potential": 25,
         "commercialization": 18,
         "kimi_strategic_fit": 49
       },
-      "recommended_action": "持续观察",
-      "reason_to_contact_now": "+30 stars since last run，152 stars，基于OpenAI Codex SDK的验证驱动迭代",
-      "commercial_summary": "明确绑定OpenAI Codex SDK，自托管DevAgent，若社区扩大存在替换默认Provider的拓展空间，但当前深度依赖OpenAI生态",
+      "recommended_action": "暂不跟进",
+      "reason_to_contact_now": "153 GitHub stars，7 forks，增长停滞（+1 since last run），明确绑定OpenAI Codex SDK",
+      "commercial_summary": "自托管AI软件开发agent，已深度绑定OpenAI Codex SDK作为默认Provider，切换成本与意愿均低，短期内Kimi接入空间有限",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "language": "TypeScript",
-        "updated_at": "2026-09-19T08:37:40Z",
+        "updated_at": "2026-09-20T14:54:25Z",
         "homepage": null,
         "agent_keyword_hits": [],
         "commercial_keyword_hits": [],
@@ -176,191 +176,262 @@
           "github",
           "self-hosted"
         ],
-        "metric_delta": 30.0,
-        "metric_velocity_per_day": 29.985770641246635
+        "metric_delta": 1.0,
+        "metric_velocity_per_day": 0.9992713646299574
       }
     },
     {
-      "id": "github-ee057cf07a68",
-      "source": "GitHub",
-      "name": "QiantangCredit/heimdall-pentest",
-      "url": "https://github.com/QiantangCredit/heimdall-pentest",
-      "description": "An autonomous AI agent framework for authorized penetration testing",
-      "published_at": "2026-09-14T09:29:07Z",
-      "discovered_at": "2026-09-20T01:13:37+00:00",
-      "author": "QiantangCredit",
-      "metrics": {
-        "stars": 73,
-        "forks": 11,
-        "open_issues": 0,
-        "watchers": 73
-      },
-      "tags": [],
-      "evidence": [
-        "73 GitHub stars",
-        "11 forks",
-        "Created 2026-09-14"
-      ],
-      "raw_text": "QiantangCredit/heimdall-pentest An autonomous AI agent framework for authorized penetration testing ",
-      "opportunity_type": "OpenClaw型",
-      "score": 49.9,
-      "dimension_scores": {
-        "growth_speed": 61.5,
-        "agent_innovation": 35,
-        "community_signal": 85.2,
-        "api_consumption_potential": 32,
-        "commercialization": 18,
-        "kimi_strategic_fit": 39
-      },
-      "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "73 stars、11 forks，授权渗透测试Agent框架，创建仅6天",
-      "commercial_summary": "安全垂直领域Agent框架，企业合规需求有付费潜力，但社区规模小、无商业化动作、未明确模型接入策略",
-      "confidence": "medium",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "language": "TypeScript",
-        "updated_at": "2026-09-19T19:22:05Z",
-        "homepage": "",
-        "agent_keyword_hits": [
-          "ai agent"
-        ],
-        "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": []
-      }
-    },
-    {
-      "id": "github-259a2e97853c",
-      "source": "GitHub",
-      "name": "Pal-AI-Lab/Cortico",
-      "url": "https://github.com/Pal-AI-Lab/Cortico",
-      "description": "Event-stream AI Agent framework for building your persona bot 🍊",
-      "published_at": "2026-09-13T01:27:23Z",
-      "discovered_at": "2026-09-20T01:13:37+00:00",
-      "author": "Pal-AI-Lab",
-      "metrics": {
-        "stars": 96,
-        "forks": 4,
-        "open_issues": 2,
-        "watchers": 96
-      },
-      "tags": [],
-      "evidence": [
-        "96 GitHub stars",
-        "4 forks",
-        "Created 2026-09-13"
-      ],
-      "raw_text": "Pal-AI-Lab/Cortico Event-stream AI Agent framework for building your persona bot 🍊 ",
-      "opportunity_type": "OpenClaw型",
-      "score": 49.3,
-      "dimension_scores": {
-        "growth_speed": 62.4,
-        "agent_innovation": 35,
-        "community_signal": 81.2,
-        "api_consumption_potential": 32,
-        "commercialization": 18,
-        "kimi_strategic_fit": 39
-      },
-      "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "96 stars、4 forks，创建仅7天，TypeScript事件流Agent框架，但未提及具体模型提供商或商业化计划",
-      "commercial_summary": "早期开源Agent框架，若后续增长可观察其模型接入方式，当前生态价值有限",
-      "confidence": "medium",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "language": "TypeScript",
-        "updated_at": "2026-09-20T00:35:20Z",
-        "homepage": "",
-        "agent_keyword_hits": [
-          "ai agent"
-        ],
-        "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": []
-      }
-    },
-    {
-      "id": "hackernews-dbe5e0b4f344",
+      "id": "hackernews-67139f3e9d03",
       "source": "Hacker News",
-      "name": "Show HN: I created an open source locally usable full fledged AI platform",
-      "url": "https://github.com/theguysudo/ENZO",
-      "description": "hi to all the readers this post is for my recent opensource project called ENZO now answering what is enzo so enzo is an opensource platform where i clubbed all the free available api for anyone use under one hood with more than 2000 models available to use for chatting coding researching and much more now answering the most common question of why you should put your time looking the project so it has few distinct feature meaning it has a dedicated agents tab where you can describe your need and create a special agent just for one specific task with master ability in that domain second it has the ability to connect your gmail drive and calendar and then you can ask it to perform some specific tasks like reading you the most important mail of the day or finding recruiter mails and creating personalized reply based on your data which it stores locally on your device third the coding mode offers a dedicated preview window where you can see your code running and have a look of it feels and edit it in realtime as well as all the modes are packed with dedicated skills which delivers promising results fourth the ui features some additional things such as music tab where you can listen to any music want and it has a custom personalized feature which runs in background and an llm understands your taste and recommends similar kind of music you like fifth the most important why your trust it with your api key then to explain i would say enzo a dedicated vault which manages all your api and to secure it the vault as aes 256 bit encryption which prevents any person or any middle man to look at your api key and since the whole program runs locally on your device you have complete freedom to oversee all the backend work happening and it also features password lock which if you enable saves a backup key and then locks your whole platform work behind a pass screen though it is not foolproof as any third party or malware containing extension can still fetch login tokens from your browser so its security also depends upon how you access it concluding all of it. i urge to anyone who reads this to have a look at the platform even if you hate it just curse it in the comment its fine or if you would like to drop any feedback i would highly encourage that and since its my first work open source platform i know it has a lot of errors and bugs so i apologize upfront for it and if you consider my work worthy please drop a star on the repo that'll make my day",
-      "published_at": "1789861655",
-      "discovered_at": "2026-09-20T01:13:41+00:00",
-      "author": "theguysudo",
+      "name": "Google's Open Agentic Orchestrator",
+      "url": "https://agentexecutor.io",
+      "description": "Google's Open Agentic Orchestrator",
+      "published_at": "1789943563",
+      "discovered_at": "2026-09-21T01:14:45+00:00",
+      "author": "blazarquasar",
       "metrics": {
-        "points": 10,
-        "comments": 8
+        "points": 167,
+        "comments": 69
       },
       "tags": [],
       "evidence": [
-        "10 HN points",
-        "8 comments"
+        "167 HN points",
+        "69 comments"
       ],
-      "raw_text": "Show HN: I created an open source locally usable full fledged AI platform hi to all the readers this post is for my recent opensource project called ENZO now answering what is enzo so enzo is an opensource platform where i clubbed all the free available api for anyone use under one hood with more than 2000 models available to use for chatting coding researching and much more now answering the most common question of why you should put your time looking the project so it has few distinct feature meaning it has a dedicated agents tab where you can describe your need and create a special agent just for one specific task with master ability in that domain second it has the ability to connect your gmail drive and calendar and then you can ask it to perform some specific tasks like reading you the most important mail of the day or finding recruiter mails and creating personalized reply based on your data which it stores locally on your device third the coding mode offers a dedicated preview window where you can see your code running and have a look of it feels and edit it in realtime as well as all the modes are packed with dedicated skills which delivers promising results fourth the ui features some additional things such as music tab where you can listen to any music want and it has a custom personalized feature which runs in background and an llm understands your taste and recommends similar kind of music you like fifth the most important why your trust it with your api key then to explain i would say enzo a dedicated vault which manages all your api and to secure it the vault as aes 256 bit encryption which prevents any person or any middle man to look at your api key and since the whole program runs locally on your device you have complete freedom to oversee all the backend work happening and it also features password lock which if you enable saves a backup key and then locks your whole platform work behind a pass screen though it is not foolproof as any third party or malware containing extension can still fetch login tokens from your browser so its security also depends upon how you access it concluding all of it. i urge to anyone who reads this to have a look at the platform even if you hate it just curse it in the comment its fine or if you would like to drop any feedback i would highly encourage that and since its my first work open source platform i know it has a lot of errors and bugs so i apologize upfront for it and if you consider my work worthy please drop a star on the repo that'll make my day",
-      "opportunity_type": "OpenClaw型",
-      "score": 44.4,
+      "raw_text": "Google's Open Agentic Orchestrator ",
+      "opportunity_type": "其他Agent",
+      "score": 50.2,
       "dimension_scores": {
-        "growth_speed": 41.2,
-        "agent_innovation": 24,
-        "community_signal": 73.4,
-        "api_consumption_potential": 30,
-        "commercialization": 32,
-        "kimi_strategic_fit": 49
+        "growth_speed": 63.0,
+        "agent_innovation": 35,
+        "community_signal": 100.0,
+        "api_consumption_potential": 32,
+        "commercialization": 18,
+        "kimi_strategic_fit": 39
+      },
+      "recommended_action": "暂不跟进",
+      "reason_to_contact_now": "167 HN points，69 comments，但链接指向agentexecutor.io非Google官方域名，真实性待验证",
+      "commercial_summary": "若确为Google开源项目，属于巨头级竞品信号；当前信息不足以确认官方背景，需验证后再评估对Kimi Orchestration层策略影响",
+      "confidence": "low",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "metadata": {
+        "discussion_url": "https://news.ycombinator.com/item?id=49780797",
+        "agent_keyword_hits": [
+          "agentic"
+        ],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": []
+      }
+    },
+    {
+      "id": "hackernews-aaefe301cc90",
+      "source": "Hacker News",
+      "name": "Why MCP Was Always a Bad Idea?",
+      "url": "https://maharship.com/blog/why-mcp-was-always-a-bad-idea/",
+      "description": "Why MCP Was Always a Bad Idea?",
+      "published_at": "1789933480",
+      "discovered_at": "2026-09-21T01:14:45+00:00",
+      "author": "maharshi365",
+      "metrics": {
+        "points": 37,
+        "comments": 59
+      },
+      "tags": [],
+      "evidence": [
+        "37 HN points",
+        "59 comments"
+      ],
+      "raw_text": "Why MCP Was Always a Bad Idea? ",
+      "opportunity_type": "其他Agent",
+      "score": 44.3,
+      "dimension_scores": {
+        "growth_speed": 51.1,
+        "agent_innovation": 35,
+        "community_signal": 100.0,
+        "api_consumption_potential": 32,
+        "commercialization": 18,
+        "kimi_strategic_fit": 39
+      },
+      "recommended_action": "暂不跟进",
+      "reason_to_contact_now": "37 HN points，59 comments，为一篇博客观点文章，非产品或项目",
+      "commercial_summary": "MCP协议争议信号，属于市场情报而非客户/生态机会；可纳入竞品分析参考，但无直接商业价值",
+      "confidence": "medium",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "metadata": {
+        "discussion_url": "https://news.ycombinator.com/item?id=49779329",
+        "agent_keyword_hits": [
+          "mcp"
+        ],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": []
+      }
+    },
+    {
+      "id": "product-hunt-9f9be9758123",
+      "source": "Product Hunt",
+      "name": "Ruby UTCP",
+      "url": "https://www.producthunt.com/products/utcp",
+      "description": "The scalable, secure alternative to MCP for tool calling Discussion | Link",
+      "published_at": "2026-09-16T07:18:43-07:00",
+      "discovered_at": "2026-09-21T01:14:45+00:00",
+      "author": "fmerian",
+      "metrics": {},
+      "tags": [],
+      "evidence": [
+        "Published via Product Hunt",
+        "2026-09-16T07:18:43-07:00"
+      ],
+      "raw_text": "Ruby UTCP The scalable, secure alternative to MCP for tool calling Discussion | Link ",
+      "opportunity_type": "OpenClaw型",
+      "score": 41.5,
+      "dimension_scores": {
+        "growth_speed": 30.0,
+        "agent_innovation": 56,
+        "community_signal": 18.0,
+        "api_consumption_potential": 39,
+        "commercialization": 36,
+        "kimi_strategic_fit": 37
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "10 HN points、8 comments，开源本地AI平台，聚合2000+模型，含Agent创建、Gmail/Calendar集成、AES-256加密API密钥管理",
-      "commercial_summary": "多模型聚合开源平台，若用户增长可能产生API分发价值；需观察其是否接入中国模型及默认提供商设置，具潜在生态合作或竞品参考意义",
+      "reason_to_contact_now": "定位为MCP的scalable/secure替代协议，直接涉及tool calling标准层",
+      "commercial_summary": "协议层基础设施，若成为MCP替代方案，可能影响Kimi API的tool calling集成标准，需关注其协议设计是否开放模型Provider接入",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
-        "discussion_url": "https://news.ycombinator.com/item?id=49771118",
+        "feed_url": "https://www.producthunt.com/feed",
+        "content_kind": "product_launch",
+        "original_title": "Ruby UTCP",
+        "agent_keyword_hits": [
+          "mcp",
+          "tool calling"
+        ],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": []
+      }
+    },
+    {
+      "id": "hackernews-215e7bd0c764",
+      "source": "Hacker News",
+      "name": "Show HN: Bailout – The coding agent meant to be deleted",
+      "url": "https://github.com/storozhenko98/bailout",
+      "description": "hey hn, i made bailout for a pretty specific problem. you boot a fresh vm and want an agent to help get it set up, except you dont have your agent set up yet. no gh, no config, no api key handy. might not even have codex / claude code / opencode curled and loaded. or you already have a setup but opencode / pi / whatever stopped launching, and the thing you'd normally ask to fix it is the thing that's broken. for me, and this is embarrassing, but at work we switched from per-dev keys to oai / ant to just an internal litellm router, which required configuring opencode. i use opencode2 which can dynamically reload its config. well, while rewriting the config to work with self hosted litellm, it broke, and i was stranded w/ no coding agent. bailout is for that sort of thing, like break glass, agent pls fix. think of bailout like a spare agent for these sorts of things. install it, ask it to set up the machine or fix your usual tools, then remove it. the idea is “the harness meant to be deleted.” i like having a tool whose last useful action can be uninstalling itself. plus a play on hinge, the whole app meant to be deleted. you install it with `curl -fsSL https://bailout.dev/install.sh | bash` and run `bailout`. no account or api key needed for bailout. the tools it helps you set up still need your own accounts, obviously. it can hand you the terminal for those logins without sending what you type to the model. the client is a rust binary, about 639 KB uncompressed on apple silicon. it also runs on linux x64 and arm64. bash is the only tool. it can inspect files, edit configs, install things, curl stuff, etc. commands run automatically with your user's permissions, so it has the same access you do in that shell. i got inspired by vercel's fx.sh in terms of minimalism and size and all that. the hosted router uses free models and switches between available ones when a request fails. there are shared limits, and it will tell you when it has to wait. this is still a small free service, so i dont want to pretend it has unlimited capacity. odds are, if this post gets enough attention and enough of you try it, it will exhaust capacity. to that end if anyone knows anyone willing to toss a free model in for this consistently, would be very cool. there's a recording of it fixing an intentionally broken opencode config on the gh page. bailout gets removed at the end and opencode runs again. waits are shortened in the video; the original terminal capture is there too. mit licensed, and built with a lot of help from codex. curious whether this is useful for the way you set up machines, or if there's some obvious case i'm missing. issues / prs welcome.",
+      "published_at": "1789928098",
+      "discovered_at": "2026-09-21T01:14:45+00:00",
+      "author": "mst98",
+      "metrics": {
+        "points": 2,
+        "comments": 3
+      },
+      "tags": [],
+      "evidence": [
+        "2 HN points",
+        "3 comments"
+      ],
+      "raw_text": "Show HN: Bailout – The coding agent meant to be deleted hey hn, i made bailout for a pretty specific problem. you boot a fresh vm and want an agent to help get it set up, except you dont have your agent set up yet. no gh, no config, no api key handy. might not even have codex / claude code / opencode curled and loaded. or you already have a setup but opencode / pi / whatever stopped launching, and the thing you'd normally ask to fix it is the thing that's broken. for me, and this is embarrassing, but at work we switched from per-dev keys to oai / ant to just an internal litellm router, which required configuring opencode. i use opencode2 which can dynamically reload its config. well, while rewriting the config to work with self hosted litellm, it broke, and i was stranded w/ no coding agent. bailout is for that sort of thing, like break glass, agent pls fix. think of bailout like a spare agent for these sorts of things. install it, ask it to set up the machine or fix your usual tools, then remove it. the idea is “the harness meant to be deleted.” i like having a tool whose last useful action can be uninstalling itself. plus a play on hinge, the whole app meant to be deleted. you install it with `curl -fsSL https://bailout.dev/install.sh | bash` and run `bailout`. no account or api key needed for bailout. the tools it helps you set up still need your own accounts, obviously. it can hand you the terminal for those logins without sending what you type to the model. the client is a rust binary, about 639 KB uncompressed on apple silicon. it also runs on linux x64 and arm64. bash is the only tool. it can inspect files, edit configs, install things, curl stuff, etc. commands run automatically with your user's permissions, so it has the same access you do in that shell. i got inspired by vercel's fx.sh in terms of minimalism and size and all that. the hosted router uses free models and switches between available ones when a request fails. there are shared limits, and it will tell you when it has to wait. this is still a small free service, so i dont want to pretend it has unlimited capacity. odds are, if this post gets enough attention and enough of you try it, it will exhaust capacity. to that end if anyone knows anyone willing to toss a free model in for this consistently, would be very cool. there's a recording of it fixing an intentionally broken opencode config on the gh page. bailout gets removed at the end and opencode runs again. waits are shortened in the video; the original terminal capture is there too. mit licensed, and built with a lot of help from codex. curious whether this is useful for the way you set up machines, or if there's some obvious case i'm missing. issues / prs welcome.",
+      "opportunity_type": "OpenClaw型",
+      "score": 36.6,
+      "dimension_scores": {
+        "growth_speed": 30.8,
+        "agent_innovation": 24,
+        "community_signal": 50.5,
+        "api_consumption_potential": 30,
+        "commercialization": 32,
+        "kimi_strategic_fit": 33
+      },
+      "recommended_action": "暂不跟进",
+      "reason_to_contact_now": "作者明确寻求免费模型Provider合作（\"anyone willing to toss a free model in\"），当前HN热度极低（2 points）",
+      "commercial_summary": "极简应急coding agent，采用hosted router+多模型切换架构，若规模扩大存在模型API采购需求；当前为个人免费服务，商业化路径不清晰",
+      "confidence": "medium",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "metadata": {
+        "discussion_url": "https://news.ycombinator.com/item?id=49778390",
         "agent_keyword_hits": [],
         "commercial_keyword_hits": [
           "api"
         ],
-        "ecosystem_keyword_hits": [
-          "open source",
-          "skill"
-        ]
+        "ecosystem_keyword_hits": []
       }
     },
     {
-      "id": "hackernews-9858a38cdb40",
+      "id": "hackernews-7bcbfdb00d4b",
       "source": "Hacker News",
-      "name": "I Built AI Agents That Ask Companies to Delete Their Data. Most Never Answered",
-      "url": "https://medium.com/@stem-education/i-built-ai-agents-that-ask-companies-to-delete-their-data-most-never-answered-7c90c3d2b6d1",
-      "description": "I Built AI Agents That Ask Companies to Delete Their Data. Most Never Answered",
-      "published_at": "1789848498",
-      "discovered_at": "2026-09-20T01:13:41+00:00",
-      "author": "complyyio",
+      "name": "Show HN: AgentTrace–Observability and runtime self-healing engine for AI agents",
+      "url": "https://github.com/mohitkumar188/AgentTrace",
+      "description": "Show HN: AgentTrace–Observability and runtime self-healing engine for AI agents",
+      "published_at": "1789939457",
+      "discovered_at": "2026-09-21T01:14:45+00:00",
+      "author": "mohitkumar18",
       "metrics": {
-        "points": 5,
-        "comments": 1
+        "points": 4,
+        "comments": 0
       },
       "tags": [],
       "evidence": [
-        "5 HN points",
-        "1 comments"
+        "4 HN points",
+        "0 comments"
       ],
-      "raw_text": "I Built AI Agents That Ask Companies to Delete Their Data. Most Never Answered ",
-      "opportunity_type": "Manus型",
-      "score": 34.4,
+      "raw_text": "Show HN: AgentTrace–Observability and runtime self-healing engine for AI agents ",
+      "opportunity_type": "OpenClaw型",
+      "score": 35.5,
       "dimension_scores": {
-        "growth_speed": 36.3,
+        "growth_speed": 34.9,
         "agent_innovation": 35,
-        "community_signal": 54.0,
+        "community_signal": 46.2,
         "api_consumption_potential": 32,
         "commercialization": 18,
         "kimi_strategic_fit": 39
       },
       "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "5 HN points、1 comment，个人项目向企业发数据删除请求，极早期",
-      "commercial_summary": "合规自动化Agent有企业付费潜力，但当前为个人博客展示，无产品化、无用户规模、无模型依赖信息",
+      "reason_to_contact_now": "4 HN points，0 comments，极早期信号，无社区验证",
+      "commercial_summary": "Agent可观测性+自愈引擎，若产品成熟可能面向B端销售，但当前无用户基础，API消费潜力未验证",
       "confidence": "low",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
-        "discussion_url": "https://news.ycombinator.com/item?id=49769723",
+        "discussion_url": "https://news.ycombinator.com/item?id=49780222",
         "agent_keyword_hits": [
           "ai agent"
         ],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": []
+      }
+    },
+    {
+      "id": "hackernews-f3ff5a622f92",
+      "source": "Hacker News",
+      "name": "Show HN: Openmsg, agent-to-agent talk while they run, Claude<>Codex<>OpenCode",
+      "url": "https://github.com/marciob/openmsg",
+      "description": "Show HN: Openmsg, agent-to-agent talk while they run, Claude<>Codex<>OpenCode",
+      "published_at": "1789935039",
+      "discovered_at": "2026-09-21T01:14:45+00:00",
+      "author": "marciob",
+      "metrics": {
+        "points": 2,
+        "comments": 2
+      },
+      "tags": [],
+      "evidence": [
+        "2 HN points",
+        "2 comments"
+      ],
+      "raw_text": "Show HN: Openmsg, agent-to-agent talk while they run, Claude<>Codex<>OpenCode ",
+      "opportunity_type": "OpenClaw型",
+      "score": 35.0,
+      "dimension_scores": {
+        "growth_speed": 30.8,
+        "agent_innovation": 24,
+        "community_signal": 48.2,
+        "api_consumption_potential": 25,
+        "commercialization": 18,
+        "kimi_strategic_fit": 33
+      },
+      "recommended_action": "持续观察",
+      "reason_to_contact_now": "2 HN points，2 comments，支持Claude/Codex/OpenCode多Agent互操作协议",
+      "commercial_summary": "Agent互操作协议层，若形成标准可成为生态伙伴，需观察采用度",
+      "confidence": "medium",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "metadata": {
+        "discussion_url": "https://news.ycombinator.com/item?id=49779581",
+        "agent_keyword_hits": [],
         "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": []
       }
@@ -372,7 +443,7 @@
       "url": "https://www.producthunt.com/products/bolt-new",
       "description": "Bolt's new agent with open-source models and 50X usage Discussion | Link",
       "published_at": "2026-09-16T16:59:56-07:00",
-      "discovered_at": "2026-09-20T01:13:41+00:00",
+      "discovered_at": "2026-09-21T01:14:45+00:00",
       "author": "Rohan Chaubey",
       "metrics": {},
       "tags": [],
@@ -382,7 +453,7 @@
       ],
       "raw_text": "Bolt Forge Bolt's new agent with open-source models and 50X usage Discussion | Link ",
       "opportunity_type": "Manus型",
-      "score": 25.8,
+      "score": 22.8,
       "dimension_scores": {
         "growth_speed": 30.0,
         "agent_innovation": 24,
@@ -392,94 +463,14 @@
         "kimi_strategic_fit": 25
       },
       "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "Product Hunt发布，仅提及\"open-source models\"和\"50X usage\"，无具体模型供应商、用户数或收入证据",
-      "commercial_summary": "Bolt旗下的Agent产品，若50X usage属实可能具API消耗潜力，但信息模糊，需验证实际模型调用规模和付费转化",
+      "reason_to_contact_now": "Bolt现有产品的新agent版本，非独立新项目；信息仅为Product Hunt发布，无具体数据",
+      "commercial_summary": "Bolt为成熟AI coding产品，其模型采购决策已内部确定（提及open-source models），作为存量客户拓展难度大，需观察是否切换模型策略",
       "confidence": "low",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "feed_url": "https://www.producthunt.com/feed",
         "content_kind": "product_launch",
         "original_title": "Bolt Forge",
-        "agent_keyword_hits": [],
-        "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": []
-      }
-    },
-    {
-      "id": "product-hunt-f113543b5616",
-      "source": "Product Hunt",
-      "name": "Sider Omni Sidebar",
-      "url": "https://www.producthunt.com/products/sider-omni",
-      "description": "Give every Mac app an Agent Sidebar Discussion | Link",
-      "published_at": "2026-09-16T03:50:40-07:00",
-      "discovered_at": "2026-09-20T01:13:41+00:00",
-      "author": "Rick Fan",
-      "metrics": {},
-      "tags": [],
-      "evidence": [
-        "Published via Product Hunt",
-        "2026-09-16T03:50:40-07:00"
-      ],
-      "raw_text": "Sider Omni Sidebar Give every Mac app an Agent Sidebar Discussion | Link ",
-      "opportunity_type": "Manus型",
-      "score": 25.8,
-      "dimension_scores": {
-        "growth_speed": 30.0,
-        "agent_innovation": 24,
-        "community_signal": 18.0,
-        "api_consumption_potential": 25,
-        "commercialization": 36,
-        "kimi_strategic_fit": 25
-      },
-      "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "Product Hunt发布，仅描述为Mac应用侧边栏，无用户数、模型供应商或API规模证据",
-      "commercial_summary": "Mac端Agent工具，若覆盖多应用可能产生API调用，但当前信息不足判断实际消耗",
-      "confidence": "low",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "feed_url": "https://www.producthunt.com/feed",
-        "content_kind": "product_launch",
-        "original_title": "Sider Omni Sidebar",
-        "agent_keyword_hits": [],
-        "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": []
-      }
-    },
-    {
-      "id": "product-hunt-f75132357de3",
-      "source": "Product Hunt",
-      "name": "ContextsBase - Backlog for Coding Agents",
-      "url": "https://www.producthunt.com/products/contextsbase",
-      "description": "From chat prompts to AI backlog Platform. Discussion | Link",
-      "published_at": "2026-09-17T12:38:27-07:00",
-      "discovered_at": "2026-09-20T01:13:41+00:00",
-      "author": "Amir Alam",
-      "metrics": {},
-      "tags": [],
-      "evidence": [
-        "Published via Product Hunt",
-        "2026-09-17T12:38:27-07:00"
-      ],
-      "raw_text": "ContextsBase - Backlog for Coding Agents From chat prompts to AI backlog Platform. Discussion | Link ",
-      "opportunity_type": "Manus型",
-      "score": 25.8,
-      "dimension_scores": {
-        "growth_speed": 30.0,
-        "agent_innovation": 24,
-        "community_signal": 18.0,
-        "api_consumption_potential": 25,
-        "commercialization": 36,
-        "kimi_strategic_fit": 25
-      },
-      "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "Product Hunt发布，仅描述为\"AI backlog Platform\"，无用户数、模型供应商或收入证据",
-      "commercial_summary": "Coding Agent管理工具，若实际服务于开发团队可能关联API消耗，但当前信息过于模糊",
-      "confidence": "low",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "feed_url": "https://www.producthunt.com/feed",
-        "content_kind": "product_launch",
-        "original_title": "ContextsBase - Backlog for Coding Agents",
         "agent_keyword_hits": [],
         "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": []
