@@ -284,3 +284,13 @@ run_at,id,name,source,score,opportunity_type,recommended_action,metric_name,metr
 2026-09-21T01:14:45+00:00,hackernews-7bcbfdb00d4b,Show HN: AgentTrace–Observability and runtime self-healing engine for AI agents,Hacker News,35.5,OpenClaw型,暂不跟进,points,4.0
 2026-09-21T01:14:45+00:00,hackernews-f3ff5a622f92,"Show HN: Openmsg, agent-to-agent talk while they run, Claude<>Codex<>OpenCode",Hacker News,35.0,OpenClaw型,持续观察,points,2.0
 2026-09-21T01:14:45+00:00,product-hunt-1256d29cb2c0,Bolt Forge,Product Hunt,22.8,Manus型,暂不跟进,none,0.0
+2026-09-22T01:13:28+00:00,github-b34261e947da,browser-use/jev-ultrafast,GitHub,62.6,OpenClaw型,持续观察,stars,15788.0
+2026-09-22T01:13:28+00:00,github-03c7f98e1ede,AbdelStark/awesome-typesafe-jev,GitHub,60.7,OpenClaw型,持续观察,stars,428.0
+2026-09-22T01:13:28+00:00,github-95357ffbf194,zai-org/ZCode,GitHub,60.6,OpenClaw型,持续观察,stars,5628.0
+2026-09-22T01:13:28+00:00,github-bfcc6585239d,wuyoscar/jev-skill,GitHub,59.4,OpenClaw型,持续观察,stars,365.0
+2026-09-22T01:13:28+00:00,github-055cf1ccf67a,mcncarl/jianying-headless,GitHub,56.4,OpenClaw型,持续观察,stars,2382.0
+2026-09-22T01:13:28+00:00,hackernews-23dd4f826d05,Ask HN: Dead Internet,Hacker News,38.4,其他Agent,暂不跟进,points,10.0
+2026-09-22T01:13:28+00:00,hackernews-f9b0f1bc562e,Show HN: Praxos – Multiplayer AI,Hacker News,37.7,Manus型,暂不跟进,points,7.0
+2026-09-22T01:13:28+00:00,product-hunt-d8c0669650d1,Arcjet,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
+2026-09-22T01:13:28+00:00,product-hunt-e6bc631b8b45,PostSider,Product Hunt,25.8,Manus型,暂不跟进,none,0.0
+2026-09-22T01:13:28+00:00,product-hunt-e53e03af18c9,Jev,Product Hunt,25.8,Manus型,暂不跟进,none,0.0
