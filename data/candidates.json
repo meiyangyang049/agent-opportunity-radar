@@ -1,8 +1,8 @@
 {
   "meta": {
     "project": "Agent Opportunity Radar",
-    "generated_at": "2026-09-22T01:13:28+00:00",
-    "generated_at_display": "2026-09-22 09:13 CST",
+    "generated_at": "2026-09-23T01:14:21+00:00",
+    "generated_at_display": "2026-09-23 09:14 CST",
     "mode": "公开信号实时运行",
     "sources": [
       "GitHub",
@@ -14,65 +14,67 @@
       "AI news RSS: HTTPError: 429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
     ],
     "notices": [],
-    "candidate_pool_size": 24,
+    "candidate_pool_size": 41,
     "pool_by_source": {
       "GitHub": 5,
-      "Hacker News": 15,
-      "Product Hunt": 4
+      "Hacker News": 27,
+      "Product Hunt": 9
     },
     "pool_by_type": {
-      "OpenClaw型": 7,
-      "其他Agent": 12,
-      "Manus型": 5
+      "OpenClaw型": 8,
+      "其他Agent": 24,
+      "Manus型": 9
     },
     "shortlist_policy": "Top 10；OpenClaw型/Manus型各至少4个（候选充足时）",
     "kimi_model": "kimi-k2.6"
   },
   "candidates": [
     {
-      "id": "github-b34261e947da",
+      "id": "github-b875a4fb57ba",
       "source": "GitHub",
-      "name": "browser-use/jev-ultrafast",
-      "url": "https://github.com/browser-use/jev-ultrafast",
-      "description": "Fastest and cheapest web agent",
-      "published_at": "2026-09-16T21:30:12Z",
-      "discovered_at": "2026-09-22T01:13:25+00:00",
-      "author": "browser-use",
+      "name": "kerpopule/hermes-jev-skills",
+      "url": "https://github.com/kerpopule/hermes-jev-skills",
+      "description": "Jev-powered model routing, memory, compaction, skill selection, computer and browser use for Hermes agents (also Claude Code and Codex)",
+      "published_at": "2026-09-18T20:01:29Z",
+      "discovered_at": "2026-09-23T01:14:16+00:00",
+      "author": "kerpopule",
       "metrics": {
-        "stars": 15788,
-        "forks": 987,
-        "open_issues": 108,
-        "watchers": 15788
+        "stars": 568,
+        "forks": 50,
+        "open_issues": 8,
+        "watchers": 568
       },
       "tags": [],
       "evidence": [
-        "15,788 GitHub stars",
-        "987 forks",
-        "Created 2026-09-16"
+        "568 GitHub stars",
+        "50 forks",
+        "Created 2026-09-18"
       ],
-      "raw_text": "browser-use/jev-ultrafast Fastest and cheapest web agent ",
+      "raw_text": "kerpopule/hermes-jev-skills Jev-powered model routing, memory, compaction, skill selection, computer and browser use for Hermes agents (also Claude Code and Codex) ",
       "opportunity_type": "OpenClaw型",
-      "score": 62.6,
+      "score": 63.4,
       "dimension_scores": {
-        "growth_speed": 100.0,
+        "growth_speed": 95.7,
         "agent_innovation": 24,
         "community_signal": 100.0,
         "api_consumption_potential": 25,
         "commercialization": 18,
-        "kimi_strategic_fit": 33
+        "kimi_strategic_fit": 41
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "browser-use组织下新项目，6天获15,788 stars和987 forks，增速极快",
-      "commercial_summary": "Web Agent框架，browser-use生态的极速/低成本版本，若成为默认Provider或集成多模型，可带来显著API调用量；需确认是否支持Kimi模型接入",
+      "reason_to_contact_now": "568 stars、50 forks，5天内增长迅速；支持Claude Code和Codex，明确模型路由和技能选择功能",
+      "commercial_summary": "开源Agent技能框架，模型路由层位置关键，若扩展Provider支持可成为Kimi生态接入点",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "language": "Python",
-        "updated_at": "2026-09-22T01:13:19Z",
-        "homepage": "https://browser-use.com",
+        "updated_at": "2026-09-23T01:13:49Z",
+        "homepage": null,
         "agent_keyword_hits": [],
         "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": []
+        "ecosystem_keyword_hits": [
+          "skill"
+        ]
       }
     },
     {
@@ -82,13 +84,13 @@
       "url": "https://github.com/AbdelStark/awesome-typesafe-jev",
       "description": "Awesome Jev: a source-backed field guide to TypeSafe's System One model, with SDKs, live demos, agent tools, and independent evaluations.",
       "published_at": "2026-09-17T06:56:37Z",
-      "discovered_at": "2026-09-22T01:13:25+00:00",
+      "discovered_at": "2026-09-23T01:14:16+00:00",
       "author": "AbdelStark",
       "metrics": {
-        "stars": 428,
-        "forks": 75,
-        "open_issues": 3,
-        "watchers": 428
+        "stars": 471,
+        "forks": 95,
+        "open_issues": 7,
+        "watchers": 471
       },
       "tags": [
         "agent-skills",
@@ -112,15 +114,16 @@
         "typesafe-ai"
       ],
       "evidence": [
-        "428 GitHub stars",
-        "75 forks",
+        "+43 stars since last run",
+        "471 GitHub stars",
+        "95 forks",
         "Created 2026-09-17"
       ],
       "raw_text": "AbdelStark/awesome-typesafe-jev Awesome Jev: a source-backed field guide to TypeSafe's System One model, with SDKs, live demos, agent tools, and independent evaluations. agent-skills ai-agents awesome awesome-jev awesome-list awesome-lists curated-list developer-tools jev llm llm-routing machine-learning model-evaluation semantic-routing structured-output system-one-models typed-decisions typesafe typesafe-ai",
       "opportunity_type": "OpenClaw型",
-      "score": 60.7,
+      "score": 62.8,
       "dimension_scores": {
-        "growth_speed": 89.6,
+        "growth_speed": 98.1,
         "agent_innovation": 35,
         "community_signal": 100.0,
         "api_consumption_potential": 32,
@@ -128,13 +131,13 @@
         "kimi_strategic_fit": 47
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "428 stars、75 forks，但仅为 awesome-list 聚合页，非核心项目本身",
-      "commercial_summary": "生态观察窗口：Jev 作为结构化决策/Agent技能框架若起量，可追踪其默认模型接入与SDK provider配置",
+      "reason_to_contact_now": "+43 stars since last run；471 GitHub stars；95 forks；围绕TypeSafe System One模型的awesome-list生态",
+      "commercial_summary": "Jev/TypeSafe生态的社区聚合入口，需观察其是否会成为Kimi API的模型接入方或开发者导流渠道，当前无直接API消费证据",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "language": "HTML",
-        "updated_at": "2026-09-22T00:48:56Z",
+        "updated_at": "2026-09-23T00:03:54Z",
         "homepage": "https://abdelstark.github.io/awesome-typesafe-jev/",
         "agent_keyword_hits": [
           "ai agent"
@@ -142,7 +145,9 @@
         "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": [
           "skill"
-        ]
+        ],
+        "metric_delta": 43.0,
+        "metric_velocity_per_day": 42.97363885579448
       }
     },
     {
@@ -152,18 +157,19 @@
       "url": "https://github.com/zai-org/ZCode",
       "description": "Z.ai's coding agent harness. Powerful, intelligent, extensible.",
       "published_at": "2026-09-20T12:01:16Z",
-      "discovered_at": "2026-09-22T01:13:24+00:00",
+      "discovered_at": "2026-09-23T01:14:16+00:00",
       "author": "zai-org",
       "metrics": {
-        "stars": 5628,
-        "forks": 1609,
+        "stars": 6301,
+        "forks": 1831,
         "open_issues": 11,
-        "watchers": 5628
+        "watchers": 6301
       },
       "tags": [],
       "evidence": [
-        "5,628 GitHub stars",
-        "1,609 forks",
+        "+673 stars since last run",
+        "6,301 GitHub stars",
+        "1,831 forks",
         "Created 2026-09-20"
       ],
       "raw_text": "zai-org/ZCode Z.ai's coding agent harness. Powerful, intelligent, extensible. ",
@@ -178,17 +184,68 @@
         "kimi_strategic_fit": 33
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "5628 stars、1609 forks，Z.ai官方coding agent harness，2天内爆发",
-      "commercial_summary": "Z.ai（智谱/GLM生态）官方编码Agent框架，需密切追踪其模型自研程度与外部API fallback策略，属竞品情报高优",
-      "confidence": "high",
+      "reason_to_contact_now": "+673 stars since last run；6,301 GitHub stars；1,831 forks；Z.ai官方coding agent harness，有homepage和明确产品定位",
+      "commercial_summary": "Z.ai官方推出的coding agent框架，增长极快，需密切跟踪其模型接入策略——若支持多模型切换则存在Kimi API接入机会，若绑定Z.ai自有模型则为竞品",
+      "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "language": "TypeScript",
-        "updated_at": "2026-09-22T01:12:51Z",
+        "updated_at": "2026-09-23T01:12:26Z",
         "homepage": "https://zcode.z.ai/",
         "agent_keyword_hits": [],
         "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": []
+        "ecosystem_keyword_hits": [],
+        "metric_delta": 673.0,
+        "metric_velocity_per_day": 672.5874174406904
+      }
+    },
+    {
+      "id": "github-b34261e947da",
+      "source": "GitHub",
+      "name": "browser-use/jev-ultrafast",
+      "url": "https://github.com/browser-use/jev-ultrafast",
+      "description": "Fastest and cheapest web agent",
+      "published_at": "2026-09-16T21:30:12Z",
+      "discovered_at": "2026-09-23T01:14:17+00:00",
+      "author": "browser-use",
+      "metrics": {
+        "stars": 18090,
+        "forks": 1164,
+        "open_issues": 117,
+        "watchers": 18090
+      },
+      "tags": [],
+      "evidence": [
+        "+2,302 stars since last run",
+        "18,090 GitHub stars",
+        "1,164 forks",
+        "Created 2026-09-16"
+      ],
+      "raw_text": "browser-use/jev-ultrafast Fastest and cheapest web agent ",
+      "opportunity_type": "OpenClaw型",
+      "score": 60.6,
+      "dimension_scores": {
+        "growth_speed": 100.0,
+        "agent_innovation": 24,
+        "community_signal": 100.0,
+        "api_consumption_potential": 25,
+        "commercialization": 18,
+        "kimi_strategic_fit": 33
+      },
+      "recommended_action": "持续观察",
+      "reason_to_contact_now": "+2,302 stars since last run；18,090 GitHub stars；1,164 forks；browser-use组织出品，有homepage和明确web agent定位",
+      "commercial_summary": "browser-use组织推出的web agent框架，增长爆发性强，需优先确认其默认LLM provider和成本优化策略——'cheapest'定位可能意味着多模型路由或低成本模型切换需求",
+      "confidence": "medium",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "metadata": {
+        "language": "Python",
+        "updated_at": "2026-09-23T01:13:22Z",
+        "homepage": "https://browser-use.com",
+        "agent_keyword_hits": [],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": [],
+        "metric_delta": 2302.0,
+        "metric_velocity_per_day": 2300.5887592102067
       }
     },
     {
@@ -198,19 +255,19 @@
       "url": "https://github.com/wuyoscar/jev-skill",
       "description": "An awesome collection of Jev use cases, workflows, and agent skills.",
       "published_at": "2026-09-20T02:35:26Z",
-      "discovered_at": "2026-09-22T01:13:24+00:00",
+      "discovered_at": "2026-09-23T01:14:16+00:00",
       "author": "wuyoscar",
       "metrics": {
-        "stars": 365,
-        "forks": 18,
-        "open_issues": 1,
-        "watchers": 365
+        "stars": 430,
+        "forks": 24,
+        "open_issues": 0,
+        "watchers": 430
       },
       "tags": [],
       "evidence": [
-        "+213 stars since last run",
-        "365 GitHub stars",
-        "18 forks",
+        "+65 stars since last run",
+        "430 GitHub stars",
+        "24 forks",
         "Created 2026-09-20"
       ],
       "raw_text": "wuyoscar/jev-skill An awesome collection of Jev use cases, workflows, and agent skills. ",
@@ -225,178 +282,84 @@
         "kimi_strategic_fit": 41
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "365 stars、18 forks，增速快但体量小，为Jev用例集合而非核心框架",
-      "commercial_summary": "Jev技能生态卫星项目，需追踪上游Jev/TypeSafe System One的模型provider选择",
+      "reason_to_contact_now": "+65 stars since last run；430 GitHub stars；24 forks；Jev用例和agent skills集合",
+      "commercial_summary": "Jev生态的技能/工作流聚合仓库，需观察其是否扩展为多模型支持或成为Kimi API的接入渠道，当前绑定Jev单一生态",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "language": "Python",
-        "updated_at": "2026-09-22T01:09:26Z",
+        "updated_at": "2026-09-23T01:04:28Z",
         "homepage": null,
         "agent_keyword_hits": [],
         "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": [
           "skill"
         ],
-        "metric_delta": 213.0,
-        "metric_velocity_per_day": 213.18999571377267
+        "metric_delta": 65.0,
+        "metric_velocity_per_day": 64.9601517587591
       }
     },
     {
-      "id": "github-055cf1ccf67a",
-      "source": "GitHub",
-      "name": "mcncarl/jianying-headless",
-      "url": "https://github.com/mcncarl/jianying-headless",
-      "description": "Private source preview: native Jianying drafts, isolated editing/export, and standalone Agent Skill.",
-      "published_at": "2026-09-15T11:51:15Z",
-      "discovered_at": "2026-09-22T01:13:24+00:00",
-      "author": "mcncarl",
-      "metrics": {
-        "stars": 2382,
-        "forks": 1790,
-        "open_issues": 10,
-        "watchers": 2382
-      },
-      "tags": [],
-      "evidence": [
-        "+381 stars since last run",
-        "2,382 GitHub stars",
-        "1,790 forks",
-        "Created 2026-09-15"
-      ],
-      "raw_text": "mcncarl/jianying-headless Private source preview: native Jianying drafts, isolated editing/export, and standalone Agent Skill. ",
-      "opportunity_type": "OpenClaw型",
-      "score": 56.4,
-      "dimension_scores": {
-        "growth_speed": 100.0,
-        "agent_innovation": 24,
-        "community_signal": 100.0,
-        "api_consumption_potential": 25,
-        "commercialization": 18,
-        "kimi_strategic_fit": 41
-      },
-      "recommended_action": "持续观察",
-      "reason_to_contact_now": "2382 stars、1790 forks增速极快，但描述为剪映草稿编辑工具，Agent Skill仅为附属功能",
-      "commercial_summary": "视频编辑自动化工具，Agent Skill生态属性弱，主要价值在内容生产工作流而非模型API消费",
-      "confidence": "medium",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "language": "Python",
-        "updated_at": "2026-09-22T01:12:56Z",
-        "homepage": null,
-        "agent_keyword_hits": [],
-        "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": [
-          "skill"
-        ],
-        "metric_delta": 381.0,
-        "metric_velocity_per_day": 381.33985148801594
-      }
-    },
-    {
-      "id": "hackernews-23dd4f826d05",
+      "id": "hackernews-1c06a564da90",
       "source": "Hacker News",
-      "name": "Ask HN: Dead Internet",
-      "url": "https://news.ycombinator.com/item?id=49793764",
-      "description": "For some time there has been a steady flow of LLM bot accounts on HackerNews. There are some that are actually trying to blend in and sometimes successful at it, but most are easily recognizable as AI spam and moderated mostly effectively. Most of them you only see when you enable showdead. I always wondered what their purpose is. Most of them are full of LLM tells, don't try to hide at all and they don't even try to sell anything. I just stumbled over this dead post in new: https://news.ycombinator.com/item?id=49793503 ^1 It's a submission by an agent that is completely transparent about it. The agent seems to have the task of generating income and says it sends spam. It's quite interesting and maybe revealing. I recommend the short read, even though it's LLM output. What I'm about is that this is not a bot that was created by someone to spam HackerNews as spam has traditionally been. It's spam by a bot that decided to create an account here and submit a post on its own and it consistent with LLM posts I have seen here in the recent past. I don't know how to feel about this. We seem to be one step closer to a dead internet. But it's also fascinating in a way. Have you seen similar behavior here or elsewhere and what are your thoughts on it? [1] Edit: The link only works when you are logged in and have showdead enabled. Here is the direct submission URL: https://paper.wf/john64/twenty-two-days-as-an-ai-agent-three-letters-zero-replies",
-      "published_at": "1790026468",
-      "discovered_at": "2026-09-22T01:13:28+00:00",
-      "author": "basilikum",
+      "name": "The new CC, an AI agent built for families",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/cc-expanding-to-groups/",
+      "description": "The new CC, an AI agent built for families",
+      "published_at": "1790120767",
+      "discovered_at": "2026-09-23T01:14:20+00:00",
+      "author": "grigy",
       "metrics": {
-        "points": 10,
-        "comments": 7
+        "points": 16,
+        "comments": 14
       },
       "tags": [],
       "evidence": [
-        "10 HN points",
-        "7 comments"
+        "16 HN points",
+        "14 comments"
       ],
-      "raw_text": "Ask HN: Dead Internet For some time there has been a steady flow of LLM bot accounts on HackerNews. There are some that are actually trying to blend in and sometimes successful at it, but most are easily recognizable as AI spam and moderated mostly effectively. Most of them you only see when you enable showdead. I always wondered what their purpose is. Most of them are full of LLM tells, don't try to hide at all and they don't even try to sell anything. I just stumbled over this dead post in new: https://news.ycombinator.com/item?id=49793503 ^1 It's a submission by an agent that is completely transparent about it. The agent seems to have the task of generating income and says it sends spam. It's quite interesting and maybe revealing. I recommend the short read, even though it's LLM output. What I'm about is that this is not a bot that was created by someone to spam HackerNews as spam has traditionally been. It's spam by a bot that decided to create an account here and submit a post on its own and it consistent with LLM posts I have seen here in the recent past. I don't know how to feel about this. We seem to be one step closer to a dead internet. But it's also fascinating in a way. Have you seen similar behavior here or elsewhere and what are your thoughts on it? [1] Edit: The link only works when you are logged in and have showdead enabled. Here is the direct submission URL: https://paper.wf/john64/twenty-two-days-as-an-ai-agent-three-letters-zero-replies",
+      "raw_text": "The new CC, an AI agent built for families ",
       "opportunity_type": "其他Agent",
-      "score": 38.4,
+      "score": 42.2,
       "dimension_scores": {
-        "growth_speed": 41.2,
-        "agent_innovation": 24,
-        "community_signal": 72.4,
-        "api_consumption_potential": 25,
-        "commercialization": 18,
-        "kimi_strategic_fit": 33
-      },
-      "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "HN讨论帖，非产品，无商业实体可跟进",
-      "commercial_summary": "社区现象讨论，无对应客户或竞品实体，不纳入销售漏斗",
-      "confidence": "low",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "discussion_url": "https://news.ycombinator.com/item?id=49793764",
-        "agent_keyword_hits": [],
-        "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": []
-      }
-    },
-    {
-      "id": "hackernews-f9b0f1bc562e",
-      "source": "Hacker News",
-      "name": "Show HN: Praxos – Multiplayer AI",
-      "url": "https://www.praxos.ai/",
-      "description": "Hey Hacker News! Lucas here, founder of Praxos (YC S24). Praxos is a team messaging platform for people and AI agents. It offers people and AI agents a place to talk and work together via a messaging platform that remembers the context around conversations. That context can then be used by the next person, AI agent, or even you, a week later. You can pick work back up without needing to get hold of another person to explain things again for you… or give you a refresher. A surprising amount of work exists only because one person knows something another person needs, or because we need to coordinate activities with another person. We believe that model sessions bring a new dimension to this problem. AI is multiplying the number of conversations any one person has at a given time. Think about it: for most people, the main entry point to using AI is messaging. So, you now have to add the number of conversations you have with AI tools like ChatGPT and Claude to all the other conversations you were having with your coworkers. Each of these conversations holds valuable bits of information that the others don't. But someone has to move the context from one place to the other... and that's you. Our business is making sure that context remains useful after the conversation where it was created has ended. We are an ideal fit for teams who frustrated by existing messaging platforms and their developer tooling. It works best for early-stage companies ranging from a solo founder to teams of 25 people. If you live between Slack, Claude, Codex, customer conversations, docs, and email… or relaying what you learn from one conversation to another is starting to get overwhelming, then Praxos is for you. --If you're a builder looking to try it on their own, we recommend running the following on your CLI: sh -c \"$(curl -fsSL \" https://app.mypraxos.com/claude-code/install.sh?$(date+%s) \")\". That will run an installation agent on Claude Code. --If you instead would like to talk to a person to get guided setup, book a call with me at https://cal.com/lucas-urbisaia-u4ip5c/30min :)",
-      "published_at": "1790026819",
-      "discovered_at": "2026-09-22T01:13:28+00:00",
-      "author": "mogusian",
-      "metrics": {
-        "points": 7,
-        "comments": 0
-      },
-      "tags": [],
-      "evidence": [
-        "7 HN points",
-        "0 comments"
-      ],
-      "raw_text": "Show HN: Praxos – Multiplayer AI Hey Hacker News! Lucas here, founder of Praxos (YC S24). Praxos is a team messaging platform for people and AI agents. It offers people and AI agents a place to talk and work together via a messaging platform that remembers the context around conversations. That context can then be used by the next person, AI agent, or even you, a week later. You can pick work back up without needing to get hold of another person to explain things again for you… or give you a refresher. A surprising amount of work exists only because one person knows something another person needs, or because we need to coordinate activities with another person. We believe that model sessions bring a new dimension to this problem. AI is multiplying the number of conversations any one person has at a given time. Think about it: for most people, the main entry point to using AI is messaging. So, you now have to add the number of conversations you have with AI tools like ChatGPT and Claude to all the other conversations you were having with your coworkers. Each of these conversations holds valuable bits of information that the others don't. But someone has to move the context from one place to the other... and that's you. Our business is making sure that context remains useful after the conversation where it was created has ended. We are an ideal fit for teams who frustrated by existing messaging platforms and their developer tooling. It works best for early-stage companies ranging from a solo founder to teams of 25 people. If you live between Slack, Claude, Codex, customer conversations, docs, and email… or relaying what you learn from one conversation to another is starting to get overwhelming, then Praxos is for you. --If you're a builder looking to try it on their own, we recommend running the following on your CLI: sh -c \"$(curl -fsSL \" https://app.mypraxos.com/claude-code/install.sh?$(date+%s) \")\". That will run an installation agent on Claude Code. --If you instead would like to talk to a person to get guided setup, book a call with me at https://cal.com/lucas-urbisaia-u4ip5c/30min :)",
-      "opportunity_type": "Manus型",
-      "score": 37.7,
-      "dimension_scores": {
-        "growth_speed": 38.6,
+        "growth_speed": 44.7,
         "agent_innovation": 35,
-        "community_signal": 52.0,
-        "api_consumption_potential": 37,
-        "commercialization": 32,
+        "community_signal": 82.5,
+        "api_consumption_potential": 32,
+        "commercialization": 18,
         "kimi_strategic_fit": 39
       },
       "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "HN 仅7 points/0 comments，早期团队消息平台，未验证模型调用规模",
-      "commercial_summary": "YC S24 团队消息+Agent协作产品，明确集成Claude/Codex，若起量可能成为API客户，当前信号太弱",
-      "confidence": "low",
+      "reason_to_contact_now": "16 HN points，14 comments；Google自有产品，非第三方客户机会",
+      "commercial_summary": "Google Labs内部家庭Agent产品，属于巨头自有生态，非Kimi API潜在客户或生态伙伴，需作为竞品长期跟踪",
+      "confidence": "high",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
-        "discussion_url": "https://news.ycombinator.com/item?id=49793831",
+        "discussion_url": "https://news.ycombinator.com/item?id=49809806",
         "agent_keyword_hits": [
           "ai agent"
         ],
-        "commercial_keyword_hits": [
-          "customer"
-        ],
+        "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": []
       }
     },
     {
-      "id": "product-hunt-d8c0669650d1",
+      "id": "product-hunt-c511b24e0b9b",
       "source": "Product Hunt",
-      "name": "Arcjet",
-      "url": "https://www.producthunt.com/products/arcjet",
-      "description": "Secure the AI agents you're building at runtime Discussion | Link",
-      "published_at": "2026-09-15T02:31:32-07:00",
-      "discovered_at": "2026-09-22T01:13:28+00:00",
-      "author": "fmerian",
+      "name": "Clueso MCP",
+      "url": "https://www.producthunt.com/products/clueso",
+      "description": "Create and edit videos by chatting Discussion | Link",
+      "published_at": "2026-09-16T02:35:16-07:00",
+      "discovered_at": "2026-09-23T01:14:21+00:00",
+      "author": "Kevin William David",
       "metrics": {},
       "tags": [],
       "evidence": [
         "Published via Product Hunt",
-        "2026-09-15T02:31:32-07:00"
+        "2026-09-16T02:35:16-07:00"
       ],
-      "raw_text": "Arcjet Secure the AI agents you're building at runtime Discussion | Link ",
+      "raw_text": "Clueso MCP Create and edit videos by chatting Discussion | Link ",
       "opportunity_type": "Manus型",
-      "score": 29.6,
+      "score": 27.6,
       "dimension_scores": {
         "growth_speed": 30.0,
         "agent_innovation": 35,
@@ -406,14 +369,56 @@
         "kimi_strategic_fit": 31
       },
       "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "Product Hunt 发布，无用户/收入/模型依赖证据",
-      "commercial_summary": "AI Agent 运行时安全工具，API消费潜力不明确，暂不构成高价值客户或生态威胁",
-      "confidence": "medium",
+      "reason_to_contact_now": "Product Hunt发布；MCP关键词出现；但无具体用户数据、付费转化或模型调用规模证据",
+      "commercial_summary": "视频生成/编辑的AI Agent产品，MCP协议提及但未验证实际模型依赖，API消费潜力信息不足",
+      "confidence": "low",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "feed_url": "https://www.producthunt.com/feed",
         "content_kind": "product_launch",
-        "original_title": "Arcjet",
+        "original_title": "Clueso MCP",
+        "agent_keyword_hits": [
+          "mcp"
+        ],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": []
+      }
+    },
+    {
+      "id": "product-hunt-15fd7bec8044",
+      "source": "Product Hunt",
+      "name": "Fez",
+      "url": "https://www.producthunt.com/products/fez-2",
+      "description": "AI agents that work as a team and make decisions together Discussion | Link",
+      "published_at": "2026-09-21T11:50:10-07:00",
+      "discovered_at": "2026-09-23T01:14:21+00:00",
+      "author": "ken",
+      "metrics": {},
+      "tags": [],
+      "evidence": [
+        "Published via Product Hunt",
+        "2026-09-21T11:50:10-07:00"
+      ],
+      "raw_text": "Fez AI agents that work as a team and make decisions together Discussion | Link ",
+      "opportunity_type": "Manus型",
+      "score": 27.6,
+      "dimension_scores": {
+        "growth_speed": 30.0,
+        "agent_innovation": 35,
+        "community_signal": 18.0,
+        "api_consumption_potential": 32,
+        "commercialization": 36,
+        "kimi_strategic_fit": 31
+      },
+      "recommended_action": "暂不跟进",
+      "reason_to_contact_now": "Product Hunt发布；无用户数据、无付费证据、无模型依赖信息",
+      "commercial_summary": "多Agent协作决策产品，概念早期，缺乏API调用规模、付费转化或技术栈信息，无法评估模型依赖",
+      "confidence": "low",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "metadata": {
+        "feed_url": "https://www.producthunt.com/feed",
+        "content_kind": "product_launch",
+        "original_title": "Fez",
         "agent_keyword_hits": [
           "ai agent"
         ],
@@ -422,81 +427,85 @@
       }
     },
     {
-      "id": "product-hunt-e6bc631b8b45",
+      "id": "product-hunt-3f1c3870bd57",
       "source": "Product Hunt",
-      "name": "PostSider",
-      "url": "https://www.producthunt.com/products/postsider",
-      "description": "Social media scheduling platform for humans and agents Discussion | Link",
-      "published_at": "2026-09-17T11:18:36-07:00",
-      "discovered_at": "2026-09-22T01:13:28+00:00",
-      "author": "Łukasz Blania",
+      "name": "SereneDB",
+      "url": "https://www.producthunt.com/products/serenedb-krummelanke",
+      "description": "Ultra-Fast Search & Analytics Database, Agentic AI ready Discussion | Link",
+      "published_at": "2026-09-14T20:26:57-07:00",
+      "discovered_at": "2026-09-23T01:14:21+00:00",
+      "author": "Svetlana Ragimova",
       "metrics": {},
       "tags": [],
       "evidence": [
         "Published via Product Hunt",
-        "2026-09-17T11:18:36-07:00"
+        "2026-09-14T20:26:57-07:00"
       ],
-      "raw_text": "PostSider Social media scheduling platform for humans and agents Discussion | Link ",
+      "raw_text": "SereneDB Ultra-Fast Search & Analytics Database, Agentic AI ready Discussion | Link ",
       "opportunity_type": "Manus型",
-      "score": 25.8,
+      "score": 27.6,
       "dimension_scores": {
         "growth_speed": 30.0,
-        "agent_innovation": 24,
+        "agent_innovation": 35,
         "community_signal": 18.0,
-        "api_consumption_potential": 25,
+        "api_consumption_potential": 32,
         "commercialization": 36,
-        "kimi_strategic_fit": 25
+        "kimi_strategic_fit": 31
       },
       "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "Product Hunt 发布，无用户/收入/模型依赖证据",
-      "commercial_summary": "社交媒体调度平台提及agents，但无技术细节或API调用信号，商业化价值未验证",
+      "reason_to_contact_now": "Product Hunt发布；Agentic AI ready为营销用语，无实际Agent功能演示或模型集成证据",
+      "commercial_summary": "数据库基础设施产品，'Agentic AI ready'为方向性定位，非原生Agent产品，API消费潜力不明确",
       "confidence": "low",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "feed_url": "https://www.producthunt.com/feed",
         "content_kind": "product_launch",
-        "original_title": "PostSider",
-        "agent_keyword_hits": [],
+        "original_title": "SereneDB",
+        "agent_keyword_hits": [
+          "agentic"
+        ],
         "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": []
       }
     },
     {
-      "id": "product-hunt-e53e03af18c9",
+      "id": "product-hunt-69e0e5e04d45",
       "source": "Product Hunt",
-      "name": "Jev",
-      "url": "https://www.producthunt.com/products/jev-2",
-      "description": "Fast, structured AI decisions for software automation Discussion | Link",
-      "published_at": "2026-09-20T19:19:43-07:00",
-      "discovered_at": "2026-09-22T01:13:28+00:00",
-      "author": "KP",
+      "name": "Prowler Cloud",
+      "url": "https://www.producthunt.com/products/prowler",
+      "description": "Where your AI agent becomes a cloud security defender Discussion | Link",
+      "published_at": "2026-09-17T10:01:37-07:00",
+      "discovered_at": "2026-09-23T01:14:21+00:00",
+      "author": "Toni de la Fuente",
       "metrics": {},
       "tags": [],
       "evidence": [
         "Published via Product Hunt",
-        "2026-09-20T19:19:43-07:00"
+        "2026-09-17T10:01:37-07:00"
       ],
-      "raw_text": "Jev Fast, structured AI decisions for software automation Discussion | Link ",
+      "raw_text": "Prowler Cloud Where your AI agent becomes a cloud security defender Discussion | Link ",
       "opportunity_type": "Manus型",
-      "score": 25.8,
+      "score": 26.6,
       "dimension_scores": {
         "growth_speed": 30.0,
-        "agent_innovation": 24,
+        "agent_innovation": 35,
         "community_signal": 18.0,
-        "api_consumption_potential": 25,
+        "api_consumption_potential": 32,
         "commercialization": 36,
-        "kimi_strategic_fit": 25
+        "kimi_strategic_fit": 31
       },
       "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "Product Hunt 发布，无用户/收入/模型依赖证据",
-      "commercial_summary": "结构化AI决策工具，与GitHub上Jev生态同名，需验证是否为同一实体及模型接入方式",
-      "confidence": "medium",
+      "reason_to_contact_now": "Product Hunt发布，描述为AI agent成为云安全防御者，但无具体用户数据、融资或API使用证据",
+      "commercial_summary": "云安全Agent产品，垂直场景明确但信号过早，需观察企业客户采纳和模型调用规模",
+      "confidence": "low",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "feed_url": "https://www.producthunt.com/feed",
         "content_kind": "product_launch",
-        "original_title": "Jev",
-        "agent_keyword_hits": [],
+        "original_title": "Prowler Cloud",
+        "agent_keyword_hits": [
+          "ai agent"
+        ],
         "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": []
       }

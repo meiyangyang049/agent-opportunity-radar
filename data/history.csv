@@ -294,3 +294,13 @@ run_at,id,name,source,score,opportunity_type,recommended_action,metric_name,metr
 2026-09-22T01:13:28+00:00,product-hunt-d8c0669650d1,Arcjet,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
 2026-09-22T01:13:28+00:00,product-hunt-e6bc631b8b45,PostSider,Product Hunt,25.8,Manus型,暂不跟进,none,0.0
 2026-09-22T01:13:28+00:00,product-hunt-e53e03af18c9,Jev,Product Hunt,25.8,Manus型,暂不跟进,none,0.0
+2026-09-23T01:14:21+00:00,github-b875a4fb57ba,kerpopule/hermes-jev-skills,GitHub,63.4,OpenClaw型,持续观察,stars,568.0
+2026-09-23T01:14:21+00:00,github-03c7f98e1ede,AbdelStark/awesome-typesafe-jev,GitHub,62.8,OpenClaw型,持续观察,stars,471.0
+2026-09-23T01:14:21+00:00,github-95357ffbf194,zai-org/ZCode,GitHub,60.6,OpenClaw型,持续观察,stars,6301.0
+2026-09-23T01:14:21+00:00,github-b34261e947da,browser-use/jev-ultrafast,GitHub,60.6,OpenClaw型,持续观察,stars,18090.0
+2026-09-23T01:14:21+00:00,github-bfcc6585239d,wuyoscar/jev-skill,GitHub,59.4,OpenClaw型,持续观察,stars,430.0
+2026-09-23T01:14:21+00:00,hackernews-1c06a564da90,"The new CC, an AI agent built for families",Hacker News,42.2,其他Agent,暂不跟进,points,16.0
+2026-09-23T01:14:21+00:00,product-hunt-c511b24e0b9b,Clueso MCP,Product Hunt,27.6,Manus型,暂不跟进,none,0.0
+2026-09-23T01:14:21+00:00,product-hunt-15fd7bec8044,Fez,Product Hunt,27.6,Manus型,暂不跟进,none,0.0
+2026-09-23T01:14:21+00:00,product-hunt-3f1c3870bd57,SereneDB,Product Hunt,27.6,Manus型,暂不跟进,none,0.0
+2026-09-23T01:14:21+00:00,product-hunt-69e0e5e04d45,Prowler Cloud,Product Hunt,26.6,Manus型,暂不跟进,none,0.0
