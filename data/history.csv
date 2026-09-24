@@ -304,3 +304,13 @@ run_at,id,name,source,score,opportunity_type,recommended_action,metric_name,metr
 2026-09-23T01:14:21+00:00,product-hunt-15fd7bec8044,Fez,Product Hunt,27.6,Manus型,暂不跟进,none,0.0
 2026-09-23T01:14:21+00:00,product-hunt-3f1c3870bd57,SereneDB,Product Hunt,27.6,Manus型,暂不跟进,none,0.0
 2026-09-23T01:14:21+00:00,product-hunt-69e0e5e04d45,Prowler Cloud,Product Hunt,26.6,Manus型,暂不跟进,none,0.0
+2026-09-24T01:14:36+00:00,github-95357ffbf194,zai-org/ZCode,GitHub,62.6,OpenClaw型,持续观察,stars,6536.0
+2026-09-24T01:14:36+00:00,github-b875a4fb57ba,kerpopule/hermes-jev-skills,GitHub,61.4,OpenClaw型,持续观察,stars,703.0
+2026-09-24T01:14:36+00:00,github-03c7f98e1ede,AbdelStark/awesome-typesafe-jev,GitHub,57.8,OpenClaw型,持续观察,stars,498.0
+2026-09-24T01:14:36+00:00,github-bfcc6585239d,wuyoscar/jev-skill,GitHub,56.9,OpenClaw型,持续观察,stars,462.0
+2026-09-24T01:14:36+00:00,hackernews-27c02632159f,Show HN: I built a post-mortem debugger for native Windows x64/x86 crashes,Hacker News,43.5,其他Agent,暂不跟进,points,27.0
+2026-09-24T01:14:36+00:00,hackernews-bd51ef8c5225,Show HN: AgentRun: DSL to turn agents into Workflows,Hacker News,42.0,OpenClaw型,持续观察,points,8.0
+2026-09-24T01:14:36+00:00,product-hunt-69e0e5e04d45,Prowler Cloud,Product Hunt,27.6,Manus型,暂不跟进,none,0.0
+2026-09-24T01:14:36+00:00,product-hunt-c511b24e0b9b,Clueso MCP,Product Hunt,25.6,Manus型,暂不跟进,none,0.0
+2026-09-24T01:14:36+00:00,hackernews-8d9053f5d9dd,Show HN: Hosted JayBase – An append-only data store for safe AI agent writes,Hacker News,25.0,Manus型,暂不跟进,points,1.0
+2026-09-24T01:14:36+00:00,product-hunt-c9496678f895,Plane Agents,Product Hunt,24.6,Manus型,暂不跟进,none,0.0
