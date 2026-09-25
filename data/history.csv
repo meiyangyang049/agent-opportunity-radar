@@ -314,3 +314,13 @@ run_at,id,name,source,score,opportunity_type,recommended_action,metric_name,metr
 2026-09-24T01:14:36+00:00,product-hunt-c511b24e0b9b,Clueso MCP,Product Hunt,25.6,Manus型,暂不跟进,none,0.0
 2026-09-24T01:14:36+00:00,hackernews-8d9053f5d9dd,Show HN: Hosted JayBase – An append-only data store for safe AI agent writes,Hacker News,25.0,Manus型,暂不跟进,points,1.0
 2026-09-24T01:14:36+00:00,product-hunt-c9496678f895,Plane Agents,Product Hunt,24.6,Manus型,暂不跟进,none,0.0
+2026-09-25T01:14:27+00:00,github-d252e95aaa10,mikehasa/golive-skill,GitHub,64.4,OpenClaw型,持续观察,stars,877.0
+2026-09-25T01:14:27+00:00,github-95357ffbf194,zai-org/ZCode,GitHub,63.6,OpenClaw型,持续观察,stars,6713.0
+2026-09-25T01:14:27+00:00,github-b875a4fb57ba,kerpopule/hermes-jev-skills,GitHub,63.4,OpenClaw型,持续观察,stars,779.0
+2026-09-25T01:14:27+00:00,github-7f41890eedad,kraayenjon/awesome-jev,GitHub,62.4,OpenClaw型,持续观察,stars,134.0
+2026-09-25T01:14:27+00:00,github-149f547d3735,kydlikebtc/awesome-jev,GitHub,61.6,OpenClaw型,持续观察,stars,288.0
+2026-09-25T01:14:27+00:00,github-bfcc6585239d,wuyoscar/jev-skill,GitHub,60.1,OpenClaw型,持续观察,stars,479.0
+2026-09-25T01:14:27+00:00,hackernews-a7758905d36b,Show HN: Agency – Manage Agents for Your Robinhood Agentic Account,Hacker News,32.3,Manus型,暂不跟进,points,2.0
+2026-09-25T01:14:27+00:00,product-hunt-b46ccaff703f,NOAN,Product Hunt,27.6,Manus型,暂不跟进,none,0.0
+2026-09-25T01:14:27+00:00,product-hunt-0968b848d34f,IntellAgents.io,Product Hunt,26.6,Manus型,暂不跟进,none,0.0
+2026-09-25T01:14:27+00:00,product-hunt-7f0fdca71203,Solid,Product Hunt,21.8,Manus型,暂不跟进,none,0.0
