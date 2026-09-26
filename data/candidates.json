@@ -1,8 +1,8 @@
 {
   "meta": {
     "project": "Agent Opportunity Radar",
-    "generated_at": "2026-09-25T01:14:27+00:00",
-    "generated_at_display": "2026-09-25 09:14 CST",
+    "generated_at": "2026-09-26T01:13:35+00:00",
+    "generated_at_display": "2026-09-26 09:13 CST",
     "mode": "公开信号实时运行",
     "sources": [
       "GitHub",
@@ -14,21 +14,88 @@
       "AI news RSS: HTTPError: 429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
     ],
     "notices": [],
-    "candidate_pool_size": 36,
+    "candidate_pool_size": 46,
     "pool_by_source": {
-      "GitHub": 7,
-      "Hacker News": 22,
-      "Product Hunt": 7
+      "GitHub": 11,
+      "Hacker News": 27,
+      "Product Hunt": 8
     },
     "pool_by_type": {
-      "OpenClaw型": 13,
-      "其他Agent": 16,
-      "Manus型": 7
+      "OpenClaw型": 15,
+      "其他Agent": 22,
+      "Manus型": 9
     },
     "shortlist_policy": "Top 10；OpenClaw型/Manus型各至少4个（候选充足时）",
     "kimi_model": "kimi-k2.6"
   },
   "candidates": [
+    {
+      "id": "github-149f547d3735",
+      "source": "GitHub",
+      "name": "kydlikebtc/awesome-jev",
+      "url": "https://github.com/kydlikebtc/awesome-jev",
+      "description": "1207 public resources for Jev, TypeSafe AI's System One decision model, indexed by decision pattern. Source citations, dated link checks and scheduled call-site text checks; runtime and performance are not independently tested here. EN/中文, JSON schema and platform compatibility.",
+      "published_at": "2026-09-22T02:22:54Z",
+      "discovered_at": "2026-09-26T01:13:30+00:00",
+      "author": "kydlikebtc",
+      "metrics": {
+        "stars": 386,
+        "forks": 8,
+        "open_issues": 2,
+        "watchers": 386
+      },
+      "tags": [
+        "agent-tools",
+        "ai-agents",
+        "awesome",
+        "awesome-list",
+        "calibration",
+        "catalog",
+        "classification",
+        "context-compaction",
+        "decision-model",
+        "intent-routing",
+        "jev",
+        "llm",
+        "system-one",
+        "tool-selection",
+        "typesafe-ai"
+      ],
+      "evidence": [
+        "+98 stars since last run",
+        "386 GitHub stars",
+        "8 forks",
+        "Created 2026-09-22"
+      ],
+      "raw_text": "kydlikebtc/awesome-jev 1207 public resources for Jev, TypeSafe AI's System One decision model, indexed by decision pattern. Source citations, dated link checks and scheduled call-site text checks; runtime and performance are not independently tested here. EN/中文, JSON schema and platform compatibility. agent-tools ai-agents awesome awesome-list calibration catalog classification context-compaction decision-model intent-routing jev llm system-one tool-selection typesafe-ai",
+      "opportunity_type": "OpenClaw型",
+      "score": 65.5,
+      "dimension_scores": {
+        "growth_speed": 100.0,
+        "agent_innovation": 35,
+        "community_signal": 100.0,
+        "api_consumption_potential": 32,
+        "commercialization": 18,
+        "kimi_strategic_fit": 39
+      },
+      "recommended_action": "持续观察",
+      "reason_to_contact_now": "TypeSafe AI的决策模型，+98 stars/日增速，1207资源索引，有JSON schema和平台兼容性",
+      "commercial_summary": "Agent决策层基础设施，若成为主流agent框架需关注模型接入合作，但当前为awesome-list形态",
+      "confidence": "medium",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "metadata": {
+        "language": "Python",
+        "updated_at": "2026-09-26T01:13:24Z",
+        "homepage": "https://kydlikebtc.github.io/awesome-jev/",
+        "agent_keyword_hits": [
+          "ai agent"
+        ],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": [],
+        "metric_delta": 98.0,
+        "metric_velocity_per_day": 98.0590170009728
+      }
+    },
     {
       "id": "github-d252e95aaa10",
       "source": "GitHub",
@@ -36,13 +103,13 @@
       "url": "https://github.com/mikehasa/golive-skill",
       "description": "Take your agent-built product live: hosting, database, domain, email, payments — on your own accounts. Open-source Agent Skill + zero-dependency Node CLI: detect → plan → approve → apply → verify. No GoLive account, backend or telemetry.",
       "published_at": "2026-09-23T13:37:26Z",
-      "discovered_at": "2026-09-25T01:14:21+00:00",
+      "discovered_at": "2026-09-26T01:13:29+00:00",
       "author": "mikehasa",
       "metrics": {
-        "stars": 877,
-        "forks": 60,
+        "stars": 949,
+        "forks": 65,
         "open_issues": 0,
-        "watchers": 877
+        "watchers": 949
       },
       "tags": [
         "agent-skill",
@@ -67,13 +134,14 @@
         "vercel"
       ],
       "evidence": [
-        "877 GitHub stars",
-        "60 forks",
+        "+72 stars since last run",
+        "949 GitHub stars",
+        "65 forks",
         "Created 2026-09-23"
       ],
       "raw_text": "mikehasa/golive-skill Take your agent-built product live: hosting, database, domain, email, payments — on your own accounts. Open-source Agent Skill + zero-dependency Node CLI: detect → plan → approve → apply → verify. No GoLive account, backend or telemetry. agent-skill agent-skills ai-agents claude-code cloudflare codex database deployment developer-tools devops dns godaddy hosting infrastructure neon netlify porkbun skills supabase vercel",
       "opportunity_type": "OpenClaw型",
-      "score": 64.4,
+      "score": 62.4,
       "dimension_scores": {
         "growth_speed": 100.0,
         "agent_innovation": 24,
@@ -83,46 +151,54 @@
         "kimi_strategic_fit": 41
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "877 stars/60 forks的Agent Skill，支持Claude Code/Codex等多Agent，零依赖CLI工具链。",
-      "commercial_summary": "高星开源Agent Skill，已适配多个主流Agent，存在扩展Kimi支持或联合推广空间。",
+      "reason_to_contact_now": "949 stars且+72 stars增速，开源Agent Skill+零依赖Node CLI，支持detect→plan→approve→apply→verify完整部署流",
+      "commercial_summary": "开源Agent基础设施工具，若成为主流agent部署技能，可推动Kimi模型接入开发者工作流，需关注是否支持多模型配置",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "language": "TypeScript",
-        "updated_at": "2026-09-25T00:47:54Z",
-        "homepage": null,
+        "updated_at": "2026-09-25T20:39:38Z",
+        "homepage": "https://trytofu.ai",
         "agent_keyword_hits": [],
         "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": [
           "skill"
-        ]
+        ],
+        "metric_delta": 72.0,
+        "metric_velocity_per_day": 72.04335942928614
       }
     },
     {
-      "id": "github-95357ffbf194",
+      "id": "github-57ae361060ed",
       "source": "GitHub",
-      "name": "zai-org/ZCode",
-      "url": "https://github.com/zai-org/ZCode",
-      "description": "Z.ai's coding agent harness. Powerful, intelligent, extensible.",
-      "published_at": "2026-09-20T12:01:16Z",
-      "discovered_at": "2026-09-25T01:14:21+00:00",
-      "author": "zai-org",
+      "name": "yetone/magpie",
+      "url": "https://github.com/yetone/magpie",
+      "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
+      "published_at": "2026-09-23T16:22:35Z",
+      "discovered_at": "2026-09-26T01:13:29+00:00",
+      "author": "yetone",
       "metrics": {
-        "stars": 6713,
-        "forks": 2004,
-        "open_issues": 11,
-        "watchers": 6713
+        "stars": 802,
+        "forks": 47,
+        "open_issues": 2,
+        "watchers": 802
       },
-      "tags": [],
-      "evidence": [
-        "+177 stars since last run",
-        "6,713 GitHub stars",
-        "2,004 forks",
-        "Created 2026-09-20"
+      "tags": [
+        "claude-code",
+        "codex",
+        "deepseek",
+        "gemini-cli",
+        "llm",
+        "macos"
       ],
-      "raw_text": "zai-org/ZCode Z.ai's coding agent harness. Powerful, intelligent, extensible. ",
+      "evidence": [
+        "802 GitHub stars",
+        "47 forks",
+        "Created 2026-09-23"
+      ],
+      "raw_text": "yetone/magpie Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar. claude-code codex deepseek gemini-cli llm macos",
       "opportunity_type": "OpenClaw型",
-      "score": 63.6,
+      "score": 58.6,
       "dimension_scores": {
         "growth_speed": 100.0,
         "agent_innovation": 24,
@@ -132,205 +208,66 @@
         "kimi_strategic_fit": 33
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "6713 stars、2004 forks且单日+177，Z.ai官方出品的coding agent harness",
-      "commercial_summary": "高星开源coding agent框架，Z.ai生态核心工具，需密切跟踪其模型Provider策略，潜在竞品或合作对象",
+      "reason_to_contact_now": "802 GitHub stars；47 forks；Created 2026-09-23",
+      "commercial_summary": "开发者生态型机会，优先判断模型接入、默认Provider和联合社区合作空间。",
       "confidence": "medium",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "scoring_mode": "规则预评分",
       "metadata": {
-        "language": "TypeScript",
-        "updated_at": "2026-09-25T00:58:32Z",
-        "homepage": "https://zcode.z.ai/",
+        "language": "Go",
+        "updated_at": "2026-09-26T00:52:52Z",
+        "homepage": "https://usemagpie.ai",
         "agent_keyword_hits": [],
         "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": [],
-        "metric_delta": 177.0,
-        "metric_velocity_per_day": 177.018439420773
+        "ecosystem_keyword_hits": []
       }
     },
     {
-      "id": "github-b875a4fb57ba",
+      "id": "github-24f8b82daee5",
       "source": "GitHub",
-      "name": "kerpopule/hermes-jev-skills",
-      "url": "https://github.com/kerpopule/hermes-jev-skills",
-      "description": "Jev-powered model routing, memory, compaction, skill selection, computer and browser use for Hermes agents (also Claude Code and Codex)",
-      "published_at": "2026-09-18T20:01:29Z",
-      "discovered_at": "2026-09-25T01:14:21+00:00",
-      "author": "kerpopule",
+      "name": "rgem227/knoweldge-base",
+      "url": "https://github.com/rgem227/knoweldge-base",
+      "description": "Personal or team knowledge base, supports MCP API calls.",
+      "published_at": "2026-09-22T04:28:59Z",
+      "discovered_at": "2026-09-26T01:13:31+00:00",
+      "author": "rgem227",
       "metrics": {
-        "stars": 779,
-        "forks": 70,
-        "open_issues": 14,
-        "watchers": 779
+        "stars": 495,
+        "forks": 6,
+        "open_issues": 0,
+        "watchers": 495
       },
       "tags": [],
       "evidence": [
-        "+76 stars since last run",
-        "779 GitHub stars",
-        "70 forks",
-        "Created 2026-09-18"
+        "495 GitHub stars",
+        "6 forks",
+        "Created 2026-09-22"
       ],
-      "raw_text": "kerpopule/hermes-jev-skills Jev-powered model routing, memory, compaction, skill selection, computer and browser use for Hermes agents (also Claude Code and Codex) ",
+      "raw_text": "rgem227/knoweldge-base Personal or team knowledge base, supports MCP API calls. ",
       "opportunity_type": "OpenClaw型",
-      "score": 63.4,
+      "score": 58.4,
       "dimension_scores": {
-        "growth_speed": 100.0,
-        "agent_innovation": 24,
+        "growth_speed": 94.9,
+        "agent_innovation": 35,
         "community_signal": 100.0,
-        "api_consumption_potential": 25,
-        "commercialization": 18,
-        "kimi_strategic_fit": 41
+        "api_consumption_potential": 37,
+        "commercialization": 32,
+        "kimi_strategic_fit": 39
       },
-      "recommended_action": "持续观察",
-      "reason_to_contact_now": "779 stars且单日+76增速，明确支持模型路由、技能选择、浏览器/计算机使用",
-      "commercial_summary": "高增速开源Agent技能框架，模型路由层可成为Kimi API接入目标，需确认默认Provider",
+      "recommended_action": "暂不跟进",
+      "reason_to_contact_now": "495 stars但仅6 forks，MCP支持尚浅，无活跃issue或商业化信号",
+      "commercial_summary": "个人知识库工具，MCP API调用深度不足，暂不构成高价值模型API客户或生态伙伴",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "language": "Python",
-        "updated_at": "2026-09-25T00:31:28Z",
+        "updated_at": "2026-09-25T15:20:29Z",
         "homepage": null,
-        "agent_keyword_hits": [],
-        "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": [
-          "skill"
-        ],
-        "metric_delta": 76.0,
-        "metric_velocity_per_day": 76.00791749140535
-      }
-    },
-    {
-      "id": "github-7f41890eedad",
-      "source": "GitHub",
-      "name": "kraayenjon/awesome-jev",
-      "url": "https://github.com/kraayenjon/awesome-jev",
-      "description": "A curated list of Jev use cases, projects, SDKs, and resources. Jev is TypeSafe AI's System One model for fast, typed decisions in software — Choice, Score, and Noul with calibrated probabilities.",
-      "published_at": "2026-09-18T15:43:06Z",
-      "discovered_at": "2026-09-25T01:14:22+00:00",
-      "author": "kraayenjon",
-      "metrics": {
-        "stars": 134,
-        "forks": 28,
-        "open_issues": 23,
-        "watchers": 134
-      },
-      "tags": [
-        "agents",
-        "ai",
-        "ai-agents",
-        "api",
-        "artificial-intelligence",
-        "automation",
-        "awesome",
-        "awesome-list",
-        "classification",
-        "curated-list",
-        "decision-making",
-        "developer-tools",
-        "jev",
-        "jev-ai",
-        "llm",
-        "machine-learning",
-        "mcp",
-        "system-one",
-        "typesafe",
-        "typesafe-ai"
-      ],
-      "evidence": [
-        "134 GitHub stars",
-        "28 forks",
-        "Created 2026-09-18"
-      ],
-      "raw_text": "kraayenjon/awesome-jev A curated list of Jev use cases, projects, SDKs, and resources. Jev is TypeSafe AI's System One model for fast, typed decisions in software — Choice, Score, and Noul with calibrated probabilities. agents ai ai-agents api artificial-intelligence automation awesome awesome-list classification curated-list decision-making developer-tools jev jev-ai llm machine-learning mcp system-one typesafe typesafe-ai",
-      "opportunity_type": "OpenClaw型",
-      "score": 62.4,
-      "dimension_scores": {
-        "growth_speed": 68.3,
-        "agent_innovation": 46,
-        "community_signal": 98.9,
-        "api_consumption_potential": 44,
-        "commercialization": 32,
-        "kimi_strategic_fit": 45
-      },
-      "recommended_action": "持续观察",
-      "reason_to_contact_now": "TypeSafe AI的决策模型Jev已有134 stars的awesome-list及MCP标签，存在开发者生态信号。",
-      "commercial_summary": "新兴决策模型/Agent工具链，需验证是否调用外部LLM API及Kimi适配可能性。",
-      "confidence": "medium",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "language": null,
-        "updated_at": "2026-09-24T22:05:51Z",
-        "homepage": "https://madewithjev.com",
         "agent_keyword_hits": [
-          "ai agent",
           "mcp"
         ],
         "commercial_keyword_hits": [
           "api"
         ],
-        "ecosystem_keyword_hits": []
-      }
-    },
-    {
-      "id": "github-149f547d3735",
-      "source": "GitHub",
-      "name": "kydlikebtc/awesome-jev",
-      "url": "https://github.com/kydlikebtc/awesome-jev",
-      "description": "1207 public resources for Jev, TypeSafe AI's System One decision model, indexed by decision pattern. Source citations, dated link checks and scheduled call-site text checks; runtime and performance are not independently tested here. EN/中文, JSON schema and platform compatibility.",
-      "published_at": "2026-09-22T02:22:54Z",
-      "discovered_at": "2026-09-25T01:14:22+00:00",
-      "author": "kydlikebtc",
-      "metrics": {
-        "stars": 288,
-        "forks": 7,
-        "open_issues": 1,
-        "watchers": 288
-      },
-      "tags": [
-        "agent-tools",
-        "ai-agents",
-        "awesome",
-        "awesome-list",
-        "calibration",
-        "catalog",
-        "classification",
-        "context-compaction",
-        "decision-model",
-        "intent-routing",
-        "jev",
-        "llm",
-        "system-one",
-        "tool-selection",
-        "typesafe-ai"
-      ],
-      "evidence": [
-        "288 GitHub stars",
-        "7 forks",
-        "Created 2026-09-22"
-      ],
-      "raw_text": "kydlikebtc/awesome-jev 1207 public resources for Jev, TypeSafe AI's System One decision model, indexed by decision pattern. Source citations, dated link checks and scheduled call-site text checks; runtime and performance are not independently tested here. EN/中文, JSON schema and platform compatibility. agent-tools ai-agents awesome awesome-list calibration catalog classification context-compaction decision-model intent-routing jev llm system-one tool-selection typesafe-ai",
-      "opportunity_type": "OpenClaw型",
-      "score": 61.6,
-      "dimension_scores": {
-        "growth_speed": 90.9,
-        "agent_innovation": 35,
-        "community_signal": 97.0,
-        "api_consumption_potential": 32,
-        "commercialization": 18,
-        "kimi_strategic_fit": 39
-      },
-      "recommended_action": "持续观察",
-      "reason_to_contact_now": "288 stars的Jev资源索引，中文双语支持，社区信号强但属awesome-list非核心项目。",
-      "commercial_summary": "同TypeSafe AI Jev生态，需追踪其核心SDK/模型是否开放多Provider接入。",
-      "confidence": "medium",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "language": "Python",
-        "updated_at": "2026-09-25T01:12:33Z",
-        "homepage": "https://kydlikebtc.github.io/awesome-jev/",
-        "agent_keyword_hits": [
-          "ai agent"
-        ],
-        "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": []
       }
     },
@@ -341,26 +278,26 @@
       "url": "https://github.com/wuyoscar/jev-skill",
       "description": "An awesome collection of Jev use cases, workflows, and agent skills.",
       "published_at": "2026-09-20T02:35:26Z",
-      "discovered_at": "2026-09-25T01:14:22+00:00",
+      "discovered_at": "2026-09-26T01:13:30+00:00",
       "author": "wuyoscar",
       "metrics": {
-        "stars": 479,
-        "forks": 33,
-        "open_issues": 2,
-        "watchers": 479
+        "stars": 490,
+        "forks": 36,
+        "open_issues": 4,
+        "watchers": 490
       },
       "tags": [],
       "evidence": [
-        "+17 stars since last run",
-        "479 GitHub stars",
-        "33 forks",
+        "+11 stars since last run",
+        "490 GitHub stars",
+        "36 forks",
         "Created 2026-09-20"
       ],
       "raw_text": "wuyoscar/jev-skill An awesome collection of Jev use cases, workflows, and agent skills. ",
       "opportunity_type": "OpenClaw型",
-      "score": 60.1,
+      "score": 56.6,
       "dimension_scores": {
-        "growth_speed": 90.8,
+        "growth_speed": 88.4,
         "agent_innovation": 24,
         "community_signal": 100.0,
         "api_consumption_potential": 25,
@@ -368,84 +305,232 @@
         "kimi_strategic_fit": 41
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "479 stars，Jev生态的用例与技能集合，与hermes-jev-skills同属Jev框架技能层",
-      "commercial_summary": "Jev Agent生态的技能市场，可联合hermes-jev-skills评估Jev框架整体模型接入策略",
+      "reason_to_contact_now": "+11 stars since last run；490 GitHub stars；36 forks",
+      "commercial_summary": "开发者生态型机会，优先判断模型接入、默认Provider和联合社区合作空间。",
       "confidence": "medium",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "scoring_mode": "规则预评分",
       "metadata": {
         "language": "Python",
-        "updated_at": "2026-09-25T00:18:03Z",
+        "updated_at": "2026-09-25T19:36:04Z",
         "homepage": null,
         "agent_keyword_hits": [],
         "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": [
           "skill"
         ],
-        "metric_delta": 17.0,
-        "metric_velocity_per_day": 17.001771017814356
+        "metric_delta": 11.0,
+        "metric_velocity_per_day": 11.006624357252049
       }
     },
     {
-      "id": "hackernews-a7758905d36b",
-      "source": "Hacker News",
-      "name": "Show HN: Agency – Manage Agents for Your Robinhood Agentic Account",
-      "url": "https://agency.trading/",
-      "description": "Show HN: Agency – Manage Agents for Your Robinhood Agentic Account",
-      "published_at": "1790276373",
-      "discovered_at": "2026-09-25T01:14:26+00:00",
-      "author": "rallies",
+      "id": "github-17e69e2e610e",
+      "source": "GitHub",
+      "name": "amitshekhariitbhu/ai-system-design",
+      "url": "https://github.com/amitshekhariitbhu/ai-system-design",
+      "description": "AI System Design - Learn how to design AI systems built on LLMs, RAG, and AI Agents step by step.",
+      "published_at": "2026-09-25T04:50:06Z",
+      "discovered_at": "2026-09-26T01:13:30+00:00",
+      "author": "amitshekhariitbhu",
       "metrics": {
-        "points": 2,
-        "comments": 3
+        "stars": 160,
+        "forks": 29,
+        "open_issues": 0,
+        "watchers": 160
       },
-      "tags": [],
-      "evidence": [
-        "2 HN points",
-        "3 comments"
+      "tags": [
+        "ai",
+        "ai-agents",
+        "ai-engineering",
+        "ai-system",
+        "ai-system-design",
+        "ai-systems",
+        "ai-systems-design",
+        "llm",
+        "system-design",
+        "system-design-interview"
       ],
-      "raw_text": "Show HN: Agency – Manage Agents for Your Robinhood Agentic Account ",
-      "opportunity_type": "Manus型",
-      "score": 32.3,
+      "evidence": [
+        "160 GitHub stars",
+        "29 forks",
+        "Created 2026-09-25"
+      ],
+      "raw_text": "amitshekhariitbhu/ai-system-design AI System Design - Learn how to design AI systems built on LLMs, RAG, and AI Agents step by step. ai ai-agents ai-engineering ai-system ai-system-design ai-systems ai-systems-design llm system-design system-design-interview",
+      "opportunity_type": "OpenClaw型",
+      "score": 56.0,
       "dimension_scores": {
-        "growth_speed": 30.8,
+        "growth_speed": 98.2,
         "agent_innovation": 35,
-        "community_signal": 50.5,
+        "community_signal": 100.0,
         "api_consumption_potential": 32,
         "commercialization": 18,
         "kimi_strategic_fit": 39
       },
       "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "仅2 HN points、3 comments，Robinhood生态内的交易Agent管理工具，信号极弱",
-      "commercial_summary": "金融交易场景Agent，但社区冷启动失败，缺乏模型接入与商业化证据",
-      "confidence": "medium",
+      "reason_to_contact_now": "教育教程仓库，160 stars/29 forks，无实际工具或平台属性",
+      "commercial_summary": "学习资源库，非可集成框架或产品，无API消费或生态合作空间",
+      "confidence": "high",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
-        "discussion_url": "https://news.ycombinator.com/item?id=49835332",
+        "language": "Markdown",
+        "updated_at": "2026-09-26T01:12:45Z",
+        "homepage": "https://outcomeschool.com/program/ai-and-machine-learning",
         "agent_keyword_hits": [
-          "agentic"
+          "ai agent"
         ],
         "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": []
       }
     },
     {
-      "id": "product-hunt-b46ccaff703f",
+      "id": "hackernews-f5cc2019c068",
+      "source": "Hacker News",
+      "name": "Show HN: Wallstreetclaws.com – Create AI Agents for Trading",
+      "url": "https://wallstreetclaws.com",
+      "description": "I wanted to try out some AI driven trading strategies so created this platform ( https://wallstreetclaws.com ) where people can easily create and deploy AI agents for trading. It supports two types of Agents: 1. Cortex: Fully agentic strategy execution. An LLM will run your system prompt with access to market data, web search and simulated market APIs. 2. Flux: Define advanced quant strategies using indicators, entry conditions, exit conditions, risk management, etc. You can also run backtests on these strategies. You can also optionally connect your Robinhood agent account to your Cortex agents. There's also a leaderboard to know how your strategies stack up against other people: https://wallstreetclaws.com/leaderboard It already has ~200 people using it. Wanted to share it with HN and get feedback from you all.",
+      "published_at": "1790375835",
+      "discovered_at": "2026-09-26T01:13:34+00:00",
+      "author": "iceman_w",
+      "metrics": {
+        "points": 2,
+        "comments": 1
+      },
+      "tags": [],
+      "evidence": [
+        "2 HN points",
+        "1 comments"
+      ],
+      "raw_text": "Show HN: Wallstreetclaws.com – Create AI Agents for Trading I wanted to try out some AI driven trading strategies so created this platform ( https://wallstreetclaws.com ) where people can easily create and deploy AI agents for trading. It supports two types of Agents: 1. Cortex: Fully agentic strategy execution. An LLM will run your system prompt with access to market data, web search and simulated market APIs. 2. Flux: Define advanced quant strategies using indicators, entry conditions, exit conditions, risk management, etc. You can also run backtests on these strategies. You can also optionally connect your Robinhood agent account to your Cortex agents. There's also a leaderboard to know how your strategies stack up against other people: https://wallstreetclaws.com/leaderboard It already has ~200 people using it. Wanted to share it with HN and get feedback from you all.",
+      "opportunity_type": "Manus型",
+      "score": 42.2,
+      "dimension_scores": {
+        "growth_speed": 30.8,
+        "agent_innovation": 46,
+        "community_signal": 45.0,
+        "api_consumption_potential": 44,
+        "commercialization": 32,
+        "kimi_strategic_fit": 45
+      },
+      "recommended_action": "持续观察",
+      "reason_to_contact_now": "已有约200人使用，支持LLM驱动的Cortex agent和量化策略Flux，接入市场数据、web search和模拟API",
+      "commercial_summary": "金融交易Agent平台，LLM为核心推理层，若策略执行调用量增长可能产生显著API消费，需确认模型供应商",
+      "confidence": "medium",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "metadata": {
+        "discussion_url": "https://news.ycombinator.com/item?id=49850874",
+        "agent_keyword_hits": [
+          "agentic",
+          "ai agent"
+        ],
+        "commercial_keyword_hits": [
+          "api"
+        ],
+        "ecosystem_keyword_hits": []
+      }
+    },
+    {
+      "id": "product-hunt-d43be783b794",
       "source": "Product Hunt",
-      "name": "NOAN",
-      "url": "https://www.producthunt.com/products/noan-2",
-      "description": "The fact layer for your AI agents Discussion | Link",
-      "published_at": "2026-09-18T17:04:02-07:00",
-      "discovered_at": "2026-09-25T01:14:26+00:00",
-      "author": "Ben Lang",
+      "name": "Jango",
+      "url": "https://www.producthunt.com/products/jango",
+      "description": "Test multi-user apps with AI agents that act like real users Discussion | Link",
+      "published_at": "2026-09-24T19:16:38-07:00",
+      "discovered_at": "2026-09-26T01:13:34+00:00",
+      "author": "Emmanuel Adesola",
       "metrics": {},
       "tags": [],
       "evidence": [
         "Published via Product Hunt",
-        "2026-09-18T17:04:02-07:00"
+        "2026-09-24T19:16:38-07:00"
       ],
-      "raw_text": "NOAN The fact layer for your AI agents Discussion | Link ",
+      "raw_text": "Jango Test multi-user apps with AI agents that act like real users Discussion | Link ",
       "opportunity_type": "Manus型",
-      "score": 27.6,
+      "score": 31.6,
+      "dimension_scores": {
+        "growth_speed": 30.0,
+        "agent_innovation": 35,
+        "community_signal": 18.0,
+        "api_consumption_potential": 32,
+        "commercialization": 36,
+        "kimi_strategic_fit": 31
+      },
+      "recommended_action": "持续观察",
+      "reason_to_contact_now": "AI agent模拟真实用户测试多用户应用，有明确Agent应用场景",
+      "commercial_summary": "QA/testing领域Agent产品，若扩展至大规模自动化测试可能产生API消耗，需验证付费转化",
+      "confidence": "medium",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "metadata": {
+        "feed_url": "https://www.producthunt.com/feed",
+        "content_kind": "product_launch",
+        "original_title": "Jango",
+        "agent_keyword_hits": [
+          "ai agent"
+        ],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": []
+      }
+    },
+    {
+      "id": "product-hunt-b5078c4183ca",
+      "source": "Product Hunt",
+      "name": "GitHub statistics · Velocity Radar",
+      "url": "https://www.producthunt.com/products/github-statistics-velocity-radar",
+      "description": "Real GitHub momentum, including private repos & AI agents Discussion | Link",
+      "published_at": "2026-09-24T02:51:45-07:00",
+      "discovered_at": "2026-09-26T01:13:34+00:00",
+      "author": "Paul Save",
+      "metrics": {},
+      "tags": [],
+      "evidence": [
+        "Published via Product Hunt",
+        "2026-09-24T02:51:45-07:00"
+      ],
+      "raw_text": "GitHub statistics · Velocity Radar Real GitHub momentum, including private repos & AI agents Discussion | Link ",
+      "opportunity_type": "Manus型",
+      "score": 30.4,
+      "dimension_scores": {
+        "growth_speed": 30.0,
+        "agent_innovation": 35,
+        "community_signal": 18.0,
+        "api_consumption_potential": 32,
+        "commercialization": 36,
+        "kimi_strategic_fit": 39
+      },
+      "recommended_action": "暂不跟进",
+      "reason_to_contact_now": "Product Hunt发布，无具体用户或收入数据，AI agent仅为功能描述之一",
+      "commercial_summary": "GitHub数据分析工具，非核心Agent产品，API消费潜力未验证",
+      "confidence": "medium",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "metadata": {
+        "feed_url": "https://www.producthunt.com/feed",
+        "content_kind": "product_launch",
+        "original_title": "GitHub statistics · Velocity Radar",
+        "agent_keyword_hits": [
+          "ai agent"
+        ],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": [
+          "github"
+        ]
+      }
+    },
+    {
+      "id": "product-hunt-a2154f5cbd6f",
+      "source": "Product Hunt",
+      "name": "Basedash MCP write",
+      "url": "https://www.producthunt.com/products/basedash",
+      "description": "Build charts and dashboards from Cursor and Claude Discussion | Link",
+      "published_at": "2026-09-24T15:20:29-07:00",
+      "discovered_at": "2026-09-26T01:13:34+00:00",
+      "author": "Max Musing",
+      "metrics": {},
+      "tags": [],
+      "evidence": [
+        "Published via Product Hunt",
+        "2026-09-24T15:20:29-07:00"
+      ],
+      "raw_text": "Basedash MCP write Build charts and dashboards from Cursor and Claude Discussion | Link ",
+      "opportunity_type": "Manus型",
+      "score": 29.6,
       "dimension_scores": {
         "growth_speed": 30.0,
         "agent_innovation": 35,
@@ -455,99 +540,17 @@
         "kimi_strategic_fit": 31
       },
       "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "Product Hunt发布无metrics，\"fact layer\"概念早期，无用户或API调用证据。",
-      "commercial_summary": "Agent中间层/基础设施概念，待验证实际部署规模和模型依赖关系。",
-      "confidence": "low",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "feed_url": "https://www.producthunt.com/feed",
-        "content_kind": "product_launch",
-        "original_title": "NOAN",
-        "agent_keyword_hits": [
-          "ai agent"
-        ],
-        "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": []
-      }
-    },
-    {
-      "id": "product-hunt-0968b848d34f",
-      "source": "Product Hunt",
-      "name": "IntellAgents.io",
-      "url": "https://www.producthunt.com/products/intellagents-io",
-      "description": "One AI agent for every call, chat, and DM Discussion | Link",
-      "published_at": "2026-09-23T03:45:46-07:00",
-      "discovered_at": "2026-09-25T01:14:26+00:00",
-      "author": "Vilen Bezhanyan",
-      "metrics": {},
-      "tags": [],
-      "evidence": [
-        "Published via Product Hunt",
-        "2026-09-23T03:45:46-07:00"
-      ],
-      "raw_text": "IntellAgents.io One AI agent for every call, chat, and DM Discussion | Link ",
-      "opportunity_type": "Manus型",
-      "score": 26.6,
-      "dimension_scores": {
-        "growth_speed": 30.0,
-        "agent_innovation": 35,
-        "community_signal": 18.0,
-        "api_consumption_potential": 32,
-        "commercialization": 36,
-        "kimi_strategic_fit": 31
-      },
-      "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "Product Hunt发布无metrics，描述模糊，无用户规模或API调用证据。",
-      "commercial_summary": "客服Agent SaaS概念，信息不足判断API消费规模，待验证商业化进展。",
-      "confidence": "low",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "feed_url": "https://www.producthunt.com/feed",
-        "content_kind": "product_launch",
-        "original_title": "IntellAgents.io",
-        "agent_keyword_hits": [
-          "ai agent"
-        ],
-        "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": []
-      }
-    },
-    {
-      "id": "product-hunt-7f0fdca71203",
-      "source": "Product Hunt",
-      "name": "Solid",
-      "url": "https://www.producthunt.com/products/solid-3",
-      "description": "Agents with their own computers, accounts, and budgets. Discussion | Link",
-      "published_at": "2026-09-20T23:01:40-07:00",
-      "discovered_at": "2026-09-25T01:14:26+00:00",
-      "author": "Zac Zuo",
-      "metrics": {},
-      "tags": [],
-      "evidence": [
-        "Published via Product Hunt",
-        "2026-09-20T23:01:40-07:00"
-      ],
-      "raw_text": "Solid Agents with their own computers, accounts, and budgets. Discussion | Link ",
-      "opportunity_type": "Manus型",
-      "score": 21.8,
-      "dimension_scores": {
-        "growth_speed": 30.0,
-        "agent_innovation": 24,
-        "community_signal": 18.0,
-        "api_consumption_potential": 25,
-        "commercialization": 36,
-        "kimi_strategic_fit": 25
-      },
-      "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "概念描述为独立计算机/账户/预算的Agent，但Product Hunt零指标，无技术实现细节",
-      "commercial_summary": "终端Agent产品概念早期，缺乏模型依赖、用户增长和商业化证据",
+      "reason_to_contact_now": "MCP write功能发布，但仅支持Cursor和Claude，无Kimi接入信号",
+      "commercial_summary": "BI/dashboard产品，MCP生态参与者但已绑定竞品，API消费规模未明",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "feed_url": "https://www.producthunt.com/feed",
         "content_kind": "product_launch",
-        "original_title": "Solid",
-        "agent_keyword_hits": [],
+        "original_title": "Basedash MCP write",
+        "agent_keyword_hits": [
+          "mcp"
+        ],
         "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": []
       }
