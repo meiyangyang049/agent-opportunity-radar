@@ -1,8 +1,8 @@
 {
   "meta": {
     "project": "Agent Opportunity Radar",
-    "generated_at": "2026-09-26T01:13:35+00:00",
-    "generated_at_display": "2026-09-26 09:13 CST",
+    "generated_at": "2026-09-27T01:14:48+00:00",
+    "generated_at_display": "2026-09-27 09:14 CST",
     "mode": "公开信号实时运行",
     "sources": [
       "GitHub",
@@ -14,86 +14,68 @@
       "AI news RSS: HTTPError: 429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
     ],
     "notices": [],
-    "candidate_pool_size": 46,
+    "candidate_pool_size": 39,
     "pool_by_source": {
-      "GitHub": 11,
-      "Hacker News": 27,
-      "Product Hunt": 8
+      "GitHub": 15,
+      "Hacker News": 14,
+      "Product Hunt": 10
     },
     "pool_by_type": {
-      "OpenClaw型": 15,
-      "其他Agent": 22,
-      "Manus型": 9
+      "OpenClaw型": 18,
+      "Manus型": 10,
+      "其他Agent": 11
     },
     "shortlist_policy": "Top 10；OpenClaw型/Manus型各至少4个（候选充足时）",
     "kimi_model": "kimi-k2.6"
   },
   "candidates": [
     {
-      "id": "github-149f547d3735",
+      "id": "github-95357ffbf194",
       "source": "GitHub",
-      "name": "kydlikebtc/awesome-jev",
-      "url": "https://github.com/kydlikebtc/awesome-jev",
-      "description": "1207 public resources for Jev, TypeSafe AI's System One decision model, indexed by decision pattern. Source citations, dated link checks and scheduled call-site text checks; runtime and performance are not independently tested here. EN/中文, JSON schema and platform compatibility.",
-      "published_at": "2026-09-22T02:22:54Z",
-      "discovered_at": "2026-09-26T01:13:30+00:00",
-      "author": "kydlikebtc",
+      "name": "zai-org/ZCode",
+      "url": "https://github.com/zai-org/ZCode",
+      "description": "Z.ai's coding agent harness. Powerful, intelligent, extensible.",
+      "published_at": "2026-09-20T12:01:16Z",
+      "discovered_at": "2026-09-27T01:14:42+00:00",
+      "author": "zai-org",
       "metrics": {
-        "stars": 386,
-        "forks": 8,
-        "open_issues": 2,
-        "watchers": 386
+        "stars": 6838,
+        "forks": 2061,
+        "open_issues": 11,
+        "watchers": 6838
       },
-      "tags": [
-        "agent-tools",
-        "ai-agents",
-        "awesome",
-        "awesome-list",
-        "calibration",
-        "catalog",
-        "classification",
-        "context-compaction",
-        "decision-model",
-        "intent-routing",
-        "jev",
-        "llm",
-        "system-one",
-        "tool-selection",
-        "typesafe-ai"
-      ],
+      "tags": [],
       "evidence": [
-        "+98 stars since last run",
-        "386 GitHub stars",
-        "8 forks",
-        "Created 2026-09-22"
+        "+125 stars since last run",
+        "6,838 GitHub stars",
+        "2,061 forks",
+        "Created 2026-09-20"
       ],
-      "raw_text": "kydlikebtc/awesome-jev 1207 public resources for Jev, TypeSafe AI's System One decision model, indexed by decision pattern. Source citations, dated link checks and scheduled call-site text checks; runtime and performance are not independently tested here. EN/中文, JSON schema and platform compatibility. agent-tools ai-agents awesome awesome-list calibration catalog classification context-compaction decision-model intent-routing jev llm system-one tool-selection typesafe-ai",
+      "raw_text": "zai-org/ZCode Z.ai's coding agent harness. Powerful, intelligent, extensible. ",
       "opportunity_type": "OpenClaw型",
-      "score": 65.5,
+      "score": 63.6,
       "dimension_scores": {
         "growth_speed": 100.0,
-        "agent_innovation": 35,
+        "agent_innovation": 24,
         "community_signal": 100.0,
-        "api_consumption_potential": 32,
+        "api_consumption_potential": 25,
         "commercialization": 18,
-        "kimi_strategic_fit": 39
+        "kimi_strategic_fit": 33
       },
-      "recommended_action": "持续观察",
-      "reason_to_contact_now": "TypeSafe AI的决策模型，+98 stars/日增速，1207资源索引，有JSON schema和平台兼容性",
-      "commercial_summary": "Agent决策层基础设施，若成为主流agent框架需关注模型接入合作，但当前为awesome-list形态",
-      "confidence": "medium",
+      "recommended_action": "立即联系",
+      "reason_to_contact_now": "6838 stars，+125日增，2061 forks，Z.ai官方coding agent框架",
+      "commercial_summary": "Z.ai官方Agent编码框架，高社区影响力，直接竞品/生态参照，需紧急评估模型接入策略和差异化合作空间",
+      "confidence": "high",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
-        "language": "Python",
-        "updated_at": "2026-09-26T01:13:24Z",
-        "homepage": "https://kydlikebtc.github.io/awesome-jev/",
-        "agent_keyword_hits": [
-          "ai agent"
-        ],
+        "language": "TypeScript",
+        "updated_at": "2026-09-27T01:11:32Z",
+        "homepage": "https://zcode.z.ai/",
+        "agent_keyword_hits": [],
         "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": [],
-        "metric_delta": 98.0,
-        "metric_velocity_per_day": 98.0590170009728
+        "metric_delta": 125.0,
+        "metric_velocity_per_day": 62.49240543683928
       }
     },
     {
@@ -103,13 +85,13 @@
       "url": "https://github.com/mikehasa/golive-skill",
       "description": "Take your agent-built product live: hosting, database, domain, email, payments — on your own accounts. Open-source Agent Skill + zero-dependency Node CLI: detect → plan → approve → apply → verify. No GoLive account, backend or telemetry.",
       "published_at": "2026-09-23T13:37:26Z",
-      "discovered_at": "2026-09-26T01:13:29+00:00",
+      "discovered_at": "2026-09-27T01:14:42+00:00",
       "author": "mikehasa",
       "metrics": {
-        "stars": 949,
-        "forks": 65,
-        "open_issues": 0,
-        "watchers": 949
+        "stars": 979,
+        "forks": 67,
+        "open_issues": 1,
+        "watchers": 979
       },
       "tags": [
         "agent-skill",
@@ -134,9 +116,9 @@
         "vercel"
       ],
       "evidence": [
-        "+72 stars since last run",
-        "949 GitHub stars",
-        "65 forks",
+        "+30 stars since last run",
+        "979 GitHub stars",
+        "67 forks",
         "Created 2026-09-23"
       ],
       "raw_text": "mikehasa/golive-skill Take your agent-built product live: hosting, database, domain, email, payments — on your own accounts. Open-source Agent Skill + zero-dependency Node CLI: detect → plan → approve → apply → verify. No GoLive account, backend or telemetry. agent-skill agent-skills ai-agents claude-code cloudflare codex database deployment developer-tools devops dns godaddy hosting infrastructure neon netlify porkbun skills supabase vercel",
@@ -151,21 +133,21 @@
         "kimi_strategic_fit": 41
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "949 stars且+72 stars增速，开源Agent Skill+零依赖Node CLI，支持detect→plan→approve→apply→verify完整部署流",
-      "commercial_summary": "开源Agent基础设施工具，若成为主流agent部署技能，可推动Kimi模型接入开发者工作流，需关注是否支持多模型配置",
+      "reason_to_contact_now": "979 stars，+30日增，开源Agent Skill，支持Claude Code/Codex等多模型",
+      "commercial_summary": "Agent部署技能库，已绑定Claude/Codex，若能扩展支持Kimi可成为生态入口，需验证作者合作意愿",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "language": "TypeScript",
-        "updated_at": "2026-09-25T20:39:38Z",
+        "updated_at": "2026-09-27T00:20:43Z",
         "homepage": "https://trytofu.ai",
         "agent_keyword_hits": [],
         "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": [
           "skill"
         ],
-        "metric_delta": 72.0,
-        "metric_velocity_per_day": 72.04335942928614
+        "metric_delta": 30.0,
+        "metric_velocity_per_day": 29.974674175754277
       }
     },
     {
@@ -175,13 +157,13 @@
       "url": "https://github.com/yetone/magpie",
       "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
       "published_at": "2026-09-23T16:22:35Z",
-      "discovered_at": "2026-09-26T01:13:29+00:00",
+      "discovered_at": "2026-09-27T01:14:42+00:00",
       "author": "yetone",
       "metrics": {
-        "stars": 802,
-        "forks": 47,
-        "open_issues": 2,
-        "watchers": 802
+        "stars": 1028,
+        "forks": 63,
+        "open_issues": 1,
+        "watchers": 1028
       },
       "tags": [
         "claude-code",
@@ -192,8 +174,9 @@
         "macos"
       ],
       "evidence": [
-        "802 GitHub stars",
-        "47 forks",
+        "+226 stars since last run",
+        "1,028 GitHub stars",
+        "63 forks",
         "Created 2026-09-23"
       ],
       "raw_text": "yetone/magpie Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar. claude-code codex deepseek gemini-cli llm macos",
@@ -208,15 +191,127 @@
         "kimi_strategic_fit": 33
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "802 GitHub stars；47 forks；Created 2026-09-23",
+      "reason_to_contact_now": "+226 stars since last run；1,028 GitHub stars；63 forks",
       "commercial_summary": "开发者生态型机会，优先判断模型接入、默认Provider和联合社区合作空间。",
       "confidence": "medium",
       "scoring_mode": "规则预评分",
       "metadata": {
         "language": "Go",
-        "updated_at": "2026-09-26T00:52:52Z",
+        "updated_at": "2026-09-27T01:10:30Z",
         "homepage": "https://usemagpie.ai",
         "agent_keyword_hits": [],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": [],
+        "metric_delta": 226.0,
+        "metric_velocity_per_day": 225.80921212401557
+      }
+    },
+    {
+      "id": "github-d90a39d5bfe2",
+      "source": "GitHub",
+      "name": "amitshekhariitbhu/ai-engineering-course",
+      "url": "https://github.com/amitshekhariitbhu/ai-engineering-course",
+      "description": "AI Engineering Course - A free and complete AI Engineering Course to learn AI Engineering step by step - from Machine Learning, Neural Networks, and Transformers to LLMs, Fine-Tuning, RAG, AI Agents, LLM Inference, Evaluation, AI Safety, and AI System Design.",
+      "published_at": "2026-09-23T08:04:42Z",
+      "discovered_at": "2026-09-27T01:14:43+00:00",
+      "author": "amitshekhariitbhu",
+      "metrics": {
+        "stars": 362,
+        "forks": 64,
+        "open_issues": 0,
+        "watchers": 362
+      },
+      "tags": [
+        "ai-course",
+        "ai-engineering",
+        "ai-engineering-course",
+        "ai-engineering-curriculum",
+        "large-language-models"
+      ],
+      "evidence": [
+        "362 GitHub stars",
+        "64 forks",
+        "Created 2026-09-23"
+      ],
+      "raw_text": "amitshekhariitbhu/ai-engineering-course AI Engineering Course - A free and complete AI Engineering Course to learn AI Engineering step by step - from Machine Learning, Neural Networks, and Transformers to LLMs, Fine-Tuning, RAG, AI Agents, LLM Inference, Evaluation, AI Safety, and AI System Design. ai-course ai-engineering ai-engineering-course ai-engineering-curriculum large-language-models",
+      "opportunity_type": "OpenClaw型",
+      "score": 58.2,
+      "dimension_scores": {
+        "growth_speed": 90.8,
+        "agent_innovation": 35,
+        "community_signal": 100.0,
+        "api_consumption_potential": 32,
+        "commercialization": 18,
+        "kimi_strategic_fit": 39
+      },
+      "recommended_action": "持续观察",
+      "reason_to_contact_now": "362 stars，64 forks，增长快但纯教育内容，无模型接入绑定",
+      "commercial_summary": "教育课程流量大但API消费潜力低，除非后续嵌入Kimi作为默认练习模型",
+      "confidence": "medium",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "metadata": {
+        "language": "Markdown",
+        "updated_at": "2026-09-26T23:56:53Z",
+        "homepage": "https://outcomeschool.com/program/ai-and-machine-learning",
+        "agent_keyword_hits": [
+          "ai agent"
+        ],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": []
+      }
+    },
+    {
+      "id": "github-577f65097e21",
+      "source": "GitHub",
+      "name": "freestylefly/WeChatBridge",
+      "url": "https://github.com/freestylefly/WeChatBridge",
+      "description": "微信聊天记录一键转发到 AI Agent 与 Obsidian 的原生 macOS 工具",
+      "published_at": "2026-09-21T02:54:51Z",
+      "discovered_at": "2026-09-27T01:14:42+00:00",
+      "author": "freestylefly",
+      "metrics": {
+        "stars": 792,
+        "forks": 300,
+        "open_issues": 2,
+        "watchers": 792
+      },
+      "tags": [
+        "ai-agent",
+        "chat-history",
+        "macos",
+        "obsidian",
+        "share-extension",
+        "swift",
+        "wechat"
+      ],
+      "evidence": [
+        "792 GitHub stars",
+        "300 forks",
+        "Created 2026-09-21"
+      ],
+      "raw_text": "freestylefly/WeChatBridge 微信聊天记录一键转发到 AI Agent 与 Obsidian 的原生 macOS 工具 ai-agent chat-history macos obsidian share-extension swift wechat",
+      "opportunity_type": "OpenClaw型",
+      "score": 57.4,
+      "dimension_scores": {
+        "growth_speed": 95.5,
+        "agent_innovation": 35,
+        "community_signal": 100.0,
+        "api_consumption_potential": 32,
+        "commercialization": 18,
+        "kimi_strategic_fit": 39
+      },
+      "recommended_action": "持续观察",
+      "reason_to_contact_now": "792 stars/300 forks，Swift原生macOS工具，支持微信聊天记录转发到AI Agent与Obsidian；有明确模型接入场景但无Provider信息",
+      "commercial_summary": "C端工具型项目，高star/fork比显示传播力强；需验证是否内置特定模型API、是否计划支持多Provider切换，当前为潜在生态触点而非直接客户",
+      "confidence": "medium",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "metadata": {
+        "language": "Swift",
+        "updated_at": "2026-09-27T00:54:56Z",
+        "homepage": "https://render.qmuse.pub/p/muse/2413870555736078/index.html",
+        "agent_keyword_hits": [
+          "ai agent"
+        ],
         "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": []
       }
@@ -228,25 +323,26 @@
       "url": "https://github.com/rgem227/knoweldge-base",
       "description": "Personal or team knowledge base, supports MCP API calls.",
       "published_at": "2026-09-22T04:28:59Z",
-      "discovered_at": "2026-09-26T01:13:31+00:00",
+      "discovered_at": "2026-09-27T01:14:44+00:00",
       "author": "rgem227",
       "metrics": {
-        "stars": 495,
+        "stars": 496,
         "forks": 6,
         "open_issues": 0,
-        "watchers": 495
+        "watchers": 496
       },
       "tags": [],
       "evidence": [
-        "495 GitHub stars",
+        "+1 stars since last run",
+        "496 GitHub stars",
         "6 forks",
         "Created 2026-09-22"
       ],
       "raw_text": "rgem227/knoweldge-base Personal or team knowledge base, supports MCP API calls. ",
       "opportunity_type": "OpenClaw型",
-      "score": 58.4,
+      "score": 56.5,
       "dimension_scores": {
-        "growth_speed": 94.9,
+        "growth_speed": 91.5,
         "agent_innovation": 35,
         "community_signal": 100.0,
         "api_consumption_potential": 37,
@@ -254,13 +350,13 @@
         "kimi_strategic_fit": 39
       },
       "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "495 stars但仅6 forks，MCP支持尚浅，无活跃issue或商业化信号",
-      "commercial_summary": "个人知识库工具，MCP API调用深度不足，暂不构成高价值模型API客户或生态伙伴",
+      "reason_to_contact_now": "496 stars但+1 star增速停滞，6 forks；描述为\"Personal or team knowledge base, supports MCP API calls\"，无具体模型接入或活跃度证据",
+      "commercial_summary": "个人知识库工具，MCP API支持为被动能力而非主动生态位；缺乏团队信息、融资、企业采用信号，API消费潜力未验证",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "language": "Python",
-        "updated_at": "2026-09-25T15:20:29Z",
+        "updated_at": "2026-09-26T09:00:56Z",
         "homepage": null,
         "agent_keyword_hits": [
           "mcp"
@@ -268,159 +364,48 @@
         "commercial_keyword_hits": [
           "api"
         ],
-        "ecosystem_keyword_hits": []
+        "ecosystem_keyword_hits": [],
+        "metric_delta": 1.0,
+        "metric_velocity_per_day": 0.999155805858476
       }
     },
     {
-      "id": "github-bfcc6585239d",
-      "source": "GitHub",
-      "name": "wuyoscar/jev-skill",
-      "url": "https://github.com/wuyoscar/jev-skill",
-      "description": "An awesome collection of Jev use cases, workflows, and agent skills.",
-      "published_at": "2026-09-20T02:35:26Z",
-      "discovered_at": "2026-09-26T01:13:30+00:00",
-      "author": "wuyoscar",
+      "id": "hackernews-dcead6d7cfaa",
+      "source": "Hacker News",
+      "name": "OpenAI Codex agents go rogue and consumes USD 78,000 without authorization",
+      "url": "https://news.ycombinator.com/item?id=49861047",
+      "description": "My OpenAI CODEX account went rogue and from a simple request took the autonomous decision to launch 826 parallel agents / threads without any authorization on my side and without reporting any result of any sort but consuming nearly 2,146 trillions tokens, consuming a total of roughly USD 78,000 and deleting all records of what was done: I have a ticket open with OpenAI since 2 weeks but it is impossible to get an hold of a human operator. On July 10, 2026 I opened a normal Codex task from VS Code. The task was running: GPT-5.5 / Medium reasoning My prompt was very simple and asked for a UX/UI validation on a specific module within my product. What I found in the next days after hard analysis was: The task with Root ID 019f4b90-4169-7201-bfdd-732940d8631e with reasoning GPT-5.5 / Medium created 826 children recorded as GPT-5.6 Sol / Ultra (notice the difference in reasoning level and in model selection) This was not 826 messages inside one conversation, they are 826 distinct child task records with their own IDs. A particularly strange group consists of 104 child tasks. They all preserve the same initial message as the original task, are recorded as GPT-5.6 Sol/Ultra, and have no recorded agent_role or agent_path. Those 104 tasks alone account for approximately 147.9 billion local final task-token counters. Their titles show that my request to inspect UI/UX had expanded into work involving backend infrastructure, OAuth, metering, hardening, audits, certification, implementation and release work. To be precise: these local token counters are not the authoritative OpenAI billing ledger, and I am not pretending that 147.9B local counters can simply be multiplied by an API price. That is exactly part of the problem: only OpenAI has the server-side mapping. There is another unusual correlation. Under Codex client build 0.144.0-alpha.4, the task family contains: 584 child tasks / ~154.36B local token counters Average: ~264.3M per task Under 0.144.2: 242 child tasks / ~7.51B Average: ~31.0M per task That is roughly an 8.5x difference in average local token volume per child. 103 of the 104 high-volume tasks described above were created while 0.144.0-alpha.4 was recorded. This leads me to believe that the alpha build contained a severe bug given that the same pattern was noticed across several other tasks. On the financial side my reconstructed OpenAI billing history contains 162 paid invoices for a Total of $79,664.88 divided between Automatic Reload and other “Credits” There was no equivalent real-time control surface giving me a comprehensible picture of the spendings plus most of the logs seem to have been automatically deleted from my server: in the recovered local state, approximately 2,550 non-archived legacy threads still have metadata but no corresponding raw rollout available locally. In other words, evidence that those tasks existed remains, while the detailed execution history needed to reconstruct the instructions that generated many of them is no longer available on my machine. I also personally observed tasks/conversations disappearing from the normal visible history. I contacted OpenAI Support and opened case #15189838. I have supplied technical evidence and repeatedly asked for a server-side reconstruction but OpenAI has responded simply that “credits were consumed” with no details. I’m interested in hearing from other people who used Codex around July/August: have you inspected your local Codex state? Have you seen unexpectedly large subagent trees, model/reasoning escalation, repeated child tasks or unexplained Automatic Reload activity? I am especially interested in anyone who has logs from Codex 0.144.0-alpha.4. If OpenAI engineers are reading this, I would also welcome a technical explanation.",
+      "published_at": "1790460932",
+      "discovered_at": "2026-09-27T01:14:47+00:00",
+      "author": "lorenzomassaro",
       "metrics": {
-        "stars": 490,
-        "forks": 36,
-        "open_issues": 4,
-        "watchers": 490
+        "points": 60,
+        "comments": 23
       },
       "tags": [],
       "evidence": [
-        "+11 stars since last run",
-        "490 GitHub stars",
-        "36 forks",
-        "Created 2026-09-20"
+        "60 HN points",
+        "23 comments"
       ],
-      "raw_text": "wuyoscar/jev-skill An awesome collection of Jev use cases, workflows, and agent skills. ",
-      "opportunity_type": "OpenClaw型",
-      "score": 56.6,
+      "raw_text": "OpenAI Codex agents go rogue and consumes USD 78,000 without authorization My OpenAI CODEX account went rogue and from a simple request took the autonomous decision to launch 826 parallel agents / threads without any authorization on my side and without reporting any result of any sort but consuming nearly 2,146 trillions tokens, consuming a total of roughly USD 78,000 and deleting all records of what was done: I have a ticket open with OpenAI since 2 weeks but it is impossible to get an hold of a human operator. On July 10, 2026 I opened a normal Codex task from VS Code. The task was running: GPT-5.5 / Medium reasoning My prompt was very simple and asked for a UX/UI validation on a specific module within my product. What I found in the next days after hard analysis was: The task with Root ID 019f4b90-4169-7201-bfdd-732940d8631e with reasoning GPT-5.5 / Medium created 826 children recorded as GPT-5.6 Sol / Ultra (notice the difference in reasoning level and in model selection) This was not 826 messages inside one conversation, they are 826 distinct child task records with their own IDs. A particularly strange group consists of 104 child tasks. They all preserve the same initial message as the original task, are recorded as GPT-5.6 Sol/Ultra, and have no recorded agent_role or agent_path. Those 104 tasks alone account for approximately 147.9 billion local final task-token counters. Their titles show that my request to inspect UI/UX had expanded into work involving backend infrastructure, OAuth, metering, hardening, audits, certification, implementation and release work. To be precise: these local token counters are not the authoritative OpenAI billing ledger, and I am not pretending that 147.9B local counters can simply be multiplied by an API price. That is exactly part of the problem: only OpenAI has the server-side mapping. There is another unusual correlation. Under Codex client build 0.144.0-alpha.4, the task family contains: 584 child tasks / ~154.36B local token counters Average: ~264.3M per task Under 0.144.2: 242 child tasks / ~7.51B Average: ~31.0M per task That is roughly an 8.5x difference in average local token volume per child. 103 of the 104 high-volume tasks described above were created while 0.144.0-alpha.4 was recorded. This leads me to believe that the alpha build contained a severe bug given that the same pattern was noticed across several other tasks. On the financial side my reconstructed OpenAI billing history contains 162 paid invoices for a Total of $79,664.88 divided between Automatic Reload and other “Credits” There was no equivalent real-time control surface giving me a comprehensible picture of the spendings plus most of the logs seem to have been automatically deleted from my server: in the recovered local state, approximately 2,550 non-archived legacy threads still have metadata but no corresponding raw rollout available locally. In other words, evidence that those tasks existed remains, while the detailed execution history needed to reconstruct the instructions that generated many of them is no longer available on my machine. I also personally observed tasks/conversations disappearing from the normal visible history. I contacted OpenAI Support and opened case #15189838. I have supplied technical evidence and repeatedly asked for a server-side reconstruction but OpenAI has responded simply that “credits were consumed” with no details. I’m interested in hearing from other people who used Codex around July/August: have you inspected your local Codex state? Have you seen unexpectedly large subagent trees, model/reasoning escalation, repeated child tasks or unexplained Automatic Reload activity? I am especially interested in anyone who has logs from Codex 0.144.0-alpha.4. If OpenAI engineers are reading this, I would also welcome a technical explanation.",
+      "opportunity_type": "Manus型",
+      "score": 49.5,
       "dimension_scores": {
-        "growth_speed": 88.4,
+        "growth_speed": 54.9,
         "agent_innovation": 24,
         "community_signal": 100.0,
-        "api_consumption_potential": 25,
-        "commercialization": 18,
-        "kimi_strategic_fit": 41
-      },
-      "recommended_action": "持续观察",
-      "reason_to_contact_now": "+11 stars since last run；490 GitHub stars；36 forks",
-      "commercial_summary": "开发者生态型机会，优先判断模型接入、默认Provider和联合社区合作空间。",
-      "confidence": "medium",
-      "scoring_mode": "规则预评分",
-      "metadata": {
-        "language": "Python",
-        "updated_at": "2026-09-25T19:36:04Z",
-        "homepage": null,
-        "agent_keyword_hits": [],
-        "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": [
-          "skill"
-        ],
-        "metric_delta": 11.0,
-        "metric_velocity_per_day": 11.006624357252049
-      }
-    },
-    {
-      "id": "github-17e69e2e610e",
-      "source": "GitHub",
-      "name": "amitshekhariitbhu/ai-system-design",
-      "url": "https://github.com/amitshekhariitbhu/ai-system-design",
-      "description": "AI System Design - Learn how to design AI systems built on LLMs, RAG, and AI Agents step by step.",
-      "published_at": "2026-09-25T04:50:06Z",
-      "discovered_at": "2026-09-26T01:13:30+00:00",
-      "author": "amitshekhariitbhu",
-      "metrics": {
-        "stars": 160,
-        "forks": 29,
-        "open_issues": 0,
-        "watchers": 160
-      },
-      "tags": [
-        "ai",
-        "ai-agents",
-        "ai-engineering",
-        "ai-system",
-        "ai-system-design",
-        "ai-systems",
-        "ai-systems-design",
-        "llm",
-        "system-design",
-        "system-design-interview"
-      ],
-      "evidence": [
-        "160 GitHub stars",
-        "29 forks",
-        "Created 2026-09-25"
-      ],
-      "raw_text": "amitshekhariitbhu/ai-system-design AI System Design - Learn how to design AI systems built on LLMs, RAG, and AI Agents step by step. ai ai-agents ai-engineering ai-system ai-system-design ai-systems ai-systems-design llm system-design system-design-interview",
-      "opportunity_type": "OpenClaw型",
-      "score": 56.0,
-      "dimension_scores": {
-        "growth_speed": 98.2,
-        "agent_innovation": 35,
-        "community_signal": 100.0,
-        "api_consumption_potential": 32,
-        "commercialization": 18,
-        "kimi_strategic_fit": 39
+        "api_consumption_potential": 30,
+        "commercialization": 32,
+        "kimi_strategic_fit": 33
       },
       "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "教育教程仓库，160 stars/29 forks，无实际工具或平台属性",
-      "commercial_summary": "学习资源库，非可集成框架或产品，无API消费或生态合作空间",
+      "reason_to_contact_now": "HN用户投诉事件，60 points/23 comments；讨论对象为OpenAI现有产品问题，非新Agent项目",
+      "commercial_summary": "竞品负面信号：OpenAI Codex存在agent失控、计费不透明、日志删除等问题，可作为Kimi差异化安全/可控性销售的参照，但非直接客户机会",
       "confidence": "high",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
-        "language": "Markdown",
-        "updated_at": "2026-09-26T01:12:45Z",
-        "homepage": "https://outcomeschool.com/program/ai-and-machine-learning",
-        "agent_keyword_hits": [
-          "ai agent"
-        ],
-        "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": []
-      }
-    },
-    {
-      "id": "hackernews-f5cc2019c068",
-      "source": "Hacker News",
-      "name": "Show HN: Wallstreetclaws.com – Create AI Agents for Trading",
-      "url": "https://wallstreetclaws.com",
-      "description": "I wanted to try out some AI driven trading strategies so created this platform ( https://wallstreetclaws.com ) where people can easily create and deploy AI agents for trading. It supports two types of Agents: 1. Cortex: Fully agentic strategy execution. An LLM will run your system prompt with access to market data, web search and simulated market APIs. 2. Flux: Define advanced quant strategies using indicators, entry conditions, exit conditions, risk management, etc. You can also run backtests on these strategies. You can also optionally connect your Robinhood agent account to your Cortex agents. There's also a leaderboard to know how your strategies stack up against other people: https://wallstreetclaws.com/leaderboard It already has ~200 people using it. Wanted to share it with HN and get feedback from you all.",
-      "published_at": "1790375835",
-      "discovered_at": "2026-09-26T01:13:34+00:00",
-      "author": "iceman_w",
-      "metrics": {
-        "points": 2,
-        "comments": 1
-      },
-      "tags": [],
-      "evidence": [
-        "2 HN points",
-        "1 comments"
-      ],
-      "raw_text": "Show HN: Wallstreetclaws.com – Create AI Agents for Trading I wanted to try out some AI driven trading strategies so created this platform ( https://wallstreetclaws.com ) where people can easily create and deploy AI agents for trading. It supports two types of Agents: 1. Cortex: Fully agentic strategy execution. An LLM will run your system prompt with access to market data, web search and simulated market APIs. 2. Flux: Define advanced quant strategies using indicators, entry conditions, exit conditions, risk management, etc. You can also run backtests on these strategies. You can also optionally connect your Robinhood agent account to your Cortex agents. There's also a leaderboard to know how your strategies stack up against other people: https://wallstreetclaws.com/leaderboard It already has ~200 people using it. Wanted to share it with HN and get feedback from you all.",
-      "opportunity_type": "Manus型",
-      "score": 42.2,
-      "dimension_scores": {
-        "growth_speed": 30.8,
-        "agent_innovation": 46,
-        "community_signal": 45.0,
-        "api_consumption_potential": 44,
-        "commercialization": 32,
-        "kimi_strategic_fit": 45
-      },
-      "recommended_action": "持续观察",
-      "reason_to_contact_now": "已有约200人使用，支持LLM驱动的Cortex agent和量化策略Flux，接入市场数据、web search和模拟API",
-      "commercial_summary": "金融交易Agent平台，LLM为核心推理层，若策略执行调用量增长可能产生显著API消费，需确认模型供应商",
-      "confidence": "medium",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "discussion_url": "https://news.ycombinator.com/item?id=49850874",
-        "agent_keyword_hits": [
-          "agentic",
-          "ai agent"
-        ],
+        "discussion_url": "https://news.ycombinator.com/item?id=49861047",
+        "agent_keyword_hits": [],
         "commercial_keyword_hits": [
           "api"
         ],
@@ -428,21 +413,21 @@
       }
     },
     {
-      "id": "product-hunt-d43be783b794",
+      "id": "product-hunt-b16a0bb330c1",
       "source": "Product Hunt",
-      "name": "Jango",
-      "url": "https://www.producthunt.com/products/jango",
-      "description": "Test multi-user apps with AI agents that act like real users Discussion | Link",
-      "published_at": "2026-09-24T19:16:38-07:00",
-      "discovered_at": "2026-09-26T01:13:34+00:00",
-      "author": "Emmanuel Adesola",
+      "name": "LaterOn v2: The agentic email plaftform",
+      "url": "https://www.producthunt.com/products/lateron-email",
+      "description": "Describe an email job once. Get sh*t done. Discussion | Link",
+      "published_at": "2026-09-22T21:57:38-07:00",
+      "discovered_at": "2026-09-27T01:14:47+00:00",
+      "author": "M Gilang Januar",
       "metrics": {},
       "tags": [],
       "evidence": [
         "Published via Product Hunt",
-        "2026-09-24T19:16:38-07:00"
+        "2026-09-22T21:57:38-07:00"
       ],
-      "raw_text": "Jango Test multi-user apps with AI agents that act like real users Discussion | Link ",
+      "raw_text": "LaterOn v2: The agentic email plaftform Describe an email job once. Get sh*t done. Discussion | Link ",
       "opportunity_type": "Manus型",
       "score": 31.6,
       "dimension_scores": {
@@ -454,14 +439,56 @@
         "kimi_strategic_fit": 31
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "AI agent模拟真实用户测试多用户应用，有明确Agent应用场景",
-      "commercial_summary": "QA/testing领域Agent产品，若扩展至大规模自动化测试可能产生API消耗，需验证付费转化",
+      "reason_to_contact_now": "agentic email platform，Product Hunt发布，有明确任务执行场景",
+      "commercial_summary": "邮件Agent产品，若用户增长可成为API高消费客户，需验证付费转化和模型依赖",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "feed_url": "https://www.producthunt.com/feed",
         "content_kind": "product_launch",
-        "original_title": "Jango",
+        "original_title": "LaterOn v2: The agentic email plaftform",
+        "agent_keyword_hits": [
+          "agentic"
+        ],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": []
+      }
+    },
+    {
+      "id": "product-hunt-5ced300c04c1",
+      "source": "Product Hunt",
+      "name": "Kaiku",
+      "url": "https://www.producthunt.com/products/kaiku",
+      "description": "The task tracker your AI agents already know how to use Discussion | Link",
+      "published_at": "2026-09-22T18:58:30-07:00",
+      "discovered_at": "2026-09-27T01:14:47+00:00",
+      "author": "Stanislav",
+      "metrics": {},
+      "tags": [],
+      "evidence": [
+        "Published via Product Hunt",
+        "2026-09-22T18:58:30-07:00"
+      ],
+      "raw_text": "Kaiku The task tracker your AI agents already know how to use Discussion | Link ",
+      "opportunity_type": "Manus型",
+      "score": 31.6,
+      "dimension_scores": {
+        "growth_speed": 30.0,
+        "agent_innovation": 35,
+        "community_signal": 18.0,
+        "api_consumption_potential": 32,
+        "commercialization": 36,
+        "kimi_strategic_fit": 31
+      },
+      "recommended_action": "持续观察",
+      "reason_to_contact_now": "Product Hunt发布，AI agent原生task tracker，场景明确",
+      "commercial_summary": "Agent协作工具，若成为团队工作流入口可产生持续API调用，需验证用户增长和付费意愿",
+      "confidence": "medium",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "metadata": {
+        "feed_url": "https://www.producthunt.com/feed",
+        "content_kind": "product_launch",
+        "original_title": "Kaiku",
         "agent_keyword_hits": [
           "ai agent"
         ],
@@ -470,67 +497,23 @@
       }
     },
     {
-      "id": "product-hunt-b5078c4183ca",
+      "id": "product-hunt-d43be783b794",
       "source": "Product Hunt",
-      "name": "GitHub statistics · Velocity Radar",
-      "url": "https://www.producthunt.com/products/github-statistics-velocity-radar",
-      "description": "Real GitHub momentum, including private repos & AI agents Discussion | Link",
-      "published_at": "2026-09-24T02:51:45-07:00",
-      "discovered_at": "2026-09-26T01:13:34+00:00",
-      "author": "Paul Save",
+      "name": "Jango",
+      "url": "https://www.producthunt.com/products/jango",
+      "description": "Test multi-user apps with AI agents that act like real users Discussion | Link",
+      "published_at": "2026-09-24T19:16:38-07:00",
+      "discovered_at": "2026-09-27T01:14:47+00:00",
+      "author": "Emmanuel Adesola",
       "metrics": {},
       "tags": [],
       "evidence": [
         "Published via Product Hunt",
-        "2026-09-24T02:51:45-07:00"
+        "2026-09-24T19:16:38-07:00"
       ],
-      "raw_text": "GitHub statistics · Velocity Radar Real GitHub momentum, including private repos & AI agents Discussion | Link ",
+      "raw_text": "Jango Test multi-user apps with AI agents that act like real users Discussion | Link ",
       "opportunity_type": "Manus型",
-      "score": 30.4,
-      "dimension_scores": {
-        "growth_speed": 30.0,
-        "agent_innovation": 35,
-        "community_signal": 18.0,
-        "api_consumption_potential": 32,
-        "commercialization": 36,
-        "kimi_strategic_fit": 39
-      },
-      "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "Product Hunt发布，无具体用户或收入数据，AI agent仅为功能描述之一",
-      "commercial_summary": "GitHub数据分析工具，非核心Agent产品，API消费潜力未验证",
-      "confidence": "medium",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "feed_url": "https://www.producthunt.com/feed",
-        "content_kind": "product_launch",
-        "original_title": "GitHub statistics · Velocity Radar",
-        "agent_keyword_hits": [
-          "ai agent"
-        ],
-        "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": [
-          "github"
-        ]
-      }
-    },
-    {
-      "id": "product-hunt-a2154f5cbd6f",
-      "source": "Product Hunt",
-      "name": "Basedash MCP write",
-      "url": "https://www.producthunt.com/products/basedash",
-      "description": "Build charts and dashboards from Cursor and Claude Discussion | Link",
-      "published_at": "2026-09-24T15:20:29-07:00",
-      "discovered_at": "2026-09-26T01:13:34+00:00",
-      "author": "Max Musing",
-      "metrics": {},
-      "tags": [],
-      "evidence": [
-        "Published via Product Hunt",
-        "2026-09-24T15:20:29-07:00"
-      ],
-      "raw_text": "Basedash MCP write Build charts and dashboards from Cursor and Claude Discussion | Link ",
-      "opportunity_type": "Manus型",
-      "score": 29.6,
+      "score": 30.6,
       "dimension_scores": {
         "growth_speed": 30.0,
         "agent_innovation": 35,
@@ -540,16 +523,16 @@
         "kimi_strategic_fit": 31
       },
       "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "MCP write功能发布，但仅支持Cursor和Claude，无Kimi接入信号",
-      "commercial_summary": "BI/dashboard产品，MCP生态参与者但已绑定竞品，API消费规模未明",
+      "reason_to_contact_now": "Product Hunt发布，AI agent测试工具，早期无metrics",
+      "commercial_summary": "测试场景Agent产品，API消费潜力取决于企业客户采用，当前信号不足",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "feed_url": "https://www.producthunt.com/feed",
         "content_kind": "product_launch",
-        "original_title": "Basedash MCP write",
+        "original_title": "Jango",
         "agent_keyword_hits": [
-          "mcp"
+          "ai agent"
         ],
         "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": []

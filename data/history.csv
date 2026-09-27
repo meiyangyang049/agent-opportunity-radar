@@ -334,3 +334,13 @@ run_at,id,name,source,score,opportunity_type,recommended_action,metric_name,metr
 2026-09-26T01:13:35+00:00,product-hunt-d43be783b794,Jango,Product Hunt,31.6,Manus型,持续观察,none,0.0
 2026-09-26T01:13:35+00:00,product-hunt-b5078c4183ca,GitHub statistics · Velocity Radar,Product Hunt,30.4,Manus型,暂不跟进,none,0.0
 2026-09-26T01:13:35+00:00,product-hunt-a2154f5cbd6f,Basedash MCP write,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
+2026-09-27T01:14:48+00:00,github-95357ffbf194,zai-org/ZCode,GitHub,63.6,OpenClaw型,立即联系,stars,6838.0
+2026-09-27T01:14:48+00:00,github-d252e95aaa10,mikehasa/golive-skill,GitHub,62.4,OpenClaw型,持续观察,stars,979.0
+2026-09-27T01:14:48+00:00,github-57ae361060ed,yetone/magpie,GitHub,58.6,OpenClaw型,持续观察,stars,1028.0
+2026-09-27T01:14:48+00:00,github-d90a39d5bfe2,amitshekhariitbhu/ai-engineering-course,GitHub,58.2,OpenClaw型,持续观察,stars,362.0
+2026-09-27T01:14:48+00:00,github-577f65097e21,freestylefly/WeChatBridge,GitHub,57.4,OpenClaw型,持续观察,stars,792.0
+2026-09-27T01:14:48+00:00,github-24f8b82daee5,rgem227/knoweldge-base,GitHub,56.5,OpenClaw型,暂不跟进,stars,496.0
+2026-09-27T01:14:48+00:00,hackernews-dcead6d7cfaa,"OpenAI Codex agents go rogue and consumes USD 78,000 without authorization",Hacker News,49.5,Manus型,暂不跟进,points,60.0
+2026-09-27T01:14:48+00:00,product-hunt-b16a0bb330c1,LaterOn v2: The agentic email plaftform,Product Hunt,31.6,Manus型,持续观察,none,0.0
+2026-09-27T01:14:48+00:00,product-hunt-5ced300c04c1,Kaiku,Product Hunt,31.6,Manus型,持续观察,none,0.0
+2026-09-27T01:14:48+00:00,product-hunt-d43be783b794,Jango,Product Hunt,30.6,Manus型,暂不跟进,none,0.0
