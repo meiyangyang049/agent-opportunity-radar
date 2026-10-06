@@ -1,8 +1,8 @@
 {
   "meta": {
     "project": "Agent Opportunity Radar",
-    "generated_at": "2026-10-05T06:44:45+00:00",
-    "generated_at_display": "2026-10-05 14:44 CST",
+    "generated_at": "2026-10-06T07:23:58+00:00",
+    "generated_at_display": "2026-10-06 15:23 CST",
     "mode": "公开信号实时运行",
     "sources": [
       "GitHub",
@@ -14,16 +14,16 @@
       "AI news RSS: HTTPError: 429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
     ],
     "notices": [],
-    "candidate_pool_size": 30,
+    "candidate_pool_size": 45,
     "pool_by_source": {
-      "GitHub": 16,
-      "Hacker News": 12,
-      "Product Hunt": 2
+      "GitHub": 13,
+      "Hacker News": 22,
+      "Product Hunt": 10
     },
     "pool_by_type": {
-      "OpenClaw型": 17,
-      "其他Agent": 11,
-      "Manus型": 2
+      "OpenClaw型": 13,
+      "其他Agent": 22,
+      "Manus型": 10
     },
     "shortlist_policy": "Top 10；OpenClaw型/Manus型各至少4个（候选充足时）",
     "kimi_model": "kimi-k2.6"
@@ -36,13 +36,13 @@
       "url": "https://github.com/feder-cr/dots",
       "description": "Open-source dots for the web: an AI agent with its own browser, one that does not get blocked.",
       "published_at": "2026-09-29T23:06:00Z",
-      "discovered_at": "2026-10-05T06:44:39+00:00",
+      "discovered_at": "2026-10-06T07:23:52+00:00",
       "author": "feder-cr",
       "metrics": {
-        "stars": 2607,
-        "forks": 437,
+        "stars": 2623,
+        "forks": 438,
         "open_issues": 1,
-        "watchers": 2607
+        "watchers": 2623
       },
       "tags": [
         "ai-agent",
@@ -67,14 +67,14 @@
         "web-automation"
       ],
       "evidence": [
-        "+26 stars since last run",
-        "2,607 GitHub stars",
-        "437 forks",
+        "+16 stars since last run",
+        "2,623 GitHub stars",
+        "438 forks",
         "Created 2026-09-29"
       ],
       "raw_text": "feder-cr/dots Open-source dots for the web: an AI agent with its own browser, one that does not get blocked. ai-agent ai-agents ai-browser anti-detect-browser browser-agent browser-automation chatgpt dotfiles dots firefox llm-agent mcp open-source-alternative openai openai-dots openrouter playwright stealth-browser web-agent web-automation",
       "opportunity_type": "OpenClaw型",
-      "score": 69.3,
+      "score": 66.3,
       "dimension_scores": {
         "growth_speed": 100.0,
         "agent_innovation": 46,
@@ -84,13 +84,13 @@
         "kimi_strategic_fit": 45
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "6天内2607星、437 forks，日增约26星，带MCP标签和stealth browser差异化能力",
-      "commercial_summary": "浏览器Agent基础设施，若成为主流开源web agent框架，可争取作为默认模型Provider接入，带动API调用",
+      "reason_to_contact_now": "+16 stars since last run；2,623 GitHub stars；438 forks；支持OpenRouter等多Provider接入",
+      "commercial_summary": "开源浏览器Agent框架，anti-detect能力可能消耗大量推理token，需观察是否成为默认模型接入方",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "language": "Python",
-        "updated_at": "2026-10-05T06:39:23Z",
+        "updated_at": "2026-10-06T07:17:18Z",
         "homepage": null,
         "agent_keyword_hits": [
           "ai agent",
@@ -98,8 +98,71 @@
         ],
         "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": [],
-        "metric_delta": 26.0,
-        "metric_velocity_per_day": 25.974746773969752
+        "metric_delta": 16.0,
+        "metric_velocity_per_day": 15.57581152186405
+      }
+    },
+    {
+      "id": "github-bb836672cc4e",
+      "source": "GitHub",
+      "name": "QingYunA/answer-me-with-html",
+      "url": "https://github.com/QingYunA/answer-me-with-html",
+      "description": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
+      "published_at": "2026-10-02T09:57:40Z",
+      "discovered_at": "2026-10-06T07:23:52+00:00",
+      "author": "QingYunA",
+      "metrics": {
+        "stars": 1543,
+        "forks": 108,
+        "open_issues": 6,
+        "watchers": 1543
+      },
+      "tags": [
+        "agent-skill",
+        "ai-agent",
+        "claude-code",
+        "cli",
+        "diagram",
+        "explainer",
+        "html",
+        "llm",
+        "ste100"
+      ],
+      "evidence": [
+        "+367 stars since last run",
+        "1,543 GitHub stars",
+        "108 forks",
+        "Created 2026-10-02"
+      ],
+      "raw_text": "QingYunA/answer-me-with-html Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。 agent-skill ai-agent claude-code cli diagram explainer html llm ste100",
+      "opportunity_type": "OpenClaw型",
+      "score": 66.3,
+      "dimension_scores": {
+        "growth_speed": 100.0,
+        "agent_innovation": 35,
+        "community_signal": 100.0,
+        "api_consumption_potential": 32,
+        "commercialization": 18,
+        "kimi_strategic_fit": 47
+      },
+      "recommended_action": "持续观察",
+      "reason_to_contact_now": "+367 stars since last run；1,543 GitHub stars；108 forks；定位为agent skill",
+      "commercial_summary": "HTML可视化Agent技能，中文开发者项目，适合评估作为Kimi技能生态合作伙伴",
+      "confidence": "medium",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "metadata": {
+        "language": "JavaScript",
+        "updated_at": "2026-10-06T07:17:24Z",
+        "homepage": "",
+        "agent_keyword_hits": [
+          "ai agent"
+        ],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": [
+          "skill"
+        ],
+        "metric_delta": 367.0,
+        "metric_velocity_per_day": 357.27017678275666
       }
     },
     {
@@ -109,13 +172,13 @@
       "url": "https://github.com/rehan-remade/universal-modder",
       "description": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
       "published_at": "2026-09-30T05:00:35Z",
-      "discovered_at": "2026-10-05T06:44:39+00:00",
+      "discovered_at": "2026-10-06T07:23:52+00:00",
       "author": "rehan-remade",
       "metrics": {
-        "stars": 3374,
-        "forks": 292,
-        "open_issues": 11,
-        "watchers": 3374
+        "stars": 3996,
+        "forks": 359,
+        "open_issues": 22,
+        "watchers": 3996
       },
       "tags": [
         "age-of-empires",
@@ -130,14 +193,14 @@
         "tmodloader"
       ],
       "evidence": [
-        "+659 stars since last run",
-        "3,374 GitHub stars",
-        "292 forks",
+        "+622 stars since last run",
+        "3,996 GitHub stars",
+        "359 forks",
         "Created 2026-09-30"
       ],
       "raw_text": "rehan-remade/universal-modder Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos. age-of-empires claude-code claude-code-plugin fal game-assets game-modding mcp modding reverse-engineering tmodloader",
       "opportunity_type": "OpenClaw型",
-      "score": 68.1,
+      "score": 66.1,
       "dimension_scores": {
         "growth_speed": 100.0,
         "agent_innovation": 35,
@@ -147,13 +210,13 @@
         "kimi_strategic_fit": 55
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "5天3374星、日增约658星，292 forks，游戏modding MCP工具链，Claude Code插件形态",
-      "commercial_summary": "高增速游戏Agent工具链，MCP生态位明确，若Claude Code插件模式泛化，可推动Kimi Code模型接入开发者工作流",
+      "reason_to_contact_now": "+622 stars since last run；3,996 GitHub stars；359 forks；明确依赖Claude Code和fal MCP",
+      "commercial_summary": "游戏Modding MCP生态工具，高增速但深度绑定Anthropic/fal，需评估替换为Kimi的可行性",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "language": "Python",
-        "updated_at": "2026-10-05T06:43:33Z",
+        "updated_at": "2026-10-06T07:23:04Z",
         "homepage": null,
         "agent_keyword_hits": [
           "mcp"
@@ -163,248 +226,57 @@
           "plugin",
           "skill"
         ],
-        "metric_delta": 659.0,
-        "metric_velocity_per_day": 658.3599278479256
+        "metric_delta": 622.0,
+        "metric_velocity_per_day": 605.5096729124649
       }
     },
     {
-      "id": "github-e54b47da27da",
+      "id": "github-43c62a2f442e",
       "source": "GitHub",
-      "name": "edenfunf/reelmimic",
-      "url": "https://github.com/edenfunf/reelmimic",
-      "description": "Show it a video you love. Get a new video in the same style. An AI crew (Claude Code or Codex) plans, builds and reviews it with you.",
-      "published_at": "2026-09-28T19:14:59Z",
-      "discovered_at": "2026-10-05T06:44:39+00:00",
-      "author": "edenfunf",
+      "name": "CopilotKit/OpenDots",
+      "url": "https://github.com/CopilotKit/OpenDots",
+      "description": "Your always-on AI coworkers that move between text, calls, and Slack.",
+      "published_at": "2026-09-29T17:13:58Z",
+      "discovered_at": "2026-10-06T07:23:52+00:00",
+      "author": "CopilotKit",
       "metrics": {
-        "stars": 1279,
-        "forks": 157,
-        "open_issues": 28,
-        "watchers": 1279
-      },
-      "tags": [
-        "2d-animation",
-        "ai-agents",
-        "ai-video",
-        "animation",
-        "claude-code",
-        "codex",
-        "multi-agent",
-        "style-transfer",
-        "video-generation"
-      ],
-      "evidence": [
-        "1,279 GitHub stars",
-        "157 forks",
-        "Created 2026-09-28"
-      ],
-      "raw_text": "edenfunf/reelmimic Show it a video you love. Get a new video in the same style. An AI crew (Claude Code or Codex) plans, builds and reviews it with you. 2d-animation ai-agents ai-video animation claude-code codex multi-agent style-transfer video-generation",
-      "opportunity_type": "OpenClaw型",
-      "score": 67.2,
-      "dimension_scores": {
-        "growth_speed": 100.0,
-        "agent_innovation": 35,
-        "community_signal": 100.0,
-        "api_consumption_potential": 50,
-        "commercialization": 18,
-        "kimi_strategic_fit": 39
-      },
-      "recommended_action": "持续观察",
-      "reason_to_contact_now": "6天1279星、157 forks，多Agent视频生成工作流，已集成Claude Code/Codex",
-      "commercial_summary": "多Agent视频创作工具，若扩展模型支持，可切入成为视频生成Agent的备选模型供应商",
-      "confidence": "medium",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "language": "JavaScript",
-        "updated_at": "2026-10-05T06:29:29Z",
-        "homepage": null,
-        "agent_keyword_hits": [
-          "multi-agent"
-        ],
-        "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": []
-      }
-    },
-    {
-      "id": "github-9c667b270995",
-      "source": "GitHub",
-      "name": "KKKKhazix/AIHOT",
-      "url": "https://github.com/KKKKhazix/AIHOT",
-      "description": "一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
-      "published_at": "2026-09-28T23:40:05Z",
-      "discovered_at": "2026-10-05T06:44:39+00:00",
-      "author": "KKKKhazix",
-      "metrics": {
-        "stars": 5846,
-        "forks": 1488,
-        "open_issues": 2,
-        "watchers": 5846
-      },
-      "tags": [
-        "ai",
-        "chinese",
-        "content-curation",
-        "daily-digest",
-        "docker-compose",
-        "llm",
-        "mcp",
-        "news-aggregator",
-        "postgresql",
-        "rss",
-        "self-hosted",
-        "typescript"
-      ],
-      "evidence": [
-        "+318 stars since last run",
-        "5,846 GitHub stars",
-        "1,488 forks",
-        "Created 2026-09-28"
-      ],
-      "raw_text": "KKKKhazix/AIHOT 一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。 ai chinese content-curation daily-digest docker-compose llm mcp news-aggregator postgresql rss self-hosted typescript",
-      "opportunity_type": "OpenClaw型",
-      "score": 66.3,
-      "dimension_scores": {
-        "growth_speed": 100.0,
-        "agent_innovation": 35,
-        "community_signal": 100.0,
-        "api_consumption_potential": 32,
-        "commercialization": 18,
-        "kimi_strategic_fit": 47
-      },
-      "recommended_action": "持续观察",
-      "reason_to_contact_now": "7天5846星、1488 forks、日增约318星，中文自托管热点日报框架，带MCP和RSS聚合",
-      "commercial_summary": "中文开发者社区高热度自托管Agent，已部署aihot.news，可争取作为中文LLM默认接入，带动国内开发者API采用",
-      "confidence": "medium",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "language": "TypeScript",
-        "updated_at": "2026-10-05T06:25:16Z",
-        "homepage": "https://aihot.news",
-        "agent_keyword_hits": [
-          "mcp"
-        ],
-        "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": [
-          "self-hosted"
-        ],
-        "metric_delta": 318.0,
-        "metric_velocity_per_day": 317.6911336200916
-      }
-    },
-    {
-      "id": "github-bb836672cc4e",
-      "source": "GitHub",
-      "name": "QingYunA/answer-me-with-html",
-      "url": "https://github.com/QingYunA/answer-me-with-html",
-      "description": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
-      "published_at": "2026-10-02T09:57:40Z",
-      "discovered_at": "2026-10-05T06:44:39+00:00",
-      "author": "QingYunA",
-      "metrics": {
-        "stars": 1176,
-        "forks": 82,
-        "open_issues": 12,
-        "watchers": 1176
-      },
-      "tags": [
-        "agent-skill",
-        "ai-agent",
-        "claude-code",
-        "cli",
-        "diagram",
-        "explainer",
-        "html",
-        "llm",
-        "ste100"
-      ],
-      "evidence": [
-        "+614 stars since last run",
-        "1,176 GitHub stars",
-        "82 forks",
-        "Created 2026-10-02"
-      ],
-      "raw_text": "QingYunA/answer-me-with-html Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。 agent-skill ai-agent claude-code cli diagram explainer html llm ste100",
-      "opportunity_type": "OpenClaw型",
-      "score": 63.3,
-      "dimension_scores": {
-        "growth_speed": 100.0,
-        "agent_innovation": 35,
-        "community_signal": 100.0,
-        "api_consumption_potential": 32,
-        "commercialization": 18,
-        "kimi_strategic_fit": 47
-      },
-      "recommended_action": "持续观察",
-      "reason_to_contact_now": "+614 stars since last run；1,176 GitHub stars；82 forks，Agent Skill形态明确",
-      "commercial_summary": "Agent Skill插件形态，可观察是否扩展为多模型支持及开发者分发渠道价值",
-      "confidence": "medium",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "language": "JavaScript",
-        "updated_at": "2026-10-05T06:44:29Z",
-        "homepage": "",
-        "agent_keyword_hits": [
-          "ai agent"
-        ],
-        "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": [
-          "skill"
-        ],
-        "metric_delta": 614.0,
-        "metric_velocity_per_day": 613.4036353545165
-      }
-    },
-    {
-      "id": "github-3abca1f7bfea",
-      "source": "GitHub",
-      "name": "composio-community/open-dot",
-      "url": "https://github.com/composio-community/open-dot",
-      "description": "Open-source personal AI agents that work on their own, on their own computers. Mac app, OpenAI + Composio.",
-      "published_at": "2026-09-29T16:34:16Z",
-      "discovered_at": "2026-10-05T06:44:40+00:00",
-      "author": "composio-community",
-      "metrics": {
-        "stars": 563,
-        "forks": 77,
-        "open_issues": 5,
-        "watchers": 563
+        "stars": 3741,
+        "forks": 498,
+        "open_issues": 42,
+        "watchers": 3741
       },
       "tags": [],
       "evidence": [
-        "+32 stars since last run",
-        "563 GitHub stars",
-        "77 forks",
+        "+447 stars since last run",
+        "3,741 GitHub stars",
+        "498 forks",
         "Created 2026-09-29"
       ],
-      "raw_text": "composio-community/open-dot Open-source personal AI agents that work on their own, on their own computers. Mac app, OpenAI + Composio. ",
+      "raw_text": "CopilotKit/OpenDots Your always-on AI coworkers that move between text, calls, and Slack. ",
       "opportunity_type": "OpenClaw型",
-      "score": 61.5,
+      "score": 61.6,
       "dimension_scores": {
-        "growth_speed": 92.9,
-        "agent_innovation": 35,
+        "growth_speed": 100.0,
+        "agent_innovation": 24,
         "community_signal": 100.0,
-        "api_consumption_potential": 32,
+        "api_consumption_potential": 25,
         "commercialization": 18,
-        "kimi_strategic_fit": 47
+        "kimi_strategic_fit": 33
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "563 GitHub stars；77 forks；Mac app形态，OpenAI + Composio绑定",
-      "commercial_summary": "个人AI Agent开源项目，当前硬绑定OpenAI，需观察模型切换意愿及自托管部署场景",
+      "reason_to_contact_now": "GitHub 3,741 stars且单日+447 stars增速极快，CopilotKit团队背书，跨文本/通话/Slack的AI coworker框架。",
+      "commercial_summary": "高增速开源AI coworker框架，具备开发者生态扩展潜力，需观察模型接入策略与商业化路径。",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "language": "TypeScript",
-        "updated_at": "2026-10-05T04:54:51Z",
-        "homepage": null,
-        "agent_keyword_hits": [
-          "ai agent"
-        ],
+        "updated_at": "2026-10-06T07:12:45Z",
+        "homepage": "https://www.copilotkit.ai/opendots",
+        "agent_keyword_hits": [],
         "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": [
-          "community"
-        ],
-        "metric_delta": 32.0,
-        "metric_velocity_per_day": 31.968919106424313
+        "ecosystem_keyword_hits": [],
+        "metric_delta": 447.0,
+        "metric_velocity_per_day": 435.1492343920769
       }
     },
     {
@@ -414,13 +286,13 @@
       "url": "https://github.com/nanaism/yomiyasu",
       "description": "AI生成の日本語を自然な日本語へ推敲するAgent Skill / Agent Skill for Refining AI-Generated Japanese into Natural Japanese",
       "published_at": "2026-09-30T11:49:32Z",
-      "discovered_at": "2026-10-05T06:44:39+00:00",
+      "discovered_at": "2026-10-06T07:23:52+00:00",
       "author": "nanaism",
       "metrics": {
-        "stars": 1433,
-        "forks": 32,
-        "open_issues": 2,
-        "watchers": 1433
+        "stars": 1549,
+        "forks": 35,
+        "open_issues": 3,
+        "watchers": 1549
       },
       "tags": [
         "agent-skills",
@@ -439,13 +311,14 @@
         "writing-tool"
       ],
       "evidence": [
-        "1,433 GitHub stars",
-        "32 forks",
+        "+116 stars since last run",
+        "1,549 GitHub stars",
+        "35 forks",
         "Created 2026-09-30"
       ],
       "raw_text": "nanaism/yomiyasu AI生成の日本語を自然な日本語へ推敲するAgent Skill / Agent Skill for Refining AI-Generated Japanese into Natural Japanese agent-skills ai-writing antigravity claude-code codex cursor gemini japanese linter llm nlp writing writing-assistant writing-tool",
       "opportunity_type": "OpenClaw型",
-      "score": 59.4,
+      "score": 60.4,
       "dimension_scores": {
         "growth_speed": 100.0,
         "agent_innovation": 24,
@@ -455,85 +328,96 @@
         "kimi_strategic_fit": 41
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "1,433 GitHub stars；32 forks；日语AI写作Agent Skill",
-      "commercial_summary": "垂直语言场景的Agent Skill，可观察多语言扩展及模型Provider切换可能性",
+      "reason_to_contact_now": "+116 stars since last run；1,549 GitHub stars；35 forks；明确标注Agent Skill",
+      "commercial_summary": "日语优化Agent Skill，日本市场本地化机会，需观察是否接入多Provider",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "language": "Python",
-        "updated_at": "2026-10-05T06:42:45Z",
+        "updated_at": "2026-10-06T07:11:33Z",
         "homepage": "",
         "agent_keyword_hits": [],
         "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": [
           "skill"
-        ]
+        ],
+        "metric_delta": 116.0,
+        "metric_velocity_per_day": 112.92463353351437
       }
     },
     {
-      "id": "github-43c62a2f442e",
+      "id": "github-74ede8c610b2",
       "source": "GitHub",
-      "name": "CopilotKit/OpenDots",
-      "url": "https://github.com/CopilotKit/OpenDots",
-      "description": "Your always-on AI coworkers that move between text, calls, and Slack.",
-      "published_at": "2026-09-29T17:13:58Z",
-      "discovered_at": "2026-10-05T06:44:39+00:00",
-      "author": "CopilotKit",
+      "name": "d4ncboz/museai",
+      "url": "https://github.com/d4ncboz/museai",
+      "description": "High-performance OpenAI-compatible API gateway and bridge for muse.ai personal AI agents, ready for 9Router multi-model integration.",
+      "published_at": "2026-09-29T18:59:57Z",
+      "discovered_at": "2026-10-06T07:23:53+00:00",
+      "author": "d4ncboz",
       "metrics": {
-        "stars": 3294,
-        "forks": 435,
-        "open_issues": 60,
-        "watchers": 3294
+        "stars": 123,
+        "forks": 7,
+        "open_issues": 0,
+        "watchers": 123
       },
       "tags": [],
       "evidence": [
-        "3,294 GitHub stars",
-        "435 forks",
+        "+23 stars since last run",
+        "123 GitHub stars",
+        "7 forks",
         "Created 2026-09-29"
       ],
-      "raw_text": "CopilotKit/OpenDots Your always-on AI coworkers that move between text, calls, and Slack. ",
+      "raw_text": "d4ncboz/museai High-performance OpenAI-compatible API gateway and bridge for muse.ai personal AI agents, ready for 9Router multi-model integration. ",
       "opportunity_type": "OpenClaw型",
-      "score": 58.6,
+      "score": 58.7,
       "dimension_scores": {
-        "growth_speed": 100.0,
-        "agent_innovation": 24,
-        "community_signal": 100.0,
-        "api_consumption_potential": 25,
-        "commercialization": 18,
-        "kimi_strategic_fit": 33
+        "growth_speed": 66.8,
+        "agent_innovation": 35,
+        "community_signal": 87.7,
+        "api_consumption_potential": 37,
+        "commercialization": 32,
+        "kimi_strategic_fit": 47
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "3,294 GitHub stars；435 forks；CopilotKit出品，多通道AI coworkers",
-      "commercial_summary": "CopilotKit生态延伸项目，企业级AI coworkers方向，需评估模型接入灵活性与商业化路径",
+      "reason_to_contact_now": "OpenAI-compatible API gateway，123 stars且增长中，明确支持多模型集成（9Router），面向personal AI agents。",
+      "commercial_summary": "开源API网关/桥接器，直接涉及模型路由与集成，若扩展Provider支持可能成为Kimi API分发渠道或生态伙伴，需跟踪其多模型策略。",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
-        "language": "TypeScript",
-        "updated_at": "2026-10-05T06:39:07Z",
-        "homepage": "https://www.copilotkit.ai/opendots",
-        "agent_keyword_hits": [],
-        "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": []
+        "language": "Python",
+        "updated_at": "2026-10-06T04:21:47Z",
+        "homepage": null,
+        "agent_keyword_hits": [
+          "ai agent"
+        ],
+        "commercial_keyword_hits": [
+          "api"
+        ],
+        "ecosystem_keyword_hits": [
+          "integration"
+        ],
+        "metric_delta": 23.0,
+        "metric_velocity_per_day": 4.587215261170257
       }
     },
     {
-      "id": "product-hunt-33e2fc84bb72",
+      "id": "product-hunt-c733706718f4",
       "source": "Product Hunt",
-      "name": "Sellio",
-      "url": "https://www.producthunt.com/products/sellio-2",
-      "description": "AI customer support in one shared inbox powered by AI agents Discussion | Link",
-      "published_at": "2026-10-03T16:54:19-07:00",
-      "discovered_at": "2026-10-05T06:44:45+00:00",
-      "author": "Khalid Nouri",
+      "name": "iphone-use",
+      "url": "https://www.producthunt.com/products/iphone-use",
+      "description": "Let AI agents drive a real iPhone, even apps with no API Discussion | Link",
+      "published_at": "2026-10-05T09:24:48-07:00",
+      "discovered_at": "2026-10-06T07:23:57+00:00",
+      "author": "郭立",
       "metrics": {},
       "tags": [],
       "evidence": [
         "Published via Product Hunt",
-        "2026-10-03T16:54:19-07:00"
+        "2026-10-05T09:24:48-07:00"
       ],
-      "raw_text": "Sellio AI customer support in one shared inbox powered by AI agents Discussion | Link ",
+      "raw_text": "iphone-use Let AI agents drive a real iPhone, even apps with no API Discussion | Link ",
       "opportunity_type": "Manus型",
-      "score": 29.8,
+      "score": 31.8,
       "dimension_scores": {
         "growth_speed": 30.0,
         "agent_innovation": 35,
@@ -543,41 +427,41 @@
         "kimi_strategic_fit": 31
       },
       "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "Product Hunt发布但无用户/收入数据，AI客服赛道拥挤",
-      "commercial_summary": "标准AI客服SaaS，缺乏差异化模型需求信号，API消耗潜力有限，暂不优先",
-      "confidence": "medium",
+      "reason_to_contact_now": "Product Hunt新发布，仅1条证据无用户数据",
+      "commercial_summary": "iOS设备控制Agent，若规模化可能消耗视觉/推理API，但当前无商业化信号",
+      "confidence": "low",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "feed_url": "https://www.producthunt.com/feed",
         "content_kind": "product_launch",
-        "original_title": "Sellio",
+        "original_title": "iphone-use",
         "agent_keyword_hits": [
           "ai agent"
         ],
         "commercial_keyword_hits": [
-          "customer"
+          "api"
         ],
         "ecosystem_keyword_hits": []
       }
     },
     {
-      "id": "product-hunt-612ce0a55895",
+      "id": "product-hunt-8e5e96d34b20",
       "source": "Product Hunt",
-      "name": "DocsAlot MCP Connector",
-      "url": "https://www.producthunt.com/products/docsalot-2",
-      "description": "Maintain your help-center by asking Claude, Cursor or Codex Discussion | Link",
-      "published_at": "2026-09-29T07:43:58-07:00",
-      "discovered_at": "2026-10-05T06:44:45+00:00",
-      "author": "Haya Jawed",
+      "name": "Fuse AI",
+      "url": "https://www.producthunt.com/products/fuseai",
+      "description": "Build a Custom GTM Stack. One SDK. One MCP. Discussion | Link",
+      "published_at": "2026-10-01T12:31:47-07:00",
+      "discovered_at": "2026-10-06T07:23:57+00:00",
+      "author": "Garry Tan",
       "metrics": {},
       "tags": [],
       "evidence": [
         "Published via Product Hunt",
-        "2026-09-29T07:43:58-07:00"
+        "2026-10-01T12:31:47-07:00"
       ],
-      "raw_text": "DocsAlot MCP Connector Maintain your help-center by asking Claude, Cursor or Codex Discussion | Link ",
+      "raw_text": "Fuse AI Build a Custom GTM Stack. One SDK. One MCP. Discussion | Link ",
       "opportunity_type": "Manus型",
-      "score": 26.6,
+      "score": 29.6,
       "dimension_scores": {
         "growth_speed": 30.0,
         "agent_innovation": 35,
@@ -587,16 +471,100 @@
         "kimi_strategic_fit": 31
       },
       "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "Product Hunt发布但无 traction 数据，明确绑定Claude/Cursor/Codex",
-      "commercial_summary": "文档维护工具，已深度绑定竞品生态，切换成本模型Provider意愿低",
-      "confidence": "medium",
+      "reason_to_contact_now": "Product Hunt发布5天，无用户/收入数据",
+      "commercial_summary": "GTM工具MCP抽象层，若起量可能成为中间件客户，但当前信号过弱",
+      "confidence": "low",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "feed_url": "https://www.producthunt.com/feed",
         "content_kind": "product_launch",
-        "original_title": "DocsAlot MCP Connector",
+        "original_title": "Fuse AI",
         "agent_keyword_hits": [
           "mcp"
+        ],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": []
+      }
+    },
+    {
+      "id": "product-hunt-2df3792b22fe",
+      "source": "Product Hunt",
+      "name": "ruOS",
+      "url": "https://www.producthunt.com/products/ruos",
+      "description": "A cloud desktop where AI agents do the work for you Discussion | Link",
+      "published_at": "2026-10-05T10:07:19-07:00",
+      "discovered_at": "2026-10-06T07:23:57+00:00",
+      "author": "Reuven Cohen",
+      "metrics": {},
+      "tags": [],
+      "evidence": [
+        "Published via Product Hunt",
+        "2026-10-05T10:07:19-07:00"
+      ],
+      "raw_text": "ruOS A cloud desktop where AI agents do the work for you Discussion | Link ",
+      "opportunity_type": "Manus型",
+      "score": 29.6,
+      "dimension_scores": {
+        "growth_speed": 30.0,
+        "agent_innovation": 35,
+        "community_signal": 18.0,
+        "api_consumption_potential": 32,
+        "commercialization": 36,
+        "kimi_strategic_fit": 31
+      },
+      "recommended_action": "暂不跟进",
+      "reason_to_contact_now": "Product Hunt新发布，无任何量化指标",
+      "commercial_summary": "云桌面Agent产品，概念与Manus近似，但无用户/融资/技术细节验证",
+      "confidence": "low",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "metadata": {
+        "feed_url": "https://www.producthunt.com/feed",
+        "content_kind": "product_launch",
+        "original_title": "ruOS",
+        "agent_keyword_hits": [
+          "ai agent"
+        ],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": []
+      }
+    },
+    {
+      "id": "product-hunt-b514dcdfe383",
+      "source": "Product Hunt",
+      "name": "OrgComputers",
+      "url": "https://www.producthunt.com/products/orgcomputers",
+      "description": "Workspace for your AI Agents Discussion | Link",
+      "published_at": "2026-10-05T02:54:22-07:00",
+      "discovered_at": "2026-10-06T07:23:57+00:00",
+      "author": "Kshitij Gera",
+      "metrics": {},
+      "tags": [],
+      "evidence": [
+        "Published via Product Hunt",
+        "2026-10-05T02:54:22-07:00"
+      ],
+      "raw_text": "OrgComputers Workspace for your AI Agents Discussion | Link ",
+      "opportunity_type": "Manus型",
+      "score": 27.6,
+      "dimension_scores": {
+        "growth_speed": 30.0,
+        "agent_innovation": 35,
+        "community_signal": 18.0,
+        "api_consumption_potential": 32,
+        "commercialization": 36,
+        "kimi_strategic_fit": 31
+      },
+      "recommended_action": "暂不跟进",
+      "reason_to_contact_now": "Product Hunt发布，无具体用户或API使用数据，仅描述为AI Agent工作空间。",
+      "commercial_summary": "AI Agent协作工作空间，当前无API消费或商业化规模信号，暂不具高价值客户潜力。",
+      "confidence": "low",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "metadata": {
+        "feed_url": "https://www.producthunt.com/feed",
+        "content_kind": "product_launch",
+        "original_title": "OrgComputers",
+        "agent_keyword_hits": [
+          "ai agent"
         ],
         "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": []
