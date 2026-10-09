@@ -454,3 +454,13 @@ run_at,id,name,source,score,opportunity_type,recommended_action,metric_name,metr
 2026-10-08T07:11:24+00:00,product-hunt-b616b2390d1f,ClawCall,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
 2026-10-08T07:11:24+00:00,product-hunt-02e5ea4ecefe,Termaxa,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
 2026-10-08T07:11:24+00:00,product-hunt-f973ebf85f41,Clippo,Product Hunt,27.6,Manus型,暂不跟进,none,0.0
+2026-10-09T07:15:50+00:00,github-bb836672cc4e,QingYunA/answer-me-with-html,GitHub,63.3,OpenClaw型,持续观察,stars,2389.0
+2026-10-09T07:15:50+00:00,github-e46c5c5fa932,mhtsec/ARTEX,GitHub,58.6,OpenClaw型,持续观察,stars,1328.0
+2026-10-09T07:15:50+00:00,github-a92ffe7c9469,trevaintdead/ai-game-modding-guides,GitHub,58.6,OpenClaw型,持续观察,stars,376.0
+2026-10-09T07:15:50+00:00,github-1cf90322bcb2,nachisama/ai-data-extractor,GitHub,55.6,OpenClaw型,持续观察,stars,135.0
+2026-10-09T07:15:50+00:00,github-3e335b92032f,uzairansaruzi/p3-stack,GitHub,54.7,OpenClaw型,持续观察,stars,143.0
+2026-10-09T07:15:50+00:00,hackernews-6535c56c66b4,Show HN: Edi Life OS – self-hosted life dashboard with an MCP server for AI,Hacker News,52.8,OpenClaw型,持续观察,points,34.0
+2026-10-09T07:15:50+00:00,product-hunt-11b6cba3669d,Opposable,Product Hunt,32.3,Manus型,暂不跟进,none,0.0
+2026-10-09T07:15:50+00:00,product-hunt-38a3bf067f89,OpenCharm,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
+2026-10-09T07:15:50+00:00,product-hunt-44f90b8f39f6,Cakie,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
+2026-10-09T07:15:50+00:00,product-hunt-51d7c8753a0f,Semwright,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
