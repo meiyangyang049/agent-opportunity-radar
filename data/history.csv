@@ -464,3 +464,13 @@ run_at,id,name,source,score,opportunity_type,recommended_action,metric_name,metr
 2026-10-09T07:15:50+00:00,product-hunt-38a3bf067f89,OpenCharm,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
 2026-10-09T07:15:50+00:00,product-hunt-44f90b8f39f6,Cakie,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
 2026-10-09T07:15:50+00:00,product-hunt-51d7c8753a0f,Semwright,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
+2026-10-10T06:53:01+00:00,github-c0c27568bb49,elstongun/leviathan,GitHub,62.8,OpenClaw型,持续观察,stars,716.0
+2026-10-10T06:53:01+00:00,github-99c27bf53df8,kutukam/autonomous-pentest-agent,GitHub,62.7,OpenClaw型,持续观察,stars,80.0
+2026-10-10T06:53:01+00:00,github-e46c5c5fa932,mhtsec/ARTEX,GitHub,62.6,OpenClaw型,持续观察,stars,2514.0
+2026-10-10T06:53:01+00:00,github-a9e54f13044d,Gentleman-Programming/gentle-dot,GitHub,61.4,OpenClaw型,持续观察,stars,98.0
+2026-10-10T06:53:01+00:00,github-d31aad93eb24,pullboard-dev/pullboard,GitHub,57.4,OpenClaw型,持续观察,stars,79.0
+2026-10-10T06:53:01+00:00,github-3e335b92032f,uzairansaruzi/p3-stack,GitHub,54.1,OpenClaw型,持续观察,stars,143.0
+2026-10-10T06:53:01+00:00,hackernews-329c64a9677a,"Show HN: A simple to-do app for iPhone, Mac, and your agent",Hacker News,34.8,Manus型,暂不跟进,points,7.0
+2026-10-10T06:53:01+00:00,product-hunt-11b6cba3669d,Opposable,Product Hunt,29.3,Manus型,暂不跟进,none,0.0
+2026-10-10T06:53:01+00:00,product-hunt-b36bfd672dcb,Zernio,Product Hunt,25.8,Manus型,暂不跟进,none,0.0
+2026-10-10T06:53:01+00:00,product-hunt-b431314203a6,AgentSDR,Product Hunt,25.8,Manus型,暂不跟进,none,0.0

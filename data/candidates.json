@@ -1,8 +1,8 @@
 {
   "meta": {
     "project": "Agent Opportunity Radar",
-    "generated_at": "2026-10-09T07:15:50+00:00",
-    "generated_at_display": "2026-10-09 15:15 CST",
+    "generated_at": "2026-10-10T06:53:01+00:00",
+    "generated_at_display": "2026-10-10 14:53 CST",
     "mode": "公开信号实时运行",
     "sources": [
       "GitHub",
@@ -14,85 +14,113 @@
       "AI news RSS: HTTPError: 429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
     ],
     "notices": [],
-    "candidate_pool_size": 35,
+    "candidate_pool_size": 47,
     "pool_by_source": {
-      "GitHub": 10,
-      "Hacker News": 13,
+      "GitHub": 12,
+      "Hacker News": 23,
       "Product Hunt": 12
     },
     "pool_by_type": {
-      "OpenClaw型": 16,
-      "其他Agent": 8,
-      "Manus型": 11
+      "OpenClaw型": 18,
+      "其他Agent": 20,
+      "Manus型": 9
     },
     "shortlist_policy": "Top 10；OpenClaw型/Manus型各至少4个（候选充足时）",
     "kimi_model": "kimi-k2.6"
   },
   "candidates": [
     {
-      "id": "github-bb836672cc4e",
+      "id": "github-c0c27568bb49",
       "source": "GitHub",
-      "name": "QingYunA/answer-me-with-html",
-      "url": "https://github.com/QingYunA/answer-me-with-html",
-      "description": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
-      "published_at": "2026-10-02T09:57:40Z",
-      "discovered_at": "2026-10-09T07:15:44+00:00",
-      "author": "QingYunA",
+      "name": "elstongun/leviathan",
+      "url": "https://github.com/elstongun/leviathan",
+      "description": "Deep memory for agents over large datasets. Leviathan is a single static binary that turns your records (JSONL, JSON, CSV/TSV, SQLite, or anything a database CLI can export) into a ranked full-text index.",
+      "published_at": "2026-10-05T08:57:44Z",
+      "discovered_at": "2026-10-10T06:52:56+00:00",
+      "author": "elstongun",
       "metrics": {
-        "stars": 2389,
-        "forks": 161,
-        "open_issues": 7,
-        "watchers": 2389
+        "stars": 716,
+        "forks": 39,
+        "open_issues": 0,
+        "watchers": 716
       },
-      "tags": [
-        "agent-skill",
-        "ai-agent",
-        "claude-code",
-        "claude-code-skill",
-        "claude-skill",
-        "claude-skills",
-        "cli",
-        "diagram",
-        "explainer",
-        "html",
-        "llm",
-        "ste100"
-      ],
+      "tags": [],
       "evidence": [
-        "+194 stars since last run",
-        "2,389 GitHub stars",
-        "161 forks",
-        "Created 2026-10-02"
+        "716 GitHub stars",
+        "39 forks",
+        "Created 2026-10-05"
       ],
-      "raw_text": "QingYunA/answer-me-with-html Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。 agent-skill ai-agent claude-code claude-code-skill claude-skill claude-skills cli diagram explainer html llm ste100",
+      "raw_text": "elstongun/leviathan Deep memory for agents over large datasets. Leviathan is a single static binary that turns your records (JSONL, JSON, CSV/TSV, SQLite, or anything a database CLI can export) into a ranked full-text index. ",
       "opportunity_type": "OpenClaw型",
-      "score": 63.3,
+      "score": 62.8,
       "dimension_scores": {
-        "growth_speed": 100.0,
-        "agent_innovation": 35,
+        "growth_speed": 96.8,
+        "agent_innovation": 24,
         "community_signal": 100.0,
-        "api_consumption_potential": 32,
+        "api_consumption_potential": 25,
         "commercialization": 18,
-        "kimi_strategic_fit": 47
+        "kimi_strategic_fit": 33
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "+194 stars since last run；2,389 GitHub stars；161 forks；Claude Code skill生态位",
-      "commercial_summary": "Claude Code技能插件，若扩展为多模型技能市场，可能成为Kimi在开发者工具链中的分发渠道或生态合作对象",
+      "reason_to_contact_now": "5天716 stars、39 forks，'Deep memory for agents'定位精准，Rust静态二进制易部署，填补Agent长记忆基础设施空白。",
+      "commercial_summary": "Agent记忆层基础设施，与模型API调用存在天然协同（RAG增强），可推动成为Kimi生态推荐组件或联合技术推广。",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
-        "language": "JavaScript",
-        "updated_at": "2026-10-09T07:14:35Z",
-        "homepage": "https://answer-me-with-html.com/",
+        "language": "Rust",
+        "updated_at": "2026-10-10T05:58:02Z",
+        "homepage": "",
+        "agent_keyword_hits": [],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": []
+      }
+    },
+    {
+      "id": "github-99c27bf53df8",
+      "source": "GitHub",
+      "name": "kutukam/autonomous-pentest-agent",
+      "url": "https://github.com/kutukam/autonomous-pentest-agent",
+      "description": "Autonomous Pentest Agent — LLM multi-agent autonomous penetration testing system (Go backend + Next.js UI). AGPL-3.0.",
+      "published_at": "2026-10-08T18:47:12Z",
+      "discovered_at": "2026-10-10T06:52:55+00:00",
+      "author": "kutukam",
+      "metrics": {
+        "stars": 80,
+        "forks": 203,
+        "open_issues": 0,
+        "watchers": 80
+      },
+      "tags": [],
+      "evidence": [
+        "80 GitHub stars",
+        "203 forks",
+        "Created 2026-10-08"
+      ],
+      "raw_text": "kutukam/autonomous-pentest-agent Autonomous Pentest Agent — LLM multi-agent autonomous penetration testing system (Go backend + Next.js UI). AGPL-3.0. ",
+      "opportunity_type": "OpenClaw型",
+      "score": 62.7,
+      "dimension_scores": {
+        "growth_speed": 81.9,
+        "agent_innovation": 35,
+        "community_signal": 100.0,
+        "api_consumption_potential": 50,
+        "commercialization": 18,
+        "kimi_strategic_fit": 39
+      },
+      "recommended_action": "持续观察",
+      "reason_to_contact_now": "203 forks远超80 stars，显示开发者fork试用意愿强，但项目创建仅2天，需验证实际采用率。",
+      "commercial_summary": "安全领域多Agent框架，AGPL协议下企业商用需托管服务，存在模型API接入与合规托管合作空间。",
+      "confidence": "medium",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "metadata": {
+        "language": "Go",
+        "updated_at": "2026-10-10T06:46:46Z",
+        "homepage": null,
         "agent_keyword_hits": [
-          "ai agent"
+          "multi-agent"
         ],
         "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": [
-          "skill"
-        ],
-        "metric_delta": 194.0,
-        "metric_velocity_per_day": 193.40456465049732
+        "ecosystem_keyword_hits": []
       }
     },
     {
@@ -102,23 +130,24 @@
       "url": "https://github.com/mhtsec/ARTEX",
       "description": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
       "published_at": "2026-10-08T05:33:06Z",
-      "discovered_at": "2026-10-09T07:15:44+00:00",
+      "discovered_at": "2026-10-10T06:52:55+00:00",
       "author": "mhtsec",
       "metrics": {
-        "stars": 1328,
-        "forks": 3119,
-        "open_issues": 1,
-        "watchers": 1328
+        "stars": 2514,
+        "forks": 4877,
+        "open_issues": 0,
+        "watchers": 2514
       },
       "tags": [],
       "evidence": [
-        "1,328 GitHub stars",
-        "3,119 forks",
+        "+1,186 stars since last run",
+        "2,514 GitHub stars",
+        "4,877 forks",
         "Created 2026-10-08"
       ],
       "raw_text": "mhtsec/ARTEX AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目 ",
       "opportunity_type": "OpenClaw型",
-      "score": 58.6,
+      "score": 62.6,
       "dimension_scores": {
         "growth_speed": 100.0,
         "agent_innovation": 24,
@@ -128,121 +157,123 @@
         "kimi_strategic_fit": 33
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "1,328 GitHub stars，3,119 forks，百度agent+攻防挑战赛冠军",
-      "commercial_summary": "安全渗透测试Agent，高fork/star比暗示企业/机构关注，可能成为垂直领域模型API客户或安全生态伙伴",
-      "confidence": "medium",
+      "reason_to_contact_now": "2天获2514 stars、4877 forks，增速1205/天极罕见，且为百度'agent+'攻防赛冠军，技术背书强。",
+      "commercial_summary": "中文安全Agent标杆项目，高fork率预示企业级自托管需求，可推动成为Kimi API在攻防场景的默认Provider。",
+      "confidence": "high",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "language": "Go",
-        "updated_at": "2026-10-09T07:15:19Z",
+        "updated_at": "2026-10-10T06:52:01Z",
         "homepage": null,
         "agent_keyword_hits": [],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": [],
+        "metric_delta": 1186.0,
+        "metric_velocity_per_day": 1205.0946125530688
+      }
+    },
+    {
+      "id": "github-a9e54f13044d",
+      "source": "GitHub",
+      "name": "Gentleman-Programming/gentle-dot",
+      "url": "https://github.com/Gentleman-Programming/gentle-dot",
+      "description": "A personal assistant that lives on your desktop, remembers what matters, and can use your Mac for you.",
+      "published_at": "2026-10-09T13:03:11Z",
+      "discovered_at": "2026-10-10T06:52:56+00:00",
+      "author": "Gentleman-Programming",
+      "metrics": {
+        "stars": 98,
+        "forks": 15,
+        "open_issues": 35,
+        "watchers": 98
+      },
+      "tags": [],
+      "evidence": [
+        "98 GitHub stars",
+        "15 forks",
+        "Created 2026-10-09"
+      ],
+      "raw_text": "Gentleman-Programming/gentle-dot A personal assistant that lives on your desktop, remembers what matters, and can use your Mac for you. ",
+      "opportunity_type": "OpenClaw型",
+      "score": 61.4,
+      "dimension_scores": {
+        "growth_speed": 90.9,
+        "agent_innovation": 35,
+        "community_signal": 90.7,
+        "api_consumption_potential": 32,
+        "commercialization": 18,
+        "kimi_strategic_fit": 39
+      },
+      "recommended_action": "持续观察",
+      "reason_to_contact_now": "1天获98 stars、35 open issues活跃度高，'use your Mac for you'明确指向Computer Use能力，TypeScript生态易集成。",
+      "commercial_summary": "桌面端个人Agent开源项目，Mac生态开发者工具属性强，可观察其模型Provider选择及插件化扩展意愿。",
+      "confidence": "medium",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "metadata": {
+        "language": "TypeScript",
+        "updated_at": "2026-10-10T06:50:14Z",
+        "homepage": "https://gentlemanprogramming.com/",
+        "agent_keyword_hits": [
+          "personal assistant"
+        ],
         "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": []
       }
     },
     {
-      "id": "github-a92ffe7c9469",
+      "id": "github-d31aad93eb24",
       "source": "GitHub",
-      "name": "trevaintdead/ai-game-modding-guides",
-      "url": "https://github.com/trevaintdead/ai-game-modding-guides",
-      "description": "Guides for building game mods with AI coding agents: passthrough mods, Rust rewrites, mod loaders, prompting, and troubleshooting.",
-      "published_at": "2026-10-03T11:48:59Z",
-      "discovered_at": "2026-10-09T07:15:45+00:00",
-      "author": "trevaintdead",
+      "name": "pullboard-dev/pullboard",
+      "url": "https://github.com/pullboard-dev/pullboard",
+      "description": "Autonomous development for real products. Agents build from the spec you approve, and nothing ships until another agent proves it.",
+      "published_at": "2026-10-07T04:14:39Z",
+      "discovered_at": "2026-10-10T06:52:55+00:00",
+      "author": "pullboard-dev",
       "metrics": {
-        "stars": 376,
-        "forks": 35,
+        "stars": 79,
+        "forks": 3,
         "open_issues": 0,
-        "watchers": 376
-      },
-      "tags": [],
-      "evidence": [
-        "+62 stars since last run",
-        "376 GitHub stars",
-        "35 forks",
-        "Created 2026-10-03"
-      ],
-      "raw_text": "trevaintdead/ai-game-modding-guides Guides for building game mods with AI coding agents: passthrough mods, Rust rewrites, mod loaders, prompting, and troubleshooting. ",
-      "opportunity_type": "OpenClaw型",
-      "score": 58.6,
-      "dimension_scores": {
-        "growth_speed": 100.0,
-        "agent_innovation": 24,
-        "community_signal": 100.0,
-        "api_consumption_potential": 25,
-        "commercialization": 18,
-        "kimi_strategic_fit": 33
-      },
-      "recommended_action": "持续观察",
-      "reason_to_contact_now": "+62 stars since last run，376 GitHub stars，AI coding agents游戏模组指南",
-      "commercial_summary": "游戏模组开发者教育内容，若形成Agent工作流标准，可能带动模型API在垂直创作者群体中的采用",
-      "confidence": "medium",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "language": null,
-        "updated_at": "2026-10-09T07:13:44Z",
-        "homepage": "",
-        "agent_keyword_hits": [],
-        "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": [],
-        "metric_delta": 62.0,
-        "metric_velocity_per_day": 61.809706228509455
-      }
-    },
-    {
-      "id": "github-1cf90322bcb2",
-      "source": "GitHub",
-      "name": "nachisama/ai-data-extractor",
-      "url": "https://github.com/nachisama/ai-data-extractor",
-      "description": "Free open-source extractor for AI coding assistant chat histories. Supports Claude Code, Cursor, Windsurf, Aider, Cline/Roo Code, and more.",
-      "published_at": "2026-10-07T14:57:39Z",
-      "discovered_at": "2026-10-09T07:15:45+00:00",
-      "author": "nachisama",
-      "metrics": {
-        "stars": 135,
-        "forks": 50,
-        "open_issues": 0,
-        "watchers": 135
+        "watchers": 79
       },
       "tags": [
-        "ai",
-        "ai-data",
-        "ai-data-analysis",
-        "claude-code",
-        "cursor",
-        "data-extraction",
-        "data-extraction-tool",
-        "data-extractor",
-        "windsurf",
-        "windsurf-ai"
+        "ai-agents",
+        "cli",
+        "coding-agents",
+        "developer-tools",
+        "git-hooks",
+        "local-first",
+        "multi-agent",
+        "verification",
+        "vibe-coding"
       ],
       "evidence": [
-        "135 GitHub stars",
-        "50 forks",
+        "79 GitHub stars",
+        "3 forks",
         "Created 2026-10-07"
       ],
-      "raw_text": "nachisama/ai-data-extractor Free open-source extractor for AI coding assistant chat histories. Supports Claude Code, Cursor, Windsurf, Aider, Cline/Roo Code, and more. ai ai-data ai-data-analysis claude-code cursor data-extraction data-extraction-tool data-extractor windsurf windsurf-ai",
+      "raw_text": "pullboard-dev/pullboard Autonomous development for real products. Agents build from the spec you approve, and nothing ships until another agent proves it. ai-agents cli coding-agents developer-tools git-hooks local-first multi-agent verification vibe-coding",
       "opportunity_type": "OpenClaw型",
-      "score": 55.6,
+      "score": 57.4,
       "dimension_scores": {
-        "growth_speed": 88.0,
-        "agent_innovation": 24,
-        "community_signal": 100.0,
-        "api_consumption_potential": 25,
+        "growth_speed": 71.1,
+        "agent_innovation": 35,
+        "community_signal": 77.3,
+        "api_consumption_potential": 50,
         "commercialization": 18,
-        "kimi_strategic_fit": 33
+        "kimi_strategic_fit": 39
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "135 GitHub stars，50 forks，支持Claude Code/Cursor/Windsurf/Aider/Cline等多工具数据提取",
-      "commercial_summary": "AI coding assistant数据互操作工具，若扩展支持Kimi相关工具链，可降低用户切换成本，属生态位合作或收购观察对象",
+      "reason_to_contact_now": "79 stars，3天增长，multi-agent自主开发框架，有homepage和明确定位",
+      "commercial_summary": "多Agent代码开发框架，若验证模型接入规模和付费转化，具备生态合作潜力",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
-        "language": "Python",
-        "updated_at": "2026-10-09T07:06:45Z",
-        "homepage": "",
-        "agent_keyword_hits": [],
+        "language": "JavaScript",
+        "updated_at": "2026-10-10T06:52:38Z",
+        "homepage": "https://pullboard.dev",
+        "agent_keyword_hits": [
+          "multi-agent"
+        ],
         "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": []
       }
@@ -254,12 +285,12 @@
       "url": "https://github.com/uzairansaruzi/p3-stack",
       "description": "pstack reworked for T3 Code: delegated subagents, worktree threads, PR watching, scheduled runs.",
       "published_at": "2026-10-05T07:40:37Z",
-      "discovered_at": "2026-10-09T07:15:45+00:00",
+      "discovered_at": "2026-10-10T06:52:55+00:00",
       "author": "uzairansaruzi",
       "metrics": {
         "stars": 143,
-        "forks": 9,
-        "open_issues": 4,
+        "forks": 10,
+        "open_issues": 3,
         "watchers": 143
       },
       "tags": [
@@ -268,25 +299,24 @@
         "t3-code"
       ],
       "evidence": [
-        "+2 stars since last run",
         "143 GitHub stars",
-        "9 forks",
+        "10 forks",
         "Created 2026-10-05"
       ],
       "raw_text": "uzairansaruzi/p3-stack pstack reworked for T3 Code: delegated subagents, worktree threads, PR watching, scheduled runs. agent-skills ai-agents t3-code",
       "opportunity_type": "OpenClaw型",
-      "score": 54.7,
+      "score": 54.1,
       "dimension_scores": {
-        "growth_speed": 76.1,
+        "growth_speed": 72.9,
         "agent_innovation": 24,
-        "community_signal": 91.1,
+        "community_signal": 91.9,
         "api_consumption_potential": 25,
         "commercialization": 18,
         "kimi_strategic_fit": 41
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "4天内143 stars，+2 stars增速，具备delegated subagents、worktree threads等Agent工程能力",
-      "commercial_summary": "T3 Code生态的Agent开发工具栈，若验证为多模型支持，可作为开发者生态合作候选",
+      "reason_to_contact_now": "143 stars，5天增长，delegated subagents/worktree threads/PR watching多Agent工作流",
+      "commercial_summary": "多Agent开发工作流框架，T3 Code生态关联，需验证默认模型和开发者付费意愿",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
@@ -298,53 +328,49 @@
         "ecosystem_keyword_hits": [
           "skill"
         ],
-        "metric_delta": 2.0,
-        "metric_velocity_per_day": 1.9938614912422403
+        "metric_delta": 0.0,
+        "metric_velocity_per_day": 0.0
       }
     },
     {
-      "id": "hackernews-6535c56c66b4",
+      "id": "hackernews-329c64a9677a",
       "source": "Hacker News",
-      "name": "Show HN: Edi Life OS – self-hosted life dashboard with an MCP server for AI",
-      "url": "https://github.com/edrisranjbar/lifeos",
-      "description": "Show HN: Edi Life OS – self-hosted life dashboard with an MCP server for AI",
-      "published_at": "1791504139",
-      "discovered_at": "2026-10-09T07:15:49+00:00",
-      "author": "edris0077",
+      "name": "Show HN: A simple to-do app for iPhone, Mac, and your agent",
+      "url": "https://ilia.page/writing/introducing-nagare",
+      "description": "Show HN: A simple to-do app for iPhone, Mac, and your agent",
+      "published_at": "1791607033",
+      "discovered_at": "2026-10-10T06:53:01+00:00",
+      "author": "shmilia",
       "metrics": {
-        "points": 34,
-        "comments": 12
+        "points": 7,
+        "comments": 1
       },
       "tags": [],
       "evidence": [
-        "34 HN points",
-        "12 comments"
+        "7 HN points",
+        "1 comments"
       ],
-      "raw_text": "Show HN: Edi Life OS – self-hosted life dashboard with an MCP server for AI ",
-      "opportunity_type": "OpenClaw型",
-      "score": 52.8,
+      "raw_text": "Show HN: A simple to-do app for iPhone, Mac, and your agent ",
+      "opportunity_type": "Manus型",
+      "score": 34.8,
       "dimension_scores": {
-        "growth_speed": 50.4,
-        "agent_innovation": 35,
-        "community_signal": 89.5,
-        "api_consumption_potential": 32,
+        "growth_speed": 38.6,
+        "agent_innovation": 24,
+        "community_signal": 57.5,
+        "api_consumption_potential": 25,
         "commercialization": 18,
-        "kimi_strategic_fit": 47
+        "kimi_strategic_fit": 33
       },
-      "recommended_action": "持续观察",
-      "reason_to_contact_now": "34 HN points、12 comments，self-hosted life dashboard + MCP server，社区反馈活跃",
-      "commercial_summary": "自托管+MCP组合具开发者工具属性，若形成个人知识管理/Agent编排社区，可纳入生态合作",
-      "confidence": "medium",
+      "recommended_action": "暂不跟进",
+      "reason_to_contact_now": "HN仅7 points 1评论，个人todo App，\"your agent\"功能未验证，无API调用证据",
+      "commercial_summary": "C端Agent集成尝试，信号极早，需观察用户增长和模型依赖后再评估",
+      "confidence": "low",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50014150",
-        "agent_keyword_hits": [
-          "mcp"
-        ],
+        "discussion_url": "https://news.ycombinator.com/item?id=50029607",
+        "agent_keyword_hits": [],
         "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": [
-          "self-hosted"
-        ]
+        "ecosystem_keyword_hits": []
       }
     },
     {
@@ -354,7 +380,7 @@
       "url": "https://www.producthunt.com/products/opposable",
       "description": "Computer use for phones to give your AI thumbs Discussion | Link",
       "published_at": "2026-10-07T13:54:42-07:00",
-      "discovered_at": "2026-10-09T07:15:49+00:00",
+      "discovered_at": "2026-10-10T06:53:01+00:00",
       "author": "Erik M",
       "metrics": {},
       "tags": [],
@@ -364,7 +390,7 @@
       ],
       "raw_text": "Opposable Computer use for phones to give your AI thumbs Discussion | Link ",
       "opportunity_type": "Manus型",
-      "score": 32.3,
+      "score": 29.3,
       "dimension_scores": {
         "growth_speed": 30.0,
         "agent_innovation": 35,
@@ -374,8 +400,8 @@
         "kimi_strategic_fit": 31
       },
       "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "Product Hunt发布，仅见描述无用户数据或融资信息",
-      "commercial_summary": "手机端Computer Use产品，但信息过少无法判断API调用规模或商业化阶段",
+      "reason_to_contact_now": "Product Hunt发布无具体用户数据，'computer use for phones'概念模糊，缺乏API调用规模证据。",
+      "commercial_summary": "手机端Computer Use产品，若实现真机操控需大量视觉模型API，但当前信号过早期，竞品替代性强。",
       "confidence": "low",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
@@ -390,127 +416,81 @@
       }
     },
     {
-      "id": "product-hunt-38a3bf067f89",
+      "id": "product-hunt-b36bfd672dcb",
       "source": "Product Hunt",
-      "name": "OpenCharm",
-      "url": "https://www.producthunt.com/products/opencharm",
-      "description": "Open-source body for the AI agent you already run Discussion | Link",
-      "published_at": "2026-10-07T08:54:37-07:00",
-      "discovered_at": "2026-10-09T07:15:49+00:00",
-      "author": "Michael",
+      "name": "Zernio",
+      "url": "https://www.producthunt.com/products/zernio",
+      "description": "Marketing infrastructure for products and agents Discussion | Link",
+      "published_at": "2026-10-07T04:56:43-07:00",
+      "discovered_at": "2026-10-10T06:53:01+00:00",
+      "author": "fmerian",
       "metrics": {},
       "tags": [],
       "evidence": [
         "Published via Product Hunt",
-        "2026-10-07T08:54:37-07:00"
+        "2026-10-07T04:56:43-07:00"
       ],
-      "raw_text": "OpenCharm Open-source body for the AI agent you already run Discussion | Link ",
+      "raw_text": "Zernio Marketing infrastructure for products and agents Discussion | Link ",
       "opportunity_type": "Manus型",
-      "score": 29.6,
+      "score": 25.8,
       "dimension_scores": {
         "growth_speed": 30.0,
-        "agent_innovation": 35,
+        "agent_innovation": 24,
         "community_signal": 18.0,
-        "api_consumption_potential": 32,
+        "api_consumption_potential": 25,
         "commercialization": 36,
-        "kimi_strategic_fit": 31
+        "kimi_strategic_fit": 25
       },
       "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "Product Hunt发布，描述模糊无具体功能或用户数据",
-      "commercial_summary": "硬件/机器人载体概念，信息不足无法判断与Kimi API的关联性",
-      "confidence": "low",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "feed_url": "https://www.producthunt.com/feed",
-        "content_kind": "product_launch",
-        "original_title": "OpenCharm",
-        "agent_keyword_hits": [
-          "ai agent"
-        ],
-        "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": []
-      }
-    },
-    {
-      "id": "product-hunt-44f90b8f39f6",
-      "source": "Product Hunt",
-      "name": "Cakie",
-      "url": "https://www.producthunt.com/products/cakie-2",
-      "description": "Turn screen recordings into prompts for AI agents Discussion | Link",
-      "published_at": "2026-10-05T18:16:50-07:00",
-      "discovered_at": "2026-10-09T07:15:49+00:00",
-      "author": "Jay Song",
-      "metrics": {},
-      "tags": [],
-      "evidence": [
-        "Published via Product Hunt",
-        "2026-10-05T18:16:50-07:00"
-      ],
-      "raw_text": "Cakie Turn screen recordings into prompts for AI agents Discussion | Link ",
-      "opportunity_type": "Manus型",
-      "score": 29.6,
-      "dimension_scores": {
-        "growth_speed": 30.0,
-        "agent_innovation": 35,
-        "community_signal": 18.0,
-        "api_consumption_potential": 32,
-        "commercialization": 36,
-        "kimi_strategic_fit": 31
-      },
-      "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "Product Hunt发布，无用户或收入数据",
-      "commercial_summary": "屏幕录制转Agent prompt工具，若产生规模化的prompt-engineering工作流，可能成为Kimi API的上游流量入口",
-      "confidence": "low",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "feed_url": "https://www.producthunt.com/feed",
-        "content_kind": "product_launch",
-        "original_title": "Cakie",
-        "agent_keyword_hits": [
-          "ai agent"
-        ],
-        "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": []
-      }
-    },
-    {
-      "id": "product-hunt-51d7c8753a0f",
-      "source": "Product Hunt",
-      "name": "Semwright",
-      "url": "https://www.producthunt.com/products/semwright",
-      "description": "Give AI agents structured access to real software Discussion | Link",
-      "published_at": "2026-10-07T18:08:23-07:00",
-      "discovered_at": "2026-10-09T07:15:49+00:00",
-      "author": "Sergio Ramírez",
-      "metrics": {},
-      "tags": [],
-      "evidence": [
-        "Published via Product Hunt",
-        "2026-10-07T18:08:23-07:00"
-      ],
-      "raw_text": "Semwright Give AI agents structured access to real software Discussion | Link ",
-      "opportunity_type": "Manus型",
-      "score": 29.6,
-      "dimension_scores": {
-        "growth_speed": 30.0,
-        "agent_innovation": 35,
-        "community_signal": 18.0,
-        "api_consumption_potential": 32,
-        "commercialization": 36,
-        "kimi_strategic_fit": 31
-      },
-      "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "Published via Product Hunt；2026-10-07T18:08:23-07:00；Agent signals: ai agent",
+      "reason_to_contact_now": "Published via Product Hunt；2026-10-07T04:56:43-07:00",
       "commercial_summary": "产品型机会，优先判断API调用规模、付费增长和战略客户合作空间。",
       "confidence": "medium",
       "scoring_mode": "规则预评分",
       "metadata": {
         "feed_url": "https://www.producthunt.com/feed",
         "content_kind": "product_launch",
-        "original_title": "Semwright",
-        "agent_keyword_hits": [
-          "ai agent"
-        ],
+        "original_title": "Zernio",
+        "agent_keyword_hits": [],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": []
+      }
+    },
+    {
+      "id": "product-hunt-b431314203a6",
+      "source": "Product Hunt",
+      "name": "AgentSDR",
+      "url": "https://www.producthunt.com/products/agentsdr",
+      "description": "Open-source AI SDR Discussion | Link",
+      "published_at": "2026-10-06T02:07:53-07:00",
+      "discovered_at": "2026-10-10T06:53:01+00:00",
+      "author": "Kevin William David",
+      "metrics": {},
+      "tags": [],
+      "evidence": [
+        "Published via Product Hunt",
+        "2026-10-06T02:07:53-07:00"
+      ],
+      "raw_text": "AgentSDR Open-source AI SDR Discussion | Link ",
+      "opportunity_type": "Manus型",
+      "score": 25.8,
+      "dimension_scores": {
+        "growth_speed": 30.0,
+        "agent_innovation": 24,
+        "community_signal": 18.0,
+        "api_consumption_potential": 25,
+        "commercialization": 36,
+        "kimi_strategic_fit": 25
+      },
+      "recommended_action": "暂不跟进",
+      "reason_to_contact_now": "Published via Product Hunt；2026-10-06T02:07:53-07:00",
+      "commercial_summary": "产品型机会，优先判断API调用规模、付费增长和战略客户合作空间。",
+      "confidence": "medium",
+      "scoring_mode": "规则预评分",
+      "metadata": {
+        "feed_url": "https://www.producthunt.com/feed",
+        "content_kind": "product_launch",
+        "original_title": "AgentSDR",
+        "agent_keyword_hits": [],
         "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": []
       }
