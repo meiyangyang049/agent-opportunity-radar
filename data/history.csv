@@ -484,3 +484,13 @@ run_at,id,name,source,score,opportunity_type,recommended_action,metric_name,metr
 2026-10-11T06:57:26+00:00,product-hunt-35fc9cb1cc96,Lune,Product Hunt,25.6,Manus型,暂不跟进,none,0.0
 2026-10-11T06:57:26+00:00,product-hunt-011005b0e1d5,Maildun for Mac,Product Hunt,23.6,Manus型,暂不跟进,none,0.0
 2026-10-11T06:57:26+00:00,product-hunt-666da9c9a2d3,Microsoft-Decision-1,Product Hunt,20.8,Manus型,暂不跟进,none,0.0
+2026-10-12T07:09:52+00:00,github-d0cc0ebda7e0,rociiu/talorys,GitHub,63.3,OpenClaw型,持续观察,stars,789.0
+2026-10-12T07:09:52+00:00,github-37cd5efe1097,wheresryan22/anatomy,GitHub,59.4,OpenClaw型,持续观察,stars,4111.0
+2026-10-12T07:09:52+00:00,github-99c27bf53df8,kutukam/autonomous-pentest-agent,GitHub,59.0,OpenClaw型,持续观察,stars,119.0
+2026-10-12T07:09:52+00:00,github-e46c5c5fa932,mhtsec/ARTEX,GitHub,57.6,OpenClaw型,持续观察,stars,3356.0
+2026-10-12T07:09:52+00:00,github-a9e54f13044d,Gentleman-Programming/gentle-dot,GitHub,57.6,OpenClaw型,持续观察,stars,140.0
+2026-10-12T07:09:52+00:00,github-d31aad93eb24,pullboard-dev/pullboard,GitHub,54.3,OpenClaw型,暂不跟进,stars,99.0
+2026-10-12T07:09:52+00:00,hackernews-958c67f75f68,"Nvidia, Microsoft Launch Windows PCs with RTX Spark and AI Agents",Hacker News,34.4,Manus型,暂不跟进,points,5.0
+2026-10-12T07:09:52+00:00,product-hunt-cf9641cc76f4,Hexis Cloud,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
+2026-10-12T07:09:52+00:00,product-hunt-cc59b34d6ca7,Manifold MCP,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
+2026-10-12T07:09:52+00:00,hackernews-ac41e90ecdb3,Omalauncher – Agentic Android Launcher,Hacker News,29.0,Manus型,暂不跟进,points,1.0
