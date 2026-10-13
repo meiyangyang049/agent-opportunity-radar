@@ -1,8 +1,8 @@
 {
   "meta": {
     "project": "Agent Opportunity Radar",
-    "generated_at": "2026-10-12T07:09:52+00:00",
-    "generated_at_display": "2026-10-12 15:09 CST",
+    "generated_at": "2026-10-13T07:33:52+00:00",
+    "generated_at_display": "2026-10-13 15:33 CST",
     "mode": "公开信号实时运行",
     "sources": [
       "GitHub",
@@ -14,16 +14,16 @@
       "AI news RSS: HTTPError: 429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
     ],
     "notices": [],
-    "candidate_pool_size": 42,
+    "candidate_pool_size": 55,
     "pool_by_source": {
-      "GitHub": 14,
-      "Hacker News": 21,
-      "Product Hunt": 7
+      "GitHub": 12,
+      "Hacker News": 29,
+      "Product Hunt": 14
     },
     "pool_by_type": {
-      "OpenClaw型": 16,
-      "其他Agent": 17,
-      "Manus型": 9
+      "OpenClaw型": 23,
+      "其他Agent": 20,
+      "Manus型": 12
     },
     "shortlist_policy": "Top 10；OpenClaw型/Manus型各至少4个（候选充足时）",
     "kimi_model": "kimi-k2.6"
@@ -36,13 +36,13 @@
       "url": "https://github.com/rociiu/talorys",
       "description": "Your personal AI agent in your own Cloudflare account. Chat, memory, tasks, notes and scheduled reminders, deployed with one command: npx create-talorys@latest. Free-tier friendly, single-user, no telemetry.",
       "published_at": "2026-10-10T09:46:56Z",
-      "discovered_at": "2026-10-12T07:09:47+00:00",
+      "discovered_at": "2026-10-13T07:33:48+00:00",
       "author": "rociiu",
       "metrics": {
-        "stars": 789,
-        "forks": 63,
-        "open_issues": 9,
-        "watchers": 789
+        "stars": 918,
+        "forks": 80,
+        "open_issues": 6,
+        "watchers": 918
       },
       "tags": [
         "ai-agent",
@@ -56,14 +56,14 @@
         "workers-ai"
       ],
       "evidence": [
-        "+296 stars since last run",
-        "789 GitHub stars",
-        "63 forks",
+        "+129 stars since last run",
+        "918 GitHub stars",
+        "80 forks",
         "Created 2026-10-10"
       ],
       "raw_text": "rociiu/talorys Your personal AI agent in your own Cloudflare account. Chat, memory, tasks, notes and scheduled reminders, deployed with one command: npx create-talorys@latest. Free-tier friendly, single-user, no telemetry. ai-agent cloudflare cloudflare-workers durable-objects personal-assistant react self-hosted typescript workers-ai",
       "opportunity_type": "OpenClaw型",
-      "score": 63.3,
+      "score": 65.3,
       "dimension_scores": {
         "growth_speed": 100.0,
         "agent_innovation": 35,
@@ -73,13 +73,13 @@
         "kimi_strategic_fit": 47
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "+296 stars since last run；789 GitHub stars；63 forks，Cloudflare Workers部署的个人AI Agent框架",
-      "commercial_summary": "自托管Agent模板，可观察其默认LLM Provider选择，若后续支持多Provider切换存在模型API接入合作空间",
+      "reason_to_contact_now": "5天内918星、80 fork，增速极快；Cloudflare Workers部署，个人AI Agent自托管场景明确",
+      "commercial_summary": "个人自托管Agent框架，可观察其模型Provider选择及后续多用户/企业版动向，潜在生态合作对象",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "language": "TypeScript",
-        "updated_at": "2026-10-12T07:09:04Z",
+        "updated_at": "2026-10-13T07:32:41Z",
         "homepage": null,
         "agent_keyword_hits": [
           "ai agent"
@@ -88,8 +88,8 @@
         "ecosystem_keyword_hits": [
           "self-hosted"
         ],
-        "metric_delta": 296.0,
-        "metric_velocity_per_day": 293.46613728685196
+        "metric_delta": 129.0,
+        "metric_velocity_per_day": 126.88524590163935
       }
     },
     {
@@ -99,13 +99,13 @@
       "url": "https://github.com/wheresryan22/anatomy",
       "description": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
       "published_at": "2026-10-08T10:12:49Z",
-      "discovered_at": "2026-10-12T07:09:47+00:00",
+      "discovered_at": "2026-10-13T07:33:49+00:00",
       "author": "wheresryan22",
       "metrics": {
-        "stars": 4111,
-        "forks": 323,
+        "stars": 6900,
+        "forks": 496,
         "open_issues": 4,
-        "watchers": 4111
+        "watchers": 6900
       },
       "tags": [
         "agent-skill",
@@ -114,13 +114,14 @@
         "vizualization"
       ],
       "evidence": [
-        "4,111 GitHub stars",
-        "323 forks",
+        "+2,789 stars since last run",
+        "6,900 GitHub stars",
+        "496 forks",
         "Created 2026-10-08"
       ],
       "raw_text": "wheresryan22/anatomy An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects. agent-skill open-source svg vizualization",
       "opportunity_type": "OpenClaw型",
-      "score": 59.4,
+      "score": 63.4,
       "dimension_scores": {
         "growth_speed": 100.0,
         "agent_innovation": 24,
@@ -130,119 +131,21 @@
         "kimi_strategic_fit": 41
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "4,111 GitHub stars；323 forks；Created 2026-10-08，高星开源Agent技能/插件",
-      "commercial_summary": "高热度Agent技能（SVG可视化），可观察其是否扩展为多技能平台或MCP生态，存在后续模型API接入机会",
+      "reason_to_contact_now": "5天内6900星、496 fork，增速2743/天极快；明确的agent skill定位，SVG/WebGL可视化输出",
+      "commercial_summary": "高热度Agent Skill（可视化生成），技能/插件生态型机会，需追踪其是否形成Skill平台及默认模型接入，潜在生态标杆",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "language": "JavaScript",
-        "updated_at": "2026-10-12T07:08:51Z",
+        "updated_at": "2026-10-13T07:33:46Z",
         "homepage": "https://skills.wheresryan.sh/anatomy",
         "agent_keyword_hits": [],
         "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": [
           "skill"
-        ]
-      }
-    },
-    {
-      "id": "github-99c27bf53df8",
-      "source": "GitHub",
-      "name": "kutukam/autonomous-pentest-agent",
-      "url": "https://github.com/kutukam/autonomous-pentest-agent",
-      "description": "Autonomous Pentest Agent — LLM multi-agent autonomous penetration testing system (Go backend + Next.js UI). AGPL-3.0.",
-      "published_at": "2026-10-08T18:47:12Z",
-      "discovered_at": "2026-10-12T07:09:46+00:00",
-      "author": "kutukam",
-      "metrics": {
-        "stars": 119,
-        "forks": 267,
-        "open_issues": 0,
-        "watchers": 119
-      },
-      "tags": [],
-      "evidence": [
-        "+7 stars since last run",
-        "119 GitHub stars",
-        "267 forks",
-        "Created 2026-10-08"
-      ],
-      "raw_text": "kutukam/autonomous-pentest-agent Autonomous Pentest Agent — LLM multi-agent autonomous penetration testing system (Go backend + Next.js UI). AGPL-3.0. ",
-      "opportunity_type": "OpenClaw型",
-      "score": 59.0,
-      "dimension_scores": {
-        "growth_speed": 75.3,
-        "agent_innovation": 35,
-        "community_signal": 100.0,
-        "api_consumption_potential": 50,
-        "commercialization": 18,
-        "kimi_strategic_fit": 39
-      },
-      "recommended_action": "持续观察",
-      "reason_to_contact_now": "119 GitHub stars；267 forks（fork数显著高于stars），Go+Next.js技术栈，AGPL-3.0协议",
-      "commercial_summary": "安全领域多Agent系统，fork异常高可能表明二次开发活跃，可观察企业版或SaaS化动向及模型Provider选择",
-      "confidence": "medium",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "language": "Go",
-        "updated_at": "2026-10-12T04:11:49Z",
-        "homepage": null,
-        "agent_keyword_hits": [
-          "multi-agent"
         ],
-        "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": [],
-        "metric_delta": 7.0,
-        "metric_velocity_per_day": 6.940077570972851
-      }
-    },
-    {
-      "id": "github-e46c5c5fa932",
-      "source": "GitHub",
-      "name": "mhtsec/ARTEX",
-      "url": "https://github.com/mhtsec/ARTEX",
-      "description": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
-      "published_at": "2026-10-08T05:33:06Z",
-      "discovered_at": "2026-10-12T07:09:46+00:00",
-      "author": "mhtsec",
-      "metrics": {
-        "stars": 3356,
-        "forks": 5782,
-        "open_issues": 0,
-        "watchers": 3356
-      },
-      "tags": [],
-      "evidence": [
-        "+353 stars since last run",
-        "3,356 GitHub stars",
-        "5,782 forks",
-        "Created 2026-10-08"
-      ],
-      "raw_text": "mhtsec/ARTEX AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目 ",
-      "opportunity_type": "OpenClaw型",
-      "score": 57.6,
-      "dimension_scores": {
-        "growth_speed": 100.0,
-        "agent_innovation": 24,
-        "community_signal": 100.0,
-        "api_consumption_potential": 25,
-        "commercialization": 18,
-        "kimi_strategic_fit": 33
-      },
-      "recommended_action": "持续观察",
-      "reason_to_contact_now": "+353 stars since last run；3,356 GitHub stars；5,782 forks（fork数极高），百度比赛冠军背景",
-      "commercial_summary": "国内安全领域高热度开源Agent，fork数远超stars暗示大量二次开发；需关注是否形成商业化公司及模型Provider选择，但当前AGPL协议和百度背景可能限制合作空间",
-      "confidence": "medium",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "language": "Go",
-        "updated_at": "2026-10-12T07:07:43Z",
-        "homepage": null,
-        "agent_keyword_hits": [],
-        "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": [],
-        "metric_delta": 353.0,
-        "metric_velocity_per_day": 349.9781975076309
+        "metric_delta": 2789.0,
+        "metric_velocity_per_day": 2743.2786885245905
       }
     },
     {
@@ -252,48 +155,48 @@
       "url": "https://github.com/Gentleman-Programming/gentle-dot",
       "description": "A personal assistant that lives on your desktop, remembers what matters, and can use your Mac for you.",
       "published_at": "2026-10-09T13:03:11Z",
-      "discovered_at": "2026-10-12T07:09:47+00:00",
+      "discovered_at": "2026-10-13T07:33:48+00:00",
       "author": "Gentleman-Programming",
       "metrics": {
-        "stars": 140,
-        "forks": 27,
-        "open_issues": 22,
-        "watchers": 140
+        "stars": 151,
+        "forks": 30,
+        "open_issues": 25,
+        "watchers": 151
       },
       "tags": [],
       "evidence": [
-        "+12 stars since last run",
-        "140 GitHub stars",
-        "27 forks",
+        "+11 stars since last run",
+        "151 GitHub stars",
+        "30 forks",
         "Created 2026-10-09"
       ],
       "raw_text": "Gentleman-Programming/gentle-dot A personal assistant that lives on your desktop, remembers what matters, and can use your Mac for you. ",
       "opportunity_type": "OpenClaw型",
-      "score": 57.6,
+      "score": 58.9,
       "dimension_scores": {
-        "growth_speed": 81.2,
+        "growth_speed": 77.7,
         "agent_innovation": 35,
-        "community_signal": 99.1,
+        "community_signal": 100.0,
         "api_consumption_potential": 32,
         "commercialization": 18,
         "kimi_strategic_fit": 39
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "GitHub 140 stars，+12 stars增速，27 forks，TypeScript桌面Agent，有开发者社区热度",
-      "commercial_summary": "桌面个人助理开源项目，Mac自动化能力可能产生模型调用需求，需观察默认LLM接入和分发规模",
+      "reason_to_contact_now": "4天内151 stars、30 forks，+11 stars日增速约10.8，TypeScript桌面Agent工具受开发者关注",
+      "commercial_summary": "个人桌面助手开源项目，高star增速表明开发者兴趣，需跟踪其LLM默认接入商及是否形成插件生态",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "language": "TypeScript",
-        "updated_at": "2026-10-12T04:33:09Z",
+        "updated_at": "2026-10-12T21:32:02Z",
         "homepage": "https://gentlemanprogramming.com/",
         "agent_keyword_hits": [
           "personal assistant"
         ],
         "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": [],
-        "metric_delta": 12.0,
-        "metric_velocity_per_day": 11.897275835953458
+        "metric_delta": 11.0,
+        "metric_velocity_per_day": 10.819672131147541
       }
     },
     {
@@ -303,13 +206,13 @@
       "url": "https://github.com/pullboard-dev/pullboard",
       "description": "Autonomous development for real products. Agents build from the spec you approve, and nothing ships until another agent proves it.",
       "published_at": "2026-10-07T04:14:39Z",
-      "discovered_at": "2026-10-12T07:09:46+00:00",
+      "discovered_at": "2026-10-13T07:33:47+00:00",
       "author": "pullboard-dev",
       "metrics": {
-        "stars": 99,
-        "forks": 4,
-        "open_issues": 0,
-        "watchers": 99
+        "stars": 110,
+        "forks": 5,
+        "open_issues": 3,
+        "watchers": 110
       },
       "tags": [
         "ai-agents",
@@ -323,99 +226,156 @@
         "vibe-coding"
       ],
       "evidence": [
-        "+9 stars since last run",
-        "99 GitHub stars",
-        "4 forks",
+        "+11 stars since last run",
+        "110 GitHub stars",
+        "5 forks",
         "Created 2026-10-07"
       ],
       "raw_text": "pullboard-dev/pullboard Autonomous development for real products. Agents build from the spec you approve, and nothing ships until another agent proves it. ai-agents cli coding-agents developer-tools git-hooks local-first multi-agent verification vibe-coding",
       "opportunity_type": "OpenClaw型",
-      "score": 54.3,
+      "score": 57.6,
       "dimension_scores": {
-        "growth_speed": 71.3,
+        "growth_speed": 74.5,
         "agent_innovation": 35,
-        "community_signal": 81.5,
+        "community_signal": 84.1,
         "api_consumption_potential": 50,
         "commercialization": 18,
         "kimi_strategic_fit": 39
       },
-      "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "GitHub 99 stars，+9 stars，4 forks，多Agent代码开发验证流程，标签含multi-agent/vibe-coding",
-      "commercial_summary": "自主开发Agent框架，spec驱动+验证Agent机制可能产生多轮模型调用，需观察默认模型接入和企业采用",
+      "recommended_action": "持续观察",
+      "reason_to_contact_now": "6天内110 stars、5 forks，+11 stars日增速约10.8，多Agent代码验证工作流获开发者关注",
+      "commercial_summary": "自主开发Agent工具链，multi-agent + verification架构若普及将显著消耗模型API，需跟踪默认模型接入",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "language": "JavaScript",
-        "updated_at": "2026-10-12T06:25:24Z",
+        "updated_at": "2026-10-13T07:21:33Z",
         "homepage": "https://pullboard.dev",
         "agent_keyword_hits": [
           "multi-agent"
         ],
         "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": [],
-        "metric_delta": 9.0,
-        "metric_velocity_per_day": 8.922956876965094
+        "metric_delta": 11.0,
+        "metric_velocity_per_day": 10.819672131147541
       }
     },
     {
-      "id": "hackernews-958c67f75f68",
-      "source": "Hacker News",
-      "name": "Nvidia, Microsoft Launch Windows PCs with RTX Spark and AI Agents",
-      "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/",
-      "description": "Nvidia, Microsoft Launch Windows PCs with RTX Spark and AI Agents",
-      "published_at": "1791771635",
-      "discovered_at": "2026-10-12T07:09:51+00:00",
-      "author": "gmays",
+      "id": "github-99c27bf53df8",
+      "source": "GitHub",
+      "name": "kutukam/autonomous-pentest-agent",
+      "url": "https://github.com/kutukam/autonomous-pentest-agent",
+      "description": "Autonomous Pentest Agent — LLM multi-agent autonomous penetration testing system (Go backend + Next.js UI). AGPL-3.0.",
+      "published_at": "2026-10-08T18:47:12Z",
+      "discovered_at": "2026-10-13T07:33:47+00:00",
+      "author": "kutukam",
       "metrics": {
-        "points": 5,
-        "comments": 1
+        "stars": 132,
+        "forks": 283,
+        "open_issues": 0,
+        "watchers": 132
       },
       "tags": [],
       "evidence": [
-        "5 HN points",
-        "1 comments"
+        "+13 stars since last run",
+        "132 GitHub stars",
+        "283 forks",
+        "Created 2026-10-08"
       ],
-      "raw_text": "Nvidia, Microsoft Launch Windows PCs with RTX Spark and AI Agents ",
-      "opportunity_type": "Manus型",
-      "score": 34.4,
+      "raw_text": "kutukam/autonomous-pentest-agent Autonomous Pentest Agent — LLM multi-agent autonomous penetration testing system (Go backend + Next.js UI). AGPL-3.0. ",
+      "opportunity_type": "OpenClaw型",
+      "score": 57.5,
       "dimension_scores": {
-        "growth_speed": 36.3,
+        "growth_speed": 77.2,
         "agent_innovation": 35,
-        "community_signal": 54.0,
-        "api_consumption_potential": 32,
+        "community_signal": 100.0,
+        "api_consumption_potential": 50,
         "commercialization": 18,
         "kimi_strategic_fit": 39
       },
-      "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "5 HN points；1 comments，仅为硬件发布新闻，无具体Agent产品细节",
-      "commercial_summary": "终端侧AI硬件生态信号，非直接API客户；Nvidia/Microsoft自有模型生态，短期无Kimi API合作空间",
-      "confidence": "low",
+      "recommended_action": "持续观察",
+      "reason_to_contact_now": "132星但283 fork（fork数异常高于star），AGPL-3.0协议，Go+Next.js技术栈",
+      "commercial_summary": "安全领域多Agent渗透测试系统，fork/star比异常或暗示批量复制/研究用途，需确认实际活跃使用者及模型消耗量",
+      "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50050540",
+        "language": "Go",
+        "updated_at": "2026-10-13T07:32:24Z",
+        "homepage": null,
         "agent_keyword_hits": [
-          "ai agent"
+          "multi-agent"
         ],
         "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": []
+        "ecosystem_keyword_hits": [],
+        "metric_delta": 13.0,
+        "metric_velocity_per_day": 12.78688524590164
       }
     },
     {
-      "id": "product-hunt-cf9641cc76f4",
+      "id": "github-e46c5c5fa932",
+      "source": "GitHub",
+      "name": "mhtsec/ARTEX",
+      "url": "https://github.com/mhtsec/ARTEX",
+      "description": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
+      "published_at": "2026-10-08T05:33:06Z",
+      "discovered_at": "2026-10-13T07:33:47+00:00",
+      "author": "mhtsec",
+      "metrics": {
+        "stars": 3717,
+        "forks": 6095,
+        "open_issues": 1,
+        "watchers": 3717
+      },
+      "tags": [],
+      "evidence": [
+        "+361 stars since last run",
+        "3,717 GitHub stars",
+        "6,095 forks",
+        "Created 2026-10-08"
+      ],
+      "raw_text": "mhtsec/ARTEX AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目 ",
+      "opportunity_type": "OpenClaw型",
+      "score": 54.6,
+      "dimension_scores": {
+        "growth_speed": 100.0,
+        "agent_innovation": 24,
+        "community_signal": 100.0,
+        "api_consumption_potential": 25,
+        "commercialization": 18,
+        "kimi_strategic_fit": 33
+      },
+      "recommended_action": "持续观察",
+      "reason_to_contact_now": "3717星、6095 fork（fork远高于star异常），百度比赛冠军项目，中文安全社区驱动",
+      "commercial_summary": "国产安全领域Agent项目，fork异常高或含批量镜像/刷量，需验证真实活跃用户及模型API消耗；若属实则为垂直领域高调用潜力客户",
+      "confidence": "medium",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "metadata": {
+        "language": "Go",
+        "updated_at": "2026-10-13T07:30:53Z",
+        "homepage": null,
+        "agent_keyword_hits": [],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": [],
+        "metric_delta": 361.0,
+        "metric_velocity_per_day": 355.08196721311475
+      }
+    },
+    {
+      "id": "product-hunt-a36f30cd238f",
       "source": "Product Hunt",
-      "name": "Hexis Cloud",
-      "url": "https://www.producthunt.com/products/bevel-software",
-      "description": "One company brain for all your AI agents Discussion | Link",
-      "published_at": "2026-10-08T07:08:07-07:00",
-      "discovered_at": "2026-10-12T07:09:51+00:00",
-      "author": "fmerian",
+      "name": "Upsolve Row-Level Security",
+      "url": "https://www.producthunt.com/products/upsolve-ai",
+      "description": "Data permissions your AI agent can't talk its way past Discussion | Link",
+      "published_at": "2026-10-07T14:50:34-07:00",
+      "discovered_at": "2026-10-13T07:33:52+00:00",
+      "author": "Ka Ling Wu",
       "metrics": {},
       "tags": [],
       "evidence": [
         "Published via Product Hunt",
-        "2026-10-08T07:08:07-07:00"
+        "2026-10-07T14:50:34-07:00"
       ],
-      "raw_text": "Hexis Cloud One company brain for all your AI agents Discussion | Link ",
+      "raw_text": "Upsolve Row-Level Security Data permissions your AI agent can't talk its way past Discussion | Link ",
       "opportunity_type": "Manus型",
       "score": 29.6,
       "dimension_scores": {
@@ -427,14 +387,14 @@
         "kimi_strategic_fit": 31
       },
       "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "Product Hunt发布，仅描述为'One company brain for all your AI agents'，无用户、付费或模型依赖证据",
-      "commercial_summary": "企业级AI Agent中枢概念，但缺乏API调用规模、客户签约或技术栈信息，当前商业化潜力不明",
+      "reason_to_contact_now": "Product Hunt发布，仅提及Row-Level Security功能，无付费客户或API规模证据",
+      "commercial_summary": "数据权限中间件，若AI Agent采用量大可能产生API调用，但当前无商业化信号",
       "confidence": "low",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "feed_url": "https://www.producthunt.com/feed",
         "content_kind": "product_launch",
-        "original_title": "Hexis Cloud",
+        "original_title": "Upsolve Row-Level Security",
         "agent_keyword_hits": [
           "ai agent"
         ],
@@ -449,7 +409,7 @@
       "url": "https://www.producthunt.com/products/manifold-mcp",
       "description": "SEO, AI answers, social, ads and leads data for your agent Discussion | Link",
       "published_at": "2026-10-11T14:01:27-07:00",
-      "discovered_at": "2026-10-12T07:09:51+00:00",
+      "discovered_at": "2026-10-13T07:33:52+00:00",
       "author": "Jesse Sibley",
       "metrics": {},
       "tags": [],
@@ -469,8 +429,8 @@
         "kimi_strategic_fit": 31
       },
       "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "Product Hunt发布，描述为SEO/AI answers/social/ads/leads数据供给Agent，无用户或付费证据",
-      "commercial_summary": "MCP数据供给型产品，若Agent生态扩展可能成为中间层，但当前无API消费量或客户规模信号",
+      "reason_to_contact_now": "Product Hunt发布，MCP数据连接器，无用户增长或付费转化证据",
+      "commercial_summary": "Agent数据供给服务，若客户侧Agent调用量大则可能成为API消费者，但当前仅产品发布",
       "confidence": "low",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
@@ -485,43 +445,84 @@
       }
     },
     {
-      "id": "hackernews-ac41e90ecdb3",
-      "source": "Hacker News",
-      "name": "Omalauncher – Agentic Android Launcher",
-      "url": "https://github.com/SimonSchubert/omalauncher",
-      "description": "Omalauncher – Agentic Android Launcher",
-      "published_at": "1791788535",
-      "discovered_at": "2026-10-12T07:09:51+00:00",
-      "author": "alishayk",
-      "metrics": {
-        "points": 1,
-        "comments": 0
-      },
+      "id": "product-hunt-cf9641cc76f4",
+      "source": "Product Hunt",
+      "name": "Hexis Cloud",
+      "url": "https://www.producthunt.com/products/bevel-software",
+      "description": "One company brain for all your AI agents Discussion | Link",
+      "published_at": "2026-10-08T07:08:07-07:00",
+      "discovered_at": "2026-10-13T07:33:52+00:00",
+      "author": "fmerian",
+      "metrics": {},
       "tags": [],
       "evidence": [
-        "1 HN points",
-        "0 comments"
+        "Published via Product Hunt",
+        "2026-10-08T07:08:07-07:00"
       ],
-      "raw_text": "Omalauncher – Agentic Android Launcher ",
+      "raw_text": "Hexis Cloud One company brain for all your AI agents Discussion | Link ",
       "opportunity_type": "Manus型",
-      "score": 29.0,
+      "score": 29.6,
       "dimension_scores": {
-        "growth_speed": 27.5,
+        "growth_speed": 30.0,
         "agent_innovation": 35,
-        "community_signal": 33.2,
+        "community_signal": 18.0,
         "api_consumption_potential": 32,
-        "commercialization": 18,
-        "kimi_strategic_fit": 39
+        "commercialization": 36,
+        "kimi_strategic_fit": 31
       },
       "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "1 HN points；0 comments，早期Android Launcher项目，社区信号极弱",
-      "commercial_summary": "终端Agent Launcher概念，无用户规模、无商业化证据，暂不具API客户或竞品价值",
+      "reason_to_contact_now": "Product Hunt发布，企业AI Agent知识中枢，无客户规模或API调用量证据",
+      "commercial_summary": "企业级Agent管理平台，若获中大型企业采用可能产生可观API消费，但当前仅产品发布",
       "confidence": "low",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50052383",
+        "feed_url": "https://www.producthunt.com/feed",
+        "content_kind": "product_launch",
+        "original_title": "Hexis Cloud",
         "agent_keyword_hits": [
-          "agentic"
+          "ai agent"
+        ],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": []
+      }
+    },
+    {
+      "id": "product-hunt-6bd04e8bb4b4",
+      "source": "Product Hunt",
+      "name": "CLI Manager",
+      "url": "https://www.producthunt.com/products/cli-manager",
+      "description": "Let one AI agent open and drive your other CLI agents Discussion | Link",
+      "published_at": "2026-10-10T00:57:49-07:00",
+      "discovered_at": "2026-10-13T07:33:52+00:00",
+      "author": "solhun",
+      "metrics": {},
+      "tags": [],
+      "evidence": [
+        "Published via Product Hunt",
+        "2026-10-10T00:57:49-07:00"
+      ],
+      "raw_text": "CLI Manager Let one AI agent open and drive your other CLI agents Discussion | Link ",
+      "opportunity_type": "Manus型",
+      "score": 26.6,
+      "dimension_scores": {
+        "growth_speed": 30.0,
+        "agent_innovation": 35,
+        "community_signal": 18.0,
+        "api_consumption_potential": 32,
+        "commercialization": 36,
+        "kimi_strategic_fit": 31
+      },
+      "recommended_action": "暂不跟进",
+      "reason_to_contact_now": "Product Hunt发布但无具体数据，描述模糊，仅知为CLI Agent编排概念",
+      "commercial_summary": "CLI Agent管理工具，信息过少，无法判断API调用规模或商业化潜力，暂不具备高价值客户特征",
+      "confidence": "low",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "metadata": {
+        "feed_url": "https://www.producthunt.com/feed",
+        "content_kind": "product_launch",
+        "original_title": "CLI Manager",
+        "agent_keyword_hits": [
+          "ai agent"
         ],
         "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": []

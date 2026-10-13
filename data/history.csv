@@ -494,3 +494,13 @@ run_at,id,name,source,score,opportunity_type,recommended_action,metric_name,metr
 2026-10-12T07:09:52+00:00,product-hunt-cf9641cc76f4,Hexis Cloud,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
 2026-10-12T07:09:52+00:00,product-hunt-cc59b34d6ca7,Manifold MCP,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
 2026-10-12T07:09:52+00:00,hackernews-ac41e90ecdb3,Omalauncher – Agentic Android Launcher,Hacker News,29.0,Manus型,暂不跟进,points,1.0
+2026-10-13T07:33:52+00:00,github-d0cc0ebda7e0,rociiu/talorys,GitHub,65.3,OpenClaw型,持续观察,stars,918.0
+2026-10-13T07:33:52+00:00,github-37cd5efe1097,wheresryan22/anatomy,GitHub,63.4,OpenClaw型,持续观察,stars,6900.0
+2026-10-13T07:33:52+00:00,github-a9e54f13044d,Gentleman-Programming/gentle-dot,GitHub,58.9,OpenClaw型,持续观察,stars,151.0
+2026-10-13T07:33:52+00:00,github-d31aad93eb24,pullboard-dev/pullboard,GitHub,57.6,OpenClaw型,持续观察,stars,110.0
+2026-10-13T07:33:52+00:00,github-99c27bf53df8,kutukam/autonomous-pentest-agent,GitHub,57.5,OpenClaw型,持续观察,stars,132.0
+2026-10-13T07:33:52+00:00,github-e46c5c5fa932,mhtsec/ARTEX,GitHub,54.6,OpenClaw型,持续观察,stars,3717.0
+2026-10-13T07:33:52+00:00,product-hunt-a36f30cd238f,Upsolve Row-Level Security,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
+2026-10-13T07:33:52+00:00,product-hunt-cc59b34d6ca7,Manifold MCP,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
+2026-10-13T07:33:52+00:00,product-hunt-cf9641cc76f4,Hexis Cloud,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
+2026-10-13T07:33:52+00:00,product-hunt-6bd04e8bb4b4,CLI Manager,Product Hunt,26.6,Manus型,暂不跟进,none,0.0
