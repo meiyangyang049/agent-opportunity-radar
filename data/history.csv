@@ -504,3 +504,13 @@ run_at,id,name,source,score,opportunity_type,recommended_action,metric_name,metr
 2026-10-13T07:33:52+00:00,product-hunt-cc59b34d6ca7,Manifold MCP,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
 2026-10-13T07:33:52+00:00,product-hunt-cf9641cc76f4,Hexis Cloud,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
 2026-10-13T07:33:52+00:00,product-hunt-6bd04e8bb4b4,CLI Manager,Product Hunt,26.6,Manus型,暂不跟进,none,0.0
+2026-10-14T05:58:01+00:00,github-d0cc0ebda7e0,rociiu/talorys,GitHub,63.3,OpenClaw型,持续观察,stars,968.0
+2026-10-14T05:58:01+00:00,github-d31aad93eb24,pullboard-dev/pullboard,GitHub,62.6,OpenClaw型,持续观察,stars,135.0
+2026-10-14T05:58:01+00:00,github-37cd5efe1097,wheresryan22/anatomy,GitHub,62.4,OpenClaw型,持续观察,stars,8601.0
+2026-10-14T05:58:01+00:00,github-99c27bf53df8,kutukam/autonomous-pentest-agent,GitHub,60.8,OpenClaw型,持续观察,stars,142.0
+2026-10-14T05:58:01+00:00,github-e46c5c5fa932,mhtsec/ARTEX,GitHub,60.6,OpenClaw型,持续观察,stars,3946.0
+2026-10-14T05:58:01+00:00,github-a9e54f13044d,Gentleman-Programming/gentle-dot,GitHub,54.2,OpenClaw型,持续观察,stars,156.0
+2026-10-14T05:58:01+00:00,product-hunt-57d7fc96ba8b,PostNitro for Agents,Product Hunt,26.6,Manus型,暂不跟进,none,0.0
+2026-10-14T05:58:01+00:00,product-hunt-cff933c0ed12,The Drive AI,Product Hunt,26.6,Manus型,暂不跟进,none,0.0
+2026-10-14T05:58:01+00:00,product-hunt-6bd04e8bb4b4,CLI Manager,Product Hunt,26.6,Manus型,暂不跟进,none,0.0
+2026-10-14T05:58:01+00:00,product-hunt-71e96c2d9a9f,Agent Craft,Product Hunt,25.8,Manus型,暂不跟进,none,0.0
