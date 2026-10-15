@@ -514,3 +514,13 @@ run_at,id,name,source,score,opportunity_type,recommended_action,metric_name,metr
 2026-10-14T05:58:01+00:00,product-hunt-cff933c0ed12,The Drive AI,Product Hunt,26.6,Manus型,暂不跟进,none,0.0
 2026-10-14T05:58:01+00:00,product-hunt-6bd04e8bb4b4,CLI Manager,Product Hunt,26.6,Manus型,暂不跟进,none,0.0
 2026-10-14T05:58:01+00:00,product-hunt-71e96c2d9a9f,Agent Craft,Product Hunt,25.8,Manus型,暂不跟进,none,0.0
+2026-10-15T05:44:16+00:00,github-d0cc0ebda7e0,rociiu/talorys,GitHub,65.3,OpenClaw型,持续观察,stars,1006.0
+2026-10-15T05:44:16+00:00,github-e46c5c5fa932,mhtsec/ARTEX,GitHub,64.6,OpenClaw型,持续观察,stars,4137.0
+2026-10-15T05:44:16+00:00,github-37cd5efe1097,wheresryan22/anatomy,GitHub,63.4,OpenClaw型,持续观察,stars,11003.0
+2026-10-15T05:44:16+00:00,github-eb9d59290864,onehumanbeing/esp32-iphone-agent,GitHub,60.6,OpenClaw型,持续观察,stars,2164.0
+2026-10-15T05:44:16+00:00,github-71f5d95442ec,zhuyansen/new-term-radar,GitHub,60.1,OpenClaw型,持续观察,stars,975.0
+2026-10-15T05:44:16+00:00,github-a2c745748527,trhhubsd/ARTEXX,GitHub,59.6,OpenClaw型,持续观察,stars,1198.0
+2026-10-15T05:44:16+00:00,hackernews-58b84fdd1870,A friend of mine built an agent-first group chat/social network,Hacker News,34.2,Manus型,暂不跟进,points,4.0
+2026-10-15T05:44:16+00:00,product-hunt-d104058180fe,Acyclic,Product Hunt,33.6,Manus型,暂不跟进,none,0.0
+2026-10-15T05:44:16+00:00,product-hunt-2699c9c571db,WriterzRoom,Product Hunt,30.3,Manus型,暂不跟进,none,0.0
+2026-10-15T05:44:16+00:00,product-hunt-9a55b6b2b5b1,Make0 Brain,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
