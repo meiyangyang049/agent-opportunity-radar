@@ -524,3 +524,13 @@ run_at,id,name,source,score,opportunity_type,recommended_action,metric_name,metr
 2026-10-15T05:44:16+00:00,product-hunt-d104058180fe,Acyclic,Product Hunt,33.6,Manus型,暂不跟进,none,0.0
 2026-10-15T05:44:16+00:00,product-hunt-2699c9c571db,WriterzRoom,Product Hunt,30.3,Manus型,暂不跟进,none,0.0
 2026-10-15T05:44:16+00:00,product-hunt-9a55b6b2b5b1,Make0 Brain,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
+2026-10-16T05:40:44+00:00,github-d0cc0ebda7e0,rociiu/talorys,GitHub,65.3,OpenClaw型,持续观察,stars,1191.0
+2026-10-16T05:40:44+00:00,github-71f5d95442ec,zhuyansen/new-term-radar,GitHub,62.1,OpenClaw型,持续观察,stars,1034.0
+2026-10-16T05:40:44+00:00,github-d0b817151fa3,marclou/mailcheap,GitHub,60.1,OpenClaw型,暂不跟进,stars,1071.0
+2026-10-16T05:40:44+00:00,github-a9e54f13044d,Gentleman-Programming/gentle-dot,GitHub,59.3,OpenClaw型,持续观察,stars,172.0
+2026-10-16T05:40:44+00:00,github-309451d02537,Entelligence-AI/agentplay,GitHub,59.2,OpenClaw型,持续观察,stars,213.0
+2026-10-16T05:40:44+00:00,github-eb9d59290864,onehumanbeing/esp32-iphone-agent,GitHub,56.6,OpenClaw型,持续观察,stars,2608.0
+2026-10-16T05:40:44+00:00,product-hunt-de8723e21b79,Audimate,Product Hunt,27.8,Manus型,暂不跟进,none,0.0
+2026-10-16T05:40:44+00:00,product-hunt-5784c64c0f4e,Shrine,Product Hunt,27.8,Manus型,暂不跟进,none,0.0
+2026-10-16T05:40:44+00:00,product-hunt-d337aa43874a,AI Sandboxes by Buddy,Product Hunt,27.8,Manus型,暂不跟进,none,0.0
+2026-10-16T05:40:44+00:00,product-hunt-f75130a9228a,Chatway MCP,Product Hunt,25.8,Manus型,暂不跟进,none,0.0
