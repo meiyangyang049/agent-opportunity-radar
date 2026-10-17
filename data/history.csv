@@ -534,3 +534,13 @@ run_at,id,name,source,score,opportunity_type,recommended_action,metric_name,metr
 2026-10-16T05:40:44+00:00,product-hunt-5784c64c0f4e,Shrine,Product Hunt,27.8,Manus型,暂不跟进,none,0.0
 2026-10-16T05:40:44+00:00,product-hunt-d337aa43874a,AI Sandboxes by Buddy,Product Hunt,27.8,Manus型,暂不跟进,none,0.0
 2026-10-16T05:40:44+00:00,product-hunt-f75130a9228a,Chatway MCP,Product Hunt,25.8,Manus型,暂不跟进,none,0.0
+2026-10-17T05:26:16+00:00,github-cb4289c7d787,outcrawlai/scout,GitHub,68.2,OpenClaw型,持续观察,stars,904.0
+2026-10-17T05:26:16+00:00,github-2b7cb3c810ed,anujasid/mcp-for-blender-pro,GitHub,68.1,OpenClaw型,持续观察,stars,312.0
+2026-10-17T05:26:16+00:00,github-d0cc0ebda7e0,rociiu/talorys,GitHub,66.3,OpenClaw型,持续观察,stars,1259.0
+2026-10-17T05:26:16+00:00,github-d0b817151fa3,marclou/mailcheap,GitHub,66.1,OpenClaw型,持续观察,stars,1180.0
+2026-10-17T05:26:16+00:00,github-71f5d95442ec,zhuyansen/new-term-radar,GitHub,65.1,OpenClaw型,持续观察,stars,1067.0
+2026-10-17T05:26:16+00:00,github-a967927b205b,feder-cr/git-ai,GitHub,64.5,OpenClaw型,持续观察,stars,1071.0
+2026-10-17T05:26:16+00:00,product-hunt-139158b11e97,Neophyte,Product Hunt,26.6,Manus型,暂不跟进,none,0.0
+2026-10-17T05:26:16+00:00,product-hunt-e6ebd01e0cbb,BOSS Console,Product Hunt,25.8,Manus型,暂不跟进,none,0.0
+2026-10-17T05:26:16+00:00,product-hunt-dce365132bec,Dottr,Product Hunt,25.8,Manus型,暂不跟进,none,0.0
+2026-10-17T05:26:16+00:00,product-hunt-efa4e1cb6a26,Toad,Product Hunt,25.8,Manus型,暂不跟进,none,0.0

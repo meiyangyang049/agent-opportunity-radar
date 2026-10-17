@@ -1,8 +1,8 @@
 {
   "meta": {
     "project": "Agent Opportunity Radar",
-    "generated_at": "2026-10-16T05:40:44+00:00",
-    "generated_at_display": "2026-10-16 13:40 CST",
+    "generated_at": "2026-10-17T05:26:16+00:00",
+    "generated_at_display": "2026-10-17 13:26 CST",
     "mode": "公开信号实时运行",
     "sources": [
       "GitHub",
@@ -14,21 +14,149 @@
       "AI news RSS: HTTPError: 429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
     ],
     "notices": [],
-    "candidate_pool_size": 37,
+    "candidate_pool_size": 48,
     "pool_by_source": {
-      "GitHub": 13,
-      "Hacker News": 16,
-      "Product Hunt": 8
+      "GitHub": 16,
+      "Hacker News": 21,
+      "Product Hunt": 11
     },
     "pool_by_type": {
-      "OpenClaw型": 18,
-      "其他Agent": 12,
-      "Manus型": 7
+      "OpenClaw型": 17,
+      "其他Agent": 21,
+      "Manus型": 10
     },
     "shortlist_policy": "Top 10；OpenClaw型/Manus型各至少4个（候选充足时）",
     "kimi_model": "kimi-k2.6"
   },
   "candidates": [
+    {
+      "id": "github-cb4289c7d787",
+      "source": "GitHub",
+      "name": "outcrawlai/scout",
+      "url": "https://github.com/outcrawlai/scout",
+      "description": "Scout: the open-source browser agent, by Outcrawl. Mirrored automatically from Outcrawl's own repository.",
+      "published_at": "2026-10-13T09:18:55Z",
+      "discovered_at": "2026-10-17T05:26:12+00:00",
+      "author": "outcrawlai",
+      "metrics": {
+        "stars": 904,
+        "forks": 28,
+        "open_issues": 0,
+        "watchers": 904
+      },
+      "tags": [
+        "ai-agent",
+        "browser-agent",
+        "browser-automation",
+        "cdp",
+        "llm",
+        "typescript",
+        "web-automation"
+      ],
+      "evidence": [
+        "904 GitHub stars",
+        "28 forks",
+        "Created 2026-10-13"
+      ],
+      "raw_text": "outcrawlai/scout Scout: the open-source browser agent, by Outcrawl. Mirrored automatically from Outcrawl's own repository. ai-agent browser-agent browser-automation cdp llm typescript web-automation",
+      "opportunity_type": "OpenClaw型",
+      "score": 68.2,
+      "dimension_scores": {
+        "growth_speed": 100.0,
+        "agent_innovation": 35,
+        "community_signal": 100.0,
+        "api_consumption_potential": 50,
+        "commercialization": 18,
+        "kimi_strategic_fit": 39
+      },
+      "recommended_action": "持续观察",
+      "reason_to_contact_now": "4天内904 stars/28 forks，TypeScript开源浏览器Agent，有官网outcrawl.ai指向商业化主体",
+      "commercial_summary": "高增速开源浏览器Agent框架，潜在模型API消费大户，需追踪默认LLM配置及企业版动向",
+      "confidence": "medium",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "metadata": {
+        "language": "TypeScript",
+        "updated_at": "2026-10-17T05:14:55Z",
+        "homepage": "https://outcrawl.ai",
+        "agent_keyword_hits": [
+          "browser agent"
+        ],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": []
+      }
+    },
+    {
+      "id": "github-2b7cb3c810ed",
+      "source": "GitHub",
+      "name": "anujasid/mcp-for-blender-pro",
+      "url": "https://github.com/anujasid/mcp-for-blender-pro",
+      "description": "AI assistant and MCP server for Blender: visual chat, scene tools, model selection, multi-agent workflows. Works with OpenAI, Claude, Gemini, Ollama and OpenCode. Blender AI automation, bpy scripting, 3D modeling, geometry nodes and MCP integration.",
+      "published_at": "2026-10-15T22:30:47Z",
+      "discovered_at": "2026-10-17T05:26:12+00:00",
+      "author": "anujasid",
+      "metrics": {
+        "stars": 312,
+        "forks": 0,
+        "open_issues": 0,
+        "watchers": 312
+      },
+      "tags": [
+        "3d",
+        "3d-automation",
+        "3d-modeling",
+        "ai-agents",
+        "ai-assistant",
+        "blender",
+        "blender-addon",
+        "blender-ai",
+        "blender-automation",
+        "blender-extension",
+        "blender-mcp",
+        "blender-python",
+        "blender-scripting",
+        "blender3d",
+        "bpy",
+        "geometry-nodes",
+        "mcp",
+        "mcp-for-blender",
+        "mcp-server",
+        "model-context-protocol"
+      ],
+      "evidence": [
+        "312 GitHub stars",
+        "0 forks",
+        "Created 2026-10-15"
+      ],
+      "raw_text": "anujasid/mcp-for-blender-pro AI assistant and MCP server for Blender: visual chat, scene tools, model selection, multi-agent workflows. Works with OpenAI, Claude, Gemini, Ollama and OpenCode. Blender AI automation, bpy scripting, 3D modeling, geometry nodes and MCP integration. 3d 3d-automation 3d-modeling ai-agents ai-assistant blender blender-addon blender-ai blender-automation blender-extension blender-mcp blender-python blender-scripting blender3d bpy geometry-nodes mcp mcp-for-blender mcp-server model-context-protocol",
+      "opportunity_type": "OpenClaw型",
+      "score": 68.1,
+      "dimension_scores": {
+        "growth_speed": 100.0,
+        "agent_innovation": 46,
+        "community_signal": 81.2,
+        "api_consumption_potential": 57,
+        "commercialization": 18,
+        "kimi_strategic_fit": 53
+      },
+      "recommended_action": "持续观察",
+      "reason_to_contact_now": "312 stars且4天内获此关注，多模型兼容（OpenAI/Claude/Gemini/Ollama/OpenCode）但无fork显示试用深度有限",
+      "commercial_summary": "Blender MCP服务器可成为3D垂直领域模型API消费节点，需观察是否形成插件分发渠道或默认模型切换",
+      "confidence": "medium",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "metadata": {
+        "language": "Python",
+        "updated_at": "2026-10-17T05:23:04Z",
+        "homepage": null,
+        "agent_keyword_hits": [
+          "mcp",
+          "multi-agent"
+        ],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": [
+          "integration"
+        ]
+      }
+    },
     {
       "id": "github-d0cc0ebda7e0",
       "source": "GitHub",
@@ -36,13 +164,13 @@
       "url": "https://github.com/rociiu/talorys",
       "description": "Your personal AI agent in your own Cloudflare account. Chat, memory, tasks, notes and scheduled reminders, deployed with one command: npx create-talorys@latest. Free-tier friendly, single-user, no telemetry.",
       "published_at": "2026-10-10T09:46:56Z",
-      "discovered_at": "2026-10-16T05:40:39+00:00",
+      "discovered_at": "2026-10-17T05:26:11+00:00",
       "author": "rociiu",
       "metrics": {
-        "stars": 1191,
-        "forks": 105,
-        "open_issues": 10,
-        "watchers": 1191
+        "stars": 1259,
+        "forks": 112,
+        "open_issues": 7,
+        "watchers": 1259
       },
       "tags": [
         "ai-agent",
@@ -56,14 +184,14 @@
         "workers-ai"
       ],
       "evidence": [
-        "+185 stars since last run",
-        "1,191 GitHub stars",
-        "105 forks",
+        "+68 stars since last run",
+        "1,259 GitHub stars",
+        "112 forks",
         "Created 2026-10-10"
       ],
       "raw_text": "rociiu/talorys Your personal AI agent in your own Cloudflare account. Chat, memory, tasks, notes and scheduled reminders, deployed with one command: npx create-talorys@latest. Free-tier friendly, single-user, no telemetry. ai-agent cloudflare cloudflare-workers durable-objects personal-assistant react self-hosted typescript workers-ai",
       "opportunity_type": "OpenClaw型",
-      "score": 65.3,
+      "score": 66.3,
       "dimension_scores": {
         "growth_speed": 100.0,
         "agent_innovation": 35,
@@ -73,13 +201,13 @@
         "kimi_strategic_fit": 47
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "1191 stars/日增185 stars，Cloudflare Workers部署且支持Workers AI",
-      "commercial_summary": "个人AI Agent部署框架，Workers AI集成显示多模型适配潜力，可观察是否扩展支持Kimi",
+      "reason_to_contact_now": "6天1,259 stars、112 forks，增速极快；明确支持\"any OpenAI-compatible\"模型接入点",
+      "commercial_summary": "个人AI Agent自托管框架，高社区热度，存在替换默认模型提供商为Kimi的集成合作空间",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "language": "TypeScript",
-        "updated_at": "2026-10-16T05:40:11Z",
+        "updated_at": "2026-10-17T04:39:32Z",
         "homepage": "https://rociiu.github.io/talorys/",
         "agent_keyword_hits": [
           "ai agent"
@@ -88,74 +216,8 @@
         "ecosystem_keyword_hits": [
           "self-hosted"
         ],
-        "metric_delta": 185.0,
-        "metric_velocity_per_day": 185.45505174734302
-      }
-    },
-    {
-      "id": "github-71f5d95442ec",
-      "source": "GitHub",
-      "name": "zhuyansen/new-term-radar",
-      "url": "https://github.com/zhuyansen/new-term-radar",
-      "description": "Daily radar for new AI terms: names of new models, products and repos, caught on X, Hugging Face, GitHub and sitemaps before keyword tools list them.",
-      "published_at": "2026-10-12T07:11:01Z",
-      "discovered_at": "2026-10-16T05:40:40+00:00",
-      "author": "zhuyansen",
-      "metrics": {
-        "stars": 1034,
-        "forks": 407,
-        "open_issues": 4,
-        "watchers": 1034
-      },
-      "tags": [
-        "agent-skills",
-        "ai",
-        "aisa",
-        "claude-code",
-        "claude-skills",
-        "google-trends",
-        "keyword-research",
-        "mcp",
-        "mcp-server",
-        "seo",
-        "trends"
-      ],
-      "evidence": [
-        "+59 stars since last run",
-        "1,034 GitHub stars",
-        "407 forks",
-        "Created 2026-10-12"
-      ],
-      "raw_text": "zhuyansen/new-term-radar Daily radar for new AI terms: names of new models, products and repos, caught on X, Hugging Face, GitHub and sitemaps before keyword tools list them. agent-skills ai aisa claude-code claude-skills google-trends keyword-research mcp mcp-server seo trends",
-      "opportunity_type": "OpenClaw型",
-      "score": 62.1,
-      "dimension_scores": {
-        "growth_speed": 100.0,
-        "agent_innovation": 35,
-        "community_signal": 100.0,
-        "api_consumption_potential": 32,
-        "commercialization": 18,
-        "kimi_strategic_fit": 55
-      },
-      "recommended_action": "持续观察",
-      "reason_to_contact_now": "1034 stars/407 forks且日增59 stars，但核心为SEO工具非Agent框架",
-      "commercial_summary": "AI术语监控工具，MCP标签存在但生态合作价值待验证，可观察是否扩展为Agent平台",
-      "confidence": "medium",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "language": "Python",
-        "updated_at": "2026-10-16T05:31:29Z",
-        "homepage": null,
-        "agent_keyword_hits": [
-          "mcp"
-        ],
-        "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": [
-          "github",
-          "skill"
-        ],
-        "metric_delta": 59.0,
-        "metric_velocity_per_day": 59.1451246113148
+        "metric_delta": 68.0,
+        "metric_velocity_per_day": 68.69008090539214
       }
     },
     {
@@ -165,13 +227,13 @@
       "url": "https://github.com/marclou/mailcheap",
       "description": "Newsletters where you pay for the emails you send, not for dormant subscribers, at a fraction of the price of beehiiv and the like. Open source: self-host it, or use mailcheap.ai.",
       "published_at": "2026-10-10T12:55:36Z",
-      "discovered_at": "2026-10-16T05:40:39+00:00",
+      "discovered_at": "2026-10-17T05:26:11+00:00",
       "author": "marclou",
       "metrics": {
-        "stars": 1071,
-        "forks": 279,
-        "open_issues": 10,
-        "watchers": 1071
+        "stars": 1180,
+        "forks": 295,
+        "open_issues": 11,
+        "watchers": 1180
       },
       "tags": [
         "ai-agents",
@@ -189,13 +251,14 @@
         "substack-alternative"
       ],
       "evidence": [
-        "1,071 GitHub stars",
-        "279 forks",
+        "+109 stars since last run",
+        "1,180 GitHub stars",
+        "295 forks",
         "Created 2026-10-10"
       ],
       "raw_text": "marclou/mailcheap Newsletters where you pay for the emails you send, not for dormant subscribers, at a fraction of the price of beehiiv and the like. Open source: self-host it, or use mailcheap.ai. ai-agents amazon-ses beehiiv-alternative email email-marketing mailchimp-alternative mcp mcp-server mongodb newsletter nextjs self-hosted substack-alternative",
       "opportunity_type": "OpenClaw型",
-      "score": 60.1,
+      "score": 66.1,
       "dimension_scores": {
         "growth_speed": 100.0,
         "agent_innovation": 35,
@@ -204,14 +267,14 @@
         "commercialization": 18,
         "kimi_strategic_fit": 55
       },
-      "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "1071 stars但核心为邮件营销工具，MCP仅为附加标签，AI Agent属性弱",
-      "commercial_summary": "开源邮件营销平台，模型API消费潜力有限，非核心生态目标",
+      "recommended_action": "持续观察",
+      "reason_to_contact_now": "7天1180 stars/295 forks且日增110 stars，含MCP server标签，有mailcheap.ai商业入口",
+      "commercial_summary": "邮件营销开源工具+MCP server，可能嵌入AI写作/自动化流程，需确认模型调用场景及自托管vs SaaS比例",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "language": "JavaScript",
-        "updated_at": "2026-10-16T05:36:50Z",
+        "updated_at": "2026-10-17T05:13:27Z",
         "homepage": "https://mailcheap.ai",
         "agent_keyword_hits": [
           "mcp"
@@ -220,36 +283,110 @@
         "ecosystem_keyword_hits": [
           "open source",
           "self-hosted"
-        ]
+        ],
+        "metric_delta": 109.0,
+        "metric_velocity_per_day": 110.10615909834915
       }
     },
     {
-      "id": "github-a9e54f13044d",
+      "id": "github-71f5d95442ec",
       "source": "GitHub",
-      "name": "Gentleman-Programming/gentle-dot",
-      "url": "https://github.com/Gentleman-Programming/gentle-dot",
-      "description": "A personal assistant that lives on your desktop, remembers what matters, and can use your Mac for you.",
-      "published_at": "2026-10-09T13:03:11Z",
-      "discovered_at": "2026-10-16T05:40:40+00:00",
-      "author": "Gentleman-Programming",
+      "name": "zhuyansen/new-term-radar",
+      "url": "https://github.com/zhuyansen/new-term-radar",
+      "description": "Daily radar for new AI terms: names of new models, products and repos, caught on X, Hugging Face, GitHub and sitemaps before keyword tools list them.",
+      "published_at": "2026-10-12T07:11:01Z",
+      "discovered_at": "2026-10-17T05:26:11+00:00",
+      "author": "zhuyansen",
       "metrics": {
-        "stars": 172,
-        "forks": 32,
-        "open_issues": 37,
-        "watchers": 172
+        "stars": 1067,
+        "forks": 418,
+        "open_issues": 2,
+        "watchers": 1067
       },
-      "tags": [],
-      "evidence": [
-        "+16 stars since last run",
-        "172 GitHub stars",
-        "32 forks",
-        "Created 2026-10-09"
+      "tags": [
+        "agent-skills",
+        "ai",
+        "aisa",
+        "claude-code",
+        "claude-skills",
+        "google-trends",
+        "keyword-research",
+        "mcp",
+        "mcp-server",
+        "seo",
+        "trends"
       ],
-      "raw_text": "Gentleman-Programming/gentle-dot A personal assistant that lives on your desktop, remembers what matters, and can use your Mac for you. ",
+      "evidence": [
+        "+33 stars since last run",
+        "1,067 GitHub stars",
+        "418 forks",
+        "Created 2026-10-12"
+      ],
+      "raw_text": "zhuyansen/new-term-radar Daily radar for new AI terms: names of new models, products and repos, caught on X, Hugging Face, GitHub and sitemaps before keyword tools list them. agent-skills ai aisa claude-code claude-skills google-trends keyword-research mcp mcp-server seo trends",
       "opportunity_type": "OpenClaw型",
-      "score": 59.3,
+      "score": 65.1,
       "dimension_scores": {
-        "growth_speed": 71.3,
+        "growth_speed": 100.0,
+        "agent_innovation": 35,
+        "community_signal": 100.0,
+        "api_consumption_potential": 32,
+        "commercialization": 18,
+        "kimi_strategic_fit": 55
+      },
+      "recommended_action": "持续观察",
+      "reason_to_contact_now": "5天1067 stars/418 forks，MCP server标签，抓取名称为Claude skills等，但日增速已从早期回落",
+      "commercial_summary": "AI术语雷达工具可作为SEO/研究Agent技能插件，需观察是否形成数据服务或模型推荐联盟",
+      "confidence": "medium",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "metadata": {
+        "language": "Python",
+        "updated_at": "2026-10-17T02:58:45Z",
+        "homepage": null,
+        "agent_keyword_hits": [
+          "mcp"
+        ],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": [
+          "github",
+          "skill"
+        ],
+        "metric_delta": 33.0,
+        "metric_velocity_per_day": 33.33489220408736
+      }
+    },
+    {
+      "id": "github-a967927b205b",
+      "source": "GitHub",
+      "name": "feder-cr/git-ai",
+      "url": "https://github.com/feder-cr/git-ai",
+      "description": "Git designed for AI agents.",
+      "published_at": "2026-10-15T13:12:02Z",
+      "discovered_at": "2026-10-17T05:26:11+00:00",
+      "author": "feder-cr",
+      "metrics": {
+        "stars": 1071,
+        "forks": 115,
+        "open_issues": 0,
+        "watchers": 1071
+      },
+      "tags": [
+        "ai-agents",
+        "coding-agents",
+        "git",
+        "golang",
+        "scion",
+        "version-control"
+      ],
+      "evidence": [
+        "1,071 GitHub stars",
+        "115 forks",
+        "Created 2026-10-15"
+      ],
+      "raw_text": "feder-cr/git-ai Git designed for AI agents. ai-agents coding-agents git golang scion version-control",
+      "opportunity_type": "OpenClaw型",
+      "score": 64.5,
+      "dimension_scores": {
+        "growth_speed": 100.0,
         "agent_innovation": 35,
         "community_signal": 100.0,
         "api_consumption_potential": 32,
@@ -257,296 +394,180 @@
         "kimi_strategic_fit": 39
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "172 stars/32 forks/37 issues，+16 stars增速，TypeScript桌面Agent，明确描述为personal assistant with Mac control",
-      "commercial_summary": "开源桌面Agent框架，具备个人助理+系统操作能力，若扩展模型Provider支持可能成为Kimi生态接入点",
+      "reason_to_contact_now": "2天1,071 stars、115 forks，增速极快；homepage指向Anthropic工程博客，存在模型依赖关系",
+      "commercial_summary": "面向AI Agent的Git工具，高开发者关注度，需观察是否开放多模型支持及Kimi接入可能性",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
-        "language": "TypeScript",
-        "updated_at": "2026-10-16T05:02:29Z",
-        "homepage": "https://gentlemanprogramming.com/",
+        "language": "Go",
+        "updated_at": "2026-10-17T05:11:04Z",
+        "homepage": "https://www.anthropic.com/engineering/redesigning-source-control",
         "agent_keyword_hits": [
-          "personal assistant"
+          "ai agent"
         ],
         "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": [],
-        "metric_delta": 16.0,
-        "metric_velocity_per_day": 8.048299109819926
-      }
-    },
-    {
-      "id": "github-309451d02537",
-      "source": "GitHub",
-      "name": "Entelligence-AI/agentplay",
-      "url": "https://github.com/Entelligence-AI/agentplay",
-      "description": "Replay your coding agent sessions as a map and a timeline",
-      "published_at": "2026-10-14T09:06:49Z",
-      "discovered_at": "2026-10-16T05:40:40+00:00",
-      "author": "Entelligence-AI",
-      "metrics": {
-        "stars": 213,
-        "forks": 10,
-        "open_issues": 0,
-        "watchers": 213
-      },
-      "tags": [
-        "claude-code",
-        "codex",
-        "coding-agents",
-        "cursor",
-        "developer-tools",
-        "observability"
-      ],
-      "evidence": [
-        "213 GitHub stars",
-        "10 forks",
-        "Created 2026-10-14"
-      ],
-      "raw_text": "Entelligence-AI/agentplay Replay your coding agent sessions as a map and a timeline claude-code codex coding-agents cursor developer-tools observability",
-      "opportunity_type": "OpenClaw型",
-      "score": 59.2,
-      "dimension_scores": {
-        "growth_speed": 93.3,
-        "agent_innovation": 24,
-        "community_signal": 96.2,
-        "api_consumption_potential": 25,
-        "commercialization": 18,
-        "kimi_strategic_fit": 33
-      },
-      "recommended_action": "持续观察",
-      "reason_to_contact_now": "213 stars/10 forks，2天内增长，专注coding agent可观测性，标签覆盖Claude Code/Codex/Cursor生态",
-      "commercial_summary": "Coding Agent调试与可视化工具，若成为开发者标配可能接入多模型Provider，具备生态卡位价值",
-      "confidence": "medium",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "language": "Python",
-        "updated_at": "2026-10-16T03:06:31Z",
-        "homepage": "https://entelligence.ai/agentplay",
-        "agent_keyword_hits": [],
-        "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": []
       }
     },
     {
-      "id": "github-eb9d59290864",
-      "source": "GitHub",
-      "name": "onehumanbeing/esp32-iphone-agent",
-      "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
-      "description": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
-      "published_at": "2026-10-11T19:10:25Z",
-      "discovered_at": "2026-10-16T05:40:39+00:00",
-      "author": "onehumanbeing",
-      "metrics": {
-        "stars": 2608,
-        "forks": 343,
-        "open_issues": 4,
-        "watchers": 2608
-      },
-      "tags": [
-        "ai-agent",
-        "airplay",
-        "automation",
-        "computer-use",
-        "esp32",
-        "esp32-s3",
-        "iphone",
-        "llm",
-        "usb-hid"
-      ],
-      "evidence": [
-        "+444 stars since last run",
-        "2,608 GitHub stars",
-        "343 forks",
-        "Created 2026-10-11"
-      ],
-      "raw_text": "onehumanbeing/esp32-iphone-agent Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak. ai-agent airplay automation computer-use esp32 esp32-s3 iphone llm usb-hid",
-      "opportunity_type": "OpenClaw型",
-      "score": 56.6,
-      "dimension_scores": {
-        "growth_speed": 100.0,
-        "agent_innovation": 24,
-        "community_signal": 100.0,
-        "api_consumption_potential": 25,
-        "commercialization": 18,
-        "kimi_strategic_fit": 33
-      },
-      "recommended_action": "持续观察",
-      "reason_to_contact_now": "2608 stars/日增444 stars，但硬件Agent形态且明确标注OpenAI-compatible",
-      "commercial_summary": "硬件自动化Agent项目，高社区热度但模型接入锁定OpenAI格式，需观察是否扩展多模型支持",
-      "confidence": "medium",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "language": "C",
-        "updated_at": "2026-10-16T05:38:57Z",
-        "homepage": null,
-        "agent_keyword_hits": [],
-        "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": [],
-        "metric_delta": 444.0,
-        "metric_velocity_per_day": 445.09212419362325
-      }
-    },
-    {
-      "id": "product-hunt-de8723e21b79",
+      "id": "product-hunt-139158b11e97",
       "source": "Product Hunt",
-      "name": "Audimate",
-      "url": "https://www.producthunt.com/products/audimate",
-      "description": "AI assistant that works right in the apps you already use Discussion | Link",
-      "published_at": "2026-10-11T23:24:43-07:00",
-      "discovered_at": "2026-10-16T05:40:44+00:00",
-      "author": "Gordon Wan",
+      "name": "Neophyte",
+      "url": "https://www.producthunt.com/products/neophyte",
+      "description": "Watch an AI agent sign up and onboard to any product Discussion | Link",
+      "published_at": "2026-10-12T18:43:19-07:00",
+      "discovered_at": "2026-10-17T05:26:16+00:00",
+      "author": "Christian Ruink",
       "metrics": {},
       "tags": [],
       "evidence": [
         "Published via Product Hunt",
-        "2026-10-11T23:24:43-07:00"
+        "2026-10-12T18:43:19-07:00"
       ],
-      "raw_text": "Audimate AI assistant that works right in the apps you already use Discussion | Link ",
+      "raw_text": "Neophyte Watch an AI agent sign up and onboard to any product Discussion | Link ",
       "opportunity_type": "Manus型",
-      "score": 27.8,
-      "dimension_scores": {
-        "growth_speed": 30.0,
-        "agent_innovation": 24,
-        "community_signal": 18.0,
-        "api_consumption_potential": 25,
-        "commercialization": 36,
-        "kimi_strategic_fit": 25
-      },
-      "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "Product Hunt发布，描述为跨应用AI助手，但无任何用户/收入/API指标",
-      "commercial_summary": "终端用户AI助手产品，若实际嵌入多应用工作流可能产生API调用，但当前信息不足无法验证",
-      "confidence": "low",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "feed_url": "https://www.producthunt.com/feed",
-        "content_kind": "product_launch",
-        "original_title": "Audimate",
-        "agent_keyword_hits": [],
-        "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": []
-      }
-    },
-    {
-      "id": "product-hunt-5784c64c0f4e",
-      "source": "Product Hunt",
-      "name": "Shrine",
-      "url": "https://www.producthunt.com/products/shrine-2",
-      "description": "A home for your agents Discussion | Link",
-      "published_at": "2026-10-12T13:55:44-07:00",
-      "discovered_at": "2026-10-16T05:40:44+00:00",
-      "author": "Oliver Laslett",
-      "metrics": {},
-      "tags": [],
-      "evidence": [
-        "Published via Product Hunt",
-        "2026-10-12T13:55:44-07:00"
-      ],
-      "raw_text": "Shrine A home for your agents Discussion | Link ",
-      "opportunity_type": "Manus型",
-      "score": 27.8,
-      "dimension_scores": {
-        "growth_speed": 30.0,
-        "agent_innovation": 24,
-        "community_signal": 18.0,
-        "api_consumption_potential": 25,
-        "commercialization": 36,
-        "kimi_strategic_fit": 25
-      },
-      "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "Product Hunt发布，定位为agent托管平台，但无任何用户或技术栈证据",
-      "commercial_summary": "Agent托管/编排产品，若实际聚合多模型调用可能成为中间层客户，当前信号过弱",
-      "confidence": "low",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "feed_url": "https://www.producthunt.com/feed",
-        "content_kind": "product_launch",
-        "original_title": "Shrine",
-        "agent_keyword_hits": [],
-        "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": []
-      }
-    },
-    {
-      "id": "product-hunt-d337aa43874a",
-      "source": "Product Hunt",
-      "name": "AI Sandboxes by Buddy",
-      "url": "https://www.producthunt.com/products/buddy",
-      "description": "Isolated cloud machines for your AI coding agents Discussion | Link",
-      "published_at": "2026-10-14T05:11:07-07:00",
-      "discovered_at": "2026-10-16T05:40:44+00:00",
-      "author": "Rafal Sztwiorok",
-      "metrics": {},
-      "tags": [],
-      "evidence": [
-        "Published via Product Hunt",
-        "2026-10-14T05:11:07-07:00"
-      ],
-      "raw_text": "AI Sandboxes by Buddy Isolated cloud machines for your AI coding agents Discussion | Link ",
-      "opportunity_type": "Manus型",
-      "score": 27.8,
-      "dimension_scores": {
-        "growth_speed": 30.0,
-        "agent_innovation": 24,
-        "community_signal": 18.0,
-        "api_consumption_potential": 25,
-        "commercialization": 36,
-        "kimi_strategic_fit": 25
-      },
-      "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "Product Hunt发布，云隔离沙箱for coding agents，但无客户或规模化指标",
-      "commercial_summary": "Coding Agent基础设施，若实际承载大量Agent执行可能产生底层模型API需求，当前仅产品发布阶段",
-      "confidence": "low",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "feed_url": "https://www.producthunt.com/feed",
-        "content_kind": "product_launch",
-        "original_title": "AI Sandboxes by Buddy",
-        "agent_keyword_hits": [],
-        "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": []
-      }
-    },
-    {
-      "id": "product-hunt-f75130a9228a",
-      "source": "Product Hunt",
-      "name": "Chatway MCP",
-      "url": "https://www.producthunt.com/products/chatway",
-      "description": "Let ChatGPT & Claude answer customer support tickets via MCP Discussion | Link",
-      "published_at": "2026-10-14T04:30:36-07:00",
-      "discovered_at": "2026-10-16T05:40:44+00:00",
-      "author": "Gal Dubinski",
-      "metrics": {},
-      "tags": [],
-      "evidence": [
-        "Published via Product Hunt",
-        "2026-10-14T04:30:36-07:00"
-      ],
-      "raw_text": "Chatway MCP Let ChatGPT & Claude answer customer support tickets via MCP Discussion | Link ",
-      "opportunity_type": "Manus型",
-      "score": 25.8,
+      "score": 26.6,
       "dimension_scores": {
         "growth_speed": 30.0,
         "agent_innovation": 35,
         "community_signal": 18.0,
-        "api_consumption_potential": 37,
-        "commercialization": 50,
+        "api_consumption_potential": 32,
+        "commercialization": 36,
         "kimi_strategic_fit": 31
       },
       "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "Product Hunt发布但无用户数据，仅支持ChatGPT/Claude未提及其他模型",
-      "commercial_summary": "客服Agent产品，模型接入锁定OpenAI/Anthropic，切换成本高且规模不明",
-      "confidence": "medium",
+      "reason_to_contact_now": "Product Hunt发布5天无具体指标，仅描述为AI agent注册 onboarding演示工具",
+      "commercial_summary": "终端产品概念早，无API调用规模或付费信号，暂不具客户或生态价值",
+      "confidence": "low",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "feed_url": "https://www.producthunt.com/feed",
         "content_kind": "product_launch",
-        "original_title": "Chatway MCP",
+        "original_title": "Neophyte",
         "agent_keyword_hits": [
-          "mcp"
+          "ai agent"
         ],
-        "commercial_keyword_hits": [
-          "customer"
-        ],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": []
+      }
+    },
+    {
+      "id": "product-hunt-e6ebd01e0cbb",
+      "source": "Product Hunt",
+      "name": "BOSS Console",
+      "url": "https://www.producthunt.com/products/boss-console",
+      "description": "A tiny OS for your always-on agents Discussion | Link",
+      "published_at": "2026-10-15T04:37:49-07:00",
+      "discovered_at": "2026-10-17T05:26:16+00:00",
+      "author": "Nilesh Vasita",
+      "metrics": {},
+      "tags": [],
+      "evidence": [
+        "Published via Product Hunt",
+        "2026-10-15T04:37:49-07:00"
+      ],
+      "raw_text": "BOSS Console A tiny OS for your always-on agents Discussion | Link ",
+      "opportunity_type": "Manus型",
+      "score": 25.8,
+      "dimension_scores": {
+        "growth_speed": 30.0,
+        "agent_innovation": 24,
+        "community_signal": 18.0,
+        "api_consumption_potential": 25,
+        "commercialization": 36,
+        "kimi_strategic_fit": 25
+      },
+      "recommended_action": "暂不跟进",
+      "reason_to_contact_now": "Published via Product Hunt；2026-10-15T04:37:49-07:00",
+      "commercial_summary": "产品型机会，优先判断API调用规模、付费增长和战略客户合作空间。",
+      "confidence": "medium",
+      "scoring_mode": "规则预评分",
+      "metadata": {
+        "feed_url": "https://www.producthunt.com/feed",
+        "content_kind": "product_launch",
+        "original_title": "BOSS Console",
+        "agent_keyword_hits": [],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": []
+      }
+    },
+    {
+      "id": "product-hunt-dce365132bec",
+      "source": "Product Hunt",
+      "name": "Dottr",
+      "url": "https://www.producthunt.com/products/dottr",
+      "description": "Agent that drafts contracts, flags risks + gets them signed Discussion | Link",
+      "published_at": "2026-10-14T19:37:55-07:00",
+      "discovered_at": "2026-10-17T05:26:16+00:00",
+      "author": "Kevin William David",
+      "metrics": {},
+      "tags": [],
+      "evidence": [
+        "Published via Product Hunt",
+        "2026-10-14T19:37:55-07:00"
+      ],
+      "raw_text": "Dottr Agent that drafts contracts, flags risks + gets them signed Discussion | Link ",
+      "opportunity_type": "Manus型",
+      "score": 25.8,
+      "dimension_scores": {
+        "growth_speed": 30.0,
+        "agent_innovation": 24,
+        "community_signal": 18.0,
+        "api_consumption_potential": 25,
+        "commercialization": 36,
+        "kimi_strategic_fit": 25
+      },
+      "recommended_action": "暂不跟进",
+      "reason_to_contact_now": "Published via Product Hunt；2026-10-14T19:37:55-07:00",
+      "commercial_summary": "产品型机会，优先判断API调用规模、付费增长和战略客户合作空间。",
+      "confidence": "medium",
+      "scoring_mode": "规则预评分",
+      "metadata": {
+        "feed_url": "https://www.producthunt.com/feed",
+        "content_kind": "product_launch",
+        "original_title": "Dottr",
+        "agent_keyword_hits": [],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": []
+      }
+    },
+    {
+      "id": "product-hunt-efa4e1cb6a26",
+      "source": "Product Hunt",
+      "name": "Toad",
+      "url": "https://www.producthunt.com/products/toad-4",
+      "description": "Point your agent at any machine you own. Discussion | Link",
+      "published_at": "2026-10-15T09:36:36-07:00",
+      "discovered_at": "2026-10-17T05:26:16+00:00",
+      "author": "Dawson Dominguez",
+      "metrics": {},
+      "tags": [],
+      "evidence": [
+        "Published via Product Hunt",
+        "2026-10-15T09:36:36-07:00"
+      ],
+      "raw_text": "Toad Point your agent at any machine you own. Discussion | Link ",
+      "opportunity_type": "Manus型",
+      "score": 25.8,
+      "dimension_scores": {
+        "growth_speed": 30.0,
+        "agent_innovation": 24,
+        "community_signal": 18.0,
+        "api_consumption_potential": 25,
+        "commercialization": 36,
+        "kimi_strategic_fit": 25
+      },
+      "recommended_action": "暂不跟进",
+      "reason_to_contact_now": "Published via Product Hunt；2026-10-15T09:36:36-07:00",
+      "commercial_summary": "产品型机会，优先判断API调用规模、付费增长和战略客户合作空间。",
+      "confidence": "medium",
+      "scoring_mode": "规则预评分",
+      "metadata": {
+        "feed_url": "https://www.producthunt.com/feed",
+        "content_kind": "product_launch",
+        "original_title": "Toad",
+        "agent_keyword_hits": [],
+        "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": []
       }
     }
