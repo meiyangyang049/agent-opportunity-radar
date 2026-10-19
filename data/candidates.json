@@ -1,8 +1,8 @@
 {
   "meta": {
     "project": "Agent Opportunity Radar",
-    "generated_at": "2026-10-18T05:37:40+00:00",
-    "generated_at_display": "2026-10-18 13:37 CST",
+    "generated_at": "2026-10-19T05:55:29+00:00",
+    "generated_at_display": "2026-10-19 13:55 CST",
     "mode": "公开信号实时运行",
     "sources": [
       "GitHub",
@@ -14,16 +14,16 @@
       "AI news RSS: HTTPError: 429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
     ],
     "notices": [],
-    "candidate_pool_size": 59,
+    "candidate_pool_size": 42,
     "pool_by_source": {
-      "GitHub": 18,
-      "Hacker News": 29,
-      "Product Hunt": 12
+      "GitHub": 17,
+      "Hacker News": 19,
+      "Product Hunt": 6
     },
     "pool_by_type": {
-      "OpenClaw型": 22,
-      "其他Agent": 24,
-      "Manus型": 13
+      "OpenClaw型": 19,
+      "其他Agent": 18,
+      "Manus型": 5
     },
     "shortlist_policy": "Top 10；OpenClaw型/Manus型各至少4个（候选充足时）",
     "kimi_model": "kimi-k2.6"
@@ -32,17 +32,17 @@
     {
       "id": "github-2b7cb3c810ed",
       "source": "GitHub",
-      "name": "anujasid/blender-ai-mcp-addon",
-      "url": "https://github.com/anujasid/blender-ai-mcp-addon",
+      "name": "LiCinCan/blender-ai-mcp-addon",
+      "url": "https://github.com/LiCinCan/blender-ai-mcp-addon",
       "description": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with OpenAI, ChatGPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon and plugin, copilot for 3D, bpy Python scripting, MCP integration.",
       "published_at": "2026-10-15T22:30:47Z",
-      "discovered_at": "2026-10-18T05:37:33+00:00",
-      "author": "anujasid",
+      "discovered_at": "2026-10-19T05:55:24+00:00",
+      "author": "LiCinCan",
       "metrics": {
-        "stars": 657,
-        "forks": 191,
-        "open_issues": 0,
-        "watchers": 657
+        "stars": 788,
+        "forks": 377,
+        "open_issues": 31,
+        "watchers": 788
       },
       "tags": [
         "ai-assistant",
@@ -67,14 +67,14 @@
         "python"
       ],
       "evidence": [
-        "+345 stars since last run",
-        "657 GitHub stars",
-        "191 forks",
+        "+131 stars since last run",
+        "788 GitHub stars",
+        "377 forks",
         "Created 2026-10-15"
       ],
-      "raw_text": "anujasid/blender-ai-mcp-addon AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with OpenAI, ChatGPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon and plugin, copilot for 3D, bpy Python scripting, MCP integration. ai-assistant blender blender-addon blender-ai blender-automation blender-extension blender-mcp blender-plugin blender-python blender-scripting bpy chatgpt gpt llm mcp mcp-for-blender mcp-server model-context-protocol opencode python",
+      "raw_text": "LiCinCan/blender-ai-mcp-addon AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with OpenAI, ChatGPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon and plugin, copilot for 3D, bpy Python scripting, MCP integration. ai-assistant blender blender-addon blender-ai blender-automation blender-extension blender-mcp blender-plugin blender-python blender-scripting bpy chatgpt gpt llm mcp mcp-for-blender mcp-server model-context-protocol opencode python",
       "opportunity_type": "OpenClaw型",
-      "score": 72.6,
+      "score": 73.6,
       "dimension_scores": {
         "growth_speed": 100.0,
         "agent_innovation": 46,
@@ -84,13 +84,13 @@
         "kimi_strategic_fit": 61
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "+345 stars since last run；657 GitHub stars；191 forks；明确集成OpenAI/Claude/Gemini/Ollama，多模型Provider架构存在替换空间",
-      "commercial_summary": "Blender生态的MCP Server+多Agent工作流工具，3D垂直场景的高粘性开发者入口，可争取成为默认模型Provider或联合推广",
+      "reason_to_contact_now": "4天获788星、377 forks，日增速129星/天，MCP多Agent工作流+OpenAI/Claude/Gemini/Ollama多模型接入",
+      "commercial_summary": "Blender生态高热度MCP Server，多模型兼容架构，可争取作为Kimi在3D创作领域的默认Provider或联合推广",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "language": "Python",
-        "updated_at": "2026-10-18T05:34:44Z",
+        "updated_at": "2026-10-19T04:00:35Z",
         "homepage": null,
         "agent_keyword_hits": [
           "mcp",
@@ -101,141 +101,67 @@
           "integration",
           "plugin"
         ],
-        "metric_delta": 345.0,
-        "metric_velocity_per_day": 342.2902025630426
+        "metric_delta": 131.0,
+        "metric_velocity_per_day": 129.3989870697047
       }
     },
     {
-      "id": "github-4686932d6fa4",
+      "id": "github-cb4289c7d787",
       "source": "GitHub",
-      "name": "jwuthri-cloud/Tracely-ai",
-      "url": "https://github.com/jwuthri-cloud/Tracely-ai",
-      "description": "Trace-native CI/CD for AI agents: grade production traces, cluster failures, freeze them into replayable regression tests, and block PRs that regress. Self-hostable.",
-      "published_at": "2026-10-11T15:38:03Z",
-      "discovered_at": "2026-10-18T05:37:32+00:00",
-      "author": "jwuthri-cloud",
+      "name": "outcrawlai/scout",
+      "url": "https://github.com/outcrawlai/scout",
+      "description": "Scout: the open-source browser agent, by Outcrawl. Mirrored automatically from Outcrawl's own repository.",
+      "published_at": "2026-10-13T09:18:55Z",
+      "discovered_at": "2026-10-19T05:55:24+00:00",
+      "author": "outcrawlai",
       "metrics": {
-        "stars": 947,
-        "forks": 140,
-        "open_issues": 19,
-        "watchers": 947
+        "stars": 946,
+        "forks": 29,
+        "open_issues": 4,
+        "watchers": 946
       },
       "tags": [
-        "agent-evaluation",
-        "ai-agents",
-        "ai-testing",
-        "ci-cd",
-        "clickhouse",
-        "developer-tools",
-        "llm-evaluation",
-        "llm-observability",
-        "llmops",
-        "mcp",
-        "observability",
-        "python",
-        "regression-testing",
-        "self-hosted",
-        "tracing"
+        "ai-agent",
+        "browser-agent",
+        "browser-automation",
+        "cdp",
+        "llm",
+        "typescript",
+        "web-automation"
       ],
       "evidence": [
-        "947 GitHub stars",
-        "140 forks",
-        "Created 2026-10-11"
+        "+3 stars since last run",
+        "946 GitHub stars",
+        "29 forks",
+        "Created 2026-10-13"
       ],
-      "raw_text": "jwuthri-cloud/Tracely-ai Trace-native CI/CD for AI agents: grade production traces, cluster failures, freeze them into replayable regression tests, and block PRs that regress. Self-hostable. agent-evaluation ai-agents ai-testing ci-cd clickhouse developer-tools llm-evaluation llm-observability llmops mcp observability python regression-testing self-hosted tracing",
+      "raw_text": "outcrawlai/scout Scout: the open-source browser agent, by Outcrawl. Mirrored automatically from Outcrawl's own repository. ai-agent browser-agent browser-automation cdp llm typescript web-automation",
       "opportunity_type": "OpenClaw型",
-      "score": 68.3,
+      "score": 66.8,
       "dimension_scores": {
-        "growth_speed": 96.6,
-        "agent_innovation": 46,
-        "community_signal": 100.0,
-        "api_consumption_potential": 39,
-        "commercialization": 18,
-        "kimi_strategic_fit": 53
-      },
-      "recommended_action": "持续观察",
-      "reason_to_contact_now": "947 GitHub stars；140 forks；7天增速极高；self-hostable+ClickHouse架构；明确LLM evaluation/tracing场景",
-      "commercial_summary": "Agent可观测性/CI基础设施，LLMOps赛道高星项目，模型调用tracing需求与API平台天然关联，可探索集成合作",
-      "confidence": "medium",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "language": "Python",
-        "updated_at": "2026-10-18T05:27:51Z",
-        "homepage": "https://tracely-ai.com",
-        "agent_keyword_hits": [
-          "ai agent",
-          "mcp"
-        ],
-        "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": [
-          "self-hosted"
-        ]
-      }
-    },
-    {
-      "id": "github-71f5d95442ec",
-      "source": "GitHub",
-      "name": "zhuyansen/new-term-radar",
-      "url": "https://github.com/zhuyansen/new-term-radar",
-      "description": "Daily radar for new AI terms: names of new models, products and repos, caught on X, Hugging Face, GitHub and sitemaps before keyword tools list them.",
-      "published_at": "2026-10-12T07:11:01Z",
-      "discovered_at": "2026-10-18T05:37:32+00:00",
-      "author": "zhuyansen",
-      "metrics": {
-        "stars": 1087,
-        "forks": 422,
-        "open_issues": 2,
-        "watchers": 1087
-      },
-      "tags": [
-        "agent-skills",
-        "ai",
-        "aisa",
-        "claude-code",
-        "claude-skills",
-        "google-trends",
-        "keyword-research",
-        "mcp",
-        "mcp-server",
-        "seo",
-        "trends"
-      ],
-      "evidence": [
-        "+20 stars since last run",
-        "1,087 GitHub stars",
-        "422 forks",
-        "Created 2026-10-12"
-      ],
-      "raw_text": "zhuyansen/new-term-radar Daily radar for new AI terms: names of new models, products and repos, caught on X, Hugging Face, GitHub and sitemaps before keyword tools list them. agent-skills ai aisa claude-code claude-skills google-trends keyword-research mcp mcp-server seo trends",
-      "opportunity_type": "OpenClaw型",
-      "score": 67.1,
-      "dimension_scores": {
-        "growth_speed": 100.0,
+        "growth_speed": 98.4,
         "agent_innovation": 35,
         "community_signal": 100.0,
-        "api_consumption_potential": 32,
+        "api_consumption_potential": 50,
         "commercialization": 18,
-        "kimi_strategic_fit": 55
+        "kimi_strategic_fit": 39
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "GitHub 1087 stars/422 forks，3日增长+20 stars，标签含mcp-server、agent-skills",
-      "commercial_summary": "MCP生态工具+SEO关键词雷达，可作为Kimi MCP生态联合推广或技能市场合作对象",
+      "reason_to_contact_now": "6天946星，Outcrawl商业公司背书，官网指向outcrawl.ai，浏览器Agent+CDP架构",
+      "commercial_summary": "开源浏览器Agent框架，商业主体明确，可追踪其模型Provider选择，潜在生态合作或API客户转化",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
-        "language": "Python",
-        "updated_at": "2026-10-18T05:32:01Z",
-        "homepage": null,
+        "language": "TypeScript",
+        "updated_at": "2026-10-19T02:50:51Z",
+        "homepage": "https://outcrawl.ai",
         "agent_keyword_hits": [
-          "mcp"
+          "browser agent"
         ],
         "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": [
-          "github",
-          "skill"
-        ],
-        "metric_delta": 20.0,
-        "metric_velocity_per_day": 19.842910293509718
+        "ecosystem_keyword_hits": [],
+        "metric_delta": 3.0,
+        "metric_velocity_per_day": 2.9633355817489626
       }
     },
     {
@@ -245,13 +171,13 @@
       "url": "https://github.com/feder-cr/git-ai",
       "description": "Git designed for AI agents.",
       "published_at": "2026-10-15T13:12:02Z",
-      "discovered_at": "2026-10-18T05:37:32+00:00",
+      "discovered_at": "2026-10-19T05:55:24+00:00",
       "author": "feder-cr",
       "metrics": {
-        "stars": 1148,
-        "forks": 124,
-        "open_issues": 0,
-        "watchers": 1148
+        "stars": 2320,
+        "forks": 260,
+        "open_issues": 2,
+        "watchers": 2320
       },
       "tags": [
         "ai-agents",
@@ -262,9 +188,9 @@
         "version-control"
       ],
       "evidence": [
-        "+77 stars since last run",
-        "1,148 GitHub stars",
-        "124 forks",
+        "+1,172 stars since last run",
+        "2,320 GitHub stars",
+        "260 forks",
         "Created 2026-10-15"
       ],
       "raw_text": "feder-cr/git-ai Git designed for AI agents. ai-agents coding-agents git golang scion version-control",
@@ -279,80 +205,77 @@
         "kimi_strategic_fit": 39
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "GitHub 1148 stars/124 forks，3日+77 stars，Go语言，Anthropic关联homepage，定位AI原生版本控制",
-      "commercial_summary": "AI Agent基础设施层（Git重构），若形成标准可影响Agent开发工具链，需跟踪其模型Provider选择",
+      "reason_to_contact_now": "5天内2320 stars、+1172 stars增速、260 forks；Anthropic官网引用关联，明确为AI agent设计的Git工具",
+      "commercial_summary": "高增速开源Agent基础设施，获头部模型厂商背书，若支持多模型接入可能成为Kimi在开发者工作流中的默认集成点",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "language": "Go",
-        "updated_at": "2026-10-18T05:09:52Z",
+        "updated_at": "2026-10-19T05:45:46Z",
         "homepage": "https://www.anthropic.com/engineering/redesigning-source-control",
         "agent_keyword_hits": [
           "ai agent"
         ],
         "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": [],
-        "metric_delta": 77.0,
-        "metric_velocity_per_day": 76.39520463001242
+        "metric_delta": 1172.0,
+        "metric_velocity_per_day": 1157.6764339365948
       }
     },
     {
-      "id": "github-cb4289c7d787",
+      "id": "github-a8c48bab2c01",
       "source": "GitHub",
-      "name": "outcrawlai/scout",
-      "url": "https://github.com/outcrawlai/scout",
-      "description": "Scout: the open-source browser agent, by Outcrawl. Mirrored automatically from Outcrawl's own repository.",
-      "published_at": "2026-10-13T09:18:55Z",
-      "discovered_at": "2026-10-18T05:37:32+00:00",
-      "author": "outcrawlai",
+      "name": "Leonxlnx/earshot",
+      "url": "https://github.com/Leonxlnx/earshot",
+      "description": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
+      "published_at": "2026-10-15T06:52:46Z",
+      "discovered_at": "2026-10-19T05:55:24+00:00",
+      "author": "Leonxlnx",
       "metrics": {
-        "stars": 943,
-        "forks": 29,
-        "open_issues": 1,
-        "watchers": 943
+        "stars": 941,
+        "forks": 53,
+        "open_issues": 0,
+        "watchers": 941
       },
       "tags": [
-        "ai-agent",
-        "browser-agent",
-        "browser-automation",
-        "cdp",
-        "llm",
-        "typescript",
-        "web-automation"
+        "ai-agents",
+        "audio",
+        "claude-code",
+        "mcp",
+        "sound-design"
       ],
       "evidence": [
-        "+39 stars since last run",
-        "943 GitHub stars",
-        "29 forks",
-        "Created 2026-10-13"
+        "941 GitHub stars",
+        "53 forks",
+        "Created 2026-10-15"
       ],
-      "raw_text": "outcrawlai/scout Scout: the open-source browser agent, by Outcrawl. Mirrored automatically from Outcrawl's own repository. ai-agent browser-agent browser-automation cdp llm typescript web-automation",
+      "raw_text": "Leonxlnx/earshot Ears for coding agents: let AI hear, review and make sound. CPU-only, open source. ai-agents audio claude-code mcp sound-design",
       "opportunity_type": "OpenClaw型",
-      "score": 66.2,
+      "score": 66.3,
       "dimension_scores": {
         "growth_speed": 100.0,
         "agent_innovation": 35,
         "community_signal": 100.0,
-        "api_consumption_potential": 50,
+        "api_consumption_potential": 32,
         "commercialization": 18,
-        "kimi_strategic_fit": 39
+        "kimi_strategic_fit": 47
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "943 GitHub stars；+39 stars since last run；明确browser agent品类；有官网outcrawl.ai",
-      "commercial_summary": "开源浏览器agent，TypeScript技术栈，web automation垂直场景，模型消耗明确，可观察其Provider策略和商业化路径",
+      "reason_to_contact_now": "5天内941 stars、53 forks，高增速；明确标注claude-code和mcp标签，CPU-only开源音频Agent工具",
+      "commercial_summary": "高增速开源Agent生态工具，MCP协议接入点明确，若扩展多模型支持可能成为Kimi模型分发渠道或联合推广对象",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
-        "language": "TypeScript",
-        "updated_at": "2026-10-18T05:13:29Z",
-        "homepage": "https://outcrawl.ai",
+        "language": "Python",
+        "updated_at": "2026-10-19T05:55:17Z",
+        "homepage": null,
         "agent_keyword_hits": [
-          "browser agent"
+          "mcp"
         ],
         "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": [],
-        "metric_delta": 39.0,
-        "metric_velocity_per_day": 38.69367507234395
+        "ecosystem_keyword_hits": [
+          "open source"
+        ]
       }
     },
     {
@@ -362,13 +285,13 @@
       "url": "https://github.com/i12bp8/decomp.wtf",
       "description": "What The Function: your AI agent decompiles games you own into C that compiles to the exact same bytes. Runs locally.",
       "published_at": "2026-10-13T08:19:01Z",
-      "discovered_at": "2026-10-18T05:37:34+00:00",
+      "discovered_at": "2026-10-19T05:55:25+00:00",
       "author": "i12bp8",
       "metrics": {
-        "stars": 491,
-        "forks": 211,
+        "stars": 498,
+        "forks": 229,
         "open_issues": 0,
-        "watchers": 491
+        "watchers": 498
       },
       "tags": [
         "ai-agents",
@@ -386,15 +309,16 @@
         "reverse-engineering"
       ],
       "evidence": [
-        "491 GitHub stars",
-        "211 forks",
+        "+7 stars since last run",
+        "498 GitHub stars",
+        "229 forks",
         "Created 2026-10-13"
       ],
       "raw_text": "i12bp8/decomp.wtf What The Function: your AI agent decompiles games you own into C that compiles to the exact same bytes. Runs locally. ai-agents claude-code decomp decompilation decompiler matching-decompilation mcp n64 recomp recompilation recompiler retro-gaming reverse-engineering",
       "opportunity_type": "OpenClaw型",
-      "score": 64.2,
+      "score": 65.5,
       "dimension_scores": {
-        "growth_speed": 91.3,
+        "growth_speed": 88.7,
         "agent_innovation": 46,
         "community_signal": 100.0,
         "api_consumption_potential": 39,
@@ -402,40 +326,108 @@
         "kimi_strategic_fit": 45
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "491 GitHub stars；211 forks；高fork率表明开发者参与度高；明确claude-code标签和MCP集成；retro gaming niche",
-      "commercial_summary": "AI反编译垂直工具，高fork开发者社区，明确使用Claude Code，存在模型替换和垂直场景合作空间，但niche市场限制天花板",
+      "reason_to_contact_now": "6天498星/229 forks，本地运行AI Agent+MCP，逆向工程细分场景，Claude Code关联",
+      "commercial_summary": "垂直场景AI Agent工具（游戏反编译），MCP架构，可追踪模型Provider选择，小众但技术社区活跃",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "language": "Python",
-        "updated_at": "2026-10-18T02:59:16Z",
+        "updated_at": "2026-10-19T05:47:21Z",
         "homepage": "https://decomp.wtf",
         "agent_keyword_hits": [
           "ai agent",
           "mcp"
         ],
         "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": []
+        "ecosystem_keyword_hits": [],
+        "metric_delta": 7.0,
+        "metric_velocity_per_day": 6.914449690747579
       }
     },
     {
-      "id": "product-hunt-139158b11e97",
+      "id": "github-71f5d95442ec",
+      "source": "GitHub",
+      "name": "zhuyansen/new-term-radar",
+      "url": "https://github.com/zhuyansen/new-term-radar",
+      "description": "Daily radar for new AI terms: names of new models, products and repos, caught on X, Hugging Face, GitHub and sitemaps before keyword tools list them.",
+      "published_at": "2026-10-12T07:11:01Z",
+      "discovered_at": "2026-10-19T05:55:24+00:00",
+      "author": "zhuyansen",
+      "metrics": {
+        "stars": 1113,
+        "forks": 425,
+        "open_issues": 2,
+        "watchers": 1113
+      },
+      "tags": [
+        "agent-skills",
+        "ai",
+        "aisa",
+        "claude-code",
+        "claude-skills",
+        "google-trends",
+        "keyword-research",
+        "mcp",
+        "mcp-server",
+        "seo",
+        "trends"
+      ],
+      "evidence": [
+        "+26 stars since last run",
+        "1,113 GitHub stars",
+        "425 forks",
+        "Created 2026-10-12"
+      ],
+      "raw_text": "zhuyansen/new-term-radar Daily radar for new AI terms: names of new models, products and repos, caught on X, Hugging Face, GitHub and sitemaps before keyword tools list them. agent-skills ai aisa claude-code claude-skills google-trends keyword-research mcp mcp-server seo trends",
+      "opportunity_type": "OpenClaw型",
+      "score": 64.6,
+      "dimension_scores": {
+        "growth_speed": 98.2,
+        "agent_innovation": 35,
+        "community_signal": 100.0,
+        "api_consumption_potential": 32,
+        "commercialization": 18,
+        "kimi_strategic_fit": 55
+      },
+      "recommended_action": "持续观察",
+      "reason_to_contact_now": "7天1113星/425 forks，MCP Server标签，AI术语雷达工具，Claude Code关联",
+      "commercial_summary": "开发者工具类MCP Server，社区热度高，可观察其模型依赖演进，潜在生态合作触点",
+      "confidence": "medium",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "metadata": {
+        "language": "Python",
+        "updated_at": "2026-10-19T05:55:20Z",
+        "homepage": null,
+        "agent_keyword_hits": [
+          "mcp"
+        ],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": [
+          "github",
+          "skill"
+        ],
+        "metric_delta": 26.0,
+        "metric_velocity_per_day": 25.68224170849101
+      }
+    },
+    {
+      "id": "product-hunt-f7524d340765",
       "source": "Product Hunt",
-      "name": "Neophyte",
-      "url": "https://www.producthunt.com/products/neophyte",
-      "description": "Watch an AI agent sign up and onboard to any product Discussion | Link",
-      "published_at": "2026-10-12T18:43:19-07:00",
-      "discovered_at": "2026-10-18T05:37:40+00:00",
-      "author": "Christian Ruink",
+      "name": "Notion: Context for your agents",
+      "url": "https://www.producthunt.com/products/notion",
+      "description": "Switch AI agents without re-explaining your work Discussion | Link",
+      "published_at": "2026-10-14T00:00:19-07:00",
+      "discovered_at": "2026-10-19T05:55:28+00:00",
+      "author": "Kate Ramakaieva",
       "metrics": {},
       "tags": [],
       "evidence": [
         "Published via Product Hunt",
-        "2026-10-12T18:43:19-07:00"
+        "2026-10-14T00:00:19-07:00"
       ],
-      "raw_text": "Neophyte Watch an AI agent sign up and onboard to any product Discussion | Link ",
+      "raw_text": "Notion: Context for your agents Switch AI agents without re-explaining your work Discussion | Link ",
       "opportunity_type": "Manus型",
-      "score": 27.6,
+      "score": 29.6,
       "dimension_scores": {
         "growth_speed": 30.0,
         "agent_innovation": 35,
@@ -445,14 +437,14 @@
         "kimi_strategic_fit": 31
       },
       "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "Product Hunt发布，无用户数据或付费信号，仅展示AI agent注册 onboarding能力",
-      "commercial_summary": "终端产品演示工具，API消耗场景有限，暂无商业合作空间",
+      "reason_to_contact_now": "Product Hunt发布，无具体用户数据或API调用量证据",
+      "commercial_summary": "Notion现有产品的Agent上下文功能，非独立新项目，缺乏API消费规模信号，战略价值有限",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "feed_url": "https://www.producthunt.com/feed",
         "content_kind": "product_launch",
-        "original_title": "Neophyte",
+        "original_title": "Notion: Context for your agents",
         "agent_keyword_hits": [
           "ai agent"
         ],
@@ -461,63 +453,106 @@
       }
     },
     {
-      "id": "product-hunt-ba5c3273fb30",
+      "id": "product-hunt-8e38eefe22ae",
       "source": "Product Hunt",
-      "name": "Tetriz Harness",
-      "url": "https://www.producthunt.com/products/tetriz-harness",
-      "description": "Turn what your team learns into everyone’s agent setup Discussion | Link",
-      "published_at": "2026-10-15T04:55:43-07:00",
-      "discovered_at": "2026-10-18T05:37:40+00:00",
-      "author": "Prasanna R",
+      "name": "Ultracite v8",
+      "url": "https://www.producthunt.com/products/ultracite",
+      "description": "The linter and formatter for agentic development Discussion | Link",
+      "published_at": "2026-10-12T14:05:50-07:00",
+      "discovered_at": "2026-10-19T05:55:28+00:00",
+      "author": "fmerian",
       "metrics": {},
       "tags": [],
       "evidence": [
         "Published via Product Hunt",
-        "2026-10-15T04:55:43-07:00"
+        "2026-10-12T14:05:50-07:00"
       ],
-      "raw_text": "Tetriz Harness Turn what your team learns into everyone’s agent setup Discussion | Link ",
+      "raw_text": "Ultracite v8 The linter and formatter for agentic development Discussion | Link ",
       "opportunity_type": "Manus型",
-      "score": 25.8,
+      "score": 29.6,
       "dimension_scores": {
         "growth_speed": 30.0,
-        "agent_innovation": 24,
+        "agent_innovation": 35,
         "community_signal": 18.0,
-        "api_consumption_potential": 25,
+        "api_consumption_potential": 32,
         "commercialization": 36,
-        "kimi_strategic_fit": 25
+        "kimi_strategic_fit": 31
       },
       "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "Published via Product Hunt；2026-10-15T04:55:43-07:00",
-      "commercial_summary": "产品型机会，优先判断API调用规模、付费增长和战略客户合作空间。",
+      "reason_to_contact_now": "Product Hunt发布，linter/formatter工具，无API调用或Agent执行证据",
+      "commercial_summary": "开发工具而非Agent产品，无模型API消费场景，与Kimi商业化关联度低",
       "confidence": "medium",
-      "scoring_mode": "规则预评分",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "feed_url": "https://www.producthunt.com/feed",
         "content_kind": "product_launch",
-        "original_title": "Tetriz Harness",
+        "original_title": "Ultracite v8",
+        "agent_keyword_hits": [
+          "agentic"
+        ],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": []
+      }
+    },
+    {
+      "id": "hackernews-c600583e5dff",
+      "source": "Hacker News",
+      "name": "Show HN: Gspot, a tool to lint gstack code",
+      "url": "https://generativespotting.com/",
+      "description": "Hi HN! I just launched gspot. It's a tool that auto detects languages and frameworks you use in a repo and then sets up linters and agent rules. It handles JS, TS, Python and Swift. You can turn any rule and tool on and off. You can also create templates from any repo that uses gspot. Templates tell gspot what rules, tools and exceptions to install in a completely different repo. It makes it easy for you to share your linting setup and agent rules. Feedback would be much appreciated.",
+      "published_at": "1792364079",
+      "discovered_at": "2026-10-19T05:55:28+00:00",
+      "author": "dr__stoney",
+      "metrics": {
+        "points": 1,
+        "comments": 2
+      },
+      "tags": [],
+      "evidence": [
+        "1 HN points",
+        "2 comments"
+      ],
+      "raw_text": "Show HN: Gspot, a tool to lint gstack code Hi HN! I just launched gspot. It's a tool that auto detects languages and frameworks you use in a repo and then sets up linters and agent rules. It handles JS, TS, Python and Swift. You can turn any rule and tool on and off. You can also create templates from any repo that uses gspot. Templates tell gspot what rules, tools and exceptions to install in a completely different repo. It makes it easy for you to share your linting setup and agent rules. Feedback would be much appreciated.",
+      "opportunity_type": "Manus型",
+      "score": 25.9,
+      "dimension_scores": {
+        "growth_speed": 27.5,
+        "agent_innovation": 24,
+        "community_signal": 42.0,
+        "api_consumption_potential": 25,
+        "commercialization": 18,
+        "kimi_strategic_fit": 33
+      },
+      "recommended_action": "暂不跟进",
+      "reason_to_contact_now": "仅1 HN point/2 comments，早期个人项目，无用户规模或付费信号",
+      "commercial_summary": "极早期linting工具，社区反馈冷淡，无API消费或商业化潜力，不值得投入",
+      "confidence": "low",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "metadata": {
+        "discussion_url": "https://news.ycombinator.com/item?id=50146332",
         "agent_keyword_hits": [],
         "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": []
       }
     },
     {
-      "id": "product-hunt-a74613a32375",
+      "id": "product-hunt-6c38d373d33b",
       "source": "Product Hunt",
-      "name": "Nemotron 3.5 Super VL",
-      "url": "https://www.producthunt.com/products/nvidia",
-      "description": "NVIDIA’s open multimodal model for specialized agents Discussion | Link",
-      "published_at": "2026-10-15T08:27:13-07:00",
-      "discovered_at": "2026-10-18T05:37:40+00:00",
-      "author": "Kumar Abhishek",
+      "name": "Harness by Autonomous",
+      "url": "https://www.producthunt.com/products/harness-by-autonomous",
+      "description": "Every coding agent, every machine, one command center. Discussion | Link",
+      "published_at": "2026-10-15T06:27:08-07:00",
+      "discovered_at": "2026-10-19T05:55:28+00:00",
+      "author": "Hiten Shah",
       "metrics": {},
       "tags": [],
       "evidence": [
         "Published via Product Hunt",
-        "2026-10-15T08:27:13-07:00"
+        "2026-10-15T06:27:08-07:00"
       ],
-      "raw_text": "Nemotron 3.5 Super VL NVIDIA’s open multimodal model for specialized agents Discussion | Link ",
+      "raw_text": "Harness by Autonomous Every coding agent, every machine, one command center. Discussion | Link ",
       "opportunity_type": "Manus型",
-      "score": 25.8,
+      "score": 20.8,
       "dimension_scores": {
         "growth_speed": 30.0,
         "agent_innovation": 24,
@@ -527,54 +562,14 @@
         "kimi_strategic_fit": 25
       },
       "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "Published via Product Hunt；2026-10-15T08:27:13-07:00",
-      "commercial_summary": "产品型机会，优先判断API调用规模、付费增长和战略客户合作空间。",
-      "confidence": "medium",
-      "scoring_mode": "规则预评分",
+      "reason_to_contact_now": "Product Hunt发布，零metrics，描述为coding agent管理控制台，但无具体功能、客户或API数据",
+      "commercial_summary": "早期Agent管理平台概念，缺乏验证信号，API消费规模和商业化阶段均不可评估",
+      "confidence": "low",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "feed_url": "https://www.producthunt.com/feed",
         "content_kind": "product_launch",
-        "original_title": "Nemotron 3.5 Super VL",
-        "agent_keyword_hits": [],
-        "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": []
-      }
-    },
-    {
-      "id": "product-hunt-dce365132bec",
-      "source": "Product Hunt",
-      "name": "Dottr",
-      "url": "https://www.producthunt.com/products/dottr",
-      "description": "Agent that drafts contracts, flags risks + gets them signed Discussion | Link",
-      "published_at": "2026-10-14T19:37:55-07:00",
-      "discovered_at": "2026-10-18T05:37:40+00:00",
-      "author": "Kevin William David",
-      "metrics": {},
-      "tags": [],
-      "evidence": [
-        "Published via Product Hunt",
-        "2026-10-14T19:37:55-07:00"
-      ],
-      "raw_text": "Dottr Agent that drafts contracts, flags risks + gets them signed Discussion | Link ",
-      "opportunity_type": "Manus型",
-      "score": 25.8,
-      "dimension_scores": {
-        "growth_speed": 30.0,
-        "agent_innovation": 24,
-        "community_signal": 18.0,
-        "api_consumption_potential": 25,
-        "commercialization": 36,
-        "kimi_strategic_fit": 25
-      },
-      "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "Published via Product Hunt；2026-10-14T19:37:55-07:00",
-      "commercial_summary": "产品型机会，优先判断API调用规模、付费增长和战略客户合作空间。",
-      "confidence": "medium",
-      "scoring_mode": "规则预评分",
-      "metadata": {
-        "feed_url": "https://www.producthunt.com/feed",
-        "content_kind": "product_launch",
-        "original_title": "Dottr",
+        "original_title": "Harness by Autonomous",
         "agent_keyword_hits": [],
         "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": []
