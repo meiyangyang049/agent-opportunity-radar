@@ -1,8 +1,8 @@
 {
   "meta": {
     "project": "Agent Opportunity Radar",
-    "generated_at": "2026-10-20T05:47:51+00:00",
-    "generated_at_display": "2026-10-20 13:47 CST",
+    "generated_at": "2026-10-21T05:51:02+00:00",
+    "generated_at_display": "2026-10-21 13:51 CST",
     "mode": "公开信号实时运行",
     "sources": [
       "GitHub",
@@ -14,16 +14,16 @@
       "AI news RSS: HTTPError: 429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
     ],
     "notices": [],
-    "candidate_pool_size": 38,
+    "candidate_pool_size": 42,
     "pool_by_source": {
-      "GitHub": 14,
-      "Hacker News": 16,
-      "Product Hunt": 8
+      "GitHub": 11,
+      "Hacker News": 19,
+      "Product Hunt": 12
     },
     "pool_by_type": {
-      "OpenClaw型": 16,
-      "其他Agent": 14,
-      "Manus型": 8
+      "OpenClaw型": 11,
+      "其他Agent": 19,
+      "Manus型": 12
     },
     "shortlist_policy": "Top 10；OpenClaw型/Manus型各至少4个（候选充足时）",
     "kimi_model": "kimi-k2.6"
@@ -36,13 +36,13 @@
       "url": "https://github.com/LiCinCan/blender-ai-mcp-addon",
       "description": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with OpenAI, ChatGPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon and plugin, copilot for 3D, bpy Python scripting, MCP integration.",
       "published_at": "2026-10-15T22:30:47Z",
-      "discovered_at": "2026-10-20T05:47:46+00:00",
+      "discovered_at": "2026-10-21T05:50:55+00:00",
       "author": "LiCinCan",
       "metrics": {
-        "stars": 922,
-        "forks": 382,
+        "stars": 945,
+        "forks": 386,
         "open_issues": 31,
-        "watchers": 922
+        "watchers": 945
       },
       "tags": [
         "ai-assistant",
@@ -67,16 +67,16 @@
         "python"
       ],
       "evidence": [
-        "+134 stars since last run",
-        "922 GitHub stars",
-        "382 forks",
+        "+23 stars since last run",
+        "945 GitHub stars",
+        "386 forks",
         "Created 2026-10-15"
       ],
       "raw_text": "LiCinCan/blender-ai-mcp-addon AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with OpenAI, ChatGPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon and plugin, copilot for 3D, bpy Python scripting, MCP integration. ai-assistant blender blender-addon blender-ai blender-automation blender-extension blender-mcp blender-plugin blender-python blender-scripting bpy chatgpt gpt llm mcp mcp-for-blender mcp-server model-context-protocol opencode python",
       "opportunity_type": "OpenClaw型",
-      "score": 70.6,
+      "score": 73.6,
       "dimension_scores": {
-        "growth_speed": 100.0,
+        "growth_speed": 99.8,
         "agent_innovation": 46,
         "community_signal": 100.0,
         "api_consumption_potential": 57,
@@ -84,13 +84,13 @@
         "kimi_strategic_fit": 61
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "+134 stars since last run；922 GitHub stars；382 forks；支持OpenAI/Claude/Gemini/Ollama等多模型接入",
-      "commercial_summary": "Blender MCP插件生态位明确，多模型兼容设计使其具备成为Kimi API在3D创作场景分发渠道的潜力，需观察是否支持国产模型及社区插件扩展规模。",
+      "reason_to_contact_now": "945星、386 fork、6天+23星增速，MCP多Agent工作流已支持OpenAI/Claude/Gemini/Ollama/OpenCode，未接入Kimi",
+      "commercial_summary": "3D创作工具链的高活跃开源MCP插件，模型接入位空缺，存在成为Kimi在Blender生态默认Provider的窗口期",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "language": "Python",
-        "updated_at": "2026-10-20T05:03:22Z",
+        "updated_at": "2026-10-21T05:24:56Z",
         "homepage": null,
         "agent_keyword_hits": [
           "mcp",
@@ -101,8 +101,121 @@
           "integration",
           "plugin"
         ],
-        "metric_delta": 134.0,
-        "metric_velocity_per_day": 134.7141095157199
+        "metric_delta": 23.0,
+        "metric_velocity_per_day": 22.949267244863787
+      }
+    },
+    {
+      "id": "github-a8c48bab2c01",
+      "source": "GitHub",
+      "name": "Leonxlnx/earshot",
+      "url": "https://github.com/Leonxlnx/earshot",
+      "description": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
+      "published_at": "2026-10-15T06:52:46Z",
+      "discovered_at": "2026-10-21T05:50:54+00:00",
+      "author": "Leonxlnx",
+      "metrics": {
+        "stars": 1989,
+        "forks": 113,
+        "open_issues": 4,
+        "watchers": 1989
+      },
+      "tags": [
+        "ai-agents",
+        "audio",
+        "claude-code",
+        "mcp",
+        "sound-design"
+      ],
+      "evidence": [
+        "+352 stars since last run",
+        "1,989 GitHub stars",
+        "113 forks",
+        "Created 2026-10-15"
+      ],
+      "raw_text": "Leonxlnx/earshot Ears for coding agents: let AI hear, review and make sound. CPU-only, open source. ai-agents audio claude-code mcp sound-design",
+      "opportunity_type": "OpenClaw型",
+      "score": 67.3,
+      "dimension_scores": {
+        "growth_speed": 100.0,
+        "agent_innovation": 35,
+        "community_signal": 100.0,
+        "api_consumption_potential": 32,
+        "commercialization": 18,
+        "kimi_strategic_fit": 47
+      },
+      "recommended_action": "持续观察",
+      "reason_to_contact_now": "6天+352星至1989星，增速极快，CPU-only开源音频工具，面向coding agent的听觉能力扩展",
+      "commercial_summary": "高增速开发者工具，填补AI agent音频感知空白，存在联合推广或默认模型接入的开发者生态价值",
+      "confidence": "medium",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "metadata": {
+        "language": "Python",
+        "updated_at": "2026-10-21T05:46:49Z",
+        "homepage": null,
+        "agent_keyword_hits": [
+          "mcp"
+        ],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": [
+          "open source"
+        ],
+        "metric_delta": 352.0,
+        "metric_velocity_per_day": 351.2235682692197
+      }
+    },
+    {
+      "id": "github-bb8f78765d6d",
+      "source": "GitHub",
+      "name": "reason-machines/reason-network",
+      "url": "https://github.com/reason-machines/reason-network",
+      "description": "Reason Network: your team's coding agents, talking to each other. The engine behind `reason network`.",
+      "published_at": "2026-10-16T15:34:34Z",
+      "discovered_at": "2026-10-21T05:50:55+00:00",
+      "author": "reason-machines",
+      "metrics": {
+        "stars": 759,
+        "forks": 55,
+        "open_issues": 4,
+        "watchers": 759
+      },
+      "tags": [
+        "coding-agents",
+        "iroh",
+        "mcp",
+        "peer-to-peer",
+        "reason"
+      ],
+      "evidence": [
+        "759 GitHub stars",
+        "55 forks",
+        "Created 2026-10-16"
+      ],
+      "raw_text": "reason-machines/reason-network Reason Network: your team's coding agents, talking to each other. The engine behind `reason network`. coding-agents iroh mcp peer-to-peer reason",
+      "opportunity_type": "OpenClaw型",
+      "score": 65.2,
+      "dimension_scores": {
+        "growth_speed": 98.7,
+        "agent_innovation": 35,
+        "community_signal": 100.0,
+        "api_consumption_potential": 32,
+        "commercialization": 18,
+        "kimi_strategic_fit": 39
+      },
+      "recommended_action": "持续观察",
+      "reason_to_contact_now": "759星/55 fork，5天增速近100%，Rust实现P2P团队coding agents互联，MCP协议支持",
+      "commercial_summary": "团队多Agent协作网络基础设施，P2P+MCP架构创新，存在成为Kimi企业编码生态合作伙伴的潜力",
+      "confidence": "medium",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "metadata": {
+        "language": "Rust",
+        "updated_at": "2026-10-21T05:45:35Z",
+        "homepage": "https://reasonmachines.com",
+        "agent_keyword_hits": [
+          "mcp"
+        ],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": []
       }
     },
     {
@@ -112,13 +225,13 @@
       "url": "https://github.com/feder-cr/git-ai",
       "description": "Git designed for AI agents.",
       "published_at": "2026-10-15T13:12:02Z",
-      "discovered_at": "2026-10-20T05:47:46+00:00",
+      "discovered_at": "2026-10-21T05:50:54+00:00",
       "author": "feder-cr",
       "metrics": {
-        "stars": 2474,
-        "forks": 273,
-        "open_issues": 0,
-        "watchers": 2474
+        "stars": 1294,
+        "forks": 127,
+        "open_issues": 2,
+        "watchers": 1294
       },
       "tags": [
         "ai-agents",
@@ -129,9 +242,8 @@
         "version-control"
       ],
       "evidence": [
-        "+154 stars since last run",
-        "2,474 GitHub stars",
-        "273 forks",
+        "1,294 GitHub stars",
+        "127 forks",
         "Created 2026-10-15"
       ],
       "raw_text": "feder-cr/git-ai Git designed for AI agents. ai-agents coding-agents git golang scion version-control",
@@ -146,205 +258,21 @@
         "kimi_strategic_fit": 39
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "2,474 stars、273 forks、单日+154 stars增速，Go语言重写Git for AI agents",
-      "commercial_summary": "高增速开发者基础设施，潜在模型API消费场景（agent代码操作），需追踪是否集成LLM Provider及默认模型选择",
+      "reason_to_contact_now": "1294星/127 fork，Anthropic官方关联（homepage指向anthropic.com），AI原生版本控制工具",
+      "commercial_summary": "AI-native Git工具获Anthropic背书，Go语言基础设施层，需观察是否开放多模型接入或成为Kimi编码生态伙伴",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "language": "Go",
-        "updated_at": "2026-10-20T05:46:42Z",
+        "updated_at": "2026-10-21T05:44:28Z",
         "homepage": "https://www.anthropic.com/engineering/redesigning-source-control",
         "agent_keyword_hits": [
           "ai agent"
         ],
         "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": [],
-        "metric_delta": 154.0,
-        "metric_velocity_per_day": 154.82069302552884
-      }
-    },
-    {
-      "id": "github-cb4289c7d787",
-      "source": "GitHub",
-      "name": "outcrawlai/scout",
-      "url": "https://github.com/outcrawlai/scout",
-      "description": "Scout: the open-source browser agent, by Outcrawl. Mirrored automatically from Outcrawl's own repository.",
-      "published_at": "2026-10-13T09:18:55Z",
-      "discovered_at": "2026-10-20T05:47:46+00:00",
-      "author": "outcrawlai",
-      "metrics": {
-        "stars": 955,
-        "forks": 29,
-        "open_issues": 4,
-        "watchers": 955
-      },
-      "tags": [
-        "ai-agent",
-        "browser-agent",
-        "browser-automation",
-        "cdp",
-        "llm",
-        "typescript",
-        "web-automation"
-      ],
-      "evidence": [
-        "+9 stars since last run",
-        "955 GitHub stars",
-        "29 forks",
-        "Created 2026-10-13"
-      ],
-      "raw_text": "outcrawlai/scout Scout: the open-source browser agent, by Outcrawl. Mirrored automatically from Outcrawl's own repository. ai-agent browser-agent browser-automation cdp llm typescript web-automation",
-      "opportunity_type": "OpenClaw型",
-      "score": 64.2,
-      "dimension_scores": {
-        "growth_speed": 96.2,
-        "agent_innovation": 35,
-        "community_signal": 100.0,
-        "api_consumption_potential": 50,
-        "commercialization": 18,
-        "kimi_strategic_fit": 39
-      },
-      "recommended_action": "持续观察",
-      "reason_to_contact_now": "955 GitHub stars；Outcrawl公司背书；浏览器Agent赛道，但+9 stars增速放缓",
-      "commercial_summary": "开源浏览器Agent，Outcrawl商业化背景值得关注，但增速回落，需判断其是否从开源工具向SaaS转化及模型依赖关系。",
-      "confidence": "medium",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "language": "TypeScript",
-        "updated_at": "2026-10-20T05:15:34Z",
-        "homepage": "https://outcrawl.ai",
-        "agent_keyword_hits": [
-          "browser agent"
-        ],
-        "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": [],
-        "metric_delta": 9.0,
-        "metric_velocity_per_day": 9.047962579414023
-      }
-    },
-    {
-      "id": "github-a8c48bab2c01",
-      "source": "GitHub",
-      "name": "Leonxlnx/earshot",
-      "url": "https://github.com/Leonxlnx/earshot",
-      "description": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
-      "published_at": "2026-10-15T06:52:46Z",
-      "discovered_at": "2026-10-20T05:47:46+00:00",
-      "author": "Leonxlnx",
-      "metrics": {
-        "stars": 1637,
-        "forks": 94,
-        "open_issues": 3,
-        "watchers": 1637
-      },
-      "tags": [
-        "ai-agents",
-        "audio",
-        "claude-code",
-        "mcp",
-        "sound-design"
-      ],
-      "evidence": [
-        "+696 stars since last run",
-        "1,637 GitHub stars",
-        "94 forks",
-        "Created 2026-10-15"
-      ],
-      "raw_text": "Leonxlnx/earshot Ears for coding agents: let AI hear, review and make sound. CPU-only, open source. ai-agents audio claude-code mcp sound-design",
-      "opportunity_type": "OpenClaw型",
-      "score": 63.3,
-      "dimension_scores": {
-        "growth_speed": 100.0,
-        "agent_innovation": 35,
-        "community_signal": 100.0,
-        "api_consumption_potential": 32,
-        "commercialization": 18,
-        "kimi_strategic_fit": 47
-      },
-      "recommended_action": "持续观察",
-      "reason_to_contact_now": "+696 stars since last run；1,637 GitHub stars；94 forks；MCP+音频+编码Agent三要素叠加",
-      "commercial_summary": "编码Agent音频能力扩展，MCP协议兼容，高增速显示开发者兴趣，需追踪其是否集成多模型及是否向IDE插件生态渗透。",
-      "confidence": "medium",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "language": "Python",
-        "updated_at": "2026-10-20T05:46:28Z",
-        "homepage": null,
-        "agent_keyword_hits": [
-          "mcp"
-        ],
-        "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": [
-          "open source"
-        ],
-        "metric_delta": 696.0,
-        "metric_velocity_per_day": 699.7091061413511
-      }
-    },
-    {
-      "id": "github-30e489014447",
-      "source": "GitHub",
-      "name": "i12bp8/decomp.wtf",
-      "url": "https://github.com/i12bp8/decomp.wtf",
-      "description": "What The Function: your AI agent decompiles games you own into C that compiles to the exact same bytes. Runs locally.",
-      "published_at": "2026-10-13T08:19:01Z",
-      "discovered_at": "2026-10-20T05:47:47+00:00",
-      "author": "i12bp8",
-      "metrics": {
-        "stars": 513,
-        "forks": 253,
-        "open_issues": 0,
-        "watchers": 513
-      },
-      "tags": [
-        "ai-agents",
-        "claude-code",
-        "decomp",
-        "decompilation",
-        "decompiler",
-        "matching-decompilation",
-        "mcp",
-        "n64",
-        "recomp",
-        "recompilation",
-        "recompiler",
-        "retro-gaming",
-        "reverse-engineering"
-      ],
-      "evidence": [
-        "+15 stars since last run",
-        "513 GitHub stars",
-        "253 forks",
-        "Created 2026-10-13"
-      ],
-      "raw_text": "i12bp8/decomp.wtf What The Function: your AI agent decompiles games you own into C that compiles to the exact same bytes. Runs locally. ai-agents claude-code decomp decompilation decompiler matching-decompilation mcp n64 recomp recompilation recompiler retro-gaming reverse-engineering",
-      "opportunity_type": "OpenClaw型",
-      "score": 63.0,
-      "dimension_scores": {
-        "growth_speed": 86.8,
-        "agent_innovation": 46,
-        "community_signal": 100.0,
-        "api_consumption_potential": 39,
-        "commercialization": 18,
-        "kimi_strategic_fit": 45
-      },
-      "recommended_action": "持续观察",
-      "reason_to_contact_now": "513 GitHub stars、253 forks；本地运行+逆向工程垂直场景；但+15 stars增速显著放缓",
-      "commercial_summary": "游戏逆向工程Agent，垂直领域技术深度高，本地运行模式限制API消费，需观察是否扩展云端能力或形成开发者社区。",
-      "confidence": "medium",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "language": "Python",
-        "updated_at": "2026-10-20T04:04:23Z",
-        "homepage": "https://decomp.wtf",
-        "agent_keyword_hits": [
-          "ai agent",
-          "mcp"
-        ],
-        "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": [],
-        "metric_delta": 15.0,
-        "metric_velocity_per_day": 15.079937632356705
+        "metric_delta": -1180.0,
+        "metric_velocity_per_day": 0.0
       }
     },
     {
@@ -354,13 +282,13 @@
       "url": "https://github.com/alchaincyf/huashu-motion",
       "description": "让你的agent一键直出商业级产品宣传片：会作曲，能指着画面改。Commercial-grade launch films by your coding agent — point at the frame to change it.",
       "published_at": "2026-10-18T12:19:27Z",
-      "discovered_at": "2026-10-20T05:47:46+00:00",
+      "discovered_at": "2026-10-21T05:50:54+00:00",
       "author": "alchaincyf",
       "metrics": {
-        "stars": 1003,
-        "forks": 110,
+        "stars": 1182,
+        "forks": 119,
         "open_issues": 0,
-        "watchers": 1003
+        "watchers": 1182
       },
       "tags": [
         "agent-skills",
@@ -373,8 +301,9 @@
         "skills"
       ],
       "evidence": [
-        "1,003 GitHub stars",
-        "110 forks",
+        "+179 stars since last run",
+        "1,182 GitHub stars",
+        "119 forks",
         "Created 2026-10-18"
       ],
       "raw_text": "alchaincyf/huashu-motion 让你的agent一键直出商业级产品宣传片：会作曲，能指着画面改。Commercial-grade launch films by your coding agent — point at the frame to change it. agent-skills animation claude-code codex gsap launch-video motion-graphics skills",
@@ -389,59 +318,75 @@
         "kimi_strategic_fit": 41
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "1,003 stars、110 forks、2天内创建，Claude Code/Codex技能插件，agent-skills标签",
-      "commercial_summary": "编码Agent技能插件生态位，直接绑定Claude Code/Codex，需追踪是否扩展多模型支持及技能市场模式",
+      "reason_to_contact_now": "GitHub 1182 stars，119 forks，单日增速179 stars，标签含claude-code/codex/skills",
+      "commercial_summary": "Agent技能/插件生态，已明确绑定Claude Code/Codex，需观察是否支持多模型接入及Kimi适配空间",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "language": "JavaScript",
-        "updated_at": "2026-10-20T05:45:18Z",
+        "updated_at": "2026-10-21T05:43:32Z",
         "homepage": "https://github.com/alchaincyf/huashu-motion",
         "agent_keyword_hits": [],
         "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": [
           "skill"
-        ]
+        ],
+        "metric_delta": 179.0,
+        "metric_velocity_per_day": 178.60516681872252
       }
     },
     {
-      "id": "product-hunt-2c38ce2c7c3b",
-      "source": "Product Hunt",
-      "name": "Beam.win",
-      "url": "https://www.producthunt.com/products/beam-win",
-      "description": "Run AI agents on one Mac and use its windows on another Discussion | Link",
-      "published_at": "2026-10-18T12:13:45-07:00",
-      "discovered_at": "2026-10-20T05:47:51+00:00",
-      "author": "Hiten Shah",
-      "metrics": {},
-      "tags": [],
-      "evidence": [
-        "Published via Product Hunt",
-        "2026-10-18T12:13:45-07:00"
-      ],
-      "raw_text": "Beam.win Run AI agents on one Mac and use its windows on another Discussion | Link ",
-      "opportunity_type": "Manus型",
-      "score": 29.6,
-      "dimension_scores": {
-        "growth_speed": 30.0,
-        "agent_innovation": 35,
-        "community_signal": 18.0,
-        "api_consumption_potential": 32,
-        "commercialization": 36,
-        "kimi_strategic_fit": 31
+      "id": "github-e89f753ef44a",
+      "source": "GitHub",
+      "name": "kitlangton/scrawl",
+      "url": "https://github.com/kitlangton/scrawl",
+      "description": "Show an agent a problem: mark up, record, send",
+      "published_at": "2026-10-14T23:21:44Z",
+      "discovered_at": "2026-10-21T05:50:56+00:00",
+      "author": "kitlangton",
+      "metrics": {
+        "stars": 588,
+        "forks": 54,
+        "open_issues": 21,
+        "watchers": 588
       },
-      "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "Product Hunt发布，无具体用户或收入数据；描述仅为跨Mac窗口共享工具",
-      "commercial_summary": "远程Agent桌面共享工具，API消费场景不明确，缺乏商业化信号，与Kimi API直接关联度低。",
-      "confidence": "low",
+      "tags": [
+        "ai-agents",
+        "claude-code",
+        "coding-agents",
+        "developer-tools",
+        "gpui",
+        "macos",
+        "opencode",
+        "rust",
+        "screen-recording"
+      ],
+      "evidence": [
+        "588 GitHub stars",
+        "54 forks",
+        "Created 2026-10-14"
+      ],
+      "raw_text": "kitlangton/scrawl Show an agent a problem: mark up, record, send ai-agents claude-code coding-agents developer-tools gpui macos opencode rust screen-recording",
+      "opportunity_type": "OpenClaw型",
+      "score": 58.2,
+      "dimension_scores": {
+        "growth_speed": 90.3,
+        "agent_innovation": 24,
+        "community_signal": 100.0,
+        "api_consumption_potential": 25,
+        "commercialization": 18,
+        "kimi_strategic_fit": 33
+      },
+      "recommended_action": "持续观察",
+      "reason_to_contact_now": "588 stars，54 forks，标签含ai-agents/claude-code/coding-agents/developer-tools，有明确Agent开发工具定位",
+      "commercial_summary": "Agent开发工具（录屏+标注+发送给agent），已绑定Claude Code生态，需观察多模型支持及Kimi接入可能性",
+      "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
-        "feed_url": "https://www.producthunt.com/feed",
-        "content_kind": "product_launch",
-        "original_title": "Beam.win",
-        "agent_keyword_hits": [
-          "ai agent"
-        ],
+        "language": "Rust",
+        "updated_at": "2026-10-21T05:50:02Z",
+        "homepage": "https://scrawl.kitlangton.com",
+        "agent_keyword_hits": [],
         "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": []
       }
@@ -453,7 +398,7 @@
       "url": "https://www.producthunt.com/products/readywhen",
       "description": "The senior personal assistant that works inside WhatsApp Discussion | Link",
       "published_at": "2026-10-13T02:05:46-07:00",
-      "discovered_at": "2026-10-20T05:47:51+00:00",
+      "discovered_at": "2026-10-21T05:51:02+00:00",
       "author": "KP",
       "metrics": {},
       "tags": [],
@@ -473,10 +418,10 @@
         "kimi_strategic_fit": 31
       },
       "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "Product Hunt发布，无用户/收入/融资数据；WhatsApp个人助理形态常见",
-      "commercial_summary": "WhatsApp端个人助理，缺乏差异化技术或商业模式信号，API消耗规模不可评估。",
-      "confidence": "low",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "reason_to_contact_now": "Published via Product Hunt；2026-10-13T02:05:46-07:00；Agent signals: personal assistant",
+      "commercial_summary": "产品型机会，优先判断API调用规模、付费增长和战略客户合作空间。",
+      "confidence": "medium",
+      "scoring_mode": "规则预评分",
       "metadata": {
         "feed_url": "https://www.producthunt.com/feed",
         "content_kind": "product_launch",
@@ -489,23 +434,23 @@
       }
     },
     {
-      "id": "product-hunt-56ad5d36c35e",
+      "id": "product-hunt-f61ecd42e79b",
       "source": "Product Hunt",
-      "name": "Point and Yap",
-      "url": "https://www.producthunt.com/products/point-and-yap",
-      "description": "Point at your screen and start yapping to your agent via MCP Discussion | Link",
-      "published_at": "2026-10-18T17:12:27-07:00",
-      "discovered_at": "2026-10-20T05:47:51+00:00",
-      "author": "Marc Maurer",
+      "name": "Exa 3.0",
+      "url": "https://www.producthunt.com/products/exa-ai",
+      "description": "Smarter search that gives AI agent richer data at lower cost Discussion | Link",
+      "published_at": "2026-10-19T13:05:52-07:00",
+      "discovered_at": "2026-10-21T05:51:02+00:00",
+      "author": "Rohan Chaubey",
       "metrics": {},
       "tags": [],
       "evidence": [
         "Published via Product Hunt",
-        "2026-10-18T17:12:27-07:00"
+        "2026-10-19T13:05:52-07:00"
       ],
-      "raw_text": "Point and Yap Point at your screen and start yapping to your agent via MCP Discussion | Link ",
+      "raw_text": "Exa 3.0 Smarter search that gives AI agent richer data at lower cost Discussion | Link ",
       "opportunity_type": "Manus型",
-      "score": 29.6,
+      "score": 26.6,
       "dimension_scores": {
         "growth_speed": 30.0,
         "agent_innovation": 35,
@@ -515,60 +460,98 @@
         "kimi_strategic_fit": 31
       },
       "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "Product Hunt发布，无具体数据；MCP为技术亮点但产品形态模糊",
-      "commercial_summary": "屏幕指向+语音交互Agent，MCP接入显示技术开放性，但缺乏用户规模或商业化路径信息。",
-      "confidence": "low",
+      "reason_to_contact_now": "Product Hunt发布，定位为AI search/data层，非Agent产品本身，无API消费规模证据",
+      "commercial_summary": "AI搜索基础设施，与Kimi存在潜在竞争关系（搜索+Agent数据层），但非当前客户或生态目标",
+      "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "feed_url": "https://www.producthunt.com/feed",
         "content_kind": "product_launch",
-        "original_title": "Point and Yap",
+        "original_title": "Exa 3.0",
         "agent_keyword_hits": [
-          "mcp"
+          "ai agent"
         ],
         "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": []
       }
     },
     {
-      "id": "product-hunt-3c848233e51b",
+      "id": "product-hunt-1a62fce36a98",
       "source": "Product Hunt",
-      "name": "Tori",
-      "url": "https://www.producthunt.com/products/tori-3",
-      "description": "The smartest AI support agent for customer success Discussion | Link",
-      "published_at": "2026-10-16T05:24:54-07:00",
-      "discovered_at": "2026-10-20T05:47:51+00:00",
-      "author": "Joshua Schoenaker",
+      "name": "Harness²",
+      "url": "https://www.producthunt.com/products/harness-104",
+      "description": "Harness the agent. Then harness its self-improvement. Discussion | Link",
+      "published_at": "2026-10-19T12:43:26-07:00",
+      "discovered_at": "2026-10-21T05:51:02+00:00",
+      "author": "Chris Messina",
       "metrics": {},
       "tags": [],
       "evidence": [
         "Published via Product Hunt",
-        "2026-10-16T05:24:54-07:00"
+        "2026-10-19T12:43:26-07:00"
       ],
-      "raw_text": "Tori The smartest AI support agent for customer success Discussion | Link ",
+      "raw_text": "Harness² Harness the agent. Then harness its self-improvement. Discussion | Link ",
       "opportunity_type": "Manus型",
-      "score": 27.9,
+      "score": 25.8,
       "dimension_scores": {
         "growth_speed": 30.0,
         "agent_innovation": 24,
         "community_signal": 18.0,
-        "api_consumption_potential": 30,
-        "commercialization": 50,
+        "api_consumption_potential": 25,
+        "commercialization": 36,
         "kimi_strategic_fit": 25
       },
       "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "Product Hunt发布，仅描述为AI客服agent，无融资、收入或用户数证据",
-      "commercial_summary": "垂直客服Agent产品，若后续验证企业客户付费转化和API调用规模，可重新评估",
+      "reason_to_contact_now": "Published via Product Hunt；2026-10-19T12:43:26-07:00",
+      "commercial_summary": "产品型机会，优先判断API调用规模、付费增长和战略客户合作空间。",
       "confidence": "medium",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "scoring_mode": "规则预评分",
       "metadata": {
         "feed_url": "https://www.producthunt.com/feed",
         "content_kind": "product_launch",
-        "original_title": "Tori",
+        "original_title": "Harness²",
         "agent_keyword_hits": [],
-        "commercial_keyword_hits": [
-          "customer"
-        ],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": []
+      }
+    },
+    {
+      "id": "product-hunt-1a12e0caf84a",
+      "source": "Product Hunt",
+      "name": "Praex",
+      "url": "https://www.producthunt.com/products/praex",
+      "description": "The coding agent that runs on its own AI models Discussion | Link",
+      "published_at": "2026-10-19T14:26:11-07:00",
+      "discovered_at": "2026-10-21T05:51:02+00:00",
+      "author": "Davor Jerkovic",
+      "metrics": {},
+      "tags": [],
+      "evidence": [
+        "Published via Product Hunt",
+        "2026-10-19T14:26:11-07:00"
+      ],
+      "raw_text": "Praex The coding agent that runs on its own AI models Discussion | Link ",
+      "opportunity_type": "Manus型",
+      "score": 25.8,
+      "dimension_scores": {
+        "growth_speed": 30.0,
+        "agent_innovation": 24,
+        "community_signal": 18.0,
+        "api_consumption_potential": 25,
+        "commercialization": 36,
+        "kimi_strategic_fit": 25
+      },
+      "recommended_action": "暂不跟进",
+      "reason_to_contact_now": "Published via Product Hunt；2026-10-19T14:26:11-07:00",
+      "commercial_summary": "产品型机会，优先判断API调用规模、付费增长和战略客户合作空间。",
+      "confidence": "medium",
+      "scoring_mode": "规则预评分",
+      "metadata": {
+        "feed_url": "https://www.producthunt.com/feed",
+        "content_kind": "product_launch",
+        "original_title": "Praex",
+        "agent_keyword_hits": [],
+        "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": []
       }
     }
