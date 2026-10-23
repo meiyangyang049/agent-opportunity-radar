@@ -594,3 +594,13 @@ run_at,id,name,source,score,opportunity_type,recommended_action,metric_name,metr
 2026-10-22T05:54:40+00:00,product-hunt-df12dac1b58e,The Brains,Product Hunt,26.6,Manus型,暂不跟进,none,0.0
 2026-10-22T05:54:40+00:00,product-hunt-532a1f9362d2,Searchtok,Product Hunt,26.6,Manus型,暂不跟进,none,0.0
 2026-10-22T05:54:40+00:00,product-hunt-07a737d75fbb,UseIt Studio,Product Hunt,25.8,Manus型,暂不跟进,none,0.0
+2026-10-23T05:52:33+00:00,github-0397d3ffaaa2,cranebeaker/coop-anything,GitHub,69.3,OpenClaw型,持续观察,stars,850.0
+2026-10-23T05:52:33+00:00,github-bb8f78765d6d,reason-machines/reason-network,GitHub,66.5,OpenClaw型,持续观察,stars,1090.0
+2026-10-23T05:52:33+00:00,github-7f1fc8bd4719,alchaincyf/huashu-motion,GitHub,61.4,OpenClaw型,持续观察,stars,1470.0
+2026-10-23T05:52:33+00:00,github-c0c73dadf557,aicodeking/pandacode,GitHub,60.5,OpenClaw型,持续观察,stars,524.0
+2026-10-23T05:52:33+00:00,github-5181b3d81520,yuatemycat/SuperGhidra,GitHub,60.2,OpenClaw型,持续观察,stars,112.0
+2026-10-23T05:52:33+00:00,github-a81df2904e9c,dominikmartn/harp,GitHub,56.6,OpenClaw型,持续观察,stars,585.0
+2026-10-23T05:52:33+00:00,product-hunt-58df054fc080,Causo,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
+2026-10-23T05:52:33+00:00,product-hunt-05c8fa392eb3,Agentic CleanSlop,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
+2026-10-23T05:52:33+00:00,product-hunt-df12dac1b58e,The Brains,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
+2026-10-23T05:52:33+00:00,product-hunt-aaba81e1ed84,Resend Inboxes,Product Hunt,25.8,Manus型,暂不跟进,none,0.0

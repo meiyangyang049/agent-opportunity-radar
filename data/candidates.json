@@ -1,8 +1,8 @@
 {
   "meta": {
     "project": "Agent Opportunity Radar",
-    "generated_at": "2026-10-22T05:54:40+00:00",
-    "generated_at_display": "2026-10-22 13:54 CST",
+    "generated_at": "2026-10-23T05:52:33+00:00",
+    "generated_at_display": "2026-10-23 13:52 CST",
     "mode": "公开信号实时运行",
     "sources": [
       "GitHub",
@@ -14,95 +14,71 @@
       "AI news RSS: HTTPError: 429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
     ],
     "notices": [],
-    "candidate_pool_size": 48,
+    "candidate_pool_size": 41,
     "pool_by_source": {
       "GitHub": 10,
-      "Hacker News": 29,
-      "Product Hunt": 9
+      "Hacker News": 21,
+      "Product Hunt": 10
     },
     "pool_by_type": {
-      "OpenClaw型": 12,
-      "其他Agent": 26,
-      "Manus型": 10
+      "OpenClaw型": 16,
+      "其他Agent": 17,
+      "Manus型": 8
     },
     "shortlist_policy": "Top 10；OpenClaw型/Manus型各至少4个（候选充足时）",
     "kimi_model": "kimi-k2.6"
   },
   "candidates": [
     {
-      "id": "github-2b7cb3c810ed",
+      "id": "github-0397d3ffaaa2",
       "source": "GitHub",
-      "name": "LiCinCan/blender-ai-mcp-addon",
-      "url": "https://github.com/LiCinCan/blender-ai-mcp-addon",
-      "description": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with OpenAI, ChatGPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon and plugin, copilot for 3D, bpy Python scripting, MCP integration.",
-      "published_at": "2026-10-15T22:30:47Z",
-      "discovered_at": "2026-10-22T05:54:34+00:00",
-      "author": "LiCinCan",
+      "name": "cranebeaker/coop-anything",
+      "url": "https://github.com/cranebeaker/coop-anything",
+      "description": "Co-op Anything: point your AI agent at any single-player game and play it with friends (online and/or splitscreen!). MCP server and playbook to let you reverse engineer, fix, test, ship and share what it learns.",
+      "published_at": "2026-10-16T11:12:03Z",
+      "discovered_at": "2026-10-23T05:52:28+00:00",
+      "author": "cranebeaker",
       "metrics": {
-        "stars": 976,
-        "forks": 390,
-        "open_issues": 31,
-        "watchers": 976
+        "stars": 850,
+        "forks": 117,
+        "open_issues": 88,
+        "watchers": 850
       },
-      "tags": [
-        "ai-assistant",
-        "blender",
-        "blender-addon",
-        "blender-ai",
-        "blender-automation",
-        "blender-extension",
-        "blender-mcp",
-        "blender-plugin",
-        "blender-python",
-        "blender-scripting",
-        "bpy",
-        "chatgpt",
-        "gpt",
-        "llm",
-        "mcp",
-        "mcp-for-blender",
-        "mcp-server",
-        "model-context-protocol",
-        "opencode",
-        "python"
-      ],
+      "tags": [],
       "evidence": [
-        "+31 stars since last run",
-        "976 GitHub stars",
-        "390 forks",
-        "Created 2026-10-15"
+        "+47 stars since last run",
+        "850 GitHub stars",
+        "117 forks",
+        "Created 2026-10-16"
       ],
-      "raw_text": "LiCinCan/blender-ai-mcp-addon AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with OpenAI, ChatGPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon and plugin, copilot for 3D, bpy Python scripting, MCP integration. ai-assistant blender blender-addon blender-ai blender-automation blender-extension blender-mcp blender-plugin blender-python blender-scripting bpy chatgpt gpt llm mcp mcp-for-blender mcp-server model-context-protocol opencode python",
+      "raw_text": "cranebeaker/coop-anything Co-op Anything: point your AI agent at any single-player game and play it with friends (online and/or splitscreen!). MCP server and playbook to let you reverse engineer, fix, test, ship and share what it learns. ",
       "opportunity_type": "OpenClaw型",
-      "score": 70.1,
+      "score": 69.3,
       "dimension_scores": {
-        "growth_speed": 97.7,
+        "growth_speed": 99.7,
         "agent_innovation": 46,
         "community_signal": 100.0,
-        "api_consumption_potential": 57,
+        "api_consumption_potential": 39,
         "commercialization": 18,
-        "kimi_strategic_fit": 61
+        "kimi_strategic_fit": 45
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "976 GitHub stars，390 forks，+31 stars since last run，支持OpenAI/Claude/Gemini/Ollama等多模型接入",
-      "commercial_summary": "Blender MCP插件生态位明确，3D创作场景模型调用潜力大，可争取成为默认中文模型接入方",
+      "reason_to_contact_now": "7天获850星、117 fork，增速47星/天；提供MCP server和playbook，定位AI agent游戏化协作基础设施",
+      "commercial_summary": "MCP生态早期高增速项目，具备成为agent技能分发平台的潜力，可探索作为Kimi默认模型接入方或联合社区运营",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "language": "Python",
-        "updated_at": "2026-10-22T01:49:31Z",
-        "homepage": null,
+        "updated_at": "2026-10-23T05:40:03Z",
+        "homepage": "https://coopanything.app",
         "agent_keyword_hits": [
-          "mcp",
-          "multi-agent"
+          "ai agent",
+          "mcp"
         ],
         "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": [
-          "integration",
-          "plugin"
-        ],
-        "metric_delta": 31.0,
-        "metric_velocity_per_day": 30.92197926527973
+        "ecosystem_keyword_hits": [],
+        "metric_delta": 47.0,
+        "metric_velocity_per_day": 47.06918734714221
       }
     },
     {
@@ -112,13 +88,13 @@
       "url": "https://github.com/reason-machines/reason-network",
       "description": "Reason Network: your team's coding agents, talking to each other. The engine behind `reason network`.",
       "published_at": "2026-10-16T15:34:34Z",
-      "discovered_at": "2026-10-22T05:54:35+00:00",
+      "discovered_at": "2026-10-23T05:52:28+00:00",
       "author": "reason-machines",
       "metrics": {
-        "stars": 958,
-        "forks": 79,
-        "open_issues": 1,
-        "watchers": 958
+        "stars": 1090,
+        "forks": 88,
+        "open_issues": 6,
+        "watchers": 1090
       },
       "tags": [
         "coding-agents",
@@ -128,14 +104,14 @@
         "reason"
       ],
       "evidence": [
-        "+199 stars since last run",
-        "958 GitHub stars",
-        "79 forks",
+        "+132 stars since last run",
+        "1,090 GitHub stars",
+        "88 forks",
         "Created 2026-10-16"
       ],
       "raw_text": "reason-machines/reason-network Reason Network: your team's coding agents, talking to each other. The engine behind `reason network`. coding-agents iroh mcp peer-to-peer reason",
       "opportunity_type": "OpenClaw型",
-      "score": 65.5,
+      "score": 66.5,
       "dimension_scores": {
         "growth_speed": 100.0,
         "agent_innovation": 35,
@@ -145,129 +121,21 @@
         "kimi_strategic_fit": 39
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "+199 stars since last run，958 stars，79 forks，团队编码Agent P2P通信引擎，Rust实现，MCP支持",
-      "commercial_summary": "多Agent协作基础设施，高增速+企业场景（team's coding agents），可优先接触评估模型接入和B端合作",
+      "reason_to_contact_now": "7天1090星、88 fork，增速132星/天；Rust构建团队coding agents P2P通信引擎，支持MCP",
+      "commercial_summary": "团队级coding agent基础设施，P2P架构和MCP支持使其具备成为开发者工作流核心层的潜力，高优先级生态观察对象",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "language": "Rust",
-        "updated_at": "2026-10-22T05:53:44Z",
+        "updated_at": "2026-10-23T05:42:17Z",
         "homepage": "https://reasonmachines.com",
         "agent_keyword_hits": [
           "mcp"
         ],
         "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": [],
-        "metric_delta": 199.0,
-        "metric_velocity_per_day": 198.49915721905376
-      }
-    },
-    {
-      "id": "github-0397d3ffaaa2",
-      "source": "GitHub",
-      "name": "cranebeaker/coop-anything",
-      "url": "https://github.com/cranebeaker/coop-anything",
-      "description": "Co-op Anything: point your AI agent at any single-player game and play it with friends (online and/or splitscreen!). MCP server and playbook to let you reverse engineer, fix, test, ship and share what it learns.",
-      "published_at": "2026-10-16T11:12:03Z",
-      "discovered_at": "2026-10-22T05:54:36+00:00",
-      "author": "cranebeaker",
-      "metrics": {
-        "stars": 803,
-        "forks": 101,
-        "open_issues": 73,
-        "watchers": 803
-      },
-      "tags": [],
-      "evidence": [
-        "803 GitHub stars",
-        "101 forks",
-        "Created 2026-10-16"
-      ],
-      "raw_text": "cranebeaker/coop-anything Co-op Anything: point your AI agent at any single-player game and play it with friends (online and/or splitscreen!). MCP server and playbook to let you reverse engineer, fix, test, ship and share what it learns. ",
-      "opportunity_type": "OpenClaw型",
-      "score": 65.4,
-      "dimension_scores": {
-        "growth_speed": 96.1,
-        "agent_innovation": 46,
-        "community_signal": 100.0,
-        "api_consumption_potential": 39,
-        "commercialization": 18,
-        "kimi_strategic_fit": 45
-      },
-      "recommended_action": "持续观察",
-      "reason_to_contact_now": "803 GitHub stars，101 forks，6天内创建，含MCP server和playbook",
-      "commercial_summary": "游戏AI Agent开源框架，MCP生态位清晰，可观察模型接入偏好及社区扩散速度",
-      "confidence": "medium",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "language": "Python",
-        "updated_at": "2026-10-22T04:45:52Z",
-        "homepage": "https://coopanything.app",
-        "agent_keyword_hits": [
-          "ai agent",
-          "mcp"
-        ],
-        "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": []
-      }
-    },
-    {
-      "id": "github-a8c48bab2c01",
-      "source": "GitHub",
-      "name": "Leonxlnx/earshot",
-      "url": "https://github.com/Leonxlnx/earshot",
-      "description": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
-      "published_at": "2026-10-15T06:52:46Z",
-      "discovered_at": "2026-10-22T05:54:34+00:00",
-      "author": "Leonxlnx",
-      "metrics": {
-        "stars": 2061,
-        "forks": 117,
-        "open_issues": 4,
-        "watchers": 2061
-      },
-      "tags": [
-        "ai-agents",
-        "audio",
-        "claude-code",
-        "mcp",
-        "sound-design"
-      ],
-      "evidence": [
-        "+72 stars since last run",
-        "2,061 GitHub stars",
-        "117 forks",
-        "Created 2026-10-15"
-      ],
-      "raw_text": "Leonxlnx/earshot Ears for coding agents: let AI hear, review and make sound. CPU-only, open source. ai-agents audio claude-code mcp sound-design",
-      "opportunity_type": "OpenClaw型",
-      "score": 65.3,
-      "dimension_scores": {
-        "growth_speed": 100.0,
-        "agent_innovation": 35,
-        "community_signal": 100.0,
-        "api_consumption_potential": 32,
-        "commercialization": 18,
-        "kimi_strategic_fit": 47
-      },
-      "recommended_action": "持续观察",
-      "reason_to_contact_now": "2061 stars，+72 stars since last run，117 forks，CPU-only开源，明确支持Claude Code MCP",
-      "commercial_summary": "编码Agent音频能力扩展，MCP集成+高增速，可接触评估多模型支持意愿",
-      "confidence": "medium",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "language": "Python",
-        "updated_at": "2026-10-22T03:47:02Z",
-        "homepage": null,
-        "agent_keyword_hits": [
-          "mcp"
-        ],
-        "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": [
-          "open source"
-        ],
-        "metric_delta": 72.0,
-        "metric_velocity_per_day": 71.81879055161744
+        "metric_delta": 132.0,
+        "metric_velocity_per_day": 132.1943134004845
       }
     },
     {
@@ -277,13 +145,13 @@
       "url": "https://github.com/alchaincyf/huashu-motion",
       "description": "让你的agent一键直出商业级产品宣传片：会作曲，能指着画面改。Commercial-grade launch films by your coding agent — point at the frame to change it.",
       "published_at": "2026-10-18T12:19:27Z",
-      "discovered_at": "2026-10-22T05:54:34+00:00",
+      "discovered_at": "2026-10-23T05:52:28+00:00",
       "author": "alchaincyf",
       "metrics": {
-        "stars": 1319,
-        "forks": 129,
+        "stars": 1470,
+        "forks": 142,
         "open_issues": 2,
-        "watchers": 1319
+        "watchers": 1470
       },
       "tags": [
         "agent-skills",
@@ -296,14 +164,14 @@
         "skills"
       ],
       "evidence": [
-        "+137 stars since last run",
-        "1,319 GitHub stars",
-        "129 forks",
+        "+151 stars since last run",
+        "1,470 GitHub stars",
+        "142 forks",
         "Created 2026-10-18"
       ],
       "raw_text": "alchaincyf/huashu-motion 让你的agent一键直出商业级产品宣传片：会作曲，能指着画面改。Commercial-grade launch films by your coding agent — point at the frame to change it. agent-skills animation claude-code codex gsap launch-video motion-graphics skills",
       "opportunity_type": "OpenClaw型",
-      "score": 59.4,
+      "score": 61.4,
       "dimension_scores": {
         "growth_speed": 100.0,
         "agent_innovation": 24,
@@ -313,21 +181,130 @@
         "kimi_strategic_fit": 41
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "4天内1,319 stars、129 forks，增速极快，但标签显示为Claude Code/Codex技能插件",
-      "commercial_summary": "Agent技能插件/开源工具，高社区热度但明确绑定Anthropic/Codex生态，Kimi可观察其是否扩展多模型支持以评估生态合作空间",
+      "reason_to_contact_now": "5天1470星、142 fork，增速151星/天；agent一键生成商业级宣传片，明确标注claude-code/codex/skills生态位",
+      "commercial_summary": "高增速agent技能/工作流项目，直接绑定coding agent输出商业视频，具备成为Kimi技能市场标杆案例或内容生态合作方的潜力",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "language": "JavaScript",
-        "updated_at": "2026-10-22T05:43:42Z",
+        "updated_at": "2026-10-23T05:46:15Z",
         "homepage": "https://github.com/alchaincyf/huashu-motion",
         "agent_keyword_hits": [],
         "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": [
           "skill"
         ],
-        "metric_delta": 137.0,
-        "metric_velocity_per_day": 136.6551986884943
+        "metric_delta": 151.0,
+        "metric_velocity_per_day": 151.22228275358455
+      }
+    },
+    {
+      "id": "github-c0c73dadf557",
+      "source": "GitHub",
+      "name": "aicodeking/pandacode",
+      "url": "https://github.com/aicodeking/pandacode",
+      "description": "PandaCode: a calm desktop workspace for coding agents",
+      "published_at": "2026-10-18T02:21:29Z",
+      "discovered_at": "2026-10-23T05:52:29+00:00",
+      "author": "aicodeking",
+      "metrics": {
+        "stars": 524,
+        "forks": 95,
+        "open_issues": 5,
+        "watchers": 524
+      },
+      "tags": [],
+      "evidence": [
+        "524 GitHub stars",
+        "95 forks",
+        "Created 2026-10-18"
+      ],
+      "raw_text": "aicodeking/pandacode PandaCode: a calm desktop workspace for coding agents ",
+      "opportunity_type": "OpenClaw型",
+      "score": 60.5,
+      "dimension_scores": {
+        "growth_speed": 91.5,
+        "agent_innovation": 24,
+        "community_signal": 100.0,
+        "api_consumption_potential": 25,
+        "commercialization": 18,
+        "kimi_strategic_fit": 33
+      },
+      "recommended_action": "持续观察",
+      "reason_to_contact_now": "524 stars/95 forks，5天内高速增长，Rust桌面编码Agent工作区，需确认默认模型和插件架构",
+      "commercial_summary": "高增速开源编码Agent桌面环境，若支持模型切换或插件市场，可争取Kimi作为默认Provider或联合推广",
+      "confidence": "medium",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "metadata": {
+        "language": "Rust",
+        "updated_at": "2026-10-23T05:28:03Z",
+        "homepage": null,
+        "agent_keyword_hits": [],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": []
+      }
+    },
+    {
+      "id": "github-5181b3d81520",
+      "source": "GitHub",
+      "name": "yuatemycat/SuperGhidra",
+      "url": "https://github.com/yuatemycat/SuperGhidra",
+      "description": "SuperGhidra: Autonomous Agent Reverse Engineering, Lock-Free Ghidra Daemon & C++ Recovery Suite",
+      "published_at": "2026-10-20T08:22:31Z",
+      "discovered_at": "2026-10-23T05:52:28+00:00",
+      "author": "yuatemycat",
+      "metrics": {
+        "stars": 112,
+        "forks": 8,
+        "open_issues": 0,
+        "watchers": 112
+      },
+      "tags": [
+        "arm64",
+        "binary-analysis",
+        "decompiler",
+        "disassembler",
+        "ghidra",
+        "mcp",
+        "pcode",
+        "python",
+        "reverseengineering",
+        "reversing",
+        "smt-solver",
+        "x86-64",
+        "z3"
+      ],
+      "evidence": [
+        "112 GitHub stars",
+        "8 forks",
+        "Created 2026-10-20"
+      ],
+      "raw_text": "yuatemycat/SuperGhidra SuperGhidra: Autonomous Agent Reverse Engineering, Lock-Free Ghidra Daemon & C++ Recovery Suite arm64 binary-analysis decompiler disassembler ghidra mcp pcode python reverseengineering reversing smt-solver x86-64 z3",
+      "opportunity_type": "OpenClaw型",
+      "score": 60.2,
+      "dimension_scores": {
+        "growth_speed": 77.2,
+        "agent_innovation": 46,
+        "community_signal": 87.6,
+        "api_consumption_potential": 39,
+        "commercialization": 18,
+        "kimi_strategic_fit": 45
+      },
+      "recommended_action": "持续观察",
+      "reason_to_contact_now": "112 stars/8 forks，5天内增长，MCP协议+自主Agent逆向工程，需确认是否支持多模型切换",
+      "commercial_summary": "垂直安全/逆向领域开源Agent工具，若集成LLM推理链可成为Kimi API在安全社区的场景入口",
+      "confidence": "medium",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "metadata": {
+        "language": "Python",
+        "updated_at": "2026-10-23T05:22:09Z",
+        "homepage": "https://github.com/yuatemycat/SuperGhidra",
+        "agent_keyword_hits": [
+          "autonomous agent",
+          "mcp"
+        ],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": []
       }
     },
     {
@@ -337,23 +314,24 @@
       "url": "https://github.com/dominikmartn/harp",
       "description": "Run many Claude Code and Codex agents side by side, in one sidebar that tells you which one needs you. An unofficial fork of Warp.",
       "published_at": "2026-10-20T10:39:43Z",
-      "discovered_at": "2026-10-22T05:54:36+00:00",
+      "discovered_at": "2026-10-23T05:52:29+00:00",
       "author": "dominikmartn",
       "metrics": {
-        "stars": 552,
-        "forks": 35,
+        "stars": 585,
+        "forks": 38,
         "open_issues": 8,
-        "watchers": 552
+        "watchers": 585
       },
       "tags": [],
       "evidence": [
-        "552 GitHub stars",
-        "35 forks",
+        "+33 stars since last run",
+        "585 GitHub stars",
+        "38 forks",
         "Created 2026-10-20"
       ],
       "raw_text": "dominikmartn/harp Run many Claude Code and Codex agents side by side, in one sidebar that tells you which one needs you. An unofficial fork of Warp. ",
       "opportunity_type": "OpenClaw型",
-      "score": 58.6,
+      "score": 56.6,
       "dimension_scores": {
         "growth_speed": 100.0,
         "agent_innovation": 24,
@@ -363,82 +341,39 @@
         "kimi_strategic_fit": 33
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "2天内552 stars，明确为Claude Code/Codex多Agent并行工具，Rust开发",
-      "commercial_summary": "开源多Agent编码工具，当前硬编码Anthropic/OpenAI模型，若后续扩展Provider支持或出现企业付费版，可评估生态合作",
+      "reason_to_contact_now": "3天585星、38 fork，增速33星/天；非官方Warp fork，聚合Claude Code和Codex多agent sidebar",
+      "commercial_summary": "多agent IDE/终端聚合层，但明确绑定Anthropic生态（Claude Code/Codex），Kimi替代接入优先级低，更偏竞品观察",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "language": "Rust",
-        "updated_at": "2026-10-22T05:42:44Z",
+        "updated_at": "2026-10-23T02:12:43Z",
         "homepage": null,
         "agent_keyword_hits": [],
         "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": []
+        "ecosystem_keyword_hits": [],
+        "metric_delta": 33.0,
+        "metric_velocity_per_day": 33.048578350121126
       }
     },
     {
-      "id": "hackernews-24de988c723e",
-      "source": "Hacker News",
-      "name": "Show HN: Embodsi – Embodied Super Intelligence",
-      "url": "https://embodsi.com/",
-      "description": "embodsi is a generative AI MMO experience that runs in the browser. It allows people to communicate (text, audio, video, avatar emotes and movement) and collaboratively build 3D spaces and games via LLMs connected to harnesses and sandboxes for object modeling, space layout, game logic, and driving persistent avatars with shared context and memory. It’s different from existing 3D social apps (AFAIK) because it enables people to build multiplayer virtual worlds, games, and characters with generative AI right from their browser (desktop, mobile, or VR), in nearly infinitely-extendable recursively tiled interconnected spaces, while allowing people to interact in a public commons or easily create a private channel to enjoy the same spaces with their chosen friends and community. The brief backstory is I was running my personal “pelican benchmark” [1] on GPT-6 Astra, which when I ran on Gemini 3 Pro last November couldn’t even put heads on 3D models the right side up [2], and was astounded by the initial results. I gained inspiration for an art project and social experiment that was going to have nine interconnected, benevolent virtual worlds that people could explore and hang out in with AI characters, but by the time Opus 5.5 was released I was gaining so much momentum and having so many ideas and so much fun building I just kept building more and more with the constraint of minimizing MVP scope lifted by agentic coding. I let the project become an ever-evolving wishlist of capabilities for a more interesting social environment as I became increasingly fascinated with the prospect of embodying creative machine intelligence in 3D space with people, realizing that rather than just limiting to building the spaces and characters I imagined I might enable people to co-create endless spaces and characters in a shared world. There’s so much to do still but I’m sharing now even if it feels a little too soon (this is the first public announcement of embodsi’s existence) because I think it’s better to build in the open so people might guide the development and help it evolve in a good direction as model capability improves at a jaw-dropping pace. For people that have the budget to build I hope to see you in embodsi creating amazing things! And for everyone regardless of means (I’ve tried to keep as much free and accessible as financially feasible) I hope you meet amazing people, discover awesome spaces, and enjoy your time in embodsi :) I’ll be around here and embodsi to answer any questions! Thanks for your feedback and critique. - Laser P.S. SI != AI — but an emergent property of many people and what we create cascading and recursively interacting [3] [1] https://news.ycombinator.com/item?id=50074156 [2] https://x.com/lasernite/status/1991021951301923107 [3] https://en.wikipedia.org/wiki/Gaia_hypothesis",
-      "published_at": "1792624540",
-      "discovered_at": "2026-10-22T05:54:39+00:00",
-      "author": "laser",
-      "metrics": {
-        "points": 3,
-        "comments": 0
-      },
-      "tags": [],
-      "evidence": [
-        "3 HN points",
-        "0 comments"
-      ],
-      "raw_text": "Show HN: Embodsi – Embodied Super Intelligence embodsi is a generative AI MMO experience that runs in the browser. It allows people to communicate (text, audio, video, avatar emotes and movement) and collaboratively build 3D spaces and games via LLMs connected to harnesses and sandboxes for object modeling, space layout, game logic, and driving persistent avatars with shared context and memory. It’s different from existing 3D social apps (AFAIK) because it enables people to build multiplayer virtual worlds, games, and characters with generative AI right from their browser (desktop, mobile, or VR), in nearly infinitely-extendable recursively tiled interconnected spaces, while allowing people to interact in a public commons or easily create a private channel to enjoy the same spaces with their chosen friends and community. The brief backstory is I was running my personal “pelican benchmark” [1] on GPT-6 Astra, which when I ran on Gemini 3 Pro last November couldn’t even put heads on 3D models the right side up [2], and was astounded by the initial results. I gained inspiration for an art project and social experiment that was going to have nine interconnected, benevolent virtual worlds that people could explore and hang out in with AI characters, but by the time Opus 5.5 was released I was gaining so much momentum and having so many ideas and so much fun building I just kept building more and more with the constraint of minimizing MVP scope lifted by agentic coding. I let the project become an ever-evolving wishlist of capabilities for a more interesting social environment as I became increasingly fascinated with the prospect of embodying creative machine intelligence in 3D space with people, realizing that rather than just limiting to building the spaces and characters I imagined I might enable people to co-create endless spaces and characters in a shared world. There’s so much to do still but I’m sharing now even if it feels a little too soon (this is the first public announcement of embodsi’s existence) because I think it’s better to build in the open so people might guide the development and help it evolve in a good direction as model capability improves at a jaw-dropping pace. For people that have the budget to build I hope to see you in embodsi creating amazing things! And for everyone regardless of means (I’ve tried to keep as much free and accessible as financially feasible) I hope you meet amazing people, discover awesome spaces, and enjoy your time in embodsi :) I’ll be around here and embodsi to answer any questions! Thanks for your feedback and critique. - Laser P.S. SI != AI — but an emergent property of many people and what we create cascading and recursively interacting [3] [1] https://news.ycombinator.com/item?id=50074156 [2] https://x.com/lasernite/status/1991021951301923107 [3] https://en.wikipedia.org/wiki/Gaia_hypothesis",
-      "opportunity_type": "Manus型",
-      "score": 33.2,
-      "dimension_scores": {
-        "growth_speed": 33.1,
-        "agent_innovation": 35,
-        "community_signal": 43.3,
-        "api_consumption_potential": 32,
-        "commercialization": 18,
-        "kimi_strategic_fit": 47
-      },
-      "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "HN仅3 points/0 comments，首次公开发布，作者自述",
-      "commercial_summary": "生成式AI MMO浏览器体验，重度依赖LLM驱动3D世界构建，若用户增长验证则具备高API消耗潜力，当前过早",
-      "confidence": "low",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50188964",
-        "agent_keyword_hits": [
-          "agentic"
-        ],
-        "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": [
-          "community"
-        ]
-      }
-    },
-    {
-      "id": "product-hunt-df12dac1b58e",
+      "id": "product-hunt-58df054fc080",
       "source": "Product Hunt",
-      "name": "The Brains",
-      "url": "https://www.producthunt.com/products/the-brains",
-      "description": "Founders and investors as MCP servers, every answer cited Discussion | Link",
-      "published_at": "2026-10-20T01:27:13-07:00",
-      "discovered_at": "2026-10-22T05:54:40+00:00",
-      "author": "Victor Giurgiu",
+      "name": "Causo",
+      "url": "https://www.producthunt.com/products/causo",
+      "description": "Find leads beyond database filters with AI research & MCP Discussion | Link",
+      "published_at": "2026-10-19T10:22:39-07:00",
+      "discovered_at": "2026-10-23T05:52:33+00:00",
+      "author": "Ivan Semenov",
       "metrics": {},
       "tags": [],
       "evidence": [
         "Published via Product Hunt",
-        "2026-10-20T01:27:13-07:00"
+        "2026-10-19T10:22:39-07:00"
       ],
-      "raw_text": "The Brains Founders and investors as MCP servers, every answer cited Discussion | Link ",
+      "raw_text": "Causo Find leads beyond database filters with AI research & MCP Discussion | Link ",
       "opportunity_type": "Manus型",
-      "score": 26.6,
+      "score": 29.6,
       "dimension_scores": {
         "growth_speed": 30.0,
         "agent_innovation": 35,
@@ -448,8 +383,92 @@
         "kimi_strategic_fit": 31
       },
       "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "Product Hunt新发布，MCP server概念，但无用户数、收入或模型接入细节",
-      "commercial_summary": "创始人/投资人数据MCP服务，垂直场景较窄，需验证PMF和API调用规模",
+      "reason_to_contact_now": "Product Hunt新发布，仅提及AI research和MCP，无用户数据或商业化证据",
+      "commercial_summary": "销售线索AI研究工具，API调用规模未知，缺乏差异化信号，暂不构成高价值客户或竞品威胁",
+      "confidence": "low",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "metadata": {
+        "feed_url": "https://www.producthunt.com/feed",
+        "content_kind": "product_launch",
+        "original_title": "Causo",
+        "agent_keyword_hits": [
+          "mcp"
+        ],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": []
+      }
+    },
+    {
+      "id": "product-hunt-05c8fa392eb3",
+      "source": "Product Hunt",
+      "name": "Agentic CleanSlop",
+      "url": "https://www.producthunt.com/products/cleanslop",
+      "description": "Authenticate, scan and fix your app from your agent Discussion | Link",
+      "published_at": "2026-10-21T23:28:58-07:00",
+      "discovered_at": "2026-10-23T05:52:33+00:00",
+      "author": "Swaroop Hegde",
+      "metrics": {},
+      "tags": [],
+      "evidence": [
+        "Published via Product Hunt",
+        "2026-10-21T23:28:58-07:00"
+      ],
+      "raw_text": "Agentic CleanSlop Authenticate, scan and fix your app from your agent Discussion | Link ",
+      "opportunity_type": "Manus型",
+      "score": 29.6,
+      "dimension_scores": {
+        "growth_speed": 30.0,
+        "agent_innovation": 35,
+        "community_signal": 18.0,
+        "api_consumption_potential": 32,
+        "commercialization": 36,
+        "kimi_strategic_fit": 31
+      },
+      "recommended_action": "暂不跟进",
+      "reason_to_contact_now": "Product Hunt新发布，描述为agent驱动的应用安全扫描修复，无用户或收入数据",
+      "commercial_summary": "应用安全agent工具，赛道拥挤且信号极早，API消耗规模和付费转化均未知",
+      "confidence": "low",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "metadata": {
+        "feed_url": "https://www.producthunt.com/feed",
+        "content_kind": "product_launch",
+        "original_title": "Agentic CleanSlop",
+        "agent_keyword_hits": [
+          "agentic"
+        ],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": []
+      }
+    },
+    {
+      "id": "product-hunt-df12dac1b58e",
+      "source": "Product Hunt",
+      "name": "The Brains",
+      "url": "https://www.producthunt.com/products/the-brains",
+      "description": "Founders and investors as MCP servers, every answer cited Discussion | Link",
+      "published_at": "2026-10-20T01:27:13-07:00",
+      "discovered_at": "2026-10-23T05:52:33+00:00",
+      "author": "Victor Giurgiu",
+      "metrics": {},
+      "tags": [],
+      "evidence": [
+        "Published via Product Hunt",
+        "2026-10-20T01:27:13-07:00"
+      ],
+      "raw_text": "The Brains Founders and investors as MCP servers, every answer cited Discussion | Link ",
+      "opportunity_type": "Manus型",
+      "score": 29.6,
+      "dimension_scores": {
+        "growth_speed": 30.0,
+        "agent_innovation": 35,
+        "community_signal": 18.0,
+        "api_consumption_potential": 32,
+        "commercialization": 36,
+        "kimi_strategic_fit": 31
+      },
+      "recommended_action": "暂不跟进",
+      "reason_to_contact_now": "Product Hunt新发布，将创始人和投资人数据包装为MCP server，无使用量或付费证据",
+      "commercial_summary": "数据层MCP封装产品，模式轻量且易复制，未显示技术壁垒或规模化API消耗能力",
       "confidence": "low",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
@@ -464,63 +483,21 @@
       }
     },
     {
-      "id": "product-hunt-532a1f9362d2",
+      "id": "product-hunt-aaba81e1ed84",
       "source": "Product Hunt",
-      "name": "Searchtok",
-      "url": "https://www.producthunt.com/products/searchtok",
-      "description": "Make TikTok and Instagram searchable for your AI agent Discussion | Link",
-      "published_at": "2026-10-19T11:05:33-07:00",
-      "discovered_at": "2026-10-22T05:54:40+00:00",
-      "author": "Jack Mitchell",
+      "name": "Resend Inboxes",
+      "url": "https://www.producthunt.com/products/resend",
+      "description": "Create shared inboxes, connect your agents, build workflows Discussion | Link",
+      "published_at": "2026-10-21T22:25:49-07:00",
+      "discovered_at": "2026-10-23T05:52:33+00:00",
+      "author": "fmerian",
       "metrics": {},
       "tags": [],
       "evidence": [
         "Published via Product Hunt",
-        "2026-10-19T11:05:33-07:00"
+        "2026-10-21T22:25:49-07:00"
       ],
-      "raw_text": "Searchtok Make TikTok and Instagram searchable for your AI agent Discussion | Link ",
-      "opportunity_type": "Manus型",
-      "score": 26.6,
-      "dimension_scores": {
-        "growth_speed": 30.0,
-        "agent_innovation": 35,
-        "community_signal": 18.0,
-        "api_consumption_potential": 32,
-        "commercialization": 36,
-        "kimi_strategic_fit": 31
-      },
-      "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "Product Hunt发布，无metrics，社交媒体数据Agent工具，竞争红海",
-      "commercial_summary": "TikTok/Instagram搜索API封装，差异化不足，且依赖平台授权风险高",
-      "confidence": "low",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "feed_url": "https://www.producthunt.com/feed",
-        "content_kind": "product_launch",
-        "original_title": "Searchtok",
-        "agent_keyword_hits": [
-          "ai agent"
-        ],
-        "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": []
-      }
-    },
-    {
-      "id": "product-hunt-07a737d75fbb",
-      "source": "Product Hunt",
-      "name": "UseIt Studio",
-      "url": "https://www.producthunt.com/products/useit-studio-from-idea-to-delivery",
-      "description": "Your AI design agent for real, editable project files. Discussion | Link",
-      "published_at": "2026-10-14T06:11:39-07:00",
-      "discovered_at": "2026-10-22T05:54:40+00:00",
-      "author": "Zac Zuo",
-      "metrics": {},
-      "tags": [],
-      "evidence": [
-        "Published via Product Hunt",
-        "2026-10-14T06:11:39-07:00"
-      ],
-      "raw_text": "UseIt Studio Your AI design agent for real, editable project files. Discussion | Link ",
+      "raw_text": "Resend Inboxes Create shared inboxes, connect your agents, build workflows Discussion | Link ",
       "opportunity_type": "Manus型",
       "score": 25.8,
       "dimension_scores": {
@@ -532,14 +509,14 @@
         "kimi_strategic_fit": 25
       },
       "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "Product Hunt发布，无具体用户数据或API调用量证据",
-      "commercial_summary": "AI设计Agent工具，若后续验证企业付费转化和模型调用规模，可评估为潜在API客户",
-      "confidence": "low",
+      "reason_to_contact_now": "邮件基础设施Resend的功能扩展，Agent连接为附加特性，非核心Agent产品",
+      "commercial_summary": "邮件SaaS的Agent集成功能，API消费潜力取决于其Agent工作流实际采用量，当前为基础设施厂商而非Agent客户",
+      "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "feed_url": "https://www.producthunt.com/feed",
         "content_kind": "product_launch",
-        "original_title": "UseIt Studio",
+        "original_title": "Resend Inboxes",
         "agent_keyword_hits": [],
         "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": []
