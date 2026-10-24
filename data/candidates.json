@@ -1,8 +1,8 @@
 {
   "meta": {
     "project": "Agent Opportunity Radar",
-    "generated_at": "2026-10-23T05:52:33+00:00",
-    "generated_at_display": "2026-10-23 13:52 CST",
+    "generated_at": "2026-10-24T05:35:55+00:00",
+    "generated_at_display": "2026-10-24 13:35 CST",
     "mode": "公开信号实时运行",
     "sources": [
       "GitHub",
@@ -14,130 +14,21 @@
       "AI news RSS: HTTPError: 429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
     ],
     "notices": [],
-    "candidate_pool_size": 41,
+    "candidate_pool_size": 45,
     "pool_by_source": {
-      "GitHub": 10,
-      "Hacker News": 21,
-      "Product Hunt": 10
+      "GitHub": 9,
+      "Hacker News": 25,
+      "Product Hunt": 11
     },
     "pool_by_type": {
-      "OpenClaw型": 16,
-      "其他Agent": 17,
-      "Manus型": 8
+      "OpenClaw型": 11,
+      "其他Agent": 22,
+      "Manus型": 12
     },
     "shortlist_policy": "Top 10；OpenClaw型/Manus型各至少4个（候选充足时）",
     "kimi_model": "kimi-k2.6"
   },
   "candidates": [
-    {
-      "id": "github-0397d3ffaaa2",
-      "source": "GitHub",
-      "name": "cranebeaker/coop-anything",
-      "url": "https://github.com/cranebeaker/coop-anything",
-      "description": "Co-op Anything: point your AI agent at any single-player game and play it with friends (online and/or splitscreen!). MCP server and playbook to let you reverse engineer, fix, test, ship and share what it learns.",
-      "published_at": "2026-10-16T11:12:03Z",
-      "discovered_at": "2026-10-23T05:52:28+00:00",
-      "author": "cranebeaker",
-      "metrics": {
-        "stars": 850,
-        "forks": 117,
-        "open_issues": 88,
-        "watchers": 850
-      },
-      "tags": [],
-      "evidence": [
-        "+47 stars since last run",
-        "850 GitHub stars",
-        "117 forks",
-        "Created 2026-10-16"
-      ],
-      "raw_text": "cranebeaker/coop-anything Co-op Anything: point your AI agent at any single-player game and play it with friends (online and/or splitscreen!). MCP server and playbook to let you reverse engineer, fix, test, ship and share what it learns. ",
-      "opportunity_type": "OpenClaw型",
-      "score": 69.3,
-      "dimension_scores": {
-        "growth_speed": 99.7,
-        "agent_innovation": 46,
-        "community_signal": 100.0,
-        "api_consumption_potential": 39,
-        "commercialization": 18,
-        "kimi_strategic_fit": 45
-      },
-      "recommended_action": "持续观察",
-      "reason_to_contact_now": "7天获850星、117 fork，增速47星/天；提供MCP server和playbook，定位AI agent游戏化协作基础设施",
-      "commercial_summary": "MCP生态早期高增速项目，具备成为agent技能分发平台的潜力，可探索作为Kimi默认模型接入方或联合社区运营",
-      "confidence": "medium",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "language": "Python",
-        "updated_at": "2026-10-23T05:40:03Z",
-        "homepage": "https://coopanything.app",
-        "agent_keyword_hits": [
-          "ai agent",
-          "mcp"
-        ],
-        "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": [],
-        "metric_delta": 47.0,
-        "metric_velocity_per_day": 47.06918734714221
-      }
-    },
-    {
-      "id": "github-bb8f78765d6d",
-      "source": "GitHub",
-      "name": "reason-machines/reason-network",
-      "url": "https://github.com/reason-machines/reason-network",
-      "description": "Reason Network: your team's coding agents, talking to each other. The engine behind `reason network`.",
-      "published_at": "2026-10-16T15:34:34Z",
-      "discovered_at": "2026-10-23T05:52:28+00:00",
-      "author": "reason-machines",
-      "metrics": {
-        "stars": 1090,
-        "forks": 88,
-        "open_issues": 6,
-        "watchers": 1090
-      },
-      "tags": [
-        "coding-agents",
-        "iroh",
-        "mcp",
-        "peer-to-peer",
-        "reason"
-      ],
-      "evidence": [
-        "+132 stars since last run",
-        "1,090 GitHub stars",
-        "88 forks",
-        "Created 2026-10-16"
-      ],
-      "raw_text": "reason-machines/reason-network Reason Network: your team's coding agents, talking to each other. The engine behind `reason network`. coding-agents iroh mcp peer-to-peer reason",
-      "opportunity_type": "OpenClaw型",
-      "score": 66.5,
-      "dimension_scores": {
-        "growth_speed": 100.0,
-        "agent_innovation": 35,
-        "community_signal": 100.0,
-        "api_consumption_potential": 32,
-        "commercialization": 18,
-        "kimi_strategic_fit": 39
-      },
-      "recommended_action": "持续观察",
-      "reason_to_contact_now": "7天1090星、88 fork，增速132星/天；Rust构建团队coding agents P2P通信引擎，支持MCP",
-      "commercial_summary": "团队级coding agent基础设施，P2P架构和MCP支持使其具备成为开发者工作流核心层的潜力，高优先级生态观察对象",
-      "confidence": "medium",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "language": "Rust",
-        "updated_at": "2026-10-23T05:42:17Z",
-        "homepage": "https://reasonmachines.com",
-        "agent_keyword_hits": [
-          "mcp"
-        ],
-        "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": [],
-        "metric_delta": 132.0,
-        "metric_velocity_per_day": 132.1943134004845
-      }
-    },
     {
       "id": "github-7f1fc8bd4719",
       "source": "GitHub",
@@ -145,13 +36,13 @@
       "url": "https://github.com/alchaincyf/huashu-motion",
       "description": "让你的agent一键直出商业级产品宣传片：会作曲，能指着画面改。Commercial-grade launch films by your coding agent — point at the frame to change it.",
       "published_at": "2026-10-18T12:19:27Z",
-      "discovered_at": "2026-10-23T05:52:28+00:00",
+      "discovered_at": "2026-10-24T05:35:49+00:00",
       "author": "alchaincyf",
       "metrics": {
-        "stars": 1470,
-        "forks": 142,
-        "open_issues": 2,
-        "watchers": 1470
+        "stars": 1551,
+        "forks": 150,
+        "open_issues": 3,
+        "watchers": 1551
       },
       "tags": [
         "agent-skills",
@@ -164,14 +55,14 @@
         "skills"
       ],
       "evidence": [
-        "+151 stars since last run",
-        "1,470 GitHub stars",
-        "142 forks",
+        "+81 stars since last run",
+        "1,551 GitHub stars",
+        "150 forks",
         "Created 2026-10-18"
       ],
       "raw_text": "alchaincyf/huashu-motion 让你的agent一键直出商业级产品宣传片：会作曲，能指着画面改。Commercial-grade launch films by your coding agent — point at the frame to change it. agent-skills animation claude-code codex gsap launch-video motion-graphics skills",
       "opportunity_type": "OpenClaw型",
-      "score": 61.4,
+      "score": 62.4,
       "dimension_scores": {
         "growth_speed": 100.0,
         "agent_innovation": 24,
@@ -181,66 +72,84 @@
         "kimi_strategic_fit": 41
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "5天1470星、142 fork，增速151星/天；agent一键生成商业级宣传片，明确标注claude-code/codex/skills生态位",
-      "commercial_summary": "高增速agent技能/工作流项目，直接绑定coding agent输出商业视频，具备成为Kimi技能市场标杆案例或内容生态合作方的潜力",
+      "reason_to_contact_now": "1,551 stars，150 forks，单日+81 stars高速增长，定位agent skill/commercial-grade video，支持Claude Code/Codex",
+      "commercial_summary": "高增速agent技能插件，视频生成+代码agent结合，可评估接入Kimi多模态API或成为技能生态伙伴",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "language": "JavaScript",
-        "updated_at": "2026-10-23T05:46:15Z",
+        "updated_at": "2026-10-24T05:29:25Z",
         "homepage": "https://github.com/alchaincyf/huashu-motion",
         "agent_keyword_hits": [],
         "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": [
           "skill"
         ],
-        "metric_delta": 151.0,
-        "metric_velocity_per_day": 151.22228275358455
+        "metric_delta": 81.0,
+        "metric_velocity_per_day": 81.94655862860354
       }
     },
     {
-      "id": "github-c0c73dadf557",
+      "id": "github-3d247b9fc31f",
       "source": "GitHub",
-      "name": "aicodeking/pandacode",
-      "url": "https://github.com/aicodeking/pandacode",
-      "description": "PandaCode: a calm desktop workspace for coding agents",
-      "published_at": "2026-10-18T02:21:29Z",
-      "discovered_at": "2026-10-23T05:52:29+00:00",
-      "author": "aicodeking",
+      "name": "kanaworksai-hue/audio-studio-mcp",
+      "url": "https://github.com/kanaworksai-hue/audio-studio-mcp",
+      "description": "Local AI BGM and sound effects for Claude Code and any MCP client. Stable Audio 3 on Apple Silicon (MLX) and Windows NVIDIA GPUs (PyTorch). No cloud, no API key.",
+      "published_at": "2026-10-18T11:13:56Z",
+      "discovered_at": "2026-10-24T05:35:51+00:00",
+      "author": "kanaworksai-hue",
       "metrics": {
-        "stars": 524,
-        "forks": 95,
-        "open_issues": 5,
-        "watchers": 524
+        "stars": 463,
+        "forks": 33,
+        "open_issues": 0,
+        "watchers": 463
       },
-      "tags": [],
+      "tags": [
+        "apple-silicon",
+        "audio-generation",
+        "claude-code",
+        "cuda",
+        "game-audio",
+        "mcp",
+        "mcp-server",
+        "mlx",
+        "music-generation",
+        "pytorch",
+        "sound-effects",
+        "stable-audio",
+        "windows"
+      ],
       "evidence": [
-        "524 GitHub stars",
-        "95 forks",
+        "463 GitHub stars",
+        "33 forks",
         "Created 2026-10-18"
       ],
-      "raw_text": "aicodeking/pandacode PandaCode: a calm desktop workspace for coding agents ",
+      "raw_text": "kanaworksai-hue/audio-studio-mcp Local AI BGM and sound effects for Claude Code and any MCP client. Stable Audio 3 on Apple Silicon (MLX) and Windows NVIDIA GPUs (PyTorch). No cloud, no API key. apple-silicon audio-generation claude-code cuda game-audio mcp mcp-server mlx music-generation pytorch sound-effects stable-audio windows",
       "opportunity_type": "OpenClaw型",
-      "score": 60.5,
+      "score": 61.6,
       "dimension_scores": {
-        "growth_speed": 91.5,
-        "agent_innovation": 24,
+        "growth_speed": 88.0,
+        "agent_innovation": 35,
         "community_signal": 100.0,
-        "api_consumption_potential": 25,
-        "commercialization": 18,
-        "kimi_strategic_fit": 33
+        "api_consumption_potential": 37,
+        "commercialization": 32,
+        "kimi_strategic_fit": 39
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "524 stars/95 forks，5天内高速增长，Rust桌面编码Agent工作区，需确认默认模型和插件架构",
-      "commercial_summary": "高增速开源编码Agent桌面环境，若支持模型切换或插件市场，可争取Kimi作为默认Provider或联合推广",
+      "reason_to_contact_now": "463 GitHub stars，33 forks，6天内增长，本地Stable Audio 3推理，明确MCP server定位",
+      "commercial_summary": "MCP生态音频工具，可关注是否接入多模态模型API或成为Kimi MCP生态合作方",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
-        "language": "Rust",
-        "updated_at": "2026-10-23T05:28:03Z",
-        "homepage": null,
-        "agent_keyword_hits": [],
-        "commercial_keyword_hits": [],
+        "language": "Python",
+        "updated_at": "2026-10-24T04:47:40Z",
+        "homepage": "https://kanaworksai-hue.github.io/audio-studio-mcp/",
+        "agent_keyword_hits": [
+          "mcp"
+        ],
+        "commercial_keyword_hits": [
+          "api"
+        ],
         "ecosystem_keyword_hits": []
       }
     },
@@ -251,13 +160,13 @@
       "url": "https://github.com/yuatemycat/SuperGhidra",
       "description": "SuperGhidra: Autonomous Agent Reverse Engineering, Lock-Free Ghidra Daemon & C++ Recovery Suite",
       "published_at": "2026-10-20T08:22:31Z",
-      "discovered_at": "2026-10-23T05:52:28+00:00",
+      "discovered_at": "2026-10-24T05:35:50+00:00",
       "author": "yuatemycat",
       "metrics": {
-        "stars": 112,
+        "stars": 126,
         "forks": 8,
         "open_issues": 0,
-        "watchers": 112
+        "watchers": 126
       },
       "tags": [
         "arm64",
@@ -275,63 +184,66 @@
         "z3"
       ],
       "evidence": [
-        "112 GitHub stars",
+        "+14 stars since last run",
+        "126 GitHub stars",
         "8 forks",
         "Created 2026-10-20"
       ],
       "raw_text": "yuatemycat/SuperGhidra SuperGhidra: Autonomous Agent Reverse Engineering, Lock-Free Ghidra Daemon & C++ Recovery Suite arm64 binary-analysis decompiler disassembler ghidra mcp pcode python reverseengineering reversing smt-solver x86-64 z3",
       "opportunity_type": "OpenClaw型",
-      "score": 60.2,
+      "score": 60.9,
       "dimension_scores": {
-        "growth_speed": 77.2,
+        "growth_speed": 78.9,
         "agent_innovation": 46,
-        "community_signal": 87.6,
+        "community_signal": 88.9,
         "api_consumption_potential": 39,
         "commercialization": 18,
         "kimi_strategic_fit": 45
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "112 stars/8 forks，5天内增长，MCP协议+自主Agent逆向工程，需确认是否支持多模型切换",
-      "commercial_summary": "垂直安全/逆向领域开源Agent工具，若集成LLM推理链可成为Kimi API在安全社区的场景入口",
+      "reason_to_contact_now": "126 stars，8 forks，4天+14 stars，Autonomous Agent + MCP + Ghidra逆向工程，垂直安全/RE领域",
+      "commercial_summary": "安全逆向工程MCP工具，垂直专业领域，可观察其模型依赖及是否扩展至通用代码分析API消费",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "language": "Python",
-        "updated_at": "2026-10-23T05:22:09Z",
+        "updated_at": "2026-10-24T03:54:34Z",
         "homepage": "https://github.com/yuatemycat/SuperGhidra",
         "agent_keyword_hits": [
           "autonomous agent",
           "mcp"
         ],
         "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": []
+        "ecosystem_keyword_hits": [],
+        "metric_delta": 14.0,
+        "metric_velocity_per_day": 14.163602725931476
       }
     },
     {
-      "id": "github-a81df2904e9c",
+      "id": "github-c0c73dadf557",
       "source": "GitHub",
-      "name": "dominikmartn/harp",
-      "url": "https://github.com/dominikmartn/harp",
-      "description": "Run many Claude Code and Codex agents side by side, in one sidebar that tells you which one needs you. An unofficial fork of Warp.",
-      "published_at": "2026-10-20T10:39:43Z",
-      "discovered_at": "2026-10-23T05:52:29+00:00",
-      "author": "dominikmartn",
+      "name": "aicodeking/pandacode",
+      "url": "https://github.com/aicodeking/pandacode",
+      "description": "PandaCode: a calm desktop workspace for coding agents",
+      "published_at": "2026-10-18T02:21:29Z",
+      "discovered_at": "2026-10-24T05:35:49+00:00",
+      "author": "aicodeking",
       "metrics": {
-        "stars": 585,
-        "forks": 38,
-        "open_issues": 8,
-        "watchers": 585
+        "stars": 600,
+        "forks": 119,
+        "open_issues": 16,
+        "watchers": 600
       },
       "tags": [],
       "evidence": [
-        "+33 stars since last run",
-        "585 GitHub stars",
-        "38 forks",
-        "Created 2026-10-20"
+        "+76 stars since last run",
+        "600 GitHub stars",
+        "119 forks",
+        "Created 2026-10-18"
       ],
-      "raw_text": "dominikmartn/harp Run many Claude Code and Codex agents side by side, in one sidebar that tells you which one needs you. An unofficial fork of Warp. ",
+      "raw_text": "aicodeking/pandacode PandaCode: a calm desktop workspace for coding agents ",
       "opportunity_type": "OpenClaw型",
-      "score": 56.6,
+      "score": 60.6,
       "dimension_scores": {
         "growth_speed": 100.0,
         "agent_innovation": 24,
@@ -341,79 +253,145 @@
         "kimi_strategic_fit": 33
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "3天585星、38 fork，增速33星/天；非官方Warp fork，聚合Claude Code和Codex多agent sidebar",
-      "commercial_summary": "多agent IDE/终端聚合层，但明确绑定Anthropic生态（Claude Code/Codex），Kimi替代接入优先级低，更偏竞品观察",
+      "reason_to_contact_now": "6天600 stars且日增速76+，Rust编码Agent桌面工作区，开发者关注度高",
+      "commercial_summary": "高增速开源编码Agent工具，潜在模型接入点，需追踪默认LLM provider与插件生态",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "language": "Rust",
-        "updated_at": "2026-10-23T02:12:43Z",
+        "updated_at": "2026-10-24T05:24:04Z",
         "homepage": null,
         "agent_keyword_hits": [],
         "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": [],
-        "metric_delta": 33.0,
-        "metric_velocity_per_day": 33.048578350121126
+        "metric_delta": 76.0,
+        "metric_velocity_per_day": 76.88812908362802
       }
     },
     {
-      "id": "product-hunt-58df054fc080",
-      "source": "Product Hunt",
-      "name": "Causo",
-      "url": "https://www.producthunt.com/products/causo",
-      "description": "Find leads beyond database filters with AI research & MCP Discussion | Link",
-      "published_at": "2026-10-19T10:22:39-07:00",
-      "discovered_at": "2026-10-23T05:52:33+00:00",
-      "author": "Ivan Semenov",
-      "metrics": {},
+      "id": "github-a81df2904e9c",
+      "source": "GitHub",
+      "name": "dominikmartn/harp",
+      "url": "https://github.com/dominikmartn/harp",
+      "description": "Run many Claude Code and Codex agents side by side, in one sidebar that tells you which one needs you. An unofficial fork of Warp.",
+      "published_at": "2026-10-20T10:39:43Z",
+      "discovered_at": "2026-10-24T05:35:49+00:00",
+      "author": "dominikmartn",
+      "metrics": {
+        "stars": 595,
+        "forks": 40,
+        "open_issues": 8,
+        "watchers": 595
+      },
       "tags": [],
       "evidence": [
-        "Published via Product Hunt",
-        "2026-10-19T10:22:39-07:00"
+        "+10 stars since last run",
+        "595 GitHub stars",
+        "40 forks",
+        "Created 2026-10-20"
       ],
-      "raw_text": "Causo Find leads beyond database filters with AI research & MCP Discussion | Link ",
-      "opportunity_type": "Manus型",
-      "score": 29.6,
+      "raw_text": "dominikmartn/harp Run many Claude Code and Codex agents side by side, in one sidebar that tells you which one needs you. An unofficial fork of Warp. ",
+      "opportunity_type": "OpenClaw型",
+      "score": 59.1,
       "dimension_scores": {
-        "growth_speed": 30.0,
-        "agent_innovation": 35,
-        "community_signal": 18.0,
-        "api_consumption_potential": 32,
-        "commercialization": 36,
-        "kimi_strategic_fit": 31
+        "growth_speed": 97.9,
+        "agent_innovation": 24,
+        "community_signal": 100.0,
+        "api_consumption_potential": 25,
+        "commercialization": 18,
+        "kimi_strategic_fit": 33
       },
-      "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "Product Hunt新发布，仅提及AI research和MCP，无用户数据或商业化证据",
-      "commercial_summary": "销售线索AI研究工具，API调用规模未知，缺乏差异化信号，暂不构成高价值客户或竞品威胁",
-      "confidence": "low",
+      "recommended_action": "持续观察",
+      "reason_to_contact_now": "4天595 stars，多Agent并行编码工具，明确集成Claude Code/Codex，Rust技术栈",
+      "commercial_summary": "开源多模型编码Agent容器，直接竞争/替代现有模型接入位，需追踪是否支持国产模型扩展",
+      "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
-        "feed_url": "https://www.producthunt.com/feed",
-        "content_kind": "product_launch",
-        "original_title": "Causo",
+        "language": "Rust",
+        "updated_at": "2026-10-24T05:09:00Z",
+        "homepage": null,
+        "agent_keyword_hits": [],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": [],
+        "metric_delta": 10.0,
+        "metric_velocity_per_day": 10.116859089951054
+      }
+    },
+    {
+      "id": "github-6abb0a3e134f",
+      "source": "GitHub",
+      "name": "sit-in/awesome-grokbot-playbooks",
+      "url": "https://github.com/sit-in/awesome-grokbot-playbooks",
+      "description": "中文 Grok Bot 玩法与可抄配方清单：作战室、雷达 Routine、额度体检… 由 Grok Bot + Claude 协作维护 | Chinese-first Grok Bot playbooks",
+      "published_at": "2026-10-17T15:47:00Z",
+      "discovered_at": "2026-10-24T05:35:50+00:00",
+      "author": "sit-in",
+      "metrics": {
+        "stars": 361,
+        "forks": 40,
+        "open_issues": 11,
+        "watchers": 361
+      },
+      "tags": [
+        "ai-agents",
+        "awesome",
+        "awesome-list",
+        "chinese",
+        "grok",
+        "grok-bot",
+        "multi-agent",
+        "playbooks",
+        "prompts",
+        "xai"
+      ],
+      "evidence": [
+        "361 GitHub stars",
+        "40 forks",
+        "Created 2026-10-17"
+      ],
+      "raw_text": "sit-in/awesome-grokbot-playbooks 中文 Grok Bot 玩法与可抄配方清单：作战室、雷达 Routine、额度体检… 由 Grok Bot + Claude 协作维护 | Chinese-first Grok Bot playbooks ai-agents awesome awesome-list chinese grok grok-bot multi-agent playbooks prompts xai",
+      "opportunity_type": "OpenClaw型",
+      "score": 58.8,
+      "dimension_scores": {
+        "growth_speed": 82.4,
+        "agent_innovation": 35,
+        "community_signal": 100.0,
+        "api_consumption_potential": 50,
+        "commercialization": 18,
+        "kimi_strategic_fit": 39
+      },
+      "recommended_action": "暂不跟进",
+      "reason_to_contact_now": "361 stars但为awesome-list聚合站，非原创Agent项目，由Grok+Claude维护，无Kimi接入点",
+      "commercial_summary": "Grok生态内容聚合，竞品社区信号，对Kimi生态价值有限，暂观察",
+      "confidence": "medium",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "metadata": {
+        "language": "HTML",
+        "updated_at": "2026-10-24T04:18:10Z",
+        "homepage": null,
         "agent_keyword_hits": [
-          "mcp"
+          "multi-agent"
         ],
         "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": []
       }
     },
     {
-      "id": "product-hunt-05c8fa392eb3",
+      "id": "product-hunt-7def3be1ba69",
       "source": "Product Hunt",
-      "name": "Agentic CleanSlop",
-      "url": "https://www.producthunt.com/products/cleanslop",
-      "description": "Authenticate, scan and fix your app from your agent Discussion | Link",
-      "published_at": "2026-10-21T23:28:58-07:00",
-      "discovered_at": "2026-10-23T05:52:33+00:00",
-      "author": "Swaroop Hegde",
+      "name": "Termi Protocol",
+      "url": "https://www.producthunt.com/products/termi-protocol",
+      "description": "Watch AI agents code in 3D and hand off the work Discussion | Link",
+      "published_at": "2026-10-22T21:32:57-07:00",
+      "discovered_at": "2026-10-24T05:35:54+00:00",
+      "author": "Eric Omer Ercan",
       "metrics": {},
       "tags": [],
       "evidence": [
         "Published via Product Hunt",
-        "2026-10-21T23:28:58-07:00"
+        "2026-10-22T21:32:57-07:00"
       ],
-      "raw_text": "Agentic CleanSlop Authenticate, scan and fix your app from your agent Discussion | Link ",
+      "raw_text": "Termi Protocol Watch AI agents code in 3D and hand off the work Discussion | Link ",
       "opportunity_type": "Manus型",
       "score": 29.6,
       "dimension_scores": {
@@ -425,14 +403,99 @@
         "kimi_strategic_fit": 31
       },
       "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "Product Hunt新发布，描述为agent驱动的应用安全扫描修复，无用户或收入数据",
-      "commercial_summary": "应用安全agent工具，赛道拥挤且信号极早，API消耗规模和付费转化均未知",
+      "reason_to_contact_now": "Product Hunt发布，无metrics数据，描述模糊，无用户或API使用证据",
+      "commercial_summary": "3D可视化AI coding概念极早期，无商业化或API消费信号，暂不跟进",
       "confidence": "low",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "feed_url": "https://www.producthunt.com/feed",
         "content_kind": "product_launch",
-        "original_title": "Agentic CleanSlop",
+        "original_title": "Termi Protocol",
+        "agent_keyword_hits": [
+          "ai agent"
+        ],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": []
+      }
+    },
+    {
+      "id": "product-hunt-ea578fb69ad4",
+      "source": "Product Hunt",
+      "name": "DotMD",
+      "url": "https://www.producthunt.com/products/dotmd-3",
+      "description": "Review your AI agent's Markdown specs like a pull request Discussion | Link",
+      "published_at": "2026-10-20T11:09:25-07:00",
+      "discovered_at": "2026-10-24T05:35:54+00:00",
+      "author": "Alexander Storozhenko",
+      "metrics": {},
+      "tags": [],
+      "evidence": [
+        "Published via Product Hunt",
+        "2026-10-20T11:09:25-07:00"
+      ],
+      "raw_text": "DotMD Review your AI agent's Markdown specs like a pull request Discussion | Link ",
+      "opportunity_type": "Manus型",
+      "score": 29.6,
+      "dimension_scores": {
+        "growth_speed": 30.0,
+        "agent_innovation": 35,
+        "community_signal": 18.0,
+        "api_consumption_potential": 32,
+        "commercialization": 36,
+        "kimi_strategic_fit": 31
+      },
+      "recommended_action": "暂不跟进",
+      "reason_to_contact_now": "Product Hunt发布，无metrics，描述为PR review工具，agent信号弱",
+      "commercial_summary": "Markdown spec review工具，无API消费或商业化规模证据，暂不跟进",
+      "confidence": "low",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "metadata": {
+        "feed_url": "https://www.producthunt.com/feed",
+        "content_kind": "product_launch",
+        "original_title": "DotMD",
+        "agent_keyword_hits": [
+          "ai agent"
+        ],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": []
+      }
+    },
+    {
+      "id": "hackernews-bfbe5dde21cc",
+      "source": "Hacker News",
+      "name": "Show HN: Web Bot Auth SDK and SSH Utilty",
+      "url": "https://messh.io",
+      "description": "Launched a beta/buggy version of the SDK for web bot auth, and it's live at https://messh.io Inspired by https://datatracker.ietf.org/wg/webbotauth/documents/ While solving this, I realized it solves the hassle of adding SSH keys, the overhead of copy-pasting n number of times to a remote server; just do messh add amul It will automatically search for Amul's public key and add it to my server Do try if you find it interesting. But the main product aim is to solve web bot auth for agentic traffic",
+      "published_at": "1792812421",
+      "discovered_at": "2026-10-24T05:35:54+00:00",
+      "author": "malviyamukul",
+      "metrics": {
+        "points": 1,
+        "comments": 0
+      },
+      "tags": [],
+      "evidence": [
+        "1 HN points",
+        "0 comments"
+      ],
+      "raw_text": "Show HN: Web Bot Auth SDK and SSH Utilty Launched a beta/buggy version of the SDK for web bot auth, and it's live at https://messh.io Inspired by https://datatracker.ietf.org/wg/webbotauth/documents/ While solving this, I realized it solves the hassle of adding SSH keys, the overhead of copy-pasting n number of times to a remote server; just do messh add amul It will automatically search for Amul's public key and add it to my server Do try if you find it interesting. But the main product aim is to solve web bot auth for agentic traffic",
+      "opportunity_type": "Manus型",
+      "score": 28.0,
+      "dimension_scores": {
+        "growth_speed": 27.5,
+        "agent_innovation": 35,
+        "community_signal": 33.2,
+        "api_consumption_potential": 32,
+        "commercialization": 18,
+        "kimi_strategic_fit": 39
+      },
+      "recommended_action": "暂不跟进",
+      "reason_to_contact_now": "仅1 HN points、0 comments，beta/buggy阶段，无用户或收入信号",
+      "commercial_summary": "Web bot auth SDK极早期，无API消费规模证据，暂不跟进",
+      "confidence": "low",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "metadata": {
+        "discussion_url": "https://news.ycombinator.com/item?id=50218119",
         "agent_keyword_hits": [
           "agentic"
         ],
@@ -441,23 +504,23 @@
       }
     },
     {
-      "id": "product-hunt-df12dac1b58e",
+      "id": "product-hunt-0d1e30a10d69",
       "source": "Product Hunt",
-      "name": "The Brains",
-      "url": "https://www.producthunt.com/products/the-brains",
-      "description": "Founders and investors as MCP servers, every answer cited Discussion | Link",
-      "published_at": "2026-10-20T01:27:13-07:00",
-      "discovered_at": "2026-10-23T05:52:33+00:00",
-      "author": "Victor Giurgiu",
+      "name": "Monish",
+      "url": "https://www.producthunt.com/products/monish",
+      "description": "Your AI agents, live on your iPhone lock screen Discussion | Link",
+      "published_at": "2026-10-22T07:38:26-07:00",
+      "discovered_at": "2026-10-24T05:35:54+00:00",
+      "author": "Jérémie Aouate",
       "metrics": {},
       "tags": [],
       "evidence": [
         "Published via Product Hunt",
-        "2026-10-20T01:27:13-07:00"
+        "2026-10-22T07:38:26-07:00"
       ],
-      "raw_text": "The Brains Founders and investors as MCP servers, every answer cited Discussion | Link ",
+      "raw_text": "Monish Your AI agents, live on your iPhone lock screen Discussion | Link ",
       "opportunity_type": "Manus型",
-      "score": 29.6,
+      "score": 27.6,
       "dimension_scores": {
         "growth_speed": 30.0,
         "agent_innovation": 35,
@@ -467,57 +530,17 @@
         "kimi_strategic_fit": 31
       },
       "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "Product Hunt新发布，将创始人和投资人数据包装为MCP server，无使用量或付费证据",
-      "commercial_summary": "数据层MCP封装产品，模式轻量且易复制，未显示技术壁垒或规模化API消耗能力",
+      "reason_to_contact_now": "Product Hunt发布，仅描述为iPhone锁屏AI agent，无用户量、付费或API调用证据",
+      "commercial_summary": "终端用户Agent产品，当前无API消费规模信号，需观察付费转化与模型依赖",
       "confidence": "low",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "feed_url": "https://www.producthunt.com/feed",
         "content_kind": "product_launch",
-        "original_title": "The Brains",
+        "original_title": "Monish",
         "agent_keyword_hits": [
-          "mcp"
+          "ai agent"
         ],
-        "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": []
-      }
-    },
-    {
-      "id": "product-hunt-aaba81e1ed84",
-      "source": "Product Hunt",
-      "name": "Resend Inboxes",
-      "url": "https://www.producthunt.com/products/resend",
-      "description": "Create shared inboxes, connect your agents, build workflows Discussion | Link",
-      "published_at": "2026-10-21T22:25:49-07:00",
-      "discovered_at": "2026-10-23T05:52:33+00:00",
-      "author": "fmerian",
-      "metrics": {},
-      "tags": [],
-      "evidence": [
-        "Published via Product Hunt",
-        "2026-10-21T22:25:49-07:00"
-      ],
-      "raw_text": "Resend Inboxes Create shared inboxes, connect your agents, build workflows Discussion | Link ",
-      "opportunity_type": "Manus型",
-      "score": 25.8,
-      "dimension_scores": {
-        "growth_speed": 30.0,
-        "agent_innovation": 24,
-        "community_signal": 18.0,
-        "api_consumption_potential": 25,
-        "commercialization": 36,
-        "kimi_strategic_fit": 25
-      },
-      "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "邮件基础设施Resend的功能扩展，Agent连接为附加特性，非核心Agent产品",
-      "commercial_summary": "邮件SaaS的Agent集成功能，API消费潜力取决于其Agent工作流实际采用量，当前为基础设施厂商而非Agent客户",
-      "confidence": "medium",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "feed_url": "https://www.producthunt.com/feed",
-        "content_kind": "product_launch",
-        "original_title": "Resend Inboxes",
-        "agent_keyword_hits": [],
         "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": []
       }

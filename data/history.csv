@@ -604,3 +604,13 @@ run_at,id,name,source,score,opportunity_type,recommended_action,metric_name,metr
 2026-10-23T05:52:33+00:00,product-hunt-05c8fa392eb3,Agentic CleanSlop,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
 2026-10-23T05:52:33+00:00,product-hunt-df12dac1b58e,The Brains,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
 2026-10-23T05:52:33+00:00,product-hunt-aaba81e1ed84,Resend Inboxes,Product Hunt,25.8,Manus型,暂不跟进,none,0.0
+2026-10-24T05:35:55+00:00,github-7f1fc8bd4719,alchaincyf/huashu-motion,GitHub,62.4,OpenClaw型,持续观察,stars,1551.0
+2026-10-24T05:35:55+00:00,github-3d247b9fc31f,kanaworksai-hue/audio-studio-mcp,GitHub,61.6,OpenClaw型,持续观察,stars,463.0
+2026-10-24T05:35:55+00:00,github-5181b3d81520,yuatemycat/SuperGhidra,GitHub,60.9,OpenClaw型,持续观察,stars,126.0
+2026-10-24T05:35:55+00:00,github-c0c73dadf557,aicodeking/pandacode,GitHub,60.6,OpenClaw型,持续观察,stars,600.0
+2026-10-24T05:35:55+00:00,github-a81df2904e9c,dominikmartn/harp,GitHub,59.1,OpenClaw型,持续观察,stars,595.0
+2026-10-24T05:35:55+00:00,github-6abb0a3e134f,sit-in/awesome-grokbot-playbooks,GitHub,58.8,OpenClaw型,暂不跟进,stars,361.0
+2026-10-24T05:35:55+00:00,product-hunt-7def3be1ba69,Termi Protocol,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
+2026-10-24T05:35:55+00:00,product-hunt-ea578fb69ad4,DotMD,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
+2026-10-24T05:35:55+00:00,hackernews-bfbe5dde21cc,Show HN: Web Bot Auth SDK and SSH Utilty,Hacker News,28.0,Manus型,暂不跟进,points,1.0
+2026-10-24T05:35:55+00:00,product-hunt-0d1e30a10d69,Monish,Product Hunt,27.6,Manus型,暂不跟进,none,0.0
