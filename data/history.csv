@@ -614,3 +614,13 @@ run_at,id,name,source,score,opportunity_type,recommended_action,metric_name,metr
 2026-10-24T05:35:55+00:00,product-hunt-ea578fb69ad4,DotMD,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
 2026-10-24T05:35:55+00:00,hackernews-bfbe5dde21cc,Show HN: Web Bot Auth SDK and SSH Utilty,Hacker News,28.0,Manus型,暂不跟进,points,1.0
 2026-10-24T05:35:55+00:00,product-hunt-0d1e30a10d69,Monish,Product Hunt,27.6,Manus型,暂不跟进,none,0.0
+2026-10-25T05:50:49+00:00,github-7936a210e836,finereli/whatsapp-mcp,GitHub,62.1,OpenClaw型,持续观察,stars,365.0
+2026-10-25T05:50:49+00:00,github-5181b3d81520,yuatemycat/SuperGhidra,GitHub,61.5,OpenClaw型,持续观察,stars,138.0
+2026-10-25T05:50:49+00:00,github-7f1fc8bd4719,alchaincyf/huashu-motion,GitHub,61.4,OpenClaw型,持续观察,stars,1606.0
+2026-10-25T05:50:49+00:00,github-3d247b9fc31f,kanaworksai-hue/audio-studio-mcp,GitHub,61.2,OpenClaw型,持续观察,stars,480.0
+2026-10-25T05:50:49+00:00,github-a81df2904e9c,dominikmartn/harp,GitHub,60.3,OpenClaw型,持续观察,stars,604.0
+2026-10-25T05:50:49+00:00,github-0647d6f63802,thomasunise/argus,GitHub,60.0,OpenClaw型,持续观察,stars,62.0
+2026-10-25T05:50:49+00:00,hackernews-cb596104733f,Show HN: An OSS browser and work environment for humans and agents,Hacker News,32.9,Manus型,暂不跟进,points,1.0
+2026-10-25T05:50:49+00:00,hackernews-6160a2a40ecf,Show HN: DeepSearch – Search engine built on DeepSeek API,Hacker News,32.3,Manus型,暂不跟进,points,3.0
+2026-10-25T05:50:49+00:00,product-hunt-f2d051d46dcc,Context Engine,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
+2026-10-25T05:50:49+00:00,product-hunt-8b36babf6be6,1Password for Agents,Product Hunt,26.6,Manus型,暂不跟进,none,0.0
