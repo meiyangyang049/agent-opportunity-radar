@@ -624,3 +624,13 @@ run_at,id,name,source,score,opportunity_type,recommended_action,metric_name,metr
 2026-10-25T05:50:49+00:00,hackernews-6160a2a40ecf,Show HN: DeepSearch – Search engine built on DeepSeek API,Hacker News,32.3,Manus型,暂不跟进,points,3.0
 2026-10-25T05:50:49+00:00,product-hunt-f2d051d46dcc,Context Engine,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
 2026-10-25T05:50:49+00:00,product-hunt-8b36babf6be6,1Password for Agents,Product Hunt,26.6,Manus型,暂不跟进,none,0.0
+2026-10-26T05:53:56+00:00,github-f66e04e9e2c6,DenisSergeevitch/ex-ussr-kinship-research,GitHub,63.3,OpenClaw型,持续观察,stars,568.0
+2026-10-26T05:53:56+00:00,github-0647d6f63802,thomasunise/argus,GitHub,63.2,OpenClaw型,持续观察,stars,90.0
+2026-10-26T05:53:56+00:00,github-a81df2904e9c,dominikmartn/harp,GitHub,59.8,OpenClaw型,持续观察,stars,626.0
+2026-10-26T05:53:56+00:00,github-5181b3d81520,yuatemycat/SuperGhidra,GitHub,59.1,OpenClaw型,持续观察,stars,141.0
+2026-10-26T05:53:56+00:00,github-b1d689691208,boyuchengz/canvas-mcp,GitHub,55.6,OpenClaw型,暂不跟进,stars,93.0
+2026-10-26T05:53:56+00:00,github-dc46cc8d2549,lordon1a/agents.md,GitHub,53.6,OpenClaw型,暂不跟进,stars,86.0
+2026-10-26T05:53:56+00:00,hackernews-f229f5698540,Mantle – Agentic API Maintenance,Hacker News,32.2,Manus型,暂不跟进,points,2.0
+2026-10-26T05:53:56+00:00,product-hunt-3852f9658d7c,Papermark Data Rooms,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
+2026-10-26T05:53:56+00:00,product-hunt-351df79180e0,Agent Hunt,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
+2026-10-26T05:53:56+00:00,product-hunt-8b36babf6be6,1Password for Agents,Product Hunt,27.6,Manus型,暂不跟进,none,0.0
