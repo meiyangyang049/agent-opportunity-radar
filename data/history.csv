@@ -644,3 +644,13 @@ run_at,id,name,source,score,opportunity_type,recommended_action,metric_name,metr
 2026-10-27T06:06:44+00:00,product-hunt-e920574f65b2,WhoIsCooking,Product Hunt,26.6,Manus型,暂不跟进,none,0.0
 2026-10-27T06:06:44+00:00,product-hunt-9fcd41929a11,ManyAgents,Product Hunt,25.8,Manus型,暂不跟进,none,0.0
 2026-10-27T06:06:44+00:00,product-hunt-79021bbd05f5,Jobmate AI,Product Hunt,25.8,Manus型,暂不跟进,none,0.0
+2026-10-28T06:44:49+00:00,github-cce245c2214d,andyhuo520/digital-human-koubo,GitHub,69.2,OpenClaw型,持续观察,stars,1171.0
+2026-10-28T06:44:49+00:00,github-3ac8ea32bb57,CopilotKit/OpenDuet,GitHub,64.4,OpenClaw型,持续观察,stars,695.0
+2026-10-28T06:44:49+00:00,github-f66e04e9e2c6,DenisSergeevitch/ex-ussr-kinship-research,GitHub,64.3,OpenClaw型,持续观察,stars,1077.0
+2026-10-28T06:44:49+00:00,github-a100e2a2c589,morganlinton/BeautifulRust,GitHub,62.2,OpenClaw型,持续观察,stars,1333.0
+2026-10-28T06:44:49+00:00,github-a325edc89fd6,rudderlabs/devbox,GitHub,62.1,OpenClaw型,持续观察,stars,122.0
+2026-10-28T06:44:49+00:00,github-0647d6f63802,thomasunise/argus,GitHub,61.5,OpenClaw型,持续观察,stars,106.0
+2026-10-28T06:44:49+00:00,product-hunt-7d472aa12666,Nuvio 5.0,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
+2026-10-28T06:44:49+00:00,product-hunt-c42bf2dc2348,PulseDev,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
+2026-10-28T06:44:49+00:00,product-hunt-e920574f65b2,WhoIsCooking,Product Hunt,27.6,Manus型,暂不跟进,none,0.0
+2026-10-28T06:44:49+00:00,product-hunt-e4e1fa50df07,GPT-6.1 Terra,Product Hunt,27.3,Manus型,暂不跟进,none,0.0
