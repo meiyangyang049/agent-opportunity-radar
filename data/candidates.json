@@ -1,8 +1,8 @@
 {
   "meta": {
     "project": "Agent Opportunity Radar",
-    "generated_at": "2026-10-28T06:44:49+00:00",
-    "generated_at_display": "2026-10-28 14:44 CST",
+    "generated_at": "2026-10-29T06:52:10+00:00",
+    "generated_at_display": "2026-10-29 14:52 CST",
     "mode": "公开信号实时运行",
     "sources": [
       "GitHub",
@@ -14,16 +14,16 @@
       "AI news RSS: HTTPError: 429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
     ],
     "notices": [],
-    "candidate_pool_size": 44,
+    "candidate_pool_size": 48,
     "pool_by_source": {
-      "GitHub": 13,
-      "Hacker News": 21,
-      "Product Hunt": 10
+      "GitHub": 17,
+      "Hacker News": 24,
+      "Product Hunt": 7
     },
     "pool_by_type": {
-      "OpenClaw型": 16,
-      "其他Agent": 19,
-      "Manus型": 9
+      "OpenClaw型": 20,
+      "其他Agent": 20,
+      "Manus型": 8
     },
     "shortlist_policy": "Top 10；OpenClaw型/Manus型各至少4个（候选充足时）",
     "kimi_model": "kimi-k2.6"
@@ -36,19 +36,19 @@
       "url": "https://github.com/andyhuo520/digital-human-koubo",
       "description": "AI digital-human talking-head videos from one photo: Renoise MCP generation + 5 editing styles + 48 creator-grade packaging components. Agent skill for Claude Code / Codex / OpenClaw / WorkBuddy …",
       "published_at": "2026-10-26T04:34:09Z",
-      "discovered_at": "2026-10-28T06:44:44+00:00",
+      "discovered_at": "2026-10-29T06:52:05+00:00",
       "author": "andyhuo520",
       "metrics": {
-        "stars": 1171,
-        "forks": 274,
+        "stars": 1356,
+        "forks": 313,
         "open_issues": 2,
-        "watchers": 1171
+        "watchers": 1356
       },
       "tags": [],
       "evidence": [
-        "+323 stars since last run",
-        "1,171 GitHub stars",
-        "274 forks",
+        "+185 stars since last run",
+        "1,356 GitHub stars",
+        "313 forks",
         "Created 2026-10-26"
       ],
       "raw_text": "andyhuo520/digital-human-koubo AI digital-human talking-head videos from one photo: Renoise MCP generation + 5 editing styles + 48 creator-grade packaging components. Agent skill for Claude Code / Codex / OpenClaw / WorkBuddy … ",
@@ -63,13 +63,13 @@
         "kimi_strategic_fit": 53
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "1,171 stars且2日增速+323 stars，明确标注为Claude Code/Codex/OpenClaw/WorkBuddy的Agent skill，MCP生态位清晰",
-      "commercial_summary": "数字人视频生成Agent skill，可作为Kimi MCP生态的潜在内容创作者工具合作伙伴，需确认是否支持多模型Provider切换",
+      "reason_to_contact_now": "+185 stars since last run；1,356 GitHub stars；313 forks；明确标注为Claude Code/Codex/OpenClaw/WorkBuddy的Agent skill",
+      "commercial_summary": "数字人MCP技能生态位，若成为多Agent平台默认视频生成Provider，可带动Kimi API调用量",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "language": "TypeScript",
-        "updated_at": "2026-10-28T06:35:49Z",
+        "updated_at": "2026-10-29T06:50:04Z",
         "homepage": null,
         "agent_keyword_hits": [
           "mcp",
@@ -79,58 +79,8 @@
         "ecosystem_keyword_hits": [
           "skill"
         ],
-        "metric_delta": 323.0,
-        "metric_velocity_per_day": 314.67779218582626
-      }
-    },
-    {
-      "id": "github-3ac8ea32bb57",
-      "source": "GitHub",
-      "name": "CopilotKit/OpenDuet",
-      "url": "https://github.com/CopilotKit/OpenDuet",
-      "description": "An Open Source template for a proactive AI agent that gets your work done and keeps you in the loop.",
-      "published_at": "2026-10-21T19:43:59Z",
-      "discovered_at": "2026-10-28T06:44:44+00:00",
-      "author": "CopilotKit",
-      "metrics": {
-        "stars": 695,
-        "forks": 94,
-        "open_issues": 3,
-        "watchers": 695
-      },
-      "tags": [],
-      "evidence": [
-        "695 GitHub stars",
-        "94 forks",
-        "Created 2026-10-21"
-      ],
-      "raw_text": "CopilotKit/OpenDuet An Open Source template for a proactive AI agent that gets your work done and keeps you in the loop. ",
-      "opportunity_type": "OpenClaw型",
-      "score": 64.4,
-      "dimension_scores": {
-        "growth_speed": 92.3,
-        "agent_innovation": 35,
-        "community_signal": 100.0,
-        "api_consumption_potential": 32,
-        "commercialization": 18,
-        "kimi_strategic_fit": 47
-      },
-      "recommended_action": "持续观察",
-      "reason_to_contact_now": "CopilotKit出品695 stars/94 forks，有独立官网copilotkit.ai/openduet，proactive AI agent开源模板定位明确",
-      "commercial_summary": "CopilotKit生态的Agent模板项目，具备成为Kimi开发者生态合作伙伴的潜力，需跟踪其模型Provider支持情况和社区采用度",
-      "confidence": "medium",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "language": "TypeScript",
-        "updated_at": "2026-10-28T06:41:24Z",
-        "homepage": "copilotkit.ai/openduet",
-        "agent_keyword_hits": [
-          "ai agent"
-        ],
-        "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": [
-          "open source"
-        ]
+        "metric_delta": 185.0,
+        "metric_velocity_per_day": 184.06052440667426
       }
     },
     {
@@ -140,13 +90,13 @@
       "url": "https://github.com/DenisSergeevitch/ex-ussr-kinship-research",
       "description": "Evidence-first genealogy skill for AI agents (Codex, Claude Code): church books, civil, military, deportation and repression records across the former USSR. Replies in your language.",
       "published_at": "2026-10-25T10:05:56Z",
-      "discovered_at": "2026-10-28T06:44:44+00:00",
+      "discovered_at": "2026-10-29T06:52:05+00:00",
       "author": "DenisSergeevitch",
       "metrics": {
-        "stars": 1077,
-        "forks": 107,
+        "stars": 1192,
+        "forks": 129,
         "open_issues": 1,
-        "watchers": 1077
+        "watchers": 1192
       },
       "tags": [
         "agent-skills",
@@ -159,9 +109,9 @@
         "ussr"
       ],
       "evidence": [
-        "+261 stars since last run",
-        "1,077 GitHub stars",
-        "107 forks",
+        "+115 stars since last run",
+        "1,192 GitHub stars",
+        "129 forks",
         "Created 2026-10-25"
       ],
       "raw_text": "DenisSergeevitch/ex-ussr-kinship-research Evidence-first genealogy skill for AI agents (Codex, Claude Code): church books, civil, military, deportation and repression records across the former USSR. Replies in your language. agent-skills archives claude-code codex family-history familysearch genealogy ussr",
@@ -176,13 +126,13 @@
         "kimi_strategic_fit": 47
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "1,077 stars且2日增速+261 stars，明确为Codex/Claude Code的genealogy skill，垂直领域Agent工具",
-      "commercial_summary": "垂直档案研究Agent skill，可作为Kimi在特定专业领域的生态扩展案例，需观察是否向通用Agent框架演进",
+      "reason_to_contact_now": "+115 stars since last run；1,192 GitHub stars；129 forks；明确支持Codex/Claude Code的genealogy skill",
+      "commercial_summary": "垂直领域Agent技能，若扩展多语言/多模型支持，可能成为Kimi生态合作候选",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "language": "Python",
-        "updated_at": "2026-10-28T06:44:13Z",
+        "updated_at": "2026-10-29T06:50:35Z",
         "homepage": null,
         "agent_keyword_hits": [
           "ai agent"
@@ -191,8 +141,186 @@
         "ecosystem_keyword_hits": [
           "skill"
         ],
-        "metric_delta": 261.0,
-        "metric_velocity_per_day": 254.27524384055928
+        "metric_delta": 115.0,
+        "metric_velocity_per_day": 114.41600165820292
+      }
+    },
+    {
+      "id": "github-ed6c23266f59",
+      "source": "GitHub",
+      "name": "hevnsnt/CVEngine",
+      "url": "https://github.com/hevnsnt/CVEngine",
+      "description": "AI-first external attack surface assessment with continuous discovery, evidence-based vulnerability validation, and developer-agent MCP integration.",
+      "published_at": "2026-10-24T22:34:43Z",
+      "discovered_at": "2026-10-29T06:52:07+00:00",
+      "author": "hevnsnt",
+      "metrics": {
+        "stars": 448,
+        "forks": 67,
+        "open_issues": 1,
+        "watchers": 448
+      },
+      "tags": [
+        "ai",
+        "attack-surface-management",
+        "bbot",
+        "cybersecurity",
+        "mcp",
+        "nmap",
+        "nuclei",
+        "vulnerability-scanner"
+      ],
+      "evidence": [
+        "448 GitHub stars",
+        "67 forks",
+        "Created 2026-10-24"
+      ],
+      "raw_text": "hevnsnt/CVEngine AI-first external attack surface assessment with continuous discovery, evidence-based vulnerability validation, and developer-agent MCP integration. ai attack-surface-management bbot cybersecurity mcp nmap nuclei vulnerability-scanner",
+      "opportunity_type": "OpenClaw型",
+      "score": 64.2,
+      "dimension_scores": {
+        "growth_speed": 91.7,
+        "agent_innovation": 35,
+        "community_signal": 100.0,
+        "api_consumption_potential": 32,
+        "commercialization": 18,
+        "kimi_strategic_fit": 47
+      },
+      "recommended_action": "持续观察",
+      "reason_to_contact_now": "448 GitHub stars；67 forks；developer-agent MCP integration明确标注",
+      "commercial_summary": "安全领域MCP集成，若成为DevSecOps Agent标准组件，可推动Kimi API在企业安全场景渗透",
+      "confidence": "medium",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "metadata": {
+        "language": "Python",
+        "updated_at": "2026-10-29T03:04:34Z",
+        "homepage": null,
+        "agent_keyword_hits": [
+          "mcp"
+        ],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": [
+          "integration"
+        ]
+      }
+    },
+    {
+      "id": "github-a325edc89fd6",
+      "source": "GitHub",
+      "name": "rudderlabs/devbox",
+      "url": "https://github.com/rudderlabs/devbox",
+      "description": "Open source autonomous engineering harness in your cloud. One sandbox per task, no real secrets inside.",
+      "published_at": "2026-10-27T06:17:39Z",
+      "discovered_at": "2026-10-29T06:52:05+00:00",
+      "author": "rudderlabs",
+      "metrics": {
+        "stars": 157,
+        "forks": 9,
+        "open_issues": 10,
+        "watchers": 157
+      },
+      "tags": [
+        "agent-harness",
+        "agent-sandbox",
+        "agent-security",
+        "agentic-coding",
+        "autonomous-agents",
+        "background-agents",
+        "coding-agents",
+        "harness-engineering"
+      ],
+      "evidence": [
+        "+35 stars since last run",
+        "157 GitHub stars",
+        "9 forks",
+        "Created 2026-10-27"
+      ],
+      "raw_text": "rudderlabs/devbox Open source autonomous engineering harness in your cloud. One sandbox per task, no real secrets inside. agent-harness agent-sandbox agent-security agentic-coding autonomous-agents background-agents coding-agents harness-engineering",
+      "opportunity_type": "OpenClaw型",
+      "score": 63.3,
+      "dimension_scores": {
+        "growth_speed": 94.4,
+        "agent_innovation": 35,
+        "community_signal": 92.1,
+        "api_consumption_potential": 32,
+        "commercialization": 18,
+        "kimi_strategic_fit": 47
+      },
+      "recommended_action": "持续观察",
+      "reason_to_contact_now": "+35 stars since last run；157 GitHub stars；RudderStack背书；agent sandbox/harness明确面向coding agents",
+      "commercial_summary": "企业级Agent安全沙箱，若成为autonomous coding基础设施，RudderStack现有客户可转化为Kimi API企业客户",
+      "confidence": "medium",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "metadata": {
+        "language": "TypeScript",
+        "updated_at": "2026-10-29T05:59:53Z",
+        "homepage": "https://www.rudderstack.com/devbox/",
+        "agent_keyword_hits": [
+          "agentic"
+        ],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": [
+          "open source"
+        ],
+        "metric_delta": 35.0,
+        "metric_velocity_per_day": 34.82226137423567
+      }
+    },
+    {
+      "id": "github-4d79793f0491",
+      "source": "GitHub",
+      "name": "davemessew/AgentFlux",
+      "url": "https://github.com/davemessew/AgentFlux",
+      "description": "Agentic AI platform for visual workflows and autonomous agents. Run it with Docker on your own computer or server.",
+      "published_at": "2026-10-27T14:43:07Z",
+      "discovered_at": "2026-10-29T06:52:05+00:00",
+      "author": "davemessew",
+      "metrics": {
+        "stars": 177,
+        "forks": 0,
+        "open_issues": 0,
+        "watchers": 177
+      },
+      "tags": [
+        "ai-agents",
+        "docker",
+        "ollama",
+        "self-hosted",
+        "workflows"
+      ],
+      "evidence": [
+        "177 GitHub stars",
+        "0 forks",
+        "Created 2026-10-27"
+      ],
+      "raw_text": "davemessew/AgentFlux Agentic AI platform for visual workflows and autonomous agents. Run it with Docker on your own computer or server. ai-agents docker ollama self-hosted workflows",
+      "opportunity_type": "OpenClaw型",
+      "score": 63.2,
+      "dimension_scores": {
+        "growth_speed": 92.1,
+        "agent_innovation": 46,
+        "community_signal": 75.0,
+        "api_consumption_potential": 39,
+        "commercialization": 18,
+        "kimi_strategic_fit": 53
+      },
+      "recommended_action": "持续观察",
+      "reason_to_contact_now": "2天内177 stars，明确支持Docker自托管、Ollama本地模型，标签含ai-agents/self-hosted/workflows",
+      "commercial_summary": "自托管Agent工作流平台，Ollama集成显示本地模型偏好，需跟踪是否扩展云端API模型接入",
+      "confidence": "medium",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "metadata": {
+        "language": "JavaScript",
+        "updated_at": "2026-10-29T06:47:38Z",
+        "homepage": "https://agentflux.cloud",
+        "agent_keyword_hits": [
+          "agentic",
+          "autonomous agent"
+        ],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": [
+          "self-hosted"
+        ]
       }
     },
     {
@@ -202,13 +330,13 @@
       "url": "https://github.com/morganlinton/BeautifulRust",
       "description": "Agent Skills that teach coding agents to write, review, and port idiomatic Rust, plus a tested clippy config. Works with Claude Code, Codex, Copilot, Cursor, and Gemini CLI.",
       "published_at": "2026-10-23T03:01:11Z",
-      "discovered_at": "2026-10-28T06:44:44+00:00",
+      "discovered_at": "2026-10-29T06:52:05+00:00",
       "author": "morganlinton",
       "metrics": {
-        "stars": 1333,
-        "forks": 59,
+        "stars": 1374,
+        "forks": 63,
         "open_issues": 4,
-        "watchers": 1333
+        "watchers": 1374
       },
       "tags": [
         "agent-skills",
@@ -223,9 +351,9 @@
         "style-guide"
       ],
       "evidence": [
-        "+93 stars since last run",
-        "1,333 GitHub stars",
-        "59 forks",
+        "+41 stars since last run",
+        "1,374 GitHub stars",
+        "63 forks",
         "Created 2026-10-23"
       ],
       "raw_text": "morganlinton/BeautifulRust Agent Skills that teach coding agents to write, review, and port idiomatic Rust, plus a tested clippy config. Works with Claude Code, Codex, Copilot, Cursor, and Gemini CLI. agent-skills claude-code claude-plugin claude-skills clippy code-review coding-agent cursor rust style-guide",
@@ -240,13 +368,13 @@
         "kimi_strategic_fit": 49
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "1,333 stars且持续增长，明确支持Claude Code/Codex/Copilot/Cursor/Gemini CLI多平台，有官网beautifulrust.dev",
-      "commercial_summary": "代码质量Agent skill，多IDE/Agent平台覆盖显示生态野心，是Kimi coding agent生态的潜在合作伙伴，需确认是否接入Kimi或存在扩展意愿",
+      "reason_to_contact_now": "6天内1374 stars、+41日增速，明确支持Claude Code/Codex/Copilot/Cursor/Gemini CLI多模型接入",
+      "commercial_summary": "高热度Agent技能框架，已验证多模型兼容性，若扩展Kimi接入可成为生态合作触点",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "language": "Python",
-        "updated_at": "2026-10-28T05:52:27Z",
+        "updated_at": "2026-10-29T05:36:36Z",
         "homepage": "https://www.beautifulrust.dev",
         "agent_keyword_hits": [],
         "commercial_keyword_hits": [],
@@ -254,134 +382,50 @@
           "plugin",
           "skill"
         ],
-        "metric_delta": 93.0,
-        "metric_velocity_per_day": 90.60382251790044
+        "metric_delta": 41.0,
+        "metric_velocity_per_day": 40.791791895533215
       }
     },
     {
-      "id": "github-a325edc89fd6",
-      "source": "GitHub",
-      "name": "rudderlabs/devbox",
-      "url": "https://github.com/rudderlabs/devbox",
-      "description": "Open source autonomous engineering harness in your cloud. One sandbox per task, no real secrets inside.",
-      "published_at": "2026-10-27T06:17:39Z",
-      "discovered_at": "2026-10-28T06:44:44+00:00",
-      "author": "rudderlabs",
-      "metrics": {
-        "stars": 122,
-        "forks": 6,
-        "open_issues": 6,
-        "watchers": 122
-      },
-      "tags": [
-        "agent-harness",
-        "agent-sandbox",
-        "agent-security",
-        "agentic-coding",
-        "autonomous-agents",
-        "background-agents",
-        "coding-agents",
-        "harness-engineering"
-      ],
+      "id": "product-hunt-3e634bfa8075",
+      "source": "Product Hunt",
+      "name": "Zest",
+      "url": "https://www.producthunt.com/products/zest-6",
+      "description": "Hold ⌥Space, flick, and an AI agent does the dev chore Discussion | Link",
+      "published_at": "2026-10-25T04:30:16-07:00",
+      "discovered_at": "2026-10-29T06:52:10+00:00",
+      "author": "MEET JETHWA",
+      "metrics": {},
+      "tags": [],
       "evidence": [
-        "122 GitHub stars",
-        "6 forks",
-        "Created 2026-10-27"
+        "Published via Product Hunt",
+        "2026-10-25T04:30:16-07:00"
       ],
-      "raw_text": "rudderlabs/devbox Open source autonomous engineering harness in your cloud. One sandbox per task, no real secrets inside. agent-harness agent-sandbox agent-security agentic-coding autonomous-agents background-agents coding-agents harness-engineering",
-      "opportunity_type": "OpenClaw型",
-      "score": 62.1,
+      "raw_text": "Zest Hold ⌥Space, flick, and an AI agent does the dev chore Discussion | Link ",
+      "opportunity_type": "Manus型",
+      "score": 29.6,
       "dimension_scores": {
-        "growth_speed": 93.9,
+        "growth_speed": 30.0,
         "agent_innovation": 35,
-        "community_signal": 86.5,
+        "community_signal": 18.0,
         "api_consumption_potential": 32,
-        "commercialization": 18,
-        "kimi_strategic_fit": 47
+        "commercialization": 36,
+        "kimi_strategic_fit": 31
       },
-      "recommended_action": "持续观察",
-      "reason_to_contact_now": "RudderLabs开源，122 stars/6 forks，1天内创建，云原生agent sandbox工程框架",
-      "commercial_summary": "企业级agent工程基础设施，潜在模型接入需求，需观察是否集成LLM API作为默认provider",
-      "confidence": "medium",
+      "recommended_action": "暂不跟进",
+      "reason_to_contact_now": "Product Hunt新发布，无用户量或付费数据，仅描述为快捷调用的AI dev chore工具",
+      "commercial_summary": "开发者效率工具，若后续验证到企业付费转化或高频API调用模式，可重新评估",
+      "confidence": "low",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
-        "language": "TypeScript",
-        "updated_at": "2026-10-28T06:37:13Z",
-        "homepage": "https://www.rudderstack.com/devbox/",
+        "feed_url": "https://www.producthunt.com/feed",
+        "content_kind": "product_launch",
+        "original_title": "Zest",
         "agent_keyword_hits": [
-          "agentic"
-        ],
-        "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": [
-          "open source"
-        ]
-      }
-    },
-    {
-      "id": "github-0647d6f63802",
-      "source": "GitHub",
-      "name": "thomasunise/argus",
-      "url": "https://github.com/thomasunise/argus",
-      "description": "Open-source agentic security operations platform:",
-      "published_at": "2026-10-24T16:12:28Z",
-      "discovered_at": "2026-10-28T06:44:44+00:00",
-      "author": "thomasunise",
-      "metrics": {
-        "stars": 106,
-        "forks": 11,
-        "open_issues": 4,
-        "watchers": 106
-      },
-      "tags": [
-        "agentic-ai",
-        "agentic-security",
-        "agentic-workflow",
-        "cyber-security",
-        "cyber-threat-intelligence",
-        "cybersecurity",
-        "cybersecurity-tools",
-        "penetration-testing",
-        "pentest",
-        "pentest-tool",
-        "pentesting",
-        "pentesting-tools",
-        "security-automation",
-        "security-tools"
-      ],
-      "evidence": [
-        "+6 stars since last run",
-        "106 GitHub stars",
-        "11 forks",
-        "Created 2026-10-24"
-      ],
-      "raw_text": "thomasunise/argus Open-source agentic security operations platform: agentic-ai agentic-security agentic-workflow cyber-security cyber-threat-intelligence cybersecurity cybersecurity-tools penetration-testing pentest pentest-tool pentesting pentesting-tools security-automation security-tools",
-      "opportunity_type": "OpenClaw型",
-      "score": 61.5,
-      "dimension_scores": {
-        "growth_speed": 73.2,
-        "agent_innovation": 46,
-        "community_signal": 89.3,
-        "api_consumption_potential": 39,
-        "commercialization": 18,
-        "kimi_strategic_fit": 45
-      },
-      "recommended_action": "持续观察",
-      "reason_to_contact_now": "4天106 stars/11 forks，日增~6 stars，开源agentic安全运营平台，Python技术栈",
-      "commercial_summary": "安全领域agentic工作流平台，高复杂度场景可能产生大量模型调用，需跟踪默认LLM provider选择",
-      "confidence": "medium",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "language": "Python",
-        "updated_at": "2026-10-27T22:06:33Z",
-        "homepage": "https://thomasunise.com/argus",
-        "agent_keyword_hits": [
-          "agentic",
           "ai agent"
         ],
         "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": [],
-        "metric_delta": 6.0,
-        "metric_velocity_per_day": 5.845407904380673
+        "ecosystem_keyword_hits": []
       }
     },
     {
@@ -391,7 +435,7 @@
       "url": "https://www.producthunt.com/products/nuvio",
       "description": "Hand your financial admin to your AI agent Discussion | Link",
       "published_at": "2026-10-26T13:06:22-07:00",
-      "discovered_at": "2026-10-28T06:44:49+00:00",
+      "discovered_at": "2026-10-29T06:52:10+00:00",
       "author": "Ali İlhami ÖZTAN",
       "metrics": {},
       "tags": [],
@@ -411,9 +455,9 @@
         "kimi_strategic_fit": 31
       },
       "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "Product Hunt 5.0版本发布，但无用户数据、融资或API使用规模证据",
-      "commercial_summary": "财务AI Agent SaaS，当前缺乏API消耗量或商业化规模信号，暂不符合高价值客户标准",
-      "confidence": "medium",
+      "reason_to_contact_now": "Product Hunt发布的5.0版本，无用户量、收入或API消耗证据，财务Agent赛道竞争激烈",
+      "commercial_summary": "财务AI Agent产品，需验证付费转化和模型调用规模后才具备客户价值",
+      "confidence": "low",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "feed_url": "https://www.producthunt.com/feed",
@@ -427,63 +471,21 @@
       }
     },
     {
-      "id": "product-hunt-c42bf2dc2348",
+      "id": "product-hunt-3ca38be60665",
       "source": "Product Hunt",
-      "name": "PulseDev",
-      "url": "https://www.producthunt.com/products/pulsedev",
-      "description": "Click any UI bug on localhost and your AI agent fixes it Discussion | Link",
-      "published_at": "2026-10-26T15:47:46-07:00",
-      "discovered_at": "2026-10-28T06:44:49+00:00",
-      "author": "Perlat Kociaj",
+      "name": "Dedica",
+      "url": "https://www.producthunt.com/products/dedica",
+      "description": "Check if AI agents can use your website Discussion | Link",
+      "published_at": "2026-10-27T17:45:35-07:00",
+      "discovered_at": "2026-10-29T06:52:10+00:00",
+      "author": "Prajwal",
       "metrics": {},
       "tags": [],
       "evidence": [
         "Published via Product Hunt",
-        "2026-10-26T15:47:46-07:00"
+        "2026-10-27T17:45:35-07:00"
       ],
-      "raw_text": "PulseDev Click any UI bug on localhost and your AI agent fixes it Discussion | Link ",
-      "opportunity_type": "Manus型",
-      "score": 29.6,
-      "dimension_scores": {
-        "growth_speed": 30.0,
-        "agent_innovation": 35,
-        "community_signal": 18.0,
-        "api_consumption_potential": 32,
-        "commercialization": 36,
-        "kimi_strategic_fit": 31
-      },
-      "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "Product Hunt新发布但无任何用户数据、增长指标或技术细节",
-      "commercial_summary": "UI调试Agent工具，早期产品阶段，缺乏API调用规模或商业化证据",
-      "confidence": "medium",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "feed_url": "https://www.producthunt.com/feed",
-        "content_kind": "product_launch",
-        "original_title": "PulseDev",
-        "agent_keyword_hits": [
-          "ai agent"
-        ],
-        "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": []
-      }
-    },
-    {
-      "id": "product-hunt-e920574f65b2",
-      "source": "Product Hunt",
-      "name": "WhoIsCooking",
-      "url": "https://www.producthunt.com/products/whoiscooking",
-      "description": "See which AI agent is heating your Mac and cool it down. Discussion | Link",
-      "published_at": "2026-10-25T14:45:54-07:00",
-      "discovered_at": "2026-10-28T06:44:49+00:00",
-      "author": "G Andrew Wilson",
-      "metrics": {},
-      "tags": [],
-      "evidence": [
-        "Published via Product Hunt",
-        "2026-10-25T14:45:54-07:00"
-      ],
-      "raw_text": "WhoIsCooking See which AI agent is heating your Mac and cool it down. Discussion | Link ",
+      "raw_text": "Dedica Check if AI agents can use your website Discussion | Link ",
       "opportunity_type": "Manus型",
       "score": 27.6,
       "dimension_scores": {
@@ -495,14 +497,14 @@
         "kimi_strategic_fit": 31
       },
       "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "Product Hunt发布，Mac端AI agent监控工具，无API调用或商业化信号",
-      "commercial_summary": "终端用户工具，无模型API消费场景，与Kimi API商业化无关",
-      "confidence": "medium",
+      "reason_to_contact_now": "Product Hunt发布；AI agent website usability检测工具，无模型依赖或API规模信号",
+      "commercial_summary": "Agent可访问性测试SaaS，若需大规模LLM调用评估网站，未来可能成为API客户",
+      "confidence": "low",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "feed_url": "https://www.producthunt.com/feed",
         "content_kind": "product_launch",
-        "original_title": "WhoIsCooking",
+        "original_title": "Dedica",
         "agent_keyword_hits": [
           "ai agent"
         ],
@@ -517,7 +519,7 @@
       "url": "https://www.producthunt.com/products/openai",
       "description": "Fast, capable computer use at half the price Discussion | Link",
       "published_at": "2026-10-26T16:33:48-07:00",
-      "discovered_at": "2026-10-28T06:44:49+00:00",
+      "discovered_at": "2026-10-29T06:52:10+00:00",
       "author": "KP",
       "metrics": {},
       "tags": [],
@@ -537,8 +539,8 @@
         "kimi_strategic_fit": 31
       },
       "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "Product Hunt发布但无具体产品独立域名，实为OpenAI官方模型更新，非独立Agent产品",
-      "commercial_summary": "OpenAI自有模型迭代，属于竞品动态而非潜在客户或生态伙伴，无需跟进",
+      "reason_to_contact_now": "Product Hunt发布信息；实为OpenAI产品更新，非独立Agent项目",
+      "commercial_summary": "OpenAI竞品价格动态，需跟踪但非客户/生态机会",
       "confidence": "high",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {

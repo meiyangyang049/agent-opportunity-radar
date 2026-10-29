@@ -654,3 +654,13 @@ run_at,id,name,source,score,opportunity_type,recommended_action,metric_name,metr
 2026-10-28T06:44:49+00:00,product-hunt-c42bf2dc2348,PulseDev,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
 2026-10-28T06:44:49+00:00,product-hunt-e920574f65b2,WhoIsCooking,Product Hunt,27.6,Manus型,暂不跟进,none,0.0
 2026-10-28T06:44:49+00:00,product-hunt-e4e1fa50df07,GPT-6.1 Terra,Product Hunt,27.3,Manus型,暂不跟进,none,0.0
+2026-10-29T06:52:10+00:00,github-cce245c2214d,andyhuo520/digital-human-koubo,GitHub,69.2,OpenClaw型,持续观察,stars,1356.0
+2026-10-29T06:52:10+00:00,github-f66e04e9e2c6,DenisSergeevitch/ex-ussr-kinship-research,GitHub,64.3,OpenClaw型,持续观察,stars,1192.0
+2026-10-29T06:52:10+00:00,github-ed6c23266f59,hevnsnt/CVEngine,GitHub,64.2,OpenClaw型,持续观察,stars,448.0
+2026-10-29T06:52:10+00:00,github-a325edc89fd6,rudderlabs/devbox,GitHub,63.3,OpenClaw型,持续观察,stars,157.0
+2026-10-29T06:52:10+00:00,github-4d79793f0491,davemessew/AgentFlux,GitHub,63.2,OpenClaw型,持续观察,stars,177.0
+2026-10-29T06:52:10+00:00,github-a100e2a2c589,morganlinton/BeautifulRust,GitHub,62.2,OpenClaw型,持续观察,stars,1374.0
+2026-10-29T06:52:10+00:00,product-hunt-3e634bfa8075,Zest,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
+2026-10-29T06:52:10+00:00,product-hunt-7d472aa12666,Nuvio 5.0,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
+2026-10-29T06:52:10+00:00,product-hunt-3ca38be60665,Dedica,Product Hunt,27.6,Manus型,暂不跟进,none,0.0
+2026-10-29T06:52:10+00:00,product-hunt-e4e1fa50df07,GPT-6.1 Terra,Product Hunt,27.3,Manus型,暂不跟进,none,0.0
