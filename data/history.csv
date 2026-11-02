@@ -694,3 +694,13 @@ run_at,id,name,source,score,opportunity_type,recommended_action,metric_name,metr
 2026-11-01T07:15:44+00:00,product-hunt-9e2d16be2c23,Riverside Agents,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
 2026-11-01T07:15:44+00:00,product-hunt-62e81e774dee,Pluto Door,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
 2026-11-01T07:15:44+00:00,product-hunt-80e3db08d914,telemetry.dev,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
+2026-11-02T07:30:40+00:00,github-cce245c2214d,andyhuo520/digital-human-koubo,GitHub,69.2,OpenClaw型,持续观察,stars,1681.0
+2026-11-02T07:30:40+00:00,github-6fb233b66962,N1nEmAn/sapper-v2,GitHub,69.2,OpenClaw型,持续观察,stars,543.0
+2026-11-02T07:30:40+00:00,github-444a13488ff8,wangzan101/Mika,GitHub,67.5,OpenClaw型,立即联系,stars,4466.0
+2026-11-02T07:30:40+00:00,github-4d79793f0491,davemessew/AgentFlux,GitHub,61.6,OpenClaw型,持续观察,stars,236.0
+2026-11-02T07:30:40+00:00,github-a325edc89fd6,rudderlabs/devbox,GitHub,61.1,OpenClaw型,持续观察,stars,268.0
+2026-11-02T07:30:40+00:00,github-4e170344870f,akari-sora/synology-nas-cli,GitHub,57.6,OpenClaw型,持续观察,stars,70.0
+2026-11-02T07:30:40+00:00,product-hunt-80e3db08d914,telemetry.dev,Product Hunt,30.6,Manus型,暂不跟进,none,0.0
+2026-11-02T07:30:40+00:00,hackernews-fe67204a796e,Show HN: Better Together – AI agents team up against spam calls and texts,Hacker News,30.1,Manus型,暂不跟进,points,2.0
+2026-11-02T07:30:40+00:00,product-hunt-9e2d16be2c23,Riverside Agents,Product Hunt,27.6,Manus型,暂不跟进,none,0.0
+2026-11-02T07:30:40+00:00,product-hunt-62e81e774dee,Pluto Door,Product Hunt,27.6,Manus型,暂不跟进,none,0.0
