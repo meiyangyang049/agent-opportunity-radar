@@ -1,8 +1,8 @@
 {
   "meta": {
     "project": "Agent Opportunity Radar",
-    "generated_at": "2026-11-02T07:30:40+00:00",
-    "generated_at_display": "2026-11-02 15:30 CST",
+    "generated_at": "2026-11-03T07:45:00+00:00",
+    "generated_at_display": "2026-11-03 15:45 CST",
     "mode": "公开信号实时运行",
     "sources": [
       "GitHub",
@@ -14,15 +14,15 @@
       "AI news RSS: HTTPError: 429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
     ],
     "notices": [],
-    "candidate_pool_size": 38,
+    "candidate_pool_size": 42,
     "pool_by_source": {
-      "GitHub": 10,
-      "Hacker News": 18,
-      "Product Hunt": 10
+      "GitHub": 9,
+      "Hacker News": 22,
+      "Product Hunt": 11
     },
     "pool_by_type": {
-      "OpenClaw型": 11,
-      "其他Agent": 16,
+      "OpenClaw型": 12,
+      "其他Agent": 19,
       "Manus型": 11
     },
     "shortlist_policy": "Top 10；OpenClaw型/Manus型各至少4个（候选充足时）",
@@ -30,73 +30,19 @@
   },
   "candidates": [
     {
-      "id": "github-cce245c2214d",
-      "source": "GitHub",
-      "name": "andyhuo520/digital-human-koubo",
-      "url": "https://github.com/andyhuo520/digital-human-koubo",
-      "description": "AI digital-human talking-head videos from one photo: Renoise MCP generation + 5 editing styles + 48 creator-grade packaging components. Agent skill for Claude Code / Codex / OpenClaw / WorkBuddy …",
-      "published_at": "2026-10-26T04:34:09Z",
-      "discovered_at": "2026-11-02T07:30:36+00:00",
-      "author": "andyhuo520",
-      "metrics": {
-        "stars": 1681,
-        "forks": 383,
-        "open_issues": 4,
-        "watchers": 1681
-      },
-      "tags": [],
-      "evidence": [
-        "+80 stars since last run",
-        "1,681 GitHub stars",
-        "383 forks",
-        "Created 2026-10-26"
-      ],
-      "raw_text": "andyhuo520/digital-human-koubo AI digital-human talking-head videos from one photo: Renoise MCP generation + 5 editing styles + 48 creator-grade packaging components. Agent skill for Claude Code / Codex / OpenClaw / WorkBuddy … ",
-      "opportunity_type": "OpenClaw型",
-      "score": 69.2,
-      "dimension_scores": {
-        "growth_speed": 100.0,
-        "agent_innovation": 46,
-        "community_signal": 100.0,
-        "api_consumption_potential": 39,
-        "commercialization": 18,
-        "kimi_strategic_fit": 53
-      },
-      "recommended_action": "持续观察",
-      "reason_to_contact_now": "1681 stars且日增速79+/天，明确标注Agent skill for Claude Code/Codex/OpenClaw/WorkBuddy，MCP生态位清晰",
-      "commercial_summary": "数字人MCP技能包，若成为多Agent框架默认视觉组件，可带动Kimi API在内容创作场景的调用量",
-      "confidence": "medium",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "language": "TypeScript",
-        "updated_at": "2026-11-02T07:27:58Z",
-        "homepage": null,
-        "agent_keyword_hits": [
-          "mcp",
-          "openclaw"
-        ],
-        "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": [
-          "skill"
-        ],
-        "metric_delta": 80.0,
-        "metric_velocity_per_day": 79.17888563049853
-      }
-    },
-    {
       "id": "github-6fb233b66962",
       "source": "GitHub",
       "name": "N1nEmAn/sapper-v2",
       "url": "https://github.com/N1nEmAn/sapper-v2",
       "description": "Autonomous pentest legion — AI commander + worker swarm + layered fact-intent graph. 3rd Tencent Intelligent Attack-Defense online champion (634 teams · 8h unattended · 1B tokens beat 4.5B). The Nüwa Test: give AIs Create/Language/History, let a civilization grow.",
       "published_at": "2026-10-30T15:12:35Z",
-      "discovered_at": "2026-11-02T07:30:36+00:00",
+      "discovered_at": "2026-11-03T07:44:56+00:00",
       "author": "N1nEmAn",
       "metrics": {
-        "stars": 543,
-        "forks": 445,
+        "stars": 639,
+        "forks": 503,
         "open_issues": 2,
-        "watchers": 543
+        "watchers": 639
       },
       "tags": [
         "ai-agents",
@@ -108,14 +54,14 @@
         "pentest"
       ],
       "evidence": [
-        "+161 stars since last run",
-        "543 GitHub stars",
-        "445 forks",
+        "+96 stars since last run",
+        "639 GitHub stars",
+        "503 forks",
         "Created 2026-10-30"
       ],
       "raw_text": "N1nEmAn/sapper-v2 Autonomous pentest legion — AI commander + worker swarm + layered fact-intent graph. 3rd Tencent Intelligent Attack-Defense online champion (634 teams · 8h unattended · 1B tokens beat 4.5B). The Nüwa Test: give AIs Create/Language/History, let a civilization grow. ai-agents autonomous-agents claude-code ctf llm multi-agent pentest",
       "opportunity_type": "OpenClaw型",
-      "score": 69.2,
+      "score": 67.2,
       "dimension_scores": {
         "growth_speed": 100.0,
         "agent_innovation": 35,
@@ -125,21 +71,21 @@
         "kimi_strategic_fit": 39
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "543 stars/445 forks/日增速159+，腾讯攻防赛第三名，1B tokens击败4.5B模型，明确多Agent架构",
-      "commercial_summary": "安全领域多Agent框架，高token消耗场景（1B/8h），若成为红队标准工具可带来稳定API调用",
+      "reason_to_contact_now": "3天新增639星、503 forks，增速极快；腾讯攻防赛冠军验证多Agent编排能力",
+      "commercial_summary": "高潜力开源多Agent渗透测试框架，若成为安全领域标准工具，可争取作为默认模型Provider或联合举办赛事",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "language": "Python",
-        "updated_at": "2026-11-02T07:25:08Z",
+        "updated_at": "2026-11-03T07:22:07Z",
         "homepage": null,
         "agent_keyword_hits": [
           "multi-agent"
         ],
         "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": [],
-        "metric_delta": 161.0,
-        "metric_velocity_per_day": 159.3475073313783
+        "metric_delta": 96.0,
+        "metric_velocity_per_day": 95.05386202154482
       }
     },
     {
@@ -149,13 +95,13 @@
       "url": "https://github.com/wangzan101/Mika",
       "description": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
       "published_at": "2026-10-29T14:34:07Z",
-      "discovered_at": "2026-11-02T07:30:36+00:00",
+      "discovered_at": "2026-11-03T07:44:55+00:00",
       "author": "wangzan101",
       "metrics": {
-        "stars": 4466,
-        "forks": 850,
-        "open_issues": 54,
-        "watchers": 4466
+        "stars": 5686,
+        "forks": 1107,
+        "open_issues": 108,
+        "watchers": 5686
       },
       "tags": [
         "accessibility",
@@ -168,14 +114,14 @@
         "mobile-agent"
       ],
       "evidence": [
-        "+1,416 stars since last run",
-        "4,466 GitHub stars",
-        "850 forks",
+        "+1,220 stars since last run",
+        "5,686 GitHub stars",
+        "1,107 forks",
         "Created 2026-10-29"
       ],
       "raw_text": "wangzan101/Mika An on-device AI agent for Android that operates apps and the web to get things done for you. accessibility ai-agent android automation jetpack-compose kotlin llm mobile-agent",
       "opportunity_type": "OpenClaw型",
-      "score": 67.5,
+      "score": 65.5,
       "dimension_scores": {
         "growth_speed": 100.0,
         "agent_innovation": 35,
@@ -184,82 +130,22 @@
         "commercialization": 18,
         "kimi_strategic_fit": 39
       },
-      "recommended_action": "立即联系",
-      "reason_to_contact_now": "4466 stars/850 forks/日增速1400+，on-device Android Agent，明确LLM驱动且支持多应用操作",
-      "commercial_summary": "端侧Android Agent框架，高增速开源项目，若成为移动端Agent标准实现，Kimi可作为默认云端模型Provider切入",
+      "recommended_action": "持续观察",
+      "reason_to_contact_now": "3天新增1,220 stars达5,686星，1,107 forks，Android端侧Agent增速罕见",
+      "commercial_summary": "端侧Android Agent开源项目，若成为移动端Agent标准框架，可争取模型接入合作或端云协同方案",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "language": "Kotlin",
-        "updated_at": "2026-11-02T07:30:28Z",
+        "updated_at": "2026-11-03T07:44:47Z",
         "homepage": "",
         "agent_keyword_hits": [
           "ai agent"
         ],
         "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": [],
-        "metric_delta": 1416.0,
-        "metric_velocity_per_day": 1401.466275659824
-      }
-    },
-    {
-      "id": "github-4d79793f0491",
-      "source": "GitHub",
-      "name": "davemessew/AgentFlux",
-      "url": "https://github.com/davemessew/AgentFlux",
-      "description": "Agentic AI platform for visual workflows and autonomous agents. Run it with Docker on your own computer or server.",
-      "published_at": "2026-10-27T14:43:07Z",
-      "discovered_at": "2026-11-02T07:30:36+00:00",
-      "author": "davemessew",
-      "metrics": {
-        "stars": 236,
-        "forks": 0,
-        "open_issues": 0,
-        "watchers": 236
-      },
-      "tags": [
-        "ai-agents",
-        "docker",
-        "ollama",
-        "self-hosted",
-        "workflows"
-      ],
-      "evidence": [
-        "+59 stars since last run",
-        "236 GitHub stars",
-        "0 forks",
-        "Created 2026-10-27"
-      ],
-      "raw_text": "davemessew/AgentFlux Agentic AI platform for visual workflows and autonomous agents. Run it with Docker on your own computer or server. ai-agents docker ollama self-hosted workflows",
-      "opportunity_type": "OpenClaw型",
-      "score": 61.6,
-      "dimension_scores": {
-        "growth_speed": 79.5,
-        "agent_innovation": 46,
-        "community_signal": 78.1,
-        "api_consumption_potential": 39,
-        "commercialization": 18,
-        "kimi_strategic_fit": 53
-      },
-      "recommended_action": "持续观察",
-      "reason_to_contact_now": "236 stars且日增14+，自托管visual workflow平台，明确支持Ollama本地模型",
-      "commercial_summary": "自托管Agent工作流平台，具备模型接入灵活性，若扩展云端/多模型支持可能成为API客户或生态伙伴",
-      "confidence": "medium",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "language": "TypeScript",
-        "updated_at": "2026-10-31T20:10:28Z",
-        "homepage": "https://agentflux.cloud",
-        "agent_keyword_hits": [
-          "agentic",
-          "autonomous agent"
-        ],
-        "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": [
-          "self-hosted"
-        ],
-        "metric_delta": 59.0,
-        "metric_velocity_per_day": 14.652065189273088
+        "metric_delta": 1220.0,
+        "metric_velocity_per_day": 1207.9761631904653
       }
     },
     {
@@ -269,13 +155,13 @@
       "url": "https://github.com/rudderlabs/devbox",
       "description": "Open source autonomous engineering harness in your cloud. One sandbox per task, no real secrets inside.",
       "published_at": "2026-10-27T06:17:39Z",
-      "discovered_at": "2026-11-02T07:30:36+00:00",
+      "discovered_at": "2026-11-03T07:44:56+00:00",
       "author": "rudderlabs",
       "metrics": {
-        "stars": 268,
-        "forks": 16,
-        "open_issues": 11,
-        "watchers": 268
+        "stars": 278,
+        "forks": 18,
+        "open_issues": 16,
+        "watchers": 278
       },
       "tags": [
         "agent-harness",
@@ -288,16 +174,16 @@
         "harness-engineering"
       ],
       "evidence": [
-        "+27 stars since last run",
-        "268 GitHub stars",
-        "16 forks",
+        "+10 stars since last run",
+        "278 GitHub stars",
+        "18 forks",
         "Created 2026-10-27"
       ],
       "raw_text": "rudderlabs/devbox Open source autonomous engineering harness in your cloud. One sandbox per task, no real secrets inside. agent-harness agent-sandbox agent-security agentic-coding autonomous-agents background-agents coding-agents harness-engineering",
       "opportunity_type": "OpenClaw型",
-      "score": 61.1,
+      "score": 61.7,
       "dimension_scores": {
-        "growth_speed": 79.2,
+        "growth_speed": 77.5,
         "agent_innovation": 35,
         "community_signal": 100.0,
         "api_consumption_potential": 32,
@@ -305,13 +191,13 @@
         "kimi_strategic_fit": 47
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "268 stars且日增13+，RudderStack背书的企业级开源agent sandbox，云原生部署场景",
-      "commercial_summary": "企业数据基础设施厂商推出的开源Agent沙箱，具备B端渠道和品牌优势，可能成为模型API企业客户或生态节点",
+      "reason_to_contact_now": "GitHub 278 stars、18 forks，RudderLabs背书，开源Agent工程沙箱，TypeScript技术栈，有企业级背景",
+      "commercial_summary": "企业级开源Agent安全运行环境，RudderLabs现有客户基础可能推动企业采用，需跟踪模型Provider集成策略",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "language": "TypeScript",
-        "updated_at": "2026-11-02T04:23:42Z",
+        "updated_at": "2026-11-03T01:06:01Z",
         "homepage": "https://www.rudderstack.com/devbox/",
         "agent_keyword_hits": [
           "agentic"
@@ -320,86 +206,236 @@
         "ecosystem_keyword_hits": [
           "open source"
         ],
-        "metric_delta": 27.0,
-        "metric_velocity_per_day": 13.311421528348397
+        "metric_delta": 10.0,
+        "metric_velocity_per_day": 9.901443960577584
       }
     },
     {
-      "id": "github-4e170344870f",
+      "id": "github-4d79793f0491",
       "source": "GitHub",
-      "name": "akari-sora/synology-nas-cli",
-      "url": "https://github.com/akari-sora/synology-nas-cli",
-      "description": "nas: a zero-dependency Python CLI + MCP server for Synology DSM 7. One-command audit and fix for the C3RB3R / .L0CK3D ransomware campaign; hand it to your AI agent. Mirror; canonical repo and issues: gitlab.com/aa22396584/synology-nas-cli",
-      "published_at": "2026-10-30T09:52:47Z",
-      "discovered_at": "2026-11-02T07:30:37+00:00",
-      "author": "akari-sora",
+      "name": "davemessew/AgentFlux",
+      "url": "https://github.com/davemessew/AgentFlux",
+      "description": "Agentic AI platform for visual workflows and autonomous agents. Run it with Docker on your own computer or server.",
+      "published_at": "2026-10-27T14:43:07Z",
+      "discovered_at": "2026-11-03T07:44:56+00:00",
+      "author": "davemessew",
       "metrics": {
-        "stars": 70,
-        "forks": 9,
+        "stars": 248,
+        "forks": 1,
         "open_issues": 0,
-        "watchers": 70
+        "watchers": 248
       },
       "tags": [
-        "ai-agent",
-        "cli",
-        "dsm",
-        "mcp",
-        "nas",
-        "ransomware",
-        "security",
-        "synology"
+        "ai-agents",
+        "docker",
+        "ollama",
+        "self-hosted",
+        "workflows"
       ],
       "evidence": [
-        "70 GitHub stars",
-        "9 forks",
-        "Created 2026-10-30"
+        "+12 stars since last run",
+        "248 GitHub stars",
+        "1 forks",
+        "Created 2026-10-27"
       ],
-      "raw_text": "akari-sora/synology-nas-cli nas: a zero-dependency Python CLI + MCP server for Synology DSM 7. One-command audit and fix for the C3RB3R / .L0CK3D ransomware campaign; hand it to your AI agent. Mirror; canonical repo and issues: gitlab.com/aa22396584/synology-nas-cli ai-agent cli dsm mcp nas ransomware security synology",
+      "raw_text": "davemessew/AgentFlux Agentic AI platform for visual workflows and autonomous agents. Run it with Docker on your own computer or server. ai-agents docker ollama self-hosted workflows",
       "opportunity_type": "OpenClaw型",
-      "score": 57.6,
+      "score": 61.1,
       "dimension_scores": {
-        "growth_speed": 70.4,
+        "growth_speed": 76.5,
         "agent_innovation": 46,
-        "community_signal": 83.3,
+        "community_signal": 84.2,
         "api_consumption_potential": 39,
         "commercialization": 18,
-        "kimi_strategic_fit": 45
+        "kimi_strategic_fit": 53
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "70 stars含MCP server标签，面向NAS场景的AI agent工具，安全运维垂直场景",
-      "commercial_summary": "MCP协议生态中的垂直工具，若MCP成为agent互操作标准，此类server可能构成模型调用入口或数据层节点",
+      "reason_to_contact_now": "GitHub 248 stars、+12 stars增速，支持Docker自托管和Ollama本地模型，TypeScript技术栈",
+      "commercial_summary": "自托管Agent工作流平台，若默认集成云端模型API则可能成为分发渠道，需确认是否支持Kimi等国产模型",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
-        "language": "Python",
-        "updated_at": "2026-11-02T06:12:01Z",
-        "homepage": "https://gitlab.com/aa22396584/synology-nas-cli",
+        "language": "TypeScript",
+        "updated_at": "2026-11-02T23:50:47Z",
+        "homepage": "https://agentflux.cloud",
         "agent_keyword_hits": [
-          "ai agent",
-          "mcp"
+          "agentic",
+          "autonomous agent"
+        ],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": [
+          "self-hosted"
+        ],
+        "metric_delta": 12.0,
+        "metric_velocity_per_day": 11.881732752693102
+      }
+    },
+    {
+      "id": "github-b29f50e5d7b7",
+      "source": "GitHub",
+      "name": "cutetailbud/ff-ruyijs",
+      "url": "https://github.com/cutetailbud/ff-ruyijs",
+      "description": "A AI Browser run any site JavaScript from Python with the real Firefox engine. Headless SpiderMonkey + Necko for automation and scraping.",
+      "published_at": "2026-10-28T11:31:41Z",
+      "discovered_at": "2026-11-03T07:44:57+00:00",
+      "author": "cutetailbud",
+      "metrics": {
+        "stars": 641,
+        "forks": 285,
+        "open_issues": 4,
+        "watchers": 641
+      },
+      "tags": [
+        "anti-bot",
+        "automation",
+        "firefox",
+        "headless-browser",
+        "javascript",
+        "python",
+        "spidermonkey",
+        "web-scraping"
+      ],
+      "evidence": [
+        "641 GitHub stars",
+        "285 forks",
+        "Created 2026-10-28"
+      ],
+      "raw_text": "cutetailbud/ff-ruyijs A AI Browser run any site JavaScript from Python with the real Firefox engine. Headless SpiderMonkey + Necko for automation and scraping. anti-bot automation firefox headless-browser javascript python spidermonkey web-scraping",
+      "opportunity_type": "OpenClaw型",
+      "score": 60.0,
+      "dimension_scores": {
+        "growth_speed": 92.6,
+        "agent_innovation": 24,
+        "community_signal": 100.0,
+        "api_consumption_potential": 30,
+        "commercialization": 32,
+        "kimi_strategic_fit": 33
+      },
+      "recommended_action": "持续观察",
+      "reason_to_contact_now": "6天641 stars、285 forks，AI浏览器引擎工具增速较快",
+      "commercial_summary": "AI驱动的真实Firefox引擎浏览器工具，若成为Agent基础设施，可探索模型+浏览器联合方案",
+      "confidence": "medium",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "metadata": {
+        "language": "C++",
+        "updated_at": "2026-11-03T07:39:43Z",
+        "homepage": "https://cutetailbud.github.io/ff-ruyijs/",
+        "agent_keyword_hits": [],
+        "commercial_keyword_hits": [
+          "api"
+        ],
+        "ecosystem_keyword_hits": []
+      }
+    },
+    {
+      "id": "github-cea8aebf41ae",
+      "source": "GitHub",
+      "name": "deepseek-ai/dsh-superagent-prototype",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+      "description": "Towards a More Autonomous Agent System",
+      "published_at": "2026-10-31T09:32:46Z",
+      "discovered_at": "2026-11-03T07:44:55+00:00",
+      "author": "deepseek-ai",
+      "metrics": {
+        "stars": 14694,
+        "forks": 1570,
+        "open_issues": 0,
+        "watchers": 14694
+      },
+      "tags": [],
+      "evidence": [
+        "14,694 GitHub stars",
+        "1,570 forks",
+        "Created 2026-10-31"
+      ],
+      "raw_text": "deepseek-ai/dsh-superagent-prototype Towards a More Autonomous Agent System ",
+      "opportunity_type": "OpenClaw型",
+      "score": 59.5,
+      "dimension_scores": {
+        "growth_speed": 100.0,
+        "agent_innovation": 35,
+        "community_signal": 100.0,
+        "api_consumption_potential": 32,
+        "commercialization": 18,
+        "kimi_strategic_fit": 39
+      },
+      "recommended_action": "持续观察",
+      "reason_to_contact_now": "DeepSeek官方仓库，14,694 stars但3天前创建，存在刷量或迁移嫌疑",
+      "commercial_summary": "竞品DeepSeek的Agent原型，需监控其架构设计、模型依赖及社区转化路径，属战略竞品情报",
+      "confidence": "medium",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "metadata": {
+        "language": "TypeScript",
+        "updated_at": "2026-11-03T07:44:56Z",
+        "homepage": null,
+        "agent_keyword_hits": [
+          "autonomous agent"
         ],
         "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": []
       }
     },
     {
-      "id": "product-hunt-80e3db08d914",
+      "id": "hackernews-618667dbc913",
+      "source": "Hacker News",
+      "name": "Show HN: PhoneUse – Phones for AI Agents",
+      "url": "https://www.phoneuse.com/",
+      "description": "Show HN: PhoneUse – Phones for AI Agents",
+      "published_at": "1793674240",
+      "discovered_at": "2026-11-03T07:44:59+00:00",
+      "author": "dyscrete",
+      "metrics": {
+        "points": 3,
+        "comments": 0
+      },
+      "tags": [],
+      "evidence": [
+        "3 HN points",
+        "0 comments"
+      ],
+      "raw_text": "Show HN: PhoneUse – Phones for AI Agents ",
+      "opportunity_type": "Manus型",
+      "score": 31.4,
+      "dimension_scores": {
+        "growth_speed": 33.1,
+        "agent_innovation": 35,
+        "community_signal": 43.3,
+        "api_consumption_potential": 32,
+        "commercialization": 18,
+        "kimi_strategic_fit": 39
+      },
+      "recommended_action": "暂不跟进",
+      "reason_to_contact_now": "HN仅3 points、0评论，早期硬件/服务概念，无用户规模或模型集成信息",
+      "commercial_summary": "为AI Agent提供手机硬件/虚拟号码服务，若规模化可能产生语音/多模态API需求，但当前信号极弱",
+      "confidence": "low",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "metadata": {
+        "discussion_url": "https://news.ycombinator.com/item?id=50347408",
+        "agent_keyword_hits": [
+          "ai agent"
+        ],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": []
+      }
+    },
+    {
+      "id": "product-hunt-324492901f5c",
       "source": "Product Hunt",
-      "name": "telemetry.dev",
-      "url": "https://www.producthunt.com/products/telemetry-dev",
-      "description": "Observability for AI agents Discussion | Link",
-      "published_at": "2026-10-28T17:13:46-07:00",
-      "discovered_at": "2026-11-02T07:30:40+00:00",
-      "author": "fmerian",
+      "name": "Hyperresearch",
+      "url": "https://www.producthunt.com/products/hyperresearch",
+      "description": "Durable, verified agentic search Discussion | Link",
+      "published_at": "2026-10-30T15:54:03-07:00",
+      "discovered_at": "2026-11-03T07:44:59+00:00",
+      "author": "Jordan Gibbs",
       "metrics": {},
       "tags": [],
       "evidence": [
         "Published via Product Hunt",
-        "2026-10-28T17:13:46-07:00"
+        "2026-10-30T15:54:03-07:00"
       ],
-      "raw_text": "telemetry.dev Observability for AI agents Discussion | Link ",
+      "raw_text": "Hyperresearch Durable, verified agentic search Discussion | Link ",
       "opportunity_type": "Manus型",
-      "score": 30.6,
+      "score": 29.6,
       "dimension_scores": {
         "growth_speed": 30.0,
         "agent_innovation": 35,
@@ -409,57 +445,56 @@
         "kimi_strategic_fit": 31
       },
       "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "Product Hunt发布无互动数据，Agent可观测性赛道但无客户或集成信号",
-      "commercial_summary": "Agent观测SaaS，若企业Agent部署规模化可能产生间接API需求，但当前为基础设施层而非模型消费者",
+      "reason_to_contact_now": "Product Hunt发布，但无用户数据、无增长信号",
+      "commercial_summary": "Agentic搜索产品，信息不足判断API调用规模或差异化，需观察PMF",
       "confidence": "low",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "feed_url": "https://www.producthunt.com/feed",
         "content_kind": "product_launch",
-        "original_title": "telemetry.dev",
+        "original_title": "Hyperresearch",
         "agent_keyword_hits": [
-          "ai agent"
+          "agentic"
         ],
         "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": []
       }
     },
     {
-      "id": "hackernews-fe67204a796e",
-      "source": "Hacker News",
-      "name": "Show HN: Better Together – AI agents team up against spam calls and texts",
-      "url": "https://better-together.fun/",
-      "description": "Launched https://better-together.fun this weekend to allow our personal AI agents to collaborate on problems that are tough to solve solo. First up is dealing with spam texts and calls.",
-      "published_at": "1793578751",
-      "discovered_at": "2026-11-02T07:30:40+00:00",
-      "author": "adamontherun",
-      "metrics": {
-        "points": 2,
-        "comments": 0
-      },
+      "id": "product-hunt-052d45772951",
+      "source": "Product Hunt",
+      "name": "Cedric AI for Meetings",
+      "url": "https://www.producthunt.com/products/cedric",
+      "description": "The first AI agent to present your slides and attend for you Discussion | Link",
+      "published_at": "2026-10-27T06:40:39-07:00",
+      "discovered_at": "2026-11-03T07:44:59+00:00",
+      "author": "Zac Zuo",
+      "metrics": {},
       "tags": [],
       "evidence": [
-        "2 HN points",
-        "0 comments"
+        "Published via Product Hunt",
+        "2026-10-27T06:40:39-07:00"
       ],
-      "raw_text": "Show HN: Better Together – AI agents team up against spam calls and texts Launched https://better-together.fun this weekend to allow our personal AI agents to collaborate on problems that are tough to solve solo. First up is dealing with spam texts and calls.",
+      "raw_text": "Cedric AI for Meetings The first AI agent to present your slides and attend for you Discussion | Link ",
       "opportunity_type": "Manus型",
-      "score": 30.1,
+      "score": 29.6,
       "dimension_scores": {
-        "growth_speed": 30.8,
+        "growth_speed": 30.0,
         "agent_innovation": 35,
-        "community_signal": 39.4,
+        "community_signal": 18.0,
         "api_consumption_potential": 32,
-        "commercialization": 18,
-        "kimi_strategic_fit": 39
+        "commercialization": 36,
+        "kimi_strategic_fit": 31
       },
       "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "仅2 HN points/0 comments，周末刚发布，无用户增长或付费信号",
-      "commercial_summary": "反垃圾Agent协作产品，C端场景但早期信号极弱，API消耗规模不明",
+      "reason_to_contact_now": "Product Hunt发布一周，无用户或增长数据",
+      "commercial_summary": "AI会议Agent，垂直场景但信息不足判断API消耗潜力",
       "confidence": "low",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50331415",
+        "feed_url": "https://www.producthunt.com/feed",
+        "content_kind": "product_launch",
+        "original_title": "Cedric AI for Meetings",
         "agent_keyword_hits": [
           "ai agent"
         ],
@@ -474,7 +509,7 @@
       "url": "https://www.producthunt.com/products/riverside-fm",
       "description": "A team of AI agents for video: produce, edit, clip, post Discussion | Link",
       "published_at": "2026-10-26T10:33:37-07:00",
-      "discovered_at": "2026-11-02T07:30:40+00:00",
+      "discovered_at": "2026-11-03T07:44:59+00:00",
       "author": "Rohan Chaubey",
       "metrics": {},
       "tags": [],
@@ -484,7 +519,7 @@
       ],
       "raw_text": "Riverside Agents A team of AI agents for video: produce, edit, clip, post Discussion | Link ",
       "opportunity_type": "Manus型",
-      "score": 27.6,
+      "score": 29.6,
       "dimension_scores": {
         "growth_speed": 30.0,
         "agent_innovation": 35,
@@ -494,56 +529,14 @@
         "kimi_strategic_fit": 31
       },
       "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "Product Hunt发布无投票/评论数据，Riverside为成熟视频平台但Agent功能刚上线",
-      "commercial_summary": "视频生产Agent团队，Riverside已有企业客户基础，但Agent层API消耗和模型替换空间待验证",
-      "confidence": "medium",
+      "reason_to_contact_now": "Product Hunt发布8天，无用户数据",
+      "commercial_summary": "视频生产Agent团队，Riverside.fm产品线延伸，信息不足判断API规模",
+      "confidence": "low",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "feed_url": "https://www.producthunt.com/feed",
         "content_kind": "product_launch",
         "original_title": "Riverside Agents",
-        "agent_keyword_hits": [
-          "ai agent"
-        ],
-        "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": []
-      }
-    },
-    {
-      "id": "product-hunt-62e81e774dee",
-      "source": "Product Hunt",
-      "name": "Pluto Door",
-      "url": "https://www.producthunt.com/products/pluto-door",
-      "description": "SSH client with an AI agent and a desktop for every server Discussion | Link",
-      "published_at": "2026-10-30T15:10:44-07:00",
-      "discovered_at": "2026-11-02T07:30:40+00:00",
-      "author": "Krishna Kant Singh",
-      "metrics": {},
-      "tags": [],
-      "evidence": [
-        "Published via Product Hunt",
-        "2026-10-30T15:10:44-07:00"
-      ],
-      "raw_text": "Pluto Door SSH client with an AI agent and a desktop for every server Discussion | Link ",
-      "opportunity_type": "Manus型",
-      "score": 27.6,
-      "dimension_scores": {
-        "growth_speed": 30.0,
-        "agent_innovation": 35,
-        "community_signal": 18.0,
-        "api_consumption_potential": 32,
-        "commercialization": 36,
-        "kimi_strategic_fit": 31
-      },
-      "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "Product Hunt发布，SSH客户端集成AI agent，但无用户规模、付费转化或模型依赖证据",
-      "commercial_summary": "垂直工具型Agent，API消费潜力有限，暂不构成高价值客户或生态威胁",
-      "confidence": "medium",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "feed_url": "https://www.producthunt.com/feed",
-        "content_kind": "product_launch",
-        "original_title": "Pluto Door",
         "agent_keyword_hits": [
           "ai agent"
         ],

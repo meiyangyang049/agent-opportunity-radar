@@ -704,3 +704,13 @@ run_at,id,name,source,score,opportunity_type,recommended_action,metric_name,metr
 2026-11-02T07:30:40+00:00,hackernews-fe67204a796e,Show HN: Better Together – AI agents team up against spam calls and texts,Hacker News,30.1,Manus型,暂不跟进,points,2.0
 2026-11-02T07:30:40+00:00,product-hunt-9e2d16be2c23,Riverside Agents,Product Hunt,27.6,Manus型,暂不跟进,none,0.0
 2026-11-02T07:30:40+00:00,product-hunt-62e81e774dee,Pluto Door,Product Hunt,27.6,Manus型,暂不跟进,none,0.0
+2026-11-03T07:45:00+00:00,github-6fb233b66962,N1nEmAn/sapper-v2,GitHub,67.2,OpenClaw型,持续观察,stars,639.0
+2026-11-03T07:45:00+00:00,github-444a13488ff8,wangzan101/Mika,GitHub,65.5,OpenClaw型,持续观察,stars,5686.0
+2026-11-03T07:45:00+00:00,github-a325edc89fd6,rudderlabs/devbox,GitHub,61.7,OpenClaw型,持续观察,stars,278.0
+2026-11-03T07:45:00+00:00,github-4d79793f0491,davemessew/AgentFlux,GitHub,61.1,OpenClaw型,持续观察,stars,248.0
+2026-11-03T07:45:00+00:00,github-b29f50e5d7b7,cutetailbud/ff-ruyijs,GitHub,60.0,OpenClaw型,持续观察,stars,641.0
+2026-11-03T07:45:00+00:00,github-cea8aebf41ae,deepseek-ai/dsh-superagent-prototype,GitHub,59.5,OpenClaw型,持续观察,stars,14694.0
+2026-11-03T07:45:00+00:00,hackernews-618667dbc913,Show HN: PhoneUse – Phones for AI Agents,Hacker News,31.4,Manus型,暂不跟进,points,3.0
+2026-11-03T07:45:00+00:00,product-hunt-324492901f5c,Hyperresearch,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
+2026-11-03T07:45:00+00:00,product-hunt-052d45772951,Cedric AI for Meetings,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
+2026-11-03T07:45:00+00:00,product-hunt-9e2d16be2c23,Riverside Agents,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
