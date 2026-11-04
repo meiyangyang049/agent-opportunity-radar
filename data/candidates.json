@@ -1,8 +1,8 @@
 {
   "meta": {
     "project": "Agent Opportunity Radar",
-    "generated_at": "2026-11-03T07:45:00+00:00",
-    "generated_at_display": "2026-11-03 15:45 CST",
+    "generated_at": "2026-11-04T07:23:31+00:00",
+    "generated_at_display": "2026-11-04 15:23 CST",
     "mode": "公开信号实时运行",
     "sources": [
       "GitHub",
@@ -14,80 +14,21 @@
       "AI news RSS: HTTPError: 429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
     ],
     "notices": [],
-    "candidate_pool_size": 42,
+    "candidate_pool_size": 38,
     "pool_by_source": {
-      "GitHub": 9,
+      "GitHub": 7,
       "Hacker News": 22,
-      "Product Hunt": 11
+      "Product Hunt": 9
     },
     "pool_by_type": {
-      "OpenClaw型": 12,
-      "其他Agent": 19,
-      "Manus型": 11
+      "OpenClaw型": 14,
+      "Manus型": 9,
+      "其他Agent": 15
     },
     "shortlist_policy": "Top 10；OpenClaw型/Manus型各至少4个（候选充足时）",
     "kimi_model": "kimi-k2.6"
   },
   "candidates": [
-    {
-      "id": "github-6fb233b66962",
-      "source": "GitHub",
-      "name": "N1nEmAn/sapper-v2",
-      "url": "https://github.com/N1nEmAn/sapper-v2",
-      "description": "Autonomous pentest legion — AI commander + worker swarm + layered fact-intent graph. 3rd Tencent Intelligent Attack-Defense online champion (634 teams · 8h unattended · 1B tokens beat 4.5B). The Nüwa Test: give AIs Create/Language/History, let a civilization grow.",
-      "published_at": "2026-10-30T15:12:35Z",
-      "discovered_at": "2026-11-03T07:44:56+00:00",
-      "author": "N1nEmAn",
-      "metrics": {
-        "stars": 639,
-        "forks": 503,
-        "open_issues": 2,
-        "watchers": 639
-      },
-      "tags": [
-        "ai-agents",
-        "autonomous-agents",
-        "claude-code",
-        "ctf",
-        "llm",
-        "multi-agent",
-        "pentest"
-      ],
-      "evidence": [
-        "+96 stars since last run",
-        "639 GitHub stars",
-        "503 forks",
-        "Created 2026-10-30"
-      ],
-      "raw_text": "N1nEmAn/sapper-v2 Autonomous pentest legion — AI commander + worker swarm + layered fact-intent graph. 3rd Tencent Intelligent Attack-Defense online champion (634 teams · 8h unattended · 1B tokens beat 4.5B). The Nüwa Test: give AIs Create/Language/History, let a civilization grow. ai-agents autonomous-agents claude-code ctf llm multi-agent pentest",
-      "opportunity_type": "OpenClaw型",
-      "score": 67.2,
-      "dimension_scores": {
-        "growth_speed": 100.0,
-        "agent_innovation": 35,
-        "community_signal": 100.0,
-        "api_consumption_potential": 50,
-        "commercialization": 18,
-        "kimi_strategic_fit": 39
-      },
-      "recommended_action": "持续观察",
-      "reason_to_contact_now": "3天新增639星、503 forks，增速极快；腾讯攻防赛冠军验证多Agent编排能力",
-      "commercial_summary": "高潜力开源多Agent渗透测试框架，若成为安全领域标准工具，可争取作为默认模型Provider或联合举办赛事",
-      "confidence": "medium",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "language": "Python",
-        "updated_at": "2026-11-03T07:22:07Z",
-        "homepage": null,
-        "agent_keyword_hits": [
-          "multi-agent"
-        ],
-        "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": [],
-        "metric_delta": 96.0,
-        "metric_velocity_per_day": 95.05386202154482
-      }
-    },
     {
       "id": "github-444a13488ff8",
       "source": "GitHub",
@@ -95,13 +36,13 @@
       "url": "https://github.com/wangzan101/Mika",
       "description": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
       "published_at": "2026-10-29T14:34:07Z",
-      "discovered_at": "2026-11-03T07:44:55+00:00",
+      "discovered_at": "2026-11-04T07:23:28+00:00",
       "author": "wangzan101",
       "metrics": {
-        "stars": 5686,
-        "forks": 1107,
-        "open_issues": 108,
-        "watchers": 5686
+        "stars": 6219,
+        "forks": 1209,
+        "open_issues": 112,
+        "watchers": 6219
       },
       "tags": [
         "accessibility",
@@ -114,14 +55,14 @@
         "mobile-agent"
       ],
       "evidence": [
-        "+1,220 stars since last run",
-        "5,686 GitHub stars",
-        "1,107 forks",
+        "+533 stars since last run",
+        "6,219 GitHub stars",
+        "1,209 forks",
         "Created 2026-10-29"
       ],
       "raw_text": "wangzan101/Mika An on-device AI agent for Android that operates apps and the web to get things done for you. accessibility ai-agent android automation jetpack-compose kotlin llm mobile-agent",
       "opportunity_type": "OpenClaw型",
-      "score": 65.5,
+      "score": 64.5,
       "dimension_scores": {
         "growth_speed": 100.0,
         "agent_innovation": 35,
@@ -131,200 +72,137 @@
         "kimi_strategic_fit": 39
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "3天新增1,220 stars达5,686星，1,107 forks，Android端侧Agent增速罕见",
-      "commercial_summary": "端侧Android Agent开源项目，若成为移动端Agent标准框架，可争取模型接入合作或端云协同方案",
+      "reason_to_contact_now": "+533 stars since last run；6,219 GitHub stars；1,209 forks；on-device Android agent",
+      "commercial_summary": "高增速端侧Android Agent开源框架，端云协同场景下存在模型API调用需求（推理上云），需确认是否支持Kimi作为云端Provider",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "language": "Kotlin",
-        "updated_at": "2026-11-03T07:44:47Z",
+        "updated_at": "2026-11-04T07:19:59Z",
         "homepage": "",
         "agent_keyword_hits": [
           "ai agent"
         ],
         "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": [],
-        "metric_delta": 1220.0,
-        "metric_velocity_per_day": 1207.9761631904653
+        "metric_delta": 533.0,
+        "metric_velocity_per_day": 541.0722468306095
       }
     },
     {
-      "id": "github-a325edc89fd6",
+      "id": "github-6fb233b66962",
       "source": "GitHub",
-      "name": "rudderlabs/devbox",
-      "url": "https://github.com/rudderlabs/devbox",
-      "description": "Open source autonomous engineering harness in your cloud. One sandbox per task, no real secrets inside.",
-      "published_at": "2026-10-27T06:17:39Z",
-      "discovered_at": "2026-11-03T07:44:56+00:00",
-      "author": "rudderlabs",
+      "name": "N1nEmAn/sapper-v2",
+      "url": "https://github.com/N1nEmAn/sapper-v2",
+      "description": "Autonomous pentest legion — AI commander + worker swarm + layered fact-intent graph. 3rd Tencent Intelligent Attack-Defense online champion (634 teams · 8h unattended · 1B tokens beat 4.5B). The Nüwa Test: give AIs Create/Language/History, let a civilization grow.",
+      "published_at": "2026-10-30T15:12:35Z",
+      "discovered_at": "2026-11-04T07:23:29+00:00",
+      "author": "N1nEmAn",
       "metrics": {
-        "stars": 278,
-        "forks": 18,
-        "open_issues": 16,
-        "watchers": 278
-      },
-      "tags": [
-        "agent-harness",
-        "agent-sandbox",
-        "agent-security",
-        "agentic-coding",
-        "autonomous-agents",
-        "background-agents",
-        "coding-agents",
-        "harness-engineering"
-      ],
-      "evidence": [
-        "+10 stars since last run",
-        "278 GitHub stars",
-        "18 forks",
-        "Created 2026-10-27"
-      ],
-      "raw_text": "rudderlabs/devbox Open source autonomous engineering harness in your cloud. One sandbox per task, no real secrets inside. agent-harness agent-sandbox agent-security agentic-coding autonomous-agents background-agents coding-agents harness-engineering",
-      "opportunity_type": "OpenClaw型",
-      "score": 61.7,
-      "dimension_scores": {
-        "growth_speed": 77.5,
-        "agent_innovation": 35,
-        "community_signal": 100.0,
-        "api_consumption_potential": 32,
-        "commercialization": 18,
-        "kimi_strategic_fit": 47
-      },
-      "recommended_action": "持续观察",
-      "reason_to_contact_now": "GitHub 278 stars、18 forks，RudderLabs背书，开源Agent工程沙箱，TypeScript技术栈，有企业级背景",
-      "commercial_summary": "企业级开源Agent安全运行环境，RudderLabs现有客户基础可能推动企业采用，需跟踪模型Provider集成策略",
-      "confidence": "medium",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "language": "TypeScript",
-        "updated_at": "2026-11-03T01:06:01Z",
-        "homepage": "https://www.rudderstack.com/devbox/",
-        "agent_keyword_hits": [
-          "agentic"
-        ],
-        "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": [
-          "open source"
-        ],
-        "metric_delta": 10.0,
-        "metric_velocity_per_day": 9.901443960577584
-      }
-    },
-    {
-      "id": "github-4d79793f0491",
-      "source": "GitHub",
-      "name": "davemessew/AgentFlux",
-      "url": "https://github.com/davemessew/AgentFlux",
-      "description": "Agentic AI platform for visual workflows and autonomous agents. Run it with Docker on your own computer or server.",
-      "published_at": "2026-10-27T14:43:07Z",
-      "discovered_at": "2026-11-03T07:44:56+00:00",
-      "author": "davemessew",
-      "metrics": {
-        "stars": 248,
-        "forks": 1,
-        "open_issues": 0,
-        "watchers": 248
+        "stars": 678,
+        "forks": 529,
+        "open_issues": 1,
+        "watchers": 678
       },
       "tags": [
         "ai-agents",
-        "docker",
-        "ollama",
-        "self-hosted",
-        "workflows"
+        "autonomous-agents",
+        "claude-code",
+        "ctf",
+        "llm",
+        "multi-agent",
+        "pentest"
       ],
       "evidence": [
-        "+12 stars since last run",
-        "248 GitHub stars",
-        "1 forks",
-        "Created 2026-10-27"
+        "+39 stars since last run",
+        "678 GitHub stars",
+        "529 forks",
+        "Created 2026-10-30"
       ],
-      "raw_text": "davemessew/AgentFlux Agentic AI platform for visual workflows and autonomous agents. Run it with Docker on your own computer or server. ai-agents docker ollama self-hosted workflows",
+      "raw_text": "N1nEmAn/sapper-v2 Autonomous pentest legion — AI commander + worker swarm + layered fact-intent graph. 3rd Tencent Intelligent Attack-Defense online champion (634 teams · 8h unattended · 1B tokens beat 4.5B). The Nüwa Test: give AIs Create/Language/History, let a civilization grow. ai-agents autonomous-agents claude-code ctf llm multi-agent pentest",
       "opportunity_type": "OpenClaw型",
-      "score": 61.1,
+      "score": 64.4,
       "dimension_scores": {
-        "growth_speed": 76.5,
-        "agent_innovation": 46,
-        "community_signal": 84.2,
-        "api_consumption_potential": 39,
+        "growth_speed": 96.8,
+        "agent_innovation": 35,
+        "community_signal": 100.0,
+        "api_consumption_potential": 50,
         "commercialization": 18,
-        "kimi_strategic_fit": 53
+        "kimi_strategic_fit": 39
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "GitHub 248 stars、+12 stars增速，支持Docker自托管和Ollama本地模型，TypeScript技术栈",
-      "commercial_summary": "自托管Agent工作流平台，若默认集成云端模型API则可能成为分发渠道，需确认是否支持Kimi等国产模型",
+      "reason_to_contact_now": "+39 stars since last run；678 GitHub stars；529 forks；腾讯攻防赛冠军验证",
+      "commercial_summary": "高星增速+CTF实战验证的自主渗透测试多Agent框架，潜在模型API大客户（1B tokens级消耗），需确认默认模型Provider与Kimi安全场景契合度",
+      "confidence": "medium",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "metadata": {
+        "language": "Python",
+        "updated_at": "2026-11-04T07:15:08Z",
+        "homepage": null,
+        "agent_keyword_hits": [
+          "multi-agent"
+        ],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": [],
+        "metric_delta": 39.0,
+        "metric_velocity_per_day": 39.59065220711776
+      }
+    },
+    {
+      "id": "github-e9658780c819",
+      "source": "GitHub",
+      "name": "caru-ini/stack-diagram",
+      "url": "https://github.com/caru-ini/stack-diagram",
+      "description": "Agent skill: describe your stack in a sentence, get an architecture diagram with official logos",
+      "published_at": "2026-11-01T05:35:12Z",
+      "discovered_at": "2026-11-04T07:23:28+00:00",
+      "author": "caru-ini",
+      "metrics": {
+        "stars": 1646,
+        "forks": 71,
+        "open_issues": 0,
+        "watchers": 1646
+      },
+      "tags": [
+        "agent-skills",
+        "architecture-diagram",
+        "claude-code",
+        "claude-skills",
+        "codex",
+        "diagram",
+        "system-architecture",
+        "tech-stack"
+      ],
+      "evidence": [
+        "1,646 GitHub stars",
+        "71 forks",
+        "Created 2026-11-01"
+      ],
+      "raw_text": "caru-ini/stack-diagram Agent skill: describe your stack in a sentence, get an architecture diagram with official logos agent-skills architecture-diagram claude-code claude-skills codex diagram system-architecture tech-stack",
+      "opportunity_type": "OpenClaw型",
+      "score": 60.4,
+      "dimension_scores": {
+        "growth_speed": 100.0,
+        "agent_innovation": 24,
+        "community_signal": 100.0,
+        "api_consumption_potential": 25,
+        "commercialization": 18,
+        "kimi_strategic_fit": 41
+      },
+      "recommended_action": "持续观察",
+      "reason_to_contact_now": "1,646 GitHub stars；71 forks；3天创建；Claude/Codex生态技能",
+      "commercial_summary": "快速增长的Agent技能插件（Claude Code/Codex技能），生态位明确，需评估扩展支持Kimi生态的技能市场可能性",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "language": "TypeScript",
-        "updated_at": "2026-11-02T23:50:47Z",
-        "homepage": "https://agentflux.cloud",
-        "agent_keyword_hits": [
-          "agentic",
-          "autonomous agent"
-        ],
+        "updated_at": "2026-11-04T07:22:35Z",
+        "homepage": "stacks.caru.moe",
+        "agent_keyword_hits": [],
         "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": [
-          "self-hosted"
-        ],
-        "metric_delta": 12.0,
-        "metric_velocity_per_day": 11.881732752693102
-      }
-    },
-    {
-      "id": "github-b29f50e5d7b7",
-      "source": "GitHub",
-      "name": "cutetailbud/ff-ruyijs",
-      "url": "https://github.com/cutetailbud/ff-ruyijs",
-      "description": "A AI Browser run any site JavaScript from Python with the real Firefox engine. Headless SpiderMonkey + Necko for automation and scraping.",
-      "published_at": "2026-10-28T11:31:41Z",
-      "discovered_at": "2026-11-03T07:44:57+00:00",
-      "author": "cutetailbud",
-      "metrics": {
-        "stars": 641,
-        "forks": 285,
-        "open_issues": 4,
-        "watchers": 641
-      },
-      "tags": [
-        "anti-bot",
-        "automation",
-        "firefox",
-        "headless-browser",
-        "javascript",
-        "python",
-        "spidermonkey",
-        "web-scraping"
-      ],
-      "evidence": [
-        "641 GitHub stars",
-        "285 forks",
-        "Created 2026-10-28"
-      ],
-      "raw_text": "cutetailbud/ff-ruyijs A AI Browser run any site JavaScript from Python with the real Firefox engine. Headless SpiderMonkey + Necko for automation and scraping. anti-bot automation firefox headless-browser javascript python spidermonkey web-scraping",
-      "opportunity_type": "OpenClaw型",
-      "score": 60.0,
-      "dimension_scores": {
-        "growth_speed": 92.6,
-        "agent_innovation": 24,
-        "community_signal": 100.0,
-        "api_consumption_potential": 30,
-        "commercialization": 32,
-        "kimi_strategic_fit": 33
-      },
-      "recommended_action": "持续观察",
-      "reason_to_contact_now": "6天641 stars、285 forks，AI浏览器引擎工具增速较快",
-      "commercial_summary": "AI驱动的真实Firefox引擎浏览器工具，若成为Agent基础设施，可探索模型+浏览器联合方案",
-      "confidence": "medium",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "language": "C++",
-        "updated_at": "2026-11-03T07:39:43Z",
-        "homepage": "https://cutetailbud.github.io/ff-ruyijs/",
-        "agent_keyword_hits": [],
-        "commercial_keyword_hits": [
-          "api"
-        ],
-        "ecosystem_keyword_hits": []
+          "skill"
+        ]
       }
     },
     {
@@ -334,18 +212,19 @@
       "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
       "description": "Towards a More Autonomous Agent System",
       "published_at": "2026-10-31T09:32:46Z",
-      "discovered_at": "2026-11-03T07:44:55+00:00",
+      "discovered_at": "2026-11-04T07:23:28+00:00",
       "author": "deepseek-ai",
       "metrics": {
-        "stars": 14694,
-        "forks": 1570,
+        "stars": 17631,
+        "forks": 1907,
         "open_issues": 0,
-        "watchers": 14694
+        "watchers": 17631
       },
       "tags": [],
       "evidence": [
-        "14,694 GitHub stars",
-        "1,570 forks",
+        "+2,937 stars since last run",
+        "17,631 GitHub stars",
+        "1,907 forks",
         "Created 2026-10-31"
       ],
       "raw_text": "deepseek-ai/dsh-superagent-prototype Towards a More Autonomous Agent System ",
@@ -360,80 +239,244 @@
         "kimi_strategic_fit": 39
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "DeepSeek官方仓库，14,694 stars但3天前创建，存在刷量或迁移嫌疑",
-      "commercial_summary": "竞品DeepSeek的Agent原型，需监控其架构设计、模型依赖及社区转化路径，属战略竞品情报",
+      "reason_to_contact_now": "+2,937 stars since last run；17,631 GitHub stars；1,907 forks；DeepSeek官方出品",
+      "commercial_summary": "DeepSeek官方开源Agent原型，竞品属性明确，需监控其生态扩张对Kimi开发者客户的分流风险，合作空间受限",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "language": "TypeScript",
-        "updated_at": "2026-11-03T07:44:56Z",
+        "updated_at": "2026-11-04T07:22:53Z",
         "homepage": null,
         "agent_keyword_hits": [
           "autonomous agent"
         ],
         "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": []
+        "ecosystem_keyword_hits": [],
+        "metric_delta": 2937.0,
+        "metric_velocity_per_day": 2981.480654674484
       }
     },
     {
-      "id": "hackernews-618667dbc913",
-      "source": "Hacker News",
-      "name": "Show HN: PhoneUse – Phones for AI Agents",
-      "url": "https://www.phoneuse.com/",
-      "description": "Show HN: PhoneUse – Phones for AI Agents",
-      "published_at": "1793674240",
-      "discovered_at": "2026-11-03T07:44:59+00:00",
-      "author": "dyscrete",
+      "id": "github-4e170344870f",
+      "source": "GitHub",
+      "name": "akari-sora/synology-nas-cli",
+      "url": "https://github.com/akari-sora/synology-nas-cli",
+      "description": "nas: a zero-dependency Python CLI + MCP server for Synology DSM 7. One-command audit and fix for the C3RB3R / .L0CK3D ransomware campaign; hand it to your AI agent. Mirror; canonical repo and issues: gitlab.com/aa22396584/synology-nas-cli",
+      "published_at": "2026-10-30T09:52:47Z",
+      "discovered_at": "2026-11-04T07:23:29+00:00",
+      "author": "akari-sora",
       "metrics": {
-        "points": 3,
+        "stars": 90,
+        "forks": 10,
+        "open_issues": 0,
+        "watchers": 90
+      },
+      "tags": [
+        "ai-agent",
+        "cli",
+        "dsm",
+        "mcp",
+        "nas",
+        "ransomware",
+        "security",
+        "synology"
+      ],
+      "evidence": [
+        "+20 stars since last run",
+        "90 GitHub stars",
+        "10 forks",
+        "Created 2026-10-30"
+      ],
+      "raw_text": "akari-sora/synology-nas-cli nas: a zero-dependency Python CLI + MCP server for Synology DSM 7. One-command audit and fix for the C3RB3R / .L0CK3D ransomware campaign; hand it to your AI agent. Mirror; canonical repo and issues: gitlab.com/aa22396584/synology-nas-cli ai-agent cli dsm mcp nas ransomware security synology",
+      "opportunity_type": "OpenClaw型",
+      "score": 59.0,
+      "dimension_scores": {
+        "growth_speed": 73.2,
+        "agent_innovation": 46,
+        "community_signal": 86.8,
+        "api_consumption_potential": 39,
+        "commercialization": 18,
+        "kimi_strategic_fit": 45
+      },
+      "recommended_action": "持续观察",
+      "reason_to_contact_now": "+20 stars增速，明确MCP server+AI agent定位，NAS安全场景具体",
+      "commercial_summary": "垂直场景MCP服务器，若扩展为多模型支持或企业级部署，可能成为Kimi API在IT运维领域的生态触点",
+      "confidence": "medium",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "metadata": {
+        "language": "Python",
+        "updated_at": "2026-11-04T02:12:42Z",
+        "homepage": "https://gitlab.com/aa22396584/synology-nas-cli",
+        "agent_keyword_hits": [
+          "ai agent",
+          "mcp"
+        ],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": [],
+        "metric_delta": 20.0,
+        "metric_velocity_per_day": 10.024888177245593
+      }
+    },
+    {
+      "id": "github-b29f50e5d7b7",
+      "source": "GitHub",
+      "name": "cutetailbud/ff-ruyijs",
+      "url": "https://github.com/cutetailbud/ff-ruyijs",
+      "description": "A AI Browser run any site JavaScript from Python with the real Firefox engine. Headless SpiderMonkey + Necko for automation and scraping.",
+      "published_at": "2026-10-28T11:31:41Z",
+      "discovered_at": "2026-11-04T07:23:30+00:00",
+      "author": "cutetailbud",
+      "metrics": {
+        "stars": 553,
+        "forks": 307,
+        "open_issues": 12,
+        "watchers": 553
+      },
+      "tags": [
+        "anti-bot",
+        "automation",
+        "firefox",
+        "headless-browser",
+        "javascript",
+        "python",
+        "spidermonkey",
+        "web-scraping"
+      ],
+      "evidence": [
+        "553 GitHub stars",
+        "307 forks",
+        "Created 2026-10-28"
+      ],
+      "raw_text": "cutetailbud/ff-ruyijs A AI Browser run any site JavaScript from Python with the real Firefox engine. Headless SpiderMonkey + Necko for automation and scraping. anti-bot automation firefox headless-browser javascript python spidermonkey web-scraping",
+      "opportunity_type": "OpenClaw型",
+      "score": 57.8,
+      "dimension_scores": {
+        "growth_speed": 88.1,
+        "agent_innovation": 24,
+        "community_signal": 100.0,
+        "api_consumption_potential": 30,
+        "commercialization": 32,
+        "kimi_strategic_fit": 33
+      },
+      "recommended_action": "持续观察",
+      "reason_to_contact_now": "553 stars/307 forks，AI浏览器引擎，但metric_velocity为0且metric_delta-88",
+      "commercial_summary": "AI浏览器自动化基础设施，技术层工具，API消费潜力有限，观察是否集成LLM推理层",
+      "confidence": "medium",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "metadata": {
+        "language": "C++",
+        "updated_at": "2026-11-04T04:49:59Z",
+        "homepage": "https://cutetailbud.github.io/ff-ruyijs/",
+        "agent_keyword_hits": [],
+        "commercial_keyword_hits": [
+          "api"
+        ],
+        "ecosystem_keyword_hits": [],
+        "metric_delta": -88.0,
+        "metric_velocity_per_day": 0.0
+      }
+    },
+    {
+      "id": "hackernews-c28dfd2dbe9d",
+      "source": "Hacker News",
+      "name": "Show HN: Modelpeers – a changelog for the AI models and agents you use",
+      "url": "https://modelpeers.com",
+      "description": "Earlier this year, I had one of my product's features down for 48 hours because Anthropic retired Claude 3 Haiku. In another instance, an API parameter started returning errors. I grew sick of not being able to follow and track the endless changes of AI models every week, so I decided to build Modelpeers. It's basically a feed of all these changes. You can follow models and agents that you use to see what is changing and what you need to do about it. Optionally, you can sign up to get a digest for the models/agents you follow. Every few hours, it downloads and hashes dozens of pages from the prominent AI companies' pages, like changelogs, deprecation pages, status pages, and pricing pages. Then when a page changes, it pulls the diff, validates it with two models, and if validated as true, it posts it to the feed. The feed currently has about 400 changes, 21 of them breaking changes. Fun fact (well, not really fun): OpenAI alone has 12 shutdowns/cutoff planned for the next six months. Would love to hear what y'all think.",
+      "published_at": "1793749540",
+      "discovered_at": "2026-11-04T07:23:31+00:00",
+      "author": "liorgrossman",
+      "metrics": {
+        "points": 4,
         "comments": 0
       },
       "tags": [],
       "evidence": [
-        "3 HN points",
+        "4 HN points",
         "0 comments"
       ],
-      "raw_text": "Show HN: PhoneUse – Phones for AI Agents ",
+      "raw_text": "Show HN: Modelpeers – a changelog for the AI models and agents you use Earlier this year, I had one of my product's features down for 48 hours because Anthropic retired Claude 3 Haiku. In another instance, an API parameter started returning errors. I grew sick of not being able to follow and track the endless changes of AI models every week, so I decided to build Modelpeers. It's basically a feed of all these changes. You can follow models and agents that you use to see what is changing and what you need to do about it. Optionally, you can sign up to get a digest for the models/agents you follow. Every few hours, it downloads and hashes dozens of pages from the prominent AI companies' pages, like changelogs, deprecation pages, status pages, and pricing pages. Then when a page changes, it pulls the diff, validates it with two models, and if validated as true, it posts it to the feed. The feed currently has about 400 changes, 21 of them breaking changes. Fun fact (well, not really fun): OpenAI alone has 12 shutdowns/cutoff planned for the next six months. Would love to hear what y'all think.",
       "opportunity_type": "Manus型",
-      "score": 31.4,
+      "score": 35.9,
       "dimension_scores": {
-        "growth_speed": 33.1,
-        "agent_innovation": 35,
-        "community_signal": 43.3,
-        "api_consumption_potential": 32,
+        "growth_speed": 34.9,
+        "agent_innovation": 24,
+        "community_signal": 46.2,
+        "api_consumption_potential": 35,
+        "commercialization": 46,
+        "kimi_strategic_fit": 33
+      },
+      "recommended_action": "暂不跟进",
+      "reason_to_contact_now": "4 HN points；0 comments",
+      "commercial_summary": "AI模型变更追踪工具，自身API消耗低，更偏信息聚合而非模型API消费场景，暂无明确商业化规模信号",
+      "confidence": "medium",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "metadata": {
+        "discussion_url": "https://news.ycombinator.com/item?id=50359805",
+        "agent_keyword_hits": [],
+        "commercial_keyword_hits": [
+          "api",
+          "pricing"
+        ],
+        "ecosystem_keyword_hits": []
+      }
+    },
+    {
+      "id": "hackernews-e70052e2b696",
+      "source": "Hacker News",
+      "name": "Show HN: HackerReels - Short Videos for viral HN posts",
+      "url": "https://wile.ai/v/BPOH3BHCRWWCAKU4OVNOTEQ73A",
+      "description": "I've got a hacker-news automation which creates a short video every time a new post becomes viral. wile.ai: Every automation ends in a reel. Now, you can create your own private feed. I've been working into this for a while. We are currently pre-launch but any feedback is welcome! apple testflight: https://testflight.apple.com/join/hgNKEm76 demo: https://www.youtube.com/watch?v=stXmZyrZ-Hk wile.ai",
+      "published_at": "1793753450",
+      "discovered_at": "2026-11-04T07:23:31+00:00",
+      "author": "alexandroskyr",
+      "metrics": {
+        "points": 4,
+        "comments": 3
+      },
+      "tags": [],
+      "evidence": [
+        "4 HN points",
+        "3 comments"
+      ],
+      "raw_text": "Show HN: HackerReels - Short Videos for viral HN posts I've got a hacker-news automation which creates a short video every time a new post becomes viral. wile.ai: Every automation ends in a reel. Now, you can create your own private feed. I've been working into this for a while. We are currently pre-launch but any feedback is welcome! apple testflight: https://testflight.apple.com/join/hgNKEm76 demo: https://www.youtube.com/watch?v=stXmZyrZ-Hk wile.ai",
+      "opportunity_type": "Manus型",
+      "score": 33.8,
+      "dimension_scores": {
+        "growth_speed": 34.9,
+        "agent_innovation": 24,
+        "community_signal": 57.3,
+        "api_consumption_potential": 25,
         "commercialization": 18,
-        "kimi_strategic_fit": 39
+        "kimi_strategic_fit": 33
       },
       "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "HN仅3 points、0评论，早期硬件/服务概念，无用户规模或模型集成信息",
-      "commercial_summary": "为AI Agent提供手机硬件/虚拟号码服务，若规模化可能产生语音/多模态API需求，但当前信号极弱",
-      "confidence": "low",
+      "reason_to_contact_now": "4 HN points；3 comments；pre-launch阶段",
+      "commercial_summary": "HN热门内容自动化生成短视频工具，AI应用层产品但无明确模型API重度依赖信号，商业化早期",
+      "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50347408",
-        "agent_keyword_hits": [
-          "ai agent"
-        ],
+        "discussion_url": "https://news.ycombinator.com/item?id=50360259",
+        "agent_keyword_hits": [],
         "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": []
       }
     },
     {
-      "id": "product-hunt-324492901f5c",
+      "id": "product-hunt-0b6a988e1bda",
       "source": "Product Hunt",
-      "name": "Hyperresearch",
-      "url": "https://www.producthunt.com/products/hyperresearch",
-      "description": "Durable, verified agentic search Discussion | Link",
-      "published_at": "2026-10-30T15:54:03-07:00",
-      "discovered_at": "2026-11-03T07:44:59+00:00",
-      "author": "Jordan Gibbs",
+      "name": "Scrawl",
+      "url": "https://www.producthunt.com/products/scrawl-2",
+      "description": "Show your AI agent the problem with a visual frame Discussion | Link",
+      "published_at": "2026-11-02T08:16:17-08:00",
+      "discovered_at": "2026-11-04T07:23:31+00:00",
+      "author": "Mayur Sojitra",
       "metrics": {},
       "tags": [],
       "evidence": [
         "Published via Product Hunt",
-        "2026-10-30T15:54:03-07:00"
+        "2026-11-02T08:16:17-08:00"
       ],
-      "raw_text": "Hyperresearch Durable, verified agentic search Discussion | Link ",
+      "raw_text": "Scrawl Show your AI agent the problem with a visual frame Discussion | Link ",
       "opportunity_type": "Manus型",
       "score": 29.6,
       "dimension_scores": {
@@ -445,56 +488,14 @@
         "kimi_strategic_fit": 31
       },
       "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "Product Hunt发布，但无用户数据、无增长信号",
-      "commercial_summary": "Agentic搜索产品，信息不足判断API调用规模或差异化，需观察PMF",
+      "reason_to_contact_now": "Product Hunt发布；无用户/收入数据",
+      "commercial_summary": "视觉化AI Agent问题展示工具，信息过少无法判断模型依赖深度与API消耗规模，需更多商业化验证",
       "confidence": "low",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "feed_url": "https://www.producthunt.com/feed",
         "content_kind": "product_launch",
-        "original_title": "Hyperresearch",
-        "agent_keyword_hits": [
-          "agentic"
-        ],
-        "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": []
-      }
-    },
-    {
-      "id": "product-hunt-052d45772951",
-      "source": "Product Hunt",
-      "name": "Cedric AI for Meetings",
-      "url": "https://www.producthunt.com/products/cedric",
-      "description": "The first AI agent to present your slides and attend for you Discussion | Link",
-      "published_at": "2026-10-27T06:40:39-07:00",
-      "discovered_at": "2026-11-03T07:44:59+00:00",
-      "author": "Zac Zuo",
-      "metrics": {},
-      "tags": [],
-      "evidence": [
-        "Published via Product Hunt",
-        "2026-10-27T06:40:39-07:00"
-      ],
-      "raw_text": "Cedric AI for Meetings The first AI agent to present your slides and attend for you Discussion | Link ",
-      "opportunity_type": "Manus型",
-      "score": 29.6,
-      "dimension_scores": {
-        "growth_speed": 30.0,
-        "agent_innovation": 35,
-        "community_signal": 18.0,
-        "api_consumption_potential": 32,
-        "commercialization": 36,
-        "kimi_strategic_fit": 31
-      },
-      "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "Product Hunt发布一周，无用户或增长数据",
-      "commercial_summary": "AI会议Agent，垂直场景但信息不足判断API消耗潜力",
-      "confidence": "low",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "feed_url": "https://www.producthunt.com/feed",
-        "content_kind": "product_launch",
-        "original_title": "Cedric AI for Meetings",
+        "original_title": "Scrawl",
         "agent_keyword_hits": [
           "ai agent"
         ],
@@ -503,43 +504,41 @@
       }
     },
     {
-      "id": "product-hunt-9e2d16be2c23",
+      "id": "product-hunt-a6e1a467c5ff",
       "source": "Product Hunt",
-      "name": "Riverside Agents",
-      "url": "https://www.producthunt.com/products/riverside-fm",
-      "description": "A team of AI agents for video: produce, edit, clip, post Discussion | Link",
-      "published_at": "2026-10-26T10:33:37-07:00",
-      "discovered_at": "2026-11-03T07:44:59+00:00",
-      "author": "Rohan Chaubey",
+      "name": "One Roof",
+      "url": "https://www.producthunt.com/products/one-roof",
+      "description": "A new way to build with agents. You stay in charge. Discussion | Link",
+      "published_at": "2026-11-02T17:06:08-08:00",
+      "discovered_at": "2026-11-04T07:23:31+00:00",
+      "author": "Gaurav Narasimhan",
       "metrics": {},
       "tags": [],
       "evidence": [
         "Published via Product Hunt",
-        "2026-10-26T10:33:37-07:00"
+        "2026-11-02T17:06:08-08:00"
       ],
-      "raw_text": "Riverside Agents A team of AI agents for video: produce, edit, clip, post Discussion | Link ",
+      "raw_text": "One Roof A new way to build with agents. You stay in charge. Discussion | Link ",
       "opportunity_type": "Manus型",
-      "score": 29.6,
+      "score": 25.8,
       "dimension_scores": {
         "growth_speed": 30.0,
-        "agent_innovation": 35,
+        "agent_innovation": 24,
         "community_signal": 18.0,
-        "api_consumption_potential": 32,
+        "api_consumption_potential": 25,
         "commercialization": 36,
-        "kimi_strategic_fit": 31
+        "kimi_strategic_fit": 25
       },
       "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "Product Hunt发布8天，无用户数据",
-      "commercial_summary": "视频生产Agent团队，Riverside.fm产品线延伸，信息不足判断API规模",
+      "reason_to_contact_now": "Product Hunt新发布，仅描述为'build with agents'，无具体技术或商业证据",
+      "commercial_summary": "Agent构建平台概念，缺乏差异化信号和规模指标，暂不判断为高价值客户",
       "confidence": "low",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "feed_url": "https://www.producthunt.com/feed",
         "content_kind": "product_launch",
-        "original_title": "Riverside Agents",
-        "agent_keyword_hits": [
-          "ai agent"
-        ],
+        "original_title": "One Roof",
+        "agent_keyword_hits": [],
         "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": []
       }
