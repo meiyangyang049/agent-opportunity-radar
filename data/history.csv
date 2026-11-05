@@ -724,3 +724,13 @@ run_at,id,name,source,score,opportunity_type,recommended_action,metric_name,metr
 2026-11-04T07:23:31+00:00,hackernews-e70052e2b696,Show HN: HackerReels - Short Videos for viral HN posts,Hacker News,33.8,Manus型,暂不跟进,points,4.0
 2026-11-04T07:23:31+00:00,product-hunt-0b6a988e1bda,Scrawl,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
 2026-11-04T07:23:31+00:00,product-hunt-a6e1a467c5ff,One Roof,Product Hunt,25.8,Manus型,暂不跟进,none,0.0
+2026-11-05T07:49:21+00:00,github-6fb233b66962,N1nEmAn/sapper-v2,GitHub,68.2,OpenClaw型,持续观察,stars,1040.0
+2026-11-05T07:49:21+00:00,github-444a13488ff8,wangzan101/Mika,GitHub,66.5,OpenClaw型,持续观察,stars,6835.0
+2026-11-05T07:49:21+00:00,github-e9658780c819,caru-ini/stack-diagram,GitHub,61.4,OpenClaw型,持续观察,stars,1793.0
+2026-11-05T07:49:21+00:00,github-c5705fbf6f90,sarpstar/cinecode,GitHub,61.4,OpenClaw型,持续观察,stars,320.0
+2026-11-05T07:49:21+00:00,github-cea8aebf41ae,deepseek-ai/dsh-superagent-prototype,GitHub,59.5,OpenClaw型,持续观察,stars,18965.0
+2026-11-05T07:49:21+00:00,github-4e170344870f,akari-sora/synology-nas-cli,GitHub,56.9,OpenClaw型,暂不跟进,stars,94.0
+2026-11-05T07:49:21+00:00,product-hunt-63bdc0fa6964,Datashake MCP,Product Hunt,27.6,Manus型,暂不跟进,none,0.0
+2026-11-05T07:49:21+00:00,product-hunt-ee130dc83495,QualityLayer,Product Hunt,24.8,Manus型,暂不跟进,none,0.0
+2026-11-05T07:49:21+00:00,product-hunt-8b6258ac30bd,Zero Wire,Product Hunt,24.8,Manus型,暂不跟进,none,0.0
+2026-11-05T07:49:21+00:00,product-hunt-172cbb1a4043,Hira,Product Hunt,23.8,Manus型,暂不跟进,none,0.0
