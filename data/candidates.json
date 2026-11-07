@@ -1,8 +1,8 @@
 {
   "meta": {
     "project": "Agent Opportunity Radar",
-    "generated_at": "2026-11-06T07:49:28+00:00",
-    "generated_at_display": "2026-11-06 15:49 CST",
+    "generated_at": "2026-11-07T06:57:13+00:00",
+    "generated_at_display": "2026-11-07 14:57 CST",
     "mode": "公开信号实时运行",
     "sources": [
       "GitHub",
@@ -14,127 +14,70 @@
       "AI news RSS: HTTPError: 429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
     ],
     "notices": [],
-    "candidate_pool_size": 41,
+    "candidate_pool_size": 45,
     "pool_by_source": {
-      "GitHub": 12,
-      "Hacker News": 19,
-      "Product Hunt": 10
+      "GitHub": 10,
+      "Hacker News": 26,
+      "Product Hunt": 9
     },
     "pool_by_type": {
-      "OpenClaw型": 17,
-      "其他Agent": 13,
-      "Manus型": 11
+      "OpenClaw型": 14,
+      "其他Agent": 23,
+      "Manus型": 8
     },
     "shortlist_policy": "Top 10；OpenClaw型/Manus型各至少4个（候选充足时）",
     "kimi_model": "kimi-k2.6"
   },
   "candidates": [
     {
-      "id": "github-6fb233b66962",
+      "id": "github-cea8aebf41ae",
       "source": "GitHub",
-      "name": "N1nEmAn/sapper-v2",
-      "url": "https://github.com/N1nEmAn/sapper-v2",
-      "description": "Autonomous pentest legion — AI commander + worker swarm + layered fact-intent graph. 3rd Tencent Intelligent Attack-Defense online champion (634 teams · 8h unattended · 1B tokens beat 4.5B). The Nüwa Test: give AIs Create/Language/History, let a civilization grow.",
-      "published_at": "2026-10-30T15:12:35Z",
-      "discovered_at": "2026-11-06T07:49:24+00:00",
-      "author": "N1nEmAn",
+      "name": "deepseek-ai/dsh-superagent-prototype",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+      "description": "Towards a More Autonomous Agent System",
+      "published_at": "2026-10-31T09:32:46Z",
+      "discovered_at": "2026-11-07T06:57:09+00:00",
+      "author": "deepseek-ai",
       "metrics": {
-        "stars": 1403,
-        "forks": 800,
-        "open_issues": 4,
-        "watchers": 1403
+        "stars": 20423,
+        "forks": 2381,
+        "open_issues": 0,
+        "watchers": 20423
       },
-      "tags": [
-        "ai-agents",
-        "autonomous-agents",
-        "claude-code",
-        "ctf",
-        "llm",
-        "multi-agent",
-        "pentest"
-      ],
+      "tags": [],
       "evidence": [
-        "+363 stars since last run",
-        "1,403 GitHub stars",
-        "800 forks",
-        "Created 2026-10-30"
+        "+1,458 stars since last run",
+        "20,423 GitHub stars",
+        "2,381 forks",
+        "Created 2026-10-31"
       ],
-      "raw_text": "N1nEmAn/sapper-v2 Autonomous pentest legion — AI commander + worker swarm + layered fact-intent graph. 3rd Tencent Intelligent Attack-Defense online champion (634 teams · 8h unattended · 1B tokens beat 4.5B). The Nüwa Test: give AIs Create/Language/History, let a civilization grow. ai-agents autonomous-agents claude-code ctf llm multi-agent pentest",
+      "raw_text": "deepseek-ai/dsh-superagent-prototype Towards a More Autonomous Agent System ",
       "opportunity_type": "OpenClaw型",
-      "score": 67.2,
+      "score": 62.5,
       "dimension_scores": {
         "growth_speed": 100.0,
         "agent_innovation": 35,
         "community_signal": 100.0,
-        "api_consumption_potential": 50,
+        "api_consumption_potential": 32,
         "commercialization": 18,
         "kimi_strategic_fit": 39
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "1,403 stars、800 forks、单日+363 stars增速极快，腾讯攻防赛冠军验证多Agent集群在高压场景的token消耗能力（1B beat 4.5B）",
-      "commercial_summary": "高竞技性多Agent安全框架，1B token击败4.5B的效能数据对Kimi有标杆价值；若成为红队/安全Agent默认框架，可争取模型接入或赛事合作",
-      "confidence": "medium",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "language": "Python",
-        "updated_at": "2026-11-06T07:03:33Z",
-        "homepage": null,
-        "agent_keyword_hits": [
-          "multi-agent"
-        ],
-        "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": [],
-        "metric_delta": 363.0,
-        "metric_velocity_per_day": 362.97059266031687
-      }
-    },
-    {
-      "id": "github-c69657c0791c",
-      "source": "GitHub",
-      "name": "andrew-babo/muse4ai",
-      "url": "https://github.com/andrew-babo/muse4ai",
-      "description": "Muse4AI — let your AI agent make the pictures and the videos. Local Windows bridge for Muse via REST, MCP, and OAuth.",
-      "published_at": "2026-11-03T17:45:18Z",
-      "discovered_at": "2026-11-06T07:49:24+00:00",
-      "author": "andrew-babo",
-      "metrics": {
-        "stars": 872,
-        "forks": 190,
-        "open_issues": 0,
-        "watchers": 872
-      },
-      "tags": [],
-      "evidence": [
-        "872 GitHub stars",
-        "190 forks",
-        "Created 2026-11-03"
-      ],
-      "raw_text": "andrew-babo/muse4ai Muse4AI — let your AI agent make the pictures and the videos. Local Windows bridge for Muse via REST, MCP, and OAuth. ",
-      "opportunity_type": "OpenClaw型",
-      "score": 66.3,
-      "dimension_scores": {
-        "growth_speed": 100.0,
-        "agent_innovation": 46,
-        "community_signal": 100.0,
-        "api_consumption_potential": 39,
-        "commercialization": 18,
-        "kimi_strategic_fit": 45
-      },
-      "recommended_action": "持续观察",
-      "reason_to_contact_now": "872 GitHub stars，190 forks，3日内创建，MCP协议桥接Windows本地Muse服务",
-      "commercial_summary": "MCP生态工具层项目，若成为主流图像/视频生成Agent的中间件，可能带动Kimi API作为编排层或替代模型接入",
+      "reason_to_contact_now": "DeepSeek官方开源项目，6天内获20,423星、2,381 forks，增速极快，但API消费潜力评分仅32，需验证其实际模型调用需求而非纯框架热度",
+      "commercial_summary": "DeepSeek官方Agent框架，高社区热度但直接成为Kimi API客户可能性低，更需关注其技术路线对Kimi API的竞争性替代风险",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "language": "TypeScript",
-        "updated_at": "2026-11-06T07:45:51Z",
+        "updated_at": "2026-11-07T06:55:02Z",
         "homepage": null,
         "agent_keyword_hits": [
-          "ai agent",
-          "mcp"
+          "autonomous agent"
         ],
         "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": []
+        "ecosystem_keyword_hits": [],
+        "metric_delta": 1458.0,
+        "metric_velocity_per_day": 742.4395303880428
       }
     },
     {
@@ -144,13 +87,13 @@
       "url": "https://github.com/HerdBuilderEstimate/roblox-studio-mcp",
       "description": "Model Context Protocol server for Roblox Studio. Connect AI assistants (Claude, Cursor) to read object trees, edit scripts, and run playtests safely. Open-source and lightweight",
       "published_at": "2026-11-06T06:16:35Z",
-      "discovered_at": "2026-11-06T07:49:25+00:00",
+      "discovered_at": "2026-11-07T06:57:10+00:00",
       "author": "HerdBuilderEstimate",
       "metrics": {
-        "stars": 426,
+        "stars": 427,
         "forks": 260,
         "open_issues": 0,
-        "watchers": 426
+        "watchers": 427
       },
       "tags": [
         "ai-tools",
@@ -167,7 +110,8 @@
         "typescript"
       ],
       "evidence": [
-        "426 GitHub stars",
+        "+1 stars since last run",
+        "427 GitHub stars",
         "260 forks",
         "Created 2026-11-06"
       ],
@@ -183,17 +127,132 @@
         "kimi_strategic_fit": 39
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "426 stars、260 forks、单日创建，垂直绑定Roblox Studio+MCP，明确接入Claude/Cursor",
-      "commercial_summary": "垂直领域MCP服务器，游戏开发Agent工具链一环；当前默认模型为Claude，需观察是否扩展多模型支持，存在争取Kimi接入的细分生态机会",
+      "reason_to_contact_now": "MCP服务器连接Claude/Cursor至Roblox Studio，427星/260 forks，但日增速仅1星，社区热度已趋缓",
+      "commercial_summary": "垂直领域MCP工具，明确绑定Claude/Cursor生态，Kimi接入空间有限，观察其是否扩展多模型支持",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "language": "Python",
-        "updated_at": "2026-11-06T07:34:37Z",
+        "updated_at": "2026-11-06T15:57:23Z",
         "homepage": null,
         "agent_keyword_hits": [
           "mcp"
         ],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": [],
+        "metric_delta": 1.0,
+        "metric_velocity_per_day": 1.0376508737164476
+      }
+    },
+    {
+      "id": "github-afd78a03df93",
+      "source": "GitHub",
+      "name": "mhfed/vn-law-check",
+      "url": "https://github.com/mhfed/vn-law-check",
+      "description": "Audit pháp lý website theo luật Việt Nam (BVDLCN 91/2025, TMĐT 122/2025, ANM 116/2025, AI 134/2025) cho Claude Code, Cursor, Copilot, Windsurf, Cline",
+      "published_at": "2026-11-02T09:22:02Z",
+      "discovered_at": "2026-11-07T06:57:09+00:00",
+      "author": "mhfed",
+      "metrics": {
+        "stars": 464,
+        "forks": 100,
+        "open_issues": 13,
+        "watchers": 464
+      },
+      "tags": [
+        "agent-md",
+        "agent-skills",
+        "claude-code",
+        "claude-plugin",
+        "claude-skills",
+        "compliance",
+        "copilot-instructions",
+        "cursor-rules",
+        "data-protection",
+        "ecommerce",
+        "legal-tech",
+        "pdpl",
+        "privacy",
+        "skills",
+        "vibe-coding",
+        "vietnam",
+        "vietnam-law"
+      ],
+      "evidence": [
+        "464 GitHub stars",
+        "100 forks",
+        "Created 2026-11-02"
+      ],
+      "raw_text": "mhfed/vn-law-check Audit pháp lý website theo luật Việt Nam (BVDLCN 91/2025, TMĐT 122/2025, ANM 116/2025, AI 134/2025) cho Claude Code, Cursor, Copilot, Windsurf, Cline agent-md agent-skills claude-code claude-plugin claude-skills compliance copilot-instructions cursor-rules data-protection ecommerce legal-tech pdpl privacy skills vibe-coding vietnam vietnam-law",
+      "opportunity_type": "OpenClaw型",
+      "score": 60.9,
+      "dimension_scores": {
+        "growth_speed": 90.4,
+        "agent_innovation": 24,
+        "community_signal": 100.0,
+        "api_consumption_potential": 25,
+        "commercialization": 18,
+        "kimi_strategic_fit": 49
+      },
+      "recommended_action": "持续观察",
+      "reason_to_contact_now": "5天内464 stars、100 forks，明确支持Claude Code/Cursor/Copilot/Windsurf/Cline等多平台技能注入，生态渗透信号强。",
+      "commercial_summary": "越南法律合规的AI编码助手技能/插件集，跨IDE生态分发，若扩展至中文合规场景或接入Kimi，具备生态合作潜力。",
+      "confidence": "medium",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "metadata": {
+        "language": "Shell",
+        "updated_at": "2026-11-07T04:14:04Z",
+        "homepage": "https://mhfed.github.io/vn-law-check/",
+        "agent_keyword_hits": [],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": [
+          "plugin",
+          "skill"
+        ]
+      }
+    },
+    {
+      "id": "github-50e5d2e0a79a",
+      "source": "GitHub",
+      "name": "majorminorlabs/hermes-voice",
+      "url": "https://github.com/majorminorlabs/hermes-voice",
+      "description": "Talk to a Hermes Agent profile through Home Assistant Assist",
+      "published_at": "2026-11-05T05:28:37Z",
+      "discovered_at": "2026-11-07T06:57:10+00:00",
+      "author": "majorminorlabs",
+      "metrics": {
+        "stars": 462,
+        "forks": 24,
+        "open_issues": 2,
+        "watchers": 462
+      },
+      "tags": [],
+      "evidence": [
+        "462 GitHub stars",
+        "24 forks",
+        "Created 2026-11-05"
+      ],
+      "raw_text": "majorminorlabs/hermes-voice Talk to a Hermes Agent profile through Home Assistant Assist ",
+      "opportunity_type": "OpenClaw型",
+      "score": 60.6,
+      "dimension_scores": {
+        "growth_speed": 100.0,
+        "agent_innovation": 24,
+        "community_signal": 100.0,
+        "api_consumption_potential": 25,
+        "commercialization": 18,
+        "kimi_strategic_fit": 33
+      },
+      "recommended_action": "持续观察",
+      "reason_to_contact_now": "2天内获462 stars、24 forks，Home Assistant生态的语音Agent接口，增长信号强劲。",
+      "commercial_summary": "Home Assistant语音Agent集成项目，若扩展多模型支持，可能成为智能家居领域的模型API消费者或生态分发渠道。",
+      "confidence": "medium",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "metadata": {
+        "language": "Python",
+        "updated_at": "2026-11-07T06:31:13Z",
+        "homepage": null,
+        "agent_keyword_hits": [],
         "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": []
       }
@@ -205,13 +264,13 @@
       "url": "https://github.com/caru-ini/stack-diagram",
       "description": "Agent skill: describe your stack in a sentence, get an architecture diagram with official logos",
       "published_at": "2026-11-01T05:35:12Z",
-      "discovered_at": "2026-11-06T07:49:24+00:00",
+      "discovered_at": "2026-11-07T06:57:09+00:00",
       "author": "caru-ini",
       "metrics": {
-        "stars": 1889,
-        "forks": 87,
+        "stars": 1994,
+        "forks": 90,
         "open_issues": 0,
-        "watchers": 1889
+        "watchers": 1994
       },
       "tags": [
         "agent-skills",
@@ -224,14 +283,14 @@
         "tech-stack"
       ],
       "evidence": [
-        "+96 stars since last run",
-        "1,889 GitHub stars",
-        "87 forks",
+        "+105 stars since last run",
+        "1,994 GitHub stars",
+        "90 forks",
         "Created 2026-11-01"
       ],
       "raw_text": "caru-ini/stack-diagram Agent skill: describe your stack in a sentence, get an architecture diagram with official logos agent-skills architecture-diagram claude-code claude-skills codex diagram system-architecture tech-stack",
       "opportunity_type": "OpenClaw型",
-      "score": 62.4,
+      "score": 59.4,
       "dimension_scores": {
         "growth_speed": 100.0,
         "agent_innovation": 24,
@@ -241,75 +300,21 @@
         "kimi_strategic_fit": 41
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "5日内获1889 stars且增速96 stars/天，标签含claude-code/codex等竞品生态，但明确定位为Agent skill",
-      "commercial_summary": "高增速开发者工具，架构图生成Agent技能，可争取作为Kimi技能生态入驻对象，需确认是否支持多模型Provider",
+      "reason_to_contact_now": "Agent skill工具，6天1,994星/90 forks，明确标注claude-code/claude-skills/codex标签，生态绑定性强",
+      "commercial_summary": "Claude生态专属skill工具，Kimi直接接入空间有限，但可作为观察Agent技能协议标准化趋势的样本",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "language": "TypeScript",
-        "updated_at": "2026-11-06T07:18:56Z",
+        "updated_at": "2026-11-07T06:53:53Z",
         "homepage": "stacks.caru.moe",
         "agent_keyword_hits": [],
         "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": [
           "skill"
         ],
-        "metric_delta": 96.0,
-        "metric_velocity_per_day": 95.99222285231521
-      }
-    },
-    {
-      "id": "github-c72f9cb45c2b",
-      "source": "GitHub",
-      "name": "Balanov/uncut",
-      "url": "https://github.com/Balanov/uncut",
-      "description": "The lossless, headless coding agent harness. One 7 MB static binary, four tools, plain stdin/stdout, no silent cuts.",
-      "published_at": "2026-11-01T17:19:30Z",
-      "discovered_at": "2026-11-06T07:49:24+00:00",
-      "author": "Balanov",
-      "metrics": {
-        "stars": 610,
-        "forks": 17,
-        "open_issues": 2,
-        "watchers": 610
-      },
-      "tags": [
-        "agent-harness",
-        "cli",
-        "coding-agent",
-        "go",
-        "headless",
-        "llm",
-        "local-models"
-      ],
-      "evidence": [
-        "610 GitHub stars",
-        "17 forks",
-        "Created 2026-11-01"
-      ],
-      "raw_text": "Balanov/uncut The lossless, headless coding agent harness. One 7 MB static binary, four tools, plain stdin/stdout, no silent cuts. agent-harness cli coding-agent go headless llm local-models",
-      "opportunity_type": "OpenClaw型",
-      "score": 61.5,
-      "dimension_scores": {
-        "growth_speed": 95.4,
-        "agent_innovation": 24,
-        "community_signal": 100.0,
-        "api_consumption_potential": 25,
-        "commercialization": 18,
-        "kimi_strategic_fit": 33
-      },
-      "recommended_action": "持续观察",
-      "reason_to_contact_now": "5日内610 stars，Go编写7MB静态二进制，标签含local-models和llm，明确为headless coding agent harness",
-      "commercial_summary": "轻量级本地优先编码Agent框架，支持stdin/stdout交互，若扩展云端模型支持则具API消费潜力，需跟踪其模型Provider策略",
-      "confidence": "medium",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "language": "Go",
-        "updated_at": "2026-11-06T07:00:38Z",
-        "homepage": "https://balanov.pro/uncut/",
-        "agent_keyword_hits": [],
-        "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": []
+        "metric_delta": 105.0,
+        "metric_velocity_per_day": 108.95334174022699
       }
     },
     {
@@ -319,24 +324,24 @@
       "url": "https://github.com/sarpstar/cinecode",
       "description": "Films made with code. Short films, long YouTube videos, ads, explainers and music videos: an AI coding agent writes the script, builds every frame in code, designs the sound and hands you an MP4.",
       "published_at": "2026-11-03T10:08:16Z",
-      "discovered_at": "2026-11-06T07:49:25+00:00",
+      "discovered_at": "2026-11-07T06:57:09+00:00",
       "author": "sarpstar",
       "metrics": {
-        "stars": 423,
-        "forks": 71,
+        "stars": 498,
+        "forks": 82,
         "open_issues": 1,
-        "watchers": 423
+        "watchers": 498
       },
       "tags": [],
       "evidence": [
-        "+103 stars since last run",
-        "423 GitHub stars",
-        "71 forks",
+        "+75 stars since last run",
+        "498 GitHub stars",
+        "82 forks",
         "Created 2026-11-03"
       ],
       "raw_text": "sarpstar/cinecode Films made with code. Short films, long YouTube videos, ads, explainers and music videos: an AI coding agent writes the script, builds every frame in code, designs the sound and hands you an MP4. ",
       "opportunity_type": "OpenClaw型",
-      "score": 60.6,
+      "score": 58.6,
       "dimension_scores": {
         "growth_speed": 100.0,
         "agent_innovation": 24,
@@ -346,100 +351,57 @@
         "kimi_strategic_fit": 33
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "3日内获423 stars增速103 stars/天，AI编码代理生成视频，Python项目，但无明确模型Provider信息",
-      "commercial_summary": "视频生成类编码Agent工具，高社区热度，若确认依赖外部LLM API则具消费潜力，可作为内容生成生态案例",
+      "reason_to_contact_now": "AI视频生成Agent，4天498星/82 forks，增速快，但描述中未明确模型提供商，需验证其多模态API调用强度",
+      "commercial_summary": "视频生成Agent工具，若实际依赖外部多模态模型API则具消费潜力，当前需验证其技术栈和模型依赖度",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "language": "Python",
-        "updated_at": "2026-11-06T07:25:14Z",
+        "updated_at": "2026-11-07T06:31:24Z",
         "homepage": null,
         "agent_keyword_hits": [],
         "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": [],
-        "metric_delta": 103.0,
-        "metric_velocity_per_day": 102.99165576862985
+        "metric_delta": 75.0,
+        "metric_velocity_per_day": 77.82381552873356
       }
     },
     {
-      "id": "product-hunt-6b0120d5011e",
-      "source": "Product Hunt",
-      "name": "Clocknext",
-      "url": "https://www.producthunt.com/products/clocknext",
-      "description": "Pricing and Billing Infrastructure for AI Agents Discussion | Link",
-      "published_at": "2026-11-02T03:41:56-08:00",
-      "discovered_at": "2026-11-06T07:49:28+00:00",
-      "author": "Kevin William David",
-      "metrics": {},
-      "tags": [],
-      "evidence": [
-        "Published via Product Hunt",
-        "2026-11-02T03:41:56-08:00"
-      ],
-      "raw_text": "Clocknext Pricing and Billing Infrastructure for AI Agents Discussion | Link ",
-      "opportunity_type": "Manus型",
-      "score": 31.8,
-      "dimension_scores": {
-        "growth_speed": 30.0,
-        "agent_innovation": 35,
-        "community_signal": 18.0,
-        "api_consumption_potential": 37,
-        "commercialization": 50,
-        "kimi_strategic_fit": 31
+      "id": "hackernews-e8a58237263d",
+      "source": "Hacker News",
+      "name": "Agentic QA for Marketing",
+      "url": "https://www.arbiterqa.com",
+      "description": "Agentic QA for Marketing",
+      "published_at": "1794016527",
+      "discovered_at": "2026-11-07T06:57:12+00:00",
+      "author": "digitalgeek9",
+      "metrics": {
+        "points": 2,
+        "comments": 1
       },
-      "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "Product Hunt发布，仅标题提及AI Agent计费基础设施，无用户数、收入或模型依赖证据",
-      "commercial_summary": "Agent计费SaaS基础设施，若规模化可能间接反映下游Agent用量，但当前无API消费直接信号",
-      "confidence": "low",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "feed_url": "https://www.producthunt.com/feed",
-        "content_kind": "product_launch",
-        "original_title": "Clocknext",
-        "agent_keyword_hits": [
-          "ai agent"
-        ],
-        "commercial_keyword_hits": [
-          "pricing"
-        ],
-        "ecosystem_keyword_hits": []
-      }
-    },
-    {
-      "id": "product-hunt-6fbf139236a9",
-      "source": "Product Hunt",
-      "name": "Wingmen",
-      "url": "https://www.producthunt.com/products/wingmen",
-      "description": "Agentic outreach with real intent data Discussion | Link",
-      "published_at": "2026-10-29T13:59:23-07:00",
-      "discovered_at": "2026-11-06T07:49:28+00:00",
-      "author": "Nemanja Milic",
-      "metrics": {},
       "tags": [],
       "evidence": [
-        "Published via Product Hunt",
-        "2026-10-29T13:59:23-07:00"
+        "2 HN points",
+        "1 comments"
       ],
-      "raw_text": "Wingmen Agentic outreach with real intent data Discussion | Link ",
+      "raw_text": "Agentic QA for Marketing ",
       "opportunity_type": "Manus型",
-      "score": 29.6,
+      "score": 30.2,
       "dimension_scores": {
-        "growth_speed": 30.0,
+        "growth_speed": 30.8,
         "agent_innovation": 35,
-        "community_signal": 18.0,
+        "community_signal": 45.0,
         "api_consumption_potential": 32,
-        "commercialization": 36,
-        "kimi_strategic_fit": 31
+        "commercialization": 18,
+        "kimi_strategic_fit": 39
       },
       "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "Product Hunt发布，仅标题提及Agentic外呼，无用户数、收入、融资或模型依赖证据",
-      "commercial_summary": "销售Agent SaaS，若规模化可能产生API调用需求，但当前无增长或采用信号",
+      "reason_to_contact_now": "HN仅2 points、1评论，早期产品，无客户数、收入或模型调用规模证据。",
+      "commercial_summary": "营销场景Agentic QA工具，若验证企业客户付费意愿和模型依赖度，可评估为潜在客户，当前过早。",
       "confidence": "low",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
-        "feed_url": "https://www.producthunt.com/feed",
-        "content_kind": "product_launch",
-        "original_title": "Wingmen",
+        "discussion_url": "https://news.ycombinator.com/item?id=50400883",
         "agent_keyword_hits": [
           "agentic"
         ],
@@ -448,21 +410,21 @@
       }
     },
     {
-      "id": "product-hunt-0a74add3fcb3",
+      "id": "product-hunt-be942d01965a",
       "source": "Product Hunt",
-      "name": "Maritime",
-      "url": "https://www.producthunt.com/products/maritime",
-      "description": "Cloud computers for any AI agent, customized your way Discussion | Link",
-      "published_at": "2026-11-01T11:24:15-08:00",
-      "discovered_at": "2026-11-06T07:49:28+00:00",
-      "author": "Maria Gorskikh",
+      "name": "Rankfender v3.0",
+      "url": "https://www.producthunt.com/products/rankfender",
+      "description": "The SEO/GEO operating system, built for people and AI agents Discussion | Link",
+      "published_at": "2026-11-05T06:05:15-08:00",
+      "discovered_at": "2026-11-07T06:57:12+00:00",
+      "author": "Imed Radhouani",
       "metrics": {},
       "tags": [],
       "evidence": [
         "Published via Product Hunt",
-        "2026-11-01T11:24:15-08:00"
+        "2026-11-05T06:05:15-08:00"
       ],
-      "raw_text": "Maritime Cloud computers for any AI agent, customized your way Discussion | Link ",
+      "raw_text": "Rankfender v3.0 The SEO/GEO operating system, built for people and AI agents Discussion | Link ",
       "opportunity_type": "Manus型",
       "score": 29.6,
       "dimension_scores": {
@@ -474,14 +436,14 @@
         "kimi_strategic_fit": 31
       },
       "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "Product Hunt发布，仅标题提及AI Agent云电脑，无用户数、收入、融资或模型依赖证据",
-      "commercial_summary": "Agent基础设施（云主机），若规模化可能产生间接API需求，但当前无采用信号，且与Kimi核心层距离较远",
+      "reason_to_contact_now": "Product Hunt发布SEO/GEO操作系统，提及AI agents但无具体模型集成或API调用规模证据",
+      "commercial_summary": "SEO工具赛道，AI agent仅为功能描述之一，缺乏模型API消费场景，暂不判断为高价值客户或竞品",
       "confidence": "low",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "feed_url": "https://www.producthunt.com/feed",
         "content_kind": "product_launch",
-        "original_title": "Maritime",
+        "original_title": "Rankfender v3.0",
         "agent_keyword_hits": [
           "ai agent"
         ],
@@ -490,21 +452,21 @@
       }
     },
     {
-      "id": "product-hunt-4db58de49aa1",
+      "id": "product-hunt-df0cd1850fa4",
       "source": "Product Hunt",
-      "name": "Pushary for Teams",
-      "url": "https://www.producthunt.com/products/pushary",
-      "description": "See who said yes to your team’s AI agents Discussion | Link",
-      "published_at": "2026-11-01T08:09:33-08:00",
-      "discovered_at": "2026-11-06T07:49:28+00:00",
-      "author": "Rohan Chaubey",
+      "name": "Kivo",
+      "url": "https://www.producthunt.com/products/kivo-4",
+      "description": "Free on device dictation for any Mac app and AI agent Discussion | Link",
+      "published_at": "2026-11-05T09:51:26-08:00",
+      "discovered_at": "2026-11-07T06:57:12+00:00",
+      "author": "Gokulakrishnan S",
       "metrics": {},
       "tags": [],
       "evidence": [
         "Published via Product Hunt",
-        "2026-11-01T08:09:33-08:00"
+        "2026-11-05T09:51:26-08:00"
       ],
-      "raw_text": "Pushary for Teams See who said yes to your team’s AI agents Discussion | Link ",
+      "raw_text": "Kivo Free on device dictation for any Mac app and AI agent Discussion | Link ",
       "opportunity_type": "Manus型",
       "score": 29.6,
       "dimension_scores": {
@@ -516,17 +478,57 @@
         "kimi_strategic_fit": 31
       },
       "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "Product Hunt发布，仅描述为团队AI代理的审批追踪工具，无用户规模、付费或模型依赖证据",
-      "commercial_summary": "团队级AI代理管理工具，但缺乏API调用量或企业付费信号，当前作为Kimi API客户价值有限",
+      "reason_to_contact_now": "Mac端本地语音输入工具，提及AI agent但核心为on-device dictation，无模型API调用场景",
+      "commercial_summary": "端侧工具，强调本地处理，与云端模型API消费场景相悖，不构成客户或生态机会",
       "confidence": "low",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "feed_url": "https://www.producthunt.com/feed",
         "content_kind": "product_launch",
-        "original_title": "Pushary for Teams",
+        "original_title": "Kivo",
         "agent_keyword_hits": [
           "ai agent"
         ],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": []
+      }
+    },
+    {
+      "id": "product-hunt-b29f7e0f5f72",
+      "source": "Product Hunt",
+      "name": "Pressure",
+      "url": "https://www.producthunt.com/products/pressure",
+      "description": "Need a second opinion? Have two agents debate your topic Discussion | Link",
+      "published_at": "2026-11-04T17:29:32-08:00",
+      "discovered_at": "2026-11-07T06:57:12+00:00",
+      "author": "Bryan Schwab",
+      "metrics": {},
+      "tags": [],
+      "evidence": [
+        "Published via Product Hunt",
+        "2026-11-04T17:29:32-08:00"
+      ],
+      "raw_text": "Pressure Need a second opinion? Have two agents debate your topic Discussion | Link ",
+      "opportunity_type": "Manus型",
+      "score": 25.8,
+      "dimension_scores": {
+        "growth_speed": 30.0,
+        "agent_innovation": 24,
+        "community_signal": 18.0,
+        "api_consumption_potential": 25,
+        "commercialization": 36,
+        "kimi_strategic_fit": 25
+      },
+      "recommended_action": "暂不跟进",
+      "reason_to_contact_now": "Published via Product Hunt；2026-11-04T17:29:32-08:00",
+      "commercial_summary": "产品型机会，优先判断API调用规模、付费增长和战略客户合作空间。",
+      "confidence": "medium",
+      "scoring_mode": "规则预评分",
+      "metadata": {
+        "feed_url": "https://www.producthunt.com/feed",
+        "content_kind": "product_launch",
+        "original_title": "Pressure",
+        "agent_keyword_hits": [],
         "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": []
       }
