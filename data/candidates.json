@@ -1,8 +1,8 @@
 {
   "meta": {
     "project": "Agent Opportunity Radar",
-    "generated_at": "2026-11-07T06:57:13+00:00",
-    "generated_at_display": "2026-11-07 14:57 CST",
+    "generated_at": "2026-11-08T07:04:07+00:00",
+    "generated_at_display": "2026-11-08 15:04 CST",
     "mode": "公开信号实时运行",
     "sources": [
       "GitHub",
@@ -14,70 +14,75 @@
       "AI news RSS: HTTPError: 429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
     ],
     "notices": [],
-    "candidate_pool_size": 45,
+    "candidate_pool_size": 37,
     "pool_by_source": {
-      "GitHub": 10,
-      "Hacker News": 26,
-      "Product Hunt": 9
+      "GitHub": 15,
+      "Hacker News": 18,
+      "Product Hunt": 4
     },
     "pool_by_type": {
-      "OpenClaw型": 14,
-      "其他Agent": 23,
-      "Manus型": 8
+      "OpenClaw型": 18,
+      "其他Agent": 13,
+      "Manus型": 6
     },
     "shortlist_policy": "Top 10；OpenClaw型/Manus型各至少4个（候选充足时）",
     "kimi_model": "kimi-k2.6"
   },
   "candidates": [
     {
-      "id": "github-cea8aebf41ae",
+      "id": "github-83debcd2627e",
       "source": "GitHub",
-      "name": "deepseek-ai/dsh-superagent-prototype",
-      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
-      "description": "Towards a More Autonomous Agent System",
-      "published_at": "2026-10-31T09:32:46Z",
-      "discovered_at": "2026-11-07T06:57:09+00:00",
-      "author": "deepseek-ai",
+      "name": "JosssphZhou/poki",
+      "url": "https://github.com/JosssphZhou/poki",
+      "description": "Let AI agents operate a real iPhone. Local MCP server and agent, no jailbreak, no extra hardware.",
+      "published_at": "2026-11-05T15:04:31Z",
+      "discovered_at": "2026-11-08T07:04:03+00:00",
+      "author": "JosssphZhou",
       "metrics": {
-        "stars": 20423,
-        "forks": 2381,
-        "open_issues": 0,
-        "watchers": 20423
+        "stars": 537,
+        "forks": 113,
+        "open_issues": 15,
+        "watchers": 537
       },
-      "tags": [],
-      "evidence": [
-        "+1,458 stars since last run",
-        "20,423 GitHub stars",
-        "2,381 forks",
-        "Created 2026-10-31"
+      "tags": [
+        "ai-agents",
+        "automation",
+        "ios",
+        "iphone",
+        "mcp",
+        "model-context-protocol"
       ],
-      "raw_text": "deepseek-ai/dsh-superagent-prototype Towards a More Autonomous Agent System ",
+      "evidence": [
+        "537 GitHub stars",
+        "113 forks",
+        "Created 2026-11-05"
+      ],
+      "raw_text": "JosssphZhou/poki Let AI agents operate a real iPhone. Local MCP server and agent, no jailbreak, no extra hardware. ai-agents automation ios iphone mcp model-context-protocol",
       "opportunity_type": "OpenClaw型",
-      "score": 62.5,
+      "score": 66.3,
       "dimension_scores": {
         "growth_speed": 100.0,
-        "agent_innovation": 35,
+        "agent_innovation": 46,
         "community_signal": 100.0,
-        "api_consumption_potential": 32,
+        "api_consumption_potential": 39,
         "commercialization": 18,
-        "kimi_strategic_fit": 39
+        "kimi_strategic_fit": 45
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "DeepSeek官方开源项目，6天内获20,423星、2,381 forks，增速极快，但API消费潜力评分仅32，需验证其实际模型调用需求而非纯框架热度",
-      "commercial_summary": "DeepSeek官方Agent框架，高社区热度但直接成为Kimi API客户可能性低，更需关注其技术路线对Kimi API的竞争性替代风险",
+      "reason_to_contact_now": "537 GitHub stars，113 forks，3天内爆发增长，定位iOS本地MCP server，模型接入点明确",
+      "commercial_summary": "iOS端MCP基础设施，若成为移动端Agent标准接口，可争取默认模型Provider位置，但当前API消费潜力评分低，需验证实际调用模式",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
-        "language": "TypeScript",
-        "updated_at": "2026-11-07T06:55:02Z",
-        "homepage": null,
+        "language": "JavaScript",
+        "updated_at": "2026-11-08T07:01:24Z",
+        "homepage": "https://poki.bot",
         "agent_keyword_hits": [
-          "autonomous agent"
+          "ai agent",
+          "mcp"
         ],
         "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": [],
-        "metric_delta": 1458.0,
-        "metric_velocity_per_day": 742.4395303880428
+        "ecosystem_keyword_hits": []
       }
     },
     {
@@ -87,13 +92,13 @@
       "url": "https://github.com/HerdBuilderEstimate/roblox-studio-mcp",
       "description": "Model Context Protocol server for Roblox Studio. Connect AI assistants (Claude, Cursor) to read object trees, edit scripts, and run playtests safely. Open-source and lightweight",
       "published_at": "2026-11-06T06:16:35Z",
-      "discovered_at": "2026-11-07T06:57:10+00:00",
+      "discovered_at": "2026-11-08T07:04:04+00:00",
       "author": "HerdBuilderEstimate",
       "metrics": {
-        "stars": 427,
+        "stars": 428,
         "forks": 260,
         "open_issues": 0,
-        "watchers": 427
+        "watchers": 428
       },
       "tags": [
         "ai-tools",
@@ -111,7 +116,7 @@
       ],
       "evidence": [
         "+1 stars since last run",
-        "427 GitHub stars",
+        "428 GitHub stars",
         "260 forks",
         "Created 2026-11-06"
       ],
@@ -127,13 +132,13 @@
         "kimi_strategic_fit": 39
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "MCP服务器连接Claude/Cursor至Roblox Studio，427星/260 forks，但日增速仅1星，社区热度已趋缓",
-      "commercial_summary": "垂直领域MCP工具，明确绑定Claude/Cursor生态，Kimi接入空间有限，观察其是否扩展多模型支持",
+      "reason_to_contact_now": "428 stars/260 forks，2天内爆发，明确接入Claude/Cursor，游戏开发垂直场景",
+      "commercial_summary": "Roblox MCP server是垂直领域开发者入口，260 forks显示分发潜力，但已绑定Claude/Cursor，需判断能否切入为备选模型",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "language": "Python",
-        "updated_at": "2026-11-06T15:57:23Z",
+        "updated_at": "2026-11-08T01:25:51Z",
         "homepage": null,
         "agent_keyword_hits": [
           "mcp"
@@ -141,100 +146,103 @@
         "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": [],
         "metric_delta": 1.0,
-        "metric_velocity_per_day": 1.0376508737164476
+        "metric_velocity_per_day": 0.9952311839104291
       }
     },
     {
-      "id": "github-afd78a03df93",
+      "id": "github-2705103d6bb3",
       "source": "GitHub",
-      "name": "mhfed/vn-law-check",
-      "url": "https://github.com/mhfed/vn-law-check",
-      "description": "Audit pháp lý website theo luật Việt Nam (BVDLCN 91/2025, TMĐT 122/2025, ANM 116/2025, AI 134/2025) cho Claude Code, Cursor, Copilot, Windsurf, Cline",
-      "published_at": "2026-11-02T09:22:02Z",
-      "discovered_at": "2026-11-07T06:57:09+00:00",
-      "author": "mhfed",
+      "name": "quyetcao/ai-manus",
+      "url": "https://github.com/quyetcao/ai-manus",
+      "description": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
+      "published_at": "2026-11-06T18:16:53Z",
+      "discovered_at": "2026-11-08T07:04:03+00:00",
+      "author": "quyetcao",
       "metrics": {
-        "stars": 464,
-        "forks": 100,
-        "open_issues": 13,
-        "watchers": 464
+        "stars": 93,
+        "forks": 87,
+        "open_issues": 0,
+        "watchers": 93
       },
       "tags": [
-        "agent-md",
-        "agent-skills",
-        "claude-code",
-        "claude-plugin",
-        "claude-skills",
-        "compliance",
-        "copilot-instructions",
-        "cursor-rules",
-        "data-protection",
-        "ecommerce",
-        "legal-tech",
-        "pdpl",
-        "privacy",
-        "skills",
-        "vibe-coding",
-        "vietnam",
-        "vietnam-law"
+        "ai",
+        "ai-agents",
+        "ai-sdk",
+        "anthropic",
+        "chatbot",
+        "function-calling",
+        "gemeni",
+        "generative-ai",
+        "llm",
+        "multimodal",
+        "openai",
+        "react",
+        "solidjs",
+        "streaming",
+        "svelte",
+        "tanstack",
+        "tool-calling",
+        "typescript",
+        "typescript-sdk",
+        "vue"
       ],
       "evidence": [
-        "464 GitHub stars",
-        "100 forks",
-        "Created 2026-11-02"
+        "93 GitHub stars",
+        "87 forks",
+        "Created 2026-11-06"
       ],
-      "raw_text": "mhfed/vn-law-check Audit pháp lý website theo luật Việt Nam (BVDLCN 91/2025, TMĐT 122/2025, ANM 116/2025, AI 134/2025) cho Claude Code, Cursor, Copilot, Windsurf, Cline agent-md agent-skills claude-code claude-plugin claude-skills compliance copilot-instructions cursor-rules data-protection ecommerce legal-tech pdpl privacy skills vibe-coding vietnam vietnam-law",
+      "raw_text": "quyetcao/ai-manus AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment. ai ai-agents ai-sdk anthropic chatbot function-calling gemeni generative-ai llm multimodal openai react solidjs streaming svelte tanstack tool-calling typescript typescript-sdk vue",
       "opportunity_type": "OpenClaw型",
-      "score": 60.9,
+      "score": 62.4,
       "dimension_scores": {
-        "growth_speed": 90.4,
-        "agent_innovation": 24,
+        "growth_speed": 83.8,
+        "agent_innovation": 35,
         "community_signal": 100.0,
-        "api_consumption_potential": 25,
+        "api_consumption_potential": 32,
         "commercialization": 18,
-        "kimi_strategic_fit": 49
+        "kimi_strategic_fit": 39
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "5天内464 stars、100 forks，明确支持Claude Code/Cursor/Copilot/Windsurf/Cline等多平台技能注入，生态渗透信号强。",
-      "commercial_summary": "越南法律合规的AI编码助手技能/插件集，跨IDE生态分发，若扩展至中文合规场景或接入Kimi，具备生态合作潜力。",
+      "reason_to_contact_now": "93 stars、87 forks（近1:1 fork比）、创建仅2天，标签覆盖多框架/多模型，通用agent系统。",
+      "commercial_summary": "通用AI Agent系统+沙箱，直接对标Manus，多模型标签（含openai/anthropic）但无Kimi，若能早期接入可争取为生态展示案例或高消耗客户。",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
-        "language": "Shell",
-        "updated_at": "2026-11-07T04:14:04Z",
-        "homepage": "https://mhfed.github.io/vn-law-check/",
-        "agent_keyword_hits": [],
+        "language": "Python",
+        "updated_at": "2026-11-07T16:36:54Z",
+        "homepage": "",
+        "agent_keyword_hits": [
+          "ai agent"
+        ],
         "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": [
-          "plugin",
-          "skill"
-        ]
+        "ecosystem_keyword_hits": []
       }
     },
     {
-      "id": "github-50e5d2e0a79a",
+      "id": "github-c5705fbf6f90",
       "source": "GitHub",
-      "name": "majorminorlabs/hermes-voice",
-      "url": "https://github.com/majorminorlabs/hermes-voice",
-      "description": "Talk to a Hermes Agent profile through Home Assistant Assist",
-      "published_at": "2026-11-05T05:28:37Z",
-      "discovered_at": "2026-11-07T06:57:10+00:00",
-      "author": "majorminorlabs",
+      "name": "sarpstar/cinecode",
+      "url": "https://github.com/sarpstar/cinecode",
+      "description": "Films made with code. Short films, long YouTube videos, ads, explainers and music videos: an AI coding agent writes the script, builds every frame in code, designs the sound and hands you an MP4.",
+      "published_at": "2026-11-03T10:08:16Z",
+      "discovered_at": "2026-11-08T07:04:03+00:00",
+      "author": "sarpstar",
       "metrics": {
-        "stars": 462,
-        "forks": 24,
-        "open_issues": 2,
-        "watchers": 462
+        "stars": 1040,
+        "forks": 186,
+        "open_issues": 1,
+        "watchers": 1040
       },
       "tags": [],
       "evidence": [
-        "462 GitHub stars",
-        "24 forks",
-        "Created 2026-11-05"
+        "+542 stars since last run",
+        "1,040 GitHub stars",
+        "186 forks",
+        "Created 2026-11-03"
       ],
-      "raw_text": "majorminorlabs/hermes-voice Talk to a Hermes Agent profile through Home Assistant Assist ",
+      "raw_text": "sarpstar/cinecode Films made with code. Short films, long YouTube videos, ads, explainers and music videos: an AI coding agent writes the script, builds every frame in code, designs the sound and hands you an MP4. ",
       "opportunity_type": "OpenClaw型",
-      "score": 60.6,
+      "score": 61.6,
       "dimension_scores": {
         "growth_speed": 100.0,
         "agent_innovation": 24,
@@ -244,17 +252,19 @@
         "kimi_strategic_fit": 33
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "2天内获462 stars、24 forks，Home Assistant生态的语音Agent接口，增长信号强劲。",
-      "commercial_summary": "Home Assistant语音Agent集成项目，若扩展多模型支持，可能成为智能家居领域的模型API消费者或生态分发渠道。",
+      "reason_to_contact_now": "1,040 stars、+542日增、186 forks，AI coding agent生成视频，增速极快。",
+      "commercial_summary": "高热度开源agent项目，多步骤内容生成消耗大量API tokens，若支持多模型切换有潜力成为高消耗客户或展示案例。",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "language": "Python",
-        "updated_at": "2026-11-07T06:31:13Z",
+        "updated_at": "2026-11-08T07:02:10Z",
         "homepage": null,
         "agent_keyword_hits": [],
         "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": []
+        "ecosystem_keyword_hits": [],
+        "metric_delta": 542.0,
+        "metric_velocity_per_day": 539.4153016794526
       }
     },
     {
@@ -264,13 +274,13 @@
       "url": "https://github.com/caru-ini/stack-diagram",
       "description": "Agent skill: describe your stack in a sentence, get an architecture diagram with official logos",
       "published_at": "2026-11-01T05:35:12Z",
-      "discovered_at": "2026-11-07T06:57:09+00:00",
+      "discovered_at": "2026-11-08T07:04:03+00:00",
       "author": "caru-ini",
       "metrics": {
-        "stars": 1994,
-        "forks": 90,
-        "open_issues": 0,
-        "watchers": 1994
+        "stars": 2083,
+        "forks": 100,
+        "open_issues": 2,
+        "watchers": 2083
       },
       "tags": [
         "agent-skills",
@@ -283,14 +293,14 @@
         "tech-stack"
       ],
       "evidence": [
-        "+105 stars since last run",
-        "1,994 GitHub stars",
-        "90 forks",
+        "+89 stars since last run",
+        "2,083 GitHub stars",
+        "100 forks",
         "Created 2026-11-01"
       ],
       "raw_text": "caru-ini/stack-diagram Agent skill: describe your stack in a sentence, get an architecture diagram with official logos agent-skills architecture-diagram claude-code claude-skills codex diagram system-architecture tech-stack",
       "opportunity_type": "OpenClaw型",
-      "score": 59.4,
+      "score": 61.4,
       "dimension_scores": {
         "growth_speed": 100.0,
         "agent_innovation": 24,
@@ -300,110 +310,162 @@
         "kimi_strategic_fit": 41
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "Agent skill工具，6天1,994星/90 forks，明确标注claude-code/claude-skills/codex标签，生态绑定性强",
-      "commercial_summary": "Claude生态专属skill工具，Kimi直接接入空间有限，但可作为观察Agent技能协议标准化趋势的样本",
+      "reason_to_contact_now": "2,083 stars、+89日增、100 forks，标签含claude-code/codex/skills，生态热度高。",
+      "commercial_summary": "Agent skill工具，若扩展多模型支持可能成为Kimi技能生态接入点，需观察是否支持自定义provider。",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "language": "TypeScript",
-        "updated_at": "2026-11-07T06:53:53Z",
+        "updated_at": "2026-11-08T06:34:55Z",
         "homepage": "stacks.caru.moe",
         "agent_keyword_hits": [],
         "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": [
           "skill"
         ],
-        "metric_delta": 105.0,
-        "metric_velocity_per_day": 108.95334174022699
+        "metric_delta": 89.0,
+        "metric_velocity_per_day": 88.5755753680282
       }
     },
     {
-      "id": "github-c5705fbf6f90",
+      "id": "github-26141eb2e88c",
       "source": "GitHub",
-      "name": "sarpstar/cinecode",
-      "url": "https://github.com/sarpstar/cinecode",
-      "description": "Films made with code. Short films, long YouTube videos, ads, explainers and music videos: an AI coding agent writes the script, builds every frame in code, designs the sound and hands you an MP4.",
-      "published_at": "2026-11-03T10:08:16Z",
-      "discovered_at": "2026-11-07T06:57:09+00:00",
-      "author": "sarpstar",
+      "name": "gogoymh/auto-ontology-mcp",
+      "url": "https://github.com/gogoymh/auto-ontology-mcp",
+      "description": "NVIDIA Auto Ontology's semantic layer and a personal knowledge base as an MCP server for Claude, ChatGPT and other MCP clients. No LLM API key needed.",
+      "published_at": "2026-11-06T12:09:07Z",
+      "discovered_at": "2026-11-08T07:04:04+00:00",
+      "author": "gogoymh",
       "metrics": {
-        "stars": 498,
-        "forks": 82,
-        "open_issues": 1,
-        "watchers": 498
+        "stars": 150,
+        "forks": 20,
+        "open_issues": 0,
+        "watchers": 150
       },
-      "tags": [],
-      "evidence": [
-        "+75 stars since last run",
-        "498 GitHub stars",
-        "82 forks",
-        "Created 2026-11-03"
+      "tags": [
+        "chatgpt",
+        "claude",
+        "mcp",
+        "mcp-server",
+        "model-context-protocol",
+        "ontology",
+        "semantic-layer",
+        "text-to-sql"
       ],
-      "raw_text": "sarpstar/cinecode Films made with code. Short films, long YouTube videos, ads, explainers and music videos: an AI coding agent writes the script, builds every frame in code, designs the sound and hands you an MP4. ",
+      "evidence": [
+        "150 GitHub stars",
+        "20 forks",
+        "Created 2026-11-06"
+      ],
+      "raw_text": "gogoymh/auto-ontology-mcp NVIDIA Auto Ontology's semantic layer and a personal knowledge base as an MCP server for Claude, ChatGPT and other MCP clients. No LLM API key needed. chatgpt claude mcp mcp-server model-context-protocol ontology semantic-layer text-to-sql",
       "opportunity_type": "OpenClaw型",
-      "score": 58.6,
+      "score": 61.3,
       "dimension_scores": {
-        "growth_speed": 100.0,
-        "agent_innovation": 24,
-        "community_signal": 100.0,
-        "api_consumption_potential": 25,
-        "commercialization": 18,
-        "kimi_strategic_fit": 33
+        "growth_speed": 88.6,
+        "agent_innovation": 35,
+        "community_signal": 97.5,
+        "api_consumption_potential": 37,
+        "commercialization": 32,
+        "kimi_strategic_fit": 39
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "AI视频生成Agent，4天498星/82 forks，增速快，但描述中未明确模型提供商，需验证其多模态API调用强度",
-      "commercial_summary": "视频生成Agent工具，若实际依赖外部多模态模型API则具消费潜力，当前需验证其技术栈和模型依赖度",
+      "reason_to_contact_now": "150 stars/20 forks，2天增长，NVIDIA Auto Ontology语义层，明确支持Claude/ChatGPT但标注'No LLM API key needed'",
+      "commercial_summary": "NVIDIA关联的语义层MCP server，'无需LLM API key'可能指本地模型或降低门槛，需验证是否隐藏模型调用场景，NVIDIA生态有战略价值",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "language": "Python",
-        "updated_at": "2026-11-07T06:31:24Z",
+        "updated_at": "2026-11-08T07:00:02Z",
         "homepage": null,
-        "agent_keyword_hits": [],
-        "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": [],
-        "metric_delta": 75.0,
-        "metric_velocity_per_day": 77.82381552873356
+        "agent_keyword_hits": [
+          "mcp"
+        ],
+        "commercial_keyword_hits": [
+          "api"
+        ],
+        "ecosystem_keyword_hits": []
       }
     },
     {
-      "id": "hackernews-e8a58237263d",
+      "id": "hackernews-09e44001f85d",
       "source": "Hacker News",
-      "name": "Agentic QA for Marketing",
-      "url": "https://www.arbiterqa.com",
-      "description": "Agentic QA for Marketing",
-      "published_at": "1794016527",
-      "discovered_at": "2026-11-07T06:57:12+00:00",
-      "author": "digitalgeek9",
+      "name": "Show HN: Conductor sold to Meta. Rebuilding the app (3 days, $170) (MIT)",
+      "url": "https://github.com/jahala/conducted/",
+      "description": "Re: https://news.ycombinator.com/item?id=50369503#50370152 --- Still more to do, and lots of kinks to be worked out, but Conductor 0.92.1’s own frontend can run on this project’s Rust shell and sidecar. Every one of its on-screen strings, native commands and sidecar methods is matched or listed as a deliberate difference. On scripted scenarios, this project’s sidecar produces the same events as Conductor’s. Deliberate differences are documented in docs/decisions.md. Built with Opus 5.5 orchestrating Deepseek-flash agents with Umbel and Pleach (see plotplot.ai) with Sonnet reviewing each batch and Opus fixing what the reviews found. Size: about 197,000 lines of TypeScript and Rust, not counting tests. Cost: About ~50 USD of DeepSeek plus ~70% of a weekly Claude 20x subscription. PS: Oh, and it duplicates some of their cloud functionality by running agents on cloudflare workers/containers",
+      "published_at": "1794084665",
+      "discovered_at": "2026-11-08T07:04:07+00:00",
+      "author": "jahala",
       "metrics": {
         "points": 2,
-        "comments": 1
+        "comments": 2
       },
       "tags": [],
       "evidence": [
         "2 HN points",
-        "1 comments"
+        "2 comments"
       ],
-      "raw_text": "Agentic QA for Marketing ",
+      "raw_text": "Show HN: Conductor sold to Meta. Rebuilding the app (3 days, $170) (MIT) Re: https://news.ycombinator.com/item?id=50369503#50370152 --- Still more to do, and lots of kinks to be worked out, but Conductor 0.92.1’s own frontend can run on this project’s Rust shell and sidecar. Every one of its on-screen strings, native commands and sidecar methods is matched or listed as a deliberate difference. On scripted scenarios, this project’s sidecar produces the same events as Conductor’s. Deliberate differences are documented in docs/decisions.md. Built with Opus 5.5 orchestrating Deepseek-flash agents with Umbel and Pleach (see plotplot.ai) with Sonnet reviewing each batch and Opus fixing what the reviews found. Size: about 197,000 lines of TypeScript and Rust, not counting tests. Cost: About ~50 USD of DeepSeek plus ~70% of a weekly Claude 20x subscription. PS: Oh, and it duplicates some of their cloud functionality by running agents on cloudflare workers/containers",
       "opportunity_type": "Manus型",
-      "score": 30.2,
+      "score": 30.1,
       "dimension_scores": {
         "growth_speed": 30.8,
-        "agent_innovation": 35,
-        "community_signal": 45.0,
-        "api_consumption_potential": 32,
-        "commercialization": 18,
-        "kimi_strategic_fit": 39
+        "agent_innovation": 24,
+        "community_signal": 48.2,
+        "api_consumption_potential": 30,
+        "commercialization": 32,
+        "kimi_strategic_fit": 33
       },
       "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "HN仅2 points、1评论，早期产品，无客户数、收入或模型调用规模证据。",
-      "commercial_summary": "营销场景Agentic QA工具，若验证企业客户付费意愿和模型依赖度，可评估为潜在客户，当前过早。",
+      "reason_to_contact_now": "仅2 HN points/2 comments，且明确使用Opus 5.5+Deepseek-flash+Sonnet组合，无Kimi接入信号",
+      "commercial_summary": "个人复刻项目，依赖Claude/DeepSeek生态，197K行代码但社区冷启动失败，无商业合作价值",
       "confidence": "low",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50400883",
+        "discussion_url": "https://news.ycombinator.com/item?id=50407925",
+        "agent_keyword_hits": [],
+        "commercial_keyword_hits": [
+          "subscription"
+        ],
+        "ecosystem_keyword_hits": []
+      }
+    },
+    {
+      "id": "product-hunt-706fbd0ea9a3",
+      "source": "Product Hunt",
+      "name": "Instagram Edits for Desktop",
+      "url": "https://www.producthunt.com/products/instagram",
+      "description": "Instagram's free desktop video editor with AI agents Discussion | Link",
+      "published_at": "2026-11-05T16:46:05-08:00",
+      "discovered_at": "2026-11-08T07:04:07+00:00",
+      "author": "Justin Jincaid",
+      "metrics": {},
+      "tags": [],
+      "evidence": [
+        "Published via Product Hunt",
+        "2026-11-05T16:46:05-08:00"
+      ],
+      "raw_text": "Instagram Edits for Desktop Instagram's free desktop video editor with AI agents Discussion | Link ",
+      "opportunity_type": "Manus型",
+      "score": 27.6,
+      "dimension_scores": {
+        "growth_speed": 30.0,
+        "agent_innovation": 35,
+        "community_signal": 18.0,
+        "api_consumption_potential": 32,
+        "commercialization": 36,
+        "kimi_strategic_fit": 31
+      },
+      "recommended_action": "暂不跟进",
+      "reason_to_contact_now": "Meta官方产品，PH发布无具体AI agent功能披露，无API接入点",
+      "commercial_summary": "Meta自有消费级产品，封闭生态，无第三方模型API合作空间，直接竞品属性",
+      "confidence": "high",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "metadata": {
+        "feed_url": "https://www.producthunt.com/feed",
+        "content_kind": "product_launch",
+        "original_title": "Instagram Edits for Desktop",
         "agent_keyword_hits": [
-          "agentic"
+          "ai agent"
         ],
         "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": []
@@ -416,7 +478,7 @@
       "url": "https://www.producthunt.com/products/rankfender",
       "description": "The SEO/GEO operating system, built for people and AI agents Discussion | Link",
       "published_at": "2026-11-05T06:05:15-08:00",
-      "discovered_at": "2026-11-07T06:57:12+00:00",
+      "discovered_at": "2026-11-08T07:04:07+00:00",
       "author": "Imed Radhouani",
       "metrics": {},
       "tags": [],
@@ -426,7 +488,7 @@
       ],
       "raw_text": "Rankfender v3.0 The SEO/GEO operating system, built for people and AI agents Discussion | Link ",
       "opportunity_type": "Manus型",
-      "score": 29.6,
+      "score": 27.6,
       "dimension_scores": {
         "growth_speed": 30.0,
         "agent_innovation": 35,
@@ -436,8 +498,8 @@
         "kimi_strategic_fit": 31
       },
       "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "Product Hunt发布SEO/GEO操作系统，提及AI agents但无具体模型集成或API调用规模证据",
-      "commercial_summary": "SEO工具赛道，AI agent仅为功能描述之一，缺乏模型API消费场景，暂不判断为高价值客户或竞品",
+      "reason_to_contact_now": "PH发布无metrics，SEO/GEO工具，'built for AI agents'仅为营销话术，无具体模型集成证据",
+      "commercial_summary": "传统SEO工具蹭Agent概念，无开发者生态或API消费价值，低质量信号",
       "confidence": "low",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
@@ -452,83 +514,44 @@
       }
     },
     {
-      "id": "product-hunt-df0cd1850fa4",
-      "source": "Product Hunt",
-      "name": "Kivo",
-      "url": "https://www.producthunt.com/products/kivo-4",
-      "description": "Free on device dictation for any Mac app and AI agent Discussion | Link",
-      "published_at": "2026-11-05T09:51:26-08:00",
-      "discovered_at": "2026-11-07T06:57:12+00:00",
-      "author": "Gokulakrishnan S",
-      "metrics": {},
+      "id": "hackernews-0f8ad7bc7660",
+      "source": "Hacker News",
+      "name": "Show HN: Codend – Build and publish web apps with AI agents",
+      "url": "https://codend.dev",
+      "description": "Show HN: Codend – Build and publish web apps with AI agents",
+      "published_at": "1794116982",
+      "discovered_at": "2026-11-08T07:04:07+00:00",
+      "author": "anythic",
+      "metrics": {
+        "points": 1,
+        "comments": 0
+      },
       "tags": [],
       "evidence": [
-        "Published via Product Hunt",
-        "2026-11-05T09:51:26-08:00"
+        "1 HN points",
+        "0 comments"
       ],
-      "raw_text": "Kivo Free on device dictation for any Mac app and AI agent Discussion | Link ",
+      "raw_text": "Show HN: Codend – Build and publish web apps with AI agents ",
       "opportunity_type": "Manus型",
-      "score": 29.6,
+      "score": 26.0,
       "dimension_scores": {
-        "growth_speed": 30.0,
+        "growth_speed": 27.5,
         "agent_innovation": 35,
-        "community_signal": 18.0,
+        "community_signal": 33.2,
         "api_consumption_potential": 32,
-        "commercialization": 36,
-        "kimi_strategic_fit": 31
+        "commercialization": 18,
+        "kimi_strategic_fit": 39
       },
       "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "Mac端本地语音输入工具，提及AI agent但核心为on-device dictation，无模型API调用场景",
-      "commercial_summary": "端侧工具，强调本地处理，与云端模型API消费场景相悖，不构成客户或生态机会",
-      "confidence": "low",
+      "reason_to_contact_now": "HN仅1 point、0评论，无用户增长、融资或收入证据，信号极弱。",
+      "commercial_summary": "AI建站工具，早期产品无规模，暂不具API客户或生态价值。",
+      "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
-        "feed_url": "https://www.producthunt.com/feed",
-        "content_kind": "product_launch",
-        "original_title": "Kivo",
+        "discussion_url": "https://news.ycombinator.com/item?id=50410758",
         "agent_keyword_hits": [
           "ai agent"
         ],
-        "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": []
-      }
-    },
-    {
-      "id": "product-hunt-b29f7e0f5f72",
-      "source": "Product Hunt",
-      "name": "Pressure",
-      "url": "https://www.producthunt.com/products/pressure",
-      "description": "Need a second opinion? Have two agents debate your topic Discussion | Link",
-      "published_at": "2026-11-04T17:29:32-08:00",
-      "discovered_at": "2026-11-07T06:57:12+00:00",
-      "author": "Bryan Schwab",
-      "metrics": {},
-      "tags": [],
-      "evidence": [
-        "Published via Product Hunt",
-        "2026-11-04T17:29:32-08:00"
-      ],
-      "raw_text": "Pressure Need a second opinion? Have two agents debate your topic Discussion | Link ",
-      "opportunity_type": "Manus型",
-      "score": 25.8,
-      "dimension_scores": {
-        "growth_speed": 30.0,
-        "agent_innovation": 24,
-        "community_signal": 18.0,
-        "api_consumption_potential": 25,
-        "commercialization": 36,
-        "kimi_strategic_fit": 25
-      },
-      "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "Published via Product Hunt；2026-11-04T17:29:32-08:00",
-      "commercial_summary": "产品型机会，优先判断API调用规模、付费增长和战略客户合作空间。",
-      "confidence": "medium",
-      "scoring_mode": "规则预评分",
-      "metadata": {
-        "feed_url": "https://www.producthunt.com/feed",
-        "content_kind": "product_launch",
-        "original_title": "Pressure",
-        "agent_keyword_hits": [],
         "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": []
       }
