@@ -794,3 +794,13 @@ run_at,id,name,source,score,opportunity_type,recommended_action,metric_name,metr
 2026-11-11T07:38:23+00:00,product-hunt-417b3ebadbde,Seldon,Product Hunt,27.9,Manus型,暂不跟进,none,0.0
 2026-11-11T07:38:23+00:00,product-hunt-d005a63fc6d0,Levo,Product Hunt,26.6,Manus型,暂不跟进,none,0.0
 2026-11-11T07:38:23+00:00,product-hunt-b0dd2cb71ed5,openring,Product Hunt,26.6,Manus型,暂不跟进,none,0.0
+2026-11-12T08:06:45+00:00,github-40e352d34115,agentes-chat/agentes-chat,GitHub,77.5,OpenClaw型,立即联系,stars,616.0
+2026-11-12T08:06:45+00:00,github-7b5c87174147,SsKanDon/blender-ai-mcp-addon,GitHub,69.8,OpenClaw型,持续观察,stars,208.0
+2026-11-12T08:06:45+00:00,github-83debcd2627e,JosssphZhou/poki,GitHub,69.3,OpenClaw型,持续观察,stars,993.0
+2026-11-12T08:06:45+00:00,github-26141eb2e88c,gogoymh/auto-ontology-mcp,GitHub,65.5,OpenClaw型,持续观察,stars,375.0
+2026-11-12T08:06:45+00:00,github-ac64df8c731d,DIYgod/pinky,GitHub,62.5,OpenClaw型,持续观察,stars,1917.0
+2026-11-12T08:06:45+00:00,github-1e0cc2a4d47e,wanshuiyin/SuperARIS,GitHub,59.8,OpenClaw型,持续观察,stars,86.0
+2026-11-12T08:06:45+00:00,product-hunt-e72803a5fefe,Spacefast by Automattic,Product Hunt,31.6,Manus型,暂不跟进,none,0.0
+2026-11-12T08:06:45+00:00,product-hunt-8b437a970a59,Mitra MCP,Product Hunt,30.5,Manus型,暂不跟进,none,0.0
+2026-11-12T08:06:45+00:00,product-hunt-8b8024c3ab38,Insight7 Voice AI Agents,Product Hunt,29.8,Manus型,暂不跟进,none,0.0
+2026-11-12T08:06:45+00:00,product-hunt-27d667e45931,Neura HQ,Product Hunt,29.6,Manus型,暂不跟进,none,0.0

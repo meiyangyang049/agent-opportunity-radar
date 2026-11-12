@@ -1,8 +1,8 @@
 {
   "meta": {
     "project": "Agent Opportunity Radar",
-    "generated_at": "2026-11-11T07:38:23+00:00",
-    "generated_at_display": "2026-11-11 15:38 CST",
+    "generated_at": "2026-11-12T08:06:45+00:00",
+    "generated_at_display": "2026-11-12 16:06 CST",
     "mode": "公开信号实时运行",
     "sources": [
       "GitHub",
@@ -14,21 +14,168 @@
       "AI news RSS: HTTPError: 429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
     ],
     "notices": [],
-    "candidate_pool_size": 38,
+    "candidate_pool_size": 45,
     "pool_by_source": {
       "GitHub": 13,
-      "Hacker News": 14,
-      "Product Hunt": 11
+      "Hacker News": 18,
+      "Product Hunt": 14
     },
     "pool_by_type": {
-      "OpenClaw型": 13,
-      "Manus型": 12,
-      "其他Agent": 13
+      "OpenClaw型": 18,
+      "其他Agent": 13,
+      "Manus型": 14
     },
     "shortlist_policy": "Top 10；OpenClaw型/Manus型各至少4个（候选充足时）",
     "kimi_model": "kimi-k2.6"
   },
   "candidates": [
+    {
+      "id": "github-40e352d34115",
+      "source": "GitHub",
+      "name": "agentes-chat/agentes-chat",
+      "url": "https://github.com/agentes-chat/agentes-chat",
+      "description": "Open-source, self-hosted Slack alternative where your team and AI agents work together in channels and DMs. Agents run on Claude, ChatGPT/Codex, Gemini or Grok, with MCP tools, their own computer and browser, routines, memory and approvals. Web, desktop and phone apps. Docker Compose + Postgres. AGPL-3.0.",
+      "published_at": "2026-11-09T00:50:28Z",
+      "discovered_at": "2026-11-12T08:06:43+00:00",
+      "author": "agentes-chat",
+      "metrics": {
+        "stars": 616,
+        "forks": 78,
+        "open_issues": 61,
+        "watchers": 616
+      },
+      "tags": [
+        "agentic-ai",
+        "ai-agents",
+        "browser-automation",
+        "chat",
+        "claude",
+        "claude-code",
+        "codex",
+        "collaboration",
+        "computer-use",
+        "docker-compose",
+        "gemini",
+        "grok",
+        "human-in-the-loop",
+        "llm",
+        "mcp",
+        "multi-agent",
+        "openai",
+        "self-hosted",
+        "slack-alternative",
+        "team-chat"
+      ],
+      "evidence": [
+        "616 GitHub stars",
+        "78 forks",
+        "Created 2026-11-09"
+      ],
+      "raw_text": "agentes-chat/agentes-chat Open-source, self-hosted Slack alternative where your team and AI agents work together in channels and DMs. Agents run on Claude, ChatGPT/Codex, Gemini or Grok, with MCP tools, their own computer and browser, routines, memory and approvals. Web, desktop and phone apps. Docker Compose + Postgres. AGPL-3.0. agentic-ai ai-agents browser-automation chat claude claude-code codex collaboration computer-use docker-compose gemini grok human-in-the-loop llm mcp multi-agent openai self-hosted slack-alternative team-chat",
+      "opportunity_type": "OpenClaw型",
+      "score": 77.5,
+      "dimension_scores": {
+        "growth_speed": 100.0,
+        "agent_innovation": 68,
+        "community_signal": 100.0,
+        "api_consumption_potential": 71,
+        "commercialization": 18,
+        "kimi_strategic_fit": 65
+      },
+      "recommended_action": "立即联系",
+      "reason_to_contact_now": "616 GitHub stars，78 forks，AGPL-3.0自托管Slack替代方案，已集成Claude/ChatGPT/Gemini/Grok但无Kimi",
+      "commercial_summary": "高星开源多Agent协作平台，具备MCP工具链和浏览器自动化能力，是模型接入合作的优先目标，可争取成为默认Provider或联合社区推广",
+      "confidence": "medium",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "metadata": {
+        "language": "TypeScript",
+        "updated_at": "2026-11-12T08:02:28Z",
+        "homepage": "https://agentes.chat",
+        "agent_keyword_hits": [
+          "agentic",
+          "ai agent",
+          "mcp",
+          "multi-agent"
+        ],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": [
+          "self-hosted"
+        ]
+      }
+    },
+    {
+      "id": "github-7b5c87174147",
+      "source": "GitHub",
+      "name": "SsKanDon/blender-ai-mcp-addon",
+      "url": "https://github.com/SsKanDon/blender-ai-mcp-addon",
+      "description": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
+      "published_at": "2026-11-11T17:24:32Z",
+      "discovered_at": "2026-11-12T08:06:42+00:00",
+      "author": "SsKanDon",
+      "metrics": {
+        "stars": 208,
+        "forks": 2,
+        "open_issues": 1,
+        "watchers": 208
+      },
+      "tags": [
+        "ai-agents",
+        "ai-assistant",
+        "blender",
+        "blender-addon",
+        "blender-ai",
+        "blender-automation",
+        "blender-mcp",
+        "blender-plugin",
+        "blender-scripting",
+        "bpy",
+        "chatgpt",
+        "claude",
+        "gemini",
+        "llm",
+        "mcp",
+        "mcp-for-blender",
+        "mcp-server",
+        "model-context-protocol",
+        "ollama",
+        "opencode"
+      ],
+      "evidence": [
+        "208 GitHub stars",
+        "2 forks",
+        "Created 2026-11-11"
+      ],
+      "raw_text": "SsKanDon/blender-ai-mcp-addon AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration. ai-agents ai-assistant blender blender-addon blender-ai blender-automation blender-mcp blender-plugin blender-scripting bpy chatgpt claude gemini llm mcp mcp-for-blender mcp-server model-context-protocol ollama opencode",
+      "opportunity_type": "OpenClaw型",
+      "score": 69.8,
+      "dimension_scores": {
+        "growth_speed": 100.0,
+        "agent_innovation": 46,
+        "community_signal": 85.6,
+        "api_consumption_potential": 57,
+        "commercialization": 18,
+        "kimi_strategic_fit": 61
+      },
+      "recommended_action": "持续观察",
+      "reason_to_contact_now": "208 GitHub stars，2 forks，11月11日新建，Blender MCP服务器支持多模型但无Kimi",
+      "commercial_summary": "垂直3D创作领域的MCP工具，社区增长快但fork率极低，若星标持续攀升可接触推动Kimi接入Blender工作流",
+      "confidence": "medium",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "metadata": {
+        "language": null,
+        "updated_at": "2026-11-12T08:03:29Z",
+        "homepage": null,
+        "agent_keyword_hits": [
+          "mcp",
+          "multi-agent"
+        ],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": [
+          "integration",
+          "plugin"
+        ]
+      }
+    },
     {
       "id": "github-83debcd2627e",
       "source": "GitHub",
@@ -36,13 +183,13 @@
       "url": "https://github.com/JosssphZhou/poki",
       "description": "Let AI agents operate a real iPhone. Local MCP server and agent, no jailbreak, no extra hardware.",
       "published_at": "2026-11-05T15:04:31Z",
-      "discovered_at": "2026-11-11T07:38:18+00:00",
+      "discovered_at": "2026-11-12T08:06:41+00:00",
       "author": "JosssphZhou",
       "metrics": {
-        "stars": 943,
-        "forks": 177,
-        "open_issues": 23,
-        "watchers": 943
+        "stars": 993,
+        "forks": 182,
+        "open_issues": 69,
+        "watchers": 993
       },
       "tags": [
         "ai-agents",
@@ -53,9 +200,9 @@
         "model-context-protocol"
       ],
       "evidence": [
-        "+121 stars since last run",
-        "943 GitHub stars",
-        "177 forks",
+        "+50 stars since last run",
+        "993 GitHub stars",
+        "182 forks",
         "Created 2026-11-05"
       ],
       "raw_text": "JosssphZhou/poki Let AI agents operate a real iPhone. Local MCP server and agent, no jailbreak, no extra hardware. ai-agents automation ios iphone mcp model-context-protocol",
@@ -70,13 +217,13 @@
         "kimi_strategic_fit": 45
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "+121 stars since last run；943 GitHub stars；177 forks；Swift实现本地MCP server控制真机iPhone",
-      "commercial_summary": "iOS Agent基础设施层，MCP协议+真机操控能力，具备成为Kimi模型在移动端落地默认Provider的潜力，需跟踪其模型接入策略",
+      "reason_to_contact_now": "993 GitHub stars，182 forks，+50 stars增速，Swift实现的iPhone本地MCP Agent，无LLM API key设计但需模型端支持",
+      "commercial_summary": "高星增长极快的移动端Agent基础设施，iOS原生MCP能力稀缺，若其扩展云端模型接入可争取Kimi成为移动端中文场景首选",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "language": "Swift",
-        "updated_at": "2026-11-11T07:32:41Z",
+        "updated_at": "2026-11-12T08:05:58Z",
         "homepage": "https://poki.bot",
         "agent_keyword_hits": [
           "ai agent",
@@ -84,8 +231,8 @@
         ],
         "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": [],
-        "metric_delta": 121.0,
-        "metric_velocity_per_day": 123.62561343345357
+        "metric_delta": 50.0,
+        "metric_velocity_per_day": 49.03407414133618
       }
     },
     {
@@ -95,13 +242,13 @@
       "url": "https://github.com/gogoymh/auto-ontology-mcp",
       "description": "NVIDIA Auto Ontology's semantic layer and a personal knowledge base as an MCP server for Claude, ChatGPT and other MCP clients. No LLM API key needed.",
       "published_at": "2026-11-06T12:09:07Z",
-      "discovered_at": "2026-11-11T07:38:19+00:00",
+      "discovered_at": "2026-11-12T08:06:42+00:00",
       "author": "gogoymh",
       "metrics": {
-        "stars": 328,
-        "forks": 47,
+        "stars": 375,
+        "forks": 51,
         "open_issues": 0,
-        "watchers": 328
+        "watchers": 375
       },
       "tags": [
         "chatgpt",
@@ -114,16 +261,16 @@
         "text-to-sql"
       ],
       "evidence": [
-        "+54 stars since last run",
-        "328 GitHub stars",
-        "47 forks",
+        "+47 stars since last run",
+        "375 GitHub stars",
+        "51 forks",
         "Created 2026-11-06"
       ],
       "raw_text": "gogoymh/auto-ontology-mcp NVIDIA Auto Ontology's semantic layer and a personal knowledge base as an MCP server for Claude, ChatGPT and other MCP clients. No LLM API key needed. chatgpt claude mcp mcp-server model-context-protocol ontology semantic-layer text-to-sql",
       "opportunity_type": "OpenClaw型",
-      "score": 66.7,
+      "score": 65.5,
       "dimension_scores": {
-        "growth_speed": 100.0,
+        "growth_speed": 99.3,
         "agent_innovation": 35,
         "community_signal": 100.0,
         "api_consumption_potential": 37,
@@ -131,13 +278,13 @@
         "kimi_strategic_fit": 39
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "+54 stars since last run；328 GitHub stars；47 forks；NVIDIA关联语义层+MCP server",
-      "commercial_summary": "NVIDIA生态的MCP知识库中间件，text-to-sql+ontology能力，需判断是否与Kimi形成互补合作或成为竞品生态壁垒",
+      "reason_to_contact_now": "375 GitHub stars，51 forks，+47 stars增速，NVIDIA关联语义层MCP服务器，明确标注No LLM API key needed",
+      "commercial_summary": "NVIDIA背书的MCP基础设施，无需LLM API key的设计可能限制直接消费，但语义层工具可丰富Kimi生态插件库，观察其客户端扩展方向",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "language": "Python",
-        "updated_at": "2026-11-11T07:31:16Z",
+        "updated_at": "2026-11-12T06:22:19Z",
         "homepage": null,
         "agent_keyword_hits": [
           "mcp"
@@ -146,8 +293,8 @@
           "api"
         ],
         "ecosystem_keyword_hits": [],
-        "metric_delta": 54.0,
-        "metric_velocity_per_day": 55.1717613669958
+        "metric_delta": 47.0,
+        "metric_velocity_per_day": 46.09202969285601
       }
     },
     {
@@ -157,24 +304,24 @@
       "url": "https://github.com/DIYgod/pinky",
       "description": "Let AI agents use your phone, with you in the loop.",
       "published_at": "2026-11-06T16:53:14Z",
-      "discovered_at": "2026-11-11T07:38:18+00:00",
+      "discovered_at": "2026-11-12T08:06:41+00:00",
       "author": "DIYgod",
       "metrics": {
-        "stars": 1768,
-        "forks": 189,
-        "open_issues": 22,
-        "watchers": 1768
+        "stars": 1917,
+        "forks": 199,
+        "open_issues": 20,
+        "watchers": 1917
       },
       "tags": [],
       "evidence": [
-        "+217 stars since last run",
-        "1,768 GitHub stars",
-        "189 forks",
+        "+149 stars since last run",
+        "1,917 GitHub stars",
+        "199 forks",
         "Created 2026-11-06"
       ],
       "raw_text": "DIYgod/pinky Let AI agents use your phone, with you in the loop. ",
       "opportunity_type": "OpenClaw型",
-      "score": 66.5,
+      "score": 62.5,
       "dimension_scores": {
         "growth_speed": 100.0,
         "agent_innovation": 35,
@@ -184,21 +331,21 @@
         "kimi_strategic_fit": 39
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "+217 stars since last run；1,768 GitHub stars；189 forks；Go实现、human-in-the-loop手机操控Agent",
-      "commercial_summary": "手机Agent开源基础设施中社区热度最高项目之一，human-in-the-loop设计降低合规风险，具备成为Kimi移动端Agent默认模型接入点的战略价值",
+      "reason_to_contact_now": "6天内获1917 stars，增速149/天，Go语言手机Agent控制框架",
+      "commercial_summary": "高星开源手机Agent基础设施，需确认是否支持多模型Provider及MCP扩展性，若默认仅OpenAI则生态价值受限",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "language": "Go",
-        "updated_at": "2026-11-11T07:36:16Z",
+        "updated_at": "2026-11-12T08:04:13Z",
         "homepage": null,
         "agent_keyword_hits": [
           "ai agent"
         ],
         "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": [],
-        "metric_delta": 217.0,
-        "metric_velocity_per_day": 221.7087447525572
+        "metric_delta": 149.0,
+        "metric_velocity_per_day": 146.1215409411818
       }
     },
     {
@@ -208,13 +355,13 @@
       "url": "https://github.com/wanshuiyin/SuperARIS",
       "description": "SuperARIS — Your personal research agent with ARIS (Auto Research In Sleep), powered by a team of agents.",
       "published_at": "2026-11-08T05:12:40Z",
-      "discovered_at": "2026-11-11T07:38:19+00:00",
+      "discovered_at": "2026-11-12T08:06:41+00:00",
       "author": "wanshuiyin",
       "metrics": {
-        "stars": 77,
-        "forks": 7,
-        "open_issues": 1,
-        "watchers": 77
+        "stars": 86,
+        "forks": 8,
+        "open_issues": 0,
+        "watchers": 86
       },
       "tags": [
         "agent-orchestration",
@@ -232,230 +379,164 @@
         "superagent"
       ],
       "evidence": [
-        "77 GitHub stars",
-        "7 forks",
+        "+9 stars since last run",
+        "86 GitHub stars",
+        "8 forks",
         "Created 2026-11-08"
       ],
       "raw_text": "wanshuiyin/SuperARIS SuperARIS — Your personal research agent with ARIS (Auto Research In Sleep), powered by a team of agents. agent-orchestration ai-research aris claude-code codex gemini herdr mcp multi-agent personal-agent research-automation research-workflow superagent",
       "opportunity_type": "OpenClaw型",
-      "score": 64.3,
+      "score": 59.8,
       "dimension_scores": {
-        "growth_speed": 70.8,
+        "growth_speed": 71.1,
         "agent_innovation": 46,
-        "community_signal": 82.6,
+        "community_signal": 84.7,
         "api_consumption_potential": 57,
         "commercialization": 18,
         "kimi_strategic_fit": 45
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "77 stars/7 forks/3天，明确multi-agent+MCP架构，支持Claude/Codex/Gemini多模型",
-      "commercial_summary": "多Agent研究自动化框架，模型切换灵活度高，存在接入Kimi API的潜在合作空间，需跟踪默认模型配置",
+      "reason_to_contact_now": "4天86 stars增速9，Python多Agent研究框架，标签含mcp/multi-agent/claude-code/codex/gemini",
+      "commercial_summary": "多Agent研究自动化框架，已标注多模型支持（Claude/Codex/Gemini），需确认是否已接入国产模型及默认Provider策略",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "language": "Python",
-        "updated_at": "2026-11-11T05:49:18Z",
+        "updated_at": "2026-11-12T02:58:42Z",
         "homepage": "https://wanshuiyin.github.io/SuperARIS/",
         "agent_keyword_hits": [
           "mcp",
           "multi-agent"
         ],
         "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": []
-      }
-    },
-    {
-      "id": "github-add41b1dc330",
-      "source": "GitHub",
-      "name": "voyager-so/vork",
-      "url": "https://github.com/voyager-so/vork",
-      "description": "Headless 3D and VFX engine for agents. Research preview.",
-      "published_at": "2026-11-05T22:37:07Z",
-      "discovered_at": "2026-11-11T07:38:18+00:00",
-      "author": "voyager-so",
-      "metrics": {
-        "stars": 1366,
-        "forks": 111,
-        "open_issues": 7,
-        "watchers": 1366
-      },
-      "tags": [
-        "3d",
-        "ai-agents",
-        "gpu",
-        "metal",
-        "ray-tracing",
-        "rendering",
-        "rust",
-        "slang",
-        "vfx",
-        "vulkan"
-      ],
-      "evidence": [
-        "+46 stars since last run",
-        "1,366 GitHub stars",
-        "111 forks",
-        "Created 2026-11-05"
-      ],
-      "raw_text": "voyager-so/vork Headless 3D and VFX engine for agents. Research preview. 3d ai-agents gpu metal ray-tracing rendering rust slang vfx vulkan",
-      "opportunity_type": "OpenClaw型",
-      "score": 62.6,
-      "dimension_scores": {
-        "growth_speed": 100.0,
-        "agent_innovation": 24,
-        "community_signal": 100.0,
-        "api_consumption_potential": 25,
-        "commercialization": 18,
-        "kimi_strategic_fit": 33
-      },
-      "recommended_action": "持续观察",
-      "reason_to_contact_now": "1366 stars、111 forks，+46日增速，Headless 3D/VFX engine for agents定位明确",
-      "commercial_summary": "3D Agent基础设施，若形成标准渲染管线可成为高价值模型API客户或生态伙伴，需验证模型集成方式",
-      "confidence": "medium",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "language": "Rust",
-        "updated_at": "2026-11-11T06:27:16Z",
-        "homepage": "https://voyager.so/vork",
-        "agent_keyword_hits": [],
-        "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": [],
-        "metric_delta": 46.0,
-        "metric_velocity_per_day": 46.99816709040383
+        "metric_delta": 9.0,
+        "metric_velocity_per_day": 8.826133345440512
       }
     },
     {
-      "id": "github-54184d49c932",
-      "source": "GitHub",
-      "name": "lxe/phoneuse",
-      "url": "https://github.com/lxe/phoneuse",
-      "description": "See and operate an unmodified iPhone from a Linux PC: AirPlay mirror in, Bluetooth HID mouse/keyboard out, plus a CLI and skill for agents.",
-      "published_at": "2026-11-07T01:28:30Z",
-      "discovered_at": "2026-11-11T07:38:18+00:00",
-      "author": "lxe",
-      "metrics": {
-        "stars": 588,
-        "forks": 58,
-        "open_issues": 10,
-        "watchers": 588
-      },
-      "tags": [],
-      "evidence": [
-        "+101 stars since last run",
-        "588 GitHub stars",
-        "58 forks",
-        "Created 2026-11-07"
-      ],
-      "raw_text": "lxe/phoneuse See and operate an unmodified iPhone from a Linux PC: AirPlay mirror in, Bluetooth HID mouse/keyboard out, plus a CLI and skill for agents. ",
-      "opportunity_type": "OpenClaw型",
-      "score": 60.4,
-      "dimension_scores": {
-        "growth_speed": 100.0,
-        "agent_innovation": 24,
-        "community_signal": 100.0,
-        "api_consumption_potential": 25,
-        "commercialization": 18,
-        "kimi_strategic_fit": 41
-      },
-      "recommended_action": "持续观察",
-      "reason_to_contact_now": "+101 stars since last run；588 GitHub stars；58 forks；Linux PC控制未修改iPhone，AirPlay+Bluetooth HID方案",
-      "commercial_summary": "poki/pinky的替代技术路线（非MCP、非越狱），skill for agents定位明确，需跟踪其是否向MCP迁移或形成独立Agent生态",
-      "confidence": "medium",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "language": "Python",
-        "updated_at": "2026-11-11T07:09:07Z",
-        "homepage": null,
-        "agent_keyword_hits": [],
-        "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": [
-          "skill"
-        ],
-        "metric_delta": 101.0,
-        "metric_velocity_per_day": 50.67125005806662
-      }
-    },
-    {
-      "id": "hackernews-f52057718bac",
-      "source": "Hacker News",
-      "name": "Show HN: Mimzie, an agent-neutral alternative to the Claude Suite/Claude Cowork",
-      "url": "https://mimzie.com/",
-      "description": "hi HN! I built Mimzie, an agent neutral AI workspace inspired by the Claude Suite (Docs, Sheets, Slides) and Cowork. It's a free desktop app that runs ChatGPT, Claude, Gemini, and Grok in their native CLI harnesses. Think T3 Code or Conductor but for knowledge work. It's basically a GUI for managing knowledge work agents in various form factors. One of those form factors is Bots, akin to Grok Bot or Dots. The original idea for mimzie was simple: I pay for Claude and ChatGPT, and a lot of my day-to-day work lives in .xlsx, .pptx and .docx files. Moreover, I was sick and tired of losing context between AI platforms. I didn't want to bet the house on one AI lab's product, be it the ChatGPT or the Claude Desktop app. So I built an AI desktop app that was agent neutral. The goal of mimzie is to bring the kind of agent workflows that devs have had with codex and claude code into the hands of everyone. And to have a friendly GUI to do it. I've found that the personal agents, hermes and openclaw, are intimidating to set up and confusing to the average non-technical person. some of the core principles of mimzie: - your file stays your file: edits are done locally and .docx, .pptx, .xlsx, and .md and synced to the cloud after - every change is reviewable: edits show up as tracked diffs that you accept or reject, at the smallest unit that makes sense (e.g. a sentence in .docx) - free, and no new subscription needed: bring whichever AI plan or plans you already have. You shouldn't have to pay twice for the same inference, and you SHOULD take advantage of the insane subsidization in the current ChatGPT and Claude plans. - Bots with any AI: I love the concept of grok bot, not so much its limited choice of models. I strongly believe that long-standing \"ai teammates\" should be agent neutral and in your control Try mimzie out: it's a free beta at mimzie.com it's early, lots of rough edges, but I've had the time of my life developing it. I'd love to answer questions and hear any and all feedback.",
-      "published_at": "1794356985",
-      "discovered_at": "2026-11-11T07:38:23+00:00",
-      "author": "kyleandruczk",
-      "metrics": {
-        "points": 5,
-        "comments": 0
-      },
-      "tags": [],
-      "evidence": [
-        "5 HN points",
-        "0 comments"
-      ],
-      "raw_text": "Show HN: Mimzie, an agent-neutral alternative to the Claude Suite/Claude Cowork hi HN! I built Mimzie, an agent neutral AI workspace inspired by the Claude Suite (Docs, Sheets, Slides) and Cowork. It's a free desktop app that runs ChatGPT, Claude, Gemini, and Grok in their native CLI harnesses. Think T3 Code or Conductor but for knowledge work. It's basically a GUI for managing knowledge work agents in various form factors. One of those form factors is Bots, akin to Grok Bot or Dots. The original idea for mimzie was simple: I pay for Claude and ChatGPT, and a lot of my day-to-day work lives in .xlsx, .pptx and .docx files. Moreover, I was sick and tired of losing context between AI platforms. I didn't want to bet the house on one AI lab's product, be it the ChatGPT or the Claude Desktop app. So I built an AI desktop app that was agent neutral. The goal of mimzie is to bring the kind of agent workflows that devs have had with codex and claude code into the hands of everyone. And to have a friendly GUI to do it. I've found that the personal agents, hermes and openclaw, are intimidating to set up and confusing to the average non-technical person. some of the core principles of mimzie: - your file stays your file: edits are done locally and .docx, .pptx, .xlsx, and .md and synced to the cloud after - every change is reviewable: edits show up as tracked diffs that you accept or reject, at the smallest unit that makes sense (e.g. a sentence in .docx) - free, and no new subscription needed: bring whichever AI plan or plans you already have. You shouldn't have to pay twice for the same inference, and you SHOULD take advantage of the insane subsidization in the current ChatGPT and Claude plans. - Bots with any AI: I love the concept of grok bot, not so much its limited choice of models. I strongly believe that long-standing \"ai teammates\" should be agent neutral and in your control Try mimzie out: it's a free beta at mimzie.com it's early, lots of rough edges, but I've had the time of my life developing it. I'd love to answer questions and hear any and all feedback.",
-      "opportunity_type": "Manus型",
-      "score": 35.4,
-      "dimension_scores": {
-        "growth_speed": 36.3,
-        "agent_innovation": 35,
-        "community_signal": 48.5,
-        "api_consumption_potential": 37,
-        "commercialization": 32,
-        "kimi_strategic_fit": 39
-      },
-      "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "5 HN points；0 comments；agent-neutral定位但无API调用规模证据",
-      "commercial_summary": "聚合型桌面Agent工作台，商业模式为利用用户已有订阅而非自建API消费，Kimi作为被接入方价值有限，且早期信号极弱",
-      "confidence": "low",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "discussion_url": "https://news.ycombinator.com/item?id=50448283",
-        "agent_keyword_hits": [
-          "openclaw"
-        ],
-        "commercial_keyword_hits": [
-          "subscription"
-        ],
-        "ecosystem_keyword_hits": []
-      }
-    },
-    {
-      "id": "product-hunt-417b3ebadbde",
+      "id": "product-hunt-e72803a5fefe",
       "source": "Product Hunt",
-      "name": "Seldon",
-      "url": "https://www.producthunt.com/products/seldon",
-      "description": "Behavioral QA agents that use your product like customers do Discussion | Link",
-      "published_at": "2026-11-09T17:18:21-08:00",
-      "discovered_at": "2026-11-11T07:38:23+00:00",
-      "author": "Chris Messina",
+      "name": "Spacefast by Automattic",
+      "url": "https://www.producthunt.com/products/spacefast-by-automattic",
+      "description": "Give your AI agents a place to build, run, and ship Discussion | Link",
+      "published_at": "2026-11-09T14:40:16-08:00",
+      "discovered_at": "2026-11-12T08:06:45+00:00",
+      "author": "Justin Jincaid",
       "metrics": {},
       "tags": [],
       "evidence": [
         "Published via Product Hunt",
-        "2026-11-09T17:18:21-08:00"
+        "2026-11-09T14:40:16-08:00"
       ],
-      "raw_text": "Seldon Behavioral QA agents that use your product like customers do Discussion | Link ",
+      "raw_text": "Spacefast by Automattic Give your AI agents a place to build, run, and ship Discussion | Link ",
       "opportunity_type": "Manus型",
-      "score": 27.9,
+      "score": 31.6,
       "dimension_scores": {
         "growth_speed": 30.0,
-        "agent_innovation": 24,
+        "agent_innovation": 35,
         "community_signal": 18.0,
-        "api_consumption_potential": 30,
-        "commercialization": 50,
-        "kimi_strategic_fit": 25
+        "api_consumption_potential": 32,
+        "commercialization": 36,
+        "kimi_strategic_fit": 31
       },
       "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "Published via Product Hunt；2026-11-09T17:18:21-08:00",
-      "commercial_summary": "产品型机会，优先判断API调用规模、付费增长和战略客户合作空间。",
+      "reason_to_contact_now": "Automattic（WordPress母公司）发布，Product Hunt上线无运营数据",
+      "commercial_summary": "Automattic背书的企业级Agent运行平台，若WordPress生态集成则潜在API规模大，但当前无客户或调用量证据",
       "confidence": "medium",
-      "scoring_mode": "规则预评分",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "feed_url": "https://www.producthunt.com/feed",
         "content_kind": "product_launch",
-        "original_title": "Seldon",
-        "agent_keyword_hits": [],
+        "original_title": "Spacefast by Automattic",
+        "agent_keyword_hits": [
+          "ai agent"
+        ],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": []
+      }
+    },
+    {
+      "id": "product-hunt-8b437a970a59",
+      "source": "Product Hunt",
+      "name": "Mitra MCP",
+      "url": "https://www.producthunt.com/products/mitra-5",
+      "description": "Give your AI agents access to your personal phone line Discussion | Link",
+      "published_at": "2026-11-10T10:52:46-08:00",
+      "discovered_at": "2026-11-12T08:06:45+00:00",
+      "author": "Sai Mandava",
+      "metrics": {},
+      "tags": [],
+      "evidence": [
+        "Published via Product Hunt",
+        "2026-11-10T10:52:46-08:00"
+      ],
+      "raw_text": "Mitra MCP Give your AI agents access to your personal phone line Discussion | Link ",
+      "opportunity_type": "Manus型",
+      "score": 30.5,
+      "dimension_scores": {
+        "growth_speed": 30.0,
+        "agent_innovation": 46,
+        "community_signal": 18.0,
+        "api_consumption_potential": 39,
+        "commercialization": 36,
+        "kimi_strategic_fit": 37
+      },
+      "recommended_action": "暂不跟进",
+      "reason_to_contact_now": "Product Hunt发布，仅描述为AI代理访问个人电话线，无用户数据、无融资信息、无模型依赖细节",
+      "commercial_summary": "单点工具型产品，API消费规模不明，缺乏商业化验证信号，暂不构成高价值客户或生态伙伴",
+      "confidence": "low",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "metadata": {
+        "feed_url": "https://www.producthunt.com/feed",
+        "content_kind": "product_launch",
+        "original_title": "Mitra MCP",
+        "agent_keyword_hits": [
+          "ai agent",
+          "mcp"
+        ],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": []
+      }
+    },
+    {
+      "id": "product-hunt-8b8024c3ab38",
+      "source": "Product Hunt",
+      "name": "Insight7 Voice AI Agents",
+      "url": "https://www.producthunt.com/products/insight7",
+      "description": "AI voice agents that call your customers for you Discussion | Link",
+      "published_at": "2026-11-11T05:19:50-08:00",
+      "discovered_at": "2026-11-12T08:06:45+00:00",
+      "author": "Clinton Folaranmi",
+      "metrics": {},
+      "tags": [],
+      "evidence": [
+        "Published via Product Hunt",
+        "2026-11-11T05:19:50-08:00"
+      ],
+      "raw_text": "Insight7 Voice AI Agents AI voice agents that call your customers for you Discussion | Link ",
+      "opportunity_type": "Manus型",
+      "score": 29.8,
+      "dimension_scores": {
+        "growth_speed": 30.0,
+        "agent_innovation": 35,
+        "community_signal": 18.0,
+        "api_consumption_potential": 37,
+        "commercialization": 50,
+        "kimi_strategic_fit": 31
+      },
+      "recommended_action": "暂不跟进",
+      "reason_to_contact_now": "Product Hunt发布，AI语音外呼产品，无用户数据、无收入信息、无技术栈细节",
+      "commercial_summary": "语音Agent SaaS竞品方向，但信号极弱，缺乏API调用规模或付费验证，暂无法评估客户价值",
+      "confidence": "low",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "metadata": {
+        "feed_url": "https://www.producthunt.com/feed",
+        "content_kind": "product_launch",
+        "original_title": "Insight7 Voice AI Agents",
+        "agent_keyword_hits": [
+          "ai agent"
+        ],
         "commercial_keyword_hits": [
           "customer"
         ],
@@ -463,23 +544,23 @@
       }
     },
     {
-      "id": "product-hunt-d005a63fc6d0",
+      "id": "product-hunt-27d667e45931",
       "source": "Product Hunt",
-      "name": "Levo",
-      "url": "https://www.producthunt.com/products/levo-3",
-      "description": "Your AI agent finds what's safe to delete on your Mac Discussion | Link",
-      "published_at": "2026-11-07T13:30:59-08:00",
-      "discovered_at": "2026-11-11T07:38:23+00:00",
-      "author": "Cristian Rus",
+      "name": "Neura HQ",
+      "url": "https://www.producthunt.com/products/neura-4",
+      "description": "The agentic conversational storefront for consumer brands Discussion | Link",
+      "published_at": "2026-11-04T03:07:16-08:00",
+      "discovered_at": "2026-11-12T08:06:45+00:00",
+      "author": "Kevin William David",
       "metrics": {},
       "tags": [],
       "evidence": [
         "Published via Product Hunt",
-        "2026-11-07T13:30:59-08:00"
+        "2026-11-04T03:07:16-08:00"
       ],
-      "raw_text": "Levo Your AI agent finds what's safe to delete on your Mac Discussion | Link ",
+      "raw_text": "Neura HQ The agentic conversational storefront for consumer brands Discussion | Link ",
       "opportunity_type": "Manus型",
-      "score": 26.6,
+      "score": 29.6,
       "dimension_scores": {
         "growth_speed": 30.0,
         "agent_innovation": 35,
@@ -489,58 +570,16 @@
         "kimi_strategic_fit": 31
       },
       "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "Product Hunt发布；无metrics；Mac清理工具类Agent，赛道拥挤",
-      "commercial_summary": "终端用户工具型Agent，本地执行、无 evident API依赖，缺乏成为Kimi高价值客户或生态伙伴的信号",
+      "reason_to_contact_now": "Product Hunt发布，仅提及\"agentic conversational storefront\"，无用户数据或融资信息",
+      "commercial_summary": "消费品牌对话式前端，API消费潜力取决于品牌客户规模，当前信息不足判断实际调用量",
       "confidence": "low",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "feed_url": "https://www.producthunt.com/feed",
         "content_kind": "product_launch",
-        "original_title": "Levo",
+        "original_title": "Neura HQ",
         "agent_keyword_hits": [
-          "ai agent"
-        ],
-        "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": []
-      }
-    },
-    {
-      "id": "product-hunt-b0dd2cb71ed5",
-      "source": "Product Hunt",
-      "name": "openring",
-      "url": "https://www.producthunt.com/products/openring",
-      "description": "Open-source voice AI agents with no platform fee Discussion | Link",
-      "published_at": "2026-11-09T17:26:14-08:00",
-      "discovered_at": "2026-11-11T07:38:23+00:00",
-      "author": "Alan Rocha",
-      "metrics": {},
-      "tags": [],
-      "evidence": [
-        "Published via Product Hunt",
-        "2026-11-09T17:26:14-08:00"
-      ],
-      "raw_text": "openring Open-source voice AI agents with no platform fee Discussion | Link ",
-      "opportunity_type": "Manus型",
-      "score": 26.6,
-      "dimension_scores": {
-        "growth_speed": 30.0,
-        "agent_innovation": 35,
-        "community_signal": 18.0,
-        "api_consumption_potential": 32,
-        "commercialization": 36,
-        "kimi_strategic_fit": 31
-      },
-      "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "Product Hunt发布；无metrics；强调no platform fee的voice Agent",
-      "commercial_summary": "voice Agent平台，商业模式为替代现有平台收费而非API消费，缺乏与Kimi API直接合作的 evident 路径",
-      "confidence": "low",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "feed_url": "https://www.producthunt.com/feed",
-        "content_kind": "product_launch",
-        "original_title": "openring",
-        "agent_keyword_hits": [
-          "ai agent"
+          "agentic"
         ],
         "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": []
