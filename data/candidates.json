@@ -1,8 +1,8 @@
 {
   "meta": {
     "project": "Agent Opportunity Radar",
-    "generated_at": "2026-11-12T08:06:45+00:00",
-    "generated_at_display": "2026-11-12 16:06 CST",
+    "generated_at": "2026-11-13T07:42:50+00:00",
+    "generated_at_display": "2026-11-13 15:42 CST",
     "mode": "公开信号实时运行",
     "sources": [
       "GitHub",
@@ -14,16 +14,16 @@
       "AI news RSS: HTTPError: 429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
     ],
     "notices": [],
-    "candidate_pool_size": 45,
+    "candidate_pool_size": 46,
     "pool_by_source": {
-      "GitHub": 13,
-      "Hacker News": 18,
-      "Product Hunt": 14
+      "GitHub": 14,
+      "Hacker News": 20,
+      "Product Hunt": 12
     },
     "pool_by_type": {
       "OpenClaw型": 18,
-      "其他Agent": 13,
-      "Manus型": 14
+      "其他Agent": 15,
+      "Manus型": 13
     },
     "shortlist_policy": "Top 10；OpenClaw型/Manus型各至少4个（候选充足时）",
     "kimi_model": "kimi-k2.6"
@@ -36,13 +36,13 @@
       "url": "https://github.com/agentes-chat/agentes-chat",
       "description": "Open-source, self-hosted Slack alternative where your team and AI agents work together in channels and DMs. Agents run on Claude, ChatGPT/Codex, Gemini or Grok, with MCP tools, their own computer and browser, routines, memory and approvals. Web, desktop and phone apps. Docker Compose + Postgres. AGPL-3.0.",
       "published_at": "2026-11-09T00:50:28Z",
-      "discovered_at": "2026-11-12T08:06:43+00:00",
+      "discovered_at": "2026-11-13T07:42:46+00:00",
       "author": "agentes-chat",
       "metrics": {
-        "stars": 616,
-        "forks": 78,
-        "open_issues": 61,
-        "watchers": 616
+        "stars": 1250,
+        "forks": 203,
+        "open_issues": 151,
+        "watchers": 1250
       },
       "tags": [
         "agentic-ai",
@@ -67,8 +67,9 @@
         "team-chat"
       ],
       "evidence": [
-        "616 GitHub stars",
-        "78 forks",
+        "+634 stars since last run",
+        "1,250 GitHub stars",
+        "203 forks",
         "Created 2026-11-09"
       ],
       "raw_text": "agentes-chat/agentes-chat Open-source, self-hosted Slack alternative where your team and AI agents work together in channels and DMs. Agents run on Claude, ChatGPT/Codex, Gemini or Grok, with MCP tools, their own computer and browser, routines, memory and approvals. Web, desktop and phone apps. Docker Compose + Postgres. AGPL-3.0. agentic-ai ai-agents browser-automation chat claude claude-code codex collaboration computer-use docker-compose gemini grok human-in-the-loop llm mcp multi-agent openai self-hosted slack-alternative team-chat",
@@ -83,13 +84,13 @@
         "kimi_strategic_fit": 65
       },
       "recommended_action": "立即联系",
-      "reason_to_contact_now": "616 GitHub stars，78 forks，AGPL-3.0自托管Slack替代方案，已集成Claude/ChatGPT/Gemini/Grok但无Kimi",
-      "commercial_summary": "高星开源多Agent协作平台，具备MCP工具链和浏览器自动化能力，是模型接入合作的优先目标，可争取成为默认Provider或联合社区推广",
+      "reason_to_contact_now": "+634 stars since last run；1,250 GitHub stars；203 forks；支持Claude/ChatGPT/Codex/Gemini/Grok多模型接入，自托管部署",
+      "commercial_summary": "高潜力开发者生态入口：多模型Agent协作平台+自托管属性，可推动Kimi成为其新增模型Provider，切入团队Agent工作流",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "language": "TypeScript",
-        "updated_at": "2026-11-12T08:02:28Z",
+        "updated_at": "2026-11-13T07:38:47Z",
         "homepage": "https://agentes.chat",
         "agent_keyword_hits": [
           "agentic",
@@ -100,201 +101,9 @@
         "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": [
           "self-hosted"
-        ]
-      }
-    },
-    {
-      "id": "github-7b5c87174147",
-      "source": "GitHub",
-      "name": "SsKanDon/blender-ai-mcp-addon",
-      "url": "https://github.com/SsKanDon/blender-ai-mcp-addon",
-      "description": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
-      "published_at": "2026-11-11T17:24:32Z",
-      "discovered_at": "2026-11-12T08:06:42+00:00",
-      "author": "SsKanDon",
-      "metrics": {
-        "stars": 208,
-        "forks": 2,
-        "open_issues": 1,
-        "watchers": 208
-      },
-      "tags": [
-        "ai-agents",
-        "ai-assistant",
-        "blender",
-        "blender-addon",
-        "blender-ai",
-        "blender-automation",
-        "blender-mcp",
-        "blender-plugin",
-        "blender-scripting",
-        "bpy",
-        "chatgpt",
-        "claude",
-        "gemini",
-        "llm",
-        "mcp",
-        "mcp-for-blender",
-        "mcp-server",
-        "model-context-protocol",
-        "ollama",
-        "opencode"
-      ],
-      "evidence": [
-        "208 GitHub stars",
-        "2 forks",
-        "Created 2026-11-11"
-      ],
-      "raw_text": "SsKanDon/blender-ai-mcp-addon AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration. ai-agents ai-assistant blender blender-addon blender-ai blender-automation blender-mcp blender-plugin blender-scripting bpy chatgpt claude gemini llm mcp mcp-for-blender mcp-server model-context-protocol ollama opencode",
-      "opportunity_type": "OpenClaw型",
-      "score": 69.8,
-      "dimension_scores": {
-        "growth_speed": 100.0,
-        "agent_innovation": 46,
-        "community_signal": 85.6,
-        "api_consumption_potential": 57,
-        "commercialization": 18,
-        "kimi_strategic_fit": 61
-      },
-      "recommended_action": "持续观察",
-      "reason_to_contact_now": "208 GitHub stars，2 forks，11月11日新建，Blender MCP服务器支持多模型但无Kimi",
-      "commercial_summary": "垂直3D创作领域的MCP工具，社区增长快但fork率极低，若星标持续攀升可接触推动Kimi接入Blender工作流",
-      "confidence": "medium",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "language": null,
-        "updated_at": "2026-11-12T08:03:29Z",
-        "homepage": null,
-        "agent_keyword_hits": [
-          "mcp",
-          "multi-agent"
         ],
-        "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": [
-          "integration",
-          "plugin"
-        ]
-      }
-    },
-    {
-      "id": "github-83debcd2627e",
-      "source": "GitHub",
-      "name": "JosssphZhou/poki",
-      "url": "https://github.com/JosssphZhou/poki",
-      "description": "Let AI agents operate a real iPhone. Local MCP server and agent, no jailbreak, no extra hardware.",
-      "published_at": "2026-11-05T15:04:31Z",
-      "discovered_at": "2026-11-12T08:06:41+00:00",
-      "author": "JosssphZhou",
-      "metrics": {
-        "stars": 993,
-        "forks": 182,
-        "open_issues": 69,
-        "watchers": 993
-      },
-      "tags": [
-        "ai-agents",
-        "automation",
-        "ios",
-        "iphone",
-        "mcp",
-        "model-context-protocol"
-      ],
-      "evidence": [
-        "+50 stars since last run",
-        "993 GitHub stars",
-        "182 forks",
-        "Created 2026-11-05"
-      ],
-      "raw_text": "JosssphZhou/poki Let AI agents operate a real iPhone. Local MCP server and agent, no jailbreak, no extra hardware. ai-agents automation ios iphone mcp model-context-protocol",
-      "opportunity_type": "OpenClaw型",
-      "score": 69.3,
-      "dimension_scores": {
-        "growth_speed": 100.0,
-        "agent_innovation": 46,
-        "community_signal": 100.0,
-        "api_consumption_potential": 39,
-        "commercialization": 18,
-        "kimi_strategic_fit": 45
-      },
-      "recommended_action": "持续观察",
-      "reason_to_contact_now": "993 GitHub stars，182 forks，+50 stars增速，Swift实现的iPhone本地MCP Agent，无LLM API key设计但需模型端支持",
-      "commercial_summary": "高星增长极快的移动端Agent基础设施，iOS原生MCP能力稀缺，若其扩展云端模型接入可争取Kimi成为移动端中文场景首选",
-      "confidence": "medium",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "language": "Swift",
-        "updated_at": "2026-11-12T08:05:58Z",
-        "homepage": "https://poki.bot",
-        "agent_keyword_hits": [
-          "ai agent",
-          "mcp"
-        ],
-        "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": [],
-        "metric_delta": 50.0,
-        "metric_velocity_per_day": 49.03407414133618
-      }
-    },
-    {
-      "id": "github-26141eb2e88c",
-      "source": "GitHub",
-      "name": "gogoymh/auto-ontology-mcp",
-      "url": "https://github.com/gogoymh/auto-ontology-mcp",
-      "description": "NVIDIA Auto Ontology's semantic layer and a personal knowledge base as an MCP server for Claude, ChatGPT and other MCP clients. No LLM API key needed.",
-      "published_at": "2026-11-06T12:09:07Z",
-      "discovered_at": "2026-11-12T08:06:42+00:00",
-      "author": "gogoymh",
-      "metrics": {
-        "stars": 375,
-        "forks": 51,
-        "open_issues": 0,
-        "watchers": 375
-      },
-      "tags": [
-        "chatgpt",
-        "claude",
-        "mcp",
-        "mcp-server",
-        "model-context-protocol",
-        "ontology",
-        "semantic-layer",
-        "text-to-sql"
-      ],
-      "evidence": [
-        "+47 stars since last run",
-        "375 GitHub stars",
-        "51 forks",
-        "Created 2026-11-06"
-      ],
-      "raw_text": "gogoymh/auto-ontology-mcp NVIDIA Auto Ontology's semantic layer and a personal knowledge base as an MCP server for Claude, ChatGPT and other MCP clients. No LLM API key needed. chatgpt claude mcp mcp-server model-context-protocol ontology semantic-layer text-to-sql",
-      "opportunity_type": "OpenClaw型",
-      "score": 65.5,
-      "dimension_scores": {
-        "growth_speed": 99.3,
-        "agent_innovation": 35,
-        "community_signal": 100.0,
-        "api_consumption_potential": 37,
-        "commercialization": 32,
-        "kimi_strategic_fit": 39
-      },
-      "recommended_action": "持续观察",
-      "reason_to_contact_now": "375 GitHub stars，51 forks，+47 stars增速，NVIDIA关联语义层MCP服务器，明确标注No LLM API key needed",
-      "commercial_summary": "NVIDIA背书的MCP基础设施，无需LLM API key的设计可能限制直接消费，但语义层工具可丰富Kimi生态插件库，观察其客户端扩展方向",
-      "confidence": "medium",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "language": "Python",
-        "updated_at": "2026-11-12T06:22:19Z",
-        "homepage": null,
-        "agent_keyword_hits": [
-          "mcp"
-        ],
-        "commercial_keyword_hits": [
-          "api"
-        ],
-        "ecosystem_keyword_hits": [],
-        "metric_delta": 47.0,
-        "metric_velocity_per_day": 46.09202969285601
+        "metric_delta": 634.0,
+        "metric_velocity_per_day": 644.707820867416
       }
     },
     {
@@ -304,19 +113,19 @@
       "url": "https://github.com/DIYgod/pinky",
       "description": "Let AI agents use your phone, with you in the loop.",
       "published_at": "2026-11-06T16:53:14Z",
-      "discovered_at": "2026-11-12T08:06:41+00:00",
+      "discovered_at": "2026-11-13T07:42:46+00:00",
       "author": "DIYgod",
       "metrics": {
-        "stars": 1917,
-        "forks": 199,
-        "open_issues": 20,
-        "watchers": 1917
+        "stars": 2040,
+        "forks": 220,
+        "open_issues": 22,
+        "watchers": 2040
       },
       "tags": [],
       "evidence": [
-        "+149 stars since last run",
-        "1,917 GitHub stars",
-        "199 forks",
+        "+123 stars since last run",
+        "2,040 GitHub stars",
+        "220 forks",
         "Created 2026-11-06"
       ],
       "raw_text": "DIYgod/pinky Let AI agents use your phone, with you in the loop. ",
@@ -331,21 +140,21 @@
         "kimi_strategic_fit": 39
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "6天内获1917 stars，增速149/天，Go语言手机Agent控制框架",
-      "commercial_summary": "高星开源手机Agent基础设施，需确认是否支持多模型Provider及MCP扩展性，若默认仅OpenAI则生态价值受限",
+      "reason_to_contact_now": "+123 stars since last run；2,040 GitHub stars；220 forks；Go语言手机Agent控制框架",
+      "commercial_summary": "手机端Agent控制+人机回环，开发者工具属性强，需观察模型接入扩展性和社区商业化路径",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "language": "Go",
-        "updated_at": "2026-11-12T08:04:13Z",
+        "updated_at": "2026-11-13T07:33:50Z",
         "homepage": null,
         "agent_keyword_hits": [
           "ai agent"
         ],
         "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": [],
-        "metric_delta": 149.0,
-        "metric_velocity_per_day": 146.1215409411818
+        "metric_delta": 123.0,
+        "metric_velocity_per_day": 125.07738480550815
       }
     },
     {
@@ -355,13 +164,13 @@
       "url": "https://github.com/wanshuiyin/SuperARIS",
       "description": "SuperARIS — Your personal research agent with ARIS (Auto Research In Sleep), powered by a team of agents.",
       "published_at": "2026-11-08T05:12:40Z",
-      "discovered_at": "2026-11-12T08:06:41+00:00",
+      "discovered_at": "2026-11-13T07:42:46+00:00",
       "author": "wanshuiyin",
       "metrics": {
-        "stars": 86,
+        "stars": 92,
         "forks": 8,
         "open_issues": 0,
-        "watchers": 86
+        "watchers": 92
       },
       "tags": [
         "agent-orchestration",
@@ -379,30 +188,30 @@
         "superagent"
       ],
       "evidence": [
-        "+9 stars since last run",
-        "86 GitHub stars",
+        "+6 stars since last run",
+        "92 GitHub stars",
         "8 forks",
         "Created 2026-11-08"
       ],
       "raw_text": "wanshuiyin/SuperARIS SuperARIS — Your personal research agent with ARIS (Auto Research In Sleep), powered by a team of agents. agent-orchestration ai-research aris claude-code codex gemini herdr mcp multi-agent personal-agent research-automation research-workflow superagent",
       "opportunity_type": "OpenClaw型",
-      "score": 59.8,
+      "score": 60.7,
       "dimension_scores": {
-        "growth_speed": 71.1,
+        "growth_speed": 66.2,
         "agent_innovation": 46,
-        "community_signal": 84.7,
+        "community_signal": 85.4,
         "api_consumption_potential": 57,
         "commercialization": 18,
         "kimi_strategic_fit": 45
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "4天86 stars增速9，Python多Agent研究框架，标签含mcp/multi-agent/claude-code/codex/gemini",
-      "commercial_summary": "多Agent研究自动化框架，已标注多模型支持（Claude/Codex/Gemini），需确认是否已接入国产模型及默认Provider策略",
+      "reason_to_contact_now": "92 stars，+6日增速，明确multi-agent research automation，支持MCP，有orchestration层设计",
+      "commercial_summary": "潜在生态伙伴/客户：多Agent研究自动化若规模化，orchestration层可能产生大量模型API调用，需跟踪star增速和实际部署",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "language": "Python",
-        "updated_at": "2026-11-12T02:58:42Z",
+        "updated_at": "2026-11-13T05:45:42Z",
         "homepage": "https://wanshuiyin.github.io/SuperARIS/",
         "agent_keyword_hits": [
           "mcp",
@@ -410,28 +219,333 @@
         ],
         "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": [],
-        "metric_delta": 9.0,
-        "metric_velocity_per_day": 8.826133345440512
+        "metric_delta": 6.0,
+        "metric_velocity_per_day": 6.101335844171129
       }
     },
     {
-      "id": "product-hunt-e72803a5fefe",
+      "id": "github-26141eb2e88c",
+      "source": "GitHub",
+      "name": "gogoymh/auto-ontology-mcp",
+      "url": "https://github.com/gogoymh/auto-ontology-mcp",
+      "description": "NVIDIA Auto Ontology's semantic layer and a personal knowledge base as an MCP server for Claude, ChatGPT and other MCP clients. No LLM API key needed.",
+      "published_at": "2026-11-06T12:09:07Z",
+      "discovered_at": "2026-11-13T07:42:47+00:00",
+      "author": "gogoymh",
+      "metrics": {
+        "stars": 383,
+        "forks": 53,
+        "open_issues": 2,
+        "watchers": 383
+      },
+      "tags": [
+        "chatgpt",
+        "claude",
+        "mcp",
+        "mcp-server",
+        "model-context-protocol",
+        "ontology",
+        "semantic-layer",
+        "text-to-sql"
+      ],
+      "evidence": [
+        "+8 stars since last run",
+        "383 GitHub stars",
+        "53 forks",
+        "Created 2026-11-06"
+      ],
+      "raw_text": "gogoymh/auto-ontology-mcp NVIDIA Auto Ontology's semantic layer and a personal knowledge base as an MCP server for Claude, ChatGPT and other MCP clients. No LLM API key needed. chatgpt claude mcp mcp-server model-context-protocol ontology semantic-layer text-to-sql",
+      "opportunity_type": "OpenClaw型",
+      "score": 60.3,
+      "dimension_scores": {
+        "growth_speed": 82.7,
+        "agent_innovation": 35,
+        "community_signal": 100.0,
+        "api_consumption_potential": 37,
+        "commercialization": 32,
+        "kimi_strategic_fit": 39
+      },
+      "recommended_action": "持续观察",
+      "reason_to_contact_now": "+8 stars since last run；383 GitHub stars；53 forks；NVIDIA Auto Ontology语义层MCP server",
+      "commercial_summary": "NVIDIA背书的语义层+MCP生态节点，已支持Claude/ChatGPT，可推动接入Kimi成为MCP client选项",
+      "confidence": "medium",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "metadata": {
+        "language": "Python",
+        "updated_at": "2026-11-13T02:07:04Z",
+        "homepage": null,
+        "agent_keyword_hits": [
+          "mcp"
+        ],
+        "commercial_keyword_hits": [
+          "api"
+        ],
+        "ecosystem_keyword_hits": [],
+        "metric_delta": 8.0,
+        "metric_velocity_per_day": 8.135114458894838
+      }
+    },
+    {
+      "id": "github-4ef2a1518423",
+      "source": "GitHub",
+      "name": "alexeyw/lot-map",
+      "url": "https://github.com/alexeyw/lot-map",
+      "description": "A live map beside the chat that shows what Claude Code is doing: tool calls, model steps, hooks, skills and subagents light up as they happen. Local only, in 7 languages.",
+      "published_at": "2026-11-09T19:13:52Z",
+      "discovered_at": "2026-11-13T07:42:47+00:00",
+      "author": "alexeyw",
+      "metrics": {
+        "stars": 647,
+        "forks": 74,
+        "open_issues": 2,
+        "watchers": 647
+      },
+      "tags": [
+        "agent-observability",
+        "ai-agents",
+        "claude",
+        "claude-code",
+        "claude-code-plugin",
+        "developer-tools",
+        "svg-animation",
+        "typescript",
+        "visualization"
+      ],
+      "evidence": [
+        "647 GitHub stars",
+        "74 forks",
+        "Created 2026-11-09"
+      ],
+      "raw_text": "alexeyw/lot-map A live map beside the chat that shows what Claude Code is doing: tool calls, model steps, hooks, skills and subagents light up as they happen. Local only, in 7 languages. agent-observability ai-agents claude claude-code claude-code-plugin developer-tools svg-animation typescript visualization",
+      "opportunity_type": "OpenClaw型",
+      "score": 60.2,
+      "dimension_scores": {
+        "growth_speed": 100.0,
+        "agent_innovation": 24,
+        "community_signal": 100.0,
+        "api_consumption_potential": 25,
+        "commercialization": 18,
+        "kimi_strategic_fit": 49
+      },
+      "recommended_action": "持续观察",
+      "reason_to_contact_now": "647 GitHub stars、74 forks；Claude Code专属可视化插件，本地运行",
+      "commercial_summary": "Claude Code生态强绑定插件，开发者工具属性，观察是否扩展至其他模型IDE/Agent",
+      "confidence": "medium",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "metadata": {
+        "language": "TypeScript",
+        "updated_at": "2026-11-13T07:38:24Z",
+        "homepage": "",
+        "agent_keyword_hits": [],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": [
+          "plugin",
+          "skill"
+        ]
+      }
+    },
+    {
+      "id": "github-54184d49c932",
+      "source": "GitHub",
+      "name": "lxe/phoneuse",
+      "url": "https://github.com/lxe/phoneuse",
+      "description": "See and operate an unmodified iPhone from a Linux PC: AirPlay mirror in, Bluetooth HID mouse/keyboard out, plus a CLI and skill for agents.",
+      "published_at": "2026-11-07T01:28:30Z",
+      "discovered_at": "2026-11-13T07:42:46+00:00",
+      "author": "lxe",
+      "metrics": {
+        "stars": 638,
+        "forks": 61,
+        "open_issues": 10,
+        "watchers": 638
+      },
+      "tags": [],
+      "evidence": [
+        "+50 stars since last run",
+        "638 GitHub stars",
+        "61 forks",
+        "Created 2026-11-07"
+      ],
+      "raw_text": "lxe/phoneuse See and operate an unmodified iPhone from a Linux PC: AirPlay mirror in, Bluetooth HID mouse/keyboard out, plus a CLI and skill for agents. ",
+      "opportunity_type": "OpenClaw型",
+      "score": 57.3,
+      "dimension_scores": {
+        "growth_speed": 91.5,
+        "agent_innovation": 24,
+        "community_signal": 100.0,
+        "api_consumption_potential": 25,
+        "commercialization": 18,
+        "kimi_strategic_fit": 41
+      },
+      "recommended_action": "持续观察",
+      "reason_to_contact_now": "+50 stars since last run；638 GitHub stars；61 forks",
+      "commercial_summary": "开发者生态型机会，优先判断模型接入、默认Provider和联合社区合作空间。",
+      "confidence": "medium",
+      "scoring_mode": "规则预评分",
+      "metadata": {
+        "language": "Python",
+        "updated_at": "2026-11-13T04:46:34Z",
+        "homepage": null,
+        "agent_keyword_hits": [],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": [
+          "skill"
+        ],
+        "metric_delta": 50.0,
+        "metric_velocity_per_day": 24.961431122050996
+      }
+    },
+    {
+      "id": "hackernews-ae3bfecf5f42",
+      "source": "Hacker News",
+      "name": "Show HN: Wonderchat – A Zendesk alternative that doesn't charge per seat",
+      "url": "https://wonderchat.io/",
+      "description": "Hi HN, I’m Vera, co-founder of Wonderchat. We started as an AI website agent that answers customer questions from a company’s website and docs. Over time, customers kept asking for the rest of the support stack around it, so we built a helpdesk: live chat, a unified inbox for email and SMS, and a help center (coming soon in a couple of weeks). The pricing and AI native helpdesk experience is the part I most wanted to change. Most helpdesks charge per seat, so every new teammate adds to the bill, and support teams end up rationing logins. We charge one flat price with unlimited seats. You pay only for AI work: the replies and resolutions the agent handles. Human agents replying to tickets don’t cost anything extra. We've also rebuilt the entire customer service helpdesk around the ideas of AI agent deflecting frontline support tickets first, and having an AI helpdesk agent that helps to draft auto replies to incoming tickets. As the human agent approves its responses and sends them out, the AI helpdesk agent learns about the internal support SOPs to then continually draft better AI responses. The product is built for users to self-serve their customer service operations set up. You don’t have to open our dashboard to set it up. Open your site’s code in Claude Code, Cursor or any coding agent and paste: “Follow https://app.wonderchat.io/llms.txt to add a Wonderchat AI support agent to this site. Train it on [your website], test it with a few real customer questions, and add the chat widget to the shared layout.” A few technical details: AI answers come from our own retrieval engine, built for large and messy knowledge bases (we have customers with 10,000+ documents) You can pick which AI model the agent runs on, so you aren’t locked into one provider It’s still early. Helpcenter is still a build in progress. You can try it free at https://wonderchat.io/ , no credit card needed. I’d especially like feedback on the product, pricing model, and from anyone who is considering a customer service agent and ticketing software, what made you decide on Zendesk/Intercom? What would make you do the switch?",
+      "published_at": "1794553161",
+      "discovered_at": "2026-11-13T07:42:49+00:00",
+      "author": "walkingsunrise",
+      "metrics": {
+        "points": 3,
+        "comments": 1
+      },
+      "tags": [],
+      "evidence": [
+        "3 HN points",
+        "1 comments"
+      ],
+      "raw_text": "Show HN: Wonderchat – A Zendesk alternative that doesn't charge per seat Hi HN, I’m Vera, co-founder of Wonderchat. We started as an AI website agent that answers customer questions from a company’s website and docs. Over time, customers kept asking for the rest of the support stack around it, so we built a helpdesk: live chat, a unified inbox for email and SMS, and a help center (coming soon in a couple of weeks). The pricing and AI native helpdesk experience is the part I most wanted to change. Most helpdesks charge per seat, so every new teammate adds to the bill, and support teams end up rationing logins. We charge one flat price with unlimited seats. You pay only for AI work: the replies and resolutions the agent handles. Human agents replying to tickets don’t cost anything extra. We've also rebuilt the entire customer service helpdesk around the ideas of AI agent deflecting frontline support tickets first, and having an AI helpdesk agent that helps to draft auto replies to incoming tickets. As the human agent approves its responses and sends them out, the AI helpdesk agent learns about the internal support SOPs to then continually draft better AI responses. The product is built for users to self-serve their customer service operations set up. You don’t have to open our dashboard to set it up. Open your site’s code in Claude Code, Cursor or any coding agent and paste: “Follow https://app.wonderchat.io/llms.txt to add a Wonderchat AI support agent to this site. Train it on [your website], test it with a few real customer questions, and add the chat widget to the shared layout.” A few technical details: AI answers come from our own retrieval engine, built for large and messy knowledge bases (we have customers with 10,000+ documents) You can pick which AI model the agent runs on, so you aren’t locked into one provider It’s still early. Helpcenter is still a build in progress. You can try it free at https://wonderchat.io/ , no credit card needed. I’d especially like feedback on the product, pricing model, and from anyone who is considering a customer service agent and ticketing software, what made you decide on Zendesk/Intercom? What would make you do the switch?",
+      "opportunity_type": "Manus型",
+      "score": 39.9,
+      "dimension_scores": {
+        "growth_speed": 33.1,
+        "agent_innovation": 35,
+        "community_signal": 48.9,
+        "api_consumption_potential": 42,
+        "commercialization": 46,
+        "kimi_strategic_fit": 39
+      },
+      "recommended_action": "暂不跟进",
+      "reason_to_contact_now": "仅3 HN points、1条评论；早期客服Agent产品，模型可选但无规模验证",
+      "commercial_summary": "客服SaaS赛道拥挤，信号极弱，无API调用规模或付费增长证据，暂不优先",
+      "confidence": "medium",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "metadata": {
+        "discussion_url": "https://news.ycombinator.com/item?id=50479411",
+        "agent_keyword_hits": [
+          "ai agent"
+        ],
+        "commercial_keyword_hits": [
+          "customer",
+          "pricing"
+        ],
+        "ecosystem_keyword_hits": []
+      }
+    },
+    {
+      "id": "hackernews-ef2d5eda8021",
+      "source": "Hacker News",
+      "name": "Show HN: Chap – Meeting notes from live captions (no bot) with any LLM or agent",
+      "url": "https://chatpanel.net/",
+      "description": "Chap is an AI Agent that is botless in capturing meeting notes (zoom, google meet, teams, webex) and a linked notebook (AI note taking), on any model or agent (claude code, codex and any CLI agents(opencode, hermes etc.), works with even apple intelligence models or webllm or local/remote models. its much more once you start looking into it.",
+      "published_at": "1794551466",
+      "discovered_at": "2026-11-13T07:42:49+00:00",
+      "author": "veeragoni",
+      "metrics": {
+        "points": 2,
+        "comments": 0
+      },
+      "tags": [],
+      "evidence": [
+        "2 HN points",
+        "0 comments"
+      ],
+      "raw_text": "Show HN: Chap – Meeting notes from live captions (no bot) with any LLM or agent Chap is an AI Agent that is botless in capturing meeting notes (zoom, google meet, teams, webex) and a linked notebook (AI note taking), on any model or agent (claude code, codex and any CLI agents(opencode, hermes etc.), works with even apple intelligence models or webllm or local/remote models. its much more once you start looking into it.",
+      "opportunity_type": "Manus型",
+      "score": 35.1,
+      "dimension_scores": {
+        "growth_speed": 30.8,
+        "agent_innovation": 35,
+        "community_signal": 39.4,
+        "api_consumption_potential": 32,
+        "commercialization": 18,
+        "kimi_strategic_fit": 39
+      },
+      "recommended_action": "持续观察",
+      "reason_to_contact_now": "明确支持any LLM or agent、local/remote models，有多模型兼容性设计，但仅2 HN points无社区验证",
+      "commercial_summary": "潜在客户：会议Agent若增长，多模型兼容设计意味着可替换为Kimi API，需跟踪用户规模",
+      "confidence": "medium",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "metadata": {
+        "discussion_url": "https://news.ycombinator.com/item?id=50479186",
+        "agent_keyword_hits": [
+          "ai agent"
+        ],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": []
+      }
+    },
+    {
+      "id": "hackernews-d3b9ccdf2b42",
+      "source": "Hacker News",
+      "name": "Show HN: Real-time inventory of natural stone slabs in US",
+      "url": "https://slabby.org/",
+      "description": "We're building a real-time inventory of natural stone, quartz, and porcelain slabs in the US. This is for countertop fabricators, who need to know slabs, pricing, sizing etc. and expose this inventory to their customers. We are building this for fabricators, homeowners, suppliers - up and down the supply chain. The idea is to build it into existing agent directories, so fabricators can ask Muse/Claude/Chat and possibly transact (as pictures of slabs keep getting better) directly as well. If anyone from the industry is interested in chatting (about this or anything related), let me know below!",
+      "published_at": "1794542494",
+      "discovered_at": "2026-11-13T07:42:49+00:00",
+      "author": "dhruvkar",
+      "metrics": {
+        "points": 3,
+        "comments": 0
+      },
+      "tags": [],
+      "evidence": [
+        "3 HN points",
+        "0 comments"
+      ],
+      "raw_text": "Show HN: Real-time inventory of natural stone slabs in US We're building a real-time inventory of natural stone, quartz, and porcelain slabs in the US. This is for countertop fabricators, who need to know slabs, pricing, sizing etc. and expose this inventory to their customers. We are building this for fabricators, homeowners, suppliers - up and down the supply chain. The idea is to build it into existing agent directories, so fabricators can ask Muse/Claude/Chat and possibly transact (as pictures of slabs keep getting better) directly as well. If anyone from the industry is interested in chatting (about this or anything related), let me know below!",
+      "opportunity_type": "Manus型",
+      "score": 34.9,
+      "dimension_scores": {
+        "growth_speed": 33.1,
+        "agent_innovation": 24,
+        "community_signal": 43.3,
+        "api_consumption_potential": 35,
+        "commercialization": 46,
+        "kimi_strategic_fit": 33
+      },
+      "recommended_action": "暂不跟进",
+      "reason_to_contact_now": "仅3 HN points、0评论；石材库存查询工具，提及Muse/Claude/Chat但未实际集成",
+      "commercial_summary": "垂直行业信息化工具，Agent集成仅为远期设想，无当前API消费或产品化价值",
+      "confidence": "low",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "metadata": {
+        "discussion_url": "https://news.ycombinator.com/item?id=50478114",
+        "agent_keyword_hits": [],
+        "commercial_keyword_hits": [
+          "customer",
+          "pricing"
+        ],
+        "ecosystem_keyword_hits": []
+      }
+    },
+    {
+      "id": "product-hunt-e6f5d249231c",
       "source": "Product Hunt",
-      "name": "Spacefast by Automattic",
-      "url": "https://www.producthunt.com/products/spacefast-by-automattic",
-      "description": "Give your AI agents a place to build, run, and ship Discussion | Link",
-      "published_at": "2026-11-09T14:40:16-08:00",
-      "discovered_at": "2026-11-12T08:06:45+00:00",
-      "author": "Justin Jincaid",
+      "name": "three.dev",
+      "url": "https://www.producthunt.com/products/three-dev",
+      "description": "Find out how your AI agent fails. Before your users do. Discussion | Link",
+      "published_at": "2026-11-10T08:51:51-08:00",
+      "discovered_at": "2026-11-13T07:42:49+00:00",
+      "author": "Bryan Lee",
       "metrics": {},
       "tags": [],
       "evidence": [
         "Published via Product Hunt",
-        "2026-11-09T14:40:16-08:00"
+        "2026-11-10T08:51:51-08:00"
       ],
-      "raw_text": "Spacefast by Automattic Give your AI agents a place to build, run, and ship Discussion | Link ",
+      "raw_text": "three.dev Find out how your AI agent fails. Before your users do. Discussion | Link ",
       "opportunity_type": "Manus型",
-      "score": 31.6,
+      "score": 32.6,
       "dimension_scores": {
         "growth_speed": 30.0,
         "agent_innovation": 35,
@@ -440,146 +554,17 @@
         "commercialization": 36,
         "kimi_strategic_fit": 31
       },
-      "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "Automattic（WordPress母公司）发布，Product Hunt上线无运营数据",
-      "commercial_summary": "Automattic背书的企业级Agent运行平台，若WordPress生态集成则潜在API规模大，但当前无客户或调用量证据",
+      "recommended_action": "持续观察",
+      "reason_to_contact_now": "AI agent测试/监控工具，定位Agent可靠性基础设施，有明确产品形态",
+      "commercial_summary": "潜在生态伙伴或客户：若Agent测试平台规模化，可能集成多模型API进行回归测试，产生调用需求",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "feed_url": "https://www.producthunt.com/feed",
         "content_kind": "product_launch",
-        "original_title": "Spacefast by Automattic",
+        "original_title": "three.dev",
         "agent_keyword_hits": [
           "ai agent"
-        ],
-        "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": []
-      }
-    },
-    {
-      "id": "product-hunt-8b437a970a59",
-      "source": "Product Hunt",
-      "name": "Mitra MCP",
-      "url": "https://www.producthunt.com/products/mitra-5",
-      "description": "Give your AI agents access to your personal phone line Discussion | Link",
-      "published_at": "2026-11-10T10:52:46-08:00",
-      "discovered_at": "2026-11-12T08:06:45+00:00",
-      "author": "Sai Mandava",
-      "metrics": {},
-      "tags": [],
-      "evidence": [
-        "Published via Product Hunt",
-        "2026-11-10T10:52:46-08:00"
-      ],
-      "raw_text": "Mitra MCP Give your AI agents access to your personal phone line Discussion | Link ",
-      "opportunity_type": "Manus型",
-      "score": 30.5,
-      "dimension_scores": {
-        "growth_speed": 30.0,
-        "agent_innovation": 46,
-        "community_signal": 18.0,
-        "api_consumption_potential": 39,
-        "commercialization": 36,
-        "kimi_strategic_fit": 37
-      },
-      "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "Product Hunt发布，仅描述为AI代理访问个人电话线，无用户数据、无融资信息、无模型依赖细节",
-      "commercial_summary": "单点工具型产品，API消费规模不明，缺乏商业化验证信号，暂不构成高价值客户或生态伙伴",
-      "confidence": "low",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "feed_url": "https://www.producthunt.com/feed",
-        "content_kind": "product_launch",
-        "original_title": "Mitra MCP",
-        "agent_keyword_hits": [
-          "ai agent",
-          "mcp"
-        ],
-        "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": []
-      }
-    },
-    {
-      "id": "product-hunt-8b8024c3ab38",
-      "source": "Product Hunt",
-      "name": "Insight7 Voice AI Agents",
-      "url": "https://www.producthunt.com/products/insight7",
-      "description": "AI voice agents that call your customers for you Discussion | Link",
-      "published_at": "2026-11-11T05:19:50-08:00",
-      "discovered_at": "2026-11-12T08:06:45+00:00",
-      "author": "Clinton Folaranmi",
-      "metrics": {},
-      "tags": [],
-      "evidence": [
-        "Published via Product Hunt",
-        "2026-11-11T05:19:50-08:00"
-      ],
-      "raw_text": "Insight7 Voice AI Agents AI voice agents that call your customers for you Discussion | Link ",
-      "opportunity_type": "Manus型",
-      "score": 29.8,
-      "dimension_scores": {
-        "growth_speed": 30.0,
-        "agent_innovation": 35,
-        "community_signal": 18.0,
-        "api_consumption_potential": 37,
-        "commercialization": 50,
-        "kimi_strategic_fit": 31
-      },
-      "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "Product Hunt发布，AI语音外呼产品，无用户数据、无收入信息、无技术栈细节",
-      "commercial_summary": "语音Agent SaaS竞品方向，但信号极弱，缺乏API调用规模或付费验证，暂无法评估客户价值",
-      "confidence": "low",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "feed_url": "https://www.producthunt.com/feed",
-        "content_kind": "product_launch",
-        "original_title": "Insight7 Voice AI Agents",
-        "agent_keyword_hits": [
-          "ai agent"
-        ],
-        "commercial_keyword_hits": [
-          "customer"
-        ],
-        "ecosystem_keyword_hits": []
-      }
-    },
-    {
-      "id": "product-hunt-27d667e45931",
-      "source": "Product Hunt",
-      "name": "Neura HQ",
-      "url": "https://www.producthunt.com/products/neura-4",
-      "description": "The agentic conversational storefront for consumer brands Discussion | Link",
-      "published_at": "2026-11-04T03:07:16-08:00",
-      "discovered_at": "2026-11-12T08:06:45+00:00",
-      "author": "Kevin William David",
-      "metrics": {},
-      "tags": [],
-      "evidence": [
-        "Published via Product Hunt",
-        "2026-11-04T03:07:16-08:00"
-      ],
-      "raw_text": "Neura HQ The agentic conversational storefront for consumer brands Discussion | Link ",
-      "opportunity_type": "Manus型",
-      "score": 29.6,
-      "dimension_scores": {
-        "growth_speed": 30.0,
-        "agent_innovation": 35,
-        "community_signal": 18.0,
-        "api_consumption_potential": 32,
-        "commercialization": 36,
-        "kimi_strategic_fit": 31
-      },
-      "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "Product Hunt发布，仅提及\"agentic conversational storefront\"，无用户数据或融资信息",
-      "commercial_summary": "消费品牌对话式前端，API消费潜力取决于品牌客户规模，当前信息不足判断实际调用量",
-      "confidence": "low",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "feed_url": "https://www.producthunt.com/feed",
-        "content_kind": "product_launch",
-        "original_title": "Neura HQ",
-        "agent_keyword_hits": [
-          "agentic"
         ],
         "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": []
