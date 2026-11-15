@@ -824,3 +824,13 @@ run_at,id,name,source,score,opportunity_type,recommended_action,metric_name,metr
 2026-11-14T07:29:20+00:00,product-hunt-072bfbbb7ed9,Aven App Agent,Product Hunt,25.8,Manus型,暂不跟进,none,0.0
 2026-11-14T07:29:20+00:00,product-hunt-6fade031fa77,Expo Simulators,Product Hunt,25.8,Manus型,暂不跟进,none,0.0
 2026-11-14T07:29:20+00:00,product-hunt-ef4715ca29de,Crossfade,Product Hunt,25.8,Manus型,暂不跟进,none,0.0
+2026-11-15T07:42:49+00:00,github-40e352d34115,agentes-chat/agentes-chat,GitHub,77.5,OpenClaw型,立即联系,stars,1425.0
+2026-11-15T07:42:49+00:00,github-2103afd1bda0,trackersnailgrip/ai--manus2.0,GitHub,62.5,OpenClaw型,持续观察,stars,654.0
+2026-11-15T07:42:49+00:00,github-4ef2a1518423,alexeyw/lot-map,GitHub,60.2,OpenClaw型,持续观察,stars,843.0
+2026-11-15T07:42:49+00:00,github-8a3a6338a9b3,trackboatwrightplan/GitHub-Copilot-app,GitHub,60.2,OpenClaw型,持续观察,stars,672.0
+2026-11-15T07:42:49+00:00,github-03169ce98480,TrapAccountant/GitHub-Copilot-app,GitHub,60.2,OpenClaw型,持续观察,stars,670.0
+2026-11-15T07:42:49+00:00,github-5a21228b3790,trackersnailgrip/GitHub-Copilot-app,GitHub,60.2,OpenClaw型,持续观察,stars,666.0
+2026-11-15T07:42:49+00:00,hackernews-a84c8589a6af,Ask HN: What AI agent infrastructure are you using in 2026?,Hacker News,36.8,Manus型,暂不跟进,points,2.0
+2026-11-15T07:42:49+00:00,product-hunt-a2cb870df420,Gemini 4 Hydrogen,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
+2026-11-15T07:42:49+00:00,product-hunt-078f81c7bada,Dex Semantics,Product Hunt,25.8,Manus型,暂不跟进,none,0.0
+2026-11-15T07:42:49+00:00,product-hunt-f463c764078f,Antelog,Product Hunt,25.8,Manus型,暂不跟进,none,0.0
