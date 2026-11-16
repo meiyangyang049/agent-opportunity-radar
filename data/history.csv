@@ -834,3 +834,13 @@ run_at,id,name,source,score,opportunity_type,recommended_action,metric_name,metr
 2026-11-15T07:42:49+00:00,product-hunt-a2cb870df420,Gemini 4 Hydrogen,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
 2026-11-15T07:42:49+00:00,product-hunt-078f81c7bada,Dex Semantics,Product Hunt,25.8,Manus型,暂不跟进,none,0.0
 2026-11-15T07:42:49+00:00,product-hunt-f463c764078f,Antelog,Product Hunt,25.8,Manus型,暂不跟进,none,0.0
+2026-11-16T07:48:00+00:00,github-40e352d34115,agentes-chat/agentes-chat,GitHub,80.5,OpenClaw型,立即联系,stars,1571.0
+2026-11-16T07:48:00+00:00,github-ccb6a69a9ada,hitkeeen/blender-ai-mcp-addon,GitHub,72.6,OpenClaw型,持续观察,stars,1855.0
+2026-11-16T07:48:00+00:00,github-51369abc652d,credoksopho1984/blender-ai-copilot-studio,GitHub,71.8,OpenClaw型,持续观察,stars,513.0
+2026-11-16T07:48:00+00:00,github-9a314f8afad4,racdeufindurch198812/Blender-AI-MCP-Studio,GitHub,71.8,OpenClaw型,持续观察,stars,511.0
+2026-11-16T07:48:00+00:00,github-617ecf4b059a,findavoulot1973/Blender-AI-MCP-Suite,GitHub,71.8,OpenClaw型,持续观察,stars,497.0
+2026-11-16T07:48:00+00:00,github-4b0f44f977bb,baiblinocun1986/blender-ai-copilot-hub,GitHub,64.3,OpenClaw型,持续观察,stars,501.0
+2026-11-16T07:48:00+00:00,product-hunt-f686ca66bb69,Pixel Office,Product Hunt,24.6,Manus型,暂不跟进,none,0.0
+2026-11-16T07:48:00+00:00,product-hunt-7cc145c94b51,Agentic Canvas,Product Hunt,24.6,Manus型,暂不跟进,none,0.0
+2026-11-16T07:48:00+00:00,product-hunt-990d0b89c561,ByteAsk Cloud Agents,Product Hunt,22.8,Manus型,暂不跟进,none,0.0
+2026-11-16T07:48:00+00:00,product-hunt-f463c764078f,Antelog,Product Hunt,22.8,Manus型,暂不跟进,none,0.0
