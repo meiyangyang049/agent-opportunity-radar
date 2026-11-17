@@ -844,3 +844,13 @@ run_at,id,name,source,score,opportunity_type,recommended_action,metric_name,metr
 2026-11-16T07:48:00+00:00,product-hunt-7cc145c94b51,Agentic Canvas,Product Hunt,24.6,Manus型,暂不跟进,none,0.0
 2026-11-16T07:48:00+00:00,product-hunt-990d0b89c561,ByteAsk Cloud Agents,Product Hunt,22.8,Manus型,暂不跟进,none,0.0
 2026-11-16T07:48:00+00:00,product-hunt-f463c764078f,Antelog,Product Hunt,22.8,Manus型,暂不跟进,none,0.0
+2026-11-17T08:56:58+00:00,github-ccb6a69a9ada,hitkeeen/blender-ai-mcp-addon,GitHub,70.6,OpenClaw型,持续观察,stars,2333.0
+2026-11-17T08:56:58+00:00,github-51369abc652d,credoksopho1984/blender-ai-copilot-studio,GitHub,68.1,OpenClaw型,持续观察,stars,516.0
+2026-11-17T08:56:58+00:00,github-9a314f8afad4,racdeufindurch198812/Blender-AI-MCP-Studio,GitHub,68.1,OpenClaw型,持续观察,stars,515.0
+2026-11-17T08:56:58+00:00,github-617ecf4b059a,findavoulot1973/Blender-AI-MCP-Suite,GitHub,68.0,OpenClaw型,持续观察,stars,498.0
+2026-11-17T08:56:58+00:00,github-da05ea5e190d,topapothecarycanal/ai--manus2.0,GitHub,61.7,OpenClaw型,持续观察,stars,380.0
+2026-11-17T08:56:58+00:00,github-d64cadf1bd4e,violetkomodolimit/ai--manus2.0,GitHub,61.7,OpenClaw型,持续观察,stars,374.0
+2026-11-17T08:56:58+00:00,product-hunt-294c9219fa03,Pinecall,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
+2026-11-17T08:56:58+00:00,product-hunt-da25910d54c7,Ballet,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
+2026-11-17T08:56:58+00:00,product-hunt-66eb939b4a95,pushr,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
+2026-11-17T08:56:58+00:00,product-hunt-ffecc567a671,Agents API by Recall.ai,Product Hunt,27.9,Manus型,暂不跟进,none,0.0
