@@ -1,8 +1,8 @@
 {
   "meta": {
     "project": "Agent Opportunity Radar",
-    "generated_at": "2026-11-18T08:22:22+00:00",
-    "generated_at_display": "2026-11-18 16:22 CST",
+    "generated_at": "2026-11-19T08:34:02+00:00",
+    "generated_at_display": "2026-11-19 16:34 CST",
     "mode": "公开信号实时运行",
     "sources": [
       "GitHub",
@@ -14,16 +14,16 @@
       "AI news RSS: HTTPError: 429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
     ],
     "notices": [],
-    "candidate_pool_size": 53,
+    "candidate_pool_size": 52,
     "pool_by_source": {
-      "GitHub": 19,
-      "Hacker News": 19,
-      "Product Hunt": 15
+      "GitHub": 20,
+      "Hacker News": 23,
+      "Product Hunt": 9
     },
     "pool_by_type": {
-      "OpenClaw型": 21,
-      "其他Agent": 17,
-      "Manus型": 15
+      "OpenClaw型": 22,
+      "其他Agent": 21,
+      "Manus型": 9
     },
     "shortlist_policy": "Top 10；OpenClaw型/Manus型各至少4个（候选充足时）",
     "kimi_model": "kimi-k2.6"
@@ -36,13 +36,13 @@
       "url": "https://github.com/erkamyaman/rust-anything",
       "description": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
       "published_at": "2026-11-16T12:10:36Z",
-      "discovered_at": "2026-11-18T08:22:17+00:00",
+      "discovered_at": "2026-11-19T08:34:00+00:00",
       "author": "erkamyaman",
       "metrics": {
-        "stars": 2019,
-        "forks": 145,
-        "open_issues": 44,
-        "watchers": 2019
+        "stars": 3934,
+        "forks": 325,
+        "open_issues": 1,
+        "watchers": 3934
       },
       "tags": [
         "agent-skills",
@@ -67,13 +67,14 @@
         "typescript"
       ],
       "evidence": [
-        "2,019 GitHub stars",
-        "145 forks",
+        "+1,915 stars since last run",
+        "3,934 GitHub stars",
+        "325 forks",
         "Created 2026-11-16"
       ],
       "raw_text": "erkamyaman/rust-anything Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java. agent-skills claude-code cli code-migration codex ffi golang java javascript mcp migration napi performance porting pyo3 python rewrite ruby rust typescript",
       "opportunity_type": "OpenClaw型",
-      "score": 68.5,
+      "score": 67.5,
       "dimension_scores": {
         "growth_speed": 100.0,
         "agent_innovation": 35,
@@ -83,13 +84,13 @@
         "kimi_strategic_fit": 47
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "2,019 GitHub stars，145 forks，5天极速增长，支持多语言迁移并集成MCP",
-      "commercial_summary": "代码迁移Agent工具，高开发者关注度+多语言生态覆盖，若成为代码重构主流工具，可推动Kimi作为默认代码生成模型接入",
+      "reason_to_contact_now": "3,934 stars且单日+1,915 stars爆发增长，明确标注claude-code/codex/mcp标签，多语言迁移工具链",
+      "commercial_summary": "高热度代码迁移Agent工具，若成为Rust重写标准工作流，可争取替换或并列接入Claude/Codex作为默认模型，API消耗潜力大",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "language": "Rust",
-        "updated_at": "2026-11-18T08:21:43Z",
+        "updated_at": "2026-11-19T08:32:55Z",
         "homepage": "https://www.npmjs.com/package/rust-anything",
         "agent_keyword_hits": [
           "mcp"
@@ -99,7 +100,84 @@
         ],
         "ecosystem_keyword_hits": [
           "skill"
-        ]
+        ],
+        "metric_delta": 1915.0,
+        "metric_velocity_per_day": 1899.609644087256
+      }
+    },
+    {
+      "id": "github-9a314f8afad4",
+      "source": "GitHub",
+      "name": "racdeufindurch198812/Blender-AI-MCP-Studio",
+      "url": "https://github.com/racdeufindurch198812/Blender-AI-MCP-Studio",
+      "description": "Blender AI MCP Studio is an AI assistant and built-in Model Context Protocol MCP server for Blender that turns plain-language briefs into inspected, approved and reversible 3D scene operations — with a visual chat workspace, multi-agent teams and your choice of AI models. · blender ai mcp studio · mcp-for-blender · mcp for blender pro",
+      "published_at": "2026-11-12T19:28:20Z",
+      "discovered_at": "2026-11-19T08:33:59+00:00",
+      "author": "racdeufindurch198812",
+      "metrics": {
+        "stars": 516,
+        "forks": 13,
+        "open_issues": 45,
+        "watchers": 516
+      },
+      "tags": [
+        "3d-automation",
+        "3d-modeling",
+        "blender",
+        "blender-addon",
+        "blender-agents",
+        "blender-ai",
+        "blender-assistant",
+        "blender-automation",
+        "blender-chatgpt",
+        "blender-copilot",
+        "blender-extension",
+        "blender-llm",
+        "blender-mcp",
+        "blender-plugin",
+        "blender-scripting",
+        "blender3d",
+        "bpy",
+        "mcp",
+        "mcp-server",
+        "model-context-protocol"
+      ],
+      "evidence": [
+        "+1 stars since last run",
+        "516 GitHub stars",
+        "13 forks",
+        "Created 2026-11-12"
+      ],
+      "raw_text": "racdeufindurch198812/Blender-AI-MCP-Studio Blender AI MCP Studio is an AI assistant and built-in Model Context Protocol MCP server for Blender that turns plain-language briefs into inspected, approved and reversible 3D scene operations — with a visual chat workspace, multi-agent teams and your choice of AI models. · blender ai mcp studio · mcp-for-blender · mcp for blender pro 3d-automation 3d-modeling blender blender-addon blender-agents blender-ai blender-assistant blender-automation blender-chatgpt blender-copilot blender-extension blender-llm blender-mcp blender-plugin blender-scripting blender3d bpy mcp mcp-server model-context-protocol",
+      "opportunity_type": "OpenClaw型",
+      "score": 66.8,
+      "dimension_scores": {
+        "growth_speed": 87.7,
+        "agent_innovation": 46,
+        "community_signal": 100.0,
+        "api_consumption_potential": 57,
+        "commercialization": 18,
+        "kimi_strategic_fit": 53
+      },
+      "recommended_action": "持续观察",
+      "reason_to_contact_now": "516 GitHub stars，13 forks，支持多模型选择但尚未明确默认Provider",
+      "commercial_summary": "Blender生态MCP插件，若成为3D领域主流Agent框架，可争取作为默认模型Provider并绑定开发者工作流",
+      "confidence": "medium",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "metadata": {
+        "language": null,
+        "updated_at": "2026-11-18T12:33:40Z",
+        "homepage": null,
+        "agent_keyword_hits": [
+          "mcp",
+          "multi-agent"
+        ],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": [
+          "plugin"
+        ],
+        "metric_delta": 1.0,
+        "metric_velocity_per_day": 0.9919632606199771
       }
     },
     {
@@ -109,7 +187,7 @@
       "url": "https://github.com/credoksopho1984/blender-ai-copilot-studio",
       "description": "An AI copilot and MCP server for Blender that turns plain-language briefs into scene operations—inside a visual chat studio with multi-agent teams, your choice of AI models, and 27 built-in scene tools. · blender-ai-copilot-studio · blender ai · ai for blender · blender copilot · blender ai copilot · blender ai assistant · blender mcp server",
       "published_at": "2026-11-12T19:30:32Z",
-      "discovered_at": "2026-11-18T08:22:17+00:00",
+      "discovered_at": "2026-11-19T08:34:00+00:00",
       "author": "credoksopho1984",
       "metrics": {
         "stars": 516,
@@ -146,9 +224,9 @@
       ],
       "raw_text": "credoksopho1984/blender-ai-copilot-studio An AI copilot and MCP server for Blender that turns plain-language briefs into scene operations—inside a visual chat studio with multi-agent teams, your choice of AI models, and 27 built-in scene tools. · blender-ai-copilot-studio · blender ai · ai for blender · blender copilot · blender ai copilot · blender ai assistant · blender mcp server 3d-automation 3d-modeling blender blender-addon blender-agents blender-ai blender-assistant blender-automation blender-chatgpt blender-copilot blender-extension blender-llm blender-mcp blender-plugin blender-scripting blender3d bpy mcp mcp-server model-context-protocol",
       "opportunity_type": "OpenClaw型",
-      "score": 67.4,
+      "score": 66.8,
       "dimension_scores": {
-        "growth_speed": 90.2,
+        "growth_speed": 87.7,
         "agent_innovation": 46,
         "community_signal": 100.0,
         "api_consumption_potential": 57,
@@ -156,87 +234,13 @@
         "kimi_strategic_fit": 53
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "516 GitHub stars，14 forks，创建于2026-11-12，支持多Agent团队和用户自选AI模型",
-      "commercial_summary": "Blender生态的MCP服务器+多Agent开发工具，若成为3D垂直领域主流Agent框架，可推动Kimi作为默认模型Provider接入",
+      "reason_to_contact_now": "516 GitHub stars，14 forks，与Blender-AI-MCP-Studio高度同质，疑似同一项目或fork",
+      "commercial_summary": "与Blender AI MCP Studio功能重叠的竞品/同源项目，需确认关系后评估生态合作优先级",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "language": null,
         "updated_at": "2026-11-16T21:06:07Z",
-        "homepage": null,
-        "agent_keyword_hits": [
-          "mcp",
-          "multi-agent"
-        ],
-        "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": [
-          "plugin"
-        ],
-        "metric_delta": 0.0,
-        "metric_velocity_per_day": 0.0
-      }
-    },
-    {
-      "id": "github-9a314f8afad4",
-      "source": "GitHub",
-      "name": "racdeufindurch198812/Blender-AI-MCP-Studio",
-      "url": "https://github.com/racdeufindurch198812/Blender-AI-MCP-Studio",
-      "description": "Blender AI MCP Studio is an AI assistant and built-in Model Context Protocol MCP server for Blender that turns plain-language briefs into inspected, approved and reversible 3D scene operations — with a visual chat workspace, multi-agent teams and your choice of AI models. · blender ai mcp studio · mcp-for-blender · mcp for blender pro",
-      "published_at": "2026-11-12T19:28:20Z",
-      "discovered_at": "2026-11-18T08:22:17+00:00",
-      "author": "racdeufindurch198812",
-      "metrics": {
-        "stars": 515,
-        "forks": 13,
-        "open_issues": 45,
-        "watchers": 515
-      },
-      "tags": [
-        "3d-automation",
-        "3d-modeling",
-        "blender",
-        "blender-addon",
-        "blender-agents",
-        "blender-ai",
-        "blender-assistant",
-        "blender-automation",
-        "blender-chatgpt",
-        "blender-copilot",
-        "blender-extension",
-        "blender-llm",
-        "blender-mcp",
-        "blender-plugin",
-        "blender-scripting",
-        "blender3d",
-        "bpy",
-        "mcp",
-        "mcp-server",
-        "model-context-protocol"
-      ],
-      "evidence": [
-        "515 GitHub stars",
-        "13 forks",
-        "Created 2026-11-12"
-      ],
-      "raw_text": "racdeufindurch198812/Blender-AI-MCP-Studio Blender AI MCP Studio is an AI assistant and built-in Model Context Protocol MCP server for Blender that turns plain-language briefs into inspected, approved and reversible 3D scene operations — with a visual chat workspace, multi-agent teams and your choice of AI models. · blender ai mcp studio · mcp-for-blender · mcp for blender pro 3d-automation 3d-modeling blender blender-addon blender-agents blender-ai blender-assistant blender-automation blender-chatgpt blender-copilot blender-extension blender-llm blender-mcp blender-plugin blender-scripting blender3d bpy mcp mcp-server model-context-protocol",
-      "opportunity_type": "OpenClaw型",
-      "score": 67.4,
-      "dimension_scores": {
-        "growth_speed": 90.1,
-        "agent_innovation": 46,
-        "community_signal": 100.0,
-        "api_consumption_potential": 57,
-        "commercialization": 18,
-        "kimi_strategic_fit": 53
-      },
-      "recommended_action": "持续观察",
-      "reason_to_contact_now": "515 GitHub stars，13 forks，与blender-ai-copilot-studio高度同质化，同日创建",
-      "commercial_summary": "疑似同一项目的fork或镜像，需确认是否为独立项目；若为重复信号，生态价值不叠加",
-      "confidence": "medium",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "language": null,
-        "updated_at": "2026-11-17T08:52:40Z",
         "homepage": null,
         "agent_keyword_hits": [
           "mcp",
@@ -257,7 +261,7 @@
       "url": "https://github.com/findavoulot1973/Blender-AI-MCP-Suite",
       "description": "Blender AI MCP Suite is an AI assistant and built-in Model Context Protocol MCP server for Blender that turns plain-language briefs into inspected, approved and reversible 3D scene operations — with a visual Studio workspace, multi-agent teams, 21+ scene tools and your choice of AI models. · blender ai mcp suite · blender ai mcp · ai for blender",
       "published_at": "2026-11-12T19:26:22Z",
-      "discovered_at": "2026-11-18T08:22:17+00:00",
+      "discovered_at": "2026-11-19T08:34:00+00:00",
       "author": "findavoulot1973",
       "metrics": {
         "stars": 498,
@@ -294,9 +298,9 @@
       ],
       "raw_text": "findavoulot1973/Blender-AI-MCP-Suite Blender AI MCP Suite is an AI assistant and built-in Model Context Protocol MCP server for Blender that turns plain-language briefs into inspected, approved and reversible 3D scene operations — with a visual Studio workspace, multi-agent teams, 21+ scene tools and your choice of AI models. · blender ai mcp suite · blender ai mcp · ai for blender 3d-automation 3d-modeling blender blender-addon blender-agents blender-ai blender-assistant blender-automation blender-chatgpt blender-copilot blender-extension blender-llm blender-mcp blender-plugin blender-scripting blender3d bpy mcp mcp-server model-context-protocol",
       "opportunity_type": "OpenClaw型",
-      "score": 67.2,
+      "score": 66.6,
       "dimension_scores": {
-        "growth_speed": 89.6,
+        "growth_speed": 87.2,
         "agent_innovation": 46,
         "community_signal": 100.0,
         "api_consumption_potential": 57,
@@ -304,8 +308,8 @@
         "kimi_strategic_fit": 53
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "498 GitHub stars，12 forks，与另两个Blender MCP项目同日创建、高度相似",
-      "commercial_summary": "第三个高度同质的Blender MCP项目，疑似批量fork或同一团队矩阵运营，需去重验证后评估真实社区规模",
+      "reason_to_contact_now": "498 GitHub stars，12 forks，与另两个Blender MCP项目同日创建、功能高度雷同",
+      "commercial_summary": "第三个高度同质的Blender MCP项目，需排查是否为同一团队批量发布或代码fork，再定生态策略",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
@@ -331,13 +335,13 @@
       "url": "https://github.com/boringmarketer/boring-marketing-skills",
       "description": "32 free marketing skills for your AI agent: research, positioning, copy, pages, SEO, AI search, ads, email and content, plus a deep local-business pack. MIT.",
       "published_at": "2026-11-16T15:09:46Z",
-      "discovered_at": "2026-11-18T08:22:16+00:00",
+      "discovered_at": "2026-11-19T08:33:59+00:00",
       "author": "boringmarketer",
       "metrics": {
-        "stars": 589,
-        "forks": 222,
+        "stars": 681,
+        "forks": 253,
         "open_issues": 1,
-        "watchers": 589
+        "watchers": 681
       },
       "tags": [
         "agent-skills",
@@ -350,8 +354,9 @@
         "seo"
       ],
       "evidence": [
-        "589 GitHub stars",
-        "222 forks",
+        "+92 stars since last run",
+        "681 GitHub stars",
+        "253 forks",
         "Created 2026-11-16"
       ],
       "raw_text": "boringmarketer/boring-marketing-skills 32 free marketing skills for your AI agent: research, positioning, copy, pages, SEO, AI search, ads, email and content, plus a deep local-business pack. MIT. agent-skills ai-agents claude-code codex copywriting local-seo marketing seo",
@@ -366,13 +371,13 @@
         "kimi_strategic_fit": 47
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "589 stars/222 forks，11月16日创建，MIT协议，提供32个营销技能给AI agent",
-      "commercial_summary": "开源AI agent技能库，增长极快，若扩展模型支持或成为技能标准，有生态合作价值",
+      "reason_to_contact_now": "GitHub 681 stars，253 forks，7天内+92 stars，MIT协议，面向AI agent的营销技能库。",
+      "commercial_summary": "高增速开源Agent技能生态，明确支持Claude Code/Codex等模型，若扩展模型支持或成为技能标准分发渠道，对Kimi有生态合作价值。",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "language": "Python",
-        "updated_at": "2026-11-18T08:18:27Z",
+        "updated_at": "2026-11-19T08:24:27Z",
         "homepage": "https://boringmarketing.com",
         "agent_keyword_hits": [
           "ai agent"
@@ -380,23 +385,25 @@
         "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": [
           "skill"
-        ]
+        ],
+        "metric_delta": 92.0,
+        "metric_velocity_per_day": 91.26061997703789
       }
     },
     {
-      "id": "github-7ed18ea14fb2",
+      "id": "github-4b0f44f977bb",
       "source": "GitHub",
-      "name": "fumbdendade19718/blender-ai-copilot-desk",
-      "url": "https://github.com/fumbdendade19718/blender-ai-copilot-desk",
-      "description": "A visual AI desk for Blender—chat, scene objects, viewport snapshots, approvals and a live task board in one companion window, backed by your choice of models and a built-in MCP server. · blender-ai-copilot-desk · blender · blender 3d · blender addon · blender plugin · blender extension · blender scripting · blender automation · blender mcp",
-      "published_at": "2026-11-12T19:37:25Z",
-      "discovered_at": "2026-11-18T08:22:17+00:00",
-      "author": "fumbdendade19718",
+      "name": "baiblinocun1986/blender-ai-copilot-hub",
+      "url": "https://github.com/baiblinocun1986/blender-ai-copilot-hub",
+      "description": "A multi-provider AI copilot hub for Blender—bring OpenAI, Anthropic Claude, Google Gemini, OpenRouter, OpenCode Zen, Ollama and custom endpoints into one hub of saved connections, with 27 supervised scene tools and a built-in MCP server. · blender-ai-copilot-hub · blender · blender 3d · blender addon · blender plugin · blender extension",
+      "published_at": "2026-11-12T19:32:22Z",
+      "discovered_at": "2026-11-19T08:34:00+00:00",
+      "author": "baiblinocun1986",
       "metrics": {
-        "stars": 505,
-        "forks": 11,
-        "open_issues": 46,
-        "watchers": 505
+        "stars": 502,
+        "forks": 16,
+        "open_issues": 44,
+        "watchers": 502
       },
       "tags": [
         "3d-automation",
@@ -421,15 +428,16 @@
         "model-context-protocol"
       ],
       "evidence": [
-        "505 GitHub stars",
-        "11 forks",
+        "+1 stars since last run",
+        "502 GitHub stars",
+        "16 forks",
         "Created 2026-11-12"
       ],
-      "raw_text": "fumbdendade19718/blender-ai-copilot-desk A visual AI desk for Blender—chat, scene objects, viewport snapshots, approvals and a live task board in one companion window, backed by your choice of models and a built-in MCP server. · blender-ai-copilot-desk · blender · blender 3d · blender addon · blender plugin · blender extension · blender scripting · blender automation · blender mcp 3d-automation 3d-modeling blender blender-addon blender-agents blender-ai blender-assistant blender-automation blender-chatgpt blender-copilot blender-extension blender-llm blender-mcp blender-plugin blender-scripting blender3d bpy mcp mcp-server model-context-protocol",
+      "raw_text": "baiblinocun1986/blender-ai-copilot-hub A multi-provider AI copilot hub for Blender—bring OpenAI, Anthropic Claude, Google Gemini, OpenRouter, OpenCode Zen, Ollama and custom endpoints into one hub of saved connections, with 27 supervised scene tools and a built-in MCP server. · blender-ai-copilot-hub · blender · blender 3d · blender addon · blender plugin · blender extension 3d-automation 3d-modeling blender blender-addon blender-agents blender-ai blender-assistant blender-automation blender-chatgpt blender-copilot blender-extension blender-llm blender-mcp blender-plugin blender-scripting blender3d bpy mcp mcp-server model-context-protocol",
       "opportunity_type": "OpenClaw型",
-      "score": 64.8,
+      "score": 62.1,
       "dimension_scores": {
-        "growth_speed": 89.9,
+        "growth_speed": 87.3,
         "agent_innovation": 35,
         "community_signal": 100.0,
         "api_consumption_potential": 32,
@@ -437,13 +445,13 @@
         "kimi_strategic_fit": 47
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "505 stars/11 forks，11月12日创建，内置MCP server，支持多模型选择",
-      "commercial_summary": "Blender AI助手工具，MCP协议+多模型架构，若成为3D设计领域标准工具，有API接入和生态合作价值",
+      "reason_to_contact_now": "GitHub 502 stars，16 forks，明确支持多模型接入（OpenAI/Claude/Gemini/OpenRouter/Ollama），内置MCP server。",
+      "commercial_summary": "Blender AI插件生态入口，多模型hub形态，若社区持续增长且扩展中文模型支持，对Kimi有垂直场景生态合作价值。",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "language": null,
-        "updated_at": "2026-11-17T17:49:13Z",
+        "updated_at": "2026-11-18T20:44:10Z",
         "homepage": null,
         "agent_keyword_hits": [
           "mcp"
@@ -451,114 +459,27 @@
         "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": [
           "plugin"
-        ]
+        ],
+        "metric_delta": 1.0,
+        "metric_velocity_per_day": 0.32981882868507645
       }
     },
     {
-      "id": "product-hunt-2dfdacb77fc9",
+      "id": "product-hunt-e14a1f0760b1",
       "source": "Product Hunt",
-      "name": "LinkBit",
-      "url": "https://www.producthunt.com/products/linkbit",
-      "description": "Free URL shortener your AI agent can use (MCP + API) Discussion | Link",
-      "published_at": "2026-11-16T23:57:08-08:00",
-      "discovered_at": "2026-11-18T08:22:22+00:00",
-      "author": "Egor Elkin",
+      "name": "Adside",
+      "url": "https://www.producthunt.com/products/adside",
+      "description": "A team of specialized AI agents that manage paid ads for you Discussion | Link",
+      "published_at": "2026-11-18T16:52:42-08:00",
+      "discovered_at": "2026-11-19T08:34:02+00:00",
+      "author": "Garry Tan",
       "metrics": {},
       "tags": [],
       "evidence": [
         "Published via Product Hunt",
-        "2026-11-16T23:57:08-08:00"
+        "2026-11-18T16:52:42-08:00"
       ],
-      "raw_text": "LinkBit Free URL shortener your AI agent can use (MCP + API) Discussion | Link ",
-      "opportunity_type": "Manus型",
-      "score": 35.6,
-      "dimension_scores": {
-        "growth_speed": 30.0,
-        "agent_innovation": 46,
-        "community_signal": 18.0,
-        "api_consumption_potential": 44,
-        "commercialization": 50,
-        "kimi_strategic_fit": 37
-      },
-      "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "Product Hunt发布，仅提供MCP+API的URL缩短服务，无用户规模或收入证据",
-      "commercial_summary": "轻量级Agent工具基础设施，API消费潜力有限，暂不列为高价值客户或生态伙伴",
-      "confidence": "medium",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "feed_url": "https://www.producthunt.com/feed",
-        "content_kind": "product_launch",
-        "original_title": "LinkBit",
-        "agent_keyword_hits": [
-          "ai agent",
-          "mcp"
-        ],
-        "commercial_keyword_hits": [
-          "api"
-        ],
-        "ecosystem_keyword_hits": []
-      }
-    },
-    {
-      "id": "product-hunt-a89b5b5debf7",
-      "source": "Product Hunt",
-      "name": "SaaS Toolkit MCP",
-      "url": "https://www.producthunt.com/products/saas-toolkit-mcp",
-      "description": "An SDR and CMO on your site 24/7, for one JavaScript snippet Discussion | Link",
-      "published_at": "2026-11-13T14:25:43-08:00",
-      "discovered_at": "2026-11-18T08:22:22+00:00",
-      "author": "Ian Naylor",
-      "metrics": {},
-      "tags": [],
-      "evidence": [
-        "Published via Product Hunt",
-        "2026-11-13T14:25:43-08:00"
-      ],
-      "raw_text": "SaaS Toolkit MCP An SDR and CMO on your site 24/7, for one JavaScript snippet Discussion | Link ",
-      "opportunity_type": "Manus型",
-      "score": 31.8,
-      "dimension_scores": {
-        "growth_speed": 30.0,
-        "agent_innovation": 35,
-        "community_signal": 18.0,
-        "api_consumption_potential": 37,
-        "commercialization": 50,
-        "kimi_strategic_fit": 31
-      },
-      "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "Product Hunt发布，仅描述为嵌入网站的SDR/CMO Agent，无用户或收入数据",
-      "commercial_summary": "SaaS营销Agent工具，商业化早期，缺乏API调用规模证据，暂不跟进",
-      "confidence": "medium",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "feed_url": "https://www.producthunt.com/feed",
-        "content_kind": "product_launch",
-        "original_title": "SaaS Toolkit MCP",
-        "agent_keyword_hits": [
-          "mcp"
-        ],
-        "commercial_keyword_hits": [
-          "saas"
-        ],
-        "ecosystem_keyword_hits": []
-      }
-    },
-    {
-      "id": "product-hunt-6ab9c4dc8259",
-      "source": "Product Hunt",
-      "name": "S.Space",
-      "url": "https://www.producthunt.com/products/s-space",
-      "description": "Your team and everyone's AI agents, in one workspace Discussion | Link",
-      "published_at": "2026-11-15T05:26:16-08:00",
-      "discovered_at": "2026-11-18T08:22:22+00:00",
-      "author": "Zac Zuo",
-      "metrics": {},
-      "tags": [],
-      "evidence": [
-        "Published via Product Hunt",
-        "2026-11-15T05:26:16-08:00"
-      ],
-      "raw_text": "S.Space Your team and everyone's AI agents, in one workspace Discussion | Link ",
+      "raw_text": "Adside A team of specialized AI agents that manage paid ads for you Discussion | Link ",
       "opportunity_type": "Manus型",
       "score": 29.6,
       "dimension_scores": {
@@ -570,14 +491,98 @@
         "kimi_strategic_fit": 31
       },
       "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "Product Hunt发布，仅概念描述为团队+Agent协作工作空间，无具体用户或模型信息",
-      "commercial_summary": "协作空间类产品，Agent集成深度和模型依赖不明，缺乏API消费或商业化信号",
+      "reason_to_contact_now": "Product Hunt新发布，仅描述为AI agents管理付费广告，无用户、收入或融资数据",
+      "commercial_summary": "广告投放Agent SaaS，若规模化可能消耗大量API tokens，但当前信号过早期，缺乏付费客户验证",
       "confidence": "low",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "feed_url": "https://www.producthunt.com/feed",
         "content_kind": "product_launch",
-        "original_title": "S.Space",
+        "original_title": "Adside",
+        "agent_keyword_hits": [
+          "ai agent"
+        ],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": []
+      }
+    },
+    {
+      "id": "product-hunt-a8a0996a42f0",
+      "source": "Product Hunt",
+      "name": "Upsolve MCP Connections",
+      "url": "https://www.producthunt.com/products/upsolve-ai",
+      "description": "Plug Notion, Linear and more into your data agent Discussion | Link",
+      "published_at": "2026-11-18T13:56:08-08:00",
+      "discovered_at": "2026-11-19T08:34:02+00:00",
+      "author": "Ka Ling Wu",
+      "metrics": {},
+      "tags": [],
+      "evidence": [
+        "Published via Product Hunt",
+        "2026-11-18T13:56:08-08:00"
+      ],
+      "raw_text": "Upsolve MCP Connections Plug Notion, Linear and more into your data agent Discussion | Link ",
+      "opportunity_type": "Manus型",
+      "score": 29.6,
+      "dimension_scores": {
+        "growth_speed": 30.0,
+        "agent_innovation": 35,
+        "community_signal": 18.0,
+        "api_consumption_potential": 32,
+        "commercialization": 36,
+        "kimi_strategic_fit": 31
+      },
+      "recommended_action": "暂不跟进",
+      "reason_to_contact_now": "Product Hunt新发布，仅描述为数据agent的MCP连接器，无用户规模或付费数据",
+      "commercial_summary": "数据Agent的MCP集成层，若Upsolve主产品增长可带动API消耗，但当前仅为功能发布",
+      "confidence": "low",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "metadata": {
+        "feed_url": "https://www.producthunt.com/feed",
+        "content_kind": "product_launch",
+        "original_title": "Upsolve MCP Connections",
+        "agent_keyword_hits": [
+          "mcp"
+        ],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": []
+      }
+    },
+    {
+      "id": "product-hunt-5e28a86db50f",
+      "source": "Product Hunt",
+      "name": "Tecla",
+      "url": "https://www.producthunt.com/products/tecla-3",
+      "description": "A proactive AI agent whose interface is a TODO list Discussion | Link",
+      "published_at": "2026-11-18T19:05:34-08:00",
+      "discovered_at": "2026-11-19T08:34:02+00:00",
+      "author": "Miguel Angel Cabrera Miñagorri",
+      "metrics": {},
+      "tags": [],
+      "evidence": [
+        "Published via Product Hunt",
+        "2026-11-18T19:05:34-08:00"
+      ],
+      "raw_text": "Tecla A proactive AI agent whose interface is a TODO list Discussion | Link ",
+      "opportunity_type": "Manus型",
+      "score": 29.6,
+      "dimension_scores": {
+        "growth_speed": 30.0,
+        "agent_innovation": 35,
+        "community_signal": 18.0,
+        "api_consumption_potential": 32,
+        "commercialization": 36,
+        "kimi_strategic_fit": 31
+      },
+      "recommended_action": "暂不跟进",
+      "reason_to_contact_now": "Product Hunt新发布，仅描述为TODO list形态的AI agent，无用户或收入数据",
+      "commercial_summary": "个人生产力Agent，若增长可成为API消费者，但当前为概念发布阶段",
+      "confidence": "low",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "metadata": {
+        "feed_url": "https://www.producthunt.com/feed",
+        "content_kind": "product_launch",
+        "original_title": "Tecla",
         "agent_keyword_hits": [
           "ai agent"
         ],
@@ -592,7 +597,7 @@
       "url": "https://www.producthunt.com/products/ody-ai-business-phone",
       "description": "Shared workspace + manageable AI agents Discussion | Link",
       "published_at": "2026-11-16T10:36:57-08:00",
-      "discovered_at": "2026-11-18T08:22:22+00:00",
+      "discovered_at": "2026-11-19T08:34:02+00:00",
       "author": "Raphael Marchand",
       "metrics": {},
       "tags": [],
@@ -612,8 +617,8 @@
         "kimi_strategic_fit": 31
       },
       "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "Product Hunt发布，描述为Shared workspace + manageable AI agents，无用户规模或付费数据",
-      "commercial_summary": "面向企业的AI电话/工作空间产品，若后续证明有规模化企业客户，可能成为API客户",
+      "reason_to_contact_now": "Product Hunt发布，仅描述为共享工作空间+可管理AI代理，无用户规模或付费数据。",
+      "commercial_summary": "企业电话+AI代理管理工具，若后续验证到企业客户付费增长，可能产生API调用需求，当前信号过弱。",
       "confidence": "low",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
