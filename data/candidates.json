@@ -1,8 +1,8 @@
 {
   "meta": {
     "project": "Agent Opportunity Radar",
-    "generated_at": "2026-11-21T08:08:29+00:00",
-    "generated_at_display": "2026-11-21 16:08 CST",
+    "generated_at": "2026-11-22T07:53:26+00:00",
+    "generated_at_display": "2026-11-22 15:53 CST",
     "mode": "公开信号实时运行",
     "sources": [
       "GitHub",
@@ -13,19 +13,17 @@
     "warnings": [
       "AI news RSS: HTTPError: 429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
     ],
-    "notices": [
-      "Kimi评分部分失败（1项：MissingResultError×1），已保留规则分数。"
-    ],
-    "candidate_pool_size": 36,
+    "notices": [],
+    "candidate_pool_size": 37,
     "pool_by_source": {
       "GitHub": 14,
-      "Hacker News": 16,
-      "Product Hunt": 6
+      "Hacker News": 13,
+      "Product Hunt": 10
     },
     "pool_by_type": {
-      "OpenClaw型": 19,
+      "OpenClaw型": 14,
       "其他Agent": 13,
-      "Manus型": 4
+      "Manus型": 10
     },
     "shortlist_policy": "Top 10；OpenClaw型/Manus型各至少4个（候选充足时）",
     "kimi_model": "kimi-k2.6"
@@ -38,13 +36,13 @@
       "url": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
       "description": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
       "published_at": "2026-11-19T14:43:10Z",
-      "discovered_at": "2026-11-21T08:08:25+00:00",
+      "discovered_at": "2026-11-22T07:53:22+00:00",
       "author": "bookwjitchieni1986",
       "metrics": {
-        "stars": 1876,
-        "forks": 24,
-        "open_issues": 42,
-        "watchers": 1876
+        "stars": 2695,
+        "forks": 36,
+        "open_issues": 61,
+        "watchers": 2695
       },
       "tags": [
         "ai-agents",
@@ -69,14 +67,14 @@
         "opencode"
       ],
       "evidence": [
-        "+927 stars since last run",
-        "1,876 GitHub stars",
-        "24 forks",
+        "+819 stars since last run",
+        "2,695 GitHub stars",
+        "36 forks",
         "Created 2026-11-19"
       ],
       "raw_text": "bookwjitchieni1986/blender-ai-mcp-addon AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration. ai-agents ai-assistant blender blender-addon blender-ai blender-automation blender-mcp blender-plugin blender-scripting bpy chatgpt claude gemini llm mcp mcp-for-blender mcp-server model-context-protocol ollama opencode",
       "opportunity_type": "OpenClaw型",
-      "score": 72.6,
+      "score": 73.6,
       "dimension_scores": {
         "growth_speed": 100.0,
         "agent_innovation": 46,
@@ -86,13 +84,13 @@
         "kimi_strategic_fit": 61
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "+927 stars since last run，1,876 GitHub stars，明确支持Claude/GPT/Gemini/Ollama等多模型但无Kimi",
-      "commercial_summary": "Blender MCP插件是3D创作Agent入口，若Kimi成为其默认/推荐Provider可切入垂直创作者生态，需观察多模型接入策略和开发者影响力",
+      "reason_to_contact_now": "+819 stars since last run；2,695 GitHub stars；36 forks；明确支持ChatGPT/GPT、Claude、Gemini、Ollama、OpenCode，MCP server定位",
+      "commercial_summary": "高增速Blender MCP插件生态，多模型接入但无Kimi，存在模型接入合作空间；3D创作场景API消耗潜力中等",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "language": null,
-        "updated_at": "2026-11-21T08:08:10Z",
+        "updated_at": "2026-11-22T07:50:25Z",
         "homepage": null,
         "agent_keyword_hits": [
           "mcp",
@@ -103,8 +101,8 @@
           "integration",
           "plugin"
         ],
-        "metric_delta": 927.0,
-        "metric_velocity_per_day": 932.0485965647256
+        "metric_delta": 819.0,
+        "metric_velocity_per_day": 827.6500929857187
       }
     },
     {
@@ -114,13 +112,13 @@
       "url": "https://github.com/boringmarketer/boring-marketing-skills",
       "description": "32 free marketing skills for your AI agent: research, positioning, copy, pages, SEO, AI search, ads, email and content, plus a deep local-business pack. MIT.",
       "published_at": "2026-11-16T15:09:46Z",
-      "discovered_at": "2026-11-21T08:08:25+00:00",
+      "discovered_at": "2026-11-22T07:53:22+00:00",
       "author": "boringmarketer",
       "metrics": {
-        "stars": 755,
-        "forks": 275,
-        "open_issues": 1,
-        "watchers": 755
+        "stars": 785,
+        "forks": 280,
+        "open_issues": 2,
+        "watchers": 785
       },
       "tags": [
         "agent-skills",
@@ -133,16 +131,16 @@
         "seo"
       ],
       "evidence": [
-        "+29 stars since last run",
-        "755 GitHub stars",
-        "275 forks",
+        "+30 stars since last run",
+        "785 GitHub stars",
+        "280 forks",
         "Created 2026-11-16"
       ],
       "raw_text": "boringmarketer/boring-marketing-skills 32 free marketing skills for your AI agent: research, positioning, copy, pages, SEO, AI search, ads, email and content, plus a deep local-business pack. MIT. agent-skills ai-agents claude-code codex copywriting local-seo marketing seo",
       "opportunity_type": "OpenClaw型",
-      "score": 63.9,
+      "score": 64.3,
       "dimension_scores": {
-        "growth_speed": 98.3,
+        "growth_speed": 96.0,
         "agent_innovation": 35,
         "community_signal": 100.0,
         "api_consumption_potential": 32,
@@ -150,13 +148,13 @@
         "kimi_strategic_fit": 47
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "755 stars/275 forks，MIT协议营销Agent技能库，提及Claude Code/Codex但未提Kimi",
-      "commercial_summary": "营销技能库是Agent工作流基础设施，若扩展支持Kimi可覆盖SMB营销场景，但当前模型绑定深度浅、商业化信号弱",
+      "reason_to_contact_now": "785 GitHub stars；280 forks；高fork比例暗示开发者采用；明确标注claude-code、codex，MIT协议",
+      "commercial_summary": "营销技能包生态，高fork率说明工具链整合活跃，存在扩展至Kimi技能的生态合作空间，但API消耗潜力有限",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "language": "Python",
-        "updated_at": "2026-11-21T07:42:33Z",
+        "updated_at": "2026-11-22T07:52:39Z",
         "homepage": "https://boringmarketing.com",
         "agent_keyword_hits": [
           "ai agent"
@@ -165,79 +163,67 @@
         "ecosystem_keyword_hits": [
           "skill"
         ],
-        "metric_delta": 29.0,
-        "metric_velocity_per_day": 29.157938835358188
+        "metric_delta": 30.0,
+        "metric_velocity_per_day": 30.316853222920102
       }
     },
     {
-      "id": "github-da05ea5e190d",
+      "id": "github-c95bbcf78fd0",
       "source": "GitHub",
-      "name": "topapothecarycanal/ai--manus2.0",
-      "url": "https://github.com/topapothecarycanal/ai--manus2.0",
-      "description": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
-      "published_at": "2026-11-14T19:15:24Z",
-      "discovered_at": "2026-11-21T08:08:25+00:00",
-      "author": "topapothecarycanal",
+      "name": "diego3g/craft",
+      "url": "https://github.com/diego3g/craft",
+      "description": "Design skills for AI agents: /craft-setup writes your design brief, /craft designs screens with every state from your design system and reviews them. Works with Paper, pen.dev, Figma or HTML.",
+      "published_at": "2026-11-15T20:08:15Z",
+      "discovered_at": "2026-11-22T07:53:22+00:00",
+      "author": "diego3g",
       "metrics": {
-        "stars": 379,
-        "forks": 8,
+        "stars": 395,
+        "forks": 22,
         "open_issues": 0,
-        "watchers": 379
+        "watchers": 395
       },
       "tags": [
-        "ai",
-        "ai-agents",
-        "ai-sdk",
-        "anthropic",
-        "chatbot",
-        "function-calling",
-        "gemeni",
-        "generative-ai",
-        "llm",
-        "multimodal",
-        "openai",
-        "react",
-        "solidjs",
-        "streaming",
-        "svelte",
-        "tanstack",
-        "tool-calling",
-        "typescript",
-        "typescript-sdk",
-        "vue"
+        "agent-skills",
+        "claude-code",
+        "claude-code-plugin",
+        "design-system",
+        "figma",
+        "paper",
+        "ui-design"
       ],
       "evidence": [
-        "379 GitHub stars",
-        "8 forks",
-        "Created 2026-11-14"
+        "395 GitHub stars",
+        "22 forks",
+        "Created 2026-11-15"
       ],
-      "raw_text": "topapothecarycanal/ai--manus2.0 AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment. ai ai-agents ai-sdk anthropic chatbot function-calling gemeni generative-ai llm multimodal openai react solidjs streaming svelte tanstack tool-calling typescript typescript-sdk vue",
+      "raw_text": "diego3g/craft Design skills for AI agents: /craft-setup writes your design brief, /craft designs screens with every state from your design system and reviews them. Works with Paper, pen.dev, Figma or HTML. agent-skills claude-code claude-code-plugin design-system figma paper ui-design",
       "opportunity_type": "OpenClaw型",
-      "score": 61.3,
+      "score": 64.1,
       "dimension_scores": {
-        "growth_speed": 83.2,
+        "growth_speed": 83.9,
         "agent_innovation": 35,
         "community_signal": 100.0,
         "api_consumption_potential": 32,
         "commercialization": 18,
-        "kimi_strategic_fit": 39
+        "kimi_strategic_fit": 55
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "379 stars，general-purpose Agent系统，标签含OpenAI/Anthropic/Gemini及多前端框架，无Kimi",
-      "commercial_summary": "开源Manus-like框架直接竞品，需密切跟踪其模型接入策略、沙箱设计和开发者迁移趋势，评估Kimi SDK接入或差异化竞争机会",
+      "reason_to_contact_now": "395 GitHub stars；22 forks；明确claude-code-plugin定位，design system技能包，JavaScript生态",
+      "commercial_summary": "设计系统Agent技能插件，垂直场景工具链，claude-code插件生态存在扩展至Kimi的开发者合作空间，UI设计场景API消耗中等",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
-        "language": null,
-        "updated_at": "2026-11-19T09:38:04Z",
-        "homepage": "",
+        "language": "JavaScript",
+        "updated_at": "2026-11-22T05:50:01Z",
+        "homepage": null,
         "agent_keyword_hits": [
           "ai agent"
         ],
         "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": [],
-        "metric_delta": -1.0,
-        "metric_velocity_per_day": 0.0
+        "ecosystem_keyword_hits": [
+          "plugin",
+          "skill"
+        ]
       }
     },
     {
@@ -247,13 +233,13 @@
       "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
       "description": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization",
       "published_at": "2026-11-16T18:40:04Z",
-      "discovered_at": "2026-11-21T08:08:25+00:00",
+      "discovered_at": "2026-11-22T07:53:22+00:00",
       "author": "sybil-solutions",
       "metrics": {
-        "stars": 1385,
-        "forks": 126,
-        "open_issues": 7,
-        "watchers": 1385
+        "stars": 1786,
+        "forks": 163,
+        "open_issues": 14,
+        "watchers": 1786
       },
       "tags": [
         "agent-skill",
@@ -264,13 +250,14 @@
         "speculative-decoding"
       ],
       "evidence": [
-        "1,385 GitHub stars",
-        "126 forks",
+        "+401 stars since last run",
+        "1,786 GitHub stars",
+        "163 forks",
         "Created 2026-11-16"
       ],
       "raw_text": "sybil-solutions/inference-optimisation-skill Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization agent-skill benchmarking claude-code inference llm speculative-decoding",
       "opportunity_type": "OpenClaw型",
-      "score": 58.4,
+      "score": 61.4,
       "dimension_scores": {
         "growth_speed": 100.0,
         "agent_innovation": 24,
@@ -280,68 +267,113 @@
         "kimi_strategic_fit": 41
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "1,385 stars/126 forks，本地LLM推理优化Agent技能，聚焦自托管而非云API",
-      "commercial_summary": "推理优化技能与Kimi API业务方向相反（促本地降云消耗），但若作为Agent生态组件可观察其是否反向需要云端Fallback",
+      "reason_to_contact_now": "6天内1786 stars、+401增速、163 forks，定位本地LLM推理优化skill，但明确服务local serving而非云API",
+      "commercial_summary": "高热度开发者工具skill，但聚焦本地推理加速，与Kimi云API商业模式存在张力；需观察是否扩展多云支持",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "language": "Python",
-        "updated_at": "2026-11-21T08:00:42Z",
+        "updated_at": "2026-11-22T07:48:11Z",
         "homepage": null,
         "agent_keyword_hits": [],
         "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": [
           "skill"
-        ]
+        ],
+        "metric_delta": 401.0,
+        "metric_velocity_per_day": 405.235271413032
       }
     },
     {
-      "id": "github-d64cadf1bd4e",
+      "id": "github-4a304c90bac6",
       "source": "GitHub",
-      "name": "violetkomodolimit/ai--manus2.0",
-      "url": "https://github.com/violetkomodolimit/ai--manus2.0",
-      "description": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
-      "published_at": "2026-11-14T19:25:22Z",
-      "discovered_at": "2026-11-21T08:08:25+00:00",
-      "author": "violetkomodolimit",
+      "name": "escalera02/chronos-multi-agent-os",
+      "url": "https://github.com/escalera02/chronos-multi-agent-os",
+      "description": "Chronos Multi-Agent OS: Modular Python Autonomous Agent Operating System with Human-In-The-Loop Tele",
+      "published_at": "2026-11-15T19:38:22Z",
+      "discovered_at": "2026-11-22T07:53:23+00:00",
+      "author": "escalera02",
       "metrics": {
-        "stars": 373,
-        "forks": 300,
+        "stars": 153,
+        "forks": 0,
         "open_issues": 0,
-        "watchers": 373
+        "watchers": 153
       },
       "tags": [
-        "ai",
-        "ai-agents",
-        "ai-sdk",
-        "anthropic",
-        "chatbot",
-        "function-calling",
-        "gemeni",
-        "generative-ai",
-        "llm",
-        "multimodal",
-        "openai",
-        "react",
-        "solidjs",
-        "streaming",
-        "svelte",
-        "tanstack",
-        "tool-calling",
-        "typescript",
-        "typescript-sdk",
-        "vue"
+        "animal-behavior",
+        "business-automation",
+        "chatbot-automation",
+        "customer-support-automation",
+        "deeplabcut",
+        "dog",
+        "dual-ai-fallback",
+        "emotion-recognition",
+        "podman",
+        "pose-estimation",
+        "yamnet",
+        "yolo"
       ],
       "evidence": [
-        "373 GitHub stars",
-        "300 forks",
-        "Created 2026-11-14"
+        "153 GitHub stars",
+        "0 forks",
+        "Created 2026-11-15"
       ],
-      "raw_text": "violetkomodolimit/ai--manus2.0 AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment. ai ai-agents ai-sdk anthropic chatbot function-calling gemeni generative-ai llm multimodal openai react solidjs streaming svelte tanstack tool-calling typescript typescript-sdk vue",
+      "raw_text": "escalera02/chronos-multi-agent-os Chronos Multi-Agent OS: Modular Python Autonomous Agent Operating System with Human-In-The-Loop Tele animal-behavior business-automation chatbot-automation customer-support-automation deeplabcut dog dual-ai-fallback emotion-recognition podman pose-estimation yamnet yolo",
       "opportunity_type": "OpenClaw型",
-      "score": 58.2,
+      "score": 59.4,
       "dimension_scores": {
-        "growth_speed": 82.9,
+        "growth_speed": 70.0,
+        "agent_innovation": 46,
+        "community_signal": 73.4,
+        "api_consumption_potential": 62,
+        "commercialization": 32,
+        "kimi_strategic_fit": 45
+      },
+      "recommended_action": "持续观察",
+      "reason_to_contact_now": "5天153 stars，标签覆盖多领域自动化，含dual-ai-fallback，但0 forks、HTML为主语言、更新停滞于11-17",
+      "commercial_summary": "多agent操作系统框架，dual-ai-fallback暗示多模型接入潜力，但代码活跃度和社区参与度存疑，需验证实际模型集成深度",
+      "confidence": "medium",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "metadata": {
+        "language": "HTML",
+        "updated_at": "2026-11-17T18:10:23Z",
+        "homepage": null,
+        "agent_keyword_hits": [
+          "autonomous agent",
+          "multi-agent"
+        ],
+        "commercial_keyword_hits": [
+          "customer"
+        ],
+        "ecosystem_keyword_hits": []
+      }
+    },
+    {
+      "id": "github-f088400ebc0a",
+      "source": "GitHub",
+      "name": "nickvasilescu/openman",
+      "url": "https://github.com/nickvasilescu/openman",
+      "description": "OpenMan: open-source autonomous AI agent workspace that runs on your Orgo cloud computer",
+      "published_at": "2026-11-19T20:42:12Z",
+      "discovered_at": "2026-11-22T07:53:23+00:00",
+      "author": "nickvasilescu",
+      "metrics": {
+        "stars": 104,
+        "forks": 65,
+        "open_issues": 4,
+        "watchers": 104
+      },
+      "tags": [],
+      "evidence": [
+        "104 GitHub stars",
+        "65 forks",
+        "Created 2026-11-19"
+      ],
+      "raw_text": "nickvasilescu/openman OpenMan: open-source autonomous AI agent workspace that runs on your Orgo cloud computer ",
+      "opportunity_type": "OpenClaw型",
+      "score": 59.1,
+      "dimension_scores": {
+        "growth_speed": 78.5,
         "agent_innovation": 35,
         "community_signal": 100.0,
         "api_consumption_potential": 32,
@@ -349,112 +381,39 @@
         "kimi_strategic_fit": 39
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "373 stars/300 forks但创建于2026-11-14，metric_velocity为0，增长已停滞",
-      "commercial_summary": "通用Agent沙箱系统，多前端框架SDK支持，需验证是否支持Kimi模型接入及社区活跃度持续性",
+      "reason_to_contact_now": "3天104 stars、65 forks（fork率62%极高），TypeScript项目，定位为开源autonomous AI agent workspace，但依赖Orgo云计算机",
+      "commercial_summary": "高fork率表明开发者参与意愿强，开源agent workspace有生态合作潜力，但Orgo云绑定可能限制模型provider选择，需确认是否支持多模型接入",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
-        "language": null,
-        "updated_at": "2026-11-19T09:40:44Z",
-        "homepage": "",
+        "language": "TypeScript",
+        "updated_at": "2026-11-22T05:34:42Z",
+        "homepage": null,
         "agent_keyword_hits": [
           "ai agent"
         ],
         "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": [],
-        "metric_delta": -1.0,
-        "metric_velocity_per_day": 0.0
+        "ecosystem_keyword_hits": []
       }
     },
     {
-      "id": "github-2103afd1bda0",
-      "source": "GitHub",
-      "name": "trackersnailgrip/ai--manus2.0",
-      "url": "https://github.com/trackersnailgrip/ai--manus2.0",
-      "description": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
-      "published_at": "2026-11-14T19:25:17Z",
-      "discovered_at": "2026-11-21T08:08:25+00:00",
-      "author": "trackersnailgrip",
-      "metrics": {
-        "stars": 371,
-        "forks": 299,
-        "open_issues": 0,
-        "watchers": 371
-      },
-      "tags": [
-        "ai",
-        "ai-agents",
-        "ai-sdk",
-        "anthropic",
-        "chatbot",
-        "function-calling",
-        "gemeni",
-        "generative-ai",
-        "llm",
-        "multimodal",
-        "openai",
-        "react",
-        "solidjs",
-        "streaming",
-        "svelte",
-        "tanstack",
-        "tool-calling",
-        "typescript",
-        "typescript-sdk",
-        "vue"
-      ],
-      "evidence": [
-        "371 GitHub stars",
-        "299 forks",
-        "Created 2026-11-14"
-      ],
-      "raw_text": "trackersnailgrip/ai--manus2.0 AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment. ai ai-agents ai-sdk anthropic chatbot function-calling gemeni generative-ai llm multimodal openai react solidjs streaming svelte tanstack tool-calling typescript typescript-sdk vue",
-      "opportunity_type": "OpenClaw型",
-      "score": 58.2,
-      "dimension_scores": {
-        "growth_speed": 82.9,
-        "agent_innovation": 35,
-        "community_signal": 100.0,
-        "api_consumption_potential": 32,
-        "commercialization": 18,
-        "kimi_strategic_fit": 39
-      },
-      "recommended_action": "持续观察",
-      "reason_to_contact_now": "371 stars/299 forks，metric_delta -283，增长明显回落",
-      "commercial_summary": "与d64cadf1bd4e为同一项目不同fork，重复信号，合并评估",
-      "confidence": "medium",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "language": null,
-        "updated_at": "2026-11-19T09:40:47Z",
-        "homepage": "",
-        "agent_keyword_hits": [
-          "ai agent"
-        ],
-        "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": [],
-        "metric_delta": -283.0,
-        "metric_velocity_per_day": 0.0
-      }
-    },
-    {
-      "id": "product-hunt-bff0073538c3",
+      "id": "product-hunt-15de4ffc8b73",
       "source": "Product Hunt",
-      "name": "Publicit",
-      "url": "https://www.producthunt.com/products/publicit",
-      "description": "Omnichannel ad infrastructure for marketers and AI agents Discussion | Link",
-      "published_at": "2026-11-18T07:19:01-08:00",
-      "discovered_at": "2026-11-21T08:08:29+00:00",
-      "author": "Joan Medina",
+      "name": "Veryfi Thinking Mode",
+      "url": "https://www.producthunt.com/products/veryfi",
+      "description": "AI agents review and correct receipt and invoice data. Discussion | Link",
+      "published_at": "2026-11-19T13:30:01-08:00",
+      "discovered_at": "2026-11-22T07:53:26+00:00",
+      "author": "Marianna Babayan",
       "metrics": {},
       "tags": [],
       "evidence": [
         "Published via Product Hunt",
-        "2026-11-18T07:19:01-08:00"
+        "2026-11-19T13:30:01-08:00"
       ],
-      "raw_text": "Publicit Omnichannel ad infrastructure for marketers and AI agents Discussion | Link ",
+      "raw_text": "Veryfi Thinking Mode AI agents review and correct receipt and invoice data. Discussion | Link ",
       "opportunity_type": "Manus型",
-      "score": 29.6,
+      "score": 28.6,
       "dimension_scores": {
         "growth_speed": 30.0,
         "agent_innovation": 35,
@@ -464,10 +423,96 @@
         "kimi_strategic_fit": 31
       },
       "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "Published via Product Hunt；2026-11-18T07:19:01-08:00；Agent signals: ai agent",
-      "commercial_summary": "产品型机会，优先判断API调用规模、付费增长和战略客户合作空间。",
-      "confidence": "medium",
-      "scoring_mode": "规则预评分",
+      "reason_to_contact_now": "Product Hunt发布，Veryfi现有产品的AI agent功能扩展，用于票据/发票数据审核，无模型接入或API消费规模披露",
+      "commercial_summary": "垂直SaaS的agent化功能模块，发票处理属高频率文档理解场景，但Veryfi为成熟公司，模型选择可能已固化，切入难度大",
+      "confidence": "low",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "metadata": {
+        "feed_url": "https://www.producthunt.com/feed",
+        "content_kind": "product_launch",
+        "original_title": "Veryfi Thinking Mode",
+        "agent_keyword_hits": [
+          "ai agent"
+        ],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": []
+      }
+    },
+    {
+      "id": "product-hunt-f2241f3920b0",
+      "source": "Product Hunt",
+      "name": "gitroots",
+      "url": "https://www.producthunt.com/products/gitroots",
+      "description": "Path-level GitHub access for developers and AI agents Discussion | Link",
+      "published_at": "2026-11-20T05:22:16-08:00",
+      "discovered_at": "2026-11-22T07:53:26+00:00",
+      "author": "Shawki Aladdin",
+      "metrics": {},
+      "tags": [],
+      "evidence": [
+        "Published via Product Hunt",
+        "2026-11-20T05:22:16-08:00"
+      ],
+      "raw_text": "gitroots Path-level GitHub access for developers and AI agents Discussion | Link ",
+      "opportunity_type": "Manus型",
+      "score": 28.4,
+      "dimension_scores": {
+        "growth_speed": 30.0,
+        "agent_innovation": 35,
+        "community_signal": 18.0,
+        "api_consumption_potential": 32,
+        "commercialization": 36,
+        "kimi_strategic_fit": 39
+      },
+      "recommended_action": "暂不跟进",
+      "reason_to_contact_now": "Product Hunt发布，0 traction信号，仅描述无用户/收入证据",
+      "commercial_summary": "GitHub路径级访问工具，面向AI agent的infra层，但无API调用规模或商业化信号，当前价值有限",
+      "confidence": "low",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "metadata": {
+        "feed_url": "https://www.producthunt.com/feed",
+        "content_kind": "product_launch",
+        "original_title": "gitroots",
+        "agent_keyword_hits": [
+          "ai agent"
+        ],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": [
+          "github"
+        ]
+      }
+    },
+    {
+      "id": "product-hunt-bff0073538c3",
+      "source": "Product Hunt",
+      "name": "Publicit",
+      "url": "https://www.producthunt.com/products/publicit",
+      "description": "Omnichannel ad infrastructure for marketers and AI agents Discussion | Link",
+      "published_at": "2026-11-18T07:19:01-08:00",
+      "discovered_at": "2026-11-22T07:53:26+00:00",
+      "author": "Joan Medina",
+      "metrics": {},
+      "tags": [],
+      "evidence": [
+        "Published via Product Hunt",
+        "2026-11-18T07:19:01-08:00"
+      ],
+      "raw_text": "Publicit Omnichannel ad infrastructure for marketers and AI agents Discussion | Link ",
+      "opportunity_type": "Manus型",
+      "score": 27.6,
+      "dimension_scores": {
+        "growth_speed": 30.0,
+        "agent_innovation": 35,
+        "community_signal": 18.0,
+        "api_consumption_potential": 32,
+        "commercialization": 36,
+        "kimi_strategic_fit": 31
+      },
+      "recommended_action": "暂不跟进",
+      "reason_to_contact_now": "Product Hunt发布，仅提及AI agents可用其广告基础设施，无具体模型接入或API消费证据",
+      "commercial_summary": "广告基础设施SaaS，若AI agent广告投放规模化可能产生API需求，但当前信号过弱",
+      "confidence": "low",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "feed_url": "https://www.producthunt.com/feed",
         "content_kind": "product_launch",
@@ -480,57 +525,13 @@
       }
     },
     {
-      "id": "product-hunt-d883bdf5838e",
-      "source": "Product Hunt",
-      "name": "Shipyard",
-      "url": "https://www.producthunt.com/products/shipyard",
-      "description": "MCP for Claude, Cursor and Codex to Automate Integrations Discussion | Link",
-      "published_at": "2026-11-16T10:21:35-08:00",
-      "discovered_at": "2026-11-21T08:08:29+00:00",
-      "author": "Simon Heffels",
-      "metrics": {},
-      "tags": [],
-      "evidence": [
-        "Published via Product Hunt",
-        "2026-11-16T10:21:35-08:00"
-      ],
-      "raw_text": "Shipyard MCP for Claude, Cursor and Codex to Automate Integrations Discussion | Link ",
-      "opportunity_type": "Manus型",
-      "score": 28.4,
-      "dimension_scores": {
-        "growth_speed": 30.0,
-        "agent_innovation": 35,
-        "community_signal": 18.0,
-        "api_consumption_potential": 32,
-        "commercialization": 36,
-        "kimi_strategic_fit": 39
-      },
-      "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "Product Hunt发布，仅提及Claude/Cursor/Codex集成，无具体用户或收入数据",
-      "commercial_summary": "MCP集成工具面向海外开发者IDE生态，与Kimi当前主力市场重合度低，且未显示API消耗规模",
-      "confidence": "medium",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "feed_url": "https://www.producthunt.com/feed",
-        "content_kind": "product_launch",
-        "original_title": "Shipyard",
-        "agent_keyword_hits": [
-          "mcp"
-        ],
-        "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": [
-          "integration"
-        ]
-      }
-    },
-    {
       "id": "product-hunt-43848cb070a6",
       "source": "Product Hunt",
       "name": "OpenVorld",
       "url": "https://www.producthunt.com/products/openvorld",
-      "description": "Give your AI agents a home you can see Discussion | Link",
+      "description": "Give your AI agents a home and a Vorld. Discussion | Link",
       "published_at": "2026-11-16T11:15:46-08:00",
-      "discovered_at": "2026-11-21T08:08:29+00:00",
+      "discovered_at": "2026-11-22T07:53:26+00:00",
       "author": "Amir Ghasemi",
       "metrics": {},
       "tags": [],
@@ -538,7 +539,7 @@
         "Published via Product Hunt",
         "2026-11-16T11:15:46-08:00"
       ],
-      "raw_text": "OpenVorld Give your AI agents a home you can see Discussion | Link ",
+      "raw_text": "OpenVorld Give your AI agents a home and a Vorld. Discussion | Link ",
       "opportunity_type": "Manus型",
       "score": 27.6,
       "dimension_scores": {
@@ -550,8 +551,8 @@
         "kimi_strategic_fit": 31
       },
       "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "Product Hunt发布，\"Give your AI agents a home you can see\"描述模糊，无用户或技术细节",
-      "commercial_summary": "概念阶段Agent可视化产品，无API调用证据和商业化路径",
+      "reason_to_contact_now": "Product Hunt发布，描述模糊仅'给AI agents一个家'，无模型接入、用户数或商业化证据",
+      "commercial_summary": "概念型agent托管空间，缺乏具体功能描述和 traction 数据，无法评估API消费潜力",
       "confidence": "low",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
@@ -561,46 +562,6 @@
         "agent_keyword_hits": [
           "ai agent"
         ],
-        "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": []
-      }
-    },
-    {
-      "id": "product-hunt-f83460cf568c",
-      "source": "Product Hunt",
-      "name": "Alter Contacts",
-      "url": "https://www.producthunt.com/products/alter-contacts-ai-client-relationships",
-      "description": "AI client relationship assistant that thinks and does ahead Discussion | Link",
-      "published_at": "2026-11-17T02:25:12-08:00",
-      "discovered_at": "2026-11-21T08:08:29+00:00",
-      "author": "Zac Zuo",
-      "metrics": {},
-      "tags": [],
-      "evidence": [
-        "Published via Product Hunt",
-        "2026-11-17T02:25:12-08:00"
-      ],
-      "raw_text": "Alter Contacts AI client relationship assistant that thinks and does ahead Discussion | Link ",
-      "opportunity_type": "Manus型",
-      "score": 23.8,
-      "dimension_scores": {
-        "growth_speed": 30.0,
-        "agent_innovation": 24,
-        "community_signal": 18.0,
-        "api_consumption_potential": 25,
-        "commercialization": 36,
-        "kimi_strategic_fit": 25
-      },
-      "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "Product Hunt发布，无metrics，'thinks and does ahead'描述模糊",
-      "commercial_summary": "CRM Agent产品，赛道拥挤，无差异化证据，API消耗规模未知",
-      "confidence": "low",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "feed_url": "https://www.producthunt.com/feed",
-        "content_kind": "product_launch",
-        "original_title": "Alter Contacts",
-        "agent_keyword_hits": [],
         "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": []
       }
