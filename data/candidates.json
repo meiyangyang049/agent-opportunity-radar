@@ -1,8 +1,8 @@
 {
   "meta": {
     "project": "Agent Opportunity Radar",
-    "generated_at": "2026-11-22T07:53:26+00:00",
-    "generated_at_display": "2026-11-22 15:53 CST",
+    "generated_at": "2026-11-23T08:47:46+00:00",
+    "generated_at_display": "2026-11-23 16:47 CST",
     "mode": "公开信号实时运行",
     "sources": [
       "GitHub",
@@ -14,21 +14,95 @@
       "AI news RSS: HTTPError: 429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/"
     ],
     "notices": [],
-    "candidate_pool_size": 37,
+    "candidate_pool_size": 39,
     "pool_by_source": {
-      "GitHub": 14,
-      "Hacker News": 13,
-      "Product Hunt": 10
+      "GitHub": 18,
+      "Hacker News": 15,
+      "Product Hunt": 6
     },
     "pool_by_type": {
-      "OpenClaw型": 14,
-      "其他Agent": 13,
-      "Manus型": 10
+      "OpenClaw型": 23,
+      "其他Agent": 10,
+      "Manus型": 6
     },
     "shortlist_policy": "Top 10；OpenClaw型/Manus型各至少4个（候选充足时）",
     "kimi_model": "kimi-k2.6"
   },
   "candidates": [
+    {
+      "id": "github-fe56798bfd7e",
+      "source": "GitHub",
+      "name": "w01fb0ss/PiBot",
+      "url": "https://github.com/w01fb0ss/PiBot",
+      "description": "Open-source, local-first AI agent team for your desktop: multi-agent group chats, computer use, browser, MCP, routines and approvals. macOS, Windows, Linux + Android. Built on pi.",
+      "published_at": "2026-11-21T06:54:24Z",
+      "discovered_at": "2026-11-23T08:47:42+00:00",
+      "author": "w01fb0ss",
+      "metrics": {
+        "stars": 453,
+        "forks": 62,
+        "open_issues": 4,
+        "watchers": 453
+      },
+      "tags": [
+        "agent",
+        "ai-agent",
+        "ai-agents",
+        "ai-assistant",
+        "android",
+        "automation",
+        "chatgpt",
+        "coding-agent",
+        "computer-use",
+        "desktop-app",
+        "electron",
+        "llm",
+        "local-first",
+        "mcp",
+        "multi-agent",
+        "ollama",
+        "openai",
+        "privacy",
+        "self-hosted",
+        "typescript"
+      ],
+      "evidence": [
+        "453 GitHub stars",
+        "62 forks",
+        "Created 2026-11-21"
+      ],
+      "raw_text": "w01fb0ss/PiBot Open-source, local-first AI agent team for your desktop: multi-agent group chats, computer use, browser, MCP, routines and approvals. macOS, Windows, Linux + Android. Built on pi. agent ai-agent ai-agents ai-assistant android automation chatgpt coding-agent computer-use desktop-app electron llm local-first mcp multi-agent ollama openai privacy self-hosted typescript",
+      "opportunity_type": "OpenClaw型",
+      "score": 77.5,
+      "dimension_scores": {
+        "growth_speed": 100.0,
+        "agent_innovation": 68,
+        "community_signal": 100.0,
+        "api_consumption_potential": 71,
+        "commercialization": 18,
+        "kimi_strategic_fit": 65
+      },
+      "recommended_action": "立即联系",
+      "reason_to_contact_now": "453 GitHub stars，62 forks，创建仅2天即获高关注，本地优先多Agent桌面平台，支持MCP和多模型接入",
+      "commercial_summary": "高潜力OpenClaw生态伙伴：本地优先多Agent框架，已集成OpenAI/Ollama，存在模型默认接入位和联合社区运营空间",
+      "confidence": "medium",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "metadata": {
+        "language": "TypeScript",
+        "updated_at": "2026-11-23T08:46:24Z",
+        "homepage": "https://pibot.space",
+        "agent_keyword_hits": [
+          "ai agent",
+          "computer use",
+          "mcp",
+          "multi-agent"
+        ],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": [
+          "self-hosted"
+        ]
+      }
+    },
     {
       "id": "github-c3e5a59548f5",
       "source": "GitHub",
@@ -36,13 +110,13 @@
       "url": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
       "description": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
       "published_at": "2026-11-19T14:43:10Z",
-      "discovered_at": "2026-11-22T07:53:22+00:00",
+      "discovered_at": "2026-11-23T08:47:42+00:00",
       "author": "bookwjitchieni1986",
       "metrics": {
-        "stars": 2695,
-        "forks": 36,
+        "stars": 2758,
+        "forks": 39,
         "open_issues": 61,
-        "watchers": 2695
+        "watchers": 2758
       },
       "tags": [
         "ai-agents",
@@ -67,14 +141,14 @@
         "opencode"
       ],
       "evidence": [
-        "+819 stars since last run",
-        "2,695 GitHub stars",
-        "36 forks",
+        "+63 stars since last run",
+        "2,758 GitHub stars",
+        "39 forks",
         "Created 2026-11-19"
       ],
       "raw_text": "bookwjitchieni1986/blender-ai-mcp-addon AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration. ai-agents ai-assistant blender blender-addon blender-ai blender-automation blender-mcp blender-plugin blender-scripting bpy chatgpt claude gemini llm mcp mcp-for-blender mcp-server model-context-protocol ollama opencode",
       "opportunity_type": "OpenClaw型",
-      "score": 73.6,
+      "score": 70.6,
       "dimension_scores": {
         "growth_speed": 100.0,
         "agent_innovation": 46,
@@ -84,13 +158,13 @@
         "kimi_strategic_fit": 61
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "+819 stars since last run；2,695 GitHub stars；36 forks；明确支持ChatGPT/GPT、Claude、Gemini、Ollama、OpenCode，MCP server定位",
-      "commercial_summary": "高增速Blender MCP插件生态，多模型接入但无Kimi，存在模型接入合作空间；3D创作场景API消耗潜力中等",
+      "reason_to_contact_now": "2,758 stars且日增速约61星，Blender生态MCP插件，已支持ChatGPT/Claude/Gemini/Ollama等多模型",
+      "commercial_summary": "垂直领域MCP生态节点：3D设计工作流入口，多模型兼容架构，存在成为Kimi在创意工具领域默认接入点的合作空间",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "language": null,
-        "updated_at": "2026-11-22T07:50:25Z",
+        "updated_at": "2026-11-23T06:12:35Z",
         "homepage": null,
         "agent_keyword_hits": [
           "mcp",
@@ -101,8 +175,77 @@
           "integration",
           "plugin"
         ],
-        "metric_delta": 819.0,
-        "metric_velocity_per_day": 827.6500929857187
+        "metric_delta": 63.0,
+        "metric_velocity_per_day": 60.70934641980816
+      }
+    },
+    {
+      "id": "github-318a4b657655",
+      "source": "GitHub",
+      "name": "JimLiu/open-artifact",
+      "url": "https://github.com/JimLiu/open-artifact",
+      "description": "Open, agent- and model-agnostic artifacts, all saved locally as plain files — edit, comment on, and export slides, UI designs, design systems, whiteboards, sheets, dashboards, docs, and motion.",
+      "published_at": "2026-11-17T02:25:25Z",
+      "discovered_at": "2026-11-23T08:47:43+00:00",
+      "author": "JimLiu",
+      "metrics": {
+        "stars": 393,
+        "forks": 51,
+        "open_issues": 2,
+        "watchers": 393
+      },
+      "tags": [
+        "agent-skills",
+        "ai-agents",
+        "artifacts",
+        "claude-artifacts",
+        "claude-code",
+        "claude-design",
+        "codex",
+        "coding-agent",
+        "cursor",
+        "design-tools",
+        "dsh-plugin",
+        "dsh-plugins",
+        "github-copilot",
+        "local-first",
+        "mcp",
+        "mcp-apps"
+      ],
+      "evidence": [
+        "393 GitHub stars",
+        "51 forks",
+        "Created 2026-11-17"
+      ],
+      "raw_text": "JimLiu/open-artifact Open, agent- and model-agnostic artifacts, all saved locally as plain files — edit, comment on, and export slides, UI designs, design systems, whiteboards, sheets, dashboards, docs, and motion. agent-skills ai-agents artifacts claude-artifacts claude-code claude-design codex coding-agent cursor design-tools dsh-plugin dsh-plugins github-copilot local-first mcp mcp-apps",
+      "opportunity_type": "OpenClaw型",
+      "score": 65.0,
+      "dimension_scores": {
+        "growth_speed": 84.3,
+        "agent_innovation": 35,
+        "community_signal": 100.0,
+        "api_consumption_potential": 32,
+        "commercialization": 18,
+        "kimi_strategic_fit": 63
+      },
+      "recommended_action": "持续观察",
+      "reason_to_contact_now": "6天内393 stars、51 forks；明确agent- and model-agnostic定位，支持mcp协议，本地优先架构，标签覆盖claude/codex/cursor等主流工具。",
+      "commercial_summary": "model-agnostic的Artifact开源标准+ MCP支持，若成为Agent输出格式的事实标准，对Kimi有生态卡位价值；需观察是否主动接入国产模型。",
+      "confidence": "medium",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "metadata": {
+        "language": "TypeScript",
+        "updated_at": "2026-11-23T08:36:26Z",
+        "homepage": "",
+        "agent_keyword_hits": [
+          "mcp"
+        ],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": [
+          "github",
+          "plugin",
+          "skill"
+        ]
       }
     },
     {
@@ -112,13 +255,13 @@
       "url": "https://github.com/boringmarketer/boring-marketing-skills",
       "description": "32 free marketing skills for your AI agent: research, positioning, copy, pages, SEO, AI search, ads, email and content, plus a deep local-business pack. MIT.",
       "published_at": "2026-11-16T15:09:46Z",
-      "discovered_at": "2026-11-22T07:53:22+00:00",
+      "discovered_at": "2026-11-23T08:47:42+00:00",
       "author": "boringmarketer",
       "metrics": {
-        "stars": 785,
-        "forks": 280,
+        "stars": 801,
+        "forks": 282,
         "open_issues": 2,
-        "watchers": 785
+        "watchers": 801
       },
       "tags": [
         "agent-skills",
@@ -131,16 +274,16 @@
         "seo"
       ],
       "evidence": [
-        "+30 stars since last run",
-        "785 GitHub stars",
-        "280 forks",
+        "+16 stars since last run",
+        "801 GitHub stars",
+        "282 forks",
         "Created 2026-11-16"
       ],
       "raw_text": "boringmarketer/boring-marketing-skills 32 free marketing skills for your AI agent: research, positioning, copy, pages, SEO, AI search, ads, email and content, plus a deep local-business pack. MIT. agent-skills ai-agents claude-code codex copywriting local-seo marketing seo",
       "opportunity_type": "OpenClaw型",
-      "score": 64.3,
+      "score": 64.8,
       "dimension_scores": {
-        "growth_speed": 96.0,
+        "growth_speed": 93.8,
         "agent_innovation": 35,
         "community_signal": 100.0,
         "api_consumption_potential": 32,
@@ -148,13 +291,13 @@
         "kimi_strategic_fit": 47
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "785 GitHub stars；280 forks；高fork比例暗示开发者采用；明确标注claude-code、codex，MIT协议",
-      "commercial_summary": "营销技能包生态，高fork率说明工具链整合活跃，存在扩展至Kimi技能的生态合作空间，但API消耗潜力有限",
+      "reason_to_contact_now": "6天内801 stars、282 forks，增速极快；明确标注claude-code/codex标签，营销技能库可被多模型复用。",
+      "commercial_summary": "高增速开源Agent技能库，若扩展模型支持或出现商业化封装，具备生态合作或API导流潜力；当前需观察是否仅绑定Anthropic生态。",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "language": "Python",
-        "updated_at": "2026-11-22T07:52:39Z",
+        "updated_at": "2026-11-23T07:22:37Z",
         "homepage": "https://boringmarketing.com",
         "agent_keyword_hits": [
           "ai agent"
@@ -163,341 +306,217 @@
         "ecosystem_keyword_hits": [
           "skill"
         ],
-        "metric_delta": 30.0,
-        "metric_velocity_per_day": 30.316853222920102
+        "metric_delta": 16.0,
+        "metric_velocity_per_day": 15.418246709792548
       }
     },
     {
-      "id": "github-c95bbcf78fd0",
+      "id": "github-b47898bb58b6",
       "source": "GitHub",
-      "name": "diego3g/craft",
-      "url": "https://github.com/diego3g/craft",
-      "description": "Design skills for AI agents: /craft-setup writes your design brief, /craft designs screens with every state from your design system and reviews them. Works with Paper, pen.dev, Figma or HTML.",
-      "published_at": "2026-11-15T20:08:15Z",
-      "discovered_at": "2026-11-22T07:53:22+00:00",
-      "author": "diego3g",
+      "name": "ThreatDefence/agentic-attack-detections",
+      "url": "https://github.com/ThreatDefence/agentic-attack-detections",
+      "description": "Detection rules and IOCs for AI agent attack frameworks: ARTEX, Cairn, PentAGI, HexStrike, CyberStrikeAI, Strix, Hermes Agent, Agent Zero, RedAmon, Xalgorix, Pentest Swarm AI. KQL hunts for Microsoft Sentinel and Defender XDR, Sigma, Suricata, Zeek, YARA, Splunk, Elastic, STIX 2.1.",
+      "published_at": "2026-11-20T00:06:24Z",
+      "discovered_at": "2026-11-23T08:47:42+00:00",
+      "author": "ThreatDefence",
       "metrics": {
-        "stars": 395,
-        "forks": 22,
-        "open_issues": 0,
-        "watchers": 395
+        "stars": 466,
+        "forks": 99,
+        "open_issues": 5,
+        "watchers": 466
       },
       "tags": [
-        "agent-skills",
-        "claude-code",
-        "claude-code-plugin",
-        "design-system",
-        "figma",
-        "paper",
-        "ui-design"
+        "agentic-ai",
+        "ai-security",
+        "blue-team",
+        "defender-xdr",
+        "detection-engineering",
+        "ioc",
+        "kql",
+        "llm-security",
+        "microsoft-sentinel",
+        "sigma",
+        "sigma-rules",
+        "stix",
+        "suricata",
+        "suricata-rules",
+        "threat-detection",
+        "threat-hunting",
+        "threat-intelligence",
+        "yara",
+        "yara-rules",
+        "zeek"
       ],
       "evidence": [
-        "395 GitHub stars",
-        "22 forks",
-        "Created 2026-11-15"
+        "466 GitHub stars",
+        "99 forks",
+        "Created 2026-11-20"
       ],
-      "raw_text": "diego3g/craft Design skills for AI agents: /craft-setup writes your design brief, /craft designs screens with every state from your design system and reviews them. Works with Paper, pen.dev, Figma or HTML. agent-skills claude-code claude-code-plugin design-system figma paper ui-design",
+      "raw_text": "ThreatDefence/agentic-attack-detections Detection rules and IOCs for AI agent attack frameworks: ARTEX, Cairn, PentAGI, HexStrike, CyberStrikeAI, Strix, Hermes Agent, Agent Zero, RedAmon, Xalgorix, Pentest Swarm AI. KQL hunts for Microsoft Sentinel and Defender XDR, Sigma, Suricata, Zeek, YARA, Splunk, Elastic, STIX 2.1. agentic-ai ai-security blue-team defender-xdr detection-engineering ioc kql llm-security microsoft-sentinel sigma sigma-rules stix suricata suricata-rules threat-detection threat-hunting threat-intelligence yara yara-rules zeek",
       "opportunity_type": "OpenClaw型",
-      "score": 64.1,
+      "score": 63.4,
       "dimension_scores": {
-        "growth_speed": 83.9,
-        "agent_innovation": 35,
+        "growth_speed": 96.1,
+        "agent_innovation": 46,
         "community_signal": 100.0,
-        "api_consumption_potential": 32,
+        "api_consumption_potential": 39,
         "commercialization": 18,
-        "kimi_strategic_fit": 55
+        "kimi_strategic_fit": 45
       },
       "recommended_action": "持续观察",
-      "reason_to_contact_now": "395 GitHub stars；22 forks；明确claude-code-plugin定位，design system技能包，JavaScript生态",
-      "commercial_summary": "设计系统Agent技能插件，垂直场景工具链，claude-code插件生态存在扩展至Kimi的开发者合作空间，UI设计场景API消耗中等",
-      "confidence": "medium",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "language": "JavaScript",
-        "updated_at": "2026-11-22T05:50:01Z",
-        "homepage": null,
-        "agent_keyword_hits": [
-          "ai agent"
-        ],
-        "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": [
-          "plugin",
-          "skill"
-        ]
-      }
-    },
-    {
-      "id": "github-cc5bcbb53dd6",
-      "source": "GitHub",
-      "name": "sybil-solutions/inference-optimisation-skill",
-      "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
-      "description": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization",
-      "published_at": "2026-11-16T18:40:04Z",
-      "discovered_at": "2026-11-22T07:53:22+00:00",
-      "author": "sybil-solutions",
-      "metrics": {
-        "stars": 1786,
-        "forks": 163,
-        "open_issues": 14,
-        "watchers": 1786
-      },
-      "tags": [
-        "agent-skill",
-        "benchmarking",
-        "claude-code",
-        "inference",
-        "llm",
-        "speculative-decoding"
-      ],
-      "evidence": [
-        "+401 stars since last run",
-        "1,786 GitHub stars",
-        "163 forks",
-        "Created 2026-11-16"
-      ],
-      "raw_text": "sybil-solutions/inference-optimisation-skill Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization agent-skill benchmarking claude-code inference llm speculative-decoding",
-      "opportunity_type": "OpenClaw型",
-      "score": 61.4,
-      "dimension_scores": {
-        "growth_speed": 100.0,
-        "agent_innovation": 24,
-        "community_signal": 100.0,
-        "api_consumption_potential": 25,
-        "commercialization": 18,
-        "kimi_strategic_fit": 41
-      },
-      "recommended_action": "持续观察",
-      "reason_to_contact_now": "6天内1786 stars、+401增速、163 forks，定位本地LLM推理优化skill，但明确服务local serving而非云API",
-      "commercial_summary": "高热度开发者工具skill，但聚焦本地推理加速，与Kimi云API商业模式存在张力；需观察是否扩展多云支持",
+      "reason_to_contact_now": "466 stars/99 forks，安全领域Agent检测规则库，非通用开发框架，模型接入场景有限",
+      "commercial_summary": "垂直安全情报项目，聚焦检测规则而非Agent基础设施，Kimi生态契合度较低，观察其是否扩展为通用Agent安全平台",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "language": "Python",
-        "updated_at": "2026-11-22T07:48:11Z",
-        "homepage": null,
-        "agent_keyword_hits": [],
+        "updated_at": "2026-11-23T08:44:59Z",
+        "homepage": "https://threatdefence.com/article/artex-agentic-attack-framework-detection-hunting",
+        "agent_keyword_hits": [
+          "agentic",
+          "ai agent"
+        ],
         "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": []
+      }
+    },
+    {
+      "id": "github-08e4f169d5b0",
+      "source": "GitHub",
+      "name": "erkamyaman/rust-anything",
+      "url": "https://github.com/erkamyaman/rust-anything",
+      "description": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
+      "published_at": "2026-11-16T12:10:36Z",
+      "discovered_at": "2026-11-23T08:47:42+00:00",
+      "author": "erkamyaman",
+      "metrics": {
+        "stars": 8272,
+        "forks": 668,
+        "open_issues": 13,
+        "watchers": 8272
+      },
+      "tags": [
+        "agent-skills",
+        "claude-code",
+        "cli",
+        "code-migration",
+        "codex",
+        "ffi",
+        "golang",
+        "java",
+        "javascript",
+        "mcp",
+        "migration",
+        "napi",
+        "performance",
+        "porting",
+        "pyo3",
+        "python",
+        "rewrite",
+        "ruby",
+        "rust",
+        "typescript"
+      ],
+      "evidence": [
+        "+4,338 stars since last run",
+        "8,272 GitHub stars",
+        "668 forks",
+        "Created 2026-11-16"
+      ],
+      "raw_text": "erkamyaman/rust-anything Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java. agent-skills claude-code cli code-migration codex ffi golang java javascript mcp migration napi performance porting pyo3 python rewrite ruby rust typescript",
+      "opportunity_type": "OpenClaw型",
+      "score": 62.5,
+      "dimension_scores": {
+        "growth_speed": 100.0,
+        "agent_innovation": 35,
+        "community_signal": 100.0,
+        "api_consumption_potential": 37,
+        "commercialization": 32,
+        "kimi_strategic_fit": 47
+      },
+      "recommended_action": "持续观察",
+      "reason_to_contact_now": "8,272 stars且爆发式增长（+4,338），但核心定位是代码迁移工具，MCP仅作为标签出现，Agent属性弱",
+      "commercial_summary": "高热度开发者工具，但Agent/MCP非核心功能，模型接入潜力有限；优先观察其是否扩展AI Agent能力",
+      "confidence": "medium",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "metadata": {
+        "language": "Rust",
+        "updated_at": "2026-11-23T08:46:59Z",
+        "homepage": "https://www.npmjs.com/package/rust-anything",
+        "agent_keyword_hits": [
+          "mcp"
+        ],
+        "commercial_keyword_hits": [
+          "api"
+        ],
         "ecosystem_keyword_hits": [
           "skill"
         ],
-        "metric_delta": 401.0,
-        "metric_velocity_per_day": 405.235271413032
+        "metric_delta": 4338.0,
+        "metric_velocity_per_day": 1081.9204212179293
       }
     },
     {
-      "id": "github-4a304c90bac6",
-      "source": "GitHub",
-      "name": "escalera02/chronos-multi-agent-os",
-      "url": "https://github.com/escalera02/chronos-multi-agent-os",
-      "description": "Chronos Multi-Agent OS: Modular Python Autonomous Agent Operating System with Human-In-The-Loop Tele",
-      "published_at": "2026-11-15T19:38:22Z",
-      "discovered_at": "2026-11-22T07:53:23+00:00",
-      "author": "escalera02",
+      "id": "hackernews-58cacb2b4c2e",
+      "source": "Hacker News",
+      "name": "Show HN: KradleBench – Multi-agent AI evals in Minecraft",
+      "url": "https://www.kradle.ai?1",
+      "description": "Hi HN - This is James and Kemal. In past lives we led Firebase and Tensorflow/JAX respectively. HN has been a particularly big part of my (James’) career and the trajectory I’ve taken would be meaningfully different without it. Thank you! Our team shipped a benchmark: KradleBench. We test AI in Minecraft Worlds. 1. The worlds are multi-agent. Humans and other AIs are in there too, often pursuing their own goals. Collaboration and conflict skills fall out of this property. 2. The world are dynamic. They constantly change, which means that agents need to react. “Capture the Flag” has a single winning condition, and many different ways to achieve it. This leads to many emergent and creative strategies. 3. The worlds are real-time. They are not turn-based, they do not wait for AIs to finish thinking. Nature balanced speed and intelligence in humans, we can understand this in AIs too. Underneath all this is Kradle, a platform to test and understand intelligence. It’s a petri dish where any intelligence type (LLM, World Model, Human) can be compared and generate useful information to improve current systems, whether it’s on capabilities or safety. Some findings so far: - A skilled human was #1, until yesterday when Astra 6.2 surpassed them. We lose badly on solo tasks and out-compete on multi-agent ones - Astra 6.2 iterates on its strategy 4x faster than Fable 5.2. The Claude family tends to think hard and stick with strategies. The OpenAI models tend to be more reactive and iterative, which serves them well in multi-agent, dynamic, real-time evals. We’ve got videos on all the top model’s page, and we’ll be producing them when a new model launches. Sign up on the site to get them and for when the platform opens. Thanks for reading, James & Kemal",
+      "published_at": "1795419544",
+      "discovered_at": "2026-11-23T08:47:45+00:00",
+      "author": "jamest",
       "metrics": {
-        "stars": 153,
-        "forks": 0,
-        "open_issues": 0,
-        "watchers": 153
-      },
-      "tags": [
-        "animal-behavior",
-        "business-automation",
-        "chatbot-automation",
-        "customer-support-automation",
-        "deeplabcut",
-        "dog",
-        "dual-ai-fallback",
-        "emotion-recognition",
-        "podman",
-        "pose-estimation",
-        "yamnet",
-        "yolo"
-      ],
-      "evidence": [
-        "153 GitHub stars",
-        "0 forks",
-        "Created 2026-11-15"
-      ],
-      "raw_text": "escalera02/chronos-multi-agent-os Chronos Multi-Agent OS: Modular Python Autonomous Agent Operating System with Human-In-The-Loop Tele animal-behavior business-automation chatbot-automation customer-support-automation deeplabcut dog dual-ai-fallback emotion-recognition podman pose-estimation yamnet yolo",
-      "opportunity_type": "OpenClaw型",
-      "score": 59.4,
-      "dimension_scores": {
-        "growth_speed": 70.0,
-        "agent_innovation": 46,
-        "community_signal": 73.4,
-        "api_consumption_potential": 62,
-        "commercialization": 32,
-        "kimi_strategic_fit": 45
-      },
-      "recommended_action": "持续观察",
-      "reason_to_contact_now": "5天153 stars，标签覆盖多领域自动化，含dual-ai-fallback，但0 forks、HTML为主语言、更新停滞于11-17",
-      "commercial_summary": "多agent操作系统框架，dual-ai-fallback暗示多模型接入潜力，但代码活跃度和社区参与度存疑，需验证实际模型集成深度",
-      "confidence": "medium",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "language": "HTML",
-        "updated_at": "2026-11-17T18:10:23Z",
-        "homepage": null,
-        "agent_keyword_hits": [
-          "autonomous agent",
-          "multi-agent"
-        ],
-        "commercial_keyword_hits": [
-          "customer"
-        ],
-        "ecosystem_keyword_hits": []
-      }
-    },
-    {
-      "id": "github-f088400ebc0a",
-      "source": "GitHub",
-      "name": "nickvasilescu/openman",
-      "url": "https://github.com/nickvasilescu/openman",
-      "description": "OpenMan: open-source autonomous AI agent workspace that runs on your Orgo cloud computer",
-      "published_at": "2026-11-19T20:42:12Z",
-      "discovered_at": "2026-11-22T07:53:23+00:00",
-      "author": "nickvasilescu",
-      "metrics": {
-        "stars": 104,
-        "forks": 65,
-        "open_issues": 4,
-        "watchers": 104
+        "points": 1,
+        "comments": 0
       },
       "tags": [],
       "evidence": [
-        "104 GitHub stars",
-        "65 forks",
-        "Created 2026-11-19"
+        "1 HN points",
+        "0 comments"
       ],
-      "raw_text": "nickvasilescu/openman OpenMan: open-source autonomous AI agent workspace that runs on your Orgo cloud computer ",
-      "opportunity_type": "OpenClaw型",
-      "score": 59.1,
+      "raw_text": "Show HN: KradleBench – Multi-agent AI evals in Minecraft Hi HN - This is James and Kemal. In past lives we led Firebase and Tensorflow/JAX respectively. HN has been a particularly big part of my (James’) career and the trajectory I’ve taken would be meaningfully different without it. Thank you! Our team shipped a benchmark: KradleBench. We test AI in Minecraft Worlds. 1. The worlds are multi-agent. Humans and other AIs are in there too, often pursuing their own goals. Collaboration and conflict skills fall out of this property. 2. The world are dynamic. They constantly change, which means that agents need to react. “Capture the Flag” has a single winning condition, and many different ways to achieve it. This leads to many emergent and creative strategies. 3. The worlds are real-time. They are not turn-based, they do not wait for AIs to finish thinking. Nature balanced speed and intelligence in humans, we can understand this in AIs too. Underneath all this is Kradle, a platform to test and understand intelligence. It’s a petri dish where any intelligence type (LLM, World Model, Human) can be compared and generate useful information to improve current systems, whether it’s on capabilities or safety. Some findings so far: - A skilled human was #1, until yesterday when Astra 6.2 surpassed them. We lose badly on solo tasks and out-compete on multi-agent ones - Astra 6.2 iterates on its strategy 4x faster than Fable 5.2. The Claude family tends to think hard and stick with strategies. The OpenAI models tend to be more reactive and iterative, which serves them well in multi-agent, dynamic, real-time evals. We’ve got videos on all the top model’s page, and we’ll be producing them when a new model launches. Sign up on the site to get them and for when the platform opens. Thanks for reading, James & Kemal",
+      "opportunity_type": "Manus型",
+      "score": 31.5,
       "dimension_scores": {
-        "growth_speed": 78.5,
+        "growth_speed": 27.5,
         "agent_innovation": 35,
-        "community_signal": 100.0,
-        "api_consumption_potential": 32,
+        "community_signal": 33.2,
+        "api_consumption_potential": 50,
         "commercialization": 18,
-        "kimi_strategic_fit": 39
+        "kimi_strategic_fit": 47
       },
-      "recommended_action": "持续观察",
-      "reason_to_contact_now": "3天104 stars、65 forks（fork率62%极高），TypeScript项目，定位为开源autonomous AI agent workspace，但依赖Orgo云计算机",
-      "commercial_summary": "高fork率表明开发者参与意愿强，开源agent workspace有生态合作潜力，但Orgo云绑定可能限制模型provider选择，需确认是否支持多模型接入",
+      "recommended_action": "暂不跟进",
+      "reason_to_contact_now": "仅1 HN points/0 comments，社区信号极弱；虽创始人背景强（Firebase/TensorFlow/JAX），但平台尚未开放",
+      "commercial_summary": "AI评测平台，未来或成模型采购决策影响者，但当前无API消费证据，需等开放平台后再评估",
       "confidence": "medium",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
-        "language": "TypeScript",
-        "updated_at": "2026-11-22T05:34:42Z",
-        "homepage": null,
+        "discussion_url": "https://news.ycombinator.com/item?id=50608604",
         "agent_keyword_hits": [
-          "ai agent"
-        ],
-        "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": []
-      }
-    },
-    {
-      "id": "product-hunt-15de4ffc8b73",
-      "source": "Product Hunt",
-      "name": "Veryfi Thinking Mode",
-      "url": "https://www.producthunt.com/products/veryfi",
-      "description": "AI agents review and correct receipt and invoice data. Discussion | Link",
-      "published_at": "2026-11-19T13:30:01-08:00",
-      "discovered_at": "2026-11-22T07:53:26+00:00",
-      "author": "Marianna Babayan",
-      "metrics": {},
-      "tags": [],
-      "evidence": [
-        "Published via Product Hunt",
-        "2026-11-19T13:30:01-08:00"
-      ],
-      "raw_text": "Veryfi Thinking Mode AI agents review and correct receipt and invoice data. Discussion | Link ",
-      "opportunity_type": "Manus型",
-      "score": 28.6,
-      "dimension_scores": {
-        "growth_speed": 30.0,
-        "agent_innovation": 35,
-        "community_signal": 18.0,
-        "api_consumption_potential": 32,
-        "commercialization": 36,
-        "kimi_strategic_fit": 31
-      },
-      "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "Product Hunt发布，Veryfi现有产品的AI agent功能扩展，用于票据/发票数据审核，无模型接入或API消费规模披露",
-      "commercial_summary": "垂直SaaS的agent化功能模块，发票处理属高频率文档理解场景，但Veryfi为成熟公司，模型选择可能已固化，切入难度大",
-      "confidence": "low",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "feed_url": "https://www.producthunt.com/feed",
-        "content_kind": "product_launch",
-        "original_title": "Veryfi Thinking Mode",
-        "agent_keyword_hits": [
-          "ai agent"
-        ],
-        "commercial_keyword_hits": [],
-        "ecosystem_keyword_hits": []
-      }
-    },
-    {
-      "id": "product-hunt-f2241f3920b0",
-      "source": "Product Hunt",
-      "name": "gitroots",
-      "url": "https://www.producthunt.com/products/gitroots",
-      "description": "Path-level GitHub access for developers and AI agents Discussion | Link",
-      "published_at": "2026-11-20T05:22:16-08:00",
-      "discovered_at": "2026-11-22T07:53:26+00:00",
-      "author": "Shawki Aladdin",
-      "metrics": {},
-      "tags": [],
-      "evidence": [
-        "Published via Product Hunt",
-        "2026-11-20T05:22:16-08:00"
-      ],
-      "raw_text": "gitroots Path-level GitHub access for developers and AI agents Discussion | Link ",
-      "opportunity_type": "Manus型",
-      "score": 28.4,
-      "dimension_scores": {
-        "growth_speed": 30.0,
-        "agent_innovation": 35,
-        "community_signal": 18.0,
-        "api_consumption_potential": 32,
-        "commercialization": 36,
-        "kimi_strategic_fit": 39
-      },
-      "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "Product Hunt发布，0 traction信号，仅描述无用户/收入证据",
-      "commercial_summary": "GitHub路径级访问工具，面向AI agent的infra层，但无API调用规模或商业化信号，当前价值有限",
-      "confidence": "low",
-      "scoring_mode": "规则预评分 + kimi-k2.6判断",
-      "metadata": {
-        "feed_url": "https://www.producthunt.com/feed",
-        "content_kind": "product_launch",
-        "original_title": "gitroots",
-        "agent_keyword_hits": [
-          "ai agent"
+          "multi-agent"
         ],
         "commercial_keyword_hits": [],
         "ecosystem_keyword_hits": [
-          "github"
+          "skill"
         ]
       }
     },
     {
-      "id": "product-hunt-bff0073538c3",
+      "id": "product-hunt-5207318e8403",
       "source": "Product Hunt",
-      "name": "Publicit",
-      "url": "https://www.producthunt.com/products/publicit",
-      "description": "Omnichannel ad infrastructure for marketers and AI agents Discussion | Link",
-      "published_at": "2026-11-18T07:19:01-08:00",
-      "discovered_at": "2026-11-22T07:53:26+00:00",
-      "author": "Joan Medina",
+      "name": "Replit Missions",
+      "url": "https://www.producthunt.com/products/replit",
+      "description": "Set a budget, coordinate teams of AI agents, Discussion | Link",
+      "published_at": "2026-11-22T09:13:25-08:00",
+      "discovered_at": "2026-11-23T08:47:46+00:00",
+      "author": "Shivam Kushwaha",
       "metrics": {},
       "tags": [],
       "evidence": [
         "Published via Product Hunt",
-        "2026-11-18T07:19:01-08:00"
+        "2026-11-22T09:13:25-08:00"
       ],
-      "raw_text": "Publicit Omnichannel ad infrastructure for marketers and AI agents Discussion | Link ",
+      "raw_text": "Replit Missions Set a budget, coordinate teams of AI agents, Discussion | Link ",
       "opportunity_type": "Manus型",
       "score": 27.6,
       "dimension_scores": {
@@ -509,14 +528,14 @@
         "kimi_strategic_fit": 31
       },
       "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "Product Hunt发布，仅提及AI agents可用其广告基础设施，无具体模型接入或API消费证据",
-      "commercial_summary": "广告基础设施SaaS，若AI agent广告投放规模化可能产生API需求，但当前信号过弱",
+      "reason_to_contact_now": "Product Hunt发布但无投票/评论数据，描述极简（\"Set a budget, coordinate teams of AI agents\"），缺乏产品细节",
+      "commercial_summary": "Replit官方产品，或存在API调用规模，但信号过弱无法判断模型依赖和付费转化，建议等更多数据",
       "confidence": "low",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "feed_url": "https://www.producthunt.com/feed",
         "content_kind": "product_launch",
-        "original_title": "Publicit",
+        "original_title": "Replit Missions",
         "agent_keyword_hits": [
           "ai agent"
         ],
@@ -525,21 +544,21 @@
       }
     },
     {
-      "id": "product-hunt-43848cb070a6",
+      "id": "product-hunt-e59ceb50b869",
       "source": "Product Hunt",
-      "name": "OpenVorld",
-      "url": "https://www.producthunt.com/products/openvorld",
-      "description": "Give your AI agents a home and a Vorld. Discussion | Link",
-      "published_at": "2026-11-16T11:15:46-08:00",
-      "discovered_at": "2026-11-22T07:53:26+00:00",
-      "author": "Amir Ghasemi",
+      "name": "Plango",
+      "url": "https://www.producthunt.com/products/plango",
+      "description": "Plango lets your AI agents work all night - safely Discussion | Link",
+      "published_at": "2026-11-22T09:08:26-08:00",
+      "discovered_at": "2026-11-23T08:47:46+00:00",
+      "author": "Rich Stureborg, PhD",
       "metrics": {},
       "tags": [],
       "evidence": [
         "Published via Product Hunt",
-        "2026-11-16T11:15:46-08:00"
+        "2026-11-22T09:08:26-08:00"
       ],
-      "raw_text": "OpenVorld Give your AI agents a home and a Vorld. Discussion | Link ",
+      "raw_text": "Plango Plango lets your AI agents work all night - safely Discussion | Link ",
       "opportunity_type": "Manus型",
       "score": 27.6,
       "dimension_scores": {
@@ -551,14 +570,56 @@
         "kimi_strategic_fit": 31
       },
       "recommended_action": "暂不跟进",
-      "reason_to_contact_now": "Product Hunt发布，描述模糊仅'给AI agents一个家'，无模型接入、用户数或商业化证据",
-      "commercial_summary": "概念型agent托管空间，缺乏具体功能描述和 traction 数据，无法评估API消费潜力",
+      "reason_to_contact_now": "Product Hunt发布但无投票/评论数据，仅一句描述（\"AI agents work all night - safely\"），无产品细节和模型信息",
+      "commercial_summary": "夜间自主运行Agent的SaaS概念，但缺乏API调用证据、付费信号和模型依赖信息，过早接触",
       "confidence": "low",
       "scoring_mode": "规则预评分 + kimi-k2.6判断",
       "metadata": {
         "feed_url": "https://www.producthunt.com/feed",
         "content_kind": "product_launch",
-        "original_title": "OpenVorld",
+        "original_title": "Plango",
+        "agent_keyword_hits": [
+          "ai agent"
+        ],
+        "commercial_keyword_hits": [],
+        "ecosystem_keyword_hits": []
+      }
+    },
+    {
+      "id": "product-hunt-fe259ca08b33",
+      "source": "Product Hunt",
+      "name": "Polylane Swarms",
+      "url": "https://www.producthunt.com/products/polylane",
+      "description": "A team of AI agents on your roughest production incidents Discussion | Link",
+      "published_at": "2026-11-20T12:43:55-08:00",
+      "discovered_at": "2026-11-23T08:47:46+00:00",
+      "author": "fmerian",
+      "metrics": {},
+      "tags": [],
+      "evidence": [
+        "Published via Product Hunt",
+        "2026-11-20T12:43:55-08:00"
+      ],
+      "raw_text": "Polylane Swarms A team of AI agents on your roughest production incidents Discussion | Link ",
+      "opportunity_type": "Manus型",
+      "score": 27.6,
+      "dimension_scores": {
+        "growth_speed": 30.0,
+        "agent_innovation": 35,
+        "community_signal": 18.0,
+        "api_consumption_potential": 32,
+        "commercialization": 36,
+        "kimi_strategic_fit": 31
+      },
+      "recommended_action": "暂不跟进",
+      "reason_to_contact_now": "Product Hunt发布但无具体用户或收入数据，仅描述为AI agent团队处理生产事故。",
+      "commercial_summary": "面向SRE/运维场景的Manus型产品，若后续验证企业付费意愿和LLM调用规模，可再评估API客户价值。",
+      "confidence": "medium",
+      "scoring_mode": "规则预评分 + kimi-k2.6判断",
+      "metadata": {
+        "feed_url": "https://www.producthunt.com/feed",
+        "content_kind": "product_launch",
+        "original_title": "Polylane Swarms",
         "agent_keyword_hits": [
           "ai agent"
         ],
