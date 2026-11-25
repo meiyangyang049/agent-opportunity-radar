@@ -924,3 +924,13 @@ run_at,id,name,source,score,opportunity_type,recommended_action,metric_name,metr
 2026-11-24T10:46:48+00:00,product-hunt-25bcccdc407e,Granular.Build,Product Hunt,27.6,Manus型,暂不跟进,none,0.0
 2026-11-24T10:46:48+00:00,product-hunt-f4a48574bbea,Clam AI,Product Hunt,27.6,Manus型,暂不跟进,none,0.0
 2026-11-24T10:46:48+00:00,hackernews-b59cfc15ae89,Agentic Phones Are Here,Hacker News,27.0,Manus型,暂不跟进,points,1.0
+2026-11-25T09:42:36+00:00,github-fe56798bfd7e,w01fb0ss/PiBot,GitHub,76.9,OpenClaw型,立即联系,stars,573.0
+2026-11-25T09:42:36+00:00,github-ed501b499600,Developing-Gamer/agent-sim,GitHub,67.3,OpenClaw型,持续观察,stars,577.0
+2026-11-25T09:42:36+00:00,github-26da64d2d935,erkamyaman/safe-anything,GitHub,65.2,OpenClaw型,持续观察,stars,654.0
+2026-11-25T09:42:36+00:00,github-b47898bb58b6,ThreatDefence/agentic-attack-detections,GitHub,62.3,OpenClaw型,持续观察,stars,649.0
+2026-11-25T09:42:36+00:00,github-f088400ebc0a,nickvasilescu/openman,GitHub,57.6,OpenClaw型,持续观察,stars,116.0
+2026-11-25T09:42:36+00:00,github-52c532d4cb5b,setyamickala/airdrop-agent,GitHub,51.9,OpenClaw型,暂不跟进,stars,104.0
+2026-11-25T09:42:36+00:00,product-hunt-32576a55fd55,Canva MCP,Product Hunt,30.5,Manus型,暂不跟进,none,0.0
+2026-11-25T09:42:36+00:00,hackernews-d05d47aa1d26,"Agentty Platform: Waitlist Is Live (Remote Control, Vision, Sync)",Hacker News,30.5,Manus型,暂不跟进,points,2.0
+2026-11-25T09:42:36+00:00,product-hunt-1fa9d8793d6f,MemoryWorks,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
+2026-11-25T09:42:36+00:00,product-hunt-6e4a13f3fc99,3way.Social MCP,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
