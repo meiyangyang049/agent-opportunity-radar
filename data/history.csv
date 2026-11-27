@@ -944,3 +944,13 @@ run_at,id,name,source,score,opportunity_type,recommended_action,metric_name,metr
 2026-11-26T09:17:59+00:00,product-hunt-a8a434b248b7,QA.tech MCP,Product Hunt,30.6,Manus型,暂不跟进,none,0.0
 2026-11-26T09:17:59+00:00,product-hunt-32e1b93db9ff,Bifura,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
 2026-11-26T09:17:59+00:00,product-hunt-4debc45b5ff2,Remora,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
+2026-11-27T09:33:19+00:00,github-fe56798bfd7e,w01fb0ss/PiBot,GitHub,75.7,OpenClaw型,立即联系,stars,664.0
+2026-11-27T09:33:19+00:00,github-9956e220e2c1,nexu-io/opengame,GitHub,70.0,OpenClaw型,持续观察,stars,1645.0
+2026-11-27T09:33:19+00:00,github-26da64d2d935,erkamyaman/safe-anything,GitHub,68.2,OpenClaw型,持续观察,stars,805.0
+2026-11-27T09:33:19+00:00,github-ed501b499600,Developing-Gamer/agent-sim,GitHub,67.6,OpenClaw型,持续观察,stars,619.0
+2026-11-27T09:33:19+00:00,github-409a90925ade,qianyiai/KuroCat,GitHub,66.5,OpenClaw型,持续观察,stars,1637.0
+2026-11-27T09:33:19+00:00,github-b47898bb58b6,ThreatDefence/agentic-attack-detections,GitHub,65.3,OpenClaw型,持续观察,stars,761.0
+2026-11-27T09:33:19+00:00,hackernews-bfd16e13f316,AI Watchdogs India: A Coordinated AI Agent Swarm Auditing the Government,Hacker News,32.9,Manus型,暂不跟进,points,1.0
+2026-11-27T09:33:19+00:00,hackernews-6716481f92f2,Show HN: Scolast – AI tutor for autodidacts inspired by Bloom's 2 sigma problem,Hacker News,30.2,Manus型,暂不跟进,points,1.0
+2026-11-27T09:33:19+00:00,product-hunt-89a380cab549,Chunkify,Product Hunt,29.8,Manus型,暂不跟进,none,0.0
+2026-11-27T09:33:19+00:00,product-hunt-aef1c076b7af,Claude-Mem Cloud Sync,Product Hunt,29.6,Manus型,暂不跟进,none,0.0
